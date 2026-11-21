@@ -64,10 +64,10 @@ object LocalMedia {
         out.distinctBy { it.uri }.sortedByDescending { it.modified }
     }
 
-    /** The folders that hold [files], with how many each holds, by name. */
-    fun folders(context: Context, files: List<MediaItem>): List<MediaFolder> {
+    /** The folders that hold [files], with how many each holds, by name. Volume lookups: off the main thread. */
+    suspend fun folders(context: Context, files: List<MediaItem>): List<MediaFolder> = withContext(Dispatchers.IO) {
         val roots = StorageRoots.all(context)
-        return files.mapNotNull { it.file?.parentFile }
+        files.mapNotNull { it.file?.parentFile }
             .groupingBy { it.absolutePath }
             .eachCount()
             .map { (path, count) ->

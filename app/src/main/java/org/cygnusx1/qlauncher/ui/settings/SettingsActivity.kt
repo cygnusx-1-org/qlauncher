@@ -399,6 +399,8 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
         withMediaAccess {
             lifecycleScope.launch {
                 val items = LocalMedia.files(this@SettingsActivity)
+                // Something else opened while the scan ran: leave it, do not cover it with the gallery.
+                if (overlay != null) return@launch
                 if (items.isEmpty()) toast(getString(R.string.wp_media_none)) else overlay = Overlay.MediaFiles(items, onPicked)
             }
         }

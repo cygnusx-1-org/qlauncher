@@ -189,6 +189,9 @@ class PanelNav(private val stack: SnapshotStateList<PanelSpec>) {
 
     fun close() = stack.clear()
 
+    /** True while [spec] is the panel on top, e.g. still open when a slow result comes back. */
+    fun isTop(spec: PanelSpec): Boolean = stack.lastOrNull() == spec
+
     /** Replaces the top panel. */
     fun replace(spec: PanelSpec) {
         pop()
@@ -429,7 +432,8 @@ private fun panelContent(spec: PanelSpec, controller: HomeController, actions: H
                 title = s(R.string.menu_change_icon), icon = "image",
                 rows = buildList {
                     add(PanelRow.Item("picture", s(R.string.menu_icon_from_picture), icon = "photo_library", onClick = {
-                        actions.findPictures { pictures -> nav.push(PanelSpec.Pictures(pictures, spec.itemKey, spec.categoryId)) }
+                        // The scan can outlast the panel: open the gallery only if Change icon is still on top.
+                        actions.findPictures { pictures -> if (nav.isTop(spec)) nav.push(PanelSpec.Pictures(pictures, spec.itemKey, spec.categoryId)) }
                     }))
                     if (actions.hasImagePicker()) {
                         add(PanelRow.Item("picture_other", s(R.string.menu_icon_other_location), icon = "folder_open", onClick = {

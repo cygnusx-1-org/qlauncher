@@ -24,7 +24,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
+import com.materialkolor.hct.Hct
+import com.materialkolor.palettes.TonalPalette
 import org.cygnusx1.qlauncher.container
 import kotlin.math.PI
 import kotlin.math.cos
@@ -32,17 +35,24 @@ import kotlin.math.max
 import kotlin.math.sin
 
 /**
- * The settings pages' background: black with soft fields of the current palette's colours that
- * drift slowly. Palette changes cross-fade over 1 s.
+ * The settings pages' background: black with soft fields that drift slowly, in tones of the
+ * *Accent color* (so it follows the wallpaper only when the accent does, with *Prefer dynamic
+ * color*). Accent changes cross-fade over 1 s.
  */
 @Composable
 fun DynamicColorsBackground(modifier: Modifier = Modifier) {
     val context = LocalContext.current
     val theme = remember(context) { context.container.theme }
-    val palette by theme.palette.collectAsState()
-    val warm by animateColorAsState(Color(palette.shade(700) ?: 0xFF4A2030.toInt()), tween(1000), label = "bgWarm")
-    val deep by animateColorAsState(Color(palette.shade(800) ?: 0xFF2E1840.toInt()), tween(1000), label = "bgDeep")
-    val light by animateColorAsState(Color(palette.shade(500) ?: 0xFF6A3A3A.toInt()), tween(1000), label = "bgLight")
+    val colors by theme.colors.collectAsState()
+    // The accent's own chroma, not a seed palette's minimum of 48: a grey accent gives grey fields.
+    val palette = remember(colors.accent) {
+        val hct = Hct.fromInt(colors.accent.copy(alpha = 1f).toArgb())
+        TonalPalette.fromHueAndChroma(hct.hue, hct.chroma)
+    }
+    // Android shades 700, 800 and 500 (tone = 100 - shade / 10).
+    val warm by animateColorAsState(Color(palette.tone(30)), tween(1000), label = "bgWarm")
+    val deep by animateColorAsState(Color(palette.tone(20)), tween(1000), label = "bgDeep")
+    val light by animateColorAsState(Color(palette.tone(50)), tween(1000), label = "bgLight")
     val drift = rememberInfiniteTransition(label = "bgDrift")
     val t by drift.animateFloat(
         initialValue = 0f,
