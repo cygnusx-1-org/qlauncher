@@ -83,6 +83,8 @@ class DisplayedWallpaper(
     val content: WallpaperContent,
     /** Increases with every change, so equal wallpapers shown twice still transition. */
     val sequence: Long,
+    /** Chosen in the *Show wallpapers* gallery: drawn even when the wrong-format policy is *Skip*. */
+    val picked: Boolean = false,
 )
 
 /** Decode-size arithmetic, kept pure for tests. */

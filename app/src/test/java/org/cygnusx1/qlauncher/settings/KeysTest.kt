@@ -54,7 +54,7 @@ class KeysTest {
         assertEquals(3, Keys.Focus.scale.default)
         assertEquals(60, Keys.Wallpaper.updateDelay.default)
         assertEquals(3, Keys.Wallpaper.transition.default)
-        assertEquals(5, Keys.Wallpaper.wrongFormatMode.default)
+        assertEquals(0, Keys.Wallpaper.wrongFormatMode.default)
         assertEquals(800, Keys.Wallpaper.minAcceptedWidth.default)
         assertEquals(0.5f, Keys.Categories.topMargin.default)
         assertEquals(0.05f, Keys.Categories.startMargin.default)

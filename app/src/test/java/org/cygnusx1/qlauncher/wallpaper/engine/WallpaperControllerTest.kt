@@ -182,6 +182,53 @@ class WallpaperControllerTest {
     }
 
     @Test
+    fun aLoneWrongFormatItemWithSkipIsShownInsteadOfTheDefault() = runTest {
+        val art = w("album-art")
+        val loader = FakeLoader(sizes = mapOf(art.uri to (600 to 600)))
+        val r = rig(listOf(FakeProvider("p1", listOf(art))), cfg = config(wrongFormat = Acceptance.WRONG_FORMAT_SKIP), loader = loader)
+        assertEquals(art.uri, r.shown)
+        // Looked at once, not retried until the default.
+        assertEquals(listOf(art.uri), loader.loads)
+        assertEquals(false, r.controller.displayed.value?.picked)
+    }
+
+    @Test
+    fun whenNothingFitsWithSkipTheFirstSkippedIsShownAndTheRotationGoesOnFromIt() = runTest {
+        val items = (1..8).map { w("tall$it") }
+        val loader = FakeLoader(sizes = items.associate { it.uri to (1080 to 1920) })
+        val r = rig(listOf(FakeProvider("p1", items)), cfg = config(wrongFormat = Acceptance.WRONG_FORMAT_SKIP), loader = loader)
+        // The first try and five retries are all skipped: the first of them is shown.
+        assertEquals(items.take(6).map { it.uri }, loader.loads)
+        assertEquals(items[0].uri, r.shown)
+        r.controller.onStart()
+        advance(60_000 + WallpaperController.EVENT_DEBOUNCE_MS)
+        assertEquals(items[1].uri, r.shown)
+    }
+
+    @Test
+    fun whenNothingElseFitsWithSkipAnAcceptablePictureOnScreenStays() = runTest {
+        val good = w("good"); val tall = w("tall")
+        val loader = FakeLoader(sizes = mapOf(tall.uri to (1080 to 1920)))
+        val r = rig(listOf(FakeProvider("p1", listOf(good, tall))), cfg = config(wrongFormat = Acceptance.WRONG_FORMAT_SKIP), loader = loader)
+        assertEquals(good.uri, r.shown)
+        r.controller.onStart()
+        advance(60_000 + WallpaperController.EVENT_DEBOUNCE_MS)
+        assertEquals(good.uri, r.shown)
+        assertEquals(listOf(good.uri, tall.uri), loader.loads)
+    }
+
+    @Test
+    fun aGalleryPickIsMarkedPicked() = runTest {
+        val tall = w("tall")
+        val loader = FakeLoader(sizes = mapOf(tall.uri to (1080 to 1920)))
+        val r = rig(listOf(FakeProvider("p1", listOf(w("a")))), cfg = config(wrongFormat = Acceptance.WRONG_FORMAT_SKIP), loader = loader)
+        r.controller.show(tall)
+        advance(1_000)
+        assertEquals(tall.uri, r.shown)
+        assertEquals(true, r.controller.displayed.value?.picked)
+    }
+
+    @Test
     fun wrongFormatWithAModeIsShown() = runTest {
         val portrait = w("portrait")
         val loader = FakeLoader(sizes = mapOf(portrait.uri to (1080 to 1920)))

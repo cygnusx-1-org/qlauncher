@@ -64,9 +64,12 @@ class AcceptanceTest {
     }
 
     @Test
-    fun drawModeShowsSkippedPicturesWithTheBaseMode() {
-        assertEquals(DisplayMode.CROP, Acceptance.drawMode(1080, 1920, auto, skip, 800))
+    fun drawModeBlursSkippedPicturesUnlessPicked() {
+        assertEquals(DisplayMode.BLUR, Acceptance.drawMode(1080, 1920, auto, skip, 800))
+        assertEquals(DisplayMode.CROP, Acceptance.drawMode(1080, 1920, auto, skip, 800, picked = true))
         assertEquals(DisplayMode.FIT_CENTER, Acceptance.drawMode(1080, 1920, auto, DisplayMode.FIT_CENTER.ordinal, 800))
+        // A picture that fits is drawn with the display mode either way.
+        assertEquals(DisplayMode.CROP, Acceptance.drawMode(1920, 1080, auto, skip, 800))
     }
 
     @Test

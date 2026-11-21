@@ -55,8 +55,9 @@ class RedditListCache(private val file: File) {
 
 /**
  * *Reddit*: top posts of the month of the chosen subreddits, hot posts when that yields nothing,
- * read as the logged-in user. Logged out, it serves the last cached list if any (the engine then
- * shows the default wallpaper when there is none) and the *Configure* page says a login is needed.
+ * read as the logged-in user, page by page until 100 pictures pass the filter. Logged out, it
+ * serves the last cached list if any (the engine then shows the default wallpaper when there is
+ * none) and the *Configure* page says a login is needed.
  */
 class RedditProvider(
     private val api: RedditApi,
@@ -91,10 +92,34 @@ class RedditProvider(
         }
     }
 
+    /**
+     * Reads listing pages until [TARGET_PICTURES] pictures pass the filter, the listing ends, or
+     * [MAX_PAGES] pages are read, so the pictures the filter drops are made up from later pages.
+     * A failure on the first page is thrown; on a later page the pictures so far are kept.
+     */
     private suspend fun fetch(subs: String, sort: String, time: String?, f: RedditFilter): List<Wallpaper> {
-        val body = api.listing(subs, sort, time)
-        val listing = RedditListingParser.parse(body, f.minAcceptedWidth, f.skipWrongFormat)
-            ?: throw IOException("not a listing")
-        return listing.wallpapers
+        val out = LinkedHashMap<String, Wallpaper>()
+        var after: String? = null
+        for (page in 0 until MAX_PAGES) {
+            val listing = try {
+                val body = api.listing(subs, sort, time, after = after)
+                RedditListingParser.parse(body, f.minAcceptedWidth, f.skipWrongFormat) ?: throw IOException("not a listing")
+            } catch (e: IOException) {
+                if (page == 0) throw e
+                break
+            }
+            for (w in listing.wallpapers) out.putIfAbsent(w.uri, w)
+            after = listing.after ?: break
+            if (out.size >= TARGET_PICTURES) break
+        }
+        return out.values.toList()
+    }
+
+    private companion object {
+        /** Pages are read until this many pictures pass the filter. */
+        const val TARGET_PICTURES = 100
+
+        /** At most this many pages (of 100 posts each) per refresh. */
+        const val MAX_PAGES = 4
     }
 }

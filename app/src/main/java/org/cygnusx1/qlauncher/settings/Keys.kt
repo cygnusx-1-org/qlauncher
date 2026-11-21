@@ -158,7 +158,7 @@ object Keys {
         val transition = ChoiceKey("wallpaper.transition", 3, 6, "appearance_wallpaper_transition", theme = true, icon = "view_carousel").reg()
 
         /** As [displayMode] with 0 = Skip. */
-        val wrongFormatMode = ChoiceKey("wallpaper.wrong_format_mode", 5, 6, "appearance_wallpaper_wrong_format_display_mode", theme = true, icon = "broken_image").reg()
+        val wrongFormatMode = ChoiceKey("wallpaper.wrong_format_mode", 0, 6, "appearance_wallpaper_wrong_format_display_mode", theme = true, icon = "broken_image").reg()
         val minAcceptedWidth = IntKey("wallpaper.min_accepted_width", 800, 0, 4000, 100, "appearance_wallpaper_min_accepted_width", theme = true, icon = "straighten").reg()
         val ignoreUpdateOnVideo = BoolKey("wallpaper.ignore_update_on_video", true, "appearance_wallpaper_ignore_update_on_video_playing", theme = true, icon = "timer_off").reg()
 

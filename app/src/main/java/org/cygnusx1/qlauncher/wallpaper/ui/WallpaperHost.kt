@@ -209,7 +209,7 @@ private fun rememberStarted(onChange: (Boolean) -> Unit): Boolean {
 @Composable
 private fun WallpaperLayer(d: DisplayedWallpaper, look: WallpaperLook, playing: Boolean, palette: DynamicPalette, module: WallpaperModule) {
     val c = d.content
-    val mode = Acceptance.drawMode(c.width, c.height, look.displayMode, look.wrongFormatMode, look.minAcceptedWidth, d.wallpaper.displayMode)
+    val mode = Acceptance.drawMode(c.width, c.height, look.displayMode, look.wrongFormatMode, look.minAcceptedWidth, d.wallpaper.displayMode, d.picked)
     when (c) {
         is WallpaperContent.Still -> StillWallpaper(c.bitmap, mode, look)
         is WallpaperContent.Animated -> AnimatedWallpaper(c, mode, look, playing)

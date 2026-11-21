@@ -66,6 +66,8 @@ interface LastWallpaperStore {
  *   once and never changes. On return the next change comes when the remaining time is up, but
  *   never sooner than 5 s.
  * - A failed load moves to the next item, five retries at most, then LoadingError and the default.
+ * - With the *Skip* policy, a wrong-format item moves on in the same way; when nothing in the
+ *   round fits, the first one passed over is shown (blurred) instead of the default.
  * - A new wallpaper is never shown sooner than 0.8 s after the previous change.
  * - The last wallpaper is stored and shown at once on the next start.
  *
@@ -153,7 +155,7 @@ class WallpaperController(
         scope.launch {
             change {
                 val content = load(wallpaper) ?: return@change
-                publish(wallpaper, content)
+                publish(wallpaper, content, picked = true)
             }
         }
     }
@@ -341,9 +343,15 @@ class WallpaperController(
         }
     }
 
+    /** The first item of a round that the *Skip* policy passed over, already decoded. */
+    private class Skipped(val index: Int, val wallpaper: Wallpaper, val content: WallpaperContent)
+
     /**
      * Shows the next acceptable item of [l]. An empty list shows the default wallpaper when the
      * provider has shown nothing yet, and otherwise leaves the screen alone.
+     *
+     * With the *Skip* policy, wrong-format items are passed over. When a round finds nothing that
+     * fits, the first one passed over is shown anyway (see [settle]) rather than the default.
      */
     private suspend fun step(l: List<Wallpaper>, firstForProvider: Boolean) {
         if (l.isEmpty()) {
@@ -353,8 +361,16 @@ class WallpaperController(
         val c = cfg ?: return
         var failures = 0
         var sameSkips = 0
+        var visited = 0
+        var skipped: Skipped? = null
         while (true) {
+            val s = skipped
+            if (s != null && (visited >= l.size || failures > MAX_RETRIES)) {
+                settle(s, l, c)
+                return
+            }
             index = (index + 1) % l.size
+            visited++
             val w = l[index]
             if (w.sameAs(_wallpaper.value)) {
                 // Nothing to change for a one-item list; otherwise look further.
@@ -369,13 +385,31 @@ class WallpaperController(
                     publish(w, content)
                     return
                 }
+                if (skipped == null) skipped = Skipped(index, w, content)
             }
             failures++
-            if (failures > MAX_RETRIES) {
+            if (failures > MAX_RETRIES && skipped == null) {
                 loadingError()
                 return
             }
         }
+    }
+
+    /**
+     * A round of [l] found nothing that fits the *Skip* policy. The picture on screen stays when
+     * it is an acceptable item of [l]; otherwise [s] is shown, drawn with
+     * [Acceptance.SKIP_FALLBACK], and the rotation goes on after it.
+     */
+    private suspend fun settle(s: Skipped, l: List<Wallpaper>, c: EngineConfig) {
+        val current = _displayed.value
+        if (current != null && l.any { it.sameAs(current.wallpaper) }) {
+            val cc = current.content
+            val placement = Acceptance.place(cc.width, cc.height, c.displayMode, c.wrongFormatMode, c.minAcceptedWidth, current.wallpaper.displayMode)
+            if (placement is Placement.Draw) return
+        }
+        index = s.index
+        failureStreak = 0
+        publish(s.wallpaper, s.content)
     }
 
     private suspend fun loadingError() {
@@ -400,14 +434,14 @@ class WallpaperController(
         null
     }
 
-    private suspend fun publish(w: Wallpaper, content: WallpaperContent, immediate: Boolean = false) {
+    private suspend fun publish(w: Wallpaper, content: WallpaperContent, immediate: Boolean = false, picked: Boolean = false) {
         val last = lastChangeAt
         if (!immediate && last != null) {
             val wait = last + MIN_CHANGE_INTERVAL_MS - clock()
             if (wait > 0) delay(wait)
         }
         sequence++
-        _displayed.value = DisplayedWallpaper(w, content, sequence)
+        _displayed.value = DisplayedWallpaper(w, content, sequence, picked)
         _wallpaper.value = w
         lastChangeAt = clock()
         content.seed?.let(onSeed)

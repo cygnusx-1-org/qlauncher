@@ -94,8 +94,14 @@ object Acceptance {
     }
 
     /**
-     * The mode to draw with even when the policy says *Skip* (a wallpaper the user picked in the
-     * gallery is shown regardless).
+     * How a wrong-format picture is drawn when the policy is *Skip* but it is on screen anyway:
+     * its source had nothing else to show (album art, a program poster, a single media file).
+     */
+    val SKIP_FALLBACK = DisplayMode.BLUR
+
+    /**
+     * The mode to draw with, also when the policy says *Skip*: a picture the user [picked] in the
+     * gallery is drawn with its own mode, any other is drawn with [SKIP_FALLBACK].
      */
     fun drawMode(
         width: Int,
@@ -104,9 +110,10 @@ object Acceptance {
         wrongFormatSetting: Int,
         minAcceptedWidth: Int,
         wallpaperMode: Int = WallpaperDisplayModes.DEFAULT,
+        picked: Boolean = false,
     ): DisplayMode = when (val p = place(width, height, displayModeSetting, wrongFormatSetting, minAcceptedWidth, wallpaperMode)) {
         is Placement.Draw -> p.mode
-        Placement.Skip -> baseMode(displayModeSetting, wallpaperMode)
+        Placement.Skip -> if (picked) baseMode(displayModeSetting, wallpaperMode) else SKIP_FALLBACK
     }
 
     /** Down-sample factor and radius of the extra *Blur* setting `b`: radius b, down-sample b² ÷ 16 + 1. */
