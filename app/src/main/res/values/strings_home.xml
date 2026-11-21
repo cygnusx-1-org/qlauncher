@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Now Playing</string>
+    <string name="home_cat_inputs">Inputs</string>
+    <string name="home_cat_favorites">Favorites</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Music</string>
+    <string name="home_cat_games">Games</string>
+    <string name="home_cat_tv_apps">TV Apps</string>
+    <string name="home_cat_mobile_apps">Mobile Apps</string>
+    <string name="home_cat_watch_next">Watch Next</string>
+    <string name="home_cat_shortcuts">Shortcuts</string>
+    <string name="home_cat_folders">Category Folders</string>
+    <string name="home_cat_live_tv">Live TV</string>
+    <string name="home_cat_settings">Settings</string>
+    <string name="home_cat_display">Display</string>
+    <string name="home_cat_applications">Applications</string>
+    <string name="home_cat_system">System</string>
+    <string name="home_cat_about">About</string>
+    <string name="home_new_category">New category</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">All apps</string>
+    <string name="home_action_edit_categories">Edit categories</string>
+    <string name="home_action_edit_channels">Edit channels</string>
+    <string name="home_action_launcher_settings">QLauncher settings</string>
+    <string name="home_action_android_settings">Android settings</string>
+    <string name="home_action_amlogic_settings">AmLogic additional settings</string>
+    <string name="home_action_display_profiles">Display Profiles</string>
+    <string name="home_action_install_apps">Install 3rd party apps</string>
+    <string name="home_action_accessibility">Accessibility service</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Switch profile</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">This device</string>
+    <string name="home_action_about_wallpaper">This wallpaper</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Season %1$s</string>
+    <string name="home_episode">Episode %1$s</string>
+    <string name="home_minutes">%1$dmin</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Connectivity</string>
+    <string name="home_status_notifications">Notifications</string>
+    <string name="home_status_settings">Settings</string>
+    <string name="home_status_wallpaper">This wallpaper</string>
+    <string name="home_navigation_menu">Navigation menu</string>
+    <string name="home_reorder">Reorder</string>
+    <string name="home_category_settings">Category settings</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">App settings</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_details">Details</string>
+    <string name="menu_play_pause">Play/Pause</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_previous">Previous</string>
+    <string name="menu_next">Next</string>
+    <string name="menu_uninstall">Uninstall</string>
+    <string name="menu_launch_on_boot">Launch on boot</string>
+    <string name="menu_launch_on_boot_on">Launches on boot</string>
+    <string name="menu_add_parental">Add to parental control</string>
+    <string name="menu_remove_parental">Remove from parental control</string>
+    <string name="menu_shortcuts">Shortcuts</string>
+    <string name="menu_appearance">Appearance</string>
+    <string name="menu_title">Title</string>
+    <string name="menu_change_icon">Change icon</string>
+    <string name="menu_icon_from_picture">From picture</string>
+    <string name="menu_icon_other_location">Other location…</string>
+    <string name="menu_icon_no_pictures">No pictures found. Copy some to Pictures or Download, or plug in a USB drive.</string>
+    <string name="menu_icon_reset">Reset</string>
+    <string name="menu_crop">Crop to fill</string>
+    <string name="menu_visibility">Visibility</string>
+    <string name="menu_reorder">Reorder</string>
+    <string name="menu_remove_from">Remove from %1$s</string>
+    <string name="menu_hide">Hide</string>
+    <string name="menu_add_to">Add to…</string>
+    <string name="menu_move_to">Move to…</string>
+    <string name="menu_channels">Channels</string>
+    <string name="menu_rename_hint">Type a new title and press OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Title</string>
+    <string name="editor_change_icon">Change icon</string>
+    <string name="editor_visible">Visible</string>
+    <string name="editor_grid">Grid</string>
+    <string name="editor_sliding_row">Sliding row</string>
+    <string name="editor_background">Background color</string>
+    <string name="editor_show_title">Show title</string>
+    <string name="editor_size">Size</string>
+    <string name="editor_advanced">Advanced settings</string>
+    <string name="editor_start_margin">Start margin</string>
+    <string name="editor_end_margin">End margin</string>
+    <string name="editor_top_margin">Top margin</string>
+    <string name="editor_cards_per_row">Cards per row</string>
+    <string name="editor_row_count">Row count</string>
+    <string name="editor_auto">Auto</string>
+    <string name="editor_auto_value">Auto (%1$s)</string>
+    <string name="editor_sort">Sort</string>
+    <string name="editor_sort_custom">Custom</string>
+    <string name="editor_sort_name">Alphabetically</string>
+    <string name="editor_sort_last">Last used</string>
+    <string name="editor_sort_most">Frequently used</string>
+    <string name="editor_sort_random">Random</string>
+    <string name="editor_set_default">Set as default</string>
+    <string name="editor_is_default">Default category</string>
+    <string name="editor_manage_apps">Manage apps</string>
+    <string name="editor_hidden_items">Hidden items</string>
+    <string name="editor_restore">Restore</string>
+    <string name="editor_delete">Delete</string>
+    <string name="editor_delete_confirm">Delete this category?</string>
+    <string name="editor_empty_note">This category won\'t appear yet because it\'s empty</string>
+    <string name="editor_request_notifications">Request Notification permission</string>
+    <string name="editor_channel_error">This channel can no longer be read</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Channels</string>
+    <string name="channels_count">%1$d Channels</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Notifications</string>
+    <string name="notifications_clear_all">Clear all</string>
+    <string name="notifications_empty">No notifications</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">This app cannot be opened</string>
+    <string name="home_reorder_hint">Use left/right to move, OK or BACK to finish</string>
+    <string name="home_category_reorder_hint">Use up/down to move, OK or BACK to finish</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Welcome!</string>
+    <string name="firstrun_welcome_text">QLauncher is a launcher for Android TV. It puts your apps, channels and favourite content on one customisable home screen, with a rotating wallpaper behind it.</string>
+    <string name="firstrun_features_title">Your new superpowers</string>
+    <string name="firstrun_features_text">Launch an app or an HDMI input at boot, manage display profiles, lock apps with parental control, show calibration patterns, detect idle time, and customise every part of the home screen. Some features depend on your device.</string>
+    <string name="firstrun_a11y_title">Let\'s get accessible</string>
+    <string name="firstrun_a11y_text">Many features need QLauncher\'s accessibility service: replacing the stock launcher, actions at boot, remote button gestures, idle detection and parental control. You can turn it on now or later from the settings.</string>
+    <string name="firstrun_a11y_open">Open accessibility settings</string>
+    <string name="firstrun_permissions_title">If I may…</string>
+    <string name="firstrun_permissions_text">Next, QLauncher asks for permission to read TV listings (for channels and Watch Next) and for notification access (for the notification icon and Now Playing). Both are optional.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Next, QLauncher asks for notification access (for the notification icon and Now Playing). It is optional.</string>
+    <string name="firstrun_notifications_dialog">Allow notification access?</string>
+    <string name="firstrun_notifications_text">Notification access lets QLauncher show a notification count, a notifications panel and what is playing. Yes opens the Special Permissions page where you grant it.</string>
+    <string name="firstrun_reports_title">Send anonymous crash and error reports?</string>
+    <string name="firstrun_reports_text">If QLauncher crashes or hits an error, it can send a report with the app version and device model so the bug can be fixed. Nothing that identifies you or what you watch is sent. You can change this later in General.</string>
+    <string name="firstrun_launcher_title">Make QLauncher your home screen</string>
+    <string name="firstrun_launcher_text">Many TV devices do not let you change the default launcher. If yours does, choose QLauncher there. Otherwise turn on the accessibility service with “Override current launcher”, and QLauncher will come back whenever the stock launcher opens.</string>
+    <string name="firstrun_launcher_open">Change default launcher</string>
+    <string name="firstrun_start_title">Time to start!</string>
+    <string name="firstrun_start_text">Everything can be changed later from the settings. Press the settings button at the top right, or the key sequence ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">GET STARTED</string>
+    <string name="firstrun_next">Next</string>
+    <string name="firstrun_skip">Skip</string>
+    <string name="firstrun_yes">Yes</string>
+    <string name="firstrun_no">No</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">No screensaver on this device</string>
+</resources>

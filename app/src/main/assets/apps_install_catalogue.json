@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "checked": "2026-11-20",
+  "installPackages": [
+    {
+      "name": "Aerial Views",
+      "category": "Wallpaper Plugin",
+      "package": "com.neilturner.aerialviews",
+      "url": "https://github.com/theothernt/AerialViews/releases/download/1.8.6/aerial-views-1.8.6.apk"
+    },
+    {
+      "name": "Sofadrop",
+      "category": "Wallpaper Plugin",
+      "package": "com.rfmarcos.sofadrop",
+      "url": "https://github.com/rfmarcos/sofadrop/releases/latest/download/sofadrop.apk",
+      "downloader": "7882519"
+    },
+    {
+      "name": "Core Motion",
+      "category": "Wallpaper Plugin",
+      "package": "tv.corebuilds.motion",
+      "url": "https://github.com/brevityA/CoreBuildsApps/releases/download/motion/coremotion-release.apk"
+    },
+    {
+      "name": "Booru Wallpaper Provider",
+      "category": "Wallpaper Plugin",
+      "package": "nl.kurocon.plugin.wallpaperprovider.booru",
+      "url": "https://github.com/Kurocon/projectivy-booru-wallpaper-provider/releases/latest/download/booru-release.apk"
+    },
+    {
+      "name": "Android TV Minimalist Icon Pack",
+      "category": "Icon Pack",
+      "package": "com.hqnscl.minimalist.app",
+      "url": "https://github.com/hqn-scl/android-tv-minimalist-icon-pack/releases/download/v1.0.0/Minimalist-Icons.1.0.0.apk",
+      "downloader": "7305118"
+    },
+    {
+      "name": "Core Builds Icon Pack",
+      "category": "Icon Pack",
+      "package": "tv.corebuilds.iconpack",
+      "url": "https://github.com/brevityA/CoreBuildsApps/releases/latest/download/iconpack-release.apk"
+    },
+    {
+      "name": "Arcticons Day & Night",
+      "category": "Icon Pack",
+      "package": "com.donnnno.arcticons.daynight",
+      "url": "https://github.com/Arcticons-Team/Arcticons/releases/download/15.4.7/Arcticons-15.4.7-dayNight-release.apk"
+    },
+    {
+      "name": "Ultimate File Manager Pro",
+      "category": "File Manager",
+      "package": "za.kilowatch.ultimatefilemanager"
+    },
+    {
+      "name": "MiXplorer",
+      "category": "File Manager",
+      "package": "com.mixplorer"
+    },
+    {
+      "name": "MiXplorer Silver",
+      "category": "File Manager",
+      "package": "com.mixplorer.silver"
+    },
+    {
+      "name": "File Manager Plus",
+      "category": "File Manager",
+      "package": "com.alphainventor.filemanager"
+    },
+    {
+      "name": "LocalSend",
+      "category": "Tool",
+      "package": "org.localsend.localsend_app",
+      "url": "https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-android-arm32v7.apk"
+    },
+    {
+      "name": "Downloader by AFTVnews",
+      "category": "Tool",
+      "package": "com.esaba.downloader",
+      "url": "https://www.aftvnews.com/downloader.apk"
+    },
+    {
+      "name": "Aptoide TV",
+      "category": "Tool",
+      "package": "cm.aptoidetv.pt",
+      "url": "https://pool.apk.aptoide.com/carolyne-silva/cm-aptoidetv-pt-542-72049303-6212d8ef0991eaf05b32f8f0141dadb8.apk",
+      "downloader": "75880"
+    },
+    {
+      "name": "tvQuickActions",
+      "category": "Tool",
+      "package": "dev.vodik7.tvquickactions.free"
+    },
+    {
+      "name": "ADB TV",
+      "category": "Tool",
+      "package": "com.cybercat.adbappcontrol.tv"
+    },
+    {
+      "name": "MoreLocale 2",
+      "category": "Tool",
+      "package": "jp.co.c_lis.ccl.morelocale"
+    },
+    {
+      "name": "Notifications for Android TV",
+      "category": "Tool",
+      "package": "de.cyberdream.androidtv.notifications.google"
+    }
+  ]
+}

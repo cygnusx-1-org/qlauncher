@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    QLauncher's default wallpaper: an original dusk landscape (sky gradient, a low sun glow and
+    three mountain ridges), drawn for this project.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="960dp"
+    android:height="540dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+
+    <!-- Sky -->
+    <path android:pathData="M0,0h1920v1080h-1920z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="0"
+                android:endY="1080">
+                <item android:offset="0" android:color="#FF0A0F24" />
+                <item android:offset="0.42" android:color="#FF2A2558" />
+                <item android:offset="0.7" android:color="#FF8A4C78" />
+                <item android:offset="1" android:color="#FFF0A276" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sun glow -->
+    <path android:pathData="M1260,700m-420,0a420,420 0,1 1,840 0a420,420 0,1 1,-840 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="1260"
+                android:centerY="700"
+                android:gradientRadius="420">
+                <item android:offset="0" android:color="#C0FFE2B0" />
+                <item android:offset="0.18" android:color="#80FFC489" />
+                <item android:offset="0.55" android:color="#20F49A7A" />
+                <item android:offset="1" android:color="#00F49A7A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sun disc -->
+    <path
+        android:fillColor="#E6FFE6C2"
+        android:pathData="M1260,690m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+
+    <!-- Far ridge -->
+    <path android:pathData="M0,700L120,640L260,690L420,560L560,650L700,600L860,680L1000,580L1160,520L1320,610L1480,560L1640,640L1800,590L1920,630L1920,1080L0,1080Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="520"
+                android:endX="0"
+                android:endY="1080">
+                <item android:offset="0" android:color="#FF5B4A86" />
+                <item android:offset="1" android:color="#FF3A3166" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Middle ridge -->
+    <path android:pathData="M0,800Q160,720 320,770T640,740Q800,690 960,760T1280,750Q1440,700 1600,770T1920,740L1920,1080L0,1080Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="690"
+                android:endX="0"
+                android:endY="1080">
+                <item android:offset="0" android:color="#FF33295C" />
+                <item android:offset="1" android:color="#FF1E1A3E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Near ridge -->
+    <path android:pathData="M0,900C240,840 420,930 700,880C960,835 1180,950 1460,890C1660,850 1800,900 1920,870L1920,1080L0,1080Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="835"
+                android:endX="0"
+                android:endY="1080">
+                <item android:offset="0" android:color="#FF17142E" />
+                <item android:offset="1" android:color="#FF0A0918" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

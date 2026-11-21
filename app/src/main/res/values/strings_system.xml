@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Please enter any combination of arrows/digits and validate with OK</string>
+    <string name="system_parental_confirm_code">Please enter the code again and validate with OK</string>
+    <string name="system_parental_restricted">Restricted access\nPlease enter parental code</string>
+    <string name="system_parental_wrong_code">Wrong code</string>
+    <string name="system_parental_codes_differ">Codes don\'t match, please try again</string>
+    <string name="system_parental_code_saved">Parental code saved</string>
+    <string name="system_parental_recovery_code">Recovery code: %1$s</string>
+    <string name="system_parental_recovery_help">Write it down: it is shown only this once. Entered with the arrows (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) it unlocks like the parental code.</string>
+    <string name="system_parental_press_ok">Press OK to continue</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Remote shortcuts</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Home</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Change input</string>
+    <string name="system_hotkeys_change_profile">Change display profile</string>
+    <string name="system_hotkeys_start_launcher">Start QLauncher</string>
+    <string name="system_hotkeys_home">Open QLauncher; twice: recent apps</string>
+    <string name="system_hotkeys_close">Close this help</string>
+    <string name="system_hotkeys_no_inputs">No TV inputs on this device</string>
+    <string name="system_hotkeys_no_picture_manager">No picture manager loaded</string>
+    <string name="system_hotkeys_home_off">Off: needs Override current launcher and button remapping</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">User inactivity detected, shutdown in %1$ds</string>
+    <string name="system_idle_countdown_screen_off">User inactivity detected, screen off in %1$ds</string>
+    <string name="system_idle_countdown_screensaver">User inactivity detected, screensaver in %1$ds</string>
+    <string name="system_idle_countdown_cancel">Press any button to cancel</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">This device has no shortcut to the accessibility settings. Open them from Android settings, usually under Device Preferences › Accessibility.</string>
+    <string name="system_notification_access_no_settings">This device has no notification access screen. Grant access from a computer with:</string>
+</resources>

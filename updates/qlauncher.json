@@ -1,0 +1,13 @@
+{
+  "package": {
+    "downloadUrlList": [
+      "https://github.com/cygnusx-1-org/qlauncher/releases/download/0.1.0/QLauncher_0.1.0.apk"
+    ]
+  },
+  "0.1.0": {
+    "versionCode": 1,
+    "changelog": [
+      "First release"
+    ]
+  }
+}

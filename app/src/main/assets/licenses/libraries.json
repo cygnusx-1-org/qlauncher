@@ -1,0 +1,19 @@
+[
+  {"name": "AndroidX Core, Activity, Lifecycle", "licence": "Apache License 2.0"},
+  {"name": "Jetpack Compose (UI, Foundation, Animation, Material 3)", "licence": "Apache License 2.0"},
+  {"name": "Compose for TV Material", "licence": "Apache License 2.0"},
+  {"name": "AndroidX DataStore", "licence": "Apache License 2.0"},
+  {"name": "AndroidX Palette", "licence": "Apache License 2.0"},
+  {"name": "AndroidX TV Provider", "licence": "Apache License 2.0"},
+  {"name": "AndroidX Media3 (ExoPlayer, DASH, HLS, RTSP, OkHttp)", "licence": "Apache License 2.0"},
+  {"name": "Kotlin standard library", "licence": "Apache License 2.0"},
+  {"name": "kotlinx.coroutines", "licence": "Apache License 2.0"},
+  {"name": "kotlinx.serialization", "licence": "Apache License 2.0"},
+  {"name": "OkHttp and Okio", "licence": "Apache License 2.0"},
+  {"name": "Coil", "licence": "Apache License 2.0"},
+  {"name": "Lottie for Android", "licence": "Apache License 2.0"},
+  {"name": "zip4j", "licence": "Apache License 2.0"},
+  {"name": "MaterialKolor material-color-utilities", "licence": "MIT License; upstream Material Color Utilities, Apache License 2.0"},
+  {"name": "DM Sans font", "licence": "SIL Open Font License 1.1"},
+  {"name": "Material Icons (outlined)", "licence": "Apache License 2.0"}
+]

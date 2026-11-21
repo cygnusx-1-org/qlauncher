@@ -1,0 +1,74 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": "t3_next",
+    "dist": 12,
+    "children": [
+      {"kind": "t3", "data": {
+        "id": "a1", "title": "Morning fog over the valley [3840x2160] [OC]", "author": "alice", "subreddit": "EarthPorn",
+        "permalink": "/r/EarthPorn/comments/a1/morning_fog_over_the_valley/", "post_hint": "image",
+        "url": "https://i.redd.it/fog.jpg", "over_18": false, "spoiler": false, "stickied": false, "is_video": false,
+        "removed_by_category": null,
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/fog.jpg?width=3840&format=pjpg&auto=webp&s=abc", "width": 3840, "height": 2160}, "resolutions": []}], "enabled": true}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a2", "title": "NSFW", "author": "bob", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a2/x/",
+        "post_hint": "image", "url": "https://i.redd.it/nsfw.jpg", "over_18": true,
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/nsfw.jpg", "width": 3000, "height": 2000}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a3", "title": "Spoiler", "author": "bob", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a3/x/",
+        "post_hint": "image", "url": "https://i.redd.it/spoiler.jpg", "spoiler": true,
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/spoiler.jpg", "width": 3000, "height": 2000}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a4", "title": "Rules of the subreddit", "author": "mod", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a4/x/",
+        "post_hint": "image", "url": "https://i.redd.it/rules.jpg", "stickied": true,
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/rules.jpg", "width": 3000, "height": 2000}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a5", "title": "Removed", "author": "carol", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a5/x/",
+        "post_hint": "image", "url": "https://i.redd.it/removed.jpg", "removed_by_category": "moderator",
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/removed.jpg", "width": 3000, "height": 2000}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a6", "title": "Coastline set", "author": "dave", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a6/coastline_set/",
+        "is_gallery": true, "url": "https://www.reddit.com/gallery/a6",
+        "gallery_data": {"items": [{"media_id": "m2", "id": 2}, {"media_id": "m1", "id": 1}, {"media_id": "m3", "id": 3}, {"media_id": "m4", "id": 4}]},
+        "media_metadata": {
+          "m1": {"status": "valid", "e": "Image", "m": "image/jpg", "s": {"y": 1440, "x": 2560, "u": "https://preview.redd.it/m1.jpg?width=2560&format=pjpg&s=1"}},
+          "m2": {"status": "valid", "e": "Image", "m": "image/jpg", "s": {"y": 2160, "x": 3840, "u": "https://preview.redd.it/m2.jpg?width=3840&format=pjpg&s=2"}},
+          "m3": {"status": "failed"},
+          "m4": {"status": "valid", "e": "AnimatedImage", "m": "image/gif", "s": {"y": 720, "x": 1280, "gif": "https://i.redd.it/m4.gif"}}
+        }
+      }},
+      {"kind": "t3", "data": {
+        "id": "a7", "title": "No preview yet", "author": "erin", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a7/x/",
+        "post_hint": "image", "url": "https://i.redd.it/nopreview.jpg"
+      }},
+      {"kind": "t3", "data": {
+        "id": "a8", "title": "Imgur without preview", "author": "frank", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a8/x/",
+        "post_hint": "image", "url": "https://imgur.com/abc.jpg"
+      }},
+      {"kind": "t3", "data": {
+        "id": "a9", "title": "A link", "author": "gina", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a9/x/",
+        "post_hint": "link", "url": "https://example.org/article",
+        "preview": {"images": [{"source": {"url": "https://external-preview.redd.it/link.jpg", "width": 1200, "height": 630}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a10", "title": "Waterfall [1080x1920]", "author": "hank", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a10/x/",
+        "post_hint": "image", "url": "https://i.redd.it/portrait.jpg",
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/portrait.jpg", "width": 1080, "height": 1920}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a11", "title": "Tiny", "author": "ivy", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a11/x/",
+        "post_hint": "image", "url": "https://i.redd.it/tiny.jpg",
+        "preview": {"images": [{"source": {"url": "https://preview.redd.it/tiny.jpg", "width": 640, "height": 400}}]}
+      }},
+      {"kind": "t3", "data": {
+        "id": "a12", "title": "A video", "author": "jo", "subreddit": "EarthPorn", "permalink": "/r/EarthPorn/comments/a12/x/",
+        "post_hint": "hosted:video", "is_video": true, "url": "https://v.redd.it/xyz"
+      }}
+    ]
+  }
+}

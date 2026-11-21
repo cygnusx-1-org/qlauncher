@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">None</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dynamic colors</string>
+    <string name="wallpaper_provider_default">Default wallpaper</string>
+    <string name="wallpaper_provider_media_file">Media file</string>
+    <string name="wallpaper_provider_folder">Folder</string>
+    <string name="wallpaper_provider_focused_program">Focused program</string>
+    <string name="wallpaper_provider_now_playing">Now Playing</string>
+    <string name="wallpaper_provider_random_program">Random program</string>
+    <string name="wallpaper_provider_theme">Theme</string>
+    <string name="wallpaper_provider_unknown_plugin">Plugin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Wallpapers</string>
+    <string name="wallpaper_wikimedia_nature">Nature</string>
+    <string name="wallpaper_wikimedia_landscapes">Landscapes</string>
+    <string name="wallpaper_wikimedia_mountains">Mountains</string>
+    <string name="wallpaper_wikimedia_forests">Forests</string>
+    <string name="wallpaper_wikimedia_cities">Cities</string>
+    <string name="wallpaper_wikimedia_architecture">Architecture</string>
+    <string name="wallpaper_wikimedia_night">Night</string>
+    <string name="wallpaper_wikimedia_space">Space</string>
+    <string name="wallpaper_wikimedia_animals">Animals</string>
+    <string name="wallpaper_wikimedia_custom">[Custom search]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Custom subreddit]</string>
+    <string name="wallpaper_reddit_log_in">Log in to Reddit</string>
+    <string name="wallpaper_reddit_account">u/%1$s</string>
+    <string name="wallpaper_reddit_account_unknown">Logged in</string>
+    <string name="wallpaper_reddit_log_out">Log out</string>
+    <string name="wallpaper_reddit_login_needed">Log in to Reddit to see wallpapers from it.</string>
+    <string name="wallpaper_reddit_login_title">Log in to Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Signing in…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit access was not granted, so the Reddit wallpapers stay unavailable.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">The answer from Reddit did not match this login attempt and was ignored. Please try again.</string>
+    <string name="wallpaper_reddit_login_failed">Logging in to Reddit failed (%1$s). Please try again later.</string>
+    <string name="wallpaper_reddit_login_network">Reddit could not be reached. Check the network connection and try again.</string>
+    <string name="wallpaper_reddit_login_page_error">The Reddit login page could not be loaded. Check the network connection and try again.</string>
+    <string name="wallpaper_reddit_no_webview">This device has no web browser component (Android System WebView), which the Reddit login needs. Install or enable Android System WebView and try again.</string>
+    <string name="wallpaper_reddit_retry">Try again</string>
+    <string name="wallpaper_reddit_close">Close</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">No connection to the wallpaper source.</string>
+    <string name="wallpaper_error_server">The wallpaper source answered with an error.</string>
+    <string name="wallpaper_error_rate_limited">The wallpaper source asked to wait before the next request.</string>
+    <string name="wallpaper_error_generic">The wallpapers could not be loaded.</string>
+    <string name="wallpaper_error_no_media">No picture, video or colour has been chosen.</string>
+    <string name="wallpaper_error_no_folder">No folder has been chosen.</string>
+    <string name="wallpaper_error_folder_access">The folder cannot be read. Choose it again.</string>
+    <string name="wallpaper_error_folder_empty">The folder holds no pictures, videos or Lottie animations.</string>
+    <string name="wallpaper_error_theme_empty">The current theme has no wallpapers.</string>
+    <string name="wallpaper_error_no_channels">Channels are not available. Enable them and allow access to TV listings.</string>
+    <string name="wallpaper_error_no_notification_access">Now Playing needs notification access.</string>
+    <string name="wallpaper_error_no_subreddit">No valid subreddit is set.</string>
+    <string name="wallpaper_error_plugin">The wallpaper plugin did not answer.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Wallpaper set</string>
+    <string name="wallpaper_set_failed">This file cannot be used as a wallpaper.</string>
+</resources>

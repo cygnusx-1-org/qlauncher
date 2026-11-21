@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Android 7 has no adaptive icons. This draws the same two layers as mipmap-anydpi-v26, cut to
+    the 72 dp square an adaptive icon shows (18 dp of each 108 dp layer lies outside it).
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:bottom="-18dp"
+        android:drawable="@drawable/ic_launcher_background"
+        android:left="-18dp"
+        android:right="-18dp"
+        android:top="-18dp" />
+    <item
+        android:bottom="-18dp"
+        android:drawable="@drawable/ic_launcher_foreground"
+        android:left="-18dp"
+        android:right="-18dp"
+        android:top="-18dp" />
+</layer-list>

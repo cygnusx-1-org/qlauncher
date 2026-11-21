@@ -1,0 +1,118 @@
+{
+  "batchcomplete": true,
+  "continue": {"gsroffset": 50, "continue": "gsroffset||"},
+  "query": {
+    "pages": [
+      {
+        "pageid": 101, "ns": 6, "title": "File:Alpine_lake_at_dawn.jpg", "index": 1,
+        "imagerepository": "local",
+        "imageinfo": [{
+          "size": 5242880, "width": 4000, "height": 2600,
+          "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Alpine_lake_at_dawn.jpg/1920px-Alpine_lake_at_dawn.jpg",
+          "thumbwidth": 1920, "thumbheight": 1248,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Alpine_lake_at_dawn.jpg",
+          "descriptionurl": "https://commons.wikimedia.org/wiki/File:Alpine_lake_at_dawn.jpg",
+          "mime": "image/jpeg",
+          "extmetadata": {
+            "Artist": {"value": "<a href=\"//commons.wikimedia.org/wiki/User:Example\" title=\"User:Example\">Example&nbsp;Photographer</a>\n &amp; friends", "source": "commons-desc-page"},
+            "LicenseShortName": {"value": "CC BY-SA 4.0", "source": "commons-desc-page"},
+            "LicenseUrl": {"value": "https://creativecommons.org/licenses/by-sa/4.0", "source": "commons-desc-page"}
+          }
+        }]
+      },
+      {
+        "pageid": 102, "ns": 6, "title": "File:Tall_tower.jpg", "index": 2,
+        "imageinfo": [{
+          "size": 3000000, "width": 2000, "height": 3000,
+          "thumburl": "https://upload.wikimedia.org/thumb/Tall_tower.jpg/1920px-Tall_tower.jpg", "thumbwidth": 1920, "thumbheight": 2880,
+          "url": "https://upload.wikimedia.org/Tall_tower.jpg", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Tall_tower.jpg",
+          "mime": "image/jpeg",
+          "extmetadata": {"LicenseShortName": {"value": "CC0"}}
+        }]
+      },
+      {
+        "pageid": 103, "ns": 6, "title": "File:Scan.tif", "index": 3,
+        "imageinfo": [{
+          "size": 3000000, "width": 4000, "height": 2500,
+          "thumburl": "https://upload.wikimedia.org/thumb/Scan.tif/lossy-page1-1920px-Scan.tif.jpg", "thumbwidth": 1920, "thumbheight": 1200,
+          "url": "https://upload.wikimedia.org/Scan.tif", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Scan.tif",
+          "mime": "image/tiff",
+          "extmetadata": {"LicenseShortName": {"value": "Public domain"}}
+        }]
+      },
+      {
+        "pageid": 104, "ns": 6, "title": "File:No_licence.png", "index": 4,
+        "imageinfo": [{
+          "size": 3000000, "width": 3000, "height": 1800,
+          "thumburl": "https://upload.wikimedia.org/thumb/No_licence.png/1920px-No_licence.png", "thumbwidth": 1920, "thumbheight": 1152,
+          "url": "https://upload.wikimedia.org/No_licence.png", "descriptionurl": "https://commons.wikimedia.org/wiki/File:No_licence.png",
+          "mime": "image/png",
+          "extmetadata": {"Artist": {"value": "Someone"}}
+        }]
+      },
+      {
+        "pageid": 105, "ns": 6, "title": "File:Small.jpg", "index": 5,
+        "imageinfo": [{
+          "size": 400000, "width": 1600, "height": 900,
+          "url": "https://upload.wikimedia.org/Small.jpg", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Small.jpg",
+          "mime": "image/jpeg",
+          "extmetadata": {"LicenseShortName": {"value": "CC0"}}
+        }]
+      },
+      {
+        "pageid": 106, "ns": 6, "title": "File:Almost_square.jpg", "index": 6,
+        "imageinfo": [{
+          "size": 400000, "width": 2500, "height": 2000,
+          "url": "https://upload.wikimedia.org/Almost_square.jpg", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Almost_square.jpg",
+          "mime": "image/jpeg",
+          "extmetadata": {"LicenseShortName": {"value": "CC0"}}
+        }]
+      },
+      {
+        "pageid": 107, "ns": 6, "title": "File:Huge_original.webp", "index": 7,
+        "imageinfo": [{
+          "size": 9437184, "width": 6000, "height": 3375,
+          "url": "https://upload.wikimedia.org/Huge_original.webp", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Huge_original.webp",
+          "mime": "image/webp",
+          "extmetadata": {"LicenseShortName": {"value": "CC BY 4.0"}}
+        }]
+      },
+      {
+        "pageid": 108, "ns": 6, "title": "File:Desert_road.webp", "index": 8,
+        "imageinfo": [{
+          "size": 3145728, "width": 2560, "height": 1440,
+          "url": "https://upload.wikimedia.org/Desert_road.webp", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Desert_road.webp",
+          "mime": "image/webp",
+          "extmetadata": {
+            "Attribution": {"value": "Photo: A. Writer"},
+            "LicenseShortName": {"value": "CC BY 4.0"}
+          }
+        }]
+      },
+      {
+        "pageid": 109, "ns": 6, "title": "File:Long_credit.png", "index": 9,
+        "imageinfo": [{
+          "size": 3145728, "width": 3840, "height": 2160,
+          "thumburl": "https://upload.wikimedia.org/thumb/Long_credit.png/1920px-Long_credit.png", "thumbwidth": 1920, "thumbheight": 1080,
+          "url": "https://upload.wikimedia.org/Long_credit.png", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Long_credit.png",
+          "mime": "image/png",
+          "extmetadata": {
+            "Artist": {"value": "An extraordinarily long credit line that names a photographer, an agency, an archive and a funding body"},
+            "LicenseShortName": {"value": "CC BY-SA 3.0"}
+          }
+        }]
+      },
+      {
+        "pageid": 110, "ns": 6, "title": "File:Anonymous.jpg", "index": 10,
+        "imageinfo": [{
+          "size": 3145728, "width": 3840, "height": 2160,
+          "thumburl": "https://upload.wikimedia.org/thumb/Anonymous.jpg/1920px-Anonymous.jpg", "thumbwidth": 1920, "thumbheight": 1080,
+          "url": "https://upload.wikimedia.org/Anonymous.jpg", "descriptionurl": "https://commons.wikimedia.org/wiki/File:Anonymous.jpg",
+          "mime": "image/jpeg",
+          "extmetadata": {"LicenseShortName": {"value": "Public domain"}}
+        }]
+      },
+      {"pageid": 111, "ns": 6, "title": "File:Missing_info.jpg", "index": 11}
+    ]
+  }
+}

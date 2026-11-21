@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Cancel</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">All apps</string>
+    <string name="apps_action_edit_categories">Edit categories</string>
+    <string name="apps_action_edit_channels">Edit channels</string>
+    <string name="apps_action_launcher_settings">QLauncher settings</string>
+    <string name="apps_action_android_settings">Android settings</string>
+    <string name="apps_action_amlogic_settings">AmLogic additional settings</string>
+    <string name="apps_action_display_profiles">Display Profiles</string>
+    <string name="apps_action_install_apps">Install 3rd party apps</string>
+    <string name="apps_action_accessibility_service">Accessibility service</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Switch profile</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">This device</string>
+    <string name="apps_action_about_wallpaper">This wallpaper</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">None</string>
+    <string name="apps_autostart_screensaver">Screensaver</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Channels</string>
+    <string name="apps_channels_watch_next">Watch Next</string>
+    <string name="apps_channels_unreadable">This channel can no longer be read</string>
+    <string name="apps_channels_hidden">Hidden by the system</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d Channel</item>
+        <item quantity="other">%d Channels</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Apply icon pack</string>
+    <string name="apps_iconpack_apply_message">Use %1$s for the icons of your apps?</string>
+    <string name="apps_iconpack_apply_confirm">Apply</string>
+    <string name="apps_iconpack_applied">Icon pack applied</string>
+    <string name="apps_iconpack_apply_missing">No icon pack was named</string>
+    <string name="apps_iconpack_apply_not_a_pack">This app is not an icon pack</string>
+    <string name="apps_iconpack_none">None</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Add shortcut</string>
+    <string name="apps_pin_shortcut_message">Add “%1$s” from %2$s to the Shortcuts category?</string>
+    <string name="apps_pin_shortcut_confirm">Add</string>
+    <string name="apps_pin_shortcut_added">Shortcut added</string>
+    <string name="apps_pin_shortcut_failed">The shortcut could not be added</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Install 3rd party apps</string>
+    <string name="apps_install_description">Please choose an app to install. You might need to allow installation from unknown sources before installation.</string>
+    <string name="apps_install_custom_url">Custom URL / Downloader code</string>
+    <string name="apps_install_custom_url_desc">Make sure to use a trusted source</string>
+    <string name="apps_install_choose_method">Choose an installation method</string>
+    <string name="apps_install_installed">Installed</string>
+    <string name="apps_install_category_wallpaper_plugin">Wallpaper Plugin</string>
+    <string name="apps_install_category_icon_pack">Icon Pack</string>
+    <string name="apps_install_category_file_manager">File Manager</string>
+    <string name="apps_install_category_tool">Tool</string>
+    <string name="apps_install_method_store">Store</string>
+    <string name="apps_install_method_direct">Direct download</string>
+    <string name="apps_install_method_downloader">Downloader app</string>
+    <string name="apps_install_state_downloading">Downloading %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Downloading %1$s…</string>
+    <string name="apps_install_state_installing">Installing %1$s…</string>
+    <string name="apps_install_state_confirm">Confirm the installation of %1$s</string>
+    <string name="apps_install_state_success">%1$s installed</string>
+    <string name="apps_install_state_unknown_sources">Allow QLauncher to install apps, then come back to continue</string>
+    <string name="apps_install_state_downloader_sent">Code %1$s sent to Downloader</string>
+    <string name="apps_install_state_downloader_type">Enter the code %1$s in Downloader</string>
+    <string name="apps_install_state_store">Opened in the store</string>
+    <string name="apps_install_state_browser">This link is a web page; it was opened in the browser</string>
+    <string name="apps_install_fail_invalid">This is not a URL or a Downloader code</string>
+    <string name="apps_install_fail_no_usb">No USB drive found</string>
+    <string name="apps_install_fail_archive">Archives cannot be installed</string>
+    <string name="apps_install_fail_network">The download failed</string>
+    <string name="apps_install_fail_http">The server answered with an error (%1$s)</string>
+    <string name="apps_install_fail_not_apk">The file is not an app (APK)</string>
+    <string name="apps_install_fail_unreadable">The file cannot be read</string>
+    <string name="apps_install_fail_install">The installation failed</string>
+    <string name="apps_install_fail_cancelled">The installation was cancelled</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher is not allowed to install apps</string>
+    <string name="apps_install_fail_downloader">The Downloader app is not installed</string>
+    <string name="apps_install_fail_store">No app store is available</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">This device</string>
+    <string name="apps_device_brand_manufacturer">Brand / Manufacturer</string>
+    <string name="apps_device_device_product">Device / Product</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Hardware</string>
+    <string name="apps_device_fingerprint">Fingerprint</string>
+    <string name="apps_device_build">Build</string>
+    <string name="apps_device_build_desc">Build desc.</string>
+    <string name="apps_device_device_type">Device type</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP address</string>
+    <string name="apps_device_root_access">Root access</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">No picture manager</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Yes</string>
+    <string name="apps_device_no">No</string>
+</resources>

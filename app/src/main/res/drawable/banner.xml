@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180 dp TV banner: the Q mark on the accent colour. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path
+        android:fillColor="#FF1B1C1E"
+        android:pathData="M0,0h320v180h-320z" />
+    <path
+        android:fillColor="#FFD28045"
+        android:fillType="evenOdd"
+        android:pathData="M160,40a50,50 0 1,1 0,100a50,50 0 1,1 0,-100zM160,58a32,32 0 1,0 0,64a32,32 0 1,0 0,-64z" />
+    <path
+        android:fillColor="#FFD28045"
+        android:pathData="M174,112l18,-14l32,40l-18,14z" />
+</vector>
