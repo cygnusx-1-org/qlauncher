@@ -34,7 +34,6 @@ import org.cygnusx1.qlauncher.ui.settings.model.Page
 import org.cygnusx1.qlauncher.ui.settings.model.Row
 import org.cygnusx1.qlauncher.ui.settings.model.raw
 import org.cygnusx1.qlauncher.ui.settings.model.text
-import org.cygnusx1.qlauncher.wallpaper.ProviderSelection
 import org.cygnusx1.qlauncher.wallpaper.WallpaperModule
 import org.cygnusx1.qlauncher.wallpaper.reddit.RedditPreset
 import org.cygnusx1.qlauncher.wallpaper.reddit.RedditPresets
@@ -71,13 +70,7 @@ object WallpaperPages {
                 m.providers.value.firstOrNull { it.id == id }?.settingsActivity != null
         }
         WallpaperPage.selectSource = { env, id ->
-            val info = m.providers.value.firstOrNull { it.id == id }
-            if (info != null) {
-                when (m.selectProvider(info)) {
-                    ProviderSelection.NeedsRedditLogin -> env.actions.startActivity(m.redditLoginIntent(env.context, selectOnSuccess = true))
-                    else -> Unit
-                }
-            }
+            m.providers.value.firstOrNull { it.id == id }?.let(m::selectProvider)
         }
     }
 
@@ -114,30 +107,8 @@ object WallpaperPages {
                 statusRow,
                 showWallpapers,
             )
+            // The Login / Logout button comes first and is added when the page's rows are read.
             WallpaperProviders.REDDIT -> listOf(
-                Row.Action(
-                    "wp_account", text(R.string.wp_account),
-                    {
-                        if (m.redditUser.value == null) env.actions.startActivity(m.redditLoginIntent(env.context))
-                    },
-                    description = { _ ->
-                        when (val u = m.redditUser.value) {
-                            null -> text(R.string.wallpaper_reddit_log_in)
-                            "" -> text(R.string.wallpaper_reddit_account_unknown)
-                            else -> text(R.string.wallpaper_reddit_account, u)
-                        }
-                    },
-                    icon = "account_circle",
-                ),
-                Row.Expander(
-                    "wp_log_out", text(R.string.wp_log_out),
-                    listOf(
-                        Row.Action("wp_log_out_cancel", text(R.string.settings_cancel), {}),
-                        Row.Action("wp_log_out_ok", text(R.string.settings_ok), { c.scope.launch { m.redditLogout() } }),
-                    ),
-                    icon = "logout",
-                    enabled = { _ -> m.redditUser.value != null },
-                ),
                 Row.Dropdown(
                     "wp_subreddit", text(R.string.wp_subreddit),
                     options = { _ -> RedditPresets.entries.map { Option(raw(it.label)) } + Option(text(R.string.wallpaper_reddit_custom)) },
@@ -210,7 +181,29 @@ object WallpaperPages {
         return Page(
             PageIds.WALLPAPER_CONFIGURE, text(R.string.settings_wallpaper), raw(provider?.name ?: env.context.getString(R.string.settings_configure)),
             icon = "build_circle",
-            rows = { rows },
+            rows = { _ -> if (id == WallpaperProviders.REDDIT) listOf(redditAccountRow(env)) + rows else rows },
+        )
+    }
+
+    /**
+     * Reddit's one account button, rebuilt with the login state: *Login* opens the login screen,
+     * *Logout: <account>* asks Cancel / OK before logging out.
+     */
+    private fun redditAccountRow(env: PageEnv): Row {
+        val m = env.container.wallpaper
+        val user = m.redditUser.value ?: return Row.Action(
+            "wp_reddit_login", text(R.string.wp_reddit_login),
+            { env.actions.startActivity(m.redditLoginIntent(env.context)) },
+            icon = "login",
+        )
+        return Row.Expander(
+            "wp_reddit_logout",
+            if (user.isEmpty()) text(R.string.wp_reddit_logout_unknown) else text(R.string.wp_reddit_logout, user),
+            listOf(
+                Row.Action("wp_reddit_logout_cancel", text(R.string.settings_cancel), {}),
+                Row.Action("wp_reddit_logout_ok", text(R.string.settings_ok), { env.container.scope.launch { m.redditLogout() } }),
+            ),
+            icon = "logout",
         )
     }
 

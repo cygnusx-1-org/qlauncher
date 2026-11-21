@@ -35,9 +35,6 @@
 
     <!-- Reddit. -->
     <string name="wallpaper_reddit_custom">[Custom subreddit]</string>
-    <string name="wallpaper_reddit_log_in">Log in to Reddit</string>
-    <string name="wallpaper_reddit_account">u/%1$s</string>
-    <string name="wallpaper_reddit_account_unknown">Logged in</string>
     <string name="wallpaper_reddit_log_out">Log out</string>
     <string name="wallpaper_reddit_login_needed">Log in to Reddit to see wallpapers from it.</string>
     <string name="wallpaper_reddit_login_title">Log in to Reddit</string>

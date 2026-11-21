@@ -31,6 +31,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.text.BasicTextField
@@ -504,48 +505,55 @@ private fun ExpandedList(row: Row, ctx: RowContext, state: GuidedPageState) {
         is Row.Expander -> row.description?.invoke(ctx)?.resolve()
         else -> null
     }
-    Box(Modifier.fillMaxSize()) {
-        Layout(
-            content = {
-                StandardRow(row.title.resolve(), row.badges, header, row.icon, false, true, Trailing.DropUp, "row_" + row.id + "_header")
-            },
-        ) { m, c ->
-            val p = m.first().measure(c.copy(minHeight = 0))
-            layout(c.maxWidth, c.maxHeight) {
-                p.place(0, (GuidedDimens.OptionsTop - GuidedDimens.OptionGap).roundToPx() - p.height)
-            }
+    val listState = rememberLazyListState(initialFirstVisibleItemIndex = (state.optionIndex - 2).coerceAtLeast(0))
+    LaunchedEffect(state.optionIndex) {
+        val info = listState.layoutInfo
+        val visible = info.visibleItemsInfo
+        val first = visible.firstOrNull()?.index ?: 0
+        val last = visible.lastOrNull()?.index ?: 0
+        if (state.optionIndex <= first || state.optionIndex >= last) {
+            listState.animateScrollToItem((state.optionIndex - 2).coerceAtLeast(0))
         }
-        val listState = rememberLazyListState(initialFirstVisibleItemIndex = (state.optionIndex - 2).coerceAtLeast(0))
-        LaunchedEffect(state.optionIndex) {
-            val info = listState.layoutInfo
-            val visible = info.visibleItemsInfo
-            val first = visible.firstOrNull()?.index ?: 0
-            val last = visible.lastOrNull()?.index ?: 0
-            if (state.optionIndex <= first || state.optionIndex >= last) {
-                listState.animateScrollToItem((state.optionIndex - 2).coerceAtLeast(0))
-            }
+    }
+    // The header stays where the row was, centred on the keyline; the options start below it.
+    Layout(
+        content = {
+            StandardRow(row.title.resolve(), row.badges, header, row.icon, false, true, Trailing.DropUp, "row_" + row.id + "_header")
+            ExpandedOptions(labels, listState, state)
+        },
+        modifier = Modifier.fillMaxSize(),
+    ) { m, c ->
+        val head = m[0].measure(c.copy(minHeight = 0))
+        val headTop = (GuidedDimens.KeylineCenter.toPx() - head.height / 2f).roundToInt()
+        val optionsTop = headTop + head.height + GuidedDimens.OptionGap.roundToPx()
+        val options = m[1].measure(c.copy(minHeight = 0, maxHeight = (c.maxHeight - optionsTop).coerceAtLeast(0)))
+        layout(c.maxWidth, c.maxHeight) {
+            head.place(0, headTop)
+            options.place(0, optionsTop)
         }
-        LazyColumn(
-            state = listState,
-            userScrollEnabled = false,
-            modifier = Modifier
-                .padding(top = GuidedDimens.OptionsTop)
-                .fillMaxSize(),
-            contentPadding = PaddingValues(bottom = 24.dp),
-            verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(GuidedDimens.OptionGap),
-        ) {
-            itemsIndexed(labels) { i, (label, enabled) ->
-                GuidedRowFrame(i == state.optionIndex, GuidedDimens.OptionHeight, tag = "option_" + i) {
-                    Text(
-                        label,
-                        color = RowColors.title(i == state.optionIndex, enabled),
-                        style = QTheme.type.rowTitle,
-                        maxLines = 1,
-                        modifier = Modifier
-                            .align(Alignment.CenterStart)
-                            .padding(start = GuidedDimens.OptionTextStart, end = 16.dp),
-                    )
-                }
+    }
+}
+
+@Composable
+private fun ExpandedOptions(labels: List<Pair<String, Boolean>>, listState: LazyListState, state: GuidedPageState) {
+    LazyColumn(
+        state = listState,
+        userScrollEnabled = false,
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(bottom = 24.dp),
+        verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(GuidedDimens.OptionGap),
+    ) {
+        itemsIndexed(labels) { i, (label, enabled) ->
+            GuidedRowFrame(i == state.optionIndex, GuidedDimens.OptionHeight, tag = "option_" + i) {
+                Text(
+                    label,
+                    color = RowColors.title(i == state.optionIndex, enabled),
+                    style = QTheme.type.rowTitle,
+                    maxLines = 1,
+                    modifier = Modifier
+                        .align(Alignment.CenterStart)
+                        .padding(start = GuidedDimens.OptionTextStart, end = 16.dp),
+                )
             }
         }
     }

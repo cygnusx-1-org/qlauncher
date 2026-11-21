@@ -78,9 +78,6 @@ object GuidedDimens {
     val OptionGap = 8.dp
     val OptionTextStart = 8.dp
 
-    /** First option row top: y = 448. */
-    val OptionsTop = 224.dp
-
     /** Left pane. */
     val TileX = 99.dp
     val TileY = 153.dp

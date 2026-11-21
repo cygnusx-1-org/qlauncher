@@ -26,6 +26,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalDensity
 import kotlinx.coroutines.delay
 import kotlin.math.abs
+import kotlin.math.roundToInt
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -170,8 +171,8 @@ fun GuidedPage(
 
 /**
  * An open expander or confirmation (for example *Replace current setup › Cancel / OK*). As on
- * the settings pages and in Projectivy, only its header and its options are shown: the header's
- * bottom 8 px above the options, the first option at y = 448 px. The first option takes focus;
+ * the settings pages, only its header and its options are shown: the header stays where the row
+ * was, centred on the keyline, and the options start 8 px below it. The first option takes focus;
  * when the expansion closes, [returnFocus] gets it back.
  */
 class GuidedExpansion(
@@ -185,35 +186,33 @@ class GuidedExpansion(
 @Composable
 private fun ExpandedPane(e: GuidedExpansion) {
     val first = remember { FocusRequester() }
-    Box(
-        Modifier
+    Layout(
+        content = {
+            GuidedRow(
+                e.title,
+                Modifier.focusProperties { canFocus = false },
+                subtitle = e.subtitle,
+                icon = e.icon,
+                end = RowEnd.ExpandLess,
+            )
+            Column(verticalArrangement = Arrangement.spacedBy(OptionGap)) {
+                e.options.forEachIndexed { i, (label, onClick) ->
+                    GuidedOptionRow(label, if (i == 0) Modifier.focusRequester(first) else Modifier, onClick)
+                }
+            }
+        },
+        modifier = Modifier
             .offset(x = ListStart)
             .width(ListWidth)
             .fillMaxHeight(),
-    ) {
-        Layout(
-            content = {
-                GuidedRow(
-                    e.title,
-                    Modifier.focusProperties { canFocus = false },
-                    subtitle = e.subtitle,
-                    icon = e.icon,
-                    end = RowEnd.ExpandLess,
-                )
-            },
-        ) { m, c ->
-            val p = m.first().measure(c.copy(minHeight = 0))
-            layout(c.maxWidth, c.maxHeight) {
-                p.place(0, (GuidedDimens.OptionsTop - OptionGap).roundToPx() - p.height)
-            }
-        }
-        Column(
-            Modifier.padding(top = GuidedDimens.OptionsTop),
-            verticalArrangement = Arrangement.spacedBy(OptionGap),
-        ) {
-            e.options.forEachIndexed { i, (label, onClick) ->
-                GuidedOptionRow(label, if (i == 0) Modifier.focusRequester(first) else Modifier, onClick)
-            }
+    ) { m, c ->
+        val head = m[0].measure(c.copy(minHeight = 0))
+        val headTop = (GuidedDimens.KeylineCenter.toPx() - head.height / 2f).roundToInt()
+        val optionsTop = headTop + head.height + OptionGap.roundToPx()
+        val options = m[1].measure(c.copy(minHeight = 0, maxHeight = (c.maxHeight - optionsTop).coerceAtLeast(0)))
+        layout(c.maxWidth, c.maxHeight) {
+            head.place(0, headTop)
+            options.place(0, optionsTop)
         }
     }
     LaunchedEffect(e.title) { runCatching { first.requestFocus() } }

@@ -80,14 +80,6 @@ import org.cygnusx1.qlauncher.wallpaper.ui.VideoPositionMemory
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap
 
-/** The outcome of [WallpaperModule.selectProvider]. */
-enum class ProviderSelection {
-    Selected,
-
-    /** Reddit while logged out: start [WallpaperModule.redditLoginIntent] with `selectOnSuccess`. */
-    NeedsRedditLogin,
-}
-
 /**
  * The wallpaper subsystem: providers, the update loop ([controller]), Reddit login state and the
  * per-provider parameters. One instance per process, from `AppContainer.wallpaper`.
@@ -280,17 +272,14 @@ class WallpaperModule(private val container: AppContainer) {
         }
 
     /**
-     * Makes [info] the wallpaper source. Choosing Reddit while logged out changes nothing and
-     * returns [ProviderSelection.NeedsRedditLogin]: start [redditLoginIntent] with
-     * `selectOnSuccess = true`; cancelling the login leaves the previous source selected.
+     * Makes [info] the wallpaper source. Reddit is chosen like any other source; logged out, its
+     * status says so until the *Login* button on its page is used.
      */
-    fun selectProvider(info: ProviderInfo): ProviderSelection {
-        if (info.id == WallpaperProviders.REDDIT && redditUser.value == null) return ProviderSelection.NeedsRedditLogin
+    fun selectProvider(info: ProviderInfo) {
         scope.launch {
             settings.set(Keys.Wallpaper.providerPackage, info.packageName)
             settings.set(Keys.Wallpaper.provider, info.id)
         }
-        return ProviderSelection.Selected
     }
 
     /** The stored parameter of [providerId] (or its default). */
@@ -350,9 +339,8 @@ class WallpaperModule(private val container: AppContainer) {
         params.set(id, text)
     }
 
-    /** The login screen; RESULT_OK when logged in. With [selectOnSuccess], Reddit becomes the source. */
-    fun redditLoginIntent(context: Context, selectOnSuccess: Boolean = false): Intent =
-        RedditLoginActivity.intent(context, selectOnSuccess)
+    /** The login screen; RESULT_OK when logged in. */
+    fun redditLoginIntent(context: Context): Intent = RedditLoginActivity.intent(context)
 
     /** *Log out*: revokes the token, clears WebView cookies, the stored tokens and the cached list. */
     suspend fun redditLogout() {

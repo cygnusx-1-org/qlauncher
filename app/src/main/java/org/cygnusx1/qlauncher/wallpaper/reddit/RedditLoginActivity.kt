@@ -58,8 +58,6 @@ import androidx.tv.material3.Text
 import kotlinx.coroutines.launch
 import org.cygnusx1.qlauncher.R
 import org.cygnusx1.qlauncher.container
-import org.cygnusx1.qlauncher.settings.Keys
-import org.cygnusx1.qlauncher.settings.WallpaperProviders
 import org.cygnusx1.qlauncher.ui.theme.MaterialIcon
 import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
 import org.cygnusx1.qlauncher.ui.theme.QPalette
@@ -257,15 +255,10 @@ class RedditLoginActivity : ComponentActivity() {
     private fun exchange(code: String) {
         phase = Phase.Exchanging
         val module = container.wallpaper
-        val selectOnSuccess = intent.getBooleanExtra(EXTRA_SELECT_ON_SUCCESS, false)
         lifecycleScope.launch {
             when (val result = module.redditApi.exchangeCode(code)) {
                 is TokenResult.Success -> {
                     module.onRedditLoggedIn()
-                    if (selectOnSuccess) {
-                        container.settings.set(Keys.Wallpaper.providerPackage, "")
-                        container.settings.set(Keys.Wallpaper.provider, WallpaperProviders.REDDIT)
-                    }
                     setResult(Activity.RESULT_OK)
                     finish()
                 }
@@ -300,11 +293,9 @@ class RedditLoginActivity : ComponentActivity() {
         /** Reddit's login page is drawn at half size: at 2x density it overflows a 1080p screen. */
         private const val PAGE_SCALE = 0.5f
         private const val KEY_STATE = "oauth_state"
-        private const val EXTRA_SELECT_ON_SUCCESS = "org.cygnusx1.qlauncher.extra.SELECT_REDDIT"
 
-        /** The login screen; with [selectOnSuccess], Reddit becomes the wallpaper source once logged in. */
-        fun intent(context: Context, selectOnSuccess: Boolean = false): Intent =
-            Intent(context, RedditLoginActivity::class.java).putExtra(EXTRA_SELECT_ON_SUCCESS, selectOnSuccess)
+        /** The login screen. Logging in does not change the wallpaper source. */
+        fun intent(context: Context): Intent = Intent(context, RedditLoginActivity::class.java)
     }
 }
 

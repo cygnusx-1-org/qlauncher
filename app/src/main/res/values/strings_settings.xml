@@ -292,8 +292,9 @@
     <!-- Wallpaper › Configure -->
     <string name="wp_category">Category</string>
     <string name="wp_custom_search">Custom search</string>
-    <string name="wp_account">Account</string>
-    <string name="wp_log_out">Log out</string>
+    <string name="wp_reddit_login">Login</string>
+    <string name="wp_reddit_logout">Logout: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Logout</string>
     <string name="wp_subreddit">Subreddit</string>
     <string name="wp_custom_subreddit">Custom subreddit</string>
     <string name="wp_custom_subreddit_hint">Several names separated with +</string>
