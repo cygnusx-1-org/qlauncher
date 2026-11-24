@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">화살표/숫자를 자유롭게 조합하여 입력한 후 확인 버튼으로 확정하세요</string>
+    <string name="system_parental_confirm_code">코드를 다시 입력하고 확인 버튼으로 확정하세요</string>
+    <string name="system_parental_restricted">제한된 액세스\n자녀 보호 코드를 입력하세요</string>
+    <string name="system_parental_wrong_code">잘못된 코드</string>
+    <string name="system_parental_codes_differ">코드가 일치하지 않습니다. 다시 시도하세요</string>
+    <string name="system_parental_code_saved">자녀 보호 코드를 저장했습니다</string>
+    <string name="system_parental_recovery_code">복구 코드: %1$s</string>
+    <string name="system_parental_recovery_help">적어 두세요. 이번 한 번만 표시됩니다. 화살표(1 = ▲, 2 = ▼, 3 = ◄, 4 = ►)로 입력하면 자녀 보호 코드처럼 잠금이 해제됩니다.</string>
+    <string name="system_parental_press_ok">계속하려면 확인을 누르세요</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">리모컨 단축키</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">확인</string>
+    <string name="system_hotkeys_keys_home">홈</string>
+    <string name="system_hotkeys_keys_menu_twice">메뉴 × 2</string>
+    <string name="system_hotkeys_change_input">입력 변경</string>
+    <string name="system_hotkeys_change_profile">디스플레이 프로필 변경</string>
+    <string name="system_hotkeys_start_launcher">QLauncher 시작</string>
+    <string name="system_hotkeys_home">QLauncher 열기, 두 번: 최근 앱</string>
+    <string name="system_hotkeys_close">이 도움말 닫기</string>
+    <string name="system_hotkeys_no_inputs">이 기기에 TV 입력이 없습니다</string>
+    <string name="system_hotkeys_no_picture_manager">로드된 픽처 매니저 없음</string>
+    <string name="system_hotkeys_home_off">꺼짐: “현재 런처 대체” 및 버튼 재매핑 필요</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">사용자 활동이 없어 %1$d초 후 종료됩니다</string>
+    <string name="system_idle_countdown_screen_off">사용자 활동이 없어 %1$d초 후 화면이 꺼집니다</string>
+    <string name="system_idle_countdown_screensaver">사용자 활동이 없어 %1$d초 후 화면 보호기가 시작됩니다</string>
+    <string name="system_idle_countdown_cancel">취소하려면 아무 버튼이나 누르세요</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">이 기기에는 접근성 설정으로 가는 바로가기가 없습니다. Android 설정에서 여세요. 보통 기기 환경설정 › 접근성에 있습니다.</string>
+    <string name="system_notification_access_no_settings">이 기기에는 알림 액세스 화면이 없습니다. 컴퓨터에서 다음 명령으로 액세스 권한을 부여하세요:</string>
+</resources>

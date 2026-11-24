@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versija %1$s</string>
+    <string name="about_copyright">Autorių teisės © 2026 QLauncher bendraautoriai. Laisvoji programinė įranga, platinama pagal GNU General Public License 3 versiją.</string>
+    <string name="about_libs">Bibliotekos / Padėkos</string>
+    <string name="about_links">Nuorodos</string>
+    <string name="about_link_project">Projekto puslapis</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Vertimas į lietuvių kalbą</string>
+    <string name="about_translation_credit">QLauncher bendraautoriai</string>
+    <string name="about_no_browser">Šiame įrenginyje nėra naršyklės. Atidarykite %1$s kitame įrenginyje.</string>
+    <string name="about_check_updates">Patikrinti, ar yra naujinių</string>
+    <string name="about_update_checking">Tikrinama…</string>
+    <string name="about_update_latest">Naudojate naujausią QLauncher versiją (%1$s)</string>
+    <string name="about_update_available">Pasiekiama versija %1$s</string>
+    <string name="about_update_failed">Nepavyko patikrinti: %1$s</string>
+    <string name="about_update_install">Įdiegti QLauncher %1$s</string>
+    <string name="update_available_toast">Pasiekiama QLauncher %1$s: Nustatymai › Apie › QLauncher</string>
+</resources>

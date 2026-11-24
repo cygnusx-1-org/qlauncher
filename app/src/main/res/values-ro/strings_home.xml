@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Se redă acum</string>
+    <string name="home_cat_inputs">Intrări</string>
+    <string name="home_cat_favorites">Favorite</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Muzică</string>
+    <string name="home_cat_games">Jocuri</string>
+    <string name="home_cat_tv_apps">Aplicații TV</string>
+    <string name="home_cat_mobile_apps">Aplicații mobile</string>
+    <string name="home_cat_watch_next">Continuați vizionarea</string>
+    <string name="home_cat_shortcuts">Comenzi rapide</string>
+    <string name="home_cat_folders">Dosare de categorii</string>
+    <string name="home_cat_live_tv">TV în direct</string>
+    <string name="home_cat_settings">Setări</string>
+    <string name="home_cat_display">Afișaj</string>
+    <string name="home_cat_applications">Aplicații</string>
+    <string name="home_cat_system">Sistem</string>
+    <string name="home_cat_about">Despre</string>
+    <string name="home_new_category">Categorie nouă</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Toate aplicațiile</string>
+    <string name="home_action_edit_categories">Editați categoriile</string>
+    <string name="home_action_edit_channels">Editați canalele</string>
+    <string name="home_action_launcher_settings">Setări QLauncher</string>
+    <string name="home_action_android_settings">Setări Android</string>
+    <string name="home_action_amlogic_settings">Setări suplimentare AmLogic</string>
+    <string name="home_action_display_profiles">Profiluri de afișare</string>
+    <string name="home_action_install_apps">Instalați aplicații terțe</string>
+    <string name="home_action_accessibility">Serviciu de accesibilitate</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Schimbați profilul</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Acest dispozitiv</string>
+    <string name="home_action_about_wallpaper">Această imagine de fundal</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Sezonul %1$s</string>
+    <string name="home_episode">Episodul %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Conectivitate</string>
+    <string name="home_status_notifications">Notificări</string>
+    <string name="home_status_settings">Setări</string>
+    <string name="home_status_wallpaper">Această imagine de fundal</string>
+    <string name="home_navigation_menu">Meniu de navigare</string>
+    <string name="home_reorder">Reordonați</string>
+    <string name="home_category_settings">Setări categorie</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Setări aplicație</string>
+    <string name="menu_open">Deschideți</string>
+    <string name="menu_details">Detalii</string>
+    <string name="menu_play_pause">Redare/Pauză</string>
+    <string name="menu_stop">Opriți</string>
+    <string name="menu_previous">Anterior</string>
+    <string name="menu_next">Următor</string>
+    <string name="menu_uninstall">Dezinstalați</string>
+    <string name="menu_launch_on_boot">Lansare la pornire</string>
+    <string name="menu_launch_on_boot_on">Se lansează la pornire</string>
+    <string name="menu_add_parental">Adăugați la controlul parental</string>
+    <string name="menu_remove_parental">Eliminați din controlul parental</string>
+    <string name="menu_shortcuts">Comenzi rapide</string>
+    <string name="menu_appearance">Aspect</string>
+    <string name="menu_title">Titlu</string>
+    <string name="menu_change_icon">Schimbați pictograma</string>
+    <string name="menu_icon_from_picture">Dintr-o imagine</string>
+    <string name="menu_icon_other_location">Altă locație…</string>
+    <string name="menu_icon_no_pictures">Nu s-au găsit imagini. Copiați câteva în Pictures sau Download ori conectați o unitate USB.</string>
+    <string name="menu_icon_reset">Resetați</string>
+    <string name="menu_crop">Decupare pentru umplere</string>
+    <string name="menu_visibility">Vizibilitate</string>
+    <string name="menu_reorder">Reordonați</string>
+    <string name="menu_remove_from">Eliminați din %1$s</string>
+    <string name="menu_hide">Ascundeți</string>
+    <string name="menu_add_to">Adăugați la…</string>
+    <string name="menu_move_to">Mutați în…</string>
+    <string name="menu_channels">Canale</string>
+    <string name="menu_rename_hint">Introduceți un titlu nou și apăsați OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Titlu</string>
+    <string name="editor_change_icon">Schimbați pictograma</string>
+    <string name="editor_visible">Vizibilă</string>
+    <string name="editor_grid">Grilă</string>
+    <string name="editor_sliding_row">Rând glisant</string>
+    <string name="editor_background">Culoare de fundal</string>
+    <string name="editor_show_title">Afișare titlu</string>
+    <string name="editor_size">Dimensiune</string>
+    <string name="editor_advanced">Setări avansate</string>
+    <string name="editor_start_margin">Margine de început</string>
+    <string name="editor_end_margin">Margine de final</string>
+    <string name="editor_top_margin">Margine de sus</string>
+    <string name="editor_cards_per_row">Carduri pe rând</string>
+    <string name="editor_row_count">Număr de rânduri</string>
+    <string name="editor_auto">Automat</string>
+    <string name="editor_auto_value">Automat (%1$s)</string>
+    <string name="editor_sort">Sortare</string>
+    <string name="editor_sort_custom">Personalizată</string>
+    <string name="editor_sort_name">Alfabetic</string>
+    <string name="editor_sort_last">Utilizate recent</string>
+    <string name="editor_sort_most">Utilizate frecvent</string>
+    <string name="editor_sort_random">Aleatorie</string>
+    <string name="editor_set_default">Setați ca implicită</string>
+    <string name="editor_is_default">Categorie implicită</string>
+    <string name="editor_manage_apps">Gestionați aplicațiile</string>
+    <string name="editor_hidden_items">Elemente ascunse</string>
+    <string name="editor_restore">Restabiliți</string>
+    <string name="editor_delete">Ștergeți</string>
+    <string name="editor_delete_confirm">Ștergeți această categorie?</string>
+    <string name="editor_empty_note">Această categorie nu va apărea încă, deoarece este goală</string>
+    <string name="editor_request_notifications">Solicitați permisiunea pentru notificări</string>
+    <string name="editor_channel_error">Acest canal nu mai poate fi citit</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Canale</string>
+    <string name="channels_count">Canale: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Notificări</string>
+    <string name="notifications_clear_all">Ștergeți tot</string>
+    <string name="notifications_empty">Nicio notificare</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Această aplicație nu poate fi deschisă</string>
+    <string name="home_reorder_hint">Folosiți stânga/dreapta pentru a muta, OK sau ÎNAPOI pentru a termina</string>
+    <string name="home_category_reorder_hint">Folosiți sus/jos pentru a muta, OK sau ÎNAPOI pentru a termina</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Bun venit!</string>
+    <string name="firstrun_welcome_text">QLauncher este un lansator pentru Android TV. Vă reunește aplicațiile, canalele și conținutul preferat pe un singur ecran de pornire personalizabil, cu o imagine de fundal care se schimbă în spate.</string>
+    <string name="firstrun_features_title">Noile dvs. superputeri</string>
+    <string name="firstrun_features_text">Lansați o aplicație sau o intrare HDMI la pornire, gestionați profilurile de afișare, blocați aplicații cu controlul parental, afișați modele de calibrare, detectați inactivitatea și personalizați fiecare parte a ecranului de pornire. Unele funcții depind de dispozitiv.</string>
+    <string name="firstrun_a11y_title">Să activăm accesibilitatea</string>
+    <string name="firstrun_a11y_text">Multe funcții au nevoie de serviciul de accesibilitate al QLauncher: înlocuirea lansatorului preinstalat, acțiunile la pornire, gesturile cu butoanele telecomenzii, detectarea inactivității și controlul parental. Îl puteți activa acum sau mai târziu din setări.</string>
+    <string name="firstrun_a11y_open">Deschideți setările de accesibilitate</string>
+    <string name="firstrun_permissions_title">Dacă îmi permiteți…</string>
+    <string name="firstrun_permissions_text">În continuare, QLauncher cere permisiunea de a citi programul TV (pentru canale și „Continuați vizionarea”) și accesul la notificări (pentru pictograma de notificări și „Se redă acum”). Ambele sunt opționale.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">În continuare, QLauncher cere accesul la notificări (pentru pictograma de notificări și „Se redă acum”). Este opțional.</string>
+    <string name="firstrun_notifications_dialog">Permiteți accesul la notificări?</string>
+    <string name="firstrun_notifications_text">Accesul la notificări permite aplicației QLauncher să afișeze numărul de notificări, un panou de notificări și ce se redă. „Da” deschide pagina Acces special pentru aplicații, unde îl acordați.</string>
+    <string name="firstrun_reports_title">Trimiteți rapoarte de erori anonime?</string>
+    <string name="firstrun_reports_text">Dacă QLauncher se blochează sau întâmpină o eroare, poate trimite un raport cu versiunea aplicației și modelul dispozitivului, ca eroarea să poată fi remediată. Nu se trimite nimic care să vă identifice sau să arate ce vizionați. Puteți schimba opțiunea mai târziu în General.</string>
+    <string name="firstrun_launcher_title">Faceți din QLauncher ecranul de pornire</string>
+    <string name="firstrun_launcher_text">Multe dispozitive TV nu vă permit să schimbați lansatorul implicit. Dacă al dvs. permite, alegeți acolo QLauncher. Altfel, activați serviciul de accesibilitate cu „Înlocuire lansator curent”, iar QLauncher va reveni ori de câte ori se deschide lansatorul preinstalat.</string>
+    <string name="firstrun_launcher_open">Schimbați lansatorul implicit</string>
+    <string name="firstrun_start_title">Să începem!</string>
+    <string name="firstrun_start_text">Totul poate fi schimbat mai târziu din setări. Apăsați butonul de setări din dreapta sus sau secvența de taste ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">SĂ ÎNCEPEM</string>
+    <string name="firstrun_next">Înainte</string>
+    <string name="firstrun_skip">Omiteți</string>
+    <string name="firstrun_yes">Da</string>
+    <string name="firstrun_no">Nu</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Niciun economizor de ecran pe acest dispozitiv</string>
+</resources>

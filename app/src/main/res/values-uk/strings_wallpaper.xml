@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Немає</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Динамічні кольори</string>
+    <string name="wallpaper_provider_default">Шпалери за замовчуванням</string>
+    <string name="wallpaper_provider_media_file">Медіафайл</string>
+    <string name="wallpaper_provider_folder">Папка</string>
+    <string name="wallpaper_provider_focused_program">Вибрана програма</string>
+    <string name="wallpaper_provider_now_playing">Зараз грає</string>
+    <string name="wallpaper_provider_random_program">Випадкова програма</string>
+    <string name="wallpaper_provider_theme">Тема</string>
+    <string name="wallpaper_provider_unknown_plugin">Плагін</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Шпалери</string>
+    <string name="wallpaper_wikimedia_nature">Природа</string>
+    <string name="wallpaper_wikimedia_landscapes">Пейзажі</string>
+    <string name="wallpaper_wikimedia_mountains">Гори</string>
+    <string name="wallpaper_wikimedia_forests">Ліси</string>
+    <string name="wallpaper_wikimedia_cities">Міста</string>
+    <string name="wallpaper_wikimedia_architecture">Архітектура</string>
+    <string name="wallpaper_wikimedia_night">Ніч</string>
+    <string name="wallpaper_wikimedia_space">Космос</string>
+    <string name="wallpaper_wikimedia_animals">Тварини</string>
+    <string name="wallpaper_wikimedia_custom">[Власний пошук]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Власний сабреддит]</string>
+    <string name="wallpaper_reddit_log_out">Вийти</string>
+    <string name="wallpaper_reddit_login_needed">Увійдіть у Reddit, щоб бачити шпалери звідти.</string>
+    <string name="wallpaper_reddit_login_title">Вхід у Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Вхід…</string>
+    <string name="wallpaper_reddit_login_denied">Доступ до Reddit не надано, тому шпалери з Reddit недоступні.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Відповідь Reddit не відповідає цій спробі входу й була проігнорована. Спробуйте ще раз.</string>
+    <string name="wallpaper_reddit_login_failed">Не вдалося увійти в Reddit (%1$s). Спробуйте пізніше.</string>
+    <string name="wallpaper_reddit_login_network">Не вдається з’єднатися з Reddit. Перевірте підключення до мережі й спробуйте ще раз.</string>
+    <string name="wallpaper_reddit_login_page_error">Не вдалося завантажити сторінку входу Reddit. Перевірте підключення до мережі й спробуйте ще раз.</string>
+    <string name="wallpaper_reddit_no_webview">На цьому пристрої немає компонента веббраузера (Android System WebView), потрібного для входу в Reddit. Установіть або ввімкніть Android System WebView і спробуйте ще раз.</string>
+    <string name="wallpaper_reddit_retry">Спробувати ще раз</string>
+    <string name="wallpaper_reddit_close">Закрити</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Немає з’єднання з джерелом шпалер.</string>
+    <string name="wallpaper_error_server">Джерело шпалер повернуло помилку.</string>
+    <string name="wallpaper_error_rate_limited">Джерело шпалер попросило зачекати перед наступним запитом.</string>
+    <string name="wallpaper_error_generic">Не вдалося завантажити шпалери.</string>
+    <string name="wallpaper_error_no_media">Не вибрано ні зображення, ні відео, ні кольору.</string>
+    <string name="wallpaper_error_no_folder">Папку не вибрано.</string>
+    <string name="wallpaper_error_folder_access">Не вдається прочитати папку. Виберіть її знову.</string>
+    <string name="wallpaper_error_folder_empty">У папці немає зображень, відео чи анімацій Lottie.</string>
+    <string name="wallpaper_error_theme_empty">У поточній темі немає шпалер.</string>
+    <string name="wallpaper_error_no_channels">Канали недоступні. Увімкніть їх і дозвольте доступ до телепрограми.</string>
+    <string name="wallpaper_error_no_notification_access">Для «Зараз грає» потрібен доступ до сповіщень.</string>
+    <string name="wallpaper_error_no_subreddit">Не задано дійсного сабреддиту.</string>
+    <string name="wallpaper_error_plugin">Плагін шпалер не відповів.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Шпалери встановлено</string>
+    <string name="wallpaper_set_failed">Цей файл не можна використати як шпалери.</string>
+</resources>

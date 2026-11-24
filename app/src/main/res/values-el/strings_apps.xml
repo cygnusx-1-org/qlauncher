@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Ακύρωση</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Όλες οι εφαρμογές</string>
+    <string name="apps_action_edit_categories">Επεξεργασία κατηγοριών</string>
+    <string name="apps_action_edit_channels">Επεξεργασία καναλιών</string>
+    <string name="apps_action_launcher_settings">Ρυθμίσεις QLauncher</string>
+    <string name="apps_action_android_settings">Ρυθμίσεις Android</string>
+    <string name="apps_action_amlogic_settings">Πρόσθετες ρυθμίσεις AmLogic</string>
+    <string name="apps_action_display_profiles">Προφίλ οθόνης</string>
+    <string name="apps_action_install_apps">Εγκατάσταση εφαρμογών τρίτων</string>
+    <string name="apps_action_accessibility_service">Υπηρεσία προσβασιμότητας</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Εναλλαγή προφίλ</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Αυτή η συσκευή</string>
+    <string name="apps_action_about_wallpaper">Αυτή η ταπετσαρία</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Καμία</string>
+    <string name="apps_autostart_screensaver">Προφύλαξη οθόνης</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Κανάλια</string>
+    <string name="apps_channels_watch_next">Συνέχεια παρακολούθησης</string>
+    <string name="apps_channels_unreadable">Αυτό το κανάλι δεν μπορεί πλέον να διαβαστεί</string>
+    <string name="apps_channels_hidden">Κρυμμένο από το σύστημα</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d κανάλι</item>
+        <item quantity="other">%d κανάλια</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Εφαρμογή πακέτου εικονιδίων</string>
+    <string name="apps_iconpack_apply_message">Χρήση του %1$s για τα εικονίδια των εφαρμογών σας;</string>
+    <string name="apps_iconpack_apply_confirm">Εφαρμογή</string>
+    <string name="apps_iconpack_applied">Το πακέτο εικονιδίων εφαρμόστηκε</string>
+    <string name="apps_iconpack_apply_missing">Δεν ορίστηκε πακέτο εικονιδίων</string>
+    <string name="apps_iconpack_apply_not_a_pack">Αυτή η εφαρμογή δεν είναι πακέτο εικονιδίων</string>
+    <string name="apps_iconpack_none">Κανένα</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Προσθήκη συντόμευσης</string>
+    <string name="apps_pin_shortcut_message">Προσθήκη του «%1$s» από το %2$s στην κατηγορία Συντομεύσεις;</string>
+    <string name="apps_pin_shortcut_confirm">Προσθήκη</string>
+    <string name="apps_pin_shortcut_added">Η συντόμευση προστέθηκε</string>
+    <string name="apps_pin_shortcut_failed">Δεν ήταν δυνατή η προσθήκη της συντόμευσης</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Εγκατάσταση εφαρμογών τρίτων</string>
+    <string name="apps_install_description">Επιλέξτε μια εφαρμογή για εγκατάσταση. Ίσως χρειαστεί πρώτα να επιτρέψετε την εγκατάσταση από άγνωστες πηγές.</string>
+    <string name="apps_install_custom_url">Προσαρμοσμένο URL / Κωδικός Downloader</string>
+    <string name="apps_install_custom_url_desc">Βεβαιωθείτε ότι χρησιμοποιείτε αξιόπιστη πηγή</string>
+    <string name="apps_install_choose_method">Επιλέξτε μέθοδο εγκατάστασης</string>
+    <string name="apps_install_installed">Εγκατεστημένη</string>
+    <string name="apps_install_category_wallpaper_plugin">Πρόσθετο ταπετσαρίας</string>
+    <string name="apps_install_category_icon_pack">Πακέτο εικονιδίων</string>
+    <string name="apps_install_category_file_manager">Διαχείριση αρχείων</string>
+    <string name="apps_install_category_tool">Εργαλείο</string>
+    <string name="apps_install_method_store">Κατάστημα</string>
+    <string name="apps_install_method_direct">Απευθείας λήψη</string>
+    <string name="apps_install_method_downloader">Εφαρμογή Downloader</string>
+    <string name="apps_install_state_downloading">Λήψη %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Λήψη %1$s…</string>
+    <string name="apps_install_state_installing">Εγκατάσταση %1$s…</string>
+    <string name="apps_install_state_confirm">Επιβεβαιώστε την εγκατάσταση του %1$s</string>
+    <string name="apps_install_state_success">Το %1$s εγκαταστάθηκε</string>
+    <string name="apps_install_state_unknown_sources">Επιτρέψτε στο QLauncher να εγκαθιστά εφαρμογές και επιστρέψτε για να συνεχίσετε</string>
+    <string name="apps_install_state_downloader_sent">Ο κωδικός %1$s στάλθηκε στο Downloader</string>
+    <string name="apps_install_state_downloader_type">Εισαγάγετε τον κωδικό %1$s στο Downloader</string>
+    <string name="apps_install_state_store">Άνοιξε στο κατάστημα</string>
+    <string name="apps_install_state_browser">Αυτός ο σύνδεσμος είναι ιστοσελίδα· άνοιξε στο πρόγραμμα περιήγησης</string>
+    <string name="apps_install_fail_invalid">Αυτό δεν είναι URL ή κωδικός Downloader</string>
+    <string name="apps_install_fail_no_usb">Δεν βρέθηκε μονάδα USB</string>
+    <string name="apps_install_fail_archive">Τα συμπιεσμένα αρχεία δεν μπορούν να εγκατασταθούν</string>
+    <string name="apps_install_fail_network">Η λήψη απέτυχε</string>
+    <string name="apps_install_fail_http">Ο διακομιστής απάντησε με σφάλμα (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Το αρχείο δεν είναι εφαρμογή (APK)</string>
+    <string name="apps_install_fail_unreadable">Το αρχείο δεν μπορεί να διαβαστεί</string>
+    <string name="apps_install_fail_install">Η εγκατάσταση απέτυχε</string>
+    <string name="apps_install_fail_cancelled">Η εγκατάσταση ακυρώθηκε</string>
+    <string name="apps_install_fail_unknown_sources">Το QLauncher δεν επιτρέπεται να εγκαθιστά εφαρμογές</string>
+    <string name="apps_install_fail_downloader">Η εφαρμογή Downloader δεν είναι εγκατεστημένη</string>
+    <string name="apps_install_fail_store">Δεν υπάρχει διαθέσιμο κατάστημα εφαρμογών</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Αυτή η συσκευή</string>
+    <string name="apps_device_brand_manufacturer">Μάρκα / Κατασκευαστής</string>
+    <string name="apps_device_device_product">Συσκευή / Προϊόν</string>
+    <string name="apps_device_model">Μοντέλο</string>
+    <string name="apps_device_hardware">Υλικό</string>
+    <string name="apps_device_fingerprint">Αποτύπωμα</string>
+    <string name="apps_device_build">Αριθμός έκδοσης</string>
+    <string name="apps_device_build_desc">Περιγρ. έκδοσης</string>
+    <string name="apps_device_device_type">Τύπος συσκευής</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Διεύθυνση IP</string>
+    <string name="apps_device_root_access">Πρόσβαση root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Χωρίς διαχειριστή εικόνας</string>
+    <string name="apps_device_id">Αναγνωριστικό</string>
+    <string name="apps_device_yes">Ναι</string>
+    <string name="apps_device_no">Όχι</string>
+</resources>

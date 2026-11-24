@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">نسخه %1$s</string>
+    <string name="about_copyright">حق نشر © ۲۰۲۶ مشارکت‌کنندگان QLauncher. نرم‌افزار آزاد تحت مجوز GNU General Public License، نسخه ۳.</string>
+    <string name="about_libs">کتابخانه‌ها / سپاسگزاری</string>
+    <string name="about_links">پیوندها</string>
+    <string name="about_link_project">صفحه پروژه</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">ترجمه فارسی</string>
+    <string name="about_translation_credit">مشارکت‌کنندگان QLauncher</string>
+    <string name="about_no_browser">مرورگری روی این دستگاه نیست. %1$s را روی دستگاه دیگری باز کنید.</string>
+    <string name="about_check_updates">بررسی به‌روزرسانی</string>
+    <string name="about_update_checking">در حال بررسی…</string>
+    <string name="about_update_latest">نسخه QLauncher به‌روز است (%1$s)</string>
+    <string name="about_update_available">نسخه %1$s در دسترس است</string>
+    <string name="about_update_failed">بررسی ممکن نشد: %1$s</string>
+    <string name="about_update_install">نصب QLauncher %1$s</string>
+    <string name="update_available_toast">نسخه %1$s از QLauncher در دسترس است: تنظیمات › درباره › QLauncher</string>
+</resources>

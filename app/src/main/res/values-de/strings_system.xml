@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Geben Sie eine beliebige Kombination aus Pfeilen/Ziffern ein und bestätigen Sie mit OK</string>
+    <string name="system_parental_confirm_code">Geben Sie den Code erneut ein und bestätigen Sie mit OK</string>
+    <string name="system_parental_restricted">Eingeschränkter Zugriff\nBitte geben Sie den Kindersicherungscode ein</string>
+    <string name="system_parental_wrong_code">Falscher Code</string>
+    <string name="system_parental_codes_differ">Die Codes stimmen nicht überein, bitte versuchen Sie es erneut</string>
+    <string name="system_parental_code_saved">Kindersicherungscode gespeichert</string>
+    <string name="system_parental_recovery_code">Wiederherstellungscode: %1$s</string>
+    <string name="system_parental_recovery_help">Notieren Sie ihn: Er wird nur dieses eine Mal angezeigt. Mit den Pfeilen eingegeben (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) entsperrt er wie der Kindersicherungscode.</string>
+    <string name="system_parental_press_ok">Drücken Sie OK, um fortzufahren</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Tastenkürzel der Fernbedienung</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Home-Taste</string>
+    <string name="system_hotkeys_keys_menu_twice">Menü × 2</string>
+    <string name="system_hotkeys_change_input">Eingang wechseln</string>
+    <string name="system_hotkeys_change_profile">Anzeigeprofil wechseln</string>
+    <string name="system_hotkeys_start_launcher">QLauncher starten</string>
+    <string name="system_hotkeys_home">QLauncher öffnen; zweimal: zuletzt verwendete Apps</string>
+    <string name="system_hotkeys_close">Diese Hilfe schließen</string>
+    <string name="system_hotkeys_no_inputs">Keine TV-Eingänge auf diesem Gerät</string>
+    <string name="system_hotkeys_no_picture_manager">Kein Bildmanager geladen</string>
+    <string name="system_hotkeys_home_off">Aus: erfordert „Aktuellen Launcher ersetzen“ und Tastenneubelegung</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Inaktivität erkannt, Ausschalten in %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Inaktivität erkannt, Bildschirm aus in %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Inaktivität erkannt, Bildschirmschoner in %1$d s</string>
+    <string name="system_idle_countdown_cancel">Zum Abbrechen beliebige Taste drücken</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Dieses Gerät hat keine Verknüpfung zu den Einstellungen für Bedienungshilfen. Öffnen Sie sie über die Android-Einstellungen, meist unter Geräteeinstellungen › Bedienungshilfen.</string>
+    <string name="system_notification_access_no_settings">Dieses Gerät hat keinen Bildschirm für den Benachrichtigungszugriff. Erteilen Sie den Zugriff von einem Computer aus mit:</string>
+</resources>

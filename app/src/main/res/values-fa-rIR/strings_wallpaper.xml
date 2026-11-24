@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">هیچ‌کدام</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">رنگ‌های پویا</string>
+    <string name="wallpaper_provider_default">کاغذدیواری پیش‌فرض</string>
+    <string name="wallpaper_provider_media_file">فایل رسانه</string>
+    <string name="wallpaper_provider_folder">پوشه</string>
+    <string name="wallpaper_provider_focused_program">برنامه تلویزیونی انتخاب‌شده</string>
+    <string name="wallpaper_provider_now_playing">در حال پخش</string>
+    <string name="wallpaper_provider_random_program">برنامه تلویزیونی تصادفی</string>
+    <string name="wallpaper_provider_theme">تم</string>
+    <string name="wallpaper_provider_unknown_plugin">افزونه</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">کاغذدیواری‌ها</string>
+    <string name="wallpaper_wikimedia_nature">طبیعت</string>
+    <string name="wallpaper_wikimedia_landscapes">مناظر</string>
+    <string name="wallpaper_wikimedia_mountains">کوه‌ها</string>
+    <string name="wallpaper_wikimedia_forests">جنگل‌ها</string>
+    <string name="wallpaper_wikimedia_cities">شهرها</string>
+    <string name="wallpaper_wikimedia_architecture">معماری</string>
+    <string name="wallpaper_wikimedia_night">شب</string>
+    <string name="wallpaper_wikimedia_space">فضا</string>
+    <string name="wallpaper_wikimedia_animals">حیوانات</string>
+    <string name="wallpaper_wikimedia_custom">[جستجوی سفارشی]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[انجمن سفارشی]</string>
+    <string name="wallpaper_reddit_log_out">خروج از حساب</string>
+    <string name="wallpaper_reddit_login_needed">برای دیدن کاغذدیواری‌های Reddit، وارد آن شوید.</string>
+    <string name="wallpaper_reddit_login_title">ورود به Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">در حال ورود…</string>
+    <string name="wallpaper_reddit_login_denied">اجازه دسترسی به Reddit داده نشد، بنابراین کاغذدیواری‌های Reddit در دسترس نخواهند بود.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">پاسخ Reddit با این تلاش برای ورود مطابقت نداشت و نادیده گرفته شد. لطفاً دوباره تلاش کنید.</string>
+    <string name="wallpaper_reddit_login_failed">ورود به Reddit ناموفق بود (%1$s). لطفاً بعداً دوباره تلاش کنید.</string>
+    <string name="wallpaper_reddit_login_network">دسترسی به Reddit ممکن نشد. اتصال شبکه را بررسی و دوباره تلاش کنید.</string>
+    <string name="wallpaper_reddit_login_page_error">صفحه ورود Reddit بارگذاری نشد. اتصال شبکه را بررسی و دوباره تلاش کنید.</string>
+    <string name="wallpaper_reddit_no_webview">این دستگاه مؤلفه مرورگر وب (Android System WebView) را که ورود به Reddit به آن نیاز دارد، ندارد. Android System WebView را نصب یا فعال کنید و دوباره تلاش کنید.</string>
+    <string name="wallpaper_reddit_retry">تلاش دوباره</string>
+    <string name="wallpaper_reddit_close">بستن</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">اتصالی به منبع کاغذدیواری وجود ندارد.</string>
+    <string name="wallpaper_error_server">منبع کاغذدیواری با خطا پاسخ داد.</string>
+    <string name="wallpaper_error_rate_limited">منبع کاغذدیواری درخواست کرد پیش از درخواست بعدی صبر کنید.</string>
+    <string name="wallpaper_error_generic">کاغذدیواری‌ها بارگذاری نشدند.</string>
+    <string name="wallpaper_error_no_media">هیچ تصویر، ویدیو یا رنگی انتخاب نشده است.</string>
+    <string name="wallpaper_error_no_folder">هیچ پوشه‌ای انتخاب نشده است.</string>
+    <string name="wallpaper_error_folder_access">پوشه قابل خواندن نیست. دوباره آن را انتخاب کنید.</string>
+    <string name="wallpaper_error_folder_empty">این پوشه هیچ تصویر، ویدیو یا پویانمایی Lottie ندارد.</string>
+    <string name="wallpaper_error_theme_empty">تم فعلی هیچ کاغذدیواری ندارد.</string>
+    <string name="wallpaper_error_no_channels">کانال‌ها در دسترس نیستند. آن‌ها را فعال کنید و اجازه دسترسی به فهرست برنامه‌های تلویزیون را بدهید.</string>
+    <string name="wallpaper_error_no_notification_access">«در حال پخش» به دسترسی به اعلان نیاز دارد.</string>
+    <string name="wallpaper_error_no_subreddit">هیچ انجمن Reddit معتبری تنظیم نشده است.</string>
+    <string name="wallpaper_error_plugin">افزونه کاغذدیواری پاسخ نداد.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">کاغذدیواری تنظیم شد</string>
+    <string name="wallpaper_set_failed">از این فایل نمی‌توان به‌عنوان کاغذدیواری استفاده کرد.</string>
+</resources>

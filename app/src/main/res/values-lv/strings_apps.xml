@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Atcelt</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Visas lietotnes</string>
+    <string name="apps_action_edit_categories">Labot kategorijas</string>
+    <string name="apps_action_edit_channels">Labot kanālus</string>
+    <string name="apps_action_launcher_settings">QLauncher iestatījumi</string>
+    <string name="apps_action_android_settings">Android iestatījumi</string>
+    <string name="apps_action_amlogic_settings">AmLogic papildu iestatījumi</string>
+    <string name="apps_action_display_profiles">Displeja profili</string>
+    <string name="apps_action_install_apps">Instalēt trešo pušu lietotnes</string>
+    <string name="apps_action_accessibility_service">Pieejamības pakalpojums</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Pārslēgt profilu</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Šī ierīce</string>
+    <string name="apps_action_about_wallpaper">Šī fona tapete</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Nav</string>
+    <string name="apps_autostart_screensaver">Ekrānsaudzētājs</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanāli</string>
+    <string name="apps_channels_watch_next">Skatīties tālāk</string>
+    <string name="apps_channels_unreadable">Šo kanālu vairs nevar nolasīt</string>
+    <string name="apps_channels_hidden">Paslēpusi sistēma</string>
+    <plurals name="apps_channel_count">
+        <item quantity="zero">%d kanāli</item>
+        <item quantity="one">%d kanāls</item>
+        <item quantity="other">%d kanāli</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Lietot ikonu komplektu</string>
+    <string name="apps_iconpack_apply_message">Vai izmantot %1$s jūsu lietotņu ikonām?</string>
+    <string name="apps_iconpack_apply_confirm">Lietot</string>
+    <string name="apps_iconpack_applied">Ikonu komplekts lietots</string>
+    <string name="apps_iconpack_apply_missing">Netika norādīts ikonu komplekts</string>
+    <string name="apps_iconpack_apply_not_a_pack">Šī lietotne nav ikonu komplekts</string>
+    <string name="apps_iconpack_none">Nav</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Pievienot saīsni</string>
+    <string name="apps_pin_shortcut_message">Vai pievienot „%1$s“ no %2$s kategorijai Saīsnes?</string>
+    <string name="apps_pin_shortcut_confirm">Pievienot</string>
+    <string name="apps_pin_shortcut_added">Saīsne pievienota</string>
+    <string name="apps_pin_shortcut_failed">Saīsni nevarēja pievienot</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Instalēt trešo pušu lietotnes</string>
+    <string name="apps_install_description">Izvēlieties instalējamo lietotni. Pirms instalēšanas, iespējams, būs jāatļauj instalēšana no nezināmiem avotiem.</string>
+    <string name="apps_install_custom_url">Pielāgots URL / Downloader kods</string>
+    <string name="apps_install_custom_url_desc">Noteikti izmantojiet uzticamu avotu</string>
+    <string name="apps_install_choose_method">Izvēlieties instalēšanas veidu</string>
+    <string name="apps_install_installed">Instalēta</string>
+    <string name="apps_install_category_wallpaper_plugin">Fona tapetes spraudnis</string>
+    <string name="apps_install_category_icon_pack">Ikonu komplekts</string>
+    <string name="apps_install_category_file_manager">Failu pārvaldnieks</string>
+    <string name="apps_install_category_tool">Rīks</string>
+    <string name="apps_install_method_store">Veikals</string>
+    <string name="apps_install_method_direct">Tieša lejupielāde</string>
+    <string name="apps_install_method_downloader">Lietotne Downloader</string>
+    <string name="apps_install_state_downloading">Lejupielādē %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Lejupielādē %1$s…</string>
+    <string name="apps_install_state_installing">Instalē %1$s…</string>
+    <string name="apps_install_state_confirm">Apstipriniet %1$s instalēšanu</string>
+    <string name="apps_install_state_success">%1$s instalēta</string>
+    <string name="apps_install_state_unknown_sources">Atļaujiet QLauncher instalēt lietotnes un tad atgriezieties, lai turpinātu</string>
+    <string name="apps_install_state_downloader_sent">Kods %1$s nosūtīts uz Downloader</string>
+    <string name="apps_install_state_downloader_type">Ievadiet kodu %1$s lietotnē Downloader</string>
+    <string name="apps_install_state_store">Atvērts veikalā</string>
+    <string name="apps_install_state_browser">Šī saite ir tīmekļa lapa; tā tika atvērta pārlūkā</string>
+    <string name="apps_install_fail_invalid">Tas nav ne URL, ne Downloader kods</string>
+    <string name="apps_install_fail_no_usb">Nav atrasts USB disks</string>
+    <string name="apps_install_fail_archive">Arhīvus nevar instalēt</string>
+    <string name="apps_install_fail_network">Lejupielāde neizdevās</string>
+    <string name="apps_install_fail_http">Serveris atbildēja ar kļūdu (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Fails nav lietotne (APK)</string>
+    <string name="apps_install_fail_unreadable">Failu nevar nolasīt</string>
+    <string name="apps_install_fail_install">Instalēšana neizdevās</string>
+    <string name="apps_install_fail_cancelled">Instalēšana tika atcelta</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher nav atļauts instalēt lietotnes</string>
+    <string name="apps_install_fail_downloader">Lietotne Downloader nav instalēta</string>
+    <string name="apps_install_fail_store">Nav pieejams neviens lietotņu veikals</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Šī ierīce</string>
+    <string name="apps_device_brand_manufacturer">Zīmols / ražotājs</string>
+    <string name="apps_device_device_product">Ierīce / produkts</string>
+    <string name="apps_device_model">Modelis</string>
+    <string name="apps_device_hardware">Aparatūra</string>
+    <string name="apps_device_fingerprint">Pirkstu nospiedums</string>
+    <string name="apps_device_build">Būvējums</string>
+    <string name="apps_device_build_desc">Būvējuma apr.</string>
+    <string name="apps_device_device_type">Ierīces veids</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP adrese</string>
+    <string name="apps_device_root_access">Root piekļuve</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Nav attēla pārvaldnieka</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Jā</string>
+    <string name="apps_device_no">Nē</string>
+</resources>

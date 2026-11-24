@@ -66,16 +66,19 @@ import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.layout.Layout
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.Text
 import kotlinx.coroutines.delay
 import org.cygnusx1.qlauncher.settings.ColorKey
 import org.cygnusx1.qlauncher.settings.SettingsRepository
 import org.cygnusx1.qlauncher.ui.components.StepSlider
+import org.cygnusx1.qlauncher.ui.components.dpadStep
 import org.cygnusx1.qlauncher.ui.settings.model.LeftPane
 import org.cygnusx1.qlauncher.ui.settings.model.Page
 import org.cygnusx1.qlauncher.ui.settings.model.Row
@@ -129,6 +132,7 @@ fun GuidedPage(
     }
     val fr = remember { FocusRequester() }
     val context = LocalContext.current
+    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
 
     LaunchedEffect(active, state.editingId) {
         if (active && (state.editingId == null || focusables.firstOrNull { it.id == state.editingId } !is Row.TextEntry)) {
@@ -218,8 +222,10 @@ fun GuidedPage(
                 val d = if (e.key == Key.DirectionUp) -1 else 1
                 state.timeWheels = TimeEditing.spin(wheels, state.timeWheel, d)
             }
-            Key.DirectionLeft -> if (e.type == KeyEventType.KeyDown) state.timeWheel = (state.timeWheel - 1).coerceAtLeast(0)
-            Key.DirectionRight -> if (e.type == KeyEventType.KeyDown) state.timeWheel = (state.timeWheel + 1).coerceAtMost(wheels.size - 1)
+            // The wheels sit in a Row, which mirrors in RTL, so the next wheel is to the left there.
+            Key.DirectionLeft, Key.DirectionRight -> if (e.type == KeyEventType.KeyDown) {
+                state.timeWheel = (state.timeWheel + dpadStep(e.key == Key.DirectionRight, rtl)).coerceAtMost(wheels.size - 1).coerceAtLeast(0)
+            }
             Key.DirectionCenter, Key.Enter, Key.NumPadEnter -> if (e.type == KeyEventType.KeyUp) {
                 repo.update(row.key, TimeEditing.join(wheels, row.timeOfDay))
                 state.editingId = null
@@ -242,7 +248,7 @@ fun GuidedPage(
             Key.DirectionLeft, Key.DirectionRight -> {
                 val row = focused
                 if (down && row is Row.Slider && row.enabled(ctx)) {
-                    SliderValues.step(row, repo, if (e.key == Key.DirectionRight) 1 else -1)
+                    SliderValues.step(row, repo, dpadStep(e.key == Key.DirectionRight, rtl))
                     // The bubble shows the value even when the slider is already at its end.
                     state.bubbleId = row.id
                     state.bubbleStamp = System.nanoTime()

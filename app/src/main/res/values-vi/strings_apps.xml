@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Hủy</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Tất cả ứng dụng</string>
+    <string name="apps_action_edit_categories">Chỉnh sửa danh mục</string>
+    <string name="apps_action_edit_channels">Chỉnh sửa kênh</string>
+    <string name="apps_action_launcher_settings">Cài đặt QLauncher</string>
+    <string name="apps_action_android_settings">Cài đặt Android</string>
+    <string name="apps_action_amlogic_settings">Cài đặt bổ sung của AmLogic</string>
+    <string name="apps_action_display_profiles">Cấu hình hiển thị</string>
+    <string name="apps_action_install_apps">Cài đặt ứng dụng bên thứ ba</string>
+    <string name="apps_action_accessibility_service">Dịch vụ hỗ trợ tiếp cận</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Chuyển cấu hình</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Thiết bị này</string>
+    <string name="apps_action_about_wallpaper">Hình nền này</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Không có</string>
+    <string name="apps_autostart_screensaver">Trình bảo vệ màn hình</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kênh</string>
+    <string name="apps_channels_watch_next">Xem tiếp</string>
+    <string name="apps_channels_unreadable">Không thể đọc kênh này nữa</string>
+    <string name="apps_channels_hidden">Bị hệ thống ẩn</string>
+    <plurals name="apps_channel_count">
+        <item quantity="other">%d kênh</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Áp dụng gói biểu tượng</string>
+    <string name="apps_iconpack_apply_message">Dùng %1$s cho biểu tượng các ứng dụng của bạn?</string>
+    <string name="apps_iconpack_apply_confirm">Áp dụng</string>
+    <string name="apps_iconpack_applied">Đã áp dụng gói biểu tượng</string>
+    <string name="apps_iconpack_apply_missing">Chưa chỉ định gói biểu tượng nào</string>
+    <string name="apps_iconpack_apply_not_a_pack">Ứng dụng này không phải là gói biểu tượng</string>
+    <string name="apps_iconpack_none">Không có</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Thêm lối tắt</string>
+    <string name="apps_pin_shortcut_message">Thêm “%1$s” từ %2$s vào danh mục Lối tắt?</string>
+    <string name="apps_pin_shortcut_confirm">Thêm</string>
+    <string name="apps_pin_shortcut_added">Đã thêm lối tắt</string>
+    <string name="apps_pin_shortcut_failed">Không thể thêm lối tắt</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Cài đặt ứng dụng bên thứ ba</string>
+    <string name="apps_install_description">Vui lòng chọn một ứng dụng để cài đặt. Bạn có thể cần cho phép cài đặt từ nguồn không xác định trước khi cài đặt.</string>
+    <string name="apps_install_custom_url">URL tùy chỉnh / Mã Downloader</string>
+    <string name="apps_install_custom_url_desc">Hãy đảm bảo dùng nguồn đáng tin cậy</string>
+    <string name="apps_install_choose_method">Chọn phương thức cài đặt</string>
+    <string name="apps_install_installed">Đã cài đặt</string>
+    <string name="apps_install_category_wallpaper_plugin">Plugin hình nền</string>
+    <string name="apps_install_category_icon_pack">Gói biểu tượng</string>
+    <string name="apps_install_category_file_manager">Trình quản lý tệp</string>
+    <string name="apps_install_category_tool">Công cụ</string>
+    <string name="apps_install_method_store">Cửa hàng</string>
+    <string name="apps_install_method_direct">Tải xuống trực tiếp</string>
+    <string name="apps_install_method_downloader">Ứng dụng Downloader</string>
+    <string name="apps_install_state_downloading">Đang tải xuống %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Đang tải xuống %1$s…</string>
+    <string name="apps_install_state_installing">Đang cài đặt %1$s…</string>
+    <string name="apps_install_state_confirm">Xác nhận cài đặt %1$s</string>
+    <string name="apps_install_state_success">Đã cài đặt %1$s</string>
+    <string name="apps_install_state_unknown_sources">Hãy cho phép QLauncher cài đặt ứng dụng, rồi quay lại để tiếp tục</string>
+    <string name="apps_install_state_downloader_sent">Đã gửi mã %1$s tới Downloader</string>
+    <string name="apps_install_state_downloader_type">Nhập mã %1$s trong Downloader</string>
+    <string name="apps_install_state_store">Đã mở trong cửa hàng</string>
+    <string name="apps_install_state_browser">Liên kết này là một trang web; đã mở trong trình duyệt</string>
+    <string name="apps_install_fail_invalid">Đây không phải là URL hoặc mã Downloader</string>
+    <string name="apps_install_fail_no_usb">Không tìm thấy ổ USB</string>
+    <string name="apps_install_fail_archive">Không thể cài đặt tệp nén</string>
+    <string name="apps_install_fail_network">Tải xuống không thành công</string>
+    <string name="apps_install_fail_http">Máy chủ trả về lỗi (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Tệp này không phải là ứng dụng (APK)</string>
+    <string name="apps_install_fail_unreadable">Không thể đọc tệp</string>
+    <string name="apps_install_fail_install">Cài đặt không thành công</string>
+    <string name="apps_install_fail_cancelled">Đã hủy cài đặt</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher không được phép cài đặt ứng dụng</string>
+    <string name="apps_install_fail_downloader">Chưa cài đặt ứng dụng Downloader</string>
+    <string name="apps_install_fail_store">Không có cửa hàng ứng dụng nào</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Thiết bị này</string>
+    <string name="apps_device_brand_manufacturer">Thương hiệu / Nhà sản xuất</string>
+    <string name="apps_device_device_product">Thiết bị / Sản phẩm</string>
+    <string name="apps_device_model">Kiểu máy</string>
+    <string name="apps_device_hardware">Phần cứng</string>
+    <string name="apps_device_fingerprint">Vân tay bản dựng</string>
+    <string name="apps_device_build">Bản dựng</string>
+    <string name="apps_device_build_desc">Mô tả bản dựng</string>
+    <string name="apps_device_device_type">Loại thiết bị</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Địa chỉ IP</string>
+    <string name="apps_device_root_access">Quyền root</string>
+    <string name="apps_device_pm_info">Thông tin trình quản lý hình ảnh</string>
+    <string name="apps_device_pm_none">Không có trình quản lý hình ảnh</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Có</string>
+    <string name="apps_device_no">Không</string>
+</resources>

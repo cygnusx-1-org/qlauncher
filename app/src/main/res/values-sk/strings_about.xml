@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Verzia %1$s</string>
+    <string name="about_copyright">Copyright © 2026 prispievatelia QLaunchera. Slobodný softvér pod licenciou GNU General Public License, verzia 3.</string>
+    <string name="about_libs">Knižnice / Poďakovanie</string>
+    <string name="about_links">Odkazy</string>
+    <string name="about_link_project">Stránka projektu</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Preklad do slovenčiny</string>
+    <string name="about_translation_credit">Prispievatelia QLaunchera</string>
+    <string name="about_no_browser">V tomto zariadení nie je žiadny prehliadač. Otvorte %1$s v inom zariadení.</string>
+    <string name="about_check_updates">Skontrolovať aktualizácie</string>
+    <string name="about_update_checking">Kontroluje sa…</string>
+    <string name="about_update_latest">QLauncher je aktuálny (%1$s)</string>
+    <string name="about_update_available">K dispozícii je verzia %1$s</string>
+    <string name="about_update_failed">Kontrola zlyhala: %1$s</string>
+    <string name="about_update_install">Nainštalovať QLauncher %1$s</string>
+    <string name="update_available_toast">K dispozícii je QLauncher %1$s: Nastavenia › Informácie › QLauncher</string>
+</resources>

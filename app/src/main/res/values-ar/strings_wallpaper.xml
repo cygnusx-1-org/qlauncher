@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">بلا</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">ألوان ديناميكية</string>
+    <string name="wallpaper_provider_default">الخلفية الافتراضية</string>
+    <string name="wallpaper_provider_media_file">ملف وسائط</string>
+    <string name="wallpaper_provider_folder">مجلد</string>
+    <string name="wallpaper_provider_focused_program">البرنامج المحدَّد</string>
+    <string name="wallpaper_provider_now_playing">قيد التشغيل الآن</string>
+    <string name="wallpaper_provider_random_program">برنامج عشوائي</string>
+    <string name="wallpaper_provider_theme">السمة</string>
+    <string name="wallpaper_provider_unknown_plugin">مكوّن إضافي</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">خلفيات</string>
+    <string name="wallpaper_wikimedia_nature">الطبيعة</string>
+    <string name="wallpaper_wikimedia_landscapes">المناظر الطبيعية</string>
+    <string name="wallpaper_wikimedia_mountains">الجبال</string>
+    <string name="wallpaper_wikimedia_forests">الغابات</string>
+    <string name="wallpaper_wikimedia_cities">المدن</string>
+    <string name="wallpaper_wikimedia_architecture">العمارة</string>
+    <string name="wallpaper_wikimedia_night">الليل</string>
+    <string name="wallpaper_wikimedia_space">الفضاء</string>
+    <string name="wallpaper_wikimedia_animals">الحيوانات</string>
+    <string name="wallpaper_wikimedia_custom">[بحث مخصّص]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[مجتمع Reddit مخصّص]</string>
+    <string name="wallpaper_reddit_log_out">تسجيل الخروج</string>
+    <string name="wallpaper_reddit_login_needed">سجّل الدخول إلى Reddit لعرض الخلفيات منه.</string>
+    <string name="wallpaper_reddit_login_title">تسجيل الدخول إلى Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">جارٍ تسجيل الدخول…</string>
+    <string name="wallpaper_reddit_login_denied">لم يُمنح الوصول إلى Reddit، لذا تبقى خلفيات Reddit غير متاحة.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">لم يتطابق الرد من Reddit مع محاولة تسجيل الدخول هذه، فتم تجاهله. يُرجى المحاولة مرة أخرى.</string>
+    <string name="wallpaper_reddit_login_failed">فشل تسجيل الدخول إلى Reddit (%1$s). يُرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="wallpaper_reddit_login_network">تعذّر الوصول إلى Reddit. تحقّق من الاتصال بالشبكة وحاول مرة أخرى.</string>
+    <string name="wallpaper_reddit_login_page_error">تعذّر تحميل صفحة تسجيل الدخول إلى Reddit. تحقّق من الاتصال بالشبكة وحاول مرة أخرى.</string>
+    <string name="wallpaper_reddit_no_webview">لا يحتوي هذا الجهاز على مكوّن متصفح الويب (Android System WebView) الذي يحتاجه تسجيل الدخول إلى Reddit. ثبّت Android System WebView أو فعّله وحاول مرة أخرى.</string>
+    <string name="wallpaper_reddit_retry">إعادة المحاولة</string>
+    <string name="wallpaper_reddit_close">إغلاق</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">لا يوجد اتصال بمصدر الخلفيات.</string>
+    <string name="wallpaper_error_server">ردّ مصدر الخلفيات بخطأ.</string>
+    <string name="wallpaper_error_rate_limited">طلب مصدر الخلفيات الانتظار قبل الطلب التالي.</string>
+    <string name="wallpaper_error_generic">تعذّر تحميل الخلفيات.</string>
+    <string name="wallpaper_error_no_media">لم يتم اختيار صورة أو فيديو أو لون.</string>
+    <string name="wallpaper_error_no_folder">لم يتم اختيار مجلد.</string>
+    <string name="wallpaper_error_folder_access">لا يمكن قراءة المجلد. اختره مرة أخرى.</string>
+    <string name="wallpaper_error_folder_empty">لا يحتوي المجلد على صور أو فيديوهات أو رسوم Lottie متحركة.</string>
+    <string name="wallpaper_error_theme_empty">لا تحتوي السمة الحالية على خلفيات.</string>
+    <string name="wallpaper_error_no_channels">القنوات غير متاحة. فعّلها واسمح بالوصول إلى قوائم برامج التلفزيون.</string>
+    <string name="wallpaper_error_no_notification_access">تحتاج ميزة «قيد التشغيل الآن» إلى الوصول إلى الإشعارات.</string>
+    <string name="wallpaper_error_no_subreddit">لم يتم تعيين مجتمع Reddit صالح.</string>
+    <string name="wallpaper_error_plugin">لم يستجب المكوّن الإضافي للخلفية.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">تم تعيين الخلفية</string>
+    <string name="wallpaper_set_failed">لا يمكن استخدام هذا الملف كخلفية.</string>
+</resources>

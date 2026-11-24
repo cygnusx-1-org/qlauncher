@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Po luhet tani</string>
+    <string name="home_cat_inputs">Hyrjet</string>
+    <string name="home_cat_favorites">Të preferuarat</string>
+    <string name="home_cat_video">Videot</string>
+    <string name="home_cat_music">Muzika</string>
+    <string name="home_cat_games">Lojërat</string>
+    <string name="home_cat_tv_apps">Aplikacionet TV</string>
+    <string name="home_cat_mobile_apps">Aplikacionet celulare</string>
+    <string name="home_cat_watch_next">Vazhdo shikimin</string>
+    <string name="home_cat_shortcuts">Shkurtoret</string>
+    <string name="home_cat_folders">Dosjet e kategorive</string>
+    <string name="home_cat_live_tv">TV drejtpërdrejt</string>
+    <string name="home_cat_settings">Cilësimet</string>
+    <string name="home_cat_display">Ekrani</string>
+    <string name="home_cat_applications">Aplikacionet</string>
+    <string name="home_cat_system">Sistemi</string>
+    <string name="home_cat_about">Rreth</string>
+    <string name="home_new_category">Kategori e re</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Të gjitha aplikacionet</string>
+    <string name="home_action_edit_categories">Modifiko kategoritë</string>
+    <string name="home_action_edit_channels">Modifiko kanalet</string>
+    <string name="home_action_launcher_settings">Cilësimet e QLauncher</string>
+    <string name="home_action_android_settings">Cilësimet e Android</string>
+    <string name="home_action_amlogic_settings">Cilësime shtesë AmLogic</string>
+    <string name="home_action_display_profiles">Profilet e ekranit</string>
+    <string name="home_action_install_apps">Instalo aplikacione të palëve të treta</string>
+    <string name="home_action_accessibility">Shërbimi i qasshmërisë</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Ndërro profilin</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Kjo pajisje</string>
+    <string name="home_action_about_wallpaper">Ky imazh sfondi</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Sezoni %1$s</string>
+    <string name="home_episode">Episodi %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Lidhshmëria</string>
+    <string name="home_status_notifications">Njoftimet</string>
+    <string name="home_status_settings">Cilësimet</string>
+    <string name="home_status_wallpaper">Ky imazh sfondi</string>
+    <string name="home_navigation_menu">Menyja e navigimit</string>
+    <string name="home_reorder">Rirendit</string>
+    <string name="home_category_settings">Cilësimet e kategorisë</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Cilësimet e aplikacionit</string>
+    <string name="menu_open">Hap</string>
+    <string name="menu_details">Detajet</string>
+    <string name="menu_play_pause">Luaj/Pauzë</string>
+    <string name="menu_stop">Ndalo</string>
+    <string name="menu_previous">E mëparshmja</string>
+    <string name="menu_next">Tjetra</string>
+    <string name="menu_uninstall">Çinstalo</string>
+    <string name="menu_launch_on_boot">Hap gjatë nisjes</string>
+    <string name="menu_launch_on_boot_on">Hapet gjatë nisjes</string>
+    <string name="menu_add_parental">Shto në kontrollin prindëror</string>
+    <string name="menu_remove_parental">Hiq nga kontrolli prindëror</string>
+    <string name="menu_shortcuts">Shkurtoret</string>
+    <string name="menu_appearance">Pamja</string>
+    <string name="menu_title">Titulli</string>
+    <string name="menu_change_icon">Ndrysho ikonën</string>
+    <string name="menu_icon_from_picture">Nga një foto</string>
+    <string name="menu_icon_other_location">Vendndodhje tjetër…</string>
+    <string name="menu_icon_no_pictures">Nuk u gjet asnjë foto. Kopjo disa te Pictures ose Download, ose fut një njësi USB.</string>
+    <string name="menu_icon_reset">Rivendos</string>
+    <string name="menu_crop">Prit për ta mbushur</string>
+    <string name="menu_visibility">Dukshmëria</string>
+    <string name="menu_reorder">Rirendit</string>
+    <string name="menu_remove_from">Hiq nga %1$s</string>
+    <string name="menu_hide">Fshih</string>
+    <string name="menu_add_to">Shto te…</string>
+    <string name="menu_move_to">Zhvendos te…</string>
+    <string name="menu_channels">Kanalet</string>
+    <string name="menu_rename_hint">Shkruaj një titull të ri dhe shtyp OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Titulli</string>
+    <string name="editor_change_icon">Ndrysho ikonën</string>
+    <string name="editor_visible">E dukshme</string>
+    <string name="editor_grid">Rrjetë</string>
+    <string name="editor_sliding_row">Rresht rrëshqitës</string>
+    <string name="editor_background">Ngjyra e sfondit</string>
+    <string name="editor_show_title">Shfaq titullin</string>
+    <string name="editor_size">Madhësia</string>
+    <string name="editor_advanced">Cilësimet e përparuara</string>
+    <string name="editor_start_margin">Kufiri në fillim</string>
+    <string name="editor_end_margin">Kufiri në fund</string>
+    <string name="editor_top_margin">Kufiri i sipërm</string>
+    <string name="editor_cards_per_row">Karta për rresht</string>
+    <string name="editor_row_count">Numri i rreshtave</string>
+    <string name="editor_auto">Automatik</string>
+    <string name="editor_auto_value">Automatik (%1$s)</string>
+    <string name="editor_sort">Renditja</string>
+    <string name="editor_sort_custom">E personalizuar</string>
+    <string name="editor_sort_name">Alfabetikisht</string>
+    <string name="editor_sort_last">Përdorur së fundi</string>
+    <string name="editor_sort_most">Përdorur shpesh</string>
+    <string name="editor_sort_random">Rastësore</string>
+    <string name="editor_set_default">Cakto si të parazgjedhur</string>
+    <string name="editor_is_default">Kategoria e parazgjedhur</string>
+    <string name="editor_manage_apps">Menaxho aplikacionet</string>
+    <string name="editor_hidden_items">Elementet e fshehura</string>
+    <string name="editor_restore">Rikthe</string>
+    <string name="editor_delete">Fshi</string>
+    <string name="editor_delete_confirm">Të fshihet kjo kategori?</string>
+    <string name="editor_empty_note">Kjo kategori nuk do të shfaqet ende, sepse është bosh</string>
+    <string name="editor_request_notifications">Kërko lejen e njoftimeve</string>
+    <string name="editor_channel_error">Ky kanal nuk mund të lexohet më</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanalet</string>
+    <string name="channels_count">%1$d kanale</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Njoftimet</string>
+    <string name="notifications_clear_all">Pastroji të gjitha</string>
+    <string name="notifications_empty">Nuk ka njoftime</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Ky aplikacion nuk mund të hapet</string>
+    <string name="home_reorder_hint">Përdor majtas/djathtas për ta lëvizur, OK ose PRAPA për të përfunduar</string>
+    <string name="home_category_reorder_hint">Përdor lart/poshtë për ta lëvizur, OK ose PRAPA për të përfunduar</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Mirë se erdhe!</string>
+    <string name="firstrun_welcome_text">QLauncher është një lëshues për Android TV. I vendos aplikacionet, kanalet dhe përmbajtjen tënde të preferuar në një ekran bazë të personalizueshëm, me një imazh sfondi që ndërrohet pas tyre.</string>
+    <string name="firstrun_features_title">Superfuqitë e tua të reja</string>
+    <string name="firstrun_features_text">Nis një aplikacion ose një hyrje HDMI gjatë nisjes, menaxho profilet e ekranit, kyç aplikacione me kontrollin prindëror, shfaq modele kalibrimi, zbulo pasivitetin dhe personalizo çdo pjesë të ekranit bazë. Disa veçori varen nga pajisja jote.</string>
+    <string name="firstrun_a11y_title">Le ta bëjmë të qasshëm</string>
+    <string name="firstrun_a11y_text">Shumë veçori kanë nevojë për shërbimin e qasshmërisë të QLauncher: zëvendësimin e lëshuesit origjinal, veprimet gjatë nisjes, gjestet me butonat e telekomandës, zbulimin e pasivitetit dhe kontrollin prindëror. Mund ta aktivizosh tani ose më vonë nga cilësimet.</string>
+    <string name="firstrun_a11y_open">Hap cilësimet e qasshmërisë</string>
+    <string name="firstrun_permissions_title">Nëse më lejon…</string>
+    <string name="firstrun_permissions_text">Më pas, QLauncher kërkon leje për të lexuar programin televiziv (për kanalet dhe „Vazhdo shikimin“) dhe qasje te njoftimet (për ikonën e njoftimeve dhe „Po luhet tani“). Të dyja janë opsionale.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Më pas, QLauncher kërkon qasje te njoftimet (për ikonën e njoftimeve dhe „Po luhet tani“). Është opsionale.</string>
+    <string name="firstrun_notifications_dialog">Të lejohet qasja te njoftimet?</string>
+    <string name="firstrun_notifications_text">Qasja te njoftimet i lejon QLauncher të shfaqë numrin e njoftimeve, një panel njoftimesh dhe atë që po luhet. „Po“ hap faqen „Qasja e veçantë e aplikacioneve“, ku e jep atë.</string>
+    <string name="firstrun_reports_title">Të dërgohen raporte anonime për gabimet?</string>
+    <string name="firstrun_reports_text">Nëse QLauncher ndërpritet papritur ose has një gabim, mund të dërgojë një raport me versionin e aplikacionit dhe modelin e pajisjes, që defekti të rregullohet. Nuk dërgohet asgjë që të identifikon ty ose atë që shikon. Mund ta ndryshosh më vonë te „Të përgjithshme“.</string>
+    <string name="firstrun_launcher_title">Bëje QLauncher ekranin tënd bazë</string>
+    <string name="firstrun_launcher_text">Shumë pajisje TV nuk të lejojnë ta ndryshosh lëshuesin e parazgjedhur. Nëse e jotja e lejon, zgjidh atje QLauncher. Përndryshe aktivizo shërbimin e qasshmërisë me „Zëvendëso lëshuesin aktual“ dhe QLauncher do të rikthehet sa herë që hapet lëshuesi origjinal.</string>
+    <string name="firstrun_launcher_open">Ndrysho lëshuesin e parazgjedhur</string>
+    <string name="firstrun_start_title">Koha për të filluar!</string>
+    <string name="firstrun_start_text">Gjithçka mund të ndryshohet më vonë nga cilësimet. Shtyp butonin e cilësimeve lart djathtas ose sekuencën e butonave ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">FILLO</string>
+    <string name="firstrun_next">Tjetër</string>
+    <string name="firstrun_skip">Kapërce</string>
+    <string name="firstrun_yes">Po</string>
+    <string name="firstrun_no">Jo</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Nuk ka mbrojtës ekrani në këtë pajisje</string>
+</resources>

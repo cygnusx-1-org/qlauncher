@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">قيد التشغيل الآن</string>
+    <string name="home_cat_inputs">مصادر الإدخال</string>
+    <string name="home_cat_favorites">المفضّلة</string>
+    <string name="home_cat_video">فيديو</string>
+    <string name="home_cat_music">موسيقى</string>
+    <string name="home_cat_games">ألعاب</string>
+    <string name="home_cat_tv_apps">تطبيقات التلفزيون</string>
+    <string name="home_cat_mobile_apps">تطبيقات الجوّال</string>
+    <string name="home_cat_watch_next">متابعة المشاهدة</string>
+    <string name="home_cat_shortcuts">الاختصارات</string>
+    <string name="home_cat_folders">مجلدات الفئات</string>
+    <string name="home_cat_live_tv">التلفزيون المباشر</string>
+    <string name="home_cat_settings">الإعدادات</string>
+    <string name="home_cat_display">الشاشة</string>
+    <string name="home_cat_applications">التطبيقات</string>
+    <string name="home_cat_system">النظام</string>
+    <string name="home_cat_about">حول</string>
+    <string name="home_new_category">فئة جديدة</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">كل التطبيقات</string>
+    <string name="home_action_edit_categories">تعديل الفئات</string>
+    <string name="home_action_edit_channels">تعديل القنوات</string>
+    <string name="home_action_launcher_settings">إعدادات QLauncher</string>
+    <string name="home_action_android_settings">إعدادات Android</string>
+    <string name="home_action_amlogic_settings">إعدادات AmLogic الإضافية</string>
+    <string name="home_action_display_profiles">ملفات تعريف العرض</string>
+    <string name="home_action_install_apps">تثبيت تطبيقات خارجية</string>
+    <string name="home_action_accessibility">خدمة سهولة الاستخدام</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">تبديل الملف الشخصي</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">هذا الجهاز</string>
+    <string name="home_action_about_wallpaper">هذه الخلفية</string>
+
+    <!-- Program meta -->
+    <string name="home_season">الموسم %1$s</string>
+    <string name="home_episode">الحلقة %1$s</string>
+    <string name="home_minutes">%1$d د</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">الاتصال</string>
+    <string name="home_status_notifications">الإشعارات</string>
+    <string name="home_status_settings">الإعدادات</string>
+    <string name="home_status_wallpaper">هذه الخلفية</string>
+    <string name="home_navigation_menu">قائمة التنقل</string>
+    <string name="home_reorder">إعادة الترتيب</string>
+    <string name="home_category_settings">إعدادات الفئة</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">إعدادات التطبيق</string>
+    <string name="menu_open">فتح</string>
+    <string name="menu_details">التفاصيل</string>
+    <string name="menu_play_pause">تشغيل/إيقاف مؤقت</string>
+    <string name="menu_stop">إيقاف</string>
+    <string name="menu_previous">السابق</string>
+    <string name="menu_next">التالي</string>
+    <string name="menu_uninstall">إلغاء التثبيت</string>
+    <string name="menu_launch_on_boot">الفتح عند بدء التشغيل</string>
+    <string name="menu_launch_on_boot_on">يُفتح عند بدء التشغيل</string>
+    <string name="menu_add_parental">إضافة إلى الرقابة الأبوية</string>
+    <string name="menu_remove_parental">إزالة من الرقابة الأبوية</string>
+    <string name="menu_shortcuts">الاختصارات</string>
+    <string name="menu_appearance">المظهر</string>
+    <string name="menu_title">العنوان</string>
+    <string name="menu_change_icon">تغيير الأيقونة</string>
+    <string name="menu_icon_from_picture">من صورة</string>
+    <string name="menu_icon_other_location">موقع آخر…</string>
+    <string name="menu_icon_no_pictures">لم يُعثر على صور. انسخ بعضها إلى Pictures أو Download، أو وصّل محرك USB.</string>
+    <string name="menu_icon_reset">إعادة الضبط</string>
+    <string name="menu_crop">اقتصاص لملء المساحة</string>
+    <string name="menu_visibility">الظهور</string>
+    <string name="menu_reorder">إعادة الترتيب</string>
+    <string name="menu_remove_from">إزالة من %1$s</string>
+    <string name="menu_hide">إخفاء</string>
+    <string name="menu_add_to">إضافة إلى…</string>
+    <string name="menu_move_to">نقل إلى…</string>
+    <string name="menu_channels">القنوات</string>
+    <string name="menu_rename_hint">اكتب عنوانًا جديدًا واضغط على OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">العنوان</string>
+    <string name="editor_change_icon">تغيير الأيقونة</string>
+    <string name="editor_visible">مرئية</string>
+    <string name="editor_grid">شبكة</string>
+    <string name="editor_sliding_row">صف منزلق</string>
+    <string name="editor_background">لون الخلفية</string>
+    <string name="editor_show_title">إظهار العنوان</string>
+    <string name="editor_size">الحجم</string>
+    <string name="editor_advanced">إعدادات متقدّمة</string>
+    <string name="editor_start_margin">هامش البداية</string>
+    <string name="editor_end_margin">هامش النهاية</string>
+    <string name="editor_top_margin">الهامش العلوي</string>
+    <string name="editor_cards_per_row">البطاقات في كل صف</string>
+    <string name="editor_row_count">عدد الصفوف</string>
+    <string name="editor_auto">تلقائي</string>
+    <string name="editor_auto_value">تلقائي (%1$s)</string>
+    <string name="editor_sort">الترتيب</string>
+    <string name="editor_sort_custom">مخصّص</string>
+    <string name="editor_sort_name">أبجديًا</string>
+    <string name="editor_sort_last">آخر استخدام</string>
+    <string name="editor_sort_most">الأكثر استخدامًا</string>
+    <string name="editor_sort_random">عشوائي</string>
+    <string name="editor_set_default">تعيين كفئة افتراضية</string>
+    <string name="editor_is_default">الفئة الافتراضية</string>
+    <string name="editor_manage_apps">إدارة التطبيقات</string>
+    <string name="editor_hidden_items">العناصر المخفية</string>
+    <string name="editor_restore">استعادة</string>
+    <string name="editor_delete">حذف</string>
+    <string name="editor_delete_confirm">هل تريد حذف هذه الفئة؟</string>
+    <string name="editor_empty_note">لن تظهر هذه الفئة بعد لأنها فارغة</string>
+    <string name="editor_request_notifications">طلب إذن الإشعارات</string>
+    <string name="editor_channel_error">لم يعد من الممكن قراءة هذه القناة</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">القنوات</string>
+    <string name="channels_count">القنوات: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">الإشعارات</string>
+    <string name="notifications_clear_all">محو الكل</string>
+    <string name="notifications_empty">لا توجد إشعارات</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">لا يمكن فتح هذا التطبيق</string>
+    <string name="home_reorder_hint">استخدم يسار/يمين للنقل، وOK أو رجوع للإنهاء</string>
+    <string name="home_category_reorder_hint">استخدم أعلى/أسفل للنقل، وOK أو رجوع للإنهاء</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">مرحبًا!</string>
+    <string name="firstrun_welcome_text">يُعدّ QLauncher مشغّل تطبيقات لنظام Android TV. يجمع تطبيقاتك وقنواتك ومحتواك المفضّل في شاشة رئيسية واحدة قابلة للتخصيص، مع خلفية متغيّرة خلفها.</string>
+    <string name="firstrun_features_title">قدراتك الخارقة الجديدة</string>
+    <string name="firstrun_features_text">شغّل تطبيقًا أو مدخل HDMI عند بدء التشغيل، وأدِر ملفات تعريف العرض، واقفل التطبيقات بالرقابة الأبوية، واعرض أنماط المعايرة، وارصد فترات الخمول، وخصّص كل جزء من الشاشة الرئيسية. تعتمد بعض الميزات على جهازك.</string>
+    <string name="firstrun_a11y_title">لنفعّل سهولة الاستخدام</string>
+    <string name="firstrun_a11y_text">تحتاج ميزات كثيرة إلى خدمة سهولة الاستخدام في QLauncher: استبدال مشغّل التطبيقات الأصلي، والإجراءات عند بدء التشغيل، وإيماءات أزرار جهاز التحكم عن بُعد، ورصد الخمول، والرقابة الأبوية. يمكنك تفعيلها الآن أو لاحقًا من الإعدادات.</string>
+    <string name="firstrun_a11y_open">فتح إعدادات سهولة الاستخدام</string>
+    <string name="firstrun_permissions_title">إذا سمحت…</string>
+    <string name="firstrun_permissions_text">بعد ذلك، يطلب QLauncher إذنًا لقراءة قوائم برامج التلفزيون (للقنوات و«متابعة المشاهدة») وللوصول إلى الإشعارات (لأيقونة الإشعارات و«قيد التشغيل الآن»). كلاهما اختياري.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">بعد ذلك، يطلب QLauncher الوصول إلى الإشعارات (لأيقونة الإشعارات و«قيد التشغيل الآن»). هذا اختياري.</string>
+    <string name="firstrun_notifications_dialog">هل تريد السماح بالوصول إلى الإشعارات؟</string>
+    <string name="firstrun_notifications_text">يتيح الوصول إلى الإشعارات لـ QLauncher عرض عدد الإشعارات ولوحة الإشعارات وما يتم تشغيله. يفتح «نعم» صفحة الوصول الخاص للتطبيقات حيث يمكنك منحه.</string>
+    <string name="firstrun_reports_title">هل تريد إرسال تقارير مجهولة الهوية عن الأعطال والأخطاء؟</string>
+    <string name="firstrun_reports_text">إذا تعطّل QLauncher أو واجه خطأً، يمكنه إرسال تقرير يتضمن إصدار التطبيق وطراز الجهاز لإصلاح الخلل. لا يُرسل أي شيء يكشف هويتك أو ما تشاهده. يمكنك تغيير ذلك لاحقًا من «عام».</string>
+    <string name="firstrun_launcher_title">اجعل QLauncher شاشتك الرئيسية</string>
+    <string name="firstrun_launcher_text">لا تسمح كثير من أجهزة التلفزيون بتغيير مشغّل التطبيقات الافتراضي. إذا كان جهازك يسمح بذلك، فاختر QLauncher هناك. وإلا ففعّل خدمة سهولة الاستخدام مع «تجاوز مشغّل التطبيقات الحالي»، وسيعود QLauncher كلما فُتح مشغّل التطبيقات الأصلي.</string>
+    <string name="firstrun_launcher_open">تغيير مشغّل التطبيقات الافتراضي</string>
+    <string name="firstrun_start_title">حان وقت البدء!</string>
+    <string name="firstrun_start_text">يمكن تغيير كل شيء لاحقًا من الإعدادات. اضغط على زر الإعدادات في أعلى اليمين، أو على تسلسل المفاتيح ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">لنبدأ</string>
+    <string name="firstrun_next">التالي</string>
+    <string name="firstrun_skip">تخطٍّ</string>
+    <string name="firstrun_yes">نعم</string>
+    <string name="firstrun_no">لا</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">لا توجد شاشة توقف على هذا الجهاز</string>
+</resources>

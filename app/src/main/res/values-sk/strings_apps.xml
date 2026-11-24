@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Zrušiť</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Všetky aplikácie</string>
+    <string name="apps_action_edit_categories">Upraviť kategórie</string>
+    <string name="apps_action_edit_channels">Upraviť kanály</string>
+    <string name="apps_action_launcher_settings">Nastavenia QLaunchera</string>
+    <string name="apps_action_android_settings">Nastavenia Androidu</string>
+    <string name="apps_action_amlogic_settings">Ďalšie nastavenia AmLogic</string>
+    <string name="apps_action_display_profiles">Profily zobrazenia</string>
+    <string name="apps_action_install_apps">Inštalovať aplikácie tretích strán</string>
+    <string name="apps_action_accessibility_service">Služba dostupnosti</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Prepnúť profil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Toto zariadenie</string>
+    <string name="apps_action_about_wallpaper">Táto tapeta</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Nič</string>
+    <string name="apps_autostart_screensaver">Šetrič obrazovky</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanály</string>
+    <string name="apps_channels_watch_next">Pokračovať v pozeraní</string>
+    <string name="apps_channels_unreadable">Tento kanál sa už nedá načítať</string>
+    <string name="apps_channels_hidden">Skryté systémom</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanál</item>
+        <item quantity="few">%d kanály</item>
+        <item quantity="many">%d kanála</item>
+        <item quantity="other">%d kanálov</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Použiť balík ikon</string>
+    <string name="apps_iconpack_apply_message">Použiť %1$s na ikony vašich aplikácií?</string>
+    <string name="apps_iconpack_apply_confirm">Použiť</string>
+    <string name="apps_iconpack_applied">Balík ikon bol použitý</string>
+    <string name="apps_iconpack_apply_missing">Nebol zadaný žiadny balík ikon</string>
+    <string name="apps_iconpack_apply_not_a_pack">Táto aplikácia nie je balík ikon</string>
+    <string name="apps_iconpack_none">Žiadny</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Pridať skratku</string>
+    <string name="apps_pin_shortcut_message">Pridať „%1$s“ z aplikácie %2$s do kategórie Skratky?</string>
+    <string name="apps_pin_shortcut_confirm">Pridať</string>
+    <string name="apps_pin_shortcut_added">Skratka bola pridaná</string>
+    <string name="apps_pin_shortcut_failed">Skratku sa nepodarilo pridať</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Inštalovať aplikácie tretích strán</string>
+    <string name="apps_install_description">Vyberte aplikáciu na inštaláciu. Pred inštaláciou možno budete musieť povoliť inštaláciu z neznámych zdrojov.</string>
+    <string name="apps_install_custom_url">Vlastná URL / kód pre Downloader</string>
+    <string name="apps_install_custom_url_desc">Používajte iba dôveryhodný zdroj</string>
+    <string name="apps_install_choose_method">Vyberte spôsob inštalácie</string>
+    <string name="apps_install_installed">Nainštalované</string>
+    <string name="apps_install_category_wallpaper_plugin">Doplnok tapiet</string>
+    <string name="apps_install_category_icon_pack">Balík ikon</string>
+    <string name="apps_install_category_file_manager">Správca súborov</string>
+    <string name="apps_install_category_tool">Nástroj</string>
+    <string name="apps_install_method_store">Obchod</string>
+    <string name="apps_install_method_direct">Priame stiahnutie</string>
+    <string name="apps_install_method_downloader">Aplikácia Downloader</string>
+    <string name="apps_install_state_downloading">Sťahuje sa %1$s… %2$d %%</string>
+    <string name="apps_install_state_downloading_unknown">Sťahuje sa %1$s…</string>
+    <string name="apps_install_state_installing">Inštaluje sa %1$s…</string>
+    <string name="apps_install_state_confirm">Potvrďte inštaláciu aplikácie %1$s</string>
+    <string name="apps_install_state_success">Aplikácia %1$s bola nainštalovaná</string>
+    <string name="apps_install_state_unknown_sources">Povoľte QLauncheru inštalovať aplikácie, potom sa vráťte a pokračujte</string>
+    <string name="apps_install_state_downloader_sent">Kód %1$s bol odoslaný do Downloadera</string>
+    <string name="apps_install_state_downloader_type">Zadajte kód %1$s v Downloaderi</string>
+    <string name="apps_install_state_store">Otvorené v obchode</string>
+    <string name="apps_install_state_browser">Tento odkaz je webová stránka, preto sa otvoril v prehliadači</string>
+    <string name="apps_install_fail_invalid">Toto nie je URL ani kód pre Downloader</string>
+    <string name="apps_install_fail_no_usb">Nenašiel sa žiadny disk USB</string>
+    <string name="apps_install_fail_archive">Archívy sa nedajú inštalovať</string>
+    <string name="apps_install_fail_network">Sťahovanie zlyhalo</string>
+    <string name="apps_install_fail_http">Server odpovedal chybou (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Súbor nie je aplikácia (APK)</string>
+    <string name="apps_install_fail_unreadable">Súbor sa nedá prečítať</string>
+    <string name="apps_install_fail_install">Inštalácia zlyhala</string>
+    <string name="apps_install_fail_cancelled">Inštalácia bola zrušená</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher nemá povolenie inštalovať aplikácie</string>
+    <string name="apps_install_fail_downloader">Aplikácia Downloader nie je nainštalovaná</string>
+    <string name="apps_install_fail_store">Nie je k dispozícii žiadny obchod s aplikáciami</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Toto zariadenie</string>
+    <string name="apps_device_brand_manufacturer">Značka / Výrobca</string>
+    <string name="apps_device_device_product">Zariadenie / Produkt</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Hardvér</string>
+    <string name="apps_device_fingerprint">Odtlačok</string>
+    <string name="apps_device_build">Zostava</string>
+    <string name="apps_device_build_desc">Popis zostavy</string>
+    <string name="apps_device_device_type">Typ zariadenia</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Adresa IP</string>
+    <string name="apps_device_root_access">Prístup root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Žiadny správca obrazu</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Áno</string>
+    <string name="apps_device_no">Nie</string>
+</resources>

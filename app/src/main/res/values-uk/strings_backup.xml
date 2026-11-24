@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">За замовчуванням</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">жирний</string>
+    <string name="backup_clock_markup_italic">курсив</string>
+    <string name="backup_clock_markup_underline">підкреслений</string>
+    <string name="backup_clock_markup_strikethrough">закреслений</string>
+    <string name="backup_clock_markup_subscript">нижній індекс</string>
+    <string name="backup_clock_markup_superscript">верхній індекс</string>
+    <string name="backup_clock_markup_half_size">половинний розмір</string>
+    <string name="backup_clock_markup_one_and_a_half_size">у півтора раза</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Відсікання чорного</string>
+    <string name="backup_pattern_apl_clipping">Відсікання APL</string>
+    <string name="backup_pattern_white_clipping">Відсікання білого</string>
+    <string name="backup_pattern_grayscale_ramp">Градієнт сірого</string>
+    <string name="backup_pattern_grayscale_steps">Сходинки сірого</string>
+    <string name="backup_pattern_dynamic_brightness">Динамічна яскравість</string>
+    <string name="backup_pattern_color_steps">Кольорові сходинки</string>
+    <string name="backup_pattern_color_clipping">Відсікання кольору</string>
+    <string name="backup_pattern_flashing_color_bars">Миготливі кольорові смуги</string>
+    <string name="backup_pattern_sharpness_overscan">Різкість &amp; оверскан</string>
+    <string name="backup_pattern_uhd">Шаблон UHD</string>
+    <string name="backup_pattern_judder">Тест на тремтіння</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Співвідношення сторін і різкість</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Рівень чорного</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Відсікання кольору 240–1000 ніт</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Відсікання кольору 3600–10000 ніт</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Відсікання кольору 700–10000 ніт</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Відсікання кольору 900–4000 ніт</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Градієнт сірого 10000 ніт</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Градієнт сірого 1000 ніт</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Градієнт сірого 4000 ніт</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Чорний PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Кольорові градієнти</string>
+    <string name="backup_pattern_unavailable">%1$s: потрібен HDR-відеотракт, поки недоступно</string>
+    <!-- Pages -->
+    <string name="backup_settings">Налаштування</string>
+    <string name="backup_manage_settings">Керування налаштуваннями</string>
+    <string name="backup_themes">Теми</string>
+    <string name="backup_import">Імпорт</string>
+    <string name="backup_export">Експорт</string>
+    <string name="backup_import_from_file">З файлового менеджера</string>
+    <string name="backup_import_from_auto">З автоматичної копії</string>
+    <string name="backup_export_save">Зберегти локально</string>
+    <string name="backup_export_share">Надіслати в інший застосунок</string>
+    <string name="backup_reset">Скинути налаштування</string>
+    <string name="backup_cancel">Скасувати</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Готово</string>
+    <string name="backup_close">Закрити</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Експорт налаштувань</string>
+    <string name="backup_export_theme_title">Експорт теми</string>
+    <string name="backup_export_description">Усе зберігається в одному файлі, зашифрованому вибраним вами паролем (щонайменше %1$d символів). Пароль знадобиться для імпорту файлу, і відновити його неможливо.</string>
+    <string name="backup_export_theme_description">Налаштування вигляду й поточні шпалери зберігаються в одному файлі, зашифрованому вибраним вами паролем (щонайменше %1$d символів). Пароль знадобиться для імпорту теми.</string>
+    <string name="backup_password">Пароль</string>
+    <string name="backup_password_show">Показати пароль</string>
+    <string name="backup_password_hide">Приховати пароль</string>
+    <string name="backup_password_strength">Надійність пароля</string>
+    <string name="backup_strength_too_short">Закороткий: щонайменше %1$d символів</string>
+    <string name="backup_strength_weak">Слабкий: легко вгадати</string>
+    <string name="backup_strength_fair">Посередній</string>
+    <string name="backup_strength_strong">Надійний</string>
+    <string name="backup_password_too_short">Пароль має містити щонайменше %1$d символів</string>
+    <string name="backup_exporting">Експорт…</string>
+    <string name="backup_export_saved">Збережено в %1$s</string>
+    <string name="backup_export_kept">Більше ніде не збережено. Файл залишається в %1$s</string>
+    <string name="backup_export_shared">Надіслано. Копія залишається в %1$s</string>
+    <string name="backup_export_no_file_manager">На цьому пристрої немає застосунку, який може прийняти файл. Він у %1$s</string>
+    <string name="backup_export_failed">Помилка експорту: %1$s</string>
+    <string name="backup_share_title">Надіслати файл QLauncher через</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Імпорт замінює поточну конфігурацію. Спершу створюється автоматична резервна копія, а після завершення QLauncher перезапускається.</string>
+    <string name="backup_reading">Читання файлу…</string>
+    <string name="backup_import_action">Імпортувати</string>
+    <string name="backup_wrong_password">Неправильний пароль</string>
+    <string name="backup_password_hint">Пароль, заданий під час експорту файлу</string>
+    <string name="backup_not_a_backup">Це не резервна копія і не тема QLauncher чи Projectivy.</string>
+    <string name="backup_damaged">Файл пошкоджений або неповний.</string>
+    <string name="backup_too_new">Цей файл створено новішою версією QLauncher (формат %1$d). Оновіть QLauncher, щоб імпортувати його.</string>
+    <string name="backup_unreadable">Цю автоматичну копію неможливо прочитати на цьому пристрої.</string>
+    <string name="backup_import_failed">Імпорт не вдався, нічого не змінено: %1$s</string>
+    <string name="backup_applying">Імпорт… Після завершення QLauncher перезапуститься.</string>
+    <string name="backup_origin_ql_backup">Резервна копія налаштувань QLauncher</string>
+    <string name="backup_origin_ql_theme">Тема QLauncher</string>
+    <string name="backup_origin_pl_backup">Резервна копія налаштувань Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Тема Projectivy Launcher</string>
+    <string name="backup_origin_auto">Автоматична копія</string>
+    <string name="backup_preview_theme_by">%1$s, автор: %2$s</string>
+    <string name="backup_preview_version">версія %1$s</string>
+    <string name="backup_preview_settings">Налаштування</string>
+    <string name="backup_preview_categories">Категорії</string>
+    <string name="backup_preview_apps">Персоналізація застосунків</string>
+    <string name="backup_preview_profiles">Профілі дисплея</string>
+    <string name="backup_preview_files">Шпалери та значки</string>
+    <string name="backup_preview_skipped">Застосунки, яких немає на пристрої</string>
+    <string name="backup_replace_setup">Замінити поточну конфігурацію</string>
+    <string name="backup_apply_theme">Застосувати тему</string>
+    <string name="backup_replace_detail">Спершу створюється автоматична копія поточної конфігурації</string>
+    <string name="backup_nc_parental">Батьківський код</string>
+    <string name="backup_nc_parental_detail">Не переноситься. Задайте новий код у розділі «Батьківський контроль».</string>
+    <string name="backup_nc_premium">Преміум-статус</string>
+    <string name="backup_nc_premium_detail">Не переноситься. Усі функції QLauncher безкоштовні.</string>
+    <string name="backup_nc_inputs">Входи ТБ</string>
+    <string name="backup_nc_profile_bindings">Прив’язки профілів дисплея</string>
+    <string name="backup_nc_plugin">Плагін шпалер</string>
+    <string name="backup_nc_plugin_detail">%1$s не встановлено. Джерело шпалер не зміниться.</string>
+    <string name="backup_nc_icons">Власні значки</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d змінене значення</item>
+        <item quantity="few">%1$d змінені значення</item>
+        <item quantity="many">%1$d змінених значень</item>
+        <item quantity="other">%1$d зміненого значення</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d категорія</item>
+        <item quantity="few">%1$d категорії</item>
+        <item quantity="many">%1$d категорій</item>
+        <item quantity="other">%1$d категорії</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d застосунок</item>
+        <item quantity="few">%1$d застосунки</item>
+        <item quantity="many">%1$d застосунків</item>
+        <item quantity="other">%1$d застосунку</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d профіль</item>
+        <item quantity="few">%1$d профілі</item>
+        <item quantity="many">%1$d профілів</item>
+        <item quantity="other">%1$d профілю</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d файл</item>
+        <item quantity="few">%1$d файли</item>
+        <item quantity="many">%1$d файлів</item>
+        <item quantity="other">%1$d файлу</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d невідоме налаштування пропущено</item>
+        <item quantity="few">%1$d невідомі налаштування пропущено</item>
+        <item quantity="many">%1$d невідомих налаштувань пропущено</item>
+        <item quantity="other">%1$d невідомого налаштування пропущено</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d запис не відповідає жодному встановленому тут застосунку і пропускається</item>
+        <item quantity="few">%1$d записи не відповідають жодному встановленому тут застосунку і пропускаються</item>
+        <item quantity="many">%1$d записів не відповідають жодному встановленому тут застосунку і пропускаються</item>
+        <item quantity="other">%1$d запису не відповідають жодному встановленому тут застосунку і пропускаються</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d посилання на вхід ТБ, якого немає на цьому пристрої, пропускається</item>
+        <item quantity="few">%1$d посилання на входи ТБ, яких немає на цьому пристрої, пропускаються</item>
+        <item quantity="many">%1$d посилань на входи ТБ, яких немає на цьому пристрої, пропускаються</item>
+        <item quantity="other">%1$d посилання на входи ТБ, яких немає на цьому пристрої, пропускаються</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d профіль, призначений входу, не переноситься</item>
+        <item quantity="few">%1$d профілі, призначені входам, не переносяться</item>
+        <item quantity="many">%1$d профілів, призначених входам, не переносяться</item>
+        <item quantity="other">%1$d профілю, призначених входам, не переносяться</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d значок, збережений у Projectivy, не читається й пропускається</item>
+        <item quantity="few">%1$d значки, збережені в Projectivy, не читаються й пропускаються</item>
+        <item quantity="many">%1$d значків, збережених у Projectivy, не читаються й пропускаються</item>
+        <item quantity="other">%1$d значка, збережених у Projectivy, не читаються й пропускаються</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Автоматичні резервні копії</string>
+    <string name="backup_auto_description">QLauncher зберігає на цьому пристрої останні %1$d версій вашої конфігурації, зашифровані ключем, який ніколи його не залишає. Виберіть одну, щоб відновити її; пароль не потрібен.</string>
+    <string name="backup_auto_none">Немає автоматичних копій</string>
+    <string name="backup_files_title">Файли резервних копій</string>
+    <string name="backup_files_theme_title">Файли тем</string>
+    <string name="backup_files_description">Експортовані файли зберігаються в %1$s. З доступом до всіх файлів QLauncher також знаходить резервні копії в папках Download, Documents і на USB-накопичувачах, зокрема копії Projectivy.</string>
+    <string name="backup_files_searching">Пошук файлів резервних копій…</string>
+    <string name="backup_files_none">Файли резервних копій не знайдено</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Папка QLauncher</string>
+    <string name="backup_files_access">Шукати копії інших застосунків і пристроїв</string>
+    <string name="backup_files_access_desc">Дозволити доступ до всіх файлів</string>
+    <string name="backup_files_access_unavailable">На цьому пристрої немає екрана налаштувань. Дозвольте доступ до всіх файлів командою: %1$s</string>
+    <string name="backup_files_browse">Інше розташування…</string>
+    <string name="backup_files_browse_desc">Вибрати файл через системний вибір файлів</string>
+    <string name="backup_auto_delete_all">Видалити все</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Після зміни</string>
+    <string name="backup_reason_import">Перед імпортом</string>
+    <string name="backup_reason_migration">Перед оновленням</string>
+    <string name="backup_reason_reset">Перед скиданням</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Профіль №</string>
+    <string name="backup_no_picture_manager">Менеджер зображення не завантажено</string>
+    <string name="backup_no_picture_manager_detail">Цей пристрій не підтримує зміну налаштувань зображення, тому профілі зберігають значення, не застосовуючи їх.</string>
+</resources>

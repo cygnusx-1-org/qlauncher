@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Avbryt</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Alla appar</string>
+    <string name="apps_action_edit_categories">Redigera kategorier</string>
+    <string name="apps_action_edit_channels">Redigera kanaler</string>
+    <string name="apps_action_launcher_settings">QLauncher-inställningar</string>
+    <string name="apps_action_android_settings">Android-inställningar</string>
+    <string name="apps_action_amlogic_settings">Ytterligare AmLogic-inställningar</string>
+    <string name="apps_action_display_profiles">Skärmprofiler</string>
+    <string name="apps_action_install_apps">Installera tredjepartsappar</string>
+    <string name="apps_action_accessibility_service">Tillgänglighetstjänst</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Byt profil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Den här enheten</string>
+    <string name="apps_action_about_wallpaper">Den här bakgrundsbilden</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Ingen</string>
+    <string name="apps_autostart_screensaver">Skärmsläckare</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanaler</string>
+    <string name="apps_channels_watch_next">Titta härnäst</string>
+    <string name="apps_channels_unreadable">Kanalen kan inte längre läsas</string>
+    <string name="apps_channels_hidden">Dold av systemet</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="other">%d kanaler</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Använd ikonpaket</string>
+    <string name="apps_iconpack_apply_message">Använda %1$s för appikonerna?</string>
+    <string name="apps_iconpack_apply_confirm">Använd</string>
+    <string name="apps_iconpack_applied">Ikonpaketet används nu</string>
+    <string name="apps_iconpack_apply_missing">Inget ikonpaket angavs</string>
+    <string name="apps_iconpack_apply_not_a_pack">Appen är inte ett ikonpaket</string>
+    <string name="apps_iconpack_none">Inget</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Lägg till genväg</string>
+    <string name="apps_pin_shortcut_message">Lägga till ”%1$s” från %2$s i kategorin Genvägar?</string>
+    <string name="apps_pin_shortcut_confirm">Lägg till</string>
+    <string name="apps_pin_shortcut_added">Genvägen har lagts till</string>
+    <string name="apps_pin_shortcut_failed">Det gick inte att lägga till genvägen</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Installera tredjepartsappar</string>
+    <string name="apps_install_description">Välj en app att installera. Du kan behöva tillåta installation från okända källor först.</string>
+    <string name="apps_install_custom_url">Egen URL / Downloader-kod</string>
+    <string name="apps_install_custom_url_desc">Använd en källa som du litar på</string>
+    <string name="apps_install_choose_method">Välj installationsmetod</string>
+    <string name="apps_install_installed">Installerad</string>
+    <string name="apps_install_category_wallpaper_plugin">Bakgrundsplugin</string>
+    <string name="apps_install_category_icon_pack">Ikonpaket</string>
+    <string name="apps_install_category_file_manager">Filhanterare</string>
+    <string name="apps_install_category_tool">Verktyg</string>
+    <string name="apps_install_method_store">Butik</string>
+    <string name="apps_install_method_direct">Direkt nedladdning</string>
+    <string name="apps_install_method_downloader">Appen Downloader</string>
+    <string name="apps_install_state_downloading">Laddar ned %1$s… %2$d %%</string>
+    <string name="apps_install_state_downloading_unknown">Laddar ned %1$s…</string>
+    <string name="apps_install_state_installing">Installerar %1$s…</string>
+    <string name="apps_install_state_confirm">Bekräfta installationen av %1$s</string>
+    <string name="apps_install_state_success">%1$s har installerats</string>
+    <string name="apps_install_state_unknown_sources">Tillåt QLauncher att installera appar och kom sedan tillbaka för att fortsätta</string>
+    <string name="apps_install_state_downloader_sent">Koden %1$s har skickats till Downloader</string>
+    <string name="apps_install_state_downloader_type">Ange koden %1$s i Downloader</string>
+    <string name="apps_install_state_store">Öppnades i butiken</string>
+    <string name="apps_install_state_browser">Länken är en webbsida och öppnades i webbläsaren</string>
+    <string name="apps_install_fail_invalid">Det här är varken en URL eller en Downloader-kod</string>
+    <string name="apps_install_fail_no_usb">Inget USB-minne hittades</string>
+    <string name="apps_install_fail_archive">Arkiv kan inte installeras</string>
+    <string name="apps_install_fail_network">Nedladdningen misslyckades</string>
+    <string name="apps_install_fail_http">Servern svarade med ett fel (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Filen är inte en app (APK)</string>
+    <string name="apps_install_fail_unreadable">Filen kan inte läsas</string>
+    <string name="apps_install_fail_install">Installationen misslyckades</string>
+    <string name="apps_install_fail_cancelled">Installationen avbröts</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher har inte behörighet att installera appar</string>
+    <string name="apps_install_fail_downloader">Appen Downloader är inte installerad</string>
+    <string name="apps_install_fail_store">Ingen appbutik är tillgänglig</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Den här enheten</string>
+    <string name="apps_device_brand_manufacturer">Märke / Tillverkare</string>
+    <string name="apps_device_device_product">Enhet / Produkt</string>
+    <string name="apps_device_model">Modell</string>
+    <string name="apps_device_hardware">Maskinvara</string>
+    <string name="apps_device_fingerprint">Fingeravtryck</string>
+    <string name="apps_device_build">Byggversion</string>
+    <string name="apps_device_build_desc">Byggbeskr.</string>
+    <string name="apps_device_device_type">Enhetstyp</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-adress</string>
+    <string name="apps_device_root_access">Root-åtkomst</string>
+    <string name="apps_device_pm_info">PM-info</string>
+    <string name="apps_device_pm_none">Ingen bildhanterare</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Ja</string>
+    <string name="apps_device_no">Nej</string>
+</resources>

@@ -32,9 +32,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.clipPath
+import androidx.compose.ui.graphics.drawscope.scale
 import androidx.compose.ui.layout.layout
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.Text
 import org.cygnusx1.qlauncher.ui.theme.QTheme
@@ -46,7 +48,8 @@ import kotlin.math.roundToInt
  * with 6 dp gaps, stop dots, and a lighter fill from the [origin] to the thumb. Values map onto
  * the track inset by half the track height at each end, as Material's slider does.
  *
- * It is drawn only; the row that owns it handles LEFT and RIGHT.
+ * It is drawn only; the row that owns it handles LEFT and RIGHT, through [dpadStep]. In RTL the whole
+ * slider is mirrored, so the fill grows from the right like the rest of the layout.
  *
  * @param stops number of stops (`(max - min) / step + 1`).
  * @param position the value as a fraction 0..1 of the range.
@@ -71,7 +74,11 @@ fun StepSlider(
         val insetPx = with(density) { (track / 2).toPx() }
         val thumbX = insetPx + (widthPx - 2 * insetPx) * position.coerceIn(0f, 1f)
         Canvas(Modifier.matchParentSize()) {
-            drawStepSlider(position, origin, stops, active, inactive, track.toPx())
+            if (layoutDirection == LayoutDirection.Rtl) {
+                scale(-1f, 1f) { drawStepSlider(position, origin, stops, active, inactive, track.toPx()) }
+            } else {
+                drawStepSlider(position, origin, stops, active, inactive, track.toPx())
+            }
         }
         AnimatedVisibility(
             visible = bubble != null,
@@ -82,10 +89,10 @@ fun StepSlider(
                 .layout { measurable, constraints ->
                     val p = measurable.measure(constraints.copy(minWidth = 0, minHeight = 0))
                     layout(0, 0) {
-                        p.place(
-                            (thumbX - p.width / 2f).roundToInt(),
-                            -p.height - 6.dp.roundToPx(),
-                        )
+                        // This 0-size box sits at the start edge, the right one in RTL, where the thumb
+                        // is mirrored. placeRelative() does not mirror inside a 0-width parent.
+                        val x = if (layoutDirection == LayoutDirection.Rtl) -thumbX - p.width / 2f else thumbX - p.width / 2f
+                        p.place(x.roundToInt(), -p.height - 6.dp.roundToPx())
                     }
                 },
         ) {
@@ -99,6 +106,12 @@ fun StepSlider(
         }
     }
 }
+
+/**
+ * The step a LEFT or RIGHT press makes along a horizontal control: +1 toward its end edge, which is
+ * the right in LTR and the left in RTL, where [StepSlider] and the panels around it are mirrored.
+ */
+fun dpadStep(right: Boolean, rtl: Boolean): Int = if (right != rtl) 1 else -1
 
 private fun DrawScope.drawStepSlider(
     position: Float,

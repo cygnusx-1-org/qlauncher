@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">設定</string>
+    <string name="settings_breadcrumb_display">ディスプレイ</string>
+    <string name="settings_breadcrumb_applications">アプリ</string>
+    <string name="settings_breadcrumb_system">システム</string>
+    <string name="settings_breadcrumb_about">情報</string>
+    <string name="settings_root_title">QLauncher の設定</string>
+    <string name="settings_root_description">アプリの設定を行います。</string>
+    <string name="settings_legend_a11y_required">ユーザー補助サービスが必要</string>
+    <string name="settings_legend_a11y_recommended">ユーザー補助サービスを推奨</string>
+    <string name="settings_legend_experimental">試験運用版</string>
+    <string name="settings_launcher_related">ランチャー関連の設定</string>
+
+    <string name="settings_general">一般</string>
+    <string name="settings_appearance">外観</string>
+    <string name="settings_power">電源</string>
+    <string name="settings_parental">ペアレンタルコントロール</string>
+    <string name="settings_remote">リモコン</string>
+    <string name="settings_accessibility">ユーザー補助サービス</string>
+    <string name="settings_display_profiles">ディスプレイプロファイル</string>
+    <string name="settings_manage">設定の管理</string>
+
+    <!-- General -->
+    <string name="settings_language">アプリの言語を変更</string>
+    <string name="settings_language_system">システムのデフォルト</string>
+    <string name="settings_default_launcher">デフォルトのランチャーを変更</string>
+    <string name="settings_default_launcher_unavailable">このデバイスではデフォルトのランチャーを変更できません。代わりに「現在のランチャーを置き換える」を使用してください。</string>
+    <string name="settings_override_home">現在のランチャーを置き換える</string>
+    <string name="settings_override_home_desc">現在のランチャーの呼び出しを横取りします (標準ランチャーを変更または削除できない場合に便利です)</string>
+    <string name="settings_enable_channels">チャンネルを有効にする</string>
+    <string name="settings_enable_channels_desc">使用しない場合はオフにすると、起動が速くなり、メモリの使用量も減ります</string>
+    <string name="settings_programs_per_channel">チャンネルあたりの番組数</string>
+    <string name="settings_crash_error_reports">匿名のクラッシュ/エラーレポートを有効にする</string>
+    <string name="settings_reports_desc">送信されるのはエラー、アプリのバージョン、デバイスのモデルのみです</string>
+    <string name="settings_check_updates">更新を確認</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">カテゴリー / チャンネル</string>
+    <string name="settings_cards">カード</string>
+    <string name="settings_wallpaper">壁紙</string>
+    <string name="settings_status_bar">ステータスバー</string>
+    <string name="settings_left_headers">左側のヘッダー</string>
+    <string name="settings_idle_mode">ランチャーのアイドルモード</string>
+    <string name="settings_font">フォント</string>
+    <string name="settings_themes">テーマ</string>
+    <string name="settings_themes_desc">インポート / エクスポート</string>
+    <string name="settings_load_cards_scrolling">スクロール中にカードを読み込む</string>
+    <string name="settings_load_cards_scrolling_desc">反応は速くなりますが、滑らかさが低下します</string>
+    <string name="settings_accent">アクセントカラー</string>
+    <string name="settings_accent_desc">ダイナミックをオンにすると壁紙の色に合わせます</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">タイトルを表示</string>
+    <string name="settings_show_icon_title">タイトルの前にアイコンを表示</string>
+    <string name="settings_rows_spacing">縦の間隔 (画面の高さに対する%)</string>
+    <string name="settings_fixed_position">フォーカス中のカテゴリーの位置を固定</string>
+    <string name="settings_hide_rows_above">選択より上の行を非表示</string>
+    <string name="settings_remember_focus">フォーカス中のカードの位置を記憶</string>
+    <string name="settings_unselected_opacity">選択されていない行の不透明度</string>
+    <string name="settings_top_margin">上の余白</string>
+    <string name="settings_start_margin">左の余白</string>
+    <string name="settings_end_margin">右の余白</string>
+    <string name="settings_dock_padding">ドックのパディング</string>
+    <string name="settings_tint_custom_icons">カスタムアイコンに色合いを付ける</string>
+    <string name="settings_tint_custom_icons_desc">背景のないカスタムアイコン用</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">角の丸み</string>
+    <string name="settings_cards_size">カードのサイズ</string>
+    <string name="settings_cards_spacing">カードの間隔</string>
+    <string name="settings_loop_limit">アニメーションアイコンのループ回数の上限</string>
+    <string name="settings_ripple">カードを押したときの波紋エフェクト</string>
+    <string name="settings_background_color">背景色</string>
+    <string name="settings_focused_card">フォーカス中のカード</string>
+    <string name="settings_program_cards">番組カード</string>
+    <string name="settings_tv_ratio">TV アプリのカードのアスペクト比</string>
+    <string name="settings_mobile_ratio">モバイルアプリのカードのアスペクト比</string>
+    <string name="settings_icon_pack">アイコンパック</string>
+    <string name="settings_icon_pack_none">アイコンパックがインストールされていません</string>
+    <string name="settings_icon_pack_off">なし</string>
+    <string name="settings_more">その他…</string>
+    <string name="settings_custom_icon_tint">カスタムアイコンの色合い</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">フォーカス中のカードのサイズ</string>
+    <string name="settings_focused_effect">フォーカス中のカードのエフェクト</string>
+    <string name="settings_effect_none">なし</string>
+    <string name="settings_effect_shadow">ドロップシャドウ</string>
+    <string name="settings_effect_glow">グロー</string>
+    <string name="settings_glow_animation">グローのアニメーション</string>
+    <string name="settings_anim_none">なし</string>
+    <string name="settings_anim_pulse">パルス</string>
+    <string name="settings_anim_breath">呼吸</string>
+    <string name="settings_anim_fade">フェード</string>
+    <string name="settings_anim_shine">シャイン</string>
+    <string name="settings_glow_size">グローのサイズ</string>
+    <string name="settings_glow_color">グローの色</string>
+    <string name="settings_glow_color_desc">空欄にするとカード自体の色を使用します</string>
+    <string name="settings_colors_override">色の上書き</string>
+    <string name="settings_override_none">なし</string>
+    <string name="settings_override_swap">背景/色合いを入れ替え</string>
+    <string name="settings_override_custom">カスタム</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">プレビュー動画を再生</string>
+    <string name="settings_preview_never">しない</string>
+    <string name="settings_preview_always">常に</string>
+    <string name="settings_preview_no_media">バックグラウンドでメディアを再生していないとき</string>
+    <string name="settings_show_progress">進行状況バーを表示</string>
+    <string name="settings_show_badge">バッジを表示</string>
+    <string name="settings_zoom_focus">フォーカス時のズームエフェクト</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">対応形式: 静止画、アニメーション GIF、動画 (静的または RTSP ライブストリーム)、Lottie アニメーション</string>
+    <string name="settings_launcher_wallpaper">ランチャーの壁紙</string>
+    <string name="settings_configure">構成</string>
+    <string name="settings_show_wallpapers">壁紙を表示</string>
+    <string name="settings_picture_adjustment">画像の調整</string>
+    <string name="settings_image_transition">画像の切り替え効果</string>
+    <string name="settings_update_frequency">更新間隔 (分)</string>
+    <string name="settings_video_wallpaper">動画の壁紙</string>
+    <string name="settings_display_mode">表示モード</string>
+    <string name="settings_bad_ratio">比率や画質が合わない場合</string>
+    <string name="settings_min_width">許容する最小幅 (px)</string>
+    <string name="settings_src_none">なし</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">ダイナミックカラー</string>
+    <string name="settings_src_default">デフォルトの壁紙</string>
+    <string name="settings_src_media">メディアファイル</string>
+    <string name="settings_src_folder">フォルダ</string>
+    <string name="settings_src_focused_program">フォーカス中の番組</string>
+    <string name="settings_src_now_playing">再生中</string>
+    <string name="settings_src_random_program">ランダムな番組</string>
+    <string name="settings_src_theme">テーマ</string>
+    <string name="settings_tr_none">なし</string>
+    <string name="settings_tr_random">ランダム</string>
+    <string name="settings_tr_fade">フェード</string>
+    <string name="settings_tr_zoom">ズーム</string>
+    <string name="settings_tr_hslide">横スライド</string>
+    <string name="settings_tr_vslide">縦スライド</string>
+    <string name="settings_dm_automatic">自動</string>
+    <string name="settings_dm_skip">スキップ</string>
+    <string name="settings_dm_crop">トリミング</string>
+    <string name="settings_dm_stretch">引き伸ばし</string>
+    <string name="settings_dm_fit">中央に合わせる</string>
+    <string name="settings_dm_fit_blur">中央に合わせる + ぼかした背景</string>
+    <string name="settings_dm_blur">ぼかし</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">色相</string>
+    <string name="settings_saturation">彩度</string>
+    <string name="settings_contrast">コントラスト</string>
+    <string name="settings_brightness">明るさ</string>
+    <string name="settings_tint">色合い</string>
+    <string name="settings_tint_amount">色合いの強さ</string>
+    <string name="settings_blur">ぼかし</string>
+    <string name="settings_shadow_h">横方向の影オーバーレイの長さ</string>
+    <string name="settings_shadow_v">縦方向の影オーバーレイの長さ</string>
+    <string name="settings_shadow_opacity">影オーバーレイの不透明度</string>
+    <string name="settings_shadow_tint">影オーバーレイの色合い</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">更新間隔を無視</string>
+    <string name="settings_ignore_update_desc">動画が終わるまで待ってから新しい壁紙をリクエストします</string>
+    <string name="settings_video_color_freq">ダイナミックカラーの更新間隔</string>
+    <string name="settings_video_color_freq_desc">色を読み取る動画フレームの間隔 (秒)。0 でオフになります</string>
+    <string name="settings_volume">音量</string>
+    <string name="settings_tunneling">ハードウェアレンダリングを使用 (トンネリング)</string>
+    <string name="settings_decoder_fallback">デコーダーのフォールバックを有効にする</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">通知の権限を管理</string>
+    <string name="settings_granted">許可済み</string>
+    <string name="settings_not_granted">未許可</string>
+    <string name="settings_notification_adb">このデバイスには設定画面がありません。次のコマンドで許可してください: %1$s</string>
+    <string name="settings_clock">時計</string>
+    <string name="settings_icons">アイコン</string>
+    <string name="settings_show_system_bar">システムのステータスバーを表示</string>
+    <string name="settings_autohide_status">スクロール時にステータスバーを非表示</string>
+    <string name="settings_show_clock">時計を表示</string>
+    <string name="settings_clock_size">時計のフォントサイズ</string>
+    <string name="settings_clock_color">時計の色</string>
+    <string name="settings_drop_shadow">ドロップシャドウ</string>
+    <string name="settings_clock_line1">時計の形式 (1 行目)</string>
+    <string name="settings_clock_line2">時計の形式 (2 行目)</string>
+    <string name="settings_clock_default_format">システムの形式</string>
+    <string name="settings_empty">空</string>
+    <string name="settings_icons_size">アイコンのサイズ</string>
+    <string name="settings_icons_color">アイコンの色</string>
+    <string name="settings_icons_container">アイコンのコンテナの色</string>
+    <string name="settings_show_settings">設定を表示</string>
+    <string name="settings_show_settings_desc">次のボタン操作でいつでも設定を開けます: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">接続状態を表示</string>
+    <string name="settings_show_notifications">通知を表示</string>
+    <string name="settings_autohide_notifications">通知がないときは通知アイコンを非表示</string>
+    <string name="settings_show_battery">バッテリーを表示</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">有効にする</string>
+    <string name="settings_headers_on_launch">起動時に左側のヘッダーを表示</string>
+    <string name="settings_show_icon">アイコンを表示</string>
+    <string name="settings_show_reorder">並べ替えを表示</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">アイドルまでの時間 (分)</string>
+    <string name="settings_idle_opacity">UI の不透明度</string>
+    <string name="settings_keep_clock">時計を残す</string>
+    <string name="settings_prevent_screensaver">システムのスクリーンセーバーを防止</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher のフォント設定を変更します。ファミリー名は Google Fonts で調べられます。</string>
+    <string name="settings_font_list">リストから選択</string>
+    <string name="settings_font_google">フォント (Google Fonts)</string>
+    <string name="settings_font_default">デフォルト</string>
+    <string name="settings_bold">太字</string>
+    <string name="settings_italic">斜体</string>
+    <string name="settings_size">サイズ</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">起動時に自動起動</string>
+    <string name="settings_autostart_none">なし</string>
+    <string name="settings_autostart_screensaver">[*] スクリーンセーバー (対応している場合)</string>
+    <string name="settings_autostart_resume">…スタンバイからの復帰時にも</string>
+    <string name="settings_autostart_delay">自動起動の遅延 (秒)</string>
+    <string name="settings_simulate_activity">アイドル時のシステムの自動シャットダウンを防止</string>
+    <string name="settings_idle_detection">内部のアイドル検出を有効にする</string>
+    <string name="settings_idle_timeout_power">アイドルのタイムアウト (時:分)</string>
+    <string name="settings_idle_action">アイドル時の動作</string>
+    <string name="settings_idle_action_shutdown">シャットダウン</string>
+    <string name="settings_idle_action_screen_off">画面オフ</string>
+    <string name="settings_idle_action_screensaver">スクリーンセーバー (対応している場合)</string>
+    <string name="settings_idle_media">メディア再生中はアイドルモードを無視</string>
+    <string name="settings_missing_notification_permission">⚠️ 通知の権限がありません</string>
+    <string name="settings_shutdown_action">シャットダウンの動作</string>
+    <string name="settings_shutdown_dialog">電源ダイアログ</string>
+    <string name="settings_shutdown_dialog_twice">電源ダイアログ (2 回呼び出し)</string>
+    <string name="settings_shutdown_dialog_ok">電源ダイアログ + OK</string>
+    <string name="settings_hdmi_exit">HDMI 入力の信号が途切れたら自動シャットダウン</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">選択したアプリ (ホーム画面でカードを長押しして選択) を、終日または 1 日の一部の時間帯にロックするコードを設定します</string>
+    <string name="settings_parental_set_code">新しいペアレンタルコードを設定</string>
+    <string name="settings_parental_code_set">コードが設定されています</string>
+    <string name="settings_parental_long">認証に成功してから 15 分間はコードを要求しない</string>
+    <string name="settings_parental_protect">ランチャーの設定と UI の変更を保護</string>
+    <string name="settings_parental_protect_desc">(常時適用)</string>
+    <string name="settings_parental_partial">次の時間帯のみ保護を有効にする</string>
+    <string name="settings_parental_start">開始時刻 (時:分)</string>
+    <string name="settings_parental_end">終了時刻 (時:分)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">「メニュー」の 2 回押しで情報を表示</string>
+    <string name="settings_back_double">「戻る」の 2 回押しで「アンビエントモード」</string>
+    <string name="settings_back_double_desc">対応デバイスでスクリーンセーバーを起動します</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">サービスをオンにすると、起動時のアクションの実行、リモコンボタンのカスタマイズ、ペアレンタルコントロールの強化、電源管理のための無操作時間の検出ができます。サービスはハードウェアキーの入力と前面のアプリ名を取得しますが、どちらもこのデバイスのメモリ内にのみ保持され、外部に送信されることはありません。</string>
+    <string name="settings_a11y_enabled">有効</string>
+    <string name="settings_a11y_started">実行中</string>
+    <string name="settings_yes">はい</string>
+    <string name="settings_no">いいえ</string>
+    <string name="settings_a11y_open">ユーザー補助の設定を表示</string>
+    <string name="settings_a11y_consent_title">ユーザー補助サービス</string>
+    <string name="settings_a11y_consent">QLauncher がハードウェアボタンの入力とフォアグラウンドのアプリ名を取得できるようになります。どちらもこのデバイスのメモリ内にのみ保持され、外部に送信されることはありません。同意しますか？</string>
+    <string name="settings_a11y_alternate">代替構成を使用</string>
+    <string name="settings_a11y_alternate_desc">一部のデバイスでの問題を修正します</string>
+    <string name="settings_a11y_volume_fix">音量ボタンの修正</string>
+    <string name="settings_a11y_volume_fix_desc">音量ボタンが押されたときに割り当て変更を一時的に止め、長押しが引き続き機能するようにします</string>
+    <string name="settings_a11y_remap">ボタンの割り当て変更を有効にする</string>
+    <string name="settings_a11y_remap_desc">サービスはキー入力を横取りします。オフにすると、音量ボタンの長押しの問題やシステムによるサービスの停止を回避できますが、ランチャーの置き換え、ペアレンタルコントロール、アイドル検出の効果が弱まる場合があります。</string>
+    <string name="settings_a11y_reminder">リマインダーを表示</string>
+    <string name="settings_a11y_reminder_desc">ユーザー補助サービスがオフになっている場合</string>
+    <string name="settings_a11y_unbound_toast">QLauncher のユーザー補助サービスが実行されていません</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">設定をローカルで、または LocalSend やファイルマネージャーなどの他のアプリを使ってインポート/エクスポートします。</string>
+    <string name="settings_import">インポート</string>
+    <string name="settings_import_file">ファイルから</string>
+    <string name="settings_import_auto">自動バックアップから</string>
+    <string name="settings_export">エクスポート</string>
+    <string name="settings_export_local">ローカルに保存</string>
+    <string name="settings_export_share">他のアプリと共有</string>
+    <string name="settings_reset">デフォルトにリセット</string>
+    <string name="settings_cancel">キャンセル</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">カテゴリー</string>
+    <string name="wp_custom_search">カスタム検索</string>
+    <string name="wp_reddit_login">ログイン</string>
+    <string name="wp_reddit_logout">ログアウト: %1$s</string>
+    <string name="wp_reddit_logout_unknown">ログアウト</string>
+    <string name="wp_subreddit">サブレディット</string>
+    <string name="wp_custom_subreddit">カスタムサブレディット</string>
+    <string name="wp_custom_subreddit_hint">複数の名前は + で区切ります</string>
+    <string name="wp_folder">フォルダ</string>
+    <string name="wp_folder_choose">フォルダを選択</string>
+    <string name="wp_media">メディアファイル</string>
+    <string name="wp_media_choose">ファイルを選択</string>
+    <string name="wp_choose_other">その他の場所…</string>
+    <string name="wp_choose_other_desc">システムのファイル選択ツールで選択</string>
+    <string name="wp_media_searching">画像と動画を検索中…</string>
+    <string name="wp_media_none">画像や動画が見つかりません。Pictures、Movies、Download のいずれかにコピーするか、USB ドライブを接続してください。</string>
+    <string name="wp_folders_description">このデバイスと USB ドライブ上の、画像や動画を含むフォルダ。</string>
+    <string name="wp_folders_none">画像や動画を含むフォルダが見つかりません</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="other">%d 個のファイル</item>
+    </plurals>
+    <string name="wp_media_color">単色</string>
+    <string name="wp_theme_desc">インポートしたテーマに含まれる壁紙</string>
+    <string name="wp_plugin_settings">プラグインの設定</string>
+    <string name="wp_not_set">未設定</string>
+    <string name="wp_status">ステータス</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">この壁紙</string>
+    <string name="wp_next">次へ</string>
+    <string name="wp_source">ソース</string>
+    <string name="wp_title">タイトル</string>
+    <string name="wp_author">作者</string>
+    <string name="wp_set_user">ユーザーの壁紙に設定</string>
+    <string name="wp_view">表示</string>
+    <string name="wp_unknown">不明</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">ここで動画のディスプレイプロファイルを作成・管理します。入力ソースに関連付けて自動で切り替えたり、メニューを 2 回押してから上下で適用したりできます。</string>
+    <string name="dp_list">ディスプレイプロファイルの一覧</string>
+    <string name="dp_list_desc">ここで動画のディスプレイプロファイルを作成・編集します。デバイスによっては、一部の項目に root が必要か、まったく機能しません。これらは AmLogic デバイス向けです。</string>
+    <string name="dp_add">新規追加…</string>
+    <string name="dp_name">プロファイル名</string>
+    <string name="dp_preview">プレビュー</string>
+    <string name="dp_fullscreen">全画面プレビュー</string>
+    <string name="dp_fullscreen_desc">またはメニューボタンで切り替え</string>
+    <string name="dp_delete">プロファイルを削除</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">サードパーティアプリをインストール</string>
+    <string name="install_desc">インストールするアプリを選択してください。先に提供元不明のアプリのインストールを許可する必要がある場合があります。</string>
+    <string name="install_custom">カスタム URL / Downloader コード</string>
+    <string name="install_custom_desc">信頼できるソースのみを使用してください</string>
+    <string name="install_status">ステータス</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">このデバイス</string>
+
+    <string name="gallery_filter">フィルタ…</string>
+    <string name="settings_no_file_picker">このデバイスにはファイル選択ツールがありません</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">輝度</string>
+    <string name="color_opacity">不透明度</string>
+    <string name="color_prefer_dynamic">ダイナミックカラーを優先</string>
+    <string name="color_prefer_dynamic_desc">利用可能な場合、この輝度/不透明度を維持します</string>
+    <string name="color_clear">クリア</string>
+    <string name="color_reset">デフォルトにリセット</string>
+</resources>

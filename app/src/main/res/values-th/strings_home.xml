@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">กำลังเล่น</string>
+    <string name="home_cat_inputs">อินพุต</string>
+    <string name="home_cat_favorites">รายการโปรด</string>
+    <string name="home_cat_video">วิดีโอ</string>
+    <string name="home_cat_music">เพลง</string>
+    <string name="home_cat_games">เกม</string>
+    <string name="home_cat_tv_apps">แอปทีวี</string>
+    <string name="home_cat_mobile_apps">แอปมือถือ</string>
+    <string name="home_cat_watch_next">ดูต่อ</string>
+    <string name="home_cat_shortcuts">ทางลัด</string>
+    <string name="home_cat_folders">โฟลเดอร์หมวดหมู่</string>
+    <string name="home_cat_live_tv">ทีวีสด</string>
+    <string name="home_cat_settings">การตั้งค่า</string>
+    <string name="home_cat_display">การแสดงผล</string>
+    <string name="home_cat_applications">แอปพลิเคชัน</string>
+    <string name="home_cat_system">ระบบ</string>
+    <string name="home_cat_about">เกี่ยวกับ</string>
+    <string name="home_new_category">หมวดหมู่ใหม่</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">แอปทั้งหมด</string>
+    <string name="home_action_edit_categories">แก้ไขหมวดหมู่</string>
+    <string name="home_action_edit_channels">แก้ไขช่อง</string>
+    <string name="home_action_launcher_settings">การตั้งค่า QLauncher</string>
+    <string name="home_action_android_settings">การตั้งค่า Android</string>
+    <string name="home_action_amlogic_settings">การตั้งค่าเพิ่มเติมของ AmLogic</string>
+    <string name="home_action_display_profiles">โปรไฟล์การแสดงผล</string>
+    <string name="home_action_install_apps">ติดตั้งแอปของบุคคลที่สาม</string>
+    <string name="home_action_accessibility">บริการการช่วยเหลือพิเศษ</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">สลับโปรไฟล์</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">อุปกรณ์นี้</string>
+    <string name="home_action_about_wallpaper">วอลเปเปอร์นี้</string>
+
+    <!-- Program meta -->
+    <string name="home_season">ซีซัน %1$s</string>
+    <string name="home_episode">ตอนที่ %1$s</string>
+    <string name="home_minutes">%1$d นาที</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">การเชื่อมต่อ</string>
+    <string name="home_status_notifications">การแจ้งเตือน</string>
+    <string name="home_status_settings">การตั้งค่า</string>
+    <string name="home_status_wallpaper">วอลเปเปอร์นี้</string>
+    <string name="home_navigation_menu">เมนูการนำทาง</string>
+    <string name="home_reorder">จัดลำดับใหม่</string>
+    <string name="home_category_settings">การตั้งค่าหมวดหมู่</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">การตั้งค่าแอป</string>
+    <string name="menu_open">เปิด</string>
+    <string name="menu_details">รายละเอียด</string>
+    <string name="menu_play_pause">เล่น/หยุดชั่วคราว</string>
+    <string name="menu_stop">หยุด</string>
+    <string name="menu_previous">ก่อนหน้า</string>
+    <string name="menu_next">ถัดไป</string>
+    <string name="menu_uninstall">ถอนการติดตั้ง</string>
+    <string name="menu_launch_on_boot">เปิดเมื่อเปิดเครื่อง</string>
+    <string name="menu_launch_on_boot_on">จะเปิดเมื่อเปิดเครื่อง</string>
+    <string name="menu_add_parental">เพิ่มในการควบคุมโดยผู้ปกครอง</string>
+    <string name="menu_remove_parental">นำออกจากการควบคุมโดยผู้ปกครอง</string>
+    <string name="menu_shortcuts">ทางลัด</string>
+    <string name="menu_appearance">ลักษณะที่ปรากฏ</string>
+    <string name="menu_title">ชื่อ</string>
+    <string name="menu_change_icon">เปลี่ยนไอคอน</string>
+    <string name="menu_icon_from_picture">จากรูปภาพ</string>
+    <string name="menu_icon_other_location">ตำแหน่งอื่น…</string>
+    <string name="menu_icon_no_pictures">ไม่พบรูปภาพ คัดลอกรูปภาพไปที่ Pictures หรือ Download หรือเสียบไดรฟ์ USB</string>
+    <string name="menu_icon_reset">รีเซ็ต</string>
+    <string name="menu_crop">ครอบตัดให้เต็ม</string>
+    <string name="menu_visibility">การมองเห็น</string>
+    <string name="menu_reorder">จัดลำดับใหม่</string>
+    <string name="menu_remove_from">นำออกจาก %1$s</string>
+    <string name="menu_hide">ซ่อน</string>
+    <string name="menu_add_to">เพิ่มไปยัง…</string>
+    <string name="menu_move_to">ย้ายไปยัง…</string>
+    <string name="menu_channels">ช่อง</string>
+    <string name="menu_rename_hint">พิมพ์ชื่อใหม่แล้วกด OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">ชื่อ</string>
+    <string name="editor_change_icon">เปลี่ยนไอคอน</string>
+    <string name="editor_visible">แสดง</string>
+    <string name="editor_grid">ตาราง</string>
+    <string name="editor_sliding_row">แถวเลื่อน</string>
+    <string name="editor_background">สีพื้นหลัง</string>
+    <string name="editor_show_title">แสดงชื่อ</string>
+    <string name="editor_size">ขนาด</string>
+    <string name="editor_advanced">การตั้งค่าขั้นสูง</string>
+    <string name="editor_start_margin">ระยะขอบซ้าย</string>
+    <string name="editor_end_margin">ระยะขอบขวา</string>
+    <string name="editor_top_margin">ระยะขอบบน</string>
+    <string name="editor_cards_per_row">การ์ดต่อแถว</string>
+    <string name="editor_row_count">จำนวนแถว</string>
+    <string name="editor_auto">อัตโนมัติ</string>
+    <string name="editor_auto_value">อัตโนมัติ (%1$s)</string>
+    <string name="editor_sort">เรียงลำดับ</string>
+    <string name="editor_sort_custom">กำหนดเอง</string>
+    <string name="editor_sort_name">ตามตัวอักษร</string>
+    <string name="editor_sort_last">ใช้ล่าสุด</string>
+    <string name="editor_sort_most">ใช้บ่อย</string>
+    <string name="editor_sort_random">สุ่ม</string>
+    <string name="editor_set_default">ตั้งเป็นค่าเริ่มต้น</string>
+    <string name="editor_is_default">หมวดหมู่เริ่มต้น</string>
+    <string name="editor_manage_apps">จัดการแอป</string>
+    <string name="editor_hidden_items">รายการที่ซ่อน</string>
+    <string name="editor_restore">นำกลับมาแสดง</string>
+    <string name="editor_delete">ลบ</string>
+    <string name="editor_delete_confirm">ลบหมวดหมู่นี้หรือไม่?</string>
+    <string name="editor_empty_note">หมวดหมู่นี้จะยังไม่ปรากฏเพราะยังว่างอยู่</string>
+    <string name="editor_request_notifications">ขอสิทธิ์การแจ้งเตือน</string>
+    <string name="editor_channel_error">ไม่สามารถอ่านช่องนี้ได้อีกต่อไป</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">ช่อง</string>
+    <string name="channels_count">%1$d ช่อง</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">การแจ้งเตือน</string>
+    <string name="notifications_clear_all">ล้างทั้งหมด</string>
+    <string name="notifications_empty">ไม่มีการแจ้งเตือน</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">ไม่สามารถเปิดแอปนี้ได้</string>
+    <string name="home_reorder_hint">กดซ้าย/ขวาเพื่อย้าย กด OK หรือ “กลับ” เพื่อเสร็จสิ้น</string>
+    <string name="home_category_reorder_hint">กดขึ้น/ลงเพื่อย้าย กด OK หรือ “กลับ” เพื่อเสร็จสิ้น</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">ยินดีต้อนรับ!</string>
+    <string name="firstrun_welcome_text">QLauncher เป็นตัวเปิดแอปสำหรับ Android TV ที่รวมแอป ช่อง และเนื้อหาโปรดของคุณไว้บนหน้าจอหลักเดียวที่ปรับแต่งได้ พร้อมวอลเปเปอร์ที่หมุนเวียนอยู่เบื้องหลัง</string>
+    <string name="firstrun_features_title">พลังพิเศษใหม่ของคุณ</string>
+    <string name="firstrun_features_text">เปิดแอปหรืออินพุต HDMI เมื่อเปิดเครื่อง จัดการโปรไฟล์การแสดงผล ล็อกแอปด้วยการควบคุมโดยผู้ปกครอง แสดงรูปแบบการปรับเทียบภาพ ตรวจจับเวลาที่ไม่มีการใช้งาน และปรับแต่งทุกส่วนของหน้าจอหลัก บางฟีเจอร์ขึ้นอยู่กับอุปกรณ์ของคุณ</string>
+    <string name="firstrun_a11y_title">มาเปิดการช่วยเหลือพิเศษกันเถอะ</string>
+    <string name="firstrun_a11y_text">ฟีเจอร์หลายอย่างต้องใช้บริการการช่วยเหลือพิเศษของ QLauncher ได้แก่ การแทนที่ตัวเปิดแอปเดิมของเครื่อง การทำงานเมื่อเปิดเครื่อง รูปแบบการกดปุ่มรีโมต การตรวจจับการไม่ใช้งาน และการควบคุมโดยผู้ปกครอง คุณเปิดใช้ได้ทันทีหรือภายหลังจากการตั้งค่า</string>
+    <string name="firstrun_a11y_open">เปิดการตั้งค่าการช่วยเหลือพิเศษ</string>
+    <string name="firstrun_permissions_title">ขออนุญาตสักครู่…</string>
+    <string name="firstrun_permissions_text">ถัดไป QLauncher จะขอสิทธิ์อ่านรายการทีวี (สำหรับช่องและดูต่อ) และสิทธิ์เข้าถึงการแจ้งเตือน (สำหรับไอคอนการแจ้งเตือนและกำลังเล่น) ทั้งสองอย่างไม่บังคับ</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">ถัดไป QLauncher จะขอสิทธิ์เข้าถึงการแจ้งเตือน (สำหรับไอคอนการแจ้งเตือนและกำลังเล่น) ซึ่งไม่บังคับ</string>
+    <string name="firstrun_notifications_dialog">อนุญาตการเข้าถึงการแจ้งเตือนหรือไม่?</string>
+    <string name="firstrun_notifications_text">การเข้าถึงการแจ้งเตือนช่วยให้ QLauncher แสดงจำนวนการแจ้งเตือน แผงการแจ้งเตือน และสิ่งที่กำลังเล่นได้ “ใช่” จะเปิดหน้าสิทธิ์เข้าถึงพิเศษของแอปเพื่อให้คุณอนุญาต</string>
+    <string name="firstrun_reports_title">ส่งรายงานข้อผิดพลาดแบบไม่ระบุตัวตนหรือไม่?</string>
+    <string name="firstrun_reports_text">หาก QLauncher ขัดข้องหรือพบข้อผิดพลาด แอปจะส่งรายงานพร้อมเวอร์ชันแอปและรุ่นอุปกรณ์ได้ เพื่อให้แก้ไขข้อบกพร่องได้ ไม่มีการส่งข้อมูลใดที่ระบุตัวคุณหรือสิ่งที่คุณดู คุณเปลี่ยนการตั้งค่านี้ได้ภายหลังใน “ทั่วไป”</string>
+    <string name="firstrun_launcher_title">ตั้ง QLauncher เป็นหน้าจอหลัก</string>
+    <string name="firstrun_launcher_text">อุปกรณ์ทีวีหลายรุ่นไม่อนุญาตให้เปลี่ยนตัวเปิดแอปเริ่มต้น หากอุปกรณ์ของคุณทำได้ ให้เลือก QLauncher ที่นั่น มิฉะนั้นให้เปิดบริการการช่วยเหลือพิเศษพร้อม “แทนที่ตัวเปิดแอปปัจจุบัน” แล้ว QLauncher จะกลับมาทุกครั้งที่ตัวเปิดแอปเดิมของเครื่องเปิดขึ้น</string>
+    <string name="firstrun_launcher_open">เปลี่ยนตัวเปิดแอปเริ่มต้น</string>
+    <string name="firstrun_start_title">ได้เวลาเริ่มแล้ว!</string>
+    <string name="firstrun_start_text">ทุกอย่างเปลี่ยนได้ภายหลังจากการตั้งค่า กดปุ่มการตั้งค่าที่มุมขวาบน หรือกดปุ่มตามลำดับ ↑→↓←↑→↓←</string>
+    <string name="firstrun_get_started">เริ่มต้นใช้งาน</string>
+    <string name="firstrun_next">ถัดไป</string>
+    <string name="firstrun_skip">ข้าม</string>
+    <string name="firstrun_yes">ใช่</string>
+    <string name="firstrun_no">ไม่</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">ไม่มีโปรแกรมรักษาหน้าจอในอุปกรณ์นี้</string>
+</resources>

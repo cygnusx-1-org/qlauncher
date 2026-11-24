@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Instellen als QLauncher-achtergrond</string>
+    <string name="import_settings">Importeren in QLauncher</string>
+    <string name="accessibility_service_description">QLauncher ziet het indrukken van hardwaretoetsen en de naam van de app op de voorgrond, om de ingebouwde launcher te vervangen, acties bij het opstarten uit te voeren, knoppen van de afstandsbediening anders toe te wijzen, inactiviteit te detecteren en ouderlijk toezicht af te dwingen. Beide blijven in het geheugen van dit apparaat en worden nooit ergens heen gestuurd.</string>
+</resources>

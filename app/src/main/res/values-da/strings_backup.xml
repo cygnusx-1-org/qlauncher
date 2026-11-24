@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Standard</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">fed</string>
+    <string name="backup_clock_markup_italic">kursiv</string>
+    <string name="backup_clock_markup_underline">understreget</string>
+    <string name="backup_clock_markup_strikethrough">gennemstreget</string>
+    <string name="backup_clock_markup_subscript">sænket</string>
+    <string name="backup_clock_markup_superscript">hævet</string>
+    <string name="backup_clock_markup_half_size">halv størrelse</string>
+    <string name="backup_clock_markup_one_and_a_half_size">halvanden gang</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Sortklipning</string>
+    <string name="backup_pattern_apl_clipping">APL-klipning</string>
+    <string name="backup_pattern_white_clipping">Hvidklipning</string>
+    <string name="backup_pattern_grayscale_ramp">Gråtonerampe</string>
+    <string name="backup_pattern_grayscale_steps">Gråtonetrin</string>
+    <string name="backup_pattern_dynamic_brightness">Dynamisk lysstyrke</string>
+    <string name="backup_pattern_color_steps">Farvetrin</string>
+    <string name="backup_pattern_color_clipping">Farveklipning</string>
+    <string name="backup_pattern_flashing_color_bars">Blinkende farvebjælker</string>
+    <string name="backup_pattern_sharpness_overscan">Skarphed &amp; overscan</string>
+    <string name="backup_pattern_uhd">UHD-mønster</string>
+    <string name="backup_pattern_judder">Judder-test</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Skarphed for billedformat</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Sortniveau</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Farveklipning 240–1000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Farveklipning 3600–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Farveklipning 700–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Farveklipning 900–4000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Gråtonerampe 10000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Gråtonerampe 1000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Gråtonerampe 4000 nits</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Sort PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Farveramper</string>
+    <string name="backup_pattern_unavailable">%1$s kræver HDR-videoudgang og er ikke tilgængelig endnu</string>
+    <!-- Pages -->
+    <string name="backup_settings">Indstillinger</string>
+    <string name="backup_manage_settings">Administrer indstillinger</string>
+    <string name="backup_themes">Temaer</string>
+    <string name="backup_import">Importér</string>
+    <string name="backup_export">Eksportér</string>
+    <string name="backup_import_from_file">Fra filhåndtering</string>
+    <string name="backup_import_from_auto">Fra automatisk sikkerhedskopi</string>
+    <string name="backup_export_save">Gem lokalt</string>
+    <string name="backup_export_share">Del med en anden app</string>
+    <string name="backup_reset">Nulstil til standard</string>
+    <string name="backup_cancel">Annuller</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Færdig</string>
+    <string name="backup_close">Luk</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Eksportér indstillinger</string>
+    <string name="backup_export_theme_title">Eksportér tema</string>
+    <string name="backup_export_description">Alt gemmes i én fil, krypteret med en adgangskode, du vælger (mindst %1$d tegn). Du skal bruge adgangskoden for at importere filen, og den kan ikke gendannes.</string>
+    <string name="backup_export_theme_description">Udseendeindstillingerne og den aktuelle baggrund gemmes i én fil, krypteret med en adgangskode, du vælger (mindst %1$d tegn). Du skal bruge adgangskoden for at importere temaet.</string>
+    <string name="backup_password">Adgangskode</string>
+    <string name="backup_password_show">Vis adgangskode</string>
+    <string name="backup_password_hide">Skjul adgangskode</string>
+    <string name="backup_password_strength">Adgangskodens styrke</string>
+    <string name="backup_strength_too_short">For kort: mindst %1$d tegn</string>
+    <string name="backup_strength_weak">Svag: let at gætte</string>
+    <string name="backup_strength_fair">Rimelig</string>
+    <string name="backup_strength_strong">Stærk</string>
+    <string name="backup_password_too_short">Adgangskoden skal have mindst %1$d tegn</string>
+    <string name="backup_exporting">Eksporterer…</string>
+    <string name="backup_export_saved">Gemt i %1$s</string>
+    <string name="backup_export_kept">Ikke gemt andetsteds. Filen bliver i %1$s</string>
+    <string name="backup_export_shared">Sendt. En kopi bliver i %1$s</string>
+    <string name="backup_export_no_file_manager">Ingen app på denne enhed kan modtage filen. Den ligger i %1$s</string>
+    <string name="backup_export_failed">Eksporten mislykkedes: %1$s</string>
+    <string name="backup_share_title">Send QLauncher-filen med</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Import erstatter din nuværende opsætning. Der skrives først en automatisk sikkerhedskopi, og QLauncher genstarter, når det er færdigt.</string>
+    <string name="backup_reading">Læser filen…</string>
+    <string name="backup_import_action">Importér</string>
+    <string name="backup_wrong_password">Forkert adgangskode</string>
+    <string name="backup_password_hint">Adgangskoden, der blev valgt, da filen blev eksporteret</string>
+    <string name="backup_not_a_backup">Dette er ikke en sikkerhedskopi eller et tema fra QLauncher eller Projectivy.</string>
+    <string name="backup_damaged">Filen er beskadiget eller ufuldstændig.</string>
+    <string name="backup_too_new">Denne fil er lavet af en nyere QLauncher (format %1$d). Opdater QLauncher for at importere den.</string>
+    <string name="backup_unreadable">Denne automatiske sikkerhedskopi kan ikke læses på denne enhed.</string>
+    <string name="backup_import_failed">Importen mislykkedes, og intet blev ændret: %1$s</string>
+    <string name="backup_applying">Importerer… QLauncher genstarter, når det er færdigt.</string>
+    <string name="backup_origin_ql_backup">Sikkerhedskopi af QLauncher-indstillinger</string>
+    <string name="backup_origin_ql_theme">QLauncher-tema</string>
+    <string name="backup_origin_pl_backup">Sikkerhedskopi af Projectivy Launcher-indstillinger</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher-tema</string>
+    <string name="backup_origin_auto">Automatisk sikkerhedskopi</string>
+    <string name="backup_preview_theme_by">%1$s af %2$s</string>
+    <string name="backup_preview_version">version %1$s</string>
+    <string name="backup_preview_settings">Indstillinger</string>
+    <string name="backup_preview_categories">Kategorier</string>
+    <string name="backup_preview_apps">Apptilpasninger</string>
+    <string name="backup_preview_profiles">Skærmprofiler</string>
+    <string name="backup_preview_files">Baggrunde og ikoner</string>
+    <string name="backup_preview_skipped">Apps, der ikke er på denne enhed</string>
+    <string name="backup_replace_setup">Erstat nuværende opsætning</string>
+    <string name="backup_apply_theme">Anvend tema</string>
+    <string name="backup_replace_detail">Der skrives først en automatisk sikkerhedskopi af den nuværende opsætning</string>
+    <string name="backup_nc_parental">Forældrekode</string>
+    <string name="backup_nc_parental_detail">Overføres ikke. Angiv en ny kode under Forældrekontrol.</string>
+    <string name="backup_nc_premium">Premium-status</string>
+    <string name="backup_nc_premium_detail">Overføres ikke. Alle QLaunchers funktioner er gratis.</string>
+    <string name="backup_nc_inputs">Tv-indgange</string>
+    <string name="backup_nc_profile_bindings">Tilknytninger af skærmprofiler</string>
+    <string name="backup_nc_plugin">Baggrundsplugin</string>
+    <string name="backup_nc_plugin_detail">%1$s er ikke installeret. Baggrundskilden forbliver uændret.</string>
+    <string name="backup_nc_icons">Tilpassede ikoner</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d ændret værdi</item>
+        <item quantity="other">%1$d ændrede værdier</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategori</item>
+        <item quantity="other">%1$d kategorier</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d app</item>
+        <item quantity="other">%1$d apps</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profil</item>
+        <item quantity="other">%1$d profiler</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d fil</item>
+        <item quantity="other">%1$d filer</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d ukendt indstilling, sprunget over</item>
+        <item quantity="other">%1$d ukendte indstillinger, sprunget over</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d post passer ikke til nogen app, der er installeret her, og springes over</item>
+        <item quantity="other">%1$d poster passer ikke til nogen app, der er installeret her, og springes over</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d link til en tv-indgang, som denne enhed ikke har, springes over</item>
+        <item quantity="other">%1$d links til tv-indgange, som denne enhed ikke har, springes over</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d profil, der er tildelt en indgang, overføres ikke</item>
+        <item quantity="other">%1$d profiler, der er tildelt indgange, overføres ikke</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d ikon gemt i Projectivy kan ikke læses og springes over</item>
+        <item quantity="other">%1$d ikoner gemt i Projectivy kan ikke læses og springes over</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automatiske sikkerhedskopier</string>
+    <string name="backup_auto_description">QLauncher gemmer de seneste %1$d versioner af din opsætning på denne enhed, krypteret med en nøgle, der aldrig forlader den. Vælg en for at gendanne den; der kræves ingen adgangskode.</string>
+    <string name="backup_auto_none">Ingen automatisk sikkerhedskopi tilgængelig</string>
+    <string name="backup_files_title">Sikkerhedskopifiler</string>
+    <string name="backup_files_theme_title">Temafiler</string>
+    <string name="backup_files_description">Eksporter gemmes i %1$s. Med adgang til alle filer finder QLauncher også sikkerhedskopier i Download, Documents og på USB-drev, også dem fra Projectivy.</string>
+    <string name="backup_files_searching">Søger efter sikkerhedskopifiler…</string>
+    <string name="backup_files_none">Ingen sikkerhedskopifiler fundet</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLaunchers mappe</string>
+    <string name="backup_files_access">Find sikkerhedskopier fra andre apps og enheder</string>
+    <string name="backup_files_access_desc">Tillad adgang til alle filer</string>
+    <string name="backup_files_access_unavailable">Ingen indstillingsskærm på denne enhed. Tillad adgang til alle filer med: %1$s</string>
+    <string name="backup_files_browse">Anden placering…</string>
+    <string name="backup_files_browse_desc">Vælg en fil med systemets filvælger</string>
+    <string name="backup_auto_delete_all">Slet alle</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Efter en ændring</string>
+    <string name="backup_reason_import">Før en import</string>
+    <string name="backup_reason_migration">Før en opdatering</string>
+    <string name="backup_reason_reset">Før en nulstilling</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profil #</string>
+    <string name="backup_no_picture_manager">Ingen billedstyring indlæst</string>
+    <string name="backup_no_picture_manager_detail">Denne enhed har ingen understøttet måde at ændre billedindstillingerne på, så profilerne beholder deres værdier uden at anvende dem.</string>
+</resources>

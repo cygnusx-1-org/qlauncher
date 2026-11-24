@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Implicit</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">aldin</string>
+    <string name="backup_clock_markup_italic">cursiv</string>
+    <string name="backup_clock_markup_underline">subliniat</string>
+    <string name="backup_clock_markup_strikethrough">tăiat</string>
+    <string name="backup_clock_markup_subscript">indice</string>
+    <string name="backup_clock_markup_superscript">exponent</string>
+    <string name="backup_clock_markup_half_size">jumătate de mărime</string>
+    <string name="backup_clock_markup_one_and_a_half_size">o dată și jumătate</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Limitare negru</string>
+    <string name="backup_pattern_apl_clipping">Limitare APL</string>
+    <string name="backup_pattern_white_clipping">Limitare alb</string>
+    <string name="backup_pattern_grayscale_ramp">Rampă de gri</string>
+    <string name="backup_pattern_grayscale_steps">Trepte de gri</string>
+    <string name="backup_pattern_dynamic_brightness">Luminozitate dinamică</string>
+    <string name="backup_pattern_color_steps">Trepte de culoare</string>
+    <string name="backup_pattern_color_clipping">Limitare culoare</string>
+    <string name="backup_pattern_flashing_color_bars">Bare de culoare intermitente</string>
+    <string name="backup_pattern_sharpness_overscan">Claritate &amp; overscan</string>
+    <string name="backup_pattern_uhd">Model UHD</string>
+    <string name="backup_pattern_judder">Test de sacadare</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Claritate raport de aspect</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Nivel de negru</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Limitare culoare 240–1000 niți</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Limitare culoare 3600–10000 niți</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Limitare culoare 700–10000 niți</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Limitare culoare 900–4000 niți</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Rampă de gri 10000 niți</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Rampă de gri 1000 niți</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Rampă de gri 4000 niți</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE negru</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Rampe de culoare</string>
+    <string name="backup_pattern_unavailable">%1$s necesită o cale video HDR și nu este încă disponibil</string>
+    <!-- Pages -->
+    <string name="backup_settings">Setări</string>
+    <string name="backup_manage_settings">Gestionați setările</string>
+    <string name="backup_themes">Teme</string>
+    <string name="backup_import">Importați</string>
+    <string name="backup_export">Exportați</string>
+    <string name="backup_import_from_file">Din managerul de fișiere</string>
+    <string name="backup_import_from_auto">Din copia de rezervă automată</string>
+    <string name="backup_export_save">Salvați local</string>
+    <string name="backup_export_share">Distribuiți cu altă aplicație</string>
+    <string name="backup_reset">Resetați la valorile implicite</string>
+    <string name="backup_cancel">Anulați</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Gata</string>
+    <string name="backup_close">Închideți</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Exportați setările</string>
+    <string name="backup_export_theme_title">Exportați tema</string>
+    <string name="backup_export_description">Totul este salvat într-un singur fișier, criptat cu o parolă aleasă de dvs. (cel puțin %1$d caractere). Parola este necesară pentru a importa fișierul și nu poate fi recuperată.</string>
+    <string name="backup_export_theme_description">Setările de aspect și imaginea de fundal curentă sunt salvate într-un singur fișier, criptat cu o parolă aleasă de dvs. (cel puțin %1$d caractere). Parola este necesară pentru a importa tema.</string>
+    <string name="backup_password">Parolă</string>
+    <string name="backup_password_show">Afișați parola</string>
+    <string name="backup_password_hide">Ascundeți parola</string>
+    <string name="backup_password_strength">Puterea parolei</string>
+    <string name="backup_strength_too_short">Prea scurtă: cel puțin %1$d caractere</string>
+    <string name="backup_strength_weak">Slabă: ușor de ghicit</string>
+    <string name="backup_strength_fair">Acceptabilă</string>
+    <string name="backup_strength_strong">Puternică</string>
+    <string name="backup_password_too_short">Parola trebuie să aibă cel puțin %1$d caractere</string>
+    <string name="backup_exporting">Se exportă…</string>
+    <string name="backup_export_saved">Salvat în %1$s</string>
+    <string name="backup_export_kept">Nu a fost salvat în altă parte. Fișierul rămâne în %1$s</string>
+    <string name="backup_export_shared">Trimis. O copie rămâne în %1$s</string>
+    <string name="backup_export_no_file_manager">Nicio aplicație de pe acest dispozitiv nu poate prelua fișierul. Acesta se află în %1$s</string>
+    <string name="backup_export_failed">Exportul nu a reușit: %1$s</string>
+    <string name="backup_share_title">Trimiteți fișierul QLauncher cu</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Importul înlocuiește configurația actuală. Mai întâi se creează o copie de rezervă automată, iar QLauncher repornește la final.</string>
+    <string name="backup_reading">Se citește fișierul…</string>
+    <string name="backup_import_action">Importați</string>
+    <string name="backup_wrong_password">Parolă greșită</string>
+    <string name="backup_password_hint">Parola aleasă la exportarea fișierului</string>
+    <string name="backup_not_a_backup">Aceasta nu este o copie de rezervă sau o temă QLauncher ori Projectivy.</string>
+    <string name="backup_damaged">Fișierul este deteriorat sau incomplet.</string>
+    <string name="backup_too_new">Acest fișier a fost creat de o versiune mai nouă de QLauncher (format %1$d). Actualizați QLauncher pentru a-l importa.</string>
+    <string name="backup_unreadable">Această copie de rezervă automată nu poate fi citită pe acest dispozitiv.</string>
+    <string name="backup_import_failed">Importul nu a reușit și nu s-a modificat nimic: %1$s</string>
+    <string name="backup_applying">Se importă… QLauncher repornește la final.</string>
+    <string name="backup_origin_ql_backup">Copie de rezervă a setărilor QLauncher</string>
+    <string name="backup_origin_ql_theme">Temă QLauncher</string>
+    <string name="backup_origin_pl_backup">Copie de rezervă a setărilor Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Temă Projectivy Launcher</string>
+    <string name="backup_origin_auto">Copie de rezervă automată</string>
+    <string name="backup_preview_theme_by">%1$s de %2$s</string>
+    <string name="backup_preview_version">versiunea %1$s</string>
+    <string name="backup_preview_settings">Setări</string>
+    <string name="backup_preview_categories">Categorii</string>
+    <string name="backup_preview_apps">Personalizări ale aplicațiilor</string>
+    <string name="backup_preview_profiles">Profiluri de afișare</string>
+    <string name="backup_preview_files">Imagini de fundal și pictograme</string>
+    <string name="backup_preview_skipped">Aplicații care nu sunt pe acest dispozitiv</string>
+    <string name="backup_replace_setup">Înlocuiți configurația actuală</string>
+    <string name="backup_apply_theme">Aplicați tema</string>
+    <string name="backup_replace_detail">Mai întâi se creează o copie de rezervă automată a configurației actuale</string>
+    <string name="backup_nc_parental">Cod parental</string>
+    <string name="backup_nc_parental_detail">Nu se transferă. Setați un cod nou în Control parental.</string>
+    <string name="backup_nc_premium">Starea Premium</string>
+    <string name="backup_nc_premium_detail">Nu se transferă. Toate funcțiile QLauncher sunt gratuite.</string>
+    <string name="backup_nc_inputs">Intrări TV</string>
+    <string name="backup_nc_profile_bindings">Asocieri ale profilurilor de afișare</string>
+    <string name="backup_nc_plugin">Plugin de imagine de fundal</string>
+    <string name="backup_nc_plugin_detail">%1$s nu este instalat. Sursa imaginii de fundal rămâne neschimbată.</string>
+    <string name="backup_nc_icons">Pictograme personalizate</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d valoare modificată</item>
+        <item quantity="few">%1$d valori modificate</item>
+        <item quantity="other">%1$d de valori modificate</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d categorie</item>
+        <item quantity="few">%1$d categorii</item>
+        <item quantity="other">%1$d de categorii</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d aplicație</item>
+        <item quantity="few">%1$d aplicații</item>
+        <item quantity="other">%1$d de aplicații</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profil</item>
+        <item quantity="few">%1$d profiluri</item>
+        <item quantity="other">%1$d de profiluri</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d fișier</item>
+        <item quantity="few">%1$d fișiere</item>
+        <item quantity="other">%1$d de fișiere</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d setare necunoscută, omisă</item>
+        <item quantity="few">%1$d setări necunoscute, omise</item>
+        <item quantity="other">%1$d de setări necunoscute, omise</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d intrare nu corespunde niciunei aplicații instalate aici și este omisă</item>
+        <item quantity="few">%1$d intrări nu corespund niciunei aplicații instalate aici și sunt omise</item>
+        <item quantity="other">%1$d de intrări nu corespund niciunei aplicații instalate aici și sunt omise</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d legătură către o intrare TV pe care acest dispozitiv nu o are este omisă</item>
+        <item quantity="few">%1$d legături către intrări TV pe care acest dispozitiv nu le are sunt omise</item>
+        <item quantity="other">%1$d de legături către intrări TV pe care acest dispozitiv nu le are sunt omise</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d profil atribuit unei intrări nu se transferă</item>
+        <item quantity="few">%1$d profiluri atribuite unor intrări nu se transferă</item>
+        <item quantity="other">%1$d de profiluri atribuite unor intrări nu se transferă</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d pictogramă stocată în Projectivy nu poate fi citită și este omisă</item>
+        <item quantity="few">%1$d pictograme stocate în Projectivy nu pot fi citite și sunt omise</item>
+        <item quantity="other">%1$d de pictograme stocate în Projectivy nu pot fi citite și sunt omise</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Copii de rezervă automate</string>
+    <string name="backup_auto_description">QLauncher păstrează ultimele %1$d versiuni ale configurației dvs. pe acest dispozitiv, criptate cu o cheie care nu părăsește niciodată dispozitivul. Alegeți una pentru a o restabili; nu este necesară nicio parolă.</string>
+    <string name="backup_auto_none">Nicio copie de rezervă automată disponibilă</string>
+    <string name="backup_files_title">Fișiere de rezervă</string>
+    <string name="backup_files_theme_title">Fișiere de temă</string>
+    <string name="backup_files_description">Exporturile sunt salvate în %1$s. Cu acces la toate fișierele, QLauncher găsește copii de rezervă și în Download, Documents și pe unitățile USB, inclusiv pe cele ale Projectivy.</string>
+    <string name="backup_files_searching">Se caută fișiere de rezervă…</string>
+    <string name="backup_files_none">Nu s-au găsit fișiere de rezervă</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Dosarul QLauncher</string>
+    <string name="backup_files_access">Găsiți copii de rezervă din alte aplicații și de pe alte dispozitive</string>
+    <string name="backup_files_access_desc">Permiteți accesul la toate fișierele</string>
+    <string name="backup_files_access_unavailable">Niciun ecran de setări pe acest dispozitiv. Permiteți accesul la toate fișierele cu: %1$s</string>
+    <string name="backup_files_browse">Altă locație…</string>
+    <string name="backup_files_browse_desc">Alegeți un fișier cu selectorul de fișiere al sistemului</string>
+    <string name="backup_auto_delete_all">Ștergeți tot</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">După o modificare</string>
+    <string name="backup_reason_import">Înainte de un import</string>
+    <string name="backup_reason_migration">Înainte de o actualizare</string>
+    <string name="backup_reason_reset">Înainte de o resetare</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profil #</string>
+    <string name="backup_no_picture_manager">Niciun manager de imagine încărcat</string>
+    <string name="backup_no_picture_manager_detail">Acest dispozitiv nu oferă nicio metodă acceptată pentru a-și schimba setările de imagine, așa că profilurile își păstrează valorile fără a le aplica.</string>
+</resources>

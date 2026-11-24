@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Ρυθμίσεις</string>
+    <string name="settings_breadcrumb_display">Οθόνη</string>
+    <string name="settings_breadcrumb_applications">Εφαρμογές</string>
+    <string name="settings_breadcrumb_system">Σύστημα</string>
+    <string name="settings_breadcrumb_about">Σχετικά</string>
+    <string name="settings_root_title">Ρυθμίσεις QLauncher</string>
+    <string name="settings_root_description">Διαμόρφωση των ρυθμίσεων της εφαρμογής.</string>
+    <string name="settings_legend_a11y_required">Απαιτείται η υπηρεσία προσβασιμότητας</string>
+    <string name="settings_legend_a11y_recommended">Συνιστάται η υπηρεσία προσβασιμότητας</string>
+    <string name="settings_legend_experimental">Πειραματικό</string>
+    <string name="settings_launcher_related">Ρυθμίσεις του εκκινητή</string>
+
+    <string name="settings_general">Γενικά</string>
+    <string name="settings_appearance">Εμφάνιση</string>
+    <string name="settings_power">Ενέργεια</string>
+    <string name="settings_parental">Γονικός έλεγχος</string>
+    <string name="settings_remote">Τηλεχειριστήριο</string>
+    <string name="settings_accessibility">Υπηρεσία προσβασιμότητας</string>
+    <string name="settings_display_profiles">Προφίλ οθόνης</string>
+    <string name="settings_manage">Διαχείριση ρυθμίσεων</string>
+
+    <!-- General -->
+    <string name="settings_language">Αλλαγή γλώσσας εφαρμογής</string>
+    <string name="settings_language_system">Προεπιλογή συστήματος</string>
+    <string name="settings_default_launcher">Αλλαγή προεπιλεγμένου εκκινητή</string>
+    <string name="settings_default_launcher_unavailable">Αυτή η συσκευή δεν προσφέρει τρόπο αλλαγής του προεπιλεγμένου εκκινητή. Χρησιμοποιήστε αντί γι’ αυτό την επιλογή «Αντικατάσταση τρέχοντος εκκινητή».</string>
+    <string name="settings_override_home">Αντικατάσταση τρέχοντος εκκινητή</string>
+    <string name="settings_override_home_desc">Αναχαίτιση κλήσεων προς τον τρέχοντα εκκινητή (χρήσιμο αν δεν μπορείτε να αλλάξετε ή να καταργήσετε τον εργοστασιακό)</string>
+    <string name="settings_enable_channels">Ενεργοποίηση καναλιών</string>
+    <string name="settings_enable_channels_desc">Αν δεν τα χρησιμοποιείτε, η απενεργοποίηση κάνει την εκκίνηση ταχύτερη και χρησιμοποιεί λιγότερη μνήμη</string>
+    <string name="settings_programs_per_channel">Προγράμματα ανά κανάλι</string>
+    <string name="settings_crash_error_reports">Ενεργοποίηση ανώνυμων αναφορών κατάρρευσης και σφαλμάτων</string>
+    <string name="settings_reports_desc">Αποστέλλονται μόνο το σφάλμα, η έκδοση της εφαρμογής και το μοντέλο της συσκευής</string>
+    <string name="settings_check_updates">Έλεγχος για ενημερώσεις</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Κατηγορίες / Κανάλια</string>
+    <string name="settings_cards">Κάρτες</string>
+    <string name="settings_wallpaper">Ταπετσαρία</string>
+    <string name="settings_status_bar">Γραμμή κατάστασης</string>
+    <string name="settings_left_headers">Αριστερές κεφαλίδες</string>
+    <string name="settings_idle_mode">Λειτουργία αδράνειας εκκινητή</string>
+    <string name="settings_font">Γραμματοσειρά</string>
+    <string name="settings_themes">Θέματα</string>
+    <string name="settings_themes_desc">Εισαγωγή / Εξαγωγή</string>
+    <string name="settings_load_cards_scrolling">Φόρτωση καρτών κατά την κύλιση</string>
+    <string name="settings_load_cards_scrolling_desc">Πιο γρήγορη απόκριση, εις βάρος της ομαλότητας</string>
+    <string name="settings_accent">Χρώμα έμφασης</string>
+    <string name="settings_accent_desc">Ενεργοποιήστε το δυναμικό για να ακολουθεί την ταπετσαρία</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Εμφάνιση τίτλου</string>
+    <string name="settings_show_icon_title">Εμφάνιση εικονιδίου μπροστά από τον τίτλο</string>
+    <string name="settings_rows_spacing">Κατακόρυφη απόσταση (σε % ύψους οθόνης)</string>
+    <string name="settings_fixed_position">Σταθερή θέση εστιασμένης κατηγορίας</string>
+    <string name="settings_hide_rows_above">Απόκρυψη σειρών πάνω από την επιλογή</string>
+    <string name="settings_remember_focus">Απομνημόνευση θέσης εστιασμένης κάρτας</string>
+    <string name="settings_unselected_opacity">Αδιαφάνεια μη επιλεγμένων σειρών</string>
+    <string name="settings_top_margin">Επάνω περιθώριο</string>
+    <string name="settings_start_margin">Αρχικό περιθώριο</string>
+    <string name="settings_end_margin">Τελικό περιθώριο</string>
+    <string name="settings_dock_padding">Εσωτερικό περιθώριο βάσης</string>
+    <string name="settings_tint_custom_icons">Χρωματισμός προσαρμοσμένων εικονιδίων</string>
+    <string name="settings_tint_custom_icons_desc">Για προσαρμοσμένα εικονίδια χωρίς φόντο</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Στρογγυλεμένες γωνίες</string>
+    <string name="settings_cards_size">Μέγεθος καρτών</string>
+    <string name="settings_cards_spacing">Απόσταση καρτών</string>
+    <string name="settings_loop_limit">Όριο επαναλήψεων κινούμενων εικονιδίων</string>
+    <string name="settings_ripple">Εφέ κυματισμού στο πάτημα κάρτας</string>
+    <string name="settings_background_color">Χρώμα φόντου</string>
+    <string name="settings_focused_card">Εστιασμένη κάρτα</string>
+    <string name="settings_program_cards">Κάρτες προγραμμάτων</string>
+    <string name="settings_tv_ratio">Αναλογία καρτών εφαρμογών TV</string>
+    <string name="settings_mobile_ratio">Αναλογία καρτών εφαρμογών κινητού</string>
+    <string name="settings_icon_pack">Πακέτο εικονιδίων</string>
+    <string name="settings_icon_pack_none">Δεν έχει εγκατασταθεί πακέτο εικονιδίων</string>
+    <string name="settings_icon_pack_off">Κανένα</string>
+    <string name="settings_more">Περισσότερα…</string>
+    <string name="settings_custom_icon_tint">Χρώμα προσαρμοσμένων εικονιδίων</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Μέγεθος εστιασμένης κάρτας</string>
+    <string name="settings_focused_effect">Εφέ εστιασμένης κάρτας</string>
+    <string name="settings_effect_none">Κανένα</string>
+    <string name="settings_effect_shadow">Σκιά</string>
+    <string name="settings_effect_glow">Λάμψη</string>
+    <string name="settings_glow_animation">Κίνηση λάμψης</string>
+    <string name="settings_anim_none">Καμία</string>
+    <string name="settings_anim_pulse">Παλμός</string>
+    <string name="settings_anim_breath">Ανάσα</string>
+    <string name="settings_anim_fade">Σβήσιμο</string>
+    <string name="settings_anim_shine">Λαμπύρισμα</string>
+    <string name="settings_glow_size">Μέγεθος λάμψης</string>
+    <string name="settings_glow_color">Χρώμα λάμψης</string>
+    <string name="settings_glow_color_desc">Αφήστε κενό για να χρησιμοποιηθεί το χρώμα της κάρτας</string>
+    <string name="settings_colors_override">Παράκαμψη χρωμάτων</string>
+    <string name="settings_override_none">Καμία</string>
+    <string name="settings_override_swap">Εναλλαγή φόντου/χρωματισμού</string>
+    <string name="settings_override_custom">Προσαρμοσμένη</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Αναπαραγωγή βίντεο προεπισκόπησης</string>
+    <string name="settings_preview_never">Ποτέ</string>
+    <string name="settings_preview_always">Πάντα</string>
+    <string name="settings_preview_no_media">Όταν δεν αναπαράγονται πολυμέσα στο παρασκήνιο</string>
+    <string name="settings_show_progress">Εμφάνιση γραμμής προόδου</string>
+    <string name="settings_show_badge">Εμφάνιση σήματος</string>
+    <string name="settings_zoom_focus">Εφέ μεγέθυνσης κατά την εστίαση</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Υποστηριζόμενες μορφές: στατική εικόνα, κινούμενο GIF, βίντεο (αρχείο ή ζωντανή ροή RTSP), κινούμενο γραφικό Lottie</string>
+    <string name="settings_launcher_wallpaper">Ταπετσαρία εκκινητή</string>
+    <string name="settings_configure">Διαμόρφωση</string>
+    <string name="settings_show_wallpapers">Εμφάνιση ταπετσαριών</string>
+    <string name="settings_picture_adjustment">Προσαρμογή εικόνας</string>
+    <string name="settings_image_transition">Μετάβαση εικόνας</string>
+    <string name="settings_update_frequency">Συχνότητα ενημέρωσης (λεπτά)</string>
+    <string name="settings_video_wallpaper">Ταπετσαρία βίντεο</string>
+    <string name="settings_display_mode">Λειτουργία προβολής</string>
+    <string name="settings_bad_ratio">Σε κακή αναλογία/ποιότητα</string>
+    <string name="settings_min_width">Ελάχιστο αποδεκτό πλάτος (px)</string>
+    <string name="settings_src_none">Καμία</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Δυναμικά χρώματα</string>
+    <string name="settings_src_default">Προεπιλεγμένη ταπετσαρία</string>
+    <string name="settings_src_media">Αρχείο πολυμέσων</string>
+    <string name="settings_src_folder">Φάκελος</string>
+    <string name="settings_src_focused_program">Επιλεγμένο πρόγραμμα</string>
+    <string name="settings_src_now_playing">Παίζει τώρα</string>
+    <string name="settings_src_random_program">Τυχαίο πρόγραμμα</string>
+    <string name="settings_src_theme">Θέμα</string>
+    <string name="settings_tr_none">Καμία</string>
+    <string name="settings_tr_random">Τυχαία</string>
+    <string name="settings_tr_fade">Σβήσιμο</string>
+    <string name="settings_tr_zoom">Μεγέθυνση</string>
+    <string name="settings_tr_hslide">Οριζόντια ολίσθηση</string>
+    <string name="settings_tr_vslide">Κατακόρυφη ολίσθηση</string>
+    <string name="settings_dm_automatic">Αυτόματα</string>
+    <string name="settings_dm_skip">Παράλειψη</string>
+    <string name="settings_dm_crop">Περικοπή</string>
+    <string name="settings_dm_stretch">Τέντωμα</string>
+    <string name="settings_dm_fit">Προσαρμογή στο κέντρο</string>
+    <string name="settings_dm_fit_blur">Προσαρμογή στο κέντρο + θολό φόντο</string>
+    <string name="settings_dm_blur">Θόλωμα</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Απόχρωση</string>
+    <string name="settings_saturation">Κορεσμός</string>
+    <string name="settings_contrast">Αντίθεση</string>
+    <string name="settings_brightness">Φωτεινότητα</string>
+    <string name="settings_tint">Χρωματισμός</string>
+    <string name="settings_tint_amount">Ένταση χρωματισμού</string>
+    <string name="settings_blur">Θόλωμα</string>
+    <string name="settings_shadow_h">Μήκος οριζόντιας σκίασης</string>
+    <string name="settings_shadow_v">Μήκος κατακόρυφης σκίασης</string>
+    <string name="settings_shadow_opacity">Αδιαφάνεια σκίασης</string>
+    <string name="settings_shadow_tint">Χρωματισμός σκίασης</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Παράβλεψη συχνότητας ενημέρωσης</string>
+    <string name="settings_ignore_update_desc">Αναμονή μέχρι να τελειώσει το βίντεο πριν ζητηθεί νέα ταπετσαρία</string>
+    <string name="settings_video_color_freq">Συχνότητα ενημέρωσης δυναμικού χρώματος</string>
+    <string name="settings_video_color_freq_desc">Δευτερόλεπτα ανάμεσα στα καρέ βίντεο που διαβάζονται για τα χρώματα· το 0 την απενεργοποιεί</string>
+    <string name="settings_volume">Ένταση ήχου</string>
+    <string name="settings_tunneling">Χρήση απόδοσης υλικού (tunneling)</string>
+    <string name="settings_decoder_fallback">Ενεργοποίηση εναλλακτικών αποκωδικοποιητών</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Διαχείριση άδειας ειδοποιήσεων</string>
+    <string name="settings_granted">Παραχωρήθηκε</string>
+    <string name="settings_not_granted">Δεν παραχωρήθηκε</string>
+    <string name="settings_notification_adb">Δεν υπάρχει οθόνη ρυθμίσεων σε αυτή τη συσκευή. Παραχωρήστε την με: %1$s</string>
+    <string name="settings_clock">Ρολόι</string>
+    <string name="settings_icons">Εικονίδια</string>
+    <string name="settings_show_system_bar">Εμφάνιση γραμμής κατάστασης συστήματος</string>
+    <string name="settings_autohide_status">Απόκρυψη γραμμής κατάστασης κατά την κύλιση</string>
+    <string name="settings_show_clock">Εμφάνιση ρολογιού</string>
+    <string name="settings_clock_size">Μέγεθος γραμματοσειράς ρολογιού</string>
+    <string name="settings_clock_color">Χρώμα ρολογιού</string>
+    <string name="settings_drop_shadow">Σκιά</string>
+    <string name="settings_clock_line1">Μορφή ρολογιού (γραμμή 1)</string>
+    <string name="settings_clock_line2">Μορφή ρολογιού (γραμμή 2)</string>
+    <string name="settings_clock_default_format">Μορφή συστήματος</string>
+    <string name="settings_empty">Κενό</string>
+    <string name="settings_icons_size">Μέγεθος εικονιδίων</string>
+    <string name="settings_icons_color">Χρώμα εικονιδίων</string>
+    <string name="settings_icons_container">Χρώμα πλαισίου εικονιδίων</string>
+    <string name="settings_show_settings">Εμφάνιση ρυθμίσεων</string>
+    <string name="settings_show_settings_desc">Οι ρυθμίσεις παραμένουν προσβάσιμες με αυτή τη σειρά κουμπιών: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Εμφάνιση συνδεσιμότητας</string>
+    <string name="settings_show_notifications">Εμφάνιση ειδοποιήσεων</string>
+    <string name="settings_autohide_notifications">Απόκρυψη εικονιδίου ειδοποιήσεων όταν δεν υπάρχουν</string>
+    <string name="settings_show_battery">Εμφάνιση μπαταρίας</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Ενεργοποίηση</string>
+    <string name="settings_headers_on_launch">Εμφάνιση αριστερών κεφαλίδων κατά το άνοιγμα</string>
+    <string name="settings_show_icon">Εμφάνιση εικονιδίου</string>
+    <string name="settings_show_reorder">Εμφάνιση αναδιάταξης</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Χρόνος πριν από την αδράνεια (λεπτά)</string>
+    <string name="settings_idle_opacity">Αδιαφάνεια διεπαφής</string>
+    <string name="settings_keep_clock">Διατήρηση ρολογιού</string>
+    <string name="settings_prevent_screensaver">Αποτροπή προφύλαξης οθόνης συστήματος</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Αλλαγή των ρυθμίσεων γραμματοσειράς του QLauncher. Τα ονόματα οικογενειών μπορείτε να τα αναζητήσετε στο Google Fonts.</string>
+    <string name="settings_font_list">Επιλογή από λίστα</string>
+    <string name="settings_font_google">Γραμματοσειρά (Google Fonts)</string>
+    <string name="settings_font_default">Προεπιλογή</string>
+    <string name="settings_bold">Έντονα</string>
+    <string name="settings_italic">Πλάγια</string>
+    <string name="settings_size">Μέγεθος</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Αυτόματη εκκίνηση με την ενεργοποίηση</string>
+    <string name="settings_autostart_none">Καμία</string>
+    <string name="settings_autostart_screensaver">[*] Προφύλαξη οθόνης (αν υποστηρίζεται)</string>
+    <string name="settings_autostart_resume">…και κατά την επαναφορά από την αναμονή</string>
+    <string name="settings_autostart_delay">Καθυστέρηση αυτόματης εκκίνησης (δευτερόλεπτα)</string>
+    <string name="settings_simulate_activity">Αποτροπή αυτόματου τερματισμού συστήματος σε αδράνεια</string>
+    <string name="settings_idle_detection">Ενεργοποίηση εσωτερικού εντοπισμού αδράνειας</string>
+    <string name="settings_idle_timeout_power">Χρονικό όριο αδράνειας (ώρες:λεπτά)</string>
+    <string name="settings_idle_action">Ενέργεια σε αδράνεια</string>
+    <string name="settings_idle_action_shutdown">Τερματισμός</string>
+    <string name="settings_idle_action_screen_off">Σβήσιμο οθόνης</string>
+    <string name="settings_idle_action_screensaver">Προφύλαξη οθόνης (αν υποστηρίζεται)</string>
+    <string name="settings_idle_media">Παράβλεψη λειτουργίας αδράνειας κατά την αναπαραγωγή πολυμέσων</string>
+    <string name="settings_missing_notification_permission">⚠️ Λείπει η άδεια ειδοποιήσεων</string>
+    <string name="settings_shutdown_action">Ενέργεια τερματισμού</string>
+    <string name="settings_shutdown_dialog">Μενού λειτουργίας</string>
+    <string name="settings_shutdown_dialog_twice">Μενού λειτουργίας (διπλή κλήση)</string>
+    <string name="settings_shutdown_dialog_ok">Μενού λειτουργίας + OK</string>
+    <string name="settings_hdmi_exit">Αυτόματος τερματισμός όταν σταματά το σήμα της εισόδου HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Ορίστε έναν κωδικό για να κλειδώσετε επιλεγμένες εφαρμογές (πατήστε παρατεταμένα μια κάρτα στην αρχική οθόνη για να τις επιλέξετε), όλη την ημέρα ή για ένα μέρος της</string>
+    <string name="settings_parental_set_code">Ορισμός νέου γονικού κωδικού</string>
+    <string name="settings_parental_code_set">Έχει οριστεί κωδικός</string>
+    <string name="settings_parental_long">Να μη ζητείται κωδικός για 15 λεπτά μετά από επιτυχή επικύρωση</string>
+    <string name="settings_parental_protect">Προστασία ρυθμίσεων εκκινητή και αλλαγών διεπαφής</string>
+    <string name="settings_parental_protect_desc">(ισχύει 24/7)</string>
+    <string name="settings_parental_partial">Ενεργοποίηση προστασίας μόνο μεταξύ</string>
+    <string name="settings_parental_start">Ώρα έναρξης (ώρες:λεπτά)</string>
+    <string name="settings_parental_end">Ώρα λήξης (ώρες:λεπτά)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Εμφάνιση πληροφοριών με διπλό πάτημα του «Μενού»</string>
+    <string name="settings_back_double">«Λειτουργία περιβάλλοντος» με διπλό πάτημα του «Πίσω»</string>
+    <string name="settings_back_double_desc">Εκκίνηση της προφύλαξης οθόνης σε υποστηριζόμενες συσκευές</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Ενεργοποιήστε την υπηρεσία για να εκτελείτε μια ενέργεια κατά την εκκίνηση, να προσαρμόζετε τα κουμπιά του τηλεχειριστηρίου, να ενισχύσετε τον γονικό έλεγχο και να εντοπίζετε την αδράνεια για τη διαχείριση ενέργειας. Βλέπει τα πατήματα των φυσικών πλήκτρων και το όνομα της εφαρμογής στο προσκήνιο· και τα δύο παραμένουν στη μνήμη αυτής της συσκευής και δεν αποστέλλονται πουθενά.</string>
+    <string name="settings_a11y_enabled">Ενεργοποιημένη</string>
+    <string name="settings_a11y_started">Σε λειτουργία</string>
+    <string name="settings_yes">Ναι</string>
+    <string name="settings_no">Όχι</string>
+    <string name="settings_a11y_open">Εμφάνιση ρυθμίσεων προσβασιμότητας</string>
+    <string name="settings_a11y_consent_title">Υπηρεσία προσβασιμότητας</string>
+    <string name="settings_a11y_consent">Αυτό επιτρέπει στο QLauncher να βλέπει τα πατήματα των φυσικών κουμπιών και το όνομα της εφαρμογής στο προσκήνιο. Και τα δύο διατηρούνται μόνο στη μνήμη αυτής της συσκευής και δεν αποστέλλονται πουθενά. Συμφωνείτε;</string>
+    <string name="settings_a11y_alternate">Χρήση εναλλακτικής διαμόρφωσης</string>
+    <string name="settings_a11y_alternate_desc">Διορθώνει προβλήματα σε ορισμένες συσκευές</string>
+    <string name="settings_a11y_volume_fix">Διόρθωση κουμπιών έντασης</string>
+    <string name="settings_a11y_volume_fix_desc">Σύντομη διακοπή της αντιστοίχισης όταν πατιέται η ένταση, ώστε να λειτουργούν ακόμη τα παρατεταμένα πατήματα</string>
+    <string name="settings_a11y_remap">Ενεργοποίηση αντιστοίχισης κουμπιών</string>
+    <string name="settings_a11y_remap_desc">Η υπηρεσία αναχαιτίζει τα πατήματα πλήκτρων. Η απενεργοποίηση αποφεύγει προβλήματα με το παρατεταμένο πάτημα της έντασης και τη διακοπή της υπηρεσίας από το σύστημα, αλλά η αντικατάσταση του εκκινητή, ο γονικός έλεγχος και ο εντοπισμός αδράνειας μπορεί να είναι λιγότερο αποτελεσματικά.</string>
+    <string name="settings_a11y_reminder">Εμφάνιση υπενθύμισης</string>
+    <string name="settings_a11y_reminder_desc">Αν η υπηρεσία προσβασιμότητας είναι απενεργοποιημένη</string>
+    <string name="settings_a11y_unbound_toast">Η υπηρεσία προσβασιμότητας του QLauncher δεν εκτελείται</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Εισαγωγή ή εξαγωγή ρυθμίσεων τοπικά ή με άλλη εφαρμογή, όπως το LocalSend ή μια εφαρμογή διαχείρισης αρχείων.</string>
+    <string name="settings_import">Εισαγωγή</string>
+    <string name="settings_import_file">Από αρχείο</string>
+    <string name="settings_import_auto">Από αυτόματο αντίγραφο ασφαλείας</string>
+    <string name="settings_export">Εξαγωγή</string>
+    <string name="settings_export_local">Τοπική αποθήκευση</string>
+    <string name="settings_export_share">Κοινή χρήση με άλλη εφαρμογή</string>
+    <string name="settings_reset">Επαναφορά προεπιλογών</string>
+    <string name="settings_cancel">Ακύρωση</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Κατηγορία</string>
+    <string name="wp_custom_search">Προσαρμοσμένη αναζήτηση</string>
+    <string name="wp_reddit_login">Σύνδεση</string>
+    <string name="wp_reddit_logout">Αποσύνδεση: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Αποσύνδεση</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Προσαρμοσμένο subreddit</string>
+    <string name="wp_custom_subreddit_hint">Πολλά ονόματα χωρισμένα με +</string>
+    <string name="wp_folder">Φάκελος</string>
+    <string name="wp_folder_choose">Επιλογή φακέλου</string>
+    <string name="wp_media">Αρχείο πολυμέσων</string>
+    <string name="wp_media_choose">Επιλογή αρχείου</string>
+    <string name="wp_choose_other">Άλλη τοποθεσία…</string>
+    <string name="wp_choose_other_desc">Επιλογή με το πρόγραμμα επιλογής αρχείων του συστήματος</string>
+    <string name="wp_media_searching">Αναζήτηση εικόνων και βίντεο…</string>
+    <string name="wp_media_none">Δεν βρέθηκαν εικόνες ή βίντεο. Αντιγράψτε μερικά στους φακέλους Pictures, Movies ή Download ή συνδέστε μια μονάδα USB.</string>
+    <string name="wp_folders_description">Φάκελοι με εικόνες ή βίντεο, σε αυτή τη συσκευή και σε μονάδες USB.</string>
+    <string name="wp_folders_none">Δεν βρέθηκαν φάκελοι με εικόνες ή βίντεο</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d αρχείο</item>
+        <item quantity="other">%d αρχεία</item>
+    </plurals>
+    <string name="wp_media_color">Συμπαγές χρώμα</string>
+    <string name="wp_theme_desc">Ταπετσαρίες που περιέχει το εισαγόμενο θέμα</string>
+    <string name="wp_plugin_settings">Ρυθμίσεις πρόσθετου</string>
+    <string name="wp_not_set">Δεν έχει οριστεί</string>
+    <string name="wp_status">Κατάσταση</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Αυτή η ταπετσαρία</string>
+    <string name="wp_next">Επόμενη</string>
+    <string name="wp_source">Πηγή</string>
+    <string name="wp_title">Τίτλος</string>
+    <string name="wp_author">Δημιουργός</string>
+    <string name="wp_set_user">Ορισμός ως ταπετσαρία χρήστη</string>
+    <string name="wp_view">Προβολή</string>
+    <string name="wp_unknown">Άγνωστο</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Δημιουργήστε και διαχειριστείτε εδώ προφίλ προβολής βίντεο. Συνδέστε τα με πηγές εισόδου για αυτόματη αλλαγή ή εφαρμόστε τα πατώντας δύο φορές Μενού και μετά πάνω ή κάτω.</string>
+    <string name="dp_list">Λίστα προφίλ οθόνης</string>
+    <string name="dp_list_desc">Δημιουργήστε ή επεξεργαστείτε εδώ προφίλ προβολής βίντεο. Ανάλογα με τη συσκευή, ορισμένα στοιχεία ελέγχου χρειάζονται root ή δεν λειτουργούν καθόλου· προορίζονται για συσκευές AmLogic.</string>
+    <string name="dp_add">Προσθήκη νέου…</string>
+    <string name="dp_name">Όνομα προφίλ</string>
+    <string name="dp_preview">Προεπισκόπηση</string>
+    <string name="dp_fullscreen">Προεπισκόπηση σε πλήρη οθόνη</string>
+    <string name="dp_fullscreen_desc">ή εναλλαγή με το κουμπί Μενού</string>
+    <string name="dp_delete">Διαγραφή προφίλ</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Εγκατάσταση εφαρμογών τρίτων</string>
+    <string name="install_desc">Επιλέξτε μια εφαρμογή για εγκατάσταση. Ίσως χρειαστεί πρώτα να επιτρέψετε εγκαταστάσεις από άγνωστες πηγές.</string>
+    <string name="install_custom">Προσαρμοσμένο URL / Κωδικός Downloader</string>
+    <string name="install_custom_desc">Χρησιμοποιείτε μόνο πηγή που εμπιστεύεστε</string>
+    <string name="install_status">Κατάσταση</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Αυτή η συσκευή</string>
+
+    <string name="gallery_filter">Φίλτρο…</string>
+    <string name="settings_no_file_picker">Αυτή η συσκευή δεν έχει πρόγραμμα επιλογής αρχείων</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Λαμπρότητα</string>
+    <string name="color_opacity">Αδιαφάνεια</string>
+    <string name="color_prefer_dynamic">Προτίμηση δυναμικού χρώματος</string>
+    <string name="color_prefer_dynamic_desc">Αν είναι διαθέσιμο, θα διατηρεί αυτή τη λαμπρότητα/αδιαφάνεια</string>
+    <string name="color_clear">Απαλοιφή</string>
+    <string name="color_reset">Επαναφορά προεπιλογής</string>
+</resources>

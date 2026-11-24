@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">შეიყვანეთ ისრების/ციფრების ნებისმიერი კომბინაცია და დაადასტურეთ OK-ით</string>
+    <string name="system_parental_confirm_code">კვლავ შეიყვანეთ კოდი და დაადასტურეთ OK-ით</string>
+    <string name="system_parental_restricted">წვდომა შეზღუდულია\nშეიყვანეთ მშობლის კოდი</string>
+    <string name="system_parental_wrong_code">არასწორი კოდი</string>
+    <string name="system_parental_codes_differ">კოდები არ ემთხვევა, სცადეთ ხელახლა</string>
+    <string name="system_parental_code_saved">მშობლის კოდი შენახულია</string>
+    <string name="system_parental_recovery_code">აღდგენის კოდი: %1$s</string>
+    <string name="system_parental_recovery_help">ჩაიწერეთ: ის მხოლოდ ამჯერად ჩანს. ისრებით შეყვანისას (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) ის მშობლის კოდის მსგავსად ხსნის ბლოკირებას.</string>
+    <string name="system_parental_press_ok">გასაგრძელებლად დააჭირეთ OK-ს</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">პულტის მალსახმობები</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">მთავარი</string>
+    <string name="system_hotkeys_keys_menu_twice">მენიუ × 2</string>
+    <string name="system_hotkeys_change_input">შესასვლელის შეცვლა</string>
+    <string name="system_hotkeys_change_profile">ეკრანის პროფილის შეცვლა</string>
+    <string name="system_hotkeys_start_launcher">QLauncher-ის გაშვება</string>
+    <string name="system_hotkeys_home">QLauncher-ის გახსნა; ორჯერ: ბოლო აპები</string>
+    <string name="system_hotkeys_close">ამ დახმარების დახურვა</string>
+    <string name="system_hotkeys_no_inputs">ამ მოწყობილობას TV შესასვლელები არ აქვს</string>
+    <string name="system_hotkeys_no_picture_manager">სურათის მენეჯერი არ არის ჩატვირთული</string>
+    <string name="system_hotkeys_home_off">გამორთულია: საჭიროა „მიმდინარე ლაუნჩერის ჩანაცვლება“ და ღილაკების გადანიშვნა</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">აღმოჩენილია მომხმარებლის უმოქმედობა, გამორთვა %1$d წმ-ში</string>
+    <string name="system_idle_countdown_screen_off">აღმოჩენილია მომხმარებლის უმოქმედობა, ეკრანის გამორთვა %1$d წმ-ში</string>
+    <string name="system_idle_countdown_screensaver">აღმოჩენილია მომხმარებლის უმოქმედობა, ეკრანმზოგი %1$d წმ-ში</string>
+    <string name="system_idle_countdown_cancel">გასაუქმებლად დააჭირეთ ნებისმიერ ღილაკს</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">ამ მოწყობილობას არ აქვს მარტივი წვდომის პარამეტრების მალსახმობი. გახსენით ისინი Android-ის პარამეტრებიდან, ჩვეულებრივ: მოწყობილობის პარამეტრები › მარტივი წვდომა.</string>
+    <string name="system_notification_access_no_settings">ამ მოწყობილობას არ აქვს შეტყობინებებზე წვდომის ეკრანი. მიეცით წვდომა კომპიუტერიდან ბრძანებით:</string>
+</resources>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Innstillinger</string>
+    <string name="settings_breadcrumb_display">Skjerm</string>
+    <string name="settings_breadcrumb_applications">Apper</string>
+    <string name="settings_breadcrumb_system">System</string>
+    <string name="settings_breadcrumb_about">Om</string>
+    <string name="settings_root_title">QLauncher-innstillinger</string>
+    <string name="settings_root_description">Konfigurer appinnstillingene.</string>
+    <string name="settings_legend_a11y_required">Tilgjengelighetstjeneste kreves</string>
+    <string name="settings_legend_a11y_recommended">Tilgjengelighetstjeneste anbefales</string>
+    <string name="settings_legend_experimental">Eksperimentell</string>
+    <string name="settings_launcher_related">Innstillinger for startprogrammet</string>
+
+    <string name="settings_general">Generelt</string>
+    <string name="settings_appearance">Utseende</string>
+    <string name="settings_power">Strøm</string>
+    <string name="settings_parental">Foreldrekontroll</string>
+    <string name="settings_remote">Fjernkontroll</string>
+    <string name="settings_accessibility">Tilgjengelighetstjeneste</string>
+    <string name="settings_display_profiles">Skjermprofiler</string>
+    <string name="settings_manage">Administrer innstillinger</string>
+
+    <!-- General -->
+    <string name="settings_language">Endre appspråk</string>
+    <string name="settings_language_system">Systemstandard</string>
+    <string name="settings_default_launcher">Endre standardstartprogram</string>
+    <string name="settings_default_launcher_unavailable">Denne enheten gir ingen mulighet til å endre standardstartprogrammet. Bruk «Overstyr gjeldende startprogram» i stedet.</string>
+    <string name="settings_override_home">Overstyr gjeldende startprogram</string>
+    <string name="settings_override_home_desc">Fang opp kall til det gjeldende startprogrammet (nyttig hvis du ikke kan endre eller fjerne det forhåndsinstallerte)</string>
+    <string name="settings_enable_channels">Aktiver kanaler</string>
+    <string name="settings_enable_channels_desc">Hvis du ikke bruker dem, gir det raskere oppstart og mindre minnebruk å slå dette av</string>
+    <string name="settings_programs_per_channel">Programmer per kanal</string>
+    <string name="settings_crash_error_reports">Aktiver anonyme krasj- og feilrapporter</string>
+    <string name="settings_reports_desc">Bare feilen, appversjonen og enhetsmodellen sendes</string>
+    <string name="settings_check_updates">Se etter oppdateringer</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategorier / Kanaler</string>
+    <string name="settings_cards">Kort</string>
+    <string name="settings_wallpaper">Bakgrunnsbilde</string>
+    <string name="settings_status_bar">Statuslinje</string>
+    <string name="settings_left_headers">Overskrifter til venstre</string>
+    <string name="settings_idle_mode">Hvilemodus for startprogrammet</string>
+    <string name="settings_font">Skrifttype</string>
+    <string name="settings_themes">Temaer</string>
+    <string name="settings_themes_desc">Importer / eksporter</string>
+    <string name="settings_load_cards_scrolling">Last inn kort under rulling</string>
+    <string name="settings_load_cards_scrolling_desc">Raskere respons, på bekostning av jevnheten</string>
+    <string name="settings_accent">Aksentfarge</string>
+    <string name="settings_accent_desc">Slå på dynamisk for å følge bakgrunnsbildet</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Vis tittel</string>
+    <string name="settings_show_icon_title">Vis ikon foran tittelen</string>
+    <string name="settings_rows_spacing">Vertikal avstand (skjermhøyde i %)</string>
+    <string name="settings_fixed_position">Hold posisjonen til den markerte kategorien fast</string>
+    <string name="settings_hide_rows_above">Skjul rader over markeringen</string>
+    <string name="settings_remember_focus">Husk posisjonen til det markerte kortet</string>
+    <string name="settings_unselected_opacity">Opasitet for umarkerte rader</string>
+    <string name="settings_top_margin">Toppmarg</string>
+    <string name="settings_start_margin">Startmarg</string>
+    <string name="settings_end_margin">Sluttmarg</string>
+    <string name="settings_dock_padding">Utfylling for dokken</string>
+    <string name="settings_tint_custom_icons">Fargetone tilpassede ikoner</string>
+    <string name="settings_tint_custom_icons_desc">For egendefinerte ikoner uten bakgrunn</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Avrundede hjørner</string>
+    <string name="settings_cards_size">Kortstørrelse</string>
+    <string name="settings_cards_spacing">Avstand mellom kort</string>
+    <string name="settings_loop_limit">Gjentakelsesgrense for animerte ikoner</string>
+    <string name="settings_ripple">Bølgeeffekt ved trykk på kort</string>
+    <string name="settings_background_color">Bakgrunnsfarge</string>
+    <string name="settings_focused_card">Markert kort</string>
+    <string name="settings_program_cards">Programkort</string>
+    <string name="settings_tv_ratio">Sideforhold for TV-appkort</string>
+    <string name="settings_mobile_ratio">Sideforhold for mobilappkort</string>
+    <string name="settings_icon_pack">Ikonpakke</string>
+    <string name="settings_icon_pack_none">Ingen ikonpakke installert</string>
+    <string name="settings_icon_pack_off">Ingen</string>
+    <string name="settings_more">Mer…</string>
+    <string name="settings_custom_icon_tint">Fargetone for egendefinerte ikoner</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Størrelse på markert kort</string>
+    <string name="settings_focused_effect">Effekt på markert kort</string>
+    <string name="settings_effect_none">Ingen</string>
+    <string name="settings_effect_shadow">Skygge</string>
+    <string name="settings_effect_glow">Glød</string>
+    <string name="settings_glow_animation">Glødanimasjon</string>
+    <string name="settings_anim_none">Ingen</string>
+    <string name="settings_anim_pulse">Puls</string>
+    <string name="settings_anim_breath">Pust</string>
+    <string name="settings_anim_fade">Toning</string>
+    <string name="settings_anim_shine">Glans</string>
+    <string name="settings_glow_size">Glødstørrelse</string>
+    <string name="settings_glow_color">Glødfarge</string>
+    <string name="settings_glow_color_desc">La stå tomt for å bruke kortets egen farge</string>
+    <string name="settings_colors_override">Overstyr farger</string>
+    <string name="settings_override_none">Ingen</string>
+    <string name="settings_override_swap">Bytt bakgrunn/fargetone</string>
+    <string name="settings_override_custom">Egendefinert</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Spill av forhåndsvisningsvideo</string>
+    <string name="settings_preview_never">Aldri</string>
+    <string name="settings_preview_always">Alltid</string>
+    <string name="settings_preview_no_media">Når ingen medier spilles av i bakgrunnen</string>
+    <string name="settings_show_progress">Vis fremdriftsindikator</string>
+    <string name="settings_show_badge">Vis merke</string>
+    <string name="settings_zoom_focus">Zoomeffekt ved markering</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Støttede formater: stillbilde, animert GIF, video (statisk eller RTSP-direktestrøm), Lottie-animasjon</string>
+    <string name="settings_launcher_wallpaper">Bakgrunnsbilde for startprogrammet</string>
+    <string name="settings_configure">Konfigurer</string>
+    <string name="settings_show_wallpapers">Vis bakgrunnsbilder</string>
+    <string name="settings_picture_adjustment">Bildejustering</string>
+    <string name="settings_image_transition">Bildeovergang</string>
+    <string name="settings_update_frequency">Oppdateringsintervall (min)</string>
+    <string name="settings_video_wallpaper">Videobakgrunn</string>
+    <string name="settings_display_mode">Visningsmodus</string>
+    <string name="settings_bad_ratio">Ved feil sideforhold/dårlig kvalitet</string>
+    <string name="settings_min_width">Minste godtatte bredde (px)</string>
+    <string name="settings_src_none">Ingen</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dynamiske farger</string>
+    <string name="settings_src_default">Standardbakgrunn</string>
+    <string name="settings_src_media">Mediefil</string>
+    <string name="settings_src_folder">Mappe</string>
+    <string name="settings_src_focused_program">Markert program</string>
+    <string name="settings_src_now_playing">Spilles nå</string>
+    <string name="settings_src_random_program">Tilfeldig program</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Ingen</string>
+    <string name="settings_tr_random">Tilfeldig</string>
+    <string name="settings_tr_fade">Toning</string>
+    <string name="settings_tr_zoom">Zoom</string>
+    <string name="settings_tr_hslide">Horisontal skyving</string>
+    <string name="settings_tr_vslide">Vertikal skyving</string>
+    <string name="settings_dm_automatic">Automatisk</string>
+    <string name="settings_dm_skip">Hopp over</string>
+    <string name="settings_dm_crop">Beskjær</string>
+    <string name="settings_dm_stretch">Strekk</string>
+    <string name="settings_dm_fit">Tilpass midtstilt</string>
+    <string name="settings_dm_fit_blur">Tilpass midtstilt + uskarp bakgrunn</string>
+    <string name="settings_dm_blur">Uskarphet</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Nyanse</string>
+    <string name="settings_saturation">Metning</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Lysstyrke</string>
+    <string name="settings_tint">Fargetone</string>
+    <string name="settings_tint_amount">Fargetonens styrke</string>
+    <string name="settings_blur">Uskarphet</string>
+    <string name="settings_shadow_h">Lengde på horisontalt skyggeoverlegg</string>
+    <string name="settings_shadow_v">Lengde på vertikalt skyggeoverlegg</string>
+    <string name="settings_shadow_opacity">Opasitet for skyggeoverlegg</string>
+    <string name="settings_shadow_tint">Fargetone for skyggeoverlegg</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Ignorer oppdateringsintervall</string>
+    <string name="settings_ignore_update_desc">Vent til videoen er ferdig før et nytt bakgrunnsbilde hentes</string>
+    <string name="settings_video_color_freq">Oppdateringsintervall for dynamisk farge</string>
+    <string name="settings_video_color_freq_desc">Sekunder mellom videobilder som leses for farger; 0 slår det av</string>
+    <string name="settings_volume">Volum</string>
+    <string name="settings_tunneling">Bruk maskinvaregjengivelse (tunneling)</string>
+    <string name="settings_decoder_fallback">Aktiver reservedekodere</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Administrer varseltillatelse</string>
+    <string name="settings_granted">Gitt</string>
+    <string name="settings_not_granted">Ikke gitt</string>
+    <string name="settings_notification_adb">Ingen innstillingsskjerm på denne enheten. Gi tillatelsen med: %1$s</string>
+    <string name="settings_clock">Klokke</string>
+    <string name="settings_icons">Ikoner</string>
+    <string name="settings_show_system_bar">Vis systemets statuslinje</string>
+    <string name="settings_autohide_status">Skjul statuslinjen ved rulling</string>
+    <string name="settings_show_clock">Vis klokke</string>
+    <string name="settings_clock_size">Skriftstørrelse for klokken</string>
+    <string name="settings_clock_color">Klokkefarge</string>
+    <string name="settings_drop_shadow">Skygge</string>
+    <string name="settings_clock_line1">Klokkeformat (linje 1)</string>
+    <string name="settings_clock_line2">Klokkeformat (linje 2)</string>
+    <string name="settings_clock_default_format">Systemformat</string>
+    <string name="settings_empty">Tom</string>
+    <string name="settings_icons_size">Ikonstørrelse</string>
+    <string name="settings_icons_color">Ikonfarge</string>
+    <string name="settings_icons_container">Farge på ikonbeholder</string>
+    <string name="settings_show_settings">Vis innstillinger</string>
+    <string name="settings_show_settings_desc">Innstillingene er fortsatt tilgjengelige med denne tastesekvensen: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Vis tilkobling</string>
+    <string name="settings_show_notifications">Vis varsler</string>
+    <string name="settings_autohide_notifications">Skjul varselikonet når det er tomt</string>
+    <string name="settings_show_battery">Vis batteri</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Aktiver</string>
+    <string name="settings_headers_on_launch">Vis overskriftene til venstre ved start</string>
+    <string name="settings_show_icon">Vis ikon</string>
+    <string name="settings_show_reorder">Vis «Endre rekkefølge»</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Tid før hvilemodus (min)</string>
+    <string name="settings_idle_opacity">Opasitet for grensesnittet</string>
+    <string name="settings_keep_clock">Behold klokken</string>
+    <string name="settings_prevent_screensaver">Forhindre systemets skjermsparer</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Endre skriftinnstillingene for QLauncher. Navn på skriftfamilier kan slås opp på Google Fonts.</string>
+    <string name="settings_font_list">Velg fra liste</string>
+    <string name="settings_font_google">Skrifttype (Google Fonts)</string>
+    <string name="settings_font_default">Standard</string>
+    <string name="settings_bold">Fet</string>
+    <string name="settings_italic">Kursiv</string>
+    <string name="settings_size">Størrelse</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Autostart ved oppstart</string>
+    <string name="settings_autostart_none">Ingen</string>
+    <string name="settings_autostart_screensaver">[*] Skjermsparer (hvis støttet)</string>
+    <string name="settings_autostart_resume">…og når enheten våkner fra standby</string>
+    <string name="settings_autostart_delay">Forsinkelse for autostart (sekunder)</string>
+    <string name="settings_simulate_activity">Forhindre at systemet slår seg av automatisk ved inaktivitet</string>
+    <string name="settings_idle_detection">Aktiver intern inaktivitetsregistrering</string>
+    <string name="settings_idle_timeout_power">Tidsavbrudd for inaktivitet (tt:mm)</string>
+    <string name="settings_idle_action">Handling ved inaktivitet</string>
+    <string name="settings_idle_action_shutdown">Slå av</string>
+    <string name="settings_idle_action_screen_off">Skjerm av</string>
+    <string name="settings_idle_action_screensaver">Skjermsparer (hvis støttet)</string>
+    <string name="settings_idle_media">Ignorer hvilemodus under medieavspilling</string>
+    <string name="settings_missing_notification_permission">⚠️ Varseltillatelse mangler</string>
+    <string name="settings_shutdown_action">Handling ved avslåing</string>
+    <string name="settings_shutdown_dialog">Strømdialog</string>
+    <string name="settings_shutdown_dialog_twice">Strømdialog (kall to ganger)</string>
+    <string name="settings_shutdown_dialog_ok">Strømdialog + OK</string>
+    <string name="settings_hdmi_exit">Slå av automatisk når HDMI-inngangssignalet stopper</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Angi en kode for å låse valgte apper (trykk lenge på et kort på startskjermen for å velge dem), hele dagen eller deler av dagen</string>
+    <string name="settings_parental_set_code">Angi en ny foreldrekode</string>
+    <string name="settings_parental_code_set">En kode er angitt</string>
+    <string name="settings_parental_long">Ikke be om kode i 15 min etter en vellykket bekreftelse</string>
+    <string name="settings_parental_protect">Beskytt innstillingene for startprogrammet og endringer i grensesnittet</string>
+    <string name="settings_parental_protect_desc">(gjelder døgnet rundt)</string>
+    <string name="settings_parental_partial">Aktiver beskyttelse bare mellom</string>
+    <string name="settings_parental_start">Starttid (tt:mm)</string>
+    <string name="settings_parental_end">Sluttid (tt:mm)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Vis info ved dobbelttrykk på «Meny»</string>
+    <string name="settings_back_double">«Bakgrunnsmodus» ved dobbelttrykk på «Tilbake»</string>
+    <string name="settings_back_double_desc">Start skjermspareren på enheter som støttes</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Slå på tjenesten for å kjøre en handling ved oppstart, tilpasse fjernkontrollknappene, styrke foreldrekontrollen og oppdage inaktivitet for strømstyring. Den ser trykk på maskinvaretaster og navnet på appen i forgrunnen; begge deler blir værende i minnet på denne enheten og sendes aldri noe sted.</string>
+    <string name="settings_a11y_enabled">Aktivert</string>
+    <string name="settings_a11y_started">Startet</string>
+    <string name="settings_yes">Ja</string>
+    <string name="settings_no">Nei</string>
+    <string name="settings_a11y_open">Vis tilgjengelighetsinnstillinger</string>
+    <string name="settings_a11y_consent_title">Tilgjengelighetstjeneste</string>
+    <string name="settings_a11y_consent">Dette lar QLauncher se trykk på maskinvareknapper og navnet på appen i forgrunnen. Begge deler holdes bare i minnet på denne enheten og sendes aldri noe sted. Godtar du dette?</string>
+    <string name="settings_a11y_alternate">Bruk alternativ konfigurasjon</string>
+    <string name="settings_a11y_alternate_desc">Løser problemer på enkelte enheter</string>
+    <string name="settings_a11y_volume_fix">Fiks for volumknapper</string>
+    <string name="settings_a11y_volume_fix_desc">Stopp ommappingen kort når en volumknapp trykkes, slik at lange trykk fortsatt fungerer</string>
+    <string name="settings_a11y_remap">Aktiver ommapping av knapper</string>
+    <string name="settings_a11y_remap_desc">Tjenesten fanger opp tastetrykk. Hvis du slår av dette, unngår du problemer med lange trykk på volumknappene og at systemet stopper tjenesten, men overstyringen av startprogrammet, foreldrekontrollen og inaktivitetsregistreringen kan bli mindre effektive.</string>
+    <string name="settings_a11y_reminder">Vis påminnelse</string>
+    <string name="settings_a11y_reminder_desc">Hvis tilgjengelighetstjenesten er slått av</string>
+    <string name="settings_a11y_unbound_toast">QLaunchers tilgjengelighetstjeneste kjører ikke</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importer eller eksporter innstillinger lokalt eller med en annen app, for eksempel LocalSend eller en filbehandler.</string>
+    <string name="settings_import">Importer</string>
+    <string name="settings_import_file">Fra en fil</string>
+    <string name="settings_import_auto">Fra automatisk sikkerhetskopi</string>
+    <string name="settings_export">Eksporter</string>
+    <string name="settings_export_local">Lagre lokalt</string>
+    <string name="settings_export_share">Del med en annen app</string>
+    <string name="settings_reset">Tilbakestill til standard</string>
+    <string name="settings_cancel">Avbryt</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategori</string>
+    <string name="wp_custom_search">Egendefinert søk</string>
+    <string name="wp_reddit_login">Logg på</string>
+    <string name="wp_reddit_logout">Logg av: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Logg av</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Egendefinert subreddit</string>
+    <string name="wp_custom_subreddit_hint">Flere navn atskilt med +</string>
+    <string name="wp_folder">Mappe</string>
+    <string name="wp_folder_choose">Velg en mappe</string>
+    <string name="wp_media">Mediefil</string>
+    <string name="wp_media_choose">Velg en fil</string>
+    <string name="wp_choose_other">Annen plassering…</string>
+    <string name="wp_choose_other_desc">Velg med systemets filvelger</string>
+    <string name="wp_media_searching">Leter etter bilder og videoer…</string>
+    <string name="wp_media_none">Fant ingen bilder eller videoer. Kopier noen til Pictures, Movies eller Download, eller koble til en USB-stasjon.</string>
+    <string name="wp_folders_description">Mapper med bilder eller videoer, på denne enheten og på USB-stasjoner.</string>
+    <string name="wp_folders_none">Fant ingen mapper med bilder eller videoer</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fil</item>
+        <item quantity="other">%d filer</item>
+    </plurals>
+    <string name="wp_media_color">Ensfarget</string>
+    <string name="wp_theme_desc">Bakgrunnsbilder som følger med det importerte temaet</string>
+    <string name="wp_plugin_settings">Plugininnstillinger</string>
+    <string name="wp_not_set">Ikke angitt</string>
+    <string name="wp_status">Status</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Dette bakgrunnsbildet</string>
+    <string name="wp_next">Neste</string>
+    <string name="wp_source">Kilde</string>
+    <string name="wp_title">Tittel</string>
+    <string name="wp_author">Opphavsperson</string>
+    <string name="wp_set_user">Angi som brukerbakgrunn</string>
+    <string name="wp_view">Vis</string>
+    <string name="wp_unknown">Ukjent</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Opprett og administrer skjermprofiler for video her. Knytt dem til inngangskilder for å bytte automatisk, eller bruk dem ved å trykke to ganger på Meny og deretter opp eller ned.</string>
+    <string name="dp_list">Liste over skjermprofiler</string>
+    <string name="dp_list_desc">Opprett eller rediger skjermprofiler for video her. Avhengig av enheten krever noen kontroller root eller fungerer ikke i det hele tatt; de er beregnet på AmLogic-enheter.</string>
+    <string name="dp_add">Legg til ny…</string>
+    <string name="dp_name">Profilnavn</string>
+    <string name="dp_preview">Forhåndsvisning</string>
+    <string name="dp_fullscreen">Forhåndsvisning i fullskjerm</string>
+    <string name="dp_fullscreen_desc">eller veksle med Meny-knappen</string>
+    <string name="dp_delete">Slett profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Installer tredjepartsapper</string>
+    <string name="install_desc">Velg en app du vil installere. Du må kanskje tillate installasjoner fra ukjente kilder først.</string>
+    <string name="install_custom">Egendefinert URL / Downloader-kode</string>
+    <string name="install_custom_desc">Bruk bare en kilde du stoler på</string>
+    <string name="install_status">Status</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Denne enheten</string>
+
+    <string name="gallery_filter">Filtrer…</string>
+    <string name="settings_no_file_picker">Denne enheten har ingen filvelger</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminans</string>
+    <string name="color_opacity">Opasitet</string>
+    <string name="color_prefer_dynamic">Foretrekk dynamisk farge</string>
+    <string name="color_prefer_dynamic_desc">Beholder denne luminansen/opasiteten hvis mulig</string>
+    <string name="color_clear">Tøm</string>
+    <string name="color_reset">Tilbakestill til standard</string>
+</resources>

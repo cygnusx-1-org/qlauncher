@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Inställningar</string>
+    <string name="settings_breadcrumb_display">Skärm</string>
+    <string name="settings_breadcrumb_applications">Appar</string>
+    <string name="settings_breadcrumb_system">System</string>
+    <string name="settings_breadcrumb_about">Om</string>
+    <string name="settings_root_title">QLauncher-inställningar</string>
+    <string name="settings_root_description">Konfigurera appens inställningar.</string>
+    <string name="settings_legend_a11y_required">Tillgänglighetstjänst krävs</string>
+    <string name="settings_legend_a11y_recommended">Tillgänglighetstjänst rekommenderas</string>
+    <string name="settings_legend_experimental">Experimentell</string>
+    <string name="settings_launcher_related">Inställningar för appstartaren</string>
+
+    <string name="settings_general">Allmänt</string>
+    <string name="settings_appearance">Utseende</string>
+    <string name="settings_power">Ström</string>
+    <string name="settings_parental">Föräldrakontroll</string>
+    <string name="settings_remote">Fjärrkontroll</string>
+    <string name="settings_accessibility">Tillgänglighetstjänst</string>
+    <string name="settings_display_profiles">Skärmprofiler</string>
+    <string name="settings_manage">Hantera inställningar</string>
+
+    <!-- General -->
+    <string name="settings_language">Ändra appens språk</string>
+    <string name="settings_language_system">Systemstandard</string>
+    <string name="settings_default_launcher">Byt standardappstartare</string>
+    <string name="settings_default_launcher_unavailable">Enheten erbjuder inget sätt att byta standardappstartare. Använd ”Åsidosätt aktuell appstartare” i stället.</string>
+    <string name="settings_override_home">Åsidosätt aktuell appstartare</string>
+    <string name="settings_override_home_desc">Fånga upp anrop till den aktuella appstartaren (användbart om du inte kan byta eller ta bort den förinstallerade)</string>
+    <string name="settings_enable_channels">Aktivera kanaler</string>
+    <string name="settings_enable_channels_desc">Om du inte använder dem går uppstarten snabbare och mindre minne används när detta är avstängt</string>
+    <string name="settings_programs_per_channel">Program per kanal</string>
+    <string name="settings_crash_error_reports">Aktivera anonyma krasch- och felrapporter</string>
+    <string name="settings_reports_desc">Endast felet, appversionen och enhetsmodellen skickas</string>
+    <string name="settings_check_updates">Sök efter uppdateringar</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategorier / Kanaler</string>
+    <string name="settings_cards">Kort</string>
+    <string name="settings_wallpaper">Bakgrundsbild</string>
+    <string name="settings_status_bar">Statusfält</string>
+    <string name="settings_left_headers">Rubriker till vänster</string>
+    <string name="settings_idle_mode">Appstartarens viloläge</string>
+    <string name="settings_font">Teckensnitt</string>
+    <string name="settings_themes">Teman</string>
+    <string name="settings_themes_desc">Importera / exportera</string>
+    <string name="settings_load_cards_scrolling">Läs in kort under rullning</string>
+    <string name="settings_load_cards_scrolling_desc">Snabbare respons, på bekostnad av jämnheten</string>
+    <string name="settings_accent">Accentfärg</string>
+    <string name="settings_accent_desc">Aktivera dynamisk för att följa bakgrundsbilden</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Visa titel</string>
+    <string name="settings_show_icon_title">Visa ikon framför titeln</string>
+    <string name="settings_rows_spacing">Vertikalt avstånd (skärmhöjd i %)</string>
+    <string name="settings_fixed_position">Håll den markerade kategorins position fast</string>
+    <string name="settings_hide_rows_above">Dölj rader ovanför markeringen</string>
+    <string name="settings_remember_focus">Kom ihåg det markerade kortets position</string>
+    <string name="settings_unselected_opacity">Opacitet för omarkerade rader</string>
+    <string name="settings_top_margin">Övre marginal</string>
+    <string name="settings_start_margin">Startmarginal</string>
+    <string name="settings_end_margin">Slutmarginal</string>
+    <string name="settings_dock_padding">Utfyllnad för dockan</string>
+    <string name="settings_tint_custom_icons">Färgtona anpassade ikoner</string>
+    <string name="settings_tint_custom_icons_desc">För egna ikoner utan bakgrund</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Rundade hörn</string>
+    <string name="settings_cards_size">Kortstorlek</string>
+    <string name="settings_cards_spacing">Avstånd mellan kort</string>
+    <string name="settings_loop_limit">Upprepningsgräns för animerade ikoner</string>
+    <string name="settings_ripple">Krusningseffekt vid tryck på kort</string>
+    <string name="settings_background_color">Bakgrundsfärg</string>
+    <string name="settings_focused_card">Markerat kort</string>
+    <string name="settings_program_cards">Programkort</string>
+    <string name="settings_tv_ratio">Bildförhållande för TV-appkort</string>
+    <string name="settings_mobile_ratio">Bildförhållande för mobilappkort</string>
+    <string name="settings_icon_pack">Ikonpaket</string>
+    <string name="settings_icon_pack_none">Inget ikonpaket installerat</string>
+    <string name="settings_icon_pack_off">Inget</string>
+    <string name="settings_more">Mer…</string>
+    <string name="settings_custom_icon_tint">Färgton för egna ikoner</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Storlek på markerat kort</string>
+    <string name="settings_focused_effect">Effekt på markerat kort</string>
+    <string name="settings_effect_none">Ingen</string>
+    <string name="settings_effect_shadow">Skugga</string>
+    <string name="settings_effect_glow">Glöd</string>
+    <string name="settings_glow_animation">Glödanimering</string>
+    <string name="settings_anim_none">Ingen</string>
+    <string name="settings_anim_pulse">Puls</string>
+    <string name="settings_anim_breath">Andning</string>
+    <string name="settings_anim_fade">Toning</string>
+    <string name="settings_anim_shine">Glans</string>
+    <string name="settings_glow_size">Glödstorlek</string>
+    <string name="settings_glow_color">Glödfärg</string>
+    <string name="settings_glow_color_desc">Lämna tomt för att använda kortets egen färg</string>
+    <string name="settings_colors_override">Åsidosätt färger</string>
+    <string name="settings_override_none">Ingen</string>
+    <string name="settings_override_swap">Byt bakgrund/färgton</string>
+    <string name="settings_override_custom">Anpassad</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Spela upp förhandsvisningsvideo</string>
+    <string name="settings_preview_never">Aldrig</string>
+    <string name="settings_preview_always">Alltid</string>
+    <string name="settings_preview_no_media">När inget media spelas i bakgrunden</string>
+    <string name="settings_show_progress">Visa förloppsindikator</string>
+    <string name="settings_show_badge">Visa märke</string>
+    <string name="settings_zoom_focus">Zoomeffekt vid markering</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Format som stöds: stillbild, animerad GIF, video (statisk eller RTSP-direktsändning), Lottie-animering</string>
+    <string name="settings_launcher_wallpaper">Appstartarens bakgrundsbild</string>
+    <string name="settings_configure">Konfigurera</string>
+    <string name="settings_show_wallpapers">Visa bakgrundsbilder</string>
+    <string name="settings_picture_adjustment">Bildjustering</string>
+    <string name="settings_image_transition">Bildövergång</string>
+    <string name="settings_update_frequency">Uppdateringsintervall (min)</string>
+    <string name="settings_video_wallpaper">Videobakgrund</string>
+    <string name="settings_display_mode">Visningsläge</string>
+    <string name="settings_bad_ratio">Vid fel bildförhållande/dålig kvalitet</string>
+    <string name="settings_min_width">Minsta godtagna bredd (px)</string>
+    <string name="settings_src_none">Ingen</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dynamiska färger</string>
+    <string name="settings_src_default">Standardbakgrund</string>
+    <string name="settings_src_media">Mediefil</string>
+    <string name="settings_src_folder">Mapp</string>
+    <string name="settings_src_focused_program">Markerat program</string>
+    <string name="settings_src_now_playing">Spelas nu</string>
+    <string name="settings_src_random_program">Slumpmässigt program</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Ingen</string>
+    <string name="settings_tr_random">Slumpmässig</string>
+    <string name="settings_tr_fade">Toning</string>
+    <string name="settings_tr_zoom">Zoom</string>
+    <string name="settings_tr_hslide">Horisontell glidning</string>
+    <string name="settings_tr_vslide">Vertikal glidning</string>
+    <string name="settings_dm_automatic">Automatiskt</string>
+    <string name="settings_dm_skip">Hoppa över</string>
+    <string name="settings_dm_crop">Beskär</string>
+    <string name="settings_dm_stretch">Sträck ut</string>
+    <string name="settings_dm_fit">Anpassa centrerat</string>
+    <string name="settings_dm_fit_blur">Anpassa centrerat + suddig bakgrund</string>
+    <string name="settings_dm_blur">Oskärpa</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Nyans</string>
+    <string name="settings_saturation">Mättnad</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Ljusstyrka</string>
+    <string name="settings_tint">Färgton</string>
+    <string name="settings_tint_amount">Färgtonens styrka</string>
+    <string name="settings_blur">Oskärpa</string>
+    <string name="settings_shadow_h">Längd på horisontell skuggöverlagring</string>
+    <string name="settings_shadow_v">Längd på vertikal skuggöverlagring</string>
+    <string name="settings_shadow_opacity">Opacitet för skuggöverlagring</string>
+    <string name="settings_shadow_tint">Färgton för skuggöverlagring</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Ignorera uppdateringsintervall</string>
+    <string name="settings_ignore_update_desc">Vänta tills videon är slut innan en ny bakgrundsbild begärs</string>
+    <string name="settings_video_color_freq">Uppdateringsintervall för dynamisk färg</string>
+    <string name="settings_video_color_freq_desc">Sekunder mellan videobildrutor som läses för färger; 0 stänger av</string>
+    <string name="settings_volume">Volym</string>
+    <string name="settings_tunneling">Använd maskinvarurendering (tunneling)</string>
+    <string name="settings_decoder_fallback">Aktivera reservavkodare</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Hantera aviseringsbehörighet</string>
+    <string name="settings_granted">Beviljad</string>
+    <string name="settings_not_granted">Inte beviljad</string>
+    <string name="settings_notification_adb">Ingen inställningsskärm på enheten. Bevilja den med: %1$s</string>
+    <string name="settings_clock">Klocka</string>
+    <string name="settings_icons">Ikoner</string>
+    <string name="settings_show_system_bar">Visa systemets statusfält</string>
+    <string name="settings_autohide_status">Dölj statusfältet vid rullning</string>
+    <string name="settings_show_clock">Visa klocka</string>
+    <string name="settings_clock_size">Klockans teckenstorlek</string>
+    <string name="settings_clock_color">Klockans färg</string>
+    <string name="settings_drop_shadow">Skugga</string>
+    <string name="settings_clock_line1">Klockformat (rad 1)</string>
+    <string name="settings_clock_line2">Klockformat (rad 2)</string>
+    <string name="settings_clock_default_format">Systemformat</string>
+    <string name="settings_empty">Tom</string>
+    <string name="settings_icons_size">Ikonstorlek</string>
+    <string name="settings_icons_color">Ikonfärg</string>
+    <string name="settings_icons_container">Färg för ikonbehållare</string>
+    <string name="settings_show_settings">Visa inställningar</string>
+    <string name="settings_show_settings_desc">Inställningarna kan alltid nås med knappsekvensen: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Visa anslutning</string>
+    <string name="settings_show_notifications">Visa aviseringar</string>
+    <string name="settings_autohide_notifications">Dölj aviseringsikonen när det inte finns några</string>
+    <string name="settings_show_battery">Visa batteri</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Aktivera</string>
+    <string name="settings_headers_on_launch">Visa rubrikerna till vänster vid start</string>
+    <string name="settings_show_icon">Visa ikon</string>
+    <string name="settings_show_reorder">Visa ”Ändra ordning”</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Tid före viloläge (min)</string>
+    <string name="settings_idle_opacity">Gränssnittets opacitet</string>
+    <string name="settings_keep_clock">Behåll klockan</string>
+    <string name="settings_prevent_screensaver">Förhindra systemets skärmsläckare</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Ändra teckensnittsinställningarna för QLauncher. Namn på teckensnittsfamiljer finns på Google Fonts.</string>
+    <string name="settings_font_list">Välj från lista</string>
+    <string name="settings_font_google">Teckensnitt (Google Fonts)</string>
+    <string name="settings_font_default">Standard</string>
+    <string name="settings_bold">Fet</string>
+    <string name="settings_italic">Kursiv</string>
+    <string name="settings_size">Storlek</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Autostart vid uppstart</string>
+    <string name="settings_autostart_none">Ingen</string>
+    <string name="settings_autostart_screensaver">[*] Skärmsläckare (om det stöds)</string>
+    <string name="settings_autostart_resume">…och vid uppvaknande ur standbyläge</string>
+    <string name="settings_autostart_delay">Fördröjning för autostart (sekunder)</string>
+    <string name="settings_simulate_activity">Förhindra systemets automatiska avstängning vid inaktivitet</string>
+    <string name="settings_idle_detection">Aktivera intern inaktivitetsavkänning</string>
+    <string name="settings_idle_timeout_power">Tidsgräns för inaktivitet (tt:mm)</string>
+    <string name="settings_idle_action">Åtgärd vid inaktivitet</string>
+    <string name="settings_idle_action_shutdown">Stäng av</string>
+    <string name="settings_idle_action_screen_off">Skärm av</string>
+    <string name="settings_idle_action_screensaver">Skärmsläckare (om det stöds)</string>
+    <string name="settings_idle_media">Ignorera viloläge under mediauppspelning</string>
+    <string name="settings_missing_notification_permission">⚠️ Aviseringsbehörighet saknas</string>
+    <string name="settings_shutdown_action">Åtgärd vid avstängning</string>
+    <string name="settings_shutdown_dialog">Strömdialog</string>
+    <string name="settings_shutdown_dialog_twice">Strömdialog (anropa två gånger)</string>
+    <string name="settings_shutdown_dialog_ok">Strömdialog + OK</string>
+    <string name="settings_hdmi_exit">Stäng av automatiskt när HDMI-insignalen upphör</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Ange en kod för att låsa valda appar (håll ned ett kort på startskärmen för att välja dem), hela dagen eller under en del av dagen</string>
+    <string name="settings_parental_set_code">Ange en ny föräldrakod</string>
+    <string name="settings_parental_code_set">En kod har angetts</string>
+    <string name="settings_parental_long">Fråga inte efter koden i 15 min efter en lyckad verifiering</string>
+    <string name="settings_parental_protect">Skydda appstartarens inställningar och ändringar i gränssnittet</string>
+    <string name="settings_parental_protect_desc">(gäller dygnet runt)</string>
+    <string name="settings_parental_partial">Aktivera skydd endast mellan</string>
+    <string name="settings_parental_start">Starttid (tt:mm)</string>
+    <string name="settings_parental_end">Sluttid (tt:mm)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Visa info vid dubbeltryck på ”Meny”</string>
+    <string name="settings_back_double">”Bakgrundsläge” vid dubbeltryck på ”Bakåt”</string>
+    <string name="settings_back_double_desc">Starta skärmsläckaren på enheter som stöds</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Aktivera tjänsten för att köra en åtgärd vid uppstart, anpassa fjärrkontrollens knappar, stärka föräldrakontrollen och upptäcka inaktivitet för strömstyrning. Den ser tryck på maskinvaruknappar och namnet på appen i förgrunden; båda stannar i minnet på enheten och skickas aldrig någonstans.</string>
+    <string name="settings_a11y_enabled">Aktiverad</string>
+    <string name="settings_a11y_started">Startad</string>
+    <string name="settings_yes">Ja</string>
+    <string name="settings_no">Nej</string>
+    <string name="settings_a11y_open">Visa tillgänglighetsinställningar</string>
+    <string name="settings_a11y_consent_title">Tillgänglighetstjänst</string>
+    <string name="settings_a11y_consent">Detta gör att QLauncher kan se tryck på maskinvaruknappar och namnet på appen i förgrunden. Båda sparas endast i minnet på enheten och skickas aldrig någonstans. Godkänner du detta?</string>
+    <string name="settings_a11y_alternate">Använd alternativ konfiguration</string>
+    <string name="settings_a11y_alternate_desc">Åtgärdar problem på vissa enheter</string>
+    <string name="settings_a11y_volume_fix">Åtgärd för volymknappar</string>
+    <string name="settings_a11y_volume_fix_desc">Pausa ommappningen en kort stund när volymknappen trycks, så att långa tryck fortfarande fungerar</string>
+    <string name="settings_a11y_remap">Aktivera ommappning av knappar</string>
+    <string name="settings_a11y_remap_desc">Tjänsten fångar upp knapptryck. Om du stänger av detta undviker du problem med långa tryck på volymknapparna och att systemet stoppar tjänsten, men åsidosättningen av appstartaren, föräldrakontrollen och inaktivitetsavkänningen kan bli mindre effektiva.</string>
+    <string name="settings_a11y_reminder">Visa påminnelse</string>
+    <string name="settings_a11y_reminder_desc">Om tillgänglighetstjänsten är avstängd</string>
+    <string name="settings_a11y_unbound_toast">QLaunchers tillgänglighetstjänst körs inte</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importera eller exportera inställningar lokalt eller med en annan app, till exempel LocalSend eller en filhanterare.</string>
+    <string name="settings_import">Importera</string>
+    <string name="settings_import_file">Från en fil</string>
+    <string name="settings_import_auto">Från automatisk säkerhetskopia</string>
+    <string name="settings_export">Exportera</string>
+    <string name="settings_export_local">Spara lokalt</string>
+    <string name="settings_export_share">Dela med en annan app</string>
+    <string name="settings_reset">Återställ till standard</string>
+    <string name="settings_cancel">Avbryt</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategori</string>
+    <string name="wp_custom_search">Egen sökning</string>
+    <string name="wp_reddit_login">Logga in</string>
+    <string name="wp_reddit_logout">Logga ut: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Logga ut</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Egen subreddit</string>
+    <string name="wp_custom_subreddit_hint">Flera namn åtskilda med +</string>
+    <string name="wp_folder">Mapp</string>
+    <string name="wp_folder_choose">Välj en mapp</string>
+    <string name="wp_media">Mediefil</string>
+    <string name="wp_media_choose">Välj en fil</string>
+    <string name="wp_choose_other">Annan plats…</string>
+    <string name="wp_choose_other_desc">Välj med systemets filväljare</string>
+    <string name="wp_media_searching">Söker efter bilder och videor…</string>
+    <string name="wp_media_none">Inga bilder eller videor hittades. Kopiera några till Pictures, Movies eller Download, eller anslut ett USB-minne.</string>
+    <string name="wp_folders_description">Mappar med bilder eller videor, på enheten och på USB-minnen.</string>
+    <string name="wp_folders_none">Inga mappar med bilder eller videor hittades</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fil</item>
+        <item quantity="other">%d filer</item>
+    </plurals>
+    <string name="wp_media_color">Enfärgad</string>
+    <string name="wp_theme_desc">Bakgrundsbilder som följer med det importerade temat</string>
+    <string name="wp_plugin_settings">Plugininställningar</string>
+    <string name="wp_not_set">Inte angivet</string>
+    <string name="wp_status">Status</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Den här bakgrundsbilden</string>
+    <string name="wp_next">Nästa</string>
+    <string name="wp_source">Källa</string>
+    <string name="wp_title">Titel</string>
+    <string name="wp_author">Upphovsperson</string>
+    <string name="wp_set_user">Ange som användarbakgrund</string>
+    <string name="wp_view">Visa</string>
+    <string name="wp_unknown">Okänd</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Skapa och hantera skärmprofiler för video här. Koppla dem till ingångskällor för att byta automatiskt, eller tillämpa dem genom att trycka två gånger på Meny och sedan upp eller ned.</string>
+    <string name="dp_list">Lista över skärmprofiler</string>
+    <string name="dp_list_desc">Skapa eller redigera skärmprofiler för video här. Beroende på enheten kräver vissa reglage root eller fungerar inte alls; de är avsedda för AmLogic-enheter.</string>
+    <string name="dp_add">Lägg till ny…</string>
+    <string name="dp_name">Profilnamn</string>
+    <string name="dp_preview">Förhandsvisning</string>
+    <string name="dp_fullscreen">Förhandsvisning i helskärm</string>
+    <string name="dp_fullscreen_desc">eller växla med Meny-knappen</string>
+    <string name="dp_delete">Radera profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Installera tredjepartsappar</string>
+    <string name="install_desc">Välj en app att installera. Du kan behöva tillåta installationer från okända källor först.</string>
+    <string name="install_custom">Egen URL / Downloader-kod</string>
+    <string name="install_custom_desc">Använd bara en källa som du litar på</string>
+    <string name="install_status">Status</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Den här enheten</string>
+
+    <string name="gallery_filter">Filtrera…</string>
+    <string name="settings_no_file_picker">Enheten har ingen filväljare</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminans</string>
+    <string name="color_opacity">Opacitet</string>
+    <string name="color_prefer_dynamic">Föredra dynamisk färg</string>
+    <string name="color_prefer_dynamic_desc">Behåller denna luminans/opacitet om det är möjligt</string>
+    <string name="color_clear">Rensa</string>
+    <string name="color_reset">Återställ till standard</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Vnesi poljubno kombinacijo puščic/števk in potrdi z OK</string>
+    <string name="system_parental_confirm_code">Znova vnesi kodo in potrdi z OK</string>
+    <string name="system_parental_restricted">Omejen dostop\nVnesi starševsko kodo</string>
+    <string name="system_parental_wrong_code">Napačna koda</string>
+    <string name="system_parental_codes_differ">Kodi se ne ujemata, poskusi znova</string>
+    <string name="system_parental_code_saved">Starševska koda je shranjena</string>
+    <string name="system_parental_recovery_code">Obnovitvena koda: %1$s</string>
+    <string name="system_parental_recovery_help">Zapiši si jo: prikazana je samo tokrat. Če jo vneseš s puščicami (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), odklene enako kot starševska koda.</string>
+    <string name="system_parental_press_ok">Pritisni OK za nadaljevanje</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Bližnjice daljinskega upravljalnika</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Domov</string>
+    <string name="system_hotkeys_keys_menu_twice">Meni × 2</string>
+    <string name="system_hotkeys_change_input">Zamenjaj vhod</string>
+    <string name="system_hotkeys_change_profile">Zamenjaj profil prikaza</string>
+    <string name="system_hotkeys_start_launcher">Zaženi QLauncher</string>
+    <string name="system_hotkeys_home">Odpri QLauncher; dvakrat: nedavne aplikacije</string>
+    <string name="system_hotkeys_close">Zapri to pomoč</string>
+    <string name="system_hotkeys_no_inputs">Ta naprava nima TV-vhodov</string>
+    <string name="system_hotkeys_no_picture_manager">Upravitelj slike ni naložen</string>
+    <string name="system_hotkeys_home_off">Izklopljeno: potrebna sta »Nadomesti trenutni zaganjalnik« in prerazporejanje gumbov</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Zaznana nedejavnost uporabnika, izklop čez %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Zaznana nedejavnost uporabnika, izklop zaslona čez %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Zaznana nedejavnost uporabnika, ohranjevalnik zaslona čez %1$d s</string>
+    <string name="system_idle_countdown_cancel">Za preklic pritisni kateri koli gumb</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Ta naprava nima bližnjice do nastavitev dostopnosti. Odpri jih v nastavitvah Androida, običajno pod Nastavitve naprave › Dostopnost.</string>
+    <string name="system_notification_access_no_settings">Ta naprava nima zaslona za dostop do obvestil. Dostop odobri z računalnika z ukazom:</string>
+</resources>

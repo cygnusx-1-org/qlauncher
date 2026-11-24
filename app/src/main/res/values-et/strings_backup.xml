@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Vaikimisi</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">paks</string>
+    <string name="backup_clock_markup_italic">kaldkiri</string>
+    <string name="backup_clock_markup_underline">allakriipsutus</string>
+    <string name="backup_clock_markup_strikethrough">läbikriipsutus</string>
+    <string name="backup_clock_markup_subscript">alaindeks</string>
+    <string name="backup_clock_markup_superscript">ülaindeks</string>
+    <string name="backup_clock_markup_half_size">pool suurust</string>
+    <string name="backup_clock_markup_one_and_a_half_size">poolteist korda</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Musta kärpimine</string>
+    <string name="backup_pattern_apl_clipping">APL-i kärpimine</string>
+    <string name="backup_pattern_white_clipping">Valge kärpimine</string>
+    <string name="backup_pattern_grayscale_ramp">Halltoonide gradient</string>
+    <string name="backup_pattern_grayscale_steps">Halltoonide astmed</string>
+    <string name="backup_pattern_dynamic_brightness">Dünaamiline heledus</string>
+    <string name="backup_pattern_color_steps">Värviastmed</string>
+    <string name="backup_pattern_color_clipping">Värvide kärpimine</string>
+    <string name="backup_pattern_flashing_color_bars">Vilkuvad värviribad</string>
+    <string name="backup_pattern_sharpness_overscan">Teravus &amp; üleskaneerimine</string>
+    <string name="backup_pattern_uhd">UHD-muster</string>
+    <string name="backup_pattern_judder">Nõksumise test</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Kuvasuhte teravus</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Musta tase</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Värvide kärpimine 240–1000 nitti</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Värvide kärpimine 3600–10000 nitti</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Värvide kärpimine 700–10000 nitti</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Värvide kärpimine 900–4000 nitti</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Halltoonide gradient 10000 nitti</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Halltoonide gradient 1000 nitti</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Halltoonide gradient 4000 nitti</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Must PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Värvigradiendid</string>
+    <string name="backup_pattern_unavailable">%1$s vajab HDR-videoteed ega ole veel saadaval</string>
+    <!-- Pages -->
+    <string name="backup_settings">Seaded</string>
+    <string name="backup_manage_settings">Halda seadeid</string>
+    <string name="backup_themes">Teemad</string>
+    <string name="backup_import">Impordi</string>
+    <string name="backup_export">Ekspordi</string>
+    <string name="backup_import_from_file">Failihaldurist</string>
+    <string name="backup_import_from_auto">Automaatsest varukoopiast</string>
+    <string name="backup_export_save">Salvesta kohalikult</string>
+    <string name="backup_export_share">Jaga teise rakendusega</string>
+    <string name="backup_reset">Lähtesta vaikeseadetele</string>
+    <string name="backup_cancel">Tühista</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Valmis</string>
+    <string name="backup_close">Sulge</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Ekspordi seaded</string>
+    <string name="backup_export_theme_title">Ekspordi teema</string>
+    <string name="backup_export_description">Kõik salvestatakse ühte faili, mis krüpteeritakse sinu valitud parooliga (vähemalt %1$d märki). Faili importimiseks on parooli vaja ja seda ei saa taastada.</string>
+    <string name="backup_export_theme_description">Välimuse seaded ja praegune taustapilt salvestatakse ühte faili, mis krüpteeritakse sinu valitud parooliga (vähemalt %1$d märki). Teema importimiseks on parooli vaja.</string>
+    <string name="backup_password">Parool</string>
+    <string name="backup_password_show">Näita parooli</string>
+    <string name="backup_password_hide">Peida parool</string>
+    <string name="backup_password_strength">Parooli tugevus</string>
+    <string name="backup_strength_too_short">Liiga lühike: vähemalt %1$d märki</string>
+    <string name="backup_strength_weak">Nõrk: kergesti äraarvatav</string>
+    <string name="backup_strength_fair">Rahuldav</string>
+    <string name="backup_strength_strong">Tugev</string>
+    <string name="backup_password_too_short">Parool peab olema vähemalt %1$d märki pikk</string>
+    <string name="backup_exporting">Eksportimine…</string>
+    <string name="backup_export_saved">Salvestatud: %1$s</string>
+    <string name="backup_export_kept">Mujale ei salvestatud. Fail jääb asukohta %1$s</string>
+    <string name="backup_export_shared">Saadetud. Koopia jääb asukohta %1$s</string>
+    <string name="backup_export_no_file_manager">Ükski selle seadme rakendus ei saa faili vastu võtta. See asub asukohas %1$s</string>
+    <string name="backup_export_failed">Eksportimine ebaõnnestus: %1$s</string>
+    <string name="backup_share_title">Saada QLauncheri fail rakendusega</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Importimine asendab sinu praeguse seadistuse. Esmalt kirjutatakse automaatne varukoopia ja kui kõik on valmis, taaskäivitub QLauncher.</string>
+    <string name="backup_reading">Faili lugemine…</string>
+    <string name="backup_import_action">Impordi</string>
+    <string name="backup_wrong_password">Vale parool</string>
+    <string name="backup_password_hint">Faili eksportimisel valitud parool</string>
+    <string name="backup_not_a_backup">See pole QLauncheri ega Projectivy varukoopia ega teema.</string>
+    <string name="backup_damaged">Fail on kahjustatud või puudulik.</string>
+    <string name="backup_too_new">Selle faili on loonud QLauncheri uuem versioon (vorming %1$d). Selle importimiseks värskenda QLauncherit.</string>
+    <string name="backup_unreadable">Seda automaatset varukoopiat ei saa selles seadmes lugeda.</string>
+    <string name="backup_import_failed">Importimine ebaõnnestus ja midagi ei muudetud: %1$s</string>
+    <string name="backup_applying">Importimine… QLauncher taaskäivitub, kui see on valmis.</string>
+    <string name="backup_origin_ql_backup">QLauncheri seadete varukoopia</string>
+    <string name="backup_origin_ql_theme">QLauncheri teema</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcheri seadete varukoopia</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcheri teema</string>
+    <string name="backup_origin_auto">Automaatne varukoopia</string>
+    <string name="backup_preview_theme_by">%1$s, autor %2$s</string>
+    <string name="backup_preview_version">versioon %1$s</string>
+    <string name="backup_preview_settings">Seaded</string>
+    <string name="backup_preview_categories">Kategooriad</string>
+    <string name="backup_preview_apps">Rakenduste kohandused</string>
+    <string name="backup_preview_profiles">Kuvaprofiilid</string>
+    <string name="backup_preview_files">Taustapildid ja ikoonid</string>
+    <string name="backup_preview_skipped">Rakendused, mida selles seadmes pole</string>
+    <string name="backup_replace_setup">Asenda praegune seadistus</string>
+    <string name="backup_apply_theme">Rakenda teema</string>
+    <string name="backup_replace_detail">Esmalt kirjutatakse praegusest seadistusest automaatne varukoopia</string>
+    <string name="backup_nc_parental">Vanemliku järelevalve kood</string>
+    <string name="backup_nc_parental_detail">Üle ei kanta. Määra uus kood jaotises Vanemlik järelevalve.</string>
+    <string name="backup_nc_premium">Premium-olek</string>
+    <string name="backup_nc_premium_detail">Üle ei kanta. Kõik QLauncheri funktsioonid on tasuta.</string>
+    <string name="backup_nc_inputs">Telerisisendid</string>
+    <string name="backup_nc_profile_bindings">Kuvaprofiilide seosed sisenditega</string>
+    <string name="backup_nc_plugin">Taustapildi pistikprogramm</string>
+    <string name="backup_nc_plugin_detail">%1$s pole installitud. Taustapildi allikas jääb samaks.</string>
+    <string name="backup_nc_icons">Kohandatud ikoonid</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d muudetud väärtus</item>
+        <item quantity="other">%1$d muudetud väärtust</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategooria</item>
+        <item quantity="other">%1$d kategooriat</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d rakendus</item>
+        <item quantity="other">%1$d rakendust</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profiil</item>
+        <item quantity="other">%1$d profiili</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d fail</item>
+        <item quantity="other">%1$d faili</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d tundmatu säte, jäeti vahele</item>
+        <item quantity="other">%1$d tundmatut sätet, jäeti vahele</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d kirje ei vasta ühelegi siin installitud rakendusele ja jäetakse vahele</item>
+        <item quantity="other">%1$d kirjet ei vasta ühelegi siin installitud rakendusele ja jäetakse vahele</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d link telerisisendile, mida selles seadmes pole, jäetakse vahele</item>
+        <item quantity="other">%1$d linki telerisisenditele, mida selles seadmes pole, jäetakse vahele</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d sisendile määratud profiil ei kandu üle</item>
+        <item quantity="other">%1$d sisenditele määratud profiili ei kandu üle</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d Projectivys talletatud ikooni ei saa lugeda ja see jäetakse vahele</item>
+        <item quantity="other">%1$d Projectivys talletatud ikooni ei saa lugeda ja need jäetakse vahele</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automaatsed varukoopiad</string>
+    <string name="backup_auto_description">QLauncher hoiab selles seadmes sinu seadistuse viimast %1$d versiooni, mis on krüpteeritud võtmega, mis seadmest kunagi ei lahku. Vali taastamiseks üks neist; parooli pole vaja.</string>
+    <string name="backup_auto_none">Automaatseid varukoopiaid pole saadaval</string>
+    <string name="backup_files_title">Varukoopiafailid</string>
+    <string name="backup_files_theme_title">Teemafailid</string>
+    <string name="backup_files_description">Ekspordid salvestatakse kausta %1$s. Juurdepääsuga kõigile failidele leiab QLauncher varukoopiaid ka kaustadest Download ja Documents ning USB-mäluseadmetelt, sealhulgas Projectivy omad.</string>
+    <string name="backup_files_searching">Varukoopiafailide otsimine…</string>
+    <string name="backup_files_none">Varukoopiafaile ei leitud</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncheri kaust</string>
+    <string name="backup_files_access">Leia teiste rakenduste ja seadmete varukoopiad</string>
+    <string name="backup_files_access_desc">Luba juurdepääs kõigile failidele</string>
+    <string name="backup_files_access_unavailable">Selles seadmes pole seadete kuva. Luba juurdepääs kõigile failidele käsuga: %1$s</string>
+    <string name="backup_files_browse">Muu asukoht…</string>
+    <string name="backup_files_browse_desc">Vali fail süsteemi failivalijaga</string>
+    <string name="backup_auto_delete_all">Kustuta kõik</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Pärast muudatust</string>
+    <string name="backup_reason_import">Enne importimist</string>
+    <string name="backup_reason_migration">Enne värskendust</string>
+    <string name="backup_reason_reset">Enne lähtestamist</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profiil #</string>
+    <string name="backup_no_picture_manager">Pildihaldurit pole laaditud</string>
+    <string name="backup_no_picture_manager_detail">See seade ei paku toetatud viisi oma pildiseadete muutmiseks, seega hoiavad profiilid oma väärtusi neid rakendamata.</string>
+</resources>

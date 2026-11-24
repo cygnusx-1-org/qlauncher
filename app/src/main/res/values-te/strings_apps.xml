@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">రద్దు చేయండి</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">అన్ని యాప్‌లు</string>
+    <string name="apps_action_edit_categories">వర్గాలను సవరించండి</string>
+    <string name="apps_action_edit_channels">ఛానెల్‌లను సవరించండి</string>
+    <string name="apps_action_launcher_settings">QLauncher సెట్టింగ్‌లు</string>
+    <string name="apps_action_android_settings">Android సెట్టింగ్‌లు</string>
+    <string name="apps_action_amlogic_settings">AmLogic అదనపు సెట్టింగ్‌లు</string>
+    <string name="apps_action_display_profiles">డిస్‌ప్లే ప్రొఫైల్‌లు</string>
+    <string name="apps_action_install_apps">థర్డ్-పార్టీ యాప్‌లను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="apps_action_accessibility_service">యాక్సెసిబిలిటీ సర్వీస్</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">ప్రొఫైల్ మార్చండి</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">ఈ పరికరం</string>
+    <string name="apps_action_about_wallpaper">ఈ వాల్‌పేపర్</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">ఏదీ లేదు</string>
+    <string name="apps_autostart_screensaver">స్క్రీన్ సేవర్</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">ఛానెల్‌లు</string>
+    <string name="apps_channels_watch_next">తర్వాత చూడండి</string>
+    <string name="apps_channels_unreadable">ఈ ఛానెల్‌ను ఇకపై చదవడం సాధ్యం కాదు</string>
+    <string name="apps_channels_hidden">సిస్టమ్ దాచింది</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d ఛానెల్</item>
+        <item quantity="other">%d ఛానెల్‌లు</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">ఐకాన్ ప్యాక్‌ను వర్తింపజేయండి</string>
+    <string name="apps_iconpack_apply_message">మీ యాప్‌ల ఐకాన్‌ల కోసం %1$sను ఉపయోగించాలా?</string>
+    <string name="apps_iconpack_apply_confirm">వర్తింపజేయండి</string>
+    <string name="apps_iconpack_applied">ఐకాన్ ప్యాక్ వర్తింపజేయబడింది</string>
+    <string name="apps_iconpack_apply_missing">ఏ ఐకాన్ ప్యాక్ పేరూ ఇవ్వలేదు</string>
+    <string name="apps_iconpack_apply_not_a_pack">ఈ యాప్ ఐకాన్ ప్యాక్ కాదు</string>
+    <string name="apps_iconpack_none">ఏదీ లేదు</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">షార్ట్‌కట్‌ను జోడించండి</string>
+    <string name="apps_pin_shortcut_message">%2$s నుండి “%1$s”ను “షార్ట్‌కట్‌లు” వర్గానికి జోడించాలా?</string>
+    <string name="apps_pin_shortcut_confirm">జోడించండి</string>
+    <string name="apps_pin_shortcut_added">షార్ట్‌కట్ జోడించబడింది</string>
+    <string name="apps_pin_shortcut_failed">షార్ట్‌కట్‌ను జోడించడం సాధ్యపడలేదు</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">థర్డ్-పార్టీ యాప్‌లను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="apps_install_description">దయచేసి ఇన్‌స్టాల్ చేయడానికి ఒక యాప్‌ను ఎంచుకోండి. ఇన్‌స్టాల్ చేసే ముందు మీరు తెలియని సోర్స్‌ల నుండి ఇన్‌స్టాలేషన్‌ను అనుమతించాల్సి రావచ్చు.</string>
+    <string name="apps_install_custom_url">అనుకూల URL / Downloader కోడ్</string>
+    <string name="apps_install_custom_url_desc">విశ్వసనీయ సోర్స్‌నే ఉపయోగించండి</string>
+    <string name="apps_install_choose_method">ఇన్‌స్టాలేషన్ పద్ధతిని ఎంచుకోండి</string>
+    <string name="apps_install_installed">ఇన్‌స్టాల్ చేయబడింది</string>
+    <string name="apps_install_category_wallpaper_plugin">వాల్‌పేపర్ ప్లగిన్</string>
+    <string name="apps_install_category_icon_pack">ఐకాన్ ప్యాక్</string>
+    <string name="apps_install_category_file_manager">ఫైల్ మేనేజర్</string>
+    <string name="apps_install_category_tool">టూల్</string>
+    <string name="apps_install_method_store">స్టోర్</string>
+    <string name="apps_install_method_direct">నేరుగా డౌన్‌లోడ్</string>
+    <string name="apps_install_method_downloader">Downloader యాప్</string>
+    <string name="apps_install_state_downloading">%1$sను డౌన్‌లోడ్ చేస్తోంది… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$sను డౌన్‌లోడ్ చేస్తోంది…</string>
+    <string name="apps_install_state_installing">%1$sను ఇన్‌స్టాల్ చేస్తోంది…</string>
+    <string name="apps_install_state_confirm">%1$s ఇన్‌స్టాలేషన్‌ను నిర్ధారించండి</string>
+    <string name="apps_install_state_success">%1$s ఇన్‌స్టాల్ చేయబడింది</string>
+    <string name="apps_install_state_unknown_sources">యాప్‌లను ఇన్‌స్టాల్ చేయడానికి QLauncherను అనుమతించి, కొనసాగించడానికి తిరిగి రండి</string>
+    <string name="apps_install_state_downloader_sent">కోడ్ %1$s Downloaderకు పంపబడింది</string>
+    <string name="apps_install_state_downloader_type">Downloaderలో %1$s కోడ్‌ను ఎంటర్ చేయండి</string>
+    <string name="apps_install_state_store">స్టోర్‌లో తెరవబడింది</string>
+    <string name="apps_install_state_browser">ఈ లింక్ ఒక వెబ్ పేజీ; ఇది బ్రౌజర్‌లో తెరవబడింది</string>
+    <string name="apps_install_fail_invalid">ఇది URL కానీ Downloader కోడ్ కానీ కాదు</string>
+    <string name="apps_install_fail_no_usb">USB డ్రైవ్ ఏదీ కనుగొనబడలేదు</string>
+    <string name="apps_install_fail_archive">ఆర్కైవ్‌లను ఇన్‌స్టాల్ చేయడం సాధ్యం కాదు</string>
+    <string name="apps_install_fail_network">డౌన్‌లోడ్ విఫలమైంది</string>
+    <string name="apps_install_fail_http">సర్వర్ ఎర్రర్‌తో సమాధానమిచ్చింది (%1$s)</string>
+    <string name="apps_install_fail_not_apk">ఈ ఫైల్ యాప్ (APK) కాదు</string>
+    <string name="apps_install_fail_unreadable">ఫైల్‌ను చదవడం సాధ్యం కాదు</string>
+    <string name="apps_install_fail_install">ఇన్‌స్టాలేషన్ విఫలమైంది</string>
+    <string name="apps_install_fail_cancelled">ఇన్‌స్టాలేషన్ రద్దు చేయబడింది</string>
+    <string name="apps_install_fail_unknown_sources">యాప్‌లను ఇన్‌స్టాల్ చేయడానికి QLauncherకు అనుమతి లేదు</string>
+    <string name="apps_install_fail_downloader">Downloader యాప్ ఇన్‌స్టాల్ చేయబడలేదు</string>
+    <string name="apps_install_fail_store">యాప్ స్టోర్ ఏదీ అందుబాటులో లేదు</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">ఈ పరికరం</string>
+    <string name="apps_device_brand_manufacturer">బ్రాండ్ / తయారీదారు</string>
+    <string name="apps_device_device_product">పరికరం / ప్రోడక్ట్</string>
+    <string name="apps_device_model">మోడల్</string>
+    <string name="apps_device_hardware">హార్డ్‌వేర్</string>
+    <string name="apps_device_fingerprint">ఫింగర్‌ప్రింట్</string>
+    <string name="apps_device_build">బిల్డ్</string>
+    <string name="apps_device_build_desc">బిల్డ్ వివరణ</string>
+    <string name="apps_device_device_type">పరికరం రకం</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP అడ్రస్</string>
+    <string name="apps_device_root_access">రూట్ యాక్సెస్</string>
+    <string name="apps_device_pm_info">PM సమాచారం</string>
+    <string name="apps_device_pm_none">పిక్చర్ మేనేజర్ లేదు</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">అవును</string>
+    <string name="apps_device_no">లేదు</string>
+</resources>

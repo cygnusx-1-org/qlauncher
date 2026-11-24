@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">なし</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">ダイナミックカラー</string>
+    <string name="wallpaper_provider_default">デフォルトの壁紙</string>
+    <string name="wallpaper_provider_media_file">メディアファイル</string>
+    <string name="wallpaper_provider_folder">フォルダ</string>
+    <string name="wallpaper_provider_focused_program">フォーカス中の番組</string>
+    <string name="wallpaper_provider_now_playing">再生中</string>
+    <string name="wallpaper_provider_random_program">ランダムな番組</string>
+    <string name="wallpaper_provider_theme">テーマ</string>
+    <string name="wallpaper_provider_unknown_plugin">プラグイン</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">壁紙</string>
+    <string name="wallpaper_wikimedia_nature">自然</string>
+    <string name="wallpaper_wikimedia_landscapes">風景</string>
+    <string name="wallpaper_wikimedia_mountains">山</string>
+    <string name="wallpaper_wikimedia_forests">森</string>
+    <string name="wallpaper_wikimedia_cities">都市</string>
+    <string name="wallpaper_wikimedia_architecture">建築</string>
+    <string name="wallpaper_wikimedia_night">夜</string>
+    <string name="wallpaper_wikimedia_space">宇宙</string>
+    <string name="wallpaper_wikimedia_animals">動物</string>
+    <string name="wallpaper_wikimedia_custom">[カスタム検索]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[カスタムサブレディット]</string>
+    <string name="wallpaper_reddit_log_out">ログアウト</string>
+    <string name="wallpaper_reddit_login_needed">Reddit の壁紙を表示するには、Reddit にログインしてください。</string>
+    <string name="wallpaper_reddit_login_title">Reddit にログイン</string>
+    <string name="wallpaper_reddit_login_signing_in">ログイン中…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit へのアクセスが許可されなかったため、Reddit の壁紙は引き続き利用できません。</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit からの応答がこのログイン試行と一致しなかったため、無視されました。もう一度お試しください。</string>
+    <string name="wallpaper_reddit_login_failed">Reddit へのログインに失敗しました (%1$s)。しばらくしてからもう一度お試しください。</string>
+    <string name="wallpaper_reddit_login_network">Reddit に接続できませんでした。ネットワーク接続を確認して、もう一度お試しください。</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit のログインページを読み込めませんでした。ネットワーク接続を確認して、もう一度お試しください。</string>
+    <string name="wallpaper_reddit_no_webview">このデバイスには、Reddit のログインに必要なウェブブラウザコンポーネント (Android System WebView) がありません。Android System WebView をインストールまたは有効にして、もう一度お試しください。</string>
+    <string name="wallpaper_reddit_retry">再試行</string>
+    <string name="wallpaper_reddit_close">閉じる</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">壁紙のソースに接続できません。</string>
+    <string name="wallpaper_error_server">壁紙のソースがエラーを返しました。</string>
+    <string name="wallpaper_error_rate_limited">壁紙のソースから、次のリクエストまで待つよう求められました。</string>
+    <string name="wallpaper_error_generic">壁紙を読み込めませんでした。</string>
+    <string name="wallpaper_error_no_media">画像、動画、色のいずれも選択されていません。</string>
+    <string name="wallpaper_error_no_folder">フォルダが選択されていません。</string>
+    <string name="wallpaper_error_folder_access">フォルダを読み込めません。もう一度選択してください。</string>
+    <string name="wallpaper_error_folder_empty">フォルダに画像、動画、Lottie アニメーションがありません。</string>
+    <string name="wallpaper_error_theme_empty">現在のテーマには壁紙がありません。</string>
+    <string name="wallpaper_error_no_channels">チャンネルを利用できません。チャンネルを有効にし、テレビ番組表へのアクセスを許可してください。</string>
+    <string name="wallpaper_error_no_notification_access">「再生中」には通知へのアクセスが必要です。</string>
+    <string name="wallpaper_error_no_subreddit">有効なサブレディットが設定されていません。</string>
+    <string name="wallpaper_error_plugin">壁紙プラグインが応答しませんでした。</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">壁紙を設定しました</string>
+    <string name="wallpaper_set_failed">このファイルは壁紙として使用できません。</string>
+</resources>

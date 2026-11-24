@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_copyright">Hak cipta © 2026 kontributor QLauncher. Perangkat lunak bebas di bawah GNU General Public License, versi 3.</string>
+    <string name="about_libs">Library / Kredit</string>
+    <string name="about_links">Link</string>
+    <string name="about_link_project">Halaman proyek</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Terjemahan bahasa Indonesia</string>
+    <string name="about_translation_credit">Kontributor QLauncher</string>
+    <string name="about_no_browser">Tidak ada browser di perangkat ini. Buka %1$s di perangkat lain.</string>
+    <string name="about_check_updates">Periksa update</string>
+    <string name="about_update_checking">Memeriksa…</string>
+    <string name="about_update_latest">QLauncher sudah versi terbaru (%1$s)</string>
+    <string name="about_update_available">Versi %1$s tersedia</string>
+    <string name="about_update_failed">Tidak dapat memeriksa: %1$s</string>
+    <string name="about_update_install">Instal QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s tersedia: Setelan › Tentang › QLauncher</string>
+</resources>

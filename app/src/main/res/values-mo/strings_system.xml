@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Introduceți orice combinație de săgeți/cifre și confirmați cu OK</string>
+    <string name="system_parental_confirm_code">Introduceți din nou codul și confirmați cu OK</string>
+    <string name="system_parental_restricted">Acces restricționat\nIntroduceți codul parental</string>
+    <string name="system_parental_wrong_code">Cod greșit</string>
+    <string name="system_parental_codes_differ">Codurile nu se potrivesc, încercați din nou</string>
+    <string name="system_parental_code_saved">Codul parental a fost salvat</string>
+    <string name="system_parental_recovery_code">Cod de recuperare: %1$s</string>
+    <string name="system_parental_recovery_help">Notați-l: este afișat doar acum. Introdus cu săgețile (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), deblochează la fel ca și codul parental.</string>
+    <string name="system_parental_press_ok">Apăsați OK pentru a continua</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Comenzi rapide ale telecomenzii</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Acasă</string>
+    <string name="system_hotkeys_keys_menu_twice">Meniu × 2</string>
+    <string name="system_hotkeys_change_input">Schimbare intrare</string>
+    <string name="system_hotkeys_change_profile">Schimbare profil de afișare</string>
+    <string name="system_hotkeys_start_launcher">Pornire QLauncher</string>
+    <string name="system_hotkeys_home">Deschidere QLauncher; de două ori: aplicații recente</string>
+    <string name="system_hotkeys_close">Închidere ajutor</string>
+    <string name="system_hotkeys_no_inputs">Nicio intrare TV pe acest dispozitiv</string>
+    <string name="system_hotkeys_no_picture_manager">Niciun manager de imagine încărcat</string>
+    <string name="system_hotkeys_home_off">Dezactivat: necesită „Înlocuire lansator curent” și reatribuirea butoanelor</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Inactivitate detectată, oprire în %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Inactivitate detectată, ecranul se stinge în %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Inactivitate detectată, economizor de ecran în %1$d s</string>
+    <string name="system_idle_countdown_cancel">Apăsați orice buton pentru a anula</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Acest dispozitiv nu are o comandă rapidă către setările de accesibilitate. Deschideți-le din setările Android, de obicei la Preferințe dispozitiv › Accesibilitate.</string>
+    <string name="system_notification_access_no_settings">Acest dispozitiv nu are un ecran pentru accesul la notificări. Acordați accesul de pe un computer cu:</string>
+</resources>

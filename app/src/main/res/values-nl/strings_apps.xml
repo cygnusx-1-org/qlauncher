@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Annuleren</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Alle apps</string>
+    <string name="apps_action_edit_categories">Categorieën bewerken</string>
+    <string name="apps_action_edit_channels">Kanalen bewerken</string>
+    <string name="apps_action_launcher_settings">QLauncher-instellingen</string>
+    <string name="apps_action_android_settings">Android-instellingen</string>
+    <string name="apps_action_amlogic_settings">Extra AmLogic-instellingen</string>
+    <string name="apps_action_display_profiles">Weergaveprofielen</string>
+    <string name="apps_action_install_apps">Apps van derden installeren</string>
+    <string name="apps_action_accessibility_service">Toegankelijkheidsservice</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Van profiel wisselen</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Dit apparaat</string>
+    <string name="apps_action_about_wallpaper">Deze achtergrond</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Geen</string>
+    <string name="apps_autostart_screensaver">Screensaver</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanalen</string>
+    <string name="apps_channels_watch_next">Verder kijken</string>
+    <string name="apps_channels_unreadable">Dit kanaal kan niet meer worden gelezen</string>
+    <string name="apps_channels_hidden">Verborgen door het systeem</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanaal</item>
+        <item quantity="other">%d kanalen</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Pictogrampakket toepassen</string>
+    <string name="apps_iconpack_apply_message">%1$s gebruiken voor de pictogrammen van je apps?</string>
+    <string name="apps_iconpack_apply_confirm">Toepassen</string>
+    <string name="apps_iconpack_applied">Pictogrampakket toegepast</string>
+    <string name="apps_iconpack_apply_missing">Er is geen pictogrampakket opgegeven</string>
+    <string name="apps_iconpack_apply_not_a_pack">Deze app is geen pictogrampakket</string>
+    <string name="apps_iconpack_none">Geen</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Snelkoppeling toevoegen</string>
+    <string name="apps_pin_shortcut_message">‘%1$s’ van %2$s toevoegen aan de categorie Snelkoppelingen?</string>
+    <string name="apps_pin_shortcut_confirm">Toevoegen</string>
+    <string name="apps_pin_shortcut_added">Snelkoppeling toegevoegd</string>
+    <string name="apps_pin_shortcut_failed">De snelkoppeling kan niet worden toegevoegd</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Apps van derden installeren</string>
+    <string name="apps_install_description">Kies een app om te installeren. Mogelijk moet je eerst installatie uit onbekende bronnen toestaan.</string>
+    <string name="apps_install_custom_url">Aangepaste URL / Downloader-code</string>
+    <string name="apps_install_custom_url_desc">Gebruik een betrouwbare bron</string>
+    <string name="apps_install_choose_method">Kies een installatiemethode</string>
+    <string name="apps_install_installed">Geïnstalleerd</string>
+    <string name="apps_install_category_wallpaper_plugin">Achtergrondplug-in</string>
+    <string name="apps_install_category_icon_pack">Pictogrampakket</string>
+    <string name="apps_install_category_file_manager">Bestandsbeheer</string>
+    <string name="apps_install_category_tool">Hulpmiddel</string>
+    <string name="apps_install_method_store">Appstore</string>
+    <string name="apps_install_method_direct">Directe download</string>
+    <string name="apps_install_method_downloader">Downloader-app</string>
+    <string name="apps_install_state_downloading">%1$s downloaden… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s downloaden…</string>
+    <string name="apps_install_state_installing">%1$s installeren…</string>
+    <string name="apps_install_state_confirm">Bevestig de installatie van %1$s</string>
+    <string name="apps_install_state_success">%1$s geïnstalleerd</string>
+    <string name="apps_install_state_unknown_sources">Sta QLauncher toe apps te installeren en kom dan terug om door te gaan</string>
+    <string name="apps_install_state_downloader_sent">Code %1$s naar Downloader gestuurd</string>
+    <string name="apps_install_state_downloader_type">Voer de code %1$s in Downloader in</string>
+    <string name="apps_install_state_store">Geopend in de appstore</string>
+    <string name="apps_install_state_browser">Deze link is een webpagina; hij is in de browser geopend</string>
+    <string name="apps_install_fail_invalid">Dit is geen URL of Downloader-code</string>
+    <string name="apps_install_fail_no_usb">Geen USB-stick gevonden</string>
+    <string name="apps_install_fail_archive">Archieven kunnen niet worden geïnstalleerd</string>
+    <string name="apps_install_fail_network">De download is mislukt</string>
+    <string name="apps_install_fail_http">De server antwoordde met een fout (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Het bestand is geen app (APK)</string>
+    <string name="apps_install_fail_unreadable">Het bestand kan niet worden gelezen</string>
+    <string name="apps_install_fail_install">De installatie is mislukt</string>
+    <string name="apps_install_fail_cancelled">De installatie is geannuleerd</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher mag geen apps installeren</string>
+    <string name="apps_install_fail_downloader">De Downloader-app is niet geïnstalleerd</string>
+    <string name="apps_install_fail_store">Er is geen appstore beschikbaar</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Dit apparaat</string>
+    <string name="apps_device_brand_manufacturer">Merk / Fabrikant</string>
+    <string name="apps_device_device_product">Apparaat / Product</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Hardware</string>
+    <string name="apps_device_fingerprint">Vingerafdruk</string>
+    <string name="apps_device_build">Build-nummer</string>
+    <string name="apps_device_build_desc">Buildbeschr.</string>
+    <string name="apps_device_device_type">Apparaattype</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-adres</string>
+    <string name="apps_device_root_access">Roottoegang</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Geen beeldbeheer</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Ja</string>
+    <string name="apps_device_no">Nee</string>
+</resources>

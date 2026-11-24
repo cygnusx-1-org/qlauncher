@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versi %1$s</string>
+    <string name="about_copyright">Hak cipta © 2026 penyumbang QLauncher. Perisian bebas di bawah GNU General Public License, versi 3.</string>
+    <string name="about_libs">Pustaka / Penghargaan</string>
+    <string name="about_links">Pautan</string>
+    <string name="about_link_project">Halaman projek</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Terjemahan Bahasa Melayu</string>
+    <string name="about_translation_credit">Penyumbang QLauncher</string>
+    <string name="about_no_browser">Tiada penyemak imbas pada peranti ini. Buka %1$s pada peranti lain.</string>
+    <string name="about_check_updates">Semak kemas kini</string>
+    <string name="about_update_checking">Menyemak…</string>
+    <string name="about_update_latest">QLauncher sudah terkini (%1$s)</string>
+    <string name="about_update_available">Versi %1$s tersedia</string>
+    <string name="about_update_failed">Tidak dapat menyemak: %1$s</string>
+    <string name="about_update_install">Pasang QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s tersedia: Tetapan › Perihal › QLauncher</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Отмена</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Все приложения</string>
+    <string name="apps_action_edit_categories">Изменить категории</string>
+    <string name="apps_action_edit_channels">Изменить каналы</string>
+    <string name="apps_action_launcher_settings">Настройки QLauncher</string>
+    <string name="apps_action_android_settings">Настройки Android</string>
+    <string name="apps_action_amlogic_settings">Доп. настройки AmLogic</string>
+    <string name="apps_action_display_profiles">Профили дисплея</string>
+    <string name="apps_action_install_apps">Установка сторонних приложений</string>
+    <string name="apps_action_accessibility_service">Служба спец. возможностей</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Сменить профиль</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Это устройство</string>
+    <string name="apps_action_about_wallpaper">Текущие обои</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Нет</string>
+    <string name="apps_autostart_screensaver">Заставка</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Каналы</string>
+    <string name="apps_channels_watch_next">Продолжить просмотр</string>
+    <string name="apps_channels_unreadable">Этот канал больше не удаётся прочитать</string>
+    <string name="apps_channels_hidden">Скрыт системой</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d канал</item>
+        <item quantity="few">%d канала</item>
+        <item quantity="many">%d каналов</item>
+        <item quantity="other">%d канала</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Применить набор значков</string>
+    <string name="apps_iconpack_apply_message">Использовать %1$s для значков приложений?</string>
+    <string name="apps_iconpack_apply_confirm">Применить</string>
+    <string name="apps_iconpack_applied">Набор значков применён</string>
+    <string name="apps_iconpack_apply_missing">Набор значков не указан</string>
+    <string name="apps_iconpack_apply_not_a_pack">Это приложение не является набором значков</string>
+    <string name="apps_iconpack_none">Нет</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Добавить ярлык</string>
+    <string name="apps_pin_shortcut_message">Добавить «%1$s» из %2$s в категорию «Ярлыки»?</string>
+    <string name="apps_pin_shortcut_confirm">Добавить</string>
+    <string name="apps_pin_shortcut_added">Ярлык добавлен</string>
+    <string name="apps_pin_shortcut_failed">Не удалось добавить ярлык</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Установка сторонних приложений</string>
+    <string name="apps_install_description">Выберите приложение для установки. Возможно, сначала потребуется разрешить установку из неизвестных источников.</string>
+    <string name="apps_install_custom_url">Свой URL / код Downloader</string>
+    <string name="apps_install_custom_url_desc">Используйте только надёжный источник</string>
+    <string name="apps_install_choose_method">Выберите способ установки</string>
+    <string name="apps_install_installed">Установлено</string>
+    <string name="apps_install_category_wallpaper_plugin">Плагин обоев</string>
+    <string name="apps_install_category_icon_pack">Набор значков</string>
+    <string name="apps_install_category_file_manager">Файловый менеджер</string>
+    <string name="apps_install_category_tool">Утилита</string>
+    <string name="apps_install_method_store">Магазин</string>
+    <string name="apps_install_method_direct">Прямая загрузка</string>
+    <string name="apps_install_method_downloader">Приложение Downloader</string>
+    <string name="apps_install_state_downloading">Загрузка %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Загрузка %1$s…</string>
+    <string name="apps_install_state_installing">Установка %1$s…</string>
+    <string name="apps_install_state_confirm">Подтвердите установку %1$s</string>
+    <string name="apps_install_state_success">Установлено: %1$s</string>
+    <string name="apps_install_state_unknown_sources">Разрешите QLauncher устанавливать приложения, затем вернитесь, чтобы продолжить</string>
+    <string name="apps_install_state_downloader_sent">Код %1$s отправлен в Downloader</string>
+    <string name="apps_install_state_downloader_type">Введите код %1$s в Downloader</string>
+    <string name="apps_install_state_store">Открыто в магазине</string>
+    <string name="apps_install_state_browser">Это ссылка на веб-страницу; она открыта в браузере</string>
+    <string name="apps_install_fail_invalid">Это не URL и не код Downloader</string>
+    <string name="apps_install_fail_no_usb">USB-накопитель не найден</string>
+    <string name="apps_install_fail_archive">Архивы нельзя установить</string>
+    <string name="apps_install_fail_network">Не удалось загрузить файл</string>
+    <string name="apps_install_fail_http">Сервер вернул ошибку (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Файл не является приложением (APK)</string>
+    <string name="apps_install_fail_unreadable">Не удаётся прочитать файл</string>
+    <string name="apps_install_fail_install">Не удалось выполнить установку</string>
+    <string name="apps_install_fail_cancelled">Установка отменена</string>
+    <string name="apps_install_fail_unknown_sources">У QLauncher нет разрешения на установку приложений</string>
+    <string name="apps_install_fail_downloader">Приложение Downloader не установлено</string>
+    <string name="apps_install_fail_store">Нет доступного магазина приложений</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Это устройство</string>
+    <string name="apps_device_brand_manufacturer">Бренд / Производитель</string>
+    <string name="apps_device_device_product">Устройство / Продукт</string>
+    <string name="apps_device_model">Модель</string>
+    <string name="apps_device_hardware">Оборудование</string>
+    <string name="apps_device_fingerprint">Отпечаток сборки</string>
+    <string name="apps_device_build">Сборка</string>
+    <string name="apps_device_build_desc">Описание сборки</string>
+    <string name="apps_device_device_type">Тип устройства</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-адрес</string>
+    <string name="apps_device_root_access">Root-доступ</string>
+    <string name="apps_device_pm_info">Менеджер изображения</string>
+    <string name="apps_device_pm_none">Нет менеджера изображения</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Да</string>
+    <string name="apps_device_no">Нет</string>
+</resources>

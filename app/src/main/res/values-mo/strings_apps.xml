@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Anulați</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Toate aplicațiile</string>
+    <string name="apps_action_edit_categories">Editați categoriile</string>
+    <string name="apps_action_edit_channels">Editați canalele</string>
+    <string name="apps_action_launcher_settings">Setări QLauncher</string>
+    <string name="apps_action_android_settings">Setări Android</string>
+    <string name="apps_action_amlogic_settings">Setări suplimentare AmLogic</string>
+    <string name="apps_action_display_profiles">Profiluri de afișare</string>
+    <string name="apps_action_install_apps">Instalați aplicații terțe</string>
+    <string name="apps_action_accessibility_service">Serviciu de accesibilitate</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Schimbați profilul</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Acest dispozitiv</string>
+    <string name="apps_action_about_wallpaper">Această imagine de fundal</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Niciuna</string>
+    <string name="apps_autostart_screensaver">Economizor de ecran</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Canale</string>
+    <string name="apps_channels_watch_next">Continuați vizionarea</string>
+    <string name="apps_channels_unreadable">Acest canal nu mai poate fi citit</string>
+    <string name="apps_channels_hidden">Ascuns de sistem</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d canal</item>
+        <item quantity="few">%d canale</item>
+        <item quantity="other">%d de canale</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Aplicați pachetul de pictograme</string>
+    <string name="apps_iconpack_apply_message">Folosiți %1$s pentru pictogramele aplicațiilor?</string>
+    <string name="apps_iconpack_apply_confirm">Aplicați</string>
+    <string name="apps_iconpack_applied">Pachetul de pictograme a fost aplicat</string>
+    <string name="apps_iconpack_apply_missing">Nu a fost indicat niciun pachet de pictograme</string>
+    <string name="apps_iconpack_apply_not_a_pack">Această aplicație nu este un pachet de pictograme</string>
+    <string name="apps_iconpack_none">Niciunul</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Adăugați comanda rapidă</string>
+    <string name="apps_pin_shortcut_message">Adăugați „%1$s” din %2$s în categoria Comenzi rapide?</string>
+    <string name="apps_pin_shortcut_confirm">Adăugați</string>
+    <string name="apps_pin_shortcut_added">Comanda rapidă a fost adăugată</string>
+    <string name="apps_pin_shortcut_failed">Comanda rapidă nu a putut fi adăugată</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Instalați aplicații terțe</string>
+    <string name="apps_install_description">Alegeți o aplicație de instalat. Poate fi necesar să permiteți instalarea din surse necunoscute înainte de instalare.</string>
+    <string name="apps_install_custom_url">URL personalizat / cod Downloader</string>
+    <string name="apps_install_custom_url_desc">Folosiți neapărat o sursă de încredere</string>
+    <string name="apps_install_choose_method">Alegeți o metodă de instalare</string>
+    <string name="apps_install_installed">Instalată</string>
+    <string name="apps_install_category_wallpaper_plugin">Plugin de imagine de fundal</string>
+    <string name="apps_install_category_icon_pack">Pachet de pictograme</string>
+    <string name="apps_install_category_file_manager">Manager de fișiere</string>
+    <string name="apps_install_category_tool">Instrument</string>
+    <string name="apps_install_method_store">Magazin</string>
+    <string name="apps_install_method_direct">Descărcare directă</string>
+    <string name="apps_install_method_downloader">Aplicația Downloader</string>
+    <string name="apps_install_state_downloading">Se descarcă %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Se descarcă %1$s…</string>
+    <string name="apps_install_state_installing">Se instalează %1$s…</string>
+    <string name="apps_install_state_confirm">Confirmați instalarea aplicației %1$s</string>
+    <string name="apps_install_state_success">Aplicația %1$s a fost instalată</string>
+    <string name="apps_install_state_unknown_sources">Permiteți aplicației QLauncher să instaleze aplicații, apoi reveniți pentru a continua</string>
+    <string name="apps_install_state_downloader_sent">Codul %1$s a fost trimis la Downloader</string>
+    <string name="apps_install_state_downloader_type">Introduceți codul %1$s în Downloader</string>
+    <string name="apps_install_state_store">Deschis în magazin</string>
+    <string name="apps_install_state_browser">Acest link este o pagină web; a fost deschis în browser</string>
+    <string name="apps_install_fail_invalid">Acesta nu este un URL sau un cod Downloader</string>
+    <string name="apps_install_fail_no_usb">Nu a fost găsită nicio unitate USB</string>
+    <string name="apps_install_fail_archive">Arhivele nu pot fi instalate</string>
+    <string name="apps_install_fail_network">Descărcarea nu a reușit</string>
+    <string name="apps_install_fail_http">Serverul a răspuns cu o eroare (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Fișierul nu este o aplicație (APK)</string>
+    <string name="apps_install_fail_unreadable">Fișierul nu poate fi citit</string>
+    <string name="apps_install_fail_install">Instalarea nu a reușit</string>
+    <string name="apps_install_fail_cancelled">Instalarea a fost anulată</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher nu are permisiunea să instaleze aplicații</string>
+    <string name="apps_install_fail_downloader">Aplicația Downloader nu este instalată</string>
+    <string name="apps_install_fail_store">Niciun magazin de aplicații disponibil</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Acest dispozitiv</string>
+    <string name="apps_device_brand_manufacturer">Marcă / Producător</string>
+    <string name="apps_device_device_product">Dispozitiv / Produs</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Hardware</string>
+    <string name="apps_device_fingerprint">Amprentă</string>
+    <string name="apps_device_build">Versiune build</string>
+    <string name="apps_device_build_desc">Descriere build</string>
+    <string name="apps_device_device_type">Tip de dispozitiv</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Adresă IP</string>
+    <string name="apps_device_root_access">Acces root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Niciun manager de imagine</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Da</string>
+    <string name="apps_device_no">Nu</string>
+</resources>

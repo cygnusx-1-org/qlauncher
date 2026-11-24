@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Alapértelmezett</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">félkövér</string>
+    <string name="backup_clock_markup_italic">dőlt</string>
+    <string name="backup_clock_markup_underline">aláhúzott</string>
+    <string name="backup_clock_markup_strikethrough">áthúzott</string>
+    <string name="backup_clock_markup_subscript">alsó index</string>
+    <string name="backup_clock_markup_superscript">felső index</string>
+    <string name="backup_clock_markup_half_size">fél méret</string>
+    <string name="backup_clock_markup_one_and_a_half_size">másfélszeres</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Feketevágás</string>
+    <string name="backup_pattern_apl_clipping">APL-vágás</string>
+    <string name="backup_pattern_white_clipping">Fehérvágás</string>
+    <string name="backup_pattern_grayscale_ramp">Szürkeskála-átmenet</string>
+    <string name="backup_pattern_grayscale_steps">Szürkeskála-lépcsők</string>
+    <string name="backup_pattern_dynamic_brightness">Dinamikus fényerő</string>
+    <string name="backup_pattern_color_steps">Színlépcsők</string>
+    <string name="backup_pattern_color_clipping">Színvágás</string>
+    <string name="backup_pattern_flashing_color_bars">Villogó színsávok</string>
+    <string name="backup_pattern_sharpness_overscan">Élesség &amp; túlpásztázás</string>
+    <string name="backup_pattern_uhd">UHD-tesztábra</string>
+    <string name="backup_pattern_judder">Akadozásteszt</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Képarány és élesség</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Feketeszint</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Színvágás 240–1000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Színvágás 3600–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Színvágás 700–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Színvágás 900–4000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Szürkeskála-átmenet 10000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Szürkeskála-átmenet 1000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Szürkeskála-átmenet 4000 nit</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Fekete PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Színátmenetek</string>
+    <string name="backup_pattern_unavailable">%1$s: HDR-videóútvonal kell hozzá, ezért még nem érhető el</string>
+    <!-- Pages -->
+    <string name="backup_settings">Beállítások</string>
+    <string name="backup_manage_settings">Beállítások kezelése</string>
+    <string name="backup_themes">Témák</string>
+    <string name="backup_import">Importálás</string>
+    <string name="backup_export">Exportálás</string>
+    <string name="backup_import_from_file">Fájlkezelőből</string>
+    <string name="backup_import_from_auto">Automatikus biztonsági mentésből</string>
+    <string name="backup_export_save">Mentés helyben</string>
+    <string name="backup_export_share">Megosztás másik alkalmazással</string>
+    <string name="backup_reset">Visszaállítás alapértelmezettre</string>
+    <string name="backup_cancel">Mégse</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Kész</string>
+    <string name="backup_close">Bezárás</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Beállítások exportálása</string>
+    <string name="backup_export_theme_title">Téma exportálása</string>
+    <string name="backup_export_description">Minden egyetlen fájlba kerül, amelyet az Ön által választott jelszó titkosít (legalább %1$d karakter). A fájl importálásához szüksége lesz a jelszóra, és az nem állítható helyre.</string>
+    <string name="backup_export_theme_description">A megjelenési beállítások és az aktuális háttérkép egyetlen fájlba kerülnek, amelyet az Ön által választott jelszó titkosít (legalább %1$d karakter). A téma importálásához szüksége lesz a jelszóra.</string>
+    <string name="backup_password">Jelszó</string>
+    <string name="backup_password_show">Jelszó megjelenítése</string>
+    <string name="backup_password_hide">Jelszó elrejtése</string>
+    <string name="backup_password_strength">Jelszó erőssége</string>
+    <string name="backup_strength_too_short">Túl rövid: legalább %1$d karakter</string>
+    <string name="backup_strength_weak">Gyenge: könnyen kitalálható</string>
+    <string name="backup_strength_fair">Elfogadható</string>
+    <string name="backup_strength_strong">Erős</string>
+    <string name="backup_password_too_short">A jelszónak legalább %1$d karakterből kell állnia</string>
+    <string name="backup_exporting">Exportálás…</string>
+    <string name="backup_export_saved">Mentve ide: %1$s</string>
+    <string name="backup_export_kept">Máshová nem lett mentve. A fájl itt marad: %1$s</string>
+    <string name="backup_export_shared">Elküldve. Egy másolat itt marad: %1$s</string>
+    <string name="backup_export_no_file_manager">Az eszközön egyetlen alkalmazás sem tudja fogadni a fájlt. Itt található: %1$s</string>
+    <string name="backup_export_failed">Az exportálás sikertelen: %1$s</string>
+    <string name="backup_share_title">QLauncher-fájl küldése ezzel:</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Az importálás lecseréli a jelenlegi beállításait. Előbb automatikus biztonsági mentés készül, és a QLauncher a végén újraindul.</string>
+    <string name="backup_reading">Fájl olvasása…</string>
+    <string name="backup_import_action">Importálás</string>
+    <string name="backup_wrong_password">Hibás jelszó</string>
+    <string name="backup_password_hint">A fájl exportálásakor választott jelszó</string>
+    <string name="backup_not_a_backup">Ez nem QLauncher- vagy Projectivy-biztonsági mentés vagy -téma.</string>
+    <string name="backup_damaged">A fájl sérült vagy hiányos.</string>
+    <string name="backup_too_new">Ezt a fájlt a QLauncher egy újabb verziója készítette (%1$d. formátum). Az importáláshoz frissítse a QLaunchert.</string>
+    <string name="backup_unreadable">Ez az automatikus biztonsági mentés nem olvasható ezen az eszközön.</string>
+    <string name="backup_import_failed">Az importálás sikertelen, semmi sem változott: %1$s</string>
+    <string name="backup_applying">Importálás… A QLauncher a végén újraindul.</string>
+    <string name="backup_origin_ql_backup">QLauncher-beállítások biztonsági mentése</string>
+    <string name="backup_origin_ql_theme">QLauncher-téma</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher-beállítások biztonsági mentése</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher-téma</string>
+    <string name="backup_origin_auto">Automatikus biztonsági mentés</string>
+    <string name="backup_preview_theme_by">%1$s, készítette: %2$s</string>
+    <string name="backup_preview_version">verzió: %1$s</string>
+    <string name="backup_preview_settings">Beállítások</string>
+    <string name="backup_preview_categories">Kategóriák</string>
+    <string name="backup_preview_apps">Alkalmazás-testreszabások</string>
+    <string name="backup_preview_profiles">Megjelenítési profilok</string>
+    <string name="backup_preview_files">Háttérképek és ikonok</string>
+    <string name="backup_preview_skipped">Az eszközön nem található alkalmazások</string>
+    <string name="backup_replace_setup">Jelenlegi beállítások cseréje</string>
+    <string name="backup_apply_theme">Téma alkalmazása</string>
+    <string name="backup_replace_detail">Előbb automatikus biztonsági mentés készül a jelenlegi beállításokról</string>
+    <string name="backup_nc_parental">Szülői kód</string>
+    <string name="backup_nc_parental_detail">Nem kerül át. Állítson be új kódot a Szülői felügyelet menüben.</string>
+    <string name="backup_nc_premium">Prémium állapot</string>
+    <string name="backup_nc_premium_detail">Nem kerül át. A QLauncher minden funkciója ingyenes.</string>
+    <string name="backup_nc_inputs">TV-bemenetek</string>
+    <string name="backup_nc_profile_bindings">Megjelenítési profilok hozzárendelései</string>
+    <string name="backup_nc_plugin">Háttérkép-bővítmény</string>
+    <string name="backup_nc_plugin_detail">A(z) %1$s nincs telepítve. A háttérképforrás változatlan marad.</string>
+    <string name="backup_nc_icons">Egyéni ikonok</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d módosított érték</item>
+        <item quantity="other">%1$d módosított érték</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategória</item>
+        <item quantity="other">%1$d kategória</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d alkalmazás</item>
+        <item quantity="other">%1$d alkalmazás</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profil</item>
+        <item quantity="other">%1$d profil</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d fájl</item>
+        <item quantity="other">%1$d fájl</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d ismeretlen beállítás kihagyva</item>
+        <item quantity="other">%1$d ismeretlen beállítás kihagyva</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d bejegyzés nem egyezik egyetlen itt telepített alkalmazással sem, ezért kimarad</item>
+        <item quantity="other">%1$d bejegyzés nem egyezik egyetlen itt telepített alkalmazással sem, ezért kimarad</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d hivatkozás az eszközön nem létező TV-bemenetre kimarad</item>
+        <item quantity="other">%1$d hivatkozás az eszközön nem létező TV-bemenetekre kimarad</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d bemenethez rendelt profil nem kerül át</item>
+        <item quantity="other">%1$d bemenetekhez rendelt profil nem kerül át</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d Projectivyben tárolt ikon nem olvasható, ezért kimarad</item>
+        <item quantity="other">%1$d Projectivyben tárolt ikon nem olvasható, ezért kimarad</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automatikus biztonsági mentések</string>
+    <string name="backup_auto_description">A QLauncher a beállításai utolsó %1$d verzióját őrzi meg ezen az eszközön, olyan kulccsal titkosítva, amely soha nem hagyja el az eszközt. A visszaállításhoz válasszon egyet; jelszó nem szükséges.</string>
+    <string name="backup_auto_none">Nincs elérhető automatikus biztonsági mentés</string>
+    <string name="backup_files_title">Biztonsági mentési fájlok</string>
+    <string name="backup_files_theme_title">Témafájlok</string>
+    <string name="backup_files_description">Az exportált fájlok helye: %1$s. Az összes fájlhoz való hozzáféréssel a QLauncher a Download és a Documents mappában, valamint USB-meghajtókon is megtalálja a biztonsági mentéseket, a Projectivyéit is beleértve.</string>
+    <string name="backup_files_searching">Biztonsági mentési fájlok keresése…</string>
+    <string name="backup_files_none">Nem található biztonsági mentési fájl</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">A QLauncher mappája</string>
+    <string name="backup_files_access">Más alkalmazások és eszközök biztonsági mentéseinek keresése</string>
+    <string name="backup_files_access_desc">Hozzáférés engedélyezése az összes fájlhoz</string>
+    <string name="backup_files_access_unavailable">Ezen az eszközön nincs ehhez beállítási képernyő. Engedélyezze az összes fájlhoz való hozzáférést ezzel: %1$s</string>
+    <string name="backup_files_browse">Más hely…</string>
+    <string name="backup_files_browse_desc">Fájl kiválasztása a rendszer fájlválasztójával</string>
+    <string name="backup_auto_delete_all">Összes törlése</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Módosítás után</string>
+    <string name="backup_reason_import">Importálás előtt</string>
+    <string name="backup_reason_migration">Frissítés előtt</string>
+    <string name="backup_reason_reset">Visszaállítás előtt</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profil #</string>
+    <string name="backup_no_picture_manager">Nincs betöltve képkezelő</string>
+    <string name="backup_no_picture_manager_detail">Ez az eszköz nem kínál támogatott módot a képbeállítások módosítására, ezért a profilok megőrzik az értékeiket, de nem alkalmazzák őket.</string>
+</resources>

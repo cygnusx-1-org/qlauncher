@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Praegu mängib</string>
+    <string name="home_cat_inputs">Sisendid</string>
+    <string name="home_cat_favorites">Lemmikud</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Muusika</string>
+    <string name="home_cat_games">Mängud</string>
+    <string name="home_cat_tv_apps">Telerirakendused</string>
+    <string name="home_cat_mobile_apps">Mobiilirakendused</string>
+    <string name="home_cat_watch_next">Vaata järgmisena</string>
+    <string name="home_cat_shortcuts">Otseteed</string>
+    <string name="home_cat_folders">Kategooriakaustad</string>
+    <string name="home_cat_live_tv">Otse-TV</string>
+    <string name="home_cat_settings">Seaded</string>
+    <string name="home_cat_display">Ekraan</string>
+    <string name="home_cat_applications">Rakendused</string>
+    <string name="home_cat_system">Süsteem</string>
+    <string name="home_cat_about">Teave</string>
+    <string name="home_new_category">Uus kategooria</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Kõik rakendused</string>
+    <string name="home_action_edit_categories">Muuda kategooriaid</string>
+    <string name="home_action_edit_channels">Muuda kanaleid</string>
+    <string name="home_action_launcher_settings">QLauncheri seaded</string>
+    <string name="home_action_android_settings">Androidi seaded</string>
+    <string name="home_action_amlogic_settings">AmLogicu lisaseaded</string>
+    <string name="home_action_display_profiles">Kuvaprofiilid</string>
+    <string name="home_action_install_apps">Installi kolmanda osapoole rakendusi</string>
+    <string name="home_action_accessibility">Juurdepääsetavusteenus</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Vaheta profiili</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">See seade</string>
+    <string name="home_action_about_wallpaper">See taustapilt</string>
+
+    <!-- Program meta -->
+    <string name="home_season">%1$s. hooaeg</string>
+    <string name="home_episode">%1$s. osa</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Ühenduvus</string>
+    <string name="home_status_notifications">Märguanded</string>
+    <string name="home_status_settings">Seaded</string>
+    <string name="home_status_wallpaper">See taustapilt</string>
+    <string name="home_navigation_menu">Navigeerimismenüü</string>
+    <string name="home_reorder">Muuda järjestust</string>
+    <string name="home_category_settings">Kategooria seaded</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Rakenduse seaded</string>
+    <string name="menu_open">Ava</string>
+    <string name="menu_details">Üksikasjad</string>
+    <string name="menu_play_pause">Esita/peata</string>
+    <string name="menu_stop">Lõpeta</string>
+    <string name="menu_previous">Eelmine</string>
+    <string name="menu_next">Järgmine</string>
+    <string name="menu_uninstall">Desinstalli</string>
+    <string name="menu_launch_on_boot">Käivita sisselülitamisel</string>
+    <string name="menu_launch_on_boot_on">Käivitub sisselülitamisel</string>
+    <string name="menu_add_parental">Lisa vanemlikku järelevalvesse</string>
+    <string name="menu_remove_parental">Eemalda vanemlikust järelevalvest</string>
+    <string name="menu_shortcuts">Otseteed</string>
+    <string name="menu_appearance">Välimus</string>
+    <string name="menu_title">Pealkiri</string>
+    <string name="menu_change_icon">Muuda ikooni</string>
+    <string name="menu_icon_from_picture">Pildist</string>
+    <string name="menu_icon_other_location">Muu asukoht…</string>
+    <string name="menu_icon_no_pictures">Pilte ei leitud. Kopeeri mõned kausta Pictures või Download või ühenda USB-mäluseade.</string>
+    <string name="menu_icon_reset">Lähtesta</string>
+    <string name="menu_crop">Kärbi täitmiseks</string>
+    <string name="menu_visibility">Nähtavus</string>
+    <string name="menu_reorder">Muuda järjestust</string>
+    <string name="menu_remove_from">Eemalda kategooriast %1$s</string>
+    <string name="menu_hide">Peida</string>
+    <string name="menu_add_to">Lisa…</string>
+    <string name="menu_move_to">Teisalda…</string>
+    <string name="menu_channels">Kanalid</string>
+    <string name="menu_rename_hint">Sisesta uus pealkiri ja vajuta OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Pealkiri</string>
+    <string name="editor_change_icon">Muuda ikooni</string>
+    <string name="editor_visible">Nähtav</string>
+    <string name="editor_grid">Ruudustik</string>
+    <string name="editor_sliding_row">Liikuv rida</string>
+    <string name="editor_background">Taustavärv</string>
+    <string name="editor_show_title">Näita pealkirja</string>
+    <string name="editor_size">Suurus</string>
+    <string name="editor_advanced">Täpsemad seaded</string>
+    <string name="editor_start_margin">Algusveeris</string>
+    <string name="editor_end_margin">Lõpuveeris</string>
+    <string name="editor_top_margin">Ülaveeris</string>
+    <string name="editor_cards_per_row">Kaarte reas</string>
+    <string name="editor_row_count">Ridade arv</string>
+    <string name="editor_auto">Automaatne</string>
+    <string name="editor_auto_value">Automaatne (%1$s)</string>
+    <string name="editor_sort">Sortimine</string>
+    <string name="editor_sort_custom">Kohandatud</string>
+    <string name="editor_sort_name">Tähestikuliselt</string>
+    <string name="editor_sort_last">Viimati kasutatud</string>
+    <string name="editor_sort_most">Sageli kasutatud</string>
+    <string name="editor_sort_random">Juhuslik</string>
+    <string name="editor_set_default">Määra vaikimisi</string>
+    <string name="editor_is_default">Vaikekategooria</string>
+    <string name="editor_manage_apps">Halda rakendusi</string>
+    <string name="editor_hidden_items">Peidetud üksused</string>
+    <string name="editor_restore">Taasta</string>
+    <string name="editor_delete">Kustuta</string>
+    <string name="editor_delete_confirm">Kas kustutada see kategooria?</string>
+    <string name="editor_empty_note">See kategooria pole veel nähtav, sest see on tühi</string>
+    <string name="editor_request_notifications">Taotle märguannete luba</string>
+    <string name="editor_channel_error">Seda kanalit ei saa enam lugeda</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanalid</string>
+    <string name="channels_count">Kanaleid: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Märguanded</string>
+    <string name="notifications_clear_all">Kustuta kõik</string>
+    <string name="notifications_empty">Märguandeid pole</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Seda rakendust ei saa avada</string>
+    <string name="home_reorder_hint">Liiguta vasaku/parema noolega, lõpeta nupuga OK või TAGASI</string>
+    <string name="home_category_reorder_hint">Liiguta üles/alla noolega, lõpeta nupuga OK või TAGASI</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Tere tulemast!</string>
+    <string name="firstrun_welcome_text">QLauncher on Android TV käivitaja. See koondab sinu rakendused, kanalid ja lemmiksisu ühele kohandatavale avakuvale, mille taga vahetub taustapilt.</string>
+    <string name="firstrun_features_title">Sinu uued supervõimed</string>
+    <string name="firstrun_features_text">Käivita seadme sisselülitamisel rakendus või HDMI-sisend, halda kuvaprofiile, lukusta rakendusi vanemliku järelevalvega, kuva kalibreerimismustreid, tuvasta jõudeaega ja kohanda avakuva iga osa. Mõni funktsioon sõltub sinu seadmest.</string>
+    <string name="firstrun_a11y_title">Lülitame juurdepääsetavuse sisse</string>
+    <string name="firstrun_a11y_text">Paljud funktsioonid vajavad QLauncheri juurdepääsetavusteenust: vaikekäivitaja asendamine, toimingud sisselülitamisel, puldi nuppude žestid, jõudeoleku tuvastamine ja vanemlik järelevalve. Saad selle sisse lülitada kohe või hiljem seadetest.</string>
+    <string name="firstrun_a11y_open">Ava juurdepääsetavuse seaded</string>
+    <string name="firstrun_permissions_title">Kui tohib…</string>
+    <string name="firstrun_permissions_text">Järgmisena küsib QLauncher luba telekava lugemiseks (kanalite ja rea Vaata järgmisena jaoks) ning juurdepääsu märguannetele (märguandeikooni ja funktsiooni Praegu mängib jaoks). Mõlemad on valikulised.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Järgmisena küsib QLauncher juurdepääsu märguannetele (märguandeikooni ja funktsiooni Praegu mängib jaoks). See on valikuline.</string>
+    <string name="firstrun_notifications_dialog">Kas lubada juurdepääs märguannetele?</string>
+    <string name="firstrun_notifications_text">Juurdepääs märguannetele võimaldab QLauncheril näidata märguannete arvu, märguannete paneeli ja seda, mis parajasti mängib. Jah avab lehe Erijuurdepääs, kus saad selle anda.</string>
+    <string name="firstrun_reports_title">Kas saata anonüümseid veaaruandeid?</string>
+    <string name="firstrun_reports_text">Kui QLauncher jookseb kokku või tekib viga, võib see saata aruande rakenduse versiooni ja seadme mudeliga, et viga saaks parandada. Midagi, mis tuvastaks sind või seda, mida vaatad, ei saadeta. Saad seda hiljem muuta jaotises Üldine.</string>
+    <string name="firstrun_launcher_title">Tee QLauncher oma avakuvaks</string>
+    <string name="firstrun_launcher_text">Paljud teleriseadmed ei luba vaikekäivitajat muuta. Kui sinu oma lubab, vali seal QLauncher. Muul juhul lülita juurdepääsetavusteenus sisse koos valikuga „Asenda praegune käivitaja“ ja QLauncher tuleb tagasi alati, kui avaneb vaikekäivitaja.</string>
+    <string name="firstrun_launcher_open">Muuda vaikekäivitajat</string>
+    <string name="firstrun_start_title">Aeg alustada!</string>
+    <string name="firstrun_start_text">Kõike saab hiljem seadetes muuta. Vajuta paremas ülanurgas olevat seadete nuppu või klahvijada ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">ALUSTA</string>
+    <string name="firstrun_next">Edasi</string>
+    <string name="firstrun_skip">Jäta vahele</string>
+    <string name="firstrun_yes">Jah</string>
+    <string name="firstrun_no">Ei</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Selles seadmes pole ekraanisäästjat</string>
+</resources>

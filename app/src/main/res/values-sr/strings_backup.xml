@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Подразумевано</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">подебљано</string>
+    <string name="backup_clock_markup_italic">курзив</string>
+    <string name="backup_clock_markup_underline">подвучено</string>
+    <string name="backup_clock_markup_strikethrough">прецртано</string>
+    <string name="backup_clock_markup_subscript">индекс</string>
+    <string name="backup_clock_markup_superscript">експонент</string>
+    <string name="backup_clock_markup_half_size">пола величине</string>
+    <string name="backup_clock_markup_one_and_a_half_size">један и по пут</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Одсецање црне</string>
+    <string name="backup_pattern_apl_clipping">Одсецање при APL</string>
+    <string name="backup_pattern_white_clipping">Одсецање беле</string>
+    <string name="backup_pattern_grayscale_ramp">Градијент сивих тонова</string>
+    <string name="backup_pattern_grayscale_steps">Степени сивих тонова</string>
+    <string name="backup_pattern_dynamic_brightness">Динамичка осветљеност</string>
+    <string name="backup_pattern_color_steps">Степени боја</string>
+    <string name="backup_pattern_color_clipping">Одсецање боја</string>
+    <string name="backup_pattern_flashing_color_bars">Трепћуће траке боја</string>
+    <string name="backup_pattern_sharpness_overscan">Оштрина &amp; overscan</string>
+    <string name="backup_pattern_uhd">UHD тест-слика</string>
+    <string name="backup_pattern_judder">Тест трзања</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Однос страница и оштрина</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Ниво црне</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Одсецање боја 240–1000 нита</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Одсецање боја 3600–10000 нита</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Одсецање боја 700–10000 нита</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Одсецање боја 900–4000 нита</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Градијент сивих тонова 10000 нита</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Градијент сивих тонова 1000 нита</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Градијент сивих тонова 4000 нита</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE за црну</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Градијенти боја</string>
+    <string name="backup_pattern_unavailable">Тест-слика „%1$s“ захтева HDR видео излаз и још није доступна</string>
+    <!-- Pages -->
+    <string name="backup_settings">Подешавања</string>
+    <string name="backup_manage_settings">Управљај подешавањима</string>
+    <string name="backup_themes">Теме</string>
+    <string name="backup_import">Увоз</string>
+    <string name="backup_export">Извоз</string>
+    <string name="backup_import_from_file">Из менаџера датотека</string>
+    <string name="backup_import_from_auto">Из аутоматске резервне копије</string>
+    <string name="backup_export_save">Сачувај локално</string>
+    <string name="backup_export_share">Дели са другом апликацијом</string>
+    <string name="backup_reset">Врати на подразумевано</string>
+    <string name="backup_cancel">Откажи</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Готово</string>
+    <string name="backup_close">Затвори</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Извоз подешавања</string>
+    <string name="backup_export_theme_title">Извоз теме</string>
+    <string name="backup_export_description">Све се чува у једној датотеци, шифрованој лозинком коју ви изаберете (најмање %1$d знакова). Лозинка вам је потребна за увоз датотеке и не може да се поврати.</string>
+    <string name="backup_export_theme_description">Подешавања изгледа и тренутна позадина чувају се у једној датотеци, шифрованој лозинком коју ви изаберете (најмање %1$d знакова). Лозинка вам је потребна за увоз теме.</string>
+    <string name="backup_password">Лозинка</string>
+    <string name="backup_password_show">Прикажи лозинку</string>
+    <string name="backup_password_hide">Сакриј лозинку</string>
+    <string name="backup_password_strength">Јачина лозинке</string>
+    <string name="backup_strength_too_short">Прекратка: најмање %1$d знакова</string>
+    <string name="backup_strength_weak">Слаба: лако се погађа</string>
+    <string name="backup_strength_fair">Осредња</string>
+    <string name="backup_strength_strong">Јака</string>
+    <string name="backup_password_too_short">Лозинка мора да има најмање %1$d знакова</string>
+    <string name="backup_exporting">Извози се…</string>
+    <string name="backup_export_saved">Сачувано у %1$s</string>
+    <string name="backup_export_kept">Није сачувано на другом месту. Датотека остаје у %1$s</string>
+    <string name="backup_export_shared">Послато. Копија остаје у %1$s</string>
+    <string name="backup_export_no_file_manager">Ниједна апликација на овом уређају не може да прими датотеку. Налази се у %1$s</string>
+    <string name="backup_export_failed">Извоз није успео: %1$s</string>
+    <string name="backup_share_title">Пошаљи датотеку апликације QLauncher помоћу</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Увоз замењује тренутну конфигурацију. Прво се прави аутоматска резервна копија, а QLauncher се поново покреће када се увоз заврши.</string>
+    <string name="backup_reading">Читање датотеке…</string>
+    <string name="backup_import_action">Увези</string>
+    <string name="backup_wrong_password">Погрешна лозинка</string>
+    <string name="backup_password_hint">Лозинка изабрана при извозу датотеке</string>
+    <string name="backup_not_a_backup">Ово није резервна копија ни тема апликације QLauncher или Projectivy.</string>
+    <string name="backup_damaged">Датотека је оштећена или непотпуна.</string>
+    <string name="backup_too_new">Ову датотеку је направила новија верзија апликације QLauncher (формат %1$d). Ажурирајте QLauncher да бисте је увезли.</string>
+    <string name="backup_unreadable">Ова аутоматска резервна копија не може да се прочита на овом уређају.</string>
+    <string name="backup_import_failed">Увоз није успео и ништа није промењено: %1$s</string>
+    <string name="backup_applying">Увози се… QLauncher ће се поново покренути када се увоз заврши.</string>
+    <string name="backup_origin_ql_backup">Резервна копија подешавања за QLauncher</string>
+    <string name="backup_origin_ql_theme">Тема за QLauncher</string>
+    <string name="backup_origin_pl_backup">Резервна копија подешавања за Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Тема за Projectivy Launcher</string>
+    <string name="backup_origin_auto">Аутоматска резервна копија</string>
+    <string name="backup_preview_theme_by">%1$s, аутор: %2$s</string>
+    <string name="backup_preview_version">верзија %1$s</string>
+    <string name="backup_preview_settings">Подешавања</string>
+    <string name="backup_preview_categories">Категорије</string>
+    <string name="backup_preview_apps">Прилагођавања апликација</string>
+    <string name="backup_preview_profiles">Профили екрана</string>
+    <string name="backup_preview_files">Позадине и иконе</string>
+    <string name="backup_preview_skipped">Апликације којих нема на овом уређају</string>
+    <string name="backup_replace_setup">Замени тренутну конфигурацију</string>
+    <string name="backup_apply_theme">Примени тему</string>
+    <string name="backup_replace_detail">Прво се прави аутоматска резервна копија тренутне конфигурације</string>
+    <string name="backup_nc_parental">Родитељски код</string>
+    <string name="backup_nc_parental_detail">Не преноси се. Подесите нови код у одељку „Родитељски надзор“.</string>
+    <string name="backup_nc_premium">Премијум статус</string>
+    <string name="backup_nc_premium_detail">Не преноси се. Свака функција апликације QLauncher је бесплатна.</string>
+    <string name="backup_nc_inputs">ТВ улази</string>
+    <string name="backup_nc_profile_bindings">Повезаност профила екрана са улазима</string>
+    <string name="backup_nc_plugin">Додатак за позадине</string>
+    <string name="backup_nc_plugin_detail">Додатак %1$s није инсталиран. Извор позадина остаје непромењен.</string>
+    <string name="backup_nc_icons">Прилагођене иконе</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d промењена вредност</item>
+        <item quantity="few">%1$d промењене вредности</item>
+        <item quantity="other">%1$d промењених вредности</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d категорија</item>
+        <item quantity="few">%1$d категорије</item>
+        <item quantity="other">%1$d категорија</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d апликација</item>
+        <item quantity="few">%1$d апликације</item>
+        <item quantity="other">%1$d апликација</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d профил</item>
+        <item quantity="few">%1$d профила</item>
+        <item quantity="other">%1$d профила</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d датотека</item>
+        <item quantity="few">%1$d датотеке</item>
+        <item quantity="other">%1$d датотека</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d непознато подешавање, прескочено</item>
+        <item quantity="few">%1$d непозната подешавања, прескочена</item>
+        <item quantity="other">%1$d непознатих подешавања, прескочено</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d ставка не одговара ниједној апликацији инсталираној овде и прескаче се</item>
+        <item quantity="few">%1$d ставке не одговарају ниједној апликацији инсталираној овде и прескачу се</item>
+        <item quantity="other">%1$d ставки не одговара ниједној апликацији инсталираној овде и прескаче се</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d веза ка ТВ улазу који овај уређај нема прескаче се</item>
+        <item quantity="few">%1$d везе ка ТВ улазима којих овај уређај нема прескачу се</item>
+        <item quantity="other">%1$d веза ка ТВ улазима којих овај уређај нема прескаче се</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d профил додељен улазу не преноси се</item>
+        <item quantity="few">%1$d профила додељена улазима не преносе се</item>
+        <item quantity="other">%1$d профила додељених улазима не преноси се</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d икона сачувана унутар апликације Projectivy не може да се прочита и прескаче се</item>
+        <item quantity="few">%1$d иконе сачуване унутар апликације Projectivy не могу да се прочитају и прескачу се</item>
+        <item quantity="other">%1$d икона сачуваних унутар апликације Projectivy не може да се прочита и прескаче се</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Аутоматске резервне копије</string>
+    <string name="backup_auto_description">QLauncher чува последњих %1$d верзија ваше конфигурације на овом уређају, шифрованих кључем који никада не напушта уређај. Изаберите једну да бисте је вратили; лозинка није потребна.</string>
+    <string name="backup_auto_none">Нема доступне аутоматске резервне копије</string>
+    <string name="backup_files_title">Датотеке резервних копија</string>
+    <string name="backup_files_theme_title">Датотеке тема</string>
+    <string name="backup_files_description">Извезене датотеке се чувају у %1$s. Уз приступ свим датотекама, QLauncher проналази резервне копије и у фасциклама Download и Documents и на USB дисковима, укључујући и оне из апликације Projectivy.</string>
+    <string name="backup_files_searching">Тражење датотека резервних копија…</string>
+    <string name="backup_files_none">Није пронађена ниједна датотека резервне копије</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Фасцикла апликације QLauncher</string>
+    <string name="backup_files_access">Пронађи резервне копије из других апликација и уређаја</string>
+    <string name="backup_files_access_desc">Дозволи приступ свим датотекама</string>
+    <string name="backup_files_access_unavailable">На овом уређају нема екрана подешавања. Дозволите приступ свим датотекама помоћу: %1$s</string>
+    <string name="backup_files_browse">Друга локација…</string>
+    <string name="backup_files_browse_desc">Изаберите датотеку системским бирачем датотека</string>
+    <string name="backup_auto_delete_all">Избриши све</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">После промене</string>
+    <string name="backup_reason_import">Пре увоза</string>
+    <string name="backup_reason_migration">Пре ажурирања</string>
+    <string name="backup_reason_reset">Пре ресетовања</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Профил #</string>
+    <string name="backup_no_picture_manager">Није учитан менаџер слике</string>
+    <string name="backup_no_picture_manager_detail">Овај уређај не нуди подржан начин за промену подешавања слике, па профили задржавају своје вредности без примене.</string>
+</resources>

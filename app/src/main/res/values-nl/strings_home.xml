@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Speelt nu</string>
+    <string name="home_cat_inputs">Ingangen</string>
+    <string name="home_cat_favorites">Favorieten</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Muziek</string>
+    <string name="home_cat_games">Games</string>
+    <string name="home_cat_tv_apps">Tv-apps</string>
+    <string name="home_cat_mobile_apps">Mobiele apps</string>
+    <string name="home_cat_watch_next">Verder kijken</string>
+    <string name="home_cat_shortcuts">Snelkoppelingen</string>
+    <string name="home_cat_folders">Categoriemappen</string>
+    <string name="home_cat_live_tv">Live tv</string>
+    <string name="home_cat_settings">Instellingen</string>
+    <string name="home_cat_display">Scherm</string>
+    <string name="home_cat_applications">Apps</string>
+    <string name="home_cat_system">Systeem</string>
+    <string name="home_cat_about">Over</string>
+    <string name="home_new_category">Nieuwe categorie</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Alle apps</string>
+    <string name="home_action_edit_categories">Categorieën bewerken</string>
+    <string name="home_action_edit_channels">Kanalen bewerken</string>
+    <string name="home_action_launcher_settings">QLauncher-instellingen</string>
+    <string name="home_action_android_settings">Android-instellingen</string>
+    <string name="home_action_amlogic_settings">Extra AmLogic-instellingen</string>
+    <string name="home_action_display_profiles">Weergaveprofielen</string>
+    <string name="home_action_install_apps">Apps van derden installeren</string>
+    <string name="home_action_accessibility">Toegankelijkheidsservice</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Van profiel wisselen</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Dit apparaat</string>
+    <string name="home_action_about_wallpaper">Deze achtergrond</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Seizoen %1$s</string>
+    <string name="home_episode">Aflevering %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Verbinding</string>
+    <string name="home_status_notifications">Meldingen</string>
+    <string name="home_status_settings">Instellingen</string>
+    <string name="home_status_wallpaper">Deze achtergrond</string>
+    <string name="home_navigation_menu">Navigatiemenu</string>
+    <string name="home_reorder">Volgorde wijzigen</string>
+    <string name="home_category_settings">Categorie-instellingen</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">App-instellingen</string>
+    <string name="menu_open">Openen</string>
+    <string name="menu_details">Details</string>
+    <string name="menu_play_pause">Afspelen/pauzeren</string>
+    <string name="menu_stop">Stoppen</string>
+    <string name="menu_previous">Vorige</string>
+    <string name="menu_next">Volgende</string>
+    <string name="menu_uninstall">Verwijderen</string>
+    <string name="menu_launch_on_boot">Starten bij opstarten</string>
+    <string name="menu_launch_on_boot_on">Start bij opstarten</string>
+    <string name="menu_add_parental">Toevoegen aan ouderlijk toezicht</string>
+    <string name="menu_remove_parental">Verwijderen uit ouderlijk toezicht</string>
+    <string name="menu_shortcuts">Snelkoppelingen</string>
+    <string name="menu_appearance">Uiterlijk</string>
+    <string name="menu_title">Titel</string>
+    <string name="menu_change_icon">Pictogram wijzigen</string>
+    <string name="menu_icon_from_picture">Van afbeelding</string>
+    <string name="menu_icon_other_location">Andere locatie…</string>
+    <string name="menu_icon_no_pictures">Geen afbeeldingen gevonden. Kopieer er een paar naar Pictures of Download, of sluit een USB-stick aan.</string>
+    <string name="menu_icon_reset">Resetten</string>
+    <string name="menu_crop">Bijsnijden om te vullen</string>
+    <string name="menu_visibility">Zichtbaarheid</string>
+    <string name="menu_reorder">Volgorde wijzigen</string>
+    <string name="menu_remove_from">Verwijderen uit %1$s</string>
+    <string name="menu_hide">Verbergen</string>
+    <string name="menu_add_to">Toevoegen aan…</string>
+    <string name="menu_move_to">Verplaatsen naar…</string>
+    <string name="menu_channels">Kanalen</string>
+    <string name="menu_rename_hint">Typ een nieuwe titel en druk op OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Titel</string>
+    <string name="editor_change_icon">Pictogram wijzigen</string>
+    <string name="editor_visible">Zichtbaar</string>
+    <string name="editor_grid">Raster</string>
+    <string name="editor_sliding_row">Schuivende rij</string>
+    <string name="editor_background">Achtergrondkleur</string>
+    <string name="editor_show_title">Titel tonen</string>
+    <string name="editor_size">Grootte</string>
+    <string name="editor_advanced">Geavanceerde instellingen</string>
+    <string name="editor_start_margin">Beginmarge</string>
+    <string name="editor_end_margin">Eindmarge</string>
+    <string name="editor_top_margin">Bovenmarge</string>
+    <string name="editor_cards_per_row">Kaarten per rij</string>
+    <string name="editor_row_count">Aantal rijen</string>
+    <string name="editor_auto">Automatisch</string>
+    <string name="editor_auto_value">Automatisch (%1$s)</string>
+    <string name="editor_sort">Sorteren</string>
+    <string name="editor_sort_custom">Aangepast</string>
+    <string name="editor_sort_name">Alfabetisch</string>
+    <string name="editor_sort_last">Laatst gebruikt</string>
+    <string name="editor_sort_most">Vaak gebruikt</string>
+    <string name="editor_sort_random">Willekeurig</string>
+    <string name="editor_set_default">Als standaard instellen</string>
+    <string name="editor_is_default">Standaardcategorie</string>
+    <string name="editor_manage_apps">Apps beheren</string>
+    <string name="editor_hidden_items">Verborgen items</string>
+    <string name="editor_restore">Herstellen</string>
+    <string name="editor_delete">Verwijderen</string>
+    <string name="editor_delete_confirm">Deze categorie verwijderen?</string>
+    <string name="editor_empty_note">Deze categorie verschijnt nog niet omdat ze leeg is</string>
+    <string name="editor_request_notifications">Toestemming voor meldingen vragen</string>
+    <string name="editor_channel_error">Dit kanaal kan niet meer worden gelezen</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanalen</string>
+    <string name="channels_count">%1$d kanalen</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Meldingen</string>
+    <string name="notifications_clear_all">Alles wissen</string>
+    <string name="notifications_empty">Geen meldingen</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Deze app kan niet worden geopend</string>
+    <string name="home_reorder_hint">Gebruik links/rechts om te verplaatsen, OK of TERUG om te voltooien</string>
+    <string name="home_category_reorder_hint">Gebruik omhoog/omlaag om te verplaatsen, OK of TERUG om te voltooien</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Welkom!</string>
+    <string name="firstrun_welcome_text">QLauncher is een launcher voor Android TV. Hij zet je apps, kanalen en favoriete content op één aanpasbaar startscherm, met een wisselende achtergrond erachter.</string>
+    <string name="firstrun_features_title">Je nieuwe superkrachten</string>
+    <string name="firstrun_features_text">Start een app of een HDMI-ingang bij het opstarten, beheer weergaveprofielen, vergrendel apps met ouderlijk toezicht, toon kalibratiepatronen, detecteer inactiviteit en pas elk onderdeel van het startscherm aan. Sommige functies zijn afhankelijk van je apparaat.</string>
+    <string name="firstrun_a11y_title">Tijd voor toegankelijkheid</string>
+    <string name="firstrun_a11y_text">Veel functies hebben de toegankelijkheidsservice van QLauncher nodig: de ingebouwde launcher vervangen, acties bij het opstarten, knopgebaren op de afstandsbediening, inactiviteitsdetectie en ouderlijk toezicht. Je kunt hem nu of later in de instellingen inschakelen.</string>
+    <string name="firstrun_a11y_open">Toegankelijkheidsinstellingen openen</string>
+    <string name="firstrun_permissions_title">Als ik zo vrij mag zijn…</string>
+    <string name="firstrun_permissions_text">Vervolgens vraagt QLauncher toestemming om de tv-gids te lezen (voor kanalen en ‘Verder kijken’) en om toegang tot meldingen (voor het meldingspictogram en ‘Speelt nu’). Beide zijn optioneel.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Vervolgens vraagt QLauncher om toegang tot meldingen (voor het meldingspictogram en ‘Speelt nu’). Dit is optioneel.</string>
+    <string name="firstrun_notifications_dialog">Toegang tot meldingen toestaan?</string>
+    <string name="firstrun_notifications_text">Met toegang tot meldingen kan QLauncher een aantal meldingen, een meldingenpaneel en wat er speelt tonen. ‘Ja’ opent de pagina Speciale app-toegang, waar je de toegang verleent.</string>
+    <string name="firstrun_reports_title">Anonieme crash- en foutrapporten versturen?</string>
+    <string name="firstrun_reports_text">Als QLauncher crasht of een fout tegenkomt, kan er een rapport met de appversie en het apparaatmodel worden verstuurd, zodat de bug kan worden opgelost. Er wordt niets verstuurd dat jou identificeert of laat zien wat je kijkt. Je kunt dit later wijzigen bij Algemeen.</string>
+    <string name="firstrun_launcher_title">Maak QLauncher je startscherm</string>
+    <string name="firstrun_launcher_text">Op veel tv-apparaten kun je de standaardlauncher niet wijzigen. Kan dat bij jou wel, kies daar dan QLauncher. Schakel anders de toegankelijkheidsservice in met ‘Huidige launcher vervangen’, dan komt QLauncher terug telkens als de ingebouwde launcher opent.</string>
+    <string name="firstrun_launcher_open">Standaardlauncher wijzigen</string>
+    <string name="firstrun_start_title">Tijd om te beginnen!</string>
+    <string name="firstrun_start_text">Alles kan later in de instellingen worden gewijzigd. Druk op de instellingenknop rechtsboven, of gebruik de toetsenreeks ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">AAN DE SLAG</string>
+    <string name="firstrun_next">Volgende</string>
+    <string name="firstrun_skip">Overslaan</string>
+    <string name="firstrun_yes">Ja</string>
+    <string name="firstrun_no">Nee</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Geen screensaver op dit apparaat</string>
+</resources>

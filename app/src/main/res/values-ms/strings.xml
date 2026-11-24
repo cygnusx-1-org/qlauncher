@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Tetapkan sebagai kertas dinding QLauncher</string>
+    <string name="import_settings">Import ke dalam QLauncher</string>
+    <string name="accessibility_service_description">QLauncher melihat tekanan kekunci perkakasan dan nama apl di latar depan, untuk mengatasi pelancar asal, menjalankan tindakan semasa but, memeta semula butang alat kawalan jauh, mengesan masa melahu dan menguatkuasakan kawalan ibu bapa. Kedua-duanya kekal dalam memori pada peranti ini dan tidak pernah dihantar ke mana-mana.</string>
+</resources>

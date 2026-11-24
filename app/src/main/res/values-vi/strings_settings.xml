@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Cài đặt</string>
+    <string name="settings_breadcrumb_display">Hiển thị</string>
+    <string name="settings_breadcrumb_applications">Ứng dụng</string>
+    <string name="settings_breadcrumb_system">Hệ thống</string>
+    <string name="settings_breadcrumb_about">Giới thiệu</string>
+    <string name="settings_root_title">Cài đặt QLauncher</string>
+    <string name="settings_root_description">Định cấu hình cài đặt của ứng dụng.</string>
+    <string name="settings_legend_a11y_required">Cần dịch vụ hỗ trợ tiếp cận</string>
+    <string name="settings_legend_a11y_recommended">Nên dùng dịch vụ hỗ trợ tiếp cận</string>
+    <string name="settings_legend_experimental">Thử nghiệm</string>
+    <string name="settings_launcher_related">Cài đặt liên quan đến trình khởi chạy</string>
+
+    <string name="settings_general">Chung</string>
+    <string name="settings_appearance">Giao diện</string>
+    <string name="settings_power">Nguồn</string>
+    <string name="settings_parental">Kiểm soát của cha mẹ</string>
+    <string name="settings_remote">Điều khiển từ xa</string>
+    <string name="settings_accessibility">Dịch vụ hỗ trợ tiếp cận</string>
+    <string name="settings_display_profiles">Cấu hình hiển thị</string>
+    <string name="settings_manage">Quản lý cài đặt</string>
+
+    <!-- General -->
+    <string name="settings_language">Đổi ngôn ngữ ứng dụng</string>
+    <string name="settings_language_system">Mặc định của hệ thống</string>
+    <string name="settings_default_launcher">Thay đổi trình khởi chạy mặc định</string>
+    <string name="settings_default_launcher_unavailable">Thiết bị này không có cách nào để thay đổi trình khởi chạy mặc định. Hãy dùng “Ghi đè trình khởi chạy hiện tại” thay thế.</string>
+    <string name="settings_override_home">Ghi đè trình khởi chạy hiện tại</string>
+    <string name="settings_override_home_desc">Chặn các lệnh gọi tới trình khởi chạy hiện tại (hữu ích nếu bạn không thể thay đổi hoặc gỡ bỏ trình khởi chạy gốc)</string>
+    <string name="settings_enable_channels">Bật kênh</string>
+    <string name="settings_enable_channels_desc">Nếu bạn không dùng, tắt tùy chọn này giúp khởi động nhanh hơn và tốn ít bộ nhớ hơn</string>
+    <string name="settings_programs_per_channel">Số chương trình mỗi kênh</string>
+    <string name="settings_crash_error_reports">Bật báo cáo sự cố và lỗi ẩn danh</string>
+    <string name="settings_reports_desc">Chỉ gửi lỗi, phiên bản ứng dụng và kiểu máy thiết bị</string>
+    <string name="settings_check_updates">Kiểm tra bản cập nhật</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Danh mục / Kênh</string>
+    <string name="settings_cards">Thẻ</string>
+    <string name="settings_wallpaper">Hình nền</string>
+    <string name="settings_status_bar">Thanh trạng thái</string>
+    <string name="settings_left_headers">Tiêu đề bên trái</string>
+    <string name="settings_idle_mode">Chế độ nghỉ của trình khởi chạy</string>
+    <string name="settings_font">Phông chữ</string>
+    <string name="settings_themes">Chủ đề</string>
+    <string name="settings_themes_desc">Nhập / Xuất</string>
+    <string name="settings_load_cards_scrolling">Tải thẻ khi cuộn</string>
+    <string name="settings_load_cards_scrolling_desc">Phản hồi nhanh hơn, nhưng kém mượt hơn</string>
+    <string name="settings_accent">Màu nhấn</string>
+    <string name="settings_accent_desc">Bật màu động để màu theo hình nền</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Hiện tiêu đề</string>
+    <string name="settings_show_icon_title">Hiện biểu tượng trước tiêu đề</string>
+    <string name="settings_rows_spacing">Khoảng cách dọc (theo chiều cao màn hình, %)</string>
+    <string name="settings_fixed_position">Giữ cố định vị trí danh mục đang chọn</string>
+    <string name="settings_hide_rows_above">Ẩn các hàng phía trên mục đang chọn</string>
+    <string name="settings_remember_focus">Nhớ vị trí thẻ đang chọn</string>
+    <string name="settings_unselected_opacity">Độ đục của hàng không được chọn</string>
+    <string name="settings_top_margin">Lề trên</string>
+    <string name="settings_start_margin">Lề trái</string>
+    <string name="settings_end_margin">Lề phải</string>
+    <string name="settings_dock_padding">Khoảng đệm thanh dock</string>
+    <string name="settings_tint_custom_icons">Phủ màu biểu tượng tùy chỉnh</string>
+    <string name="settings_tint_custom_icons_desc">Dành cho biểu tượng tùy chỉnh không có nền</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Bo góc</string>
+    <string name="settings_cards_size">Kích thước thẻ</string>
+    <string name="settings_cards_spacing">Khoảng cách giữa các thẻ</string>
+    <string name="settings_loop_limit">Giới hạn lặp của biểu tượng động</string>
+    <string name="settings_ripple">Hiệu ứng gợn sóng khi nhấn thẻ</string>
+    <string name="settings_background_color">Màu nền</string>
+    <string name="settings_focused_card">Thẻ đang chọn</string>
+    <string name="settings_program_cards">Thẻ chương trình</string>
+    <string name="settings_tv_ratio">Tỷ lệ khung thẻ ứng dụng TV</string>
+    <string name="settings_mobile_ratio">Tỷ lệ khung thẻ ứng dụng di động</string>
+    <string name="settings_icon_pack">Gói biểu tượng</string>
+    <string name="settings_icon_pack_none">Chưa cài đặt gói biểu tượng nào</string>
+    <string name="settings_icon_pack_off">Không có</string>
+    <string name="settings_more">Thêm…</string>
+    <string name="settings_custom_icon_tint">Màu phủ biểu tượng tùy chỉnh</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Kích thước thẻ đang chọn</string>
+    <string name="settings_focused_effect">Hiệu ứng thẻ đang chọn</string>
+    <string name="settings_effect_none">Không có</string>
+    <string name="settings_effect_shadow">Đổ bóng</string>
+    <string name="settings_effect_glow">Phát sáng</string>
+    <string name="settings_glow_animation">Hiệu ứng động phát sáng</string>
+    <string name="settings_anim_none">Không có</string>
+    <string name="settings_anim_pulse">Nhịp đập</string>
+    <string name="settings_anim_breath">Hơi thở</string>
+    <string name="settings_anim_fade">Mờ dần</string>
+    <string name="settings_anim_shine">Lấp lánh</string>
+    <string name="settings_glow_size">Kích thước phát sáng</string>
+    <string name="settings_glow_color">Màu phát sáng</string>
+    <string name="settings_glow_color_desc">Để trống để dùng màu riêng của thẻ</string>
+    <string name="settings_colors_override">Ghi đè màu</string>
+    <string name="settings_override_none">Không có</string>
+    <string name="settings_override_swap">Đổi nền/màu phủ</string>
+    <string name="settings_override_custom">Tùy chỉnh</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Phát video xem trước</string>
+    <string name="settings_preview_never">Không bao giờ</string>
+    <string name="settings_preview_always">Luôn luôn</string>
+    <string name="settings_preview_no_media">Khi không có nội dung nào đang phát trong nền</string>
+    <string name="settings_show_progress">Hiện thanh tiến trình</string>
+    <string name="settings_show_badge">Hiện huy hiệu</string>
+    <string name="settings_zoom_focus">Hiệu ứng thu phóng khi được chọn</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Định dạng được hỗ trợ: ảnh tĩnh, ảnh GIF động, video (tệp hoặc luồng trực tiếp RTSP), ảnh động Lottie</string>
+    <string name="settings_launcher_wallpaper">Hình nền trình khởi chạy</string>
+    <string name="settings_configure">Định cấu hình</string>
+    <string name="settings_show_wallpapers">Hiện hình nền</string>
+    <string name="settings_picture_adjustment">Điều chỉnh hình ảnh</string>
+    <string name="settings_image_transition">Hiệu ứng chuyển ảnh</string>
+    <string name="settings_update_frequency">Tần suất cập nhật (phút)</string>
+    <string name="settings_video_wallpaper">Hình nền video</string>
+    <string name="settings_display_mode">Chế độ hiển thị</string>
+    <string name="settings_bad_ratio">Khi tỷ lệ/chất lượng không phù hợp</string>
+    <string name="settings_min_width">Chiều rộng tối thiểu được chấp nhận (px)</string>
+    <string name="settings_src_none">Không có</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Màu động</string>
+    <string name="settings_src_default">Hình nền mặc định</string>
+    <string name="settings_src_media">Tệp đa phương tiện</string>
+    <string name="settings_src_folder">Thư mục</string>
+    <string name="settings_src_focused_program">Chương trình đang chọn</string>
+    <string name="settings_src_now_playing">Đang phát</string>
+    <string name="settings_src_random_program">Chương trình ngẫu nhiên</string>
+    <string name="settings_src_theme">Chủ đề</string>
+    <string name="settings_tr_none">Không có</string>
+    <string name="settings_tr_random">Ngẫu nhiên</string>
+    <string name="settings_tr_fade">Mờ dần</string>
+    <string name="settings_tr_zoom">Thu phóng</string>
+    <string name="settings_tr_hslide">Trượt ngang</string>
+    <string name="settings_tr_vslide">Trượt dọc</string>
+    <string name="settings_dm_automatic">Tự động</string>
+    <string name="settings_dm_skip">Bỏ qua</string>
+    <string name="settings_dm_crop">Cắt</string>
+    <string name="settings_dm_stretch">Kéo giãn</string>
+    <string name="settings_dm_fit">Vừa khít ở giữa</string>
+    <string name="settings_dm_fit_blur">Vừa khít ở giữa + nền mờ</string>
+    <string name="settings_dm_blur">Làm mờ</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Sắc màu</string>
+    <string name="settings_saturation">Độ bão hòa</string>
+    <string name="settings_contrast">Độ tương phản</string>
+    <string name="settings_brightness">Độ sáng</string>
+    <string name="settings_tint">Màu phủ</string>
+    <string name="settings_tint_amount">Mức phủ màu</string>
+    <string name="settings_blur">Làm mờ</string>
+    <string name="settings_shadow_h">Độ dài lớp phủ bóng ngang</string>
+    <string name="settings_shadow_v">Độ dài lớp phủ bóng dọc</string>
+    <string name="settings_shadow_opacity">Độ đục lớp phủ bóng</string>
+    <string name="settings_shadow_tint">Màu lớp phủ bóng</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Bỏ qua tần suất cập nhật</string>
+    <string name="settings_ignore_update_desc">Chờ video kết thúc rồi mới yêu cầu hình nền mới</string>
+    <string name="settings_video_color_freq">Tần suất cập nhật màu động</string>
+    <string name="settings_video_color_freq_desc">Số giây giữa các khung hình video được đọc để lấy màu; 0 để tắt</string>
+    <string name="settings_volume">Âm lượng</string>
+    <string name="settings_tunneling">Dùng kết xuất phần cứng (tunneling)</string>
+    <string name="settings_decoder_fallback">Bật bộ giải mã dự phòng</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Quản lý quyền thông báo</string>
+    <string name="settings_granted">Đã cấp</string>
+    <string name="settings_not_granted">Chưa cấp</string>
+    <string name="settings_notification_adb">Không có màn hình cài đặt trên thiết bị này. Hãy cấp quyền bằng lệnh: %1$s</string>
+    <string name="settings_clock">Đồng hồ</string>
+    <string name="settings_icons">Biểu tượng</string>
+    <string name="settings_show_system_bar">Hiện thanh trạng thái hệ thống</string>
+    <string name="settings_autohide_status">Ẩn thanh trạng thái khi cuộn</string>
+    <string name="settings_show_clock">Hiện đồng hồ</string>
+    <string name="settings_clock_size">Cỡ chữ đồng hồ</string>
+    <string name="settings_clock_color">Màu đồng hồ</string>
+    <string name="settings_drop_shadow">Đổ bóng</string>
+    <string name="settings_clock_line1">Định dạng đồng hồ (dòng 1)</string>
+    <string name="settings_clock_line2">Định dạng đồng hồ (dòng 2)</string>
+    <string name="settings_clock_default_format">Định dạng hệ thống</string>
+    <string name="settings_empty">Trống</string>
+    <string name="settings_icons_size">Kích thước biểu tượng</string>
+    <string name="settings_icons_color">Màu biểu tượng</string>
+    <string name="settings_icons_container">Màu khung biểu tượng</string>
+    <string name="settings_show_settings">Hiện cài đặt</string>
+    <string name="settings_show_settings_desc">Cài đặt vẫn truy cập được bằng chuỗi nút này: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Hiện kết nối</string>
+    <string name="settings_show_notifications">Hiện thông báo</string>
+    <string name="settings_autohide_notifications">Ẩn biểu tượng thông báo khi trống</string>
+    <string name="settings_show_battery">Hiện pin</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Bật</string>
+    <string name="settings_headers_on_launch">Hiện tiêu đề bên trái khi mở</string>
+    <string name="settings_show_icon">Hiện biểu tượng</string>
+    <string name="settings_show_reorder">Hiện sắp xếp lại</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Thời gian chờ trước khi nghỉ (phút)</string>
+    <string name="settings_idle_opacity">Độ đục giao diện</string>
+    <string name="settings_keep_clock">Giữ đồng hồ</string>
+    <string name="settings_prevent_screensaver">Ngăn trình bảo vệ màn hình của hệ thống</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Thay đổi cài đặt phông chữ của QLauncher. Có thể tra tên họ phông chữ trên Google Fonts.</string>
+    <string name="settings_font_list">Chọn từ danh sách</string>
+    <string name="settings_font_google">Phông chữ (Google Fonts)</string>
+    <string name="settings_font_default">Mặc định</string>
+    <string name="settings_bold">Đậm</string>
+    <string name="settings_italic">Nghiêng</string>
+    <string name="settings_size">Kích thước</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Tự khởi chạy khi khởi động</string>
+    <string name="settings_autostart_none">Không có</string>
+    <string name="settings_autostart_screensaver">[*] Trình bảo vệ màn hình (nếu được hỗ trợ)</string>
+    <string name="settings_autostart_resume">…và khi tiếp tục từ chế độ chờ</string>
+    <string name="settings_autostart_delay">Độ trễ tự khởi chạy (giây)</string>
+    <string name="settings_simulate_activity">Ngăn hệ thống tự động tắt khi không hoạt động</string>
+    <string name="settings_idle_detection">Bật phát hiện không hoạt động nội bộ</string>
+    <string name="settings_idle_timeout_power">Thời gian chờ khi không hoạt động (giờ:phút)</string>
+    <string name="settings_idle_action">Hành động khi không hoạt động</string>
+    <string name="settings_idle_action_shutdown">Tắt máy</string>
+    <string name="settings_idle_action_screen_off">Tắt màn hình</string>
+    <string name="settings_idle_action_screensaver">Trình bảo vệ màn hình (nếu được hỗ trợ)</string>
+    <string name="settings_idle_media">Bỏ qua trạng thái không hoạt động khi đang phát nội dung</string>
+    <string name="settings_missing_notification_permission">⚠️ Thiếu quyền thông báo</string>
+    <string name="settings_shutdown_action">Hành động tắt máy</string>
+    <string name="settings_shutdown_dialog">Menu nguồn</string>
+    <string name="settings_shutdown_dialog_twice">Menu nguồn (gọi hai lần)</string>
+    <string name="settings_shutdown_dialog_ok">Menu nguồn + OK</string>
+    <string name="settings_hdmi_exit">Tự động tắt khi tín hiệu đầu vào HDMI ngừng</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Đặt mã để khóa các ứng dụng đã chọn (nhấn giữ một thẻ trên màn hình chính để chọn), cả ngày hoặc trong một khoảng thời gian trong ngày</string>
+    <string name="settings_parental_set_code">Đặt mã kiểm soát của cha mẹ mới</string>
+    <string name="settings_parental_code_set">Đã đặt mã</string>
+    <string name="settings_parental_long">Không yêu cầu mã trong 15 phút sau khi xác nhận thành công</string>
+    <string name="settings_parental_protect">Bảo vệ cài đặt trình khởi chạy và các thay đổi giao diện</string>
+    <string name="settings_parental_protect_desc">(áp dụng 24/7)</string>
+    <string name="settings_parental_partial">Chỉ bật bảo vệ trong khoảng</string>
+    <string name="settings_parental_start">Thời gian bắt đầu (giờ:phút)</string>
+    <string name="settings_parental_end">Thời gian kết thúc (giờ:phút)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Hiển thị thông tin khi nhấn đúp “Menu”</string>
+    <string name="settings_back_double">“Chế độ môi trường xung quanh” khi nhấn đúp “Quay lại”</string>
+    <string name="settings_back_double_desc">Khởi động trình bảo vệ màn hình trên thiết bị được hỗ trợ</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Bật dịch vụ để chạy tác vụ khi khởi động, tùy chỉnh nút trên điều khiển từ xa, tăng cường kiểm soát của cha mẹ và phát hiện thời gian không hoạt động để quản lý nguồn. Dịch vụ nhận biết các lần nhấn phím phần cứng và tên ứng dụng ở nền trước; cả hai chỉ được lưu trong bộ nhớ của thiết bị này và không bao giờ được gửi đi đâu.</string>
+    <string name="settings_a11y_enabled">Đã bật</string>
+    <string name="settings_a11y_started">Đã khởi chạy</string>
+    <string name="settings_yes">Có</string>
+    <string name="settings_no">Không</string>
+    <string name="settings_a11y_open">Hiện cài đặt hỗ trợ tiếp cận</string>
+    <string name="settings_a11y_consent_title">Dịch vụ hỗ trợ tiếp cận</string>
+    <string name="settings_a11y_consent">Điều này cho phép QLauncher nhận biết các lần nhấn nút phần cứng và tên ứng dụng ở nền trước. Cả hai chỉ được giữ trong bộ nhớ của thiết bị này và không bao giờ được gửi đi đâu. Bạn có đồng ý không?</string>
+    <string name="settings_a11y_alternate">Dùng thiết lập thay thế</string>
+    <string name="settings_a11y_alternate_desc">Khắc phục sự cố trên một số thiết bị</string>
+    <string name="settings_a11y_volume_fix">Sửa lỗi nút âm lượng</string>
+    <string name="settings_a11y_volume_fix_desc">Tạm dừng gán lại nút trong giây lát khi nhấn âm lượng, để nhấn giữ vẫn hoạt động</string>
+    <string name="settings_a11y_remap">Bật gán lại nút</string>
+    <string name="settings_a11y_remap_desc">Dịch vụ chặn các lần nhấn phím. Tắt tùy chọn này giúp tránh sự cố khi nhấn giữ âm lượng và việc hệ thống dừng dịch vụ, nhưng tính năng ghi đè trình khởi chạy, kiểm soát của cha mẹ và phát hiện không hoạt động có thể kém hiệu quả hơn.</string>
+    <string name="settings_a11y_reminder">Hiện lời nhắc</string>
+    <string name="settings_a11y_reminder_desc">Nếu dịch vụ hỗ trợ tiếp cận bị tắt</string>
+    <string name="settings_a11y_unbound_toast">Dịch vụ hỗ trợ tiếp cận của QLauncher không chạy</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Nhập hoặc xuất cài đặt trên thiết bị, hoặc với ứng dụng khác như LocalSend hay trình quản lý tệp.</string>
+    <string name="settings_import">Nhập</string>
+    <string name="settings_import_file">Từ tệp</string>
+    <string name="settings_import_auto">Từ bản sao lưu tự động</string>
+    <string name="settings_export">Xuất</string>
+    <string name="settings_export_local">Lưu trên thiết bị</string>
+    <string name="settings_export_share">Chia sẻ với ứng dụng khác</string>
+    <string name="settings_reset">Đặt lại về mặc định</string>
+    <string name="settings_cancel">Hủy</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Danh mục</string>
+    <string name="wp_custom_search">Tìm kiếm tùy chỉnh</string>
+    <string name="wp_reddit_login">Đăng nhập</string>
+    <string name="wp_reddit_logout">Đăng xuất: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Đăng xuất</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Subreddit tùy chỉnh</string>
+    <string name="wp_custom_subreddit_hint">Nhiều tên, phân tách bằng +</string>
+    <string name="wp_folder">Thư mục</string>
+    <string name="wp_folder_choose">Chọn thư mục</string>
+    <string name="wp_media">Tệp đa phương tiện</string>
+    <string name="wp_media_choose">Chọn tệp</string>
+    <string name="wp_choose_other">Vị trí khác…</string>
+    <string name="wp_choose_other_desc">Chọn bằng trình chọn tệp của hệ thống</string>
+    <string name="wp_media_searching">Đang tìm ảnh và video…</string>
+    <string name="wp_media_none">Không tìm thấy ảnh hoặc video nào. Hãy sao chép vào Pictures, Movies hoặc Download, hoặc cắm ổ USB.</string>
+    <string name="wp_folders_description">Các thư mục có ảnh hoặc video, trên thiết bị này và trên ổ USB.</string>
+    <string name="wp_folders_none">Không tìm thấy thư mục nào có ảnh hoặc video</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="other">%d tệp</item>
+    </plurals>
+    <string name="wp_media_color">Màu trơn</string>
+    <string name="wp_theme_desc">Hình nền đi kèm chủ đề đã nhập</string>
+    <string name="wp_plugin_settings">Cài đặt plugin</string>
+    <string name="wp_not_set">Chưa đặt</string>
+    <string name="wp_status">Trạng thái</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Hình nền này</string>
+    <string name="wp_next">Tiếp theo</string>
+    <string name="wp_source">Nguồn</string>
+    <string name="wp_title">Tiêu đề</string>
+    <string name="wp_author">Tác giả</string>
+    <string name="wp_set_user">Đặt làm hình nền người dùng</string>
+    <string name="wp_view">Xem</string>
+    <string name="wp_unknown">Không rõ</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Tạo và quản lý cấu hình hiển thị video tại đây. Liên kết chúng với nguồn đầu vào để tự động chuyển đổi, hoặc áp dụng bằng cách nhấn Menu hai lần rồi nhấn lên hoặc xuống.</string>
+    <string name="dp_list">Danh sách cấu hình hiển thị</string>
+    <string name="dp_list_desc">Tạo hoặc chỉnh sửa cấu hình hiển thị video tại đây. Tùy thiết bị, một số điều khiển cần quyền root hoặc hoàn toàn không hoạt động; chúng được thiết kế cho thiết bị AmLogic.</string>
+    <string name="dp_add">Thêm mới…</string>
+    <string name="dp_name">Tên cấu hình</string>
+    <string name="dp_preview">Xem trước</string>
+    <string name="dp_fullscreen">Xem trước toàn màn hình</string>
+    <string name="dp_fullscreen_desc">hoặc bật/tắt bằng nút Menu</string>
+    <string name="dp_delete">Xóa cấu hình</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Cài đặt ứng dụng bên thứ ba</string>
+    <string name="install_desc">Chọn một ứng dụng để cài đặt. Bạn có thể cần cho phép cài đặt từ nguồn không xác định trước.</string>
+    <string name="install_custom">URL tùy chỉnh / Mã Downloader</string>
+    <string name="install_custom_desc">Chỉ dùng nguồn mà bạn tin cậy</string>
+    <string name="install_status">Trạng thái</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Thiết bị này</string>
+
+    <string name="gallery_filter">Lọc…</string>
+    <string name="settings_no_file_picker">Thiết bị này không có trình chọn tệp</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Độ chói</string>
+    <string name="color_opacity">Độ đục</string>
+    <string name="color_prefer_dynamic">Ưu tiên màu động</string>
+    <string name="color_prefer_dynamic_desc">Nếu có, sẽ giữ độ chói/độ đục này</string>
+    <string name="color_clear">Xóa</string>
+    <string name="color_reset">Đặt lại về mặc định</string>
+</resources>

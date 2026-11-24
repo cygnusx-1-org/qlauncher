@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">कृपया तीरों/अंकों का कोई भी क्रम डालें और OK से पुष्टि करें</string>
+    <string name="system_parental_confirm_code">कृपया कोड फिर से डालें और OK से पुष्टि करें</string>
+    <string name="system_parental_restricted">सीमित ऐक्सेस\nकृपया पैरेंटल कोड डालें</string>
+    <string name="system_parental_wrong_code">गलत कोड</string>
+    <string name="system_parental_codes_differ">कोड मेल नहीं खाते, कृपया फिर से कोशिश करें</string>
+    <string name="system_parental_code_saved">पैरेंटल कोड सेव किया गया</string>
+    <string name="system_parental_recovery_code">रिकवरी कोड: %1$s</string>
+    <string name="system_parental_recovery_help">इसे लिख लें: यह सिर्फ़ इसी बार दिखाया जाएगा। तीरों से डालने पर (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) यह पैरेंटल कोड की तरह ही अनलॉक करता है।</string>
+    <string name="system_parental_press_ok">जारी रखने के लिए OK दबाएं</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">रिमोट शॉर्टकट</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">होम</string>
+    <string name="system_hotkeys_keys_menu_twice">मेन्यू × 2</string>
+    <string name="system_hotkeys_change_input">इनपुट बदलें</string>
+    <string name="system_hotkeys_change_profile">डिसप्ले प्रोफ़ाइल बदलें</string>
+    <string name="system_hotkeys_start_launcher">QLauncher शुरू करें</string>
+    <string name="system_hotkeys_home">QLauncher खोलें; दो बार: हाल ही के ऐप्स</string>
+    <string name="system_hotkeys_close">यह सहायता बंद करें</string>
+    <string name="system_hotkeys_no_inputs">इस डिवाइस पर कोई टीवी इनपुट नहीं है</string>
+    <string name="system_hotkeys_no_picture_manager">कोई पिक्चर मैनेजर लोड नहीं हुआ</string>
+    <string name="system_hotkeys_home_off">बंद: मौजूदा लॉन्चर ओवरराइड और बटन रीमैपिंग ज़रूरी है</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">कोई गतिविधि नहीं मिली, %1$d सेकंड में शटडाउन होगा</string>
+    <string name="system_idle_countdown_screen_off">कोई गतिविधि नहीं मिली, %1$d सेकंड में स्क्रीन बंद होगी</string>
+    <string name="system_idle_countdown_screensaver">कोई गतिविधि नहीं मिली, %1$d सेकंड में स्क्रीन सेवर शुरू होगा</string>
+    <string name="system_idle_countdown_cancel">रद्द करने के लिए कोई भी बटन दबाएं</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">इस डिवाइस पर सुलभता सेटिंग का कोई शॉर्टकट नहीं है। इन्हें Android सेटिंग से खोलें, आम तौर पर डिवाइस की प्राथमिकताएं › सुलभता में।</string>
+    <string name="system_notification_access_no_settings">इस डिवाइस पर सूचना के ऐक्सेस की कोई स्क्रीन नहीं है। किसी कंप्यूटर से यह ऐक्सेस इस कमांड से दें:</string>
+</resources>

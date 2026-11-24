@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">取消</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">所有應用程式</string>
+    <string name="apps_action_edit_categories">編輯類別</string>
+    <string name="apps_action_edit_channels">編輯頻道</string>
+    <string name="apps_action_launcher_settings">QLauncher 設定</string>
+    <string name="apps_action_android_settings">Android 設定</string>
+    <string name="apps_action_amlogic_settings">AmLogic 其他設定</string>
+    <string name="apps_action_display_profiles">顯示設定檔</string>
+    <string name="apps_action_install_apps">安裝第三方應用程式</string>
+    <string name="apps_action_accessibility_service">無障礙服務</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">切換設定檔</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">這部裝置</string>
+    <string name="apps_action_about_wallpaper">目前的桌布</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">無</string>
+    <string name="apps_autostart_screensaver">螢幕保護程式</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">頻道</string>
+    <string name="apps_channels_watch_next">接下來觀看</string>
+    <string name="apps_channels_unreadable">無法再讀取這個頻道</string>
+    <string name="apps_channels_hidden">已遭系統隱藏</string>
+    <plurals name="apps_channel_count">
+        <item quantity="other">%d 個頻道</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">套用圖示包</string>
+    <string name="apps_iconpack_apply_message">要將 %1$s 用於應用程式圖示嗎？</string>
+    <string name="apps_iconpack_apply_confirm">套用</string>
+    <string name="apps_iconpack_applied">已套用圖示包</string>
+    <string name="apps_iconpack_apply_missing">未指定圖示包</string>
+    <string name="apps_iconpack_apply_not_a_pack">這個應用程式不是圖示包</string>
+    <string name="apps_iconpack_none">無</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">新增捷徑</string>
+    <string name="apps_pin_shortcut_message">要將 %2$s 的「%1$s」新增至「捷徑」類別嗎？</string>
+    <string name="apps_pin_shortcut_confirm">新增</string>
+    <string name="apps_pin_shortcut_added">已新增捷徑</string>
+    <string name="apps_pin_shortcut_failed">無法新增捷徑</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">安裝第三方應用程式</string>
+    <string name="apps_install_description">請選擇要安裝的應用程式。安裝前，你可能需要允許安裝不明來源的應用程式。</string>
+    <string name="apps_install_custom_url">自訂 URL / Downloader 代碼</string>
+    <string name="apps_install_custom_url_desc">請務必使用可信任的來源</string>
+    <string name="apps_install_choose_method">選擇安裝方式</string>
+    <string name="apps_install_installed">已安裝</string>
+    <string name="apps_install_category_wallpaper_plugin">桌布外掛程式</string>
+    <string name="apps_install_category_icon_pack">圖示包</string>
+    <string name="apps_install_category_file_manager">檔案管理員</string>
+    <string name="apps_install_category_tool">工具</string>
+    <string name="apps_install_method_store">應用程式商店</string>
+    <string name="apps_install_method_direct">直接下載</string>
+    <string name="apps_install_method_downloader">Downloader 應用程式</string>
+    <string name="apps_install_state_downloading">正在下載 %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">正在下載 %1$s…</string>
+    <string name="apps_install_state_installing">正在安裝 %1$s…</string>
+    <string name="apps_install_state_confirm">請確認安裝 %1$s</string>
+    <string name="apps_install_state_success">已安裝 %1$s</string>
+    <string name="apps_install_state_unknown_sources">請允許 QLauncher 安裝應用程式，然後返回繼續</string>
+    <string name="apps_install_state_downloader_sent">已將代碼 %1$s 傳送至 Downloader</string>
+    <string name="apps_install_state_downloader_type">請在 Downloader 中輸入代碼 %1$s</string>
+    <string name="apps_install_state_store">已在應用程式商店中開啟</string>
+    <string name="apps_install_state_browser">這個連結是網頁，已在瀏覽器中開啟</string>
+    <string name="apps_install_fail_invalid">這不是 URL，也不是 Downloader 代碼</string>
+    <string name="apps_install_fail_no_usb">找不到 USB 隨身碟</string>
+    <string name="apps_install_fail_archive">無法安裝壓縮檔</string>
+    <string name="apps_install_fail_network">下載失敗</string>
+    <string name="apps_install_fail_http">伺服器傳回錯誤（%1$s）</string>
+    <string name="apps_install_fail_not_apk">這個檔案不是應用程式（APK）</string>
+    <string name="apps_install_fail_unreadable">無法讀取這個檔案</string>
+    <string name="apps_install_fail_install">安裝失敗</string>
+    <string name="apps_install_fail_cancelled">已取消安裝</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher 未獲准安裝應用程式</string>
+    <string name="apps_install_fail_downloader">未安裝 Downloader 應用程式</string>
+    <string name="apps_install_fail_store">沒有可用的應用程式商店</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">這部裝置</string>
+    <string name="apps_device_brand_manufacturer">品牌 / 製造商</string>
+    <string name="apps_device_device_product">裝置 / 產品</string>
+    <string name="apps_device_model">型號</string>
+    <string name="apps_device_hardware">硬體</string>
+    <string name="apps_device_fingerprint">指紋</string>
+    <string name="apps_device_build">版本號碼</string>
+    <string name="apps_device_build_desc">版本說明</string>
+    <string name="apps_device_device_type">裝置類型</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP 位址</string>
+    <string name="apps_device_root_access">Root 權限</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">沒有畫面管理員</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">是</string>
+    <string name="apps_device_no">否</string>
+</resources>

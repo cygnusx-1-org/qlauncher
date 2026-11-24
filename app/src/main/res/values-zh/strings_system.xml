@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">请输入任意方向键/数字组合，然后按 OK 键确认</string>
+    <string name="system_parental_confirm_code">请再次输入密码，然后按 OK 键确认</string>
+    <string name="system_parental_restricted">访问受限\n请输入家长密码</string>
+    <string name="system_parental_wrong_code">密码错误</string>
+    <string name="system_parental_codes_differ">两次输入的密码不一致，请重试</string>
+    <string name="system_parental_code_saved">家长密码已保存</string>
+    <string name="system_parental_recovery_code">恢复码：%1$s</string>
+    <string name="system_parental_recovery_help">请记下来：它只会显示这一次。用方向键输入（1 = ▲，2 = ▼，3 = ◄，4 = ►）时，它可以像家长密码一样解锁。</string>
+    <string name="system_parental_press_ok">按 OK 键继续</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">遥控器快捷键</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">主页键</string>
+    <string name="system_hotkeys_keys_menu_twice">菜单键 × 2</string>
+    <string name="system_hotkeys_change_input">切换输入源</string>
+    <string name="system_hotkeys_change_profile">切换显示配置文件</string>
+    <string name="system_hotkeys_start_launcher">启动 QLauncher</string>
+    <string name="system_hotkeys_home">打开 QLauncher；按两次：最近使用的应用</string>
+    <string name="system_hotkeys_close">关闭此帮助</string>
+    <string name="system_hotkeys_no_inputs">此设备没有电视输入源</string>
+    <string name="system_hotkeys_no_picture_manager">未加载图像管理器</string>
+    <string name="system_hotkeys_home_off">已关闭：需要开启“接管当前启动器”和按键重映射</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">检测到用户无操作，将在 %1$d 秒后关机</string>
+    <string name="system_idle_countdown_screen_off">检测到用户无操作，将在 %1$d 秒后关闭屏幕</string>
+    <string name="system_idle_countdown_screensaver">检测到用户无操作，将在 %1$d 秒后启动屏保</string>
+    <string name="system_idle_countdown_cancel">按任意键取消</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">此设备没有无障碍设置的快捷入口。请从 Android 设置中打开，通常位于“设备偏好设置 › 无障碍”。</string>
+    <string name="system_notification_access_no_settings">此设备没有通知使用权界面。请在电脑上使用以下命令授予权限：</string>
+</resources>

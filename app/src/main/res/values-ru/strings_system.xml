@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Введите любую комбинацию стрелок/цифр и подтвердите кнопкой OK</string>
+    <string name="system_parental_confirm_code">Введите код ещё раз и подтвердите кнопкой OK</string>
+    <string name="system_parental_restricted">Доступ ограничен\nВведите родительский код</string>
+    <string name="system_parental_wrong_code">Неверный код</string>
+    <string name="system_parental_codes_differ">Коды не совпадают, попробуйте ещё раз</string>
+    <string name="system_parental_code_saved">Родительский код сохранён</string>
+    <string name="system_parental_recovery_code">Код восстановления: %1$s</string>
+    <string name="system_parental_recovery_help">Запишите его: он показывается только один раз. Введённый стрелками (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), он разблокирует так же, как родительский код.</string>
+    <string name="system_parental_press_ok">Нажмите OK, чтобы продолжить</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Горячие клавиши пульта</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Главный экран</string>
+    <string name="system_hotkeys_keys_menu_twice">Меню × 2</string>
+    <string name="system_hotkeys_change_input">Сменить вход</string>
+    <string name="system_hotkeys_change_profile">Сменить профиль дисплея</string>
+    <string name="system_hotkeys_start_launcher">Запустить QLauncher</string>
+    <string name="system_hotkeys_home">Открыть QLauncher; дважды: недавние приложения</string>
+    <string name="system_hotkeys_close">Закрыть справку</string>
+    <string name="system_hotkeys_no_inputs">На этом устройстве нет входов ТВ</string>
+    <string name="system_hotkeys_no_picture_manager">Менеджер изображения не загружен</string>
+    <string name="system_hotkeys_home_off">Выкл.: нужны «Заменять текущий лаунчер» и переназначение кнопок</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Обнаружено бездействие, выключение через %1$d с</string>
+    <string name="system_idle_countdown_screen_off">Обнаружено бездействие, отключение экрана через %1$d с</string>
+    <string name="system_idle_countdown_screensaver">Обнаружено бездействие, заставка через %1$d с</string>
+    <string name="system_idle_countdown_cancel">Нажмите любую кнопку для отмены</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">На этом устройстве нет ярлыка к настройкам специальных возможностей. Откройте их в настройках Android, обычно в разделе «Настройки устройства» › «Специальные возможности».</string>
+    <string name="system_notification_access_no_settings">На этом устройстве нет экрана доступа к уведомлениям. Предоставьте доступ с компьютера командой:</string>
+</resources>

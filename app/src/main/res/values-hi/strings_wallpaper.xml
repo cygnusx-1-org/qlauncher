@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">कोई नहीं</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">डाइनैमिक रंग</string>
+    <string name="wallpaper_provider_default">डिफ़ॉल्ट वॉलपेपर</string>
+    <string name="wallpaper_provider_media_file">मीडिया फ़ाइल</string>
+    <string name="wallpaper_provider_folder">फ़ोल्डर</string>
+    <string name="wallpaper_provider_focused_program">फ़ोकस किया गया प्रोग्राम</string>
+    <string name="wallpaper_provider_now_playing">अभी चल रहा है</string>
+    <string name="wallpaper_provider_random_program">कोई भी प्रोग्राम</string>
+    <string name="wallpaper_provider_theme">थीम</string>
+    <string name="wallpaper_provider_unknown_plugin">प्लग इन</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">वॉलपेपर</string>
+    <string name="wallpaper_wikimedia_nature">प्रकृति</string>
+    <string name="wallpaper_wikimedia_landscapes">प्राकृतिक दृश्य</string>
+    <string name="wallpaper_wikimedia_mountains">पहाड़</string>
+    <string name="wallpaper_wikimedia_forests">जंगल</string>
+    <string name="wallpaper_wikimedia_cities">शहर</string>
+    <string name="wallpaper_wikimedia_architecture">वास्तुकला</string>
+    <string name="wallpaper_wikimedia_night">रात</string>
+    <string name="wallpaper_wikimedia_space">अंतरिक्ष</string>
+    <string name="wallpaper_wikimedia_animals">जानवर</string>
+    <string name="wallpaper_wikimedia_custom">[कस्टम खोज]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[कस्टम सबरेडिट]</string>
+    <string name="wallpaper_reddit_log_out">लॉग आउट करें</string>
+    <string name="wallpaper_reddit_login_needed">Reddit के वॉलपेपर देखने के लिए Reddit में लॉग इन करें।</string>
+    <string name="wallpaper_reddit_login_title">Reddit में लॉग इन करें</string>
+    <string name="wallpaper_reddit_login_signing_in">साइन इन हो रहा है…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit ऐक्सेस नहीं दिया गया, इसलिए Reddit वॉलपेपर उपलब्ध नहीं रहेंगे।</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit से मिला जवाब लॉग इन की इस कोशिश से मेल नहीं खाता था, इसलिए उसे अनदेखा किया गया। कृपया फिर से कोशिश करें।</string>
+    <string name="wallpaper_reddit_login_failed">Reddit में लॉग इन नहीं हो सका (%1$s)। कृपया बाद में फिर से कोशिश करें।</string>
+    <string name="wallpaper_reddit_login_network">Reddit से कनेक्ट नहीं हो सका। नेटवर्क कनेक्शन जांचें और फिर से कोशिश करें।</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit का लॉग इन पेज लोड नहीं हो सका। नेटवर्क कनेक्शन जांचें और फिर से कोशिश करें।</string>
+    <string name="wallpaper_reddit_no_webview">इस डिवाइस में वेब ब्राउज़र कॉम्पोनेंट (Android System WebView) नहीं है, जो Reddit लॉग इन के लिए ज़रूरी है। Android System WebView इंस्टॉल या चालू करें और फिर से कोशिश करें।</string>
+    <string name="wallpaper_reddit_retry">फिर से कोशिश करें</string>
+    <string name="wallpaper_reddit_close">बंद करें</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">वॉलपेपर स्रोत से कोई कनेक्शन नहीं है।</string>
+    <string name="wallpaper_error_server">वॉलपेपर स्रोत ने गड़बड़ी का जवाब दिया।</string>
+    <string name="wallpaper_error_rate_limited">वॉलपेपर स्रोत ने अगले अनुरोध से पहले इंतज़ार करने को कहा है।</string>
+    <string name="wallpaper_error_generic">वॉलपेपर लोड नहीं हो सके।</string>
+    <string name="wallpaper_error_no_media">कोई तस्वीर, वीडियो या रंग नहीं चुना गया है।</string>
+    <string name="wallpaper_error_no_folder">कोई फ़ोल्डर नहीं चुना गया है।</string>
+    <string name="wallpaper_error_folder_access">फ़ोल्डर पढ़ा नहीं जा सकता। उसे फिर से चुनें।</string>
+    <string name="wallpaper_error_folder_empty">इस फ़ोल्डर में कोई तस्वीर, वीडियो या Lottie ऐनिमेशन नहीं है।</string>
+    <string name="wallpaper_error_theme_empty">मौजूदा थीम में कोई वॉलपेपर नहीं है।</string>
+    <string name="wallpaper_error_no_channels">चैनल उपलब्ध नहीं हैं। उन्हें चालू करें और टीवी लिस्टिंग का ऐक्सेस दें।</string>
+    <string name="wallpaper_error_no_notification_access">“अभी चल रहा है” के लिए सूचना का ऐक्सेस ज़रूरी है।</string>
+    <string name="wallpaper_error_no_subreddit">कोई मान्य सबरेडिट सेट नहीं है।</string>
+    <string name="wallpaper_error_plugin">वॉलपेपर प्लग इन ने जवाब नहीं दिया।</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">वॉलपेपर सेट किया गया</string>
+    <string name="wallpaper_set_failed">इस फ़ाइल को वॉलपेपर के तौर पर इस्तेमाल नहीं किया जा सकता।</string>
+</resources>

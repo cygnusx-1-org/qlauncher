@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Ništa</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinamične boje</string>
+    <string name="wallpaper_provider_default">Zadana pozadina</string>
+    <string name="wallpaper_provider_media_file">Medijska datoteka</string>
+    <string name="wallpaper_provider_folder">Mapa</string>
+    <string name="wallpaper_provider_focused_program">Označeni program</string>
+    <string name="wallpaper_provider_now_playing">Sada se reproducira</string>
+    <string name="wallpaper_provider_random_program">Nasumični program</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Dodatak</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Pozadine</string>
+    <string name="wallpaper_wikimedia_nature">Priroda</string>
+    <string name="wallpaper_wikimedia_landscapes">Krajolici</string>
+    <string name="wallpaper_wikimedia_mountains">Planine</string>
+    <string name="wallpaper_wikimedia_forests">Šume</string>
+    <string name="wallpaper_wikimedia_cities">Gradovi</string>
+    <string name="wallpaper_wikimedia_architecture">Arhitektura</string>
+    <string name="wallpaper_wikimedia_night">Noć</string>
+    <string name="wallpaper_wikimedia_space">Svemir</string>
+    <string name="wallpaper_wikimedia_animals">Životinje</string>
+    <string name="wallpaper_wikimedia_custom">[Prilagođeno pretraživanje]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Prilagođeni subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Odjava</string>
+    <string name="wallpaper_reddit_login_needed">Prijavite se na Reddit da biste vidjeli pozadine s njega.</string>
+    <string name="wallpaper_reddit_login_title">Prijava na Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Prijava…</string>
+    <string name="wallpaper_reddit_login_denied">Pristup Redditu nije odobren pa pozadine s Reddita ostaju nedostupne.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Odgovor Reddita ne odgovara ovom pokušaju prijave pa je zanemaren. Pokušajte ponovno.</string>
+    <string name="wallpaper_reddit_login_failed">Prijava na Reddit nije uspjela (%1$s). Pokušajte ponovno kasnije.</string>
+    <string name="wallpaper_reddit_login_network">Reddit nije dostupan. Provjerite mrežnu vezu i pokušajte ponovno.</string>
+    <string name="wallpaper_reddit_login_page_error">Stranicu za prijavu na Reddit nije moguće učitati. Provjerite mrežnu vezu i pokušajte ponovno.</string>
+    <string name="wallpaper_reddit_no_webview">Ovaj uređaj nema komponentu web-preglednika (Android System WebView) koja je potrebna za prijavu na Reddit. Instalirajte ili omogućite Android System WebView i pokušajte ponovno.</string>
+    <string name="wallpaper_reddit_retry">Pokušaj ponovno</string>
+    <string name="wallpaper_reddit_close">Zatvori</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Nema veze s izvorom pozadina.</string>
+    <string name="wallpaper_error_server">Izvor pozadina odgovorio je pogreškom.</string>
+    <string name="wallpaper_error_rate_limited">Izvor pozadina zatražio je čekanje prije sljedećeg zahtjeva.</string>
+    <string name="wallpaper_error_generic">Pozadine nije moguće učitati.</string>
+    <string name="wallpaper_error_no_media">Nije odabrana slika, videozapis ni boja.</string>
+    <string name="wallpaper_error_no_folder">Nije odabrana mapa.</string>
+    <string name="wallpaper_error_folder_access">Mapu nije moguće pročitati. Ponovno je odaberite.</string>
+    <string name="wallpaper_error_folder_empty">Mapa ne sadrži slike, videozapise ni Lottie animacije.</string>
+    <string name="wallpaper_error_theme_empty">Trenutačna tema nema pozadina.</string>
+    <string name="wallpaper_error_no_channels">Kanali nisu dostupni. Omogućite ih i dopustite pristup TV programu.</string>
+    <string name="wallpaper_error_no_notification_access">Za „Sada se reproducira“ potreban je pristup obavijestima.</string>
+    <string name="wallpaper_error_no_subreddit">Nije postavljen valjan subreddit.</string>
+    <string name="wallpaper_error_plugin">Dodatak za pozadine nije odgovorio.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Pozadina je postavljena</string>
+    <string name="wallpaper_set_failed">Ova se datoteka ne može upotrijebiti kao pozadina.</string>
+</resources>

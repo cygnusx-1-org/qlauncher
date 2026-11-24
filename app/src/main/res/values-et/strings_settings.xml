@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Seaded</string>
+    <string name="settings_breadcrumb_display">Ekraan</string>
+    <string name="settings_breadcrumb_applications">Rakendused</string>
+    <string name="settings_breadcrumb_system">Süsteem</string>
+    <string name="settings_breadcrumb_about">Teave</string>
+    <string name="settings_root_title">QLauncheri seaded</string>
+    <string name="settings_root_description">Seadista rakenduse seaded.</string>
+    <string name="settings_legend_a11y_required">Vajab juurdepääsetavusteenust</string>
+    <string name="settings_legend_a11y_recommended">Soovitatav juurdepääsetavusteenus</string>
+    <string name="settings_legend_experimental">Katseline</string>
+    <string name="settings_launcher_related">Käivitajaga seotud seaded</string>
+
+    <string name="settings_general">Üldine</string>
+    <string name="settings_appearance">Välimus</string>
+    <string name="settings_power">Toide</string>
+    <string name="settings_parental">Vanemlik järelevalve</string>
+    <string name="settings_remote">Kaugjuhtimine</string>
+    <string name="settings_accessibility">Juurdepääsetavusteenus</string>
+    <string name="settings_display_profiles">Kuvaprofiilid</string>
+    <string name="settings_manage">Halda seadeid</string>
+
+    <!-- General -->
+    <string name="settings_language">Muuda rakenduse keelt</string>
+    <string name="settings_language_system">Süsteemi vaikeseade</string>
+    <string name="settings_default_launcher">Muuda vaikekäivitajat</string>
+    <string name="settings_default_launcher_unavailable">See seade ei paku võimalust vaikekäivitajat muuta. Kasuta selle asemel valikut „Asenda praegune käivitaja“.</string>
+    <string name="settings_override_home">Asenda praegune käivitaja</string>
+    <string name="settings_override_home_desc">Püüa kinni praeguse käivitaja väljakutsed (kasulik, kui sa ei saa vaikekäivitajat muuta ega eemaldada)</string>
+    <string name="settings_enable_channels">Luba kanalid</string>
+    <string name="settings_enable_channels_desc">Kui sa neid ei kasuta, muudab selle väljalülitamine käivitumise kiiremaks ja kasutab vähem mälu</string>
+    <string name="settings_programs_per_channel">Saateid kanali kohta</string>
+    <string name="settings_crash_error_reports">Luba anonüümsed krahhi- ja veaaruanded</string>
+    <string name="settings_reports_desc">Saadetakse ainult viga, rakenduse versioon ja seadme mudel</string>
+    <string name="settings_check_updates">Otsi värskendusi</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategooriad / kanalid</string>
+    <string name="settings_cards">Kaardid</string>
+    <string name="settings_wallpaper">Taustapilt</string>
+    <string name="settings_status_bar">Olekuriba</string>
+    <string name="settings_left_headers">Vasakpoolsed päised</string>
+    <string name="settings_idle_mode">Käivitaja jõuderežiim</string>
+    <string name="settings_font">Font</string>
+    <string name="settings_themes">Teemad</string>
+    <string name="settings_themes_desc">Import / eksport</string>
+    <string name="settings_load_cards_scrolling">Laadi kaarte kerimise ajal</string>
+    <string name="settings_load_cards_scrolling_desc">Kiirem reageerimine sujuvuse arvelt</string>
+    <string name="settings_accent">Rõhuvärv</string>
+    <string name="settings_accent_desc">Lülita dünaamiline sisse, et järgida taustapilti</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Näita pealkirja</string>
+    <string name="settings_show_icon_title">Näita pealkirja ees ikooni</string>
+    <string name="settings_rows_spacing">Vertikaalne vahe (ekraani kõrguse %)</string>
+    <string name="settings_fixed_position">Hoia fookuses oleva kategooria asukoht paigal</string>
+    <string name="settings_hide_rows_above">Peida valikust kõrgemal olevad read</string>
+    <string name="settings_remember_focus">Jäta fookuses oleva kaardi asukoht meelde</string>
+    <string name="settings_unselected_opacity">Valimata ridade läbipaistmatus</string>
+    <string name="settings_top_margin">Ülaveeris</string>
+    <string name="settings_start_margin">Algusveeris</string>
+    <string name="settings_end_margin">Lõpuveeris</string>
+    <string name="settings_dock_padding">Doki sisevahe</string>
+    <string name="settings_tint_custom_icons">Toonita kohandatud ikoone</string>
+    <string name="settings_tint_custom_icons_desc">Taustata kohandatud ikoonidele</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Ümarad nurgad</string>
+    <string name="settings_cards_size">Kaartide suurus</string>
+    <string name="settings_cards_spacing">Kaartide vahe</string>
+    <string name="settings_loop_limit">Animeeritud ikoonide korduste piirang</string>
+    <string name="settings_ripple">Lainetusefekt kaardi vajutamisel</string>
+    <string name="settings_background_color">Taustavärv</string>
+    <string name="settings_focused_card">Fookuses kaart</string>
+    <string name="settings_program_cards">Saatekaardid</string>
+    <string name="settings_tv_ratio">Telerirakenduste kaardi kuvasuhe</string>
+    <string name="settings_mobile_ratio">Mobiilirakenduste kaardi kuvasuhe</string>
+    <string name="settings_icon_pack">Ikoonipakett</string>
+    <string name="settings_icon_pack_none">Ühtegi ikoonipaketti pole installitud</string>
+    <string name="settings_icon_pack_off">Puudub</string>
+    <string name="settings_more">Rohkem…</string>
+    <string name="settings_custom_icon_tint">Kohandatud ikoonide toon</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Fookuses kaardi suurus</string>
+    <string name="settings_focused_effect">Fookuses kaardi efekt</string>
+    <string name="settings_effect_none">Puudub</string>
+    <string name="settings_effect_shadow">Langev vari</string>
+    <string name="settings_effect_glow">Kuma</string>
+    <string name="settings_glow_animation">Kuma animatsioon</string>
+    <string name="settings_anim_none">Puudub</string>
+    <string name="settings_anim_pulse">Pulss</string>
+    <string name="settings_anim_breath">Hingamine</string>
+    <string name="settings_anim_fade">Hääbumine</string>
+    <string name="settings_anim_shine">Sära</string>
+    <string name="settings_glow_size">Kuma suurus</string>
+    <string name="settings_glow_color">Kuma värv</string>
+    <string name="settings_glow_color_desc">Kaardi enda värvi kasutamiseks jäta tühjaks</string>
+    <string name="settings_colors_override">Värvide alistamine</string>
+    <string name="settings_override_none">Puudub</string>
+    <string name="settings_override_swap">Vaheta taust/toon</string>
+    <string name="settings_override_custom">Kohandatud</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Esita eelvaatevideo</string>
+    <string name="settings_preview_never">Mitte kunagi</string>
+    <string name="settings_preview_always">Alati</string>
+    <string name="settings_preview_no_media">Kui taustal ei esitata meediat</string>
+    <string name="settings_show_progress">Näita edenemisriba</string>
+    <string name="settings_show_badge">Näita märki</string>
+    <string name="settings_zoom_focus">Suurendusefekt fookuses olles</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Toetatud vormingud: liikumatu pilt, animeeritud GIF, video (staatiline või RTSP-otseülekanne), Lottie animatsioon</string>
+    <string name="settings_launcher_wallpaper">Käivitaja taustapilt</string>
+    <string name="settings_configure">Seadista</string>
+    <string name="settings_show_wallpapers">Näita taustapilte</string>
+    <string name="settings_picture_adjustment">Pildi kohandamine</string>
+    <string name="settings_image_transition">Pildi üleminek</string>
+    <string name="settings_update_frequency">Värskendussagedus (min)</string>
+    <string name="settings_video_wallpaper">Video taustapilt</string>
+    <string name="settings_display_mode">Kuvarežiim</string>
+    <string name="settings_bad_ratio">Halva kuvasuhte/kvaliteedi korral</string>
+    <string name="settings_min_width">Minimaalne lubatud laius (px)</string>
+    <string name="settings_src_none">Puudub</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dünaamilised värvid</string>
+    <string name="settings_src_default">Vaiketaustapilt</string>
+    <string name="settings_src_media">Meediafail</string>
+    <string name="settings_src_folder">Kaust</string>
+    <string name="settings_src_focused_program">Fookuses olev saade</string>
+    <string name="settings_src_now_playing">Praegu mängib</string>
+    <string name="settings_src_random_program">Juhuslik saade</string>
+    <string name="settings_src_theme">Teema</string>
+    <string name="settings_tr_none">Puudub</string>
+    <string name="settings_tr_random">Juhuslik</string>
+    <string name="settings_tr_fade">Hääbumine</string>
+    <string name="settings_tr_zoom">Suumimine</string>
+    <string name="settings_tr_hslide">Horisontaalne libistus</string>
+    <string name="settings_tr_vslide">Vertikaalne libistus</string>
+    <string name="settings_dm_automatic">Automaatne</string>
+    <string name="settings_dm_skip">Jäta vahele</string>
+    <string name="settings_dm_crop">Kärbi</string>
+    <string name="settings_dm_stretch">Venita</string>
+    <string name="settings_dm_fit">Mahuta keskele</string>
+    <string name="settings_dm_fit_blur">Mahuta keskele + hägune taust</string>
+    <string name="settings_dm_blur">Hägusta</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Värvitoon</string>
+    <string name="settings_saturation">Küllastus</string>
+    <string name="settings_contrast">Kontrastsus</string>
+    <string name="settings_brightness">Heledus</string>
+    <string name="settings_tint">Toon</string>
+    <string name="settings_tint_amount">Tooni tugevus</string>
+    <string name="settings_blur">Hägustus</string>
+    <string name="settings_shadow_h">Horisontaalse varjukihi pikkus</string>
+    <string name="settings_shadow_v">Vertikaalse varjukihi pikkus</string>
+    <string name="settings_shadow_opacity">Varjukihi läbipaistmatus</string>
+    <string name="settings_shadow_tint">Varjukihi toon</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Eira värskendussagedust</string>
+    <string name="settings_ignore_update_desc">Oota enne uue taustapildi taotlemist video lõpuni</string>
+    <string name="settings_video_color_freq">Dünaamilise värvi värskendussagedus</string>
+    <string name="settings_video_color_freq_desc">Sekundid videokaadrite vahel, millest värve loetakse; 0 lülitab selle välja</string>
+    <string name="settings_volume">Helitugevus</string>
+    <string name="settings_tunneling">Kasuta riistvaralist renderdamist (tunneldamine)</string>
+    <string name="settings_decoder_fallback">Luba dekooderite varulahendus</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Halda märguannete luba</string>
+    <string name="settings_granted">Antud</string>
+    <string name="settings_not_granted">Pole antud</string>
+    <string name="settings_notification_adb">Selles seadmes pole seadete kuva. Anna luba käsuga: %1$s</string>
+    <string name="settings_clock">Kell</string>
+    <string name="settings_icons">Ikoonid</string>
+    <string name="settings_show_system_bar">Näita süsteemi olekuriba</string>
+    <string name="settings_autohide_status">Peida olekuriba kerimisel</string>
+    <string name="settings_show_clock">Näita kella</string>
+    <string name="settings_clock_size">Kella fondi suurus</string>
+    <string name="settings_clock_color">Kella värv</string>
+    <string name="settings_drop_shadow">Langev vari</string>
+    <string name="settings_clock_line1">Kella vorming (1. rida)</string>
+    <string name="settings_clock_line2">Kella vorming (2. rida)</string>
+    <string name="settings_clock_default_format">Süsteemi vorming</string>
+    <string name="settings_empty">Tühi</string>
+    <string name="settings_icons_size">Ikoonide suurus</string>
+    <string name="settings_icons_color">Ikoonide värv</string>
+    <string name="settings_icons_container">Ikoonide konteineri värv</string>
+    <string name="settings_show_settings">Näita seadeid</string>
+    <string name="settings_show_settings_desc">Seaded on endiselt kättesaadavad selle nupujadaga: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Näita ühenduvust</string>
+    <string name="settings_show_notifications">Näita märguandeid</string>
+    <string name="settings_autohide_notifications">Peida märguandeikoon, kui märguandeid pole</string>
+    <string name="settings_show_battery">Näita akut</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Luba</string>
+    <string name="settings_headers_on_launch">Näita käivitamisel vasakpoolseid päiseid</string>
+    <string name="settings_show_icon">Näita ikooni</string>
+    <string name="settings_show_reorder">Näita järjestuse muutmist</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Aeg jõudeolekuni (min)</string>
+    <string name="settings_idle_opacity">Kasutajaliidese läbipaistmatus</string>
+    <string name="settings_keep_clock">Jäta kell alles</string>
+    <string name="settings_prevent_screensaver">Takista süsteemi ekraanisäästjat</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Muuda QLauncheri fondiseadeid. Fondiperede nimesid saab otsida Google Fontsist.</string>
+    <string name="settings_font_list">Vali loendist</string>
+    <string name="settings_font_google">Font (Google Fonts)</string>
+    <string name="settings_font_default">Vaikimisi</string>
+    <string name="settings_bold">Paks</string>
+    <string name="settings_italic">Kaldkiri</string>
+    <string name="settings_size">Suurus</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Automaatne käivitamine sisselülitamisel</string>
+    <string name="settings_autostart_none">Puudub</string>
+    <string name="settings_autostart_screensaver">[*] Ekraanisäästja (kui on toetatud)</string>
+    <string name="settings_autostart_resume">…ja ooterežiimist naasmisel</string>
+    <string name="settings_autostart_delay">Automaatkäivituse viivitus (sekundites)</string>
+    <string name="settings_simulate_activity">Takista süsteemi automaatset väljalülitumist jõudeolekus</string>
+    <string name="settings_idle_detection">Luba sisemine jõudeoleku tuvastamine</string>
+    <string name="settings_idle_timeout_power">Jõudeoleku ajalõpp (tund:min)</string>
+    <string name="settings_idle_action">Toiming jõudeolekus</string>
+    <string name="settings_idle_action_shutdown">Lülita välja</string>
+    <string name="settings_idle_action_screen_off">Ekraan välja</string>
+    <string name="settings_idle_action_screensaver">Ekraanisäästja (kui on toetatud)</string>
+    <string name="settings_idle_media">Eira jõuderežiimi meedia esitamise ajal</string>
+    <string name="settings_missing_notification_permission">⚠️ Märguannete luba puudub</string>
+    <string name="settings_shutdown_action">Väljalülitamise toiming</string>
+    <string name="settings_shutdown_dialog">Toitedialoog</string>
+    <string name="settings_shutdown_dialog_twice">Toitedialoog (ava kaks korda)</string>
+    <string name="settings_shutdown_dialog_ok">Toitedialoog + OK</string>
+    <string name="settings_hdmi_exit">Lülita automaatselt välja, kui HDMI-sisendi signaal kaob</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Määra kood valitud rakenduste lukustamiseks (nende valimiseks vajuta avakuval kaarti pikalt) kogu päevaks või osaks päevast</string>
+    <string name="settings_parental_set_code">Määra uus vanemliku järelevalve kood</string>
+    <string name="settings_parental_code_set">Kood on määratud</string>
+    <string name="settings_parental_long">Ära küsi koodi 15 minuti jooksul pärast edukat kinnitamist</string>
+    <string name="settings_parental_protect">Kaitse käivitaja seadeid ja kasutajaliidese muudatusi</string>
+    <string name="settings_parental_protect_desc">(kehtib 24/7)</string>
+    <string name="settings_parental_partial">Luba kaitse ainult ajavahemikus</string>
+    <string name="settings_parental_start">Algusaeg (tund:min)</string>
+    <string name="settings_parental_end">Lõppaeg (tund:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Näita teavet nupu „Menüü“ topeltvajutusel</string>
+    <string name="settings_back_double">„Ümbritseva keskkonna režiim“ nupu „Tagasi“ topeltvajutusel</string>
+    <string name="settings_back_double_desc">Käivita toetatud seadmetes ekraanisäästja</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Lülita teenus sisse, et käivitada sisselülitamisel toiming, kohandada puldi nuppe, tugevdada vanemlikku järelevalvet ja tuvastada toitehalduse jaoks jõudeaega. See näeb riistvaraklahvide vajutusi ja esiplaanil oleva rakenduse nime; mõlemad jäävad ainult selle seadme mällu ja neid ei saadeta kunagi kuhugi.</string>
+    <string name="settings_a11y_enabled">Lubatud</string>
+    <string name="settings_a11y_started">Käivitatud</string>
+    <string name="settings_yes">Jah</string>
+    <string name="settings_no">Ei</string>
+    <string name="settings_a11y_open">Näita juurdepääsetavuse seadeid</string>
+    <string name="settings_a11y_consent_title">Juurdepääsetavusteenus</string>
+    <string name="settings_a11y_consent">See võimaldab QLauncheril näha riistvaranuppude vajutusi ja esiplaanil oleva rakenduse nime. Mõlemaid hoitakse ainult selle seadme mälus ja neid ei saadeta kunagi kuhugi. Kas nõustud?</string>
+    <string name="settings_a11y_alternate">Kasuta alternatiivset seadistust</string>
+    <string name="settings_a11y_alternate_desc">Parandab probleeme mõnes seadmes</string>
+    <string name="settings_a11y_volume_fix">Helitugevusnuppude parandus</string>
+    <string name="settings_a11y_volume_fix_desc">Peata helitugevuse vajutamisel korraks ümbermääramine, et pikad vajutused ikka töötaksid</string>
+    <string name="settings_a11y_remap">Luba nuppude ümbermääramine</string>
+    <string name="settings_a11y_remap_desc">Teenus püüab klahvivajutused kinni. Selle väljalülitamine väldib helitugevuse pika vajutuse probleeme ja seda, et süsteem teenuse peatab, kuid käivitaja asendamine, vanemlik järelevalve ja jõudeoleku tuvastamine võivad olla vähem tõhusad.</string>
+    <string name="settings_a11y_reminder">Näita meeldetuletust</string>
+    <string name="settings_a11y_reminder_desc">Kui juurdepääsetavusteenus on välja lülitatud</string>
+    <string name="settings_a11y_unbound_toast">QLauncheri juurdepääsetavusteenus ei tööta</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Impordi või ekspordi seadeid kohalikult või mõne teise rakendusega, nt LocalSendi või failihalduriga.</string>
+    <string name="settings_import">Impordi</string>
+    <string name="settings_import_file">Failist</string>
+    <string name="settings_import_auto">Automaatsest varukoopiast</string>
+    <string name="settings_export">Ekspordi</string>
+    <string name="settings_export_local">Salvesta kohalikult</string>
+    <string name="settings_export_share">Jaga teise rakendusega</string>
+    <string name="settings_reset">Lähtesta vaikeseadetele</string>
+    <string name="settings_cancel">Tühista</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategooria</string>
+    <string name="wp_custom_search">Kohandatud otsing</string>
+    <string name="wp_reddit_login">Logi sisse</string>
+    <string name="wp_reddit_logout">Logi välja: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Logi välja</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Kohandatud subreddit</string>
+    <string name="wp_custom_subreddit_hint">Mitu nime, eraldatud märgiga +</string>
+    <string name="wp_folder">Kaust</string>
+    <string name="wp_folder_choose">Vali kaust</string>
+    <string name="wp_media">Meediafail</string>
+    <string name="wp_media_choose">Vali fail</string>
+    <string name="wp_choose_other">Muu asukoht…</string>
+    <string name="wp_choose_other_desc">Vali süsteemi failivalijaga</string>
+    <string name="wp_media_searching">Piltide ja videote otsimine…</string>
+    <string name="wp_media_none">Pilte ega videoid ei leitud. Kopeeri mõned kausta Pictures, Movies või Download või ühenda USB-mäluseade.</string>
+    <string name="wp_folders_description">Pilte või videoid sisaldavad kaustad selles seadmes ja USB-mäluseadmetel.</string>
+    <string name="wp_folders_none">Pilte või videoid sisaldavaid kaustu ei leitud</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fail</item>
+        <item quantity="other">%d faili</item>
+    </plurals>
+    <string name="wp_media_color">Ühtlane värv</string>
+    <string name="wp_theme_desc">Imporditud teemaga kaasas olevad taustapildid</string>
+    <string name="wp_plugin_settings">Pistikprogrammi seaded</string>
+    <string name="wp_not_set">Määramata</string>
+    <string name="wp_status">Olek</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">See taustapilt</string>
+    <string name="wp_next">Järgmine</string>
+    <string name="wp_source">Allikas</string>
+    <string name="wp_title">Pealkiri</string>
+    <string name="wp_author">Autor</string>
+    <string name="wp_set_user">Määra kasutaja taustapildiks</string>
+    <string name="wp_view">Vaata</string>
+    <string name="wp_unknown">Tundmatu</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Siin saad luua ja hallata video kuvaprofiile. Seo need sisendallikatega, et need vahetuksid automaatselt, või rakenda neid, vajutades kaks korda nuppu Menüü ja seejärel üles või alla.</string>
+    <string name="dp_list">Kuvaprofiilide loend</string>
+    <string name="dp_list_desc">Siin saad luua või muuta video kuvaprofiile. Olenevalt seadmest vajavad mõned juhtelemendid juurkasutaja õigusi või ei tööta üldse; need on mõeldud AmLogicu seadmetele.</string>
+    <string name="dp_add">Lisa uus…</string>
+    <string name="dp_name">Profiili nimi</string>
+    <string name="dp_preview">Eelvaade</string>
+    <string name="dp_fullscreen">Täisekraaneelvaade</string>
+    <string name="dp_fullscreen_desc">või lülita nupuga Menüü</string>
+    <string name="dp_delete">Kustuta profiil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Installi kolmanda osapoole rakendusi</string>
+    <string name="install_desc">Vali installitav rakendus. Võib-olla pead esmalt lubama installimise tundmatutest allikatest.</string>
+    <string name="install_custom">Kohandatud URL / Downloaderi kood</string>
+    <string name="install_custom_desc">Kasuta ainult usaldusväärset allikat</string>
+    <string name="install_status">Olek</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">See seade</string>
+
+    <string name="gallery_filter">Filtreeri…</string>
+    <string name="settings_no_file_picker">Selles seadmes pole failivalijat</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminants</string>
+    <string name="color_opacity">Läbipaistmatus</string>
+    <string name="color_prefer_dynamic">Eelista dünaamilist värvi</string>
+    <string name="color_prefer_dynamic_desc">Kui on saadaval, säilitatakse see luminants/läbipaistmatus</string>
+    <string name="color_clear">Tühjenda</string>
+    <string name="color_reset">Lähtesta vaikeseadetele</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">डिफ़ॉल्ट</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">बोल्ड</string>
+    <string name="backup_clock_markup_italic">इटैलिक</string>
+    <string name="backup_clock_markup_underline">रेखांकित</string>
+    <string name="backup_clock_markup_strikethrough">कटा हुआ</string>
+    <string name="backup_clock_markup_subscript">सबस्क्रिप्ट</string>
+    <string name="backup_clock_markup_superscript">सुपरस्क्रिप्ट</string>
+    <string name="backup_clock_markup_half_size">आधा साइज़</string>
+    <string name="backup_clock_markup_one_and_a_half_size">डेढ़ गुना</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">काले रंग की क्लिपिंग</string>
+    <string name="backup_pattern_apl_clipping">APL क्लिपिंग</string>
+    <string name="backup_pattern_white_clipping">सफ़ेद रंग की क्लिपिंग</string>
+    <string name="backup_pattern_grayscale_ramp">ग्रेस्केल रैंप</string>
+    <string name="backup_pattern_grayscale_steps">ग्रेस्केल स्टेप</string>
+    <string name="backup_pattern_dynamic_brightness">डाइनैमिक चमक</string>
+    <string name="backup_pattern_color_steps">रंग स्टेप</string>
+    <string name="backup_pattern_color_clipping">रंग क्लिपिंग</string>
+    <string name="backup_pattern_flashing_color_bars">चमकती रंगीन पट्टियां</string>
+    <string name="backup_pattern_sharpness_overscan">शार्पनेस &amp; ओवरस्कैन</string>
+    <string name="backup_pattern_uhd">UHD पैटर्न</string>
+    <string name="backup_pattern_judder">जडर टेस्ट</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] आस्पेक्ट रेशियो शार्पनेस</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] ब्लैक लेवल</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] रंग क्लिपिंग 240–1000 निट्स</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] रंग क्लिपिंग 3600–10000 निट्स</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] रंग क्लिपिंग 700–10000 निट्स</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] रंग क्लिपिंग 900–4000 निट्स</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] ग्रेस्केल रैंप 10000 निट्स</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] ग्रेस्केल रैंप 1000 निट्स</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] ग्रेस्केल रैंप 4000 निट्स</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] ब्लैक PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] रंग रैंप</string>
+    <string name="backup_pattern_unavailable">%1$s के लिए HDR वीडियो पाथ ज़रूरी है और यह अभी उपलब्ध नहीं है</string>
+    <!-- Pages -->
+    <string name="backup_settings">सेटिंग</string>
+    <string name="backup_manage_settings">सेटिंग मैनेज करें</string>
+    <string name="backup_themes">थीम</string>
+    <string name="backup_import">इंपोर्ट करें</string>
+    <string name="backup_export">एक्सपोर्ट करें</string>
+    <string name="backup_import_from_file">फ़ाइल मैनेजर से</string>
+    <string name="backup_import_from_auto">स्वचालित बैकअप से</string>
+    <string name="backup_export_save">डिवाइस पर सेव करें</string>
+    <string name="backup_export_share">किसी दूसरे ऐप से शेयर करें</string>
+    <string name="backup_reset">डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="backup_cancel">रद्द करें</string>
+    <string name="backup_ok">ठीक है</string>
+    <string name="backup_done">हो गया</string>
+    <string name="backup_close">बंद करें</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">सेटिंग एक्सपोर्ट करें</string>
+    <string name="backup_export_theme_title">थीम एक्सपोर्ट करें</string>
+    <string name="backup_export_description">सब कुछ एक फ़ाइल में सेव होता है, जिसे आपके चुने हुए पासवर्ड (कम से कम %1$d वर्ण) से एन्क्रिप्ट किया जाता है। फ़ाइल इंपोर्ट करने के लिए आपको यह पासवर्ड चाहिए होगा, और इसे वापस नहीं पाया जा सकता।</string>
+    <string name="backup_export_theme_description">दिखावट की सेटिंग और मौजूदा वॉलपेपर एक फ़ाइल में सेव होते हैं, जिसे आपके चुने हुए पासवर्ड (कम से कम %1$d वर्ण) से एन्क्रिप्ट किया जाता है। थीम इंपोर्ट करने के लिए आपको यह पासवर्ड चाहिए होगा।</string>
+    <string name="backup_password">पासवर्ड</string>
+    <string name="backup_password_show">पासवर्ड दिखाएं</string>
+    <string name="backup_password_hide">पासवर्ड छिपाएं</string>
+    <string name="backup_password_strength">पासवर्ड की मज़बूती</string>
+    <string name="backup_strength_too_short">बहुत छोटा: कम से कम %1$d वर्ण</string>
+    <string name="backup_strength_weak">कमज़ोर: आसानी से अनुमान लगाया जा सकता है</string>
+    <string name="backup_strength_fair">ठीक-ठाक</string>
+    <string name="backup_strength_strong">मज़बूत</string>
+    <string name="backup_password_too_short">पासवर्ड में कम से कम %1$d वर्ण होने चाहिए</string>
+    <string name="backup_exporting">एक्सपोर्ट हो रहा है…</string>
+    <string name="backup_export_saved">%1$s में सेव किया गया</string>
+    <string name="backup_export_kept">कहीं और सेव नहीं किया गया। फ़ाइल %1$s में ही है</string>
+    <string name="backup_export_shared">भेजा गया। एक कॉपी %1$s में रहेगी</string>
+    <string name="backup_export_no_file_manager">इस डिवाइस पर कोई भी ऐप यह फ़ाइल नहीं ले सकता। फ़ाइल %1$s में है</string>
+    <string name="backup_export_failed">एक्सपोर्ट नहीं हो सका: %1$s</string>
+    <string name="backup_share_title">QLauncher फ़ाइल इससे भेजें</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">इंपोर्ट करने पर आपका मौजूदा सेटअप बदल जाएगा। पहले एक स्वचालित बैकअप बनाया जाता है, और काम पूरा होने पर QLauncher फिर से शुरू होता है।</string>
+    <string name="backup_reading">फ़ाइल पढ़ी जा रही है…</string>
+    <string name="backup_import_action">इंपोर्ट करें</string>
+    <string name="backup_wrong_password">गलत पासवर्ड</string>
+    <string name="backup_password_hint">फ़ाइल एक्सपोर्ट करते समय चुना गया पासवर्ड</string>
+    <string name="backup_not_a_backup">यह QLauncher या Projectivy का बैकअप या थीम नहीं है।</string>
+    <string name="backup_damaged">फ़ाइल खराब या अधूरी है।</string>
+    <string name="backup_too_new">यह फ़ाइल QLauncher के नए वर्शन (फ़ॉर्मैट %1$d) से बनी है। इसे इंपोर्ट करने के लिए QLauncher अपडेट करें।</string>
+    <string name="backup_unreadable">यह स्वचालित बैकअप इस डिवाइस पर पढ़ा नहीं जा सकता।</string>
+    <string name="backup_import_failed">इंपोर्ट नहीं हो सका और कुछ नहीं बदला गया: %1$s</string>
+    <string name="backup_applying">इंपोर्ट हो रहा है… पूरा होने पर QLauncher फिर से शुरू होगा।</string>
+    <string name="backup_origin_ql_backup">QLauncher सेटिंग का बैकअप</string>
+    <string name="backup_origin_ql_theme">QLauncher थीम</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher सेटिंग का बैकअप</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher थीम</string>
+    <string name="backup_origin_auto">स्वचालित बैकअप</string>
+    <string name="backup_preview_theme_by">%1$s, %2$s द्वारा</string>
+    <string name="backup_preview_version">वर्शन %1$s</string>
+    <string name="backup_preview_settings">सेटिंग</string>
+    <string name="backup_preview_categories">श्रेणियां</string>
+    <string name="backup_preview_apps">ऐप्स में किए गए बदलाव</string>
+    <string name="backup_preview_profiles">डिसप्ले प्रोफ़ाइल</string>
+    <string name="backup_preview_files">वॉलपेपर और आइकॉन</string>
+    <string name="backup_preview_skipped">ऐसे ऐप्स जो इस डिवाइस पर नहीं हैं</string>
+    <string name="backup_replace_setup">मौजूदा सेटअप बदलें</string>
+    <string name="backup_apply_theme">थीम लागू करें</string>
+    <string name="backup_replace_detail">पहले मौजूदा सेटअप का स्वचालित बैकअप बनाया जाता है</string>
+    <string name="backup_nc_parental">पैरेंटल कोड</string>
+    <string name="backup_nc_parental_detail">साथ नहीं लाया जाता। “माता-पिता का नियंत्रण” में नया कोड सेट करें।</string>
+    <string name="backup_nc_premium">प्रीमियम स्थिति</string>
+    <string name="backup_nc_premium_detail">साथ नहीं लाई जाती। QLauncher की हर सुविधा मुफ़्त है।</string>
+    <string name="backup_nc_inputs">टीवी इनपुट</string>
+    <string name="backup_nc_profile_bindings">डिसप्ले प्रोफ़ाइल के जुड़ाव</string>
+    <string name="backup_nc_plugin">वॉलपेपर प्लग इन</string>
+    <string name="backup_nc_plugin_detail">%1$s इंस्टॉल नहीं है। वॉलपेपर स्रोत जैसा है वैसा ही रहेगा।</string>
+    <string name="backup_nc_icons">कस्टम आइकॉन</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d बदली गई वैल्यू</item>
+        <item quantity="other">%1$d बदली गई वैल्यू</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d श्रेणी</item>
+        <item quantity="other">%1$d श्रेणियां</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d ऐप</item>
+        <item quantity="other">%1$d ऐप्स</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d प्रोफ़ाइल</item>
+        <item quantity="other">%1$d प्रोफ़ाइल</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d फ़ाइल</item>
+        <item quantity="other">%1$d फ़ाइलें</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d अज्ञात सेटिंग, छोड़ दी गई</item>
+        <item quantity="other">%1$d अज्ञात सेटिंग, छोड़ दी गईं</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d एंट्री यहां इंस्टॉल किसी भी ऐप से मेल नहीं खाती और उसे छोड़ दिया गया है</item>
+        <item quantity="other">%1$d एंट्री यहां इंस्टॉल किसी भी ऐप से मेल नहीं खातीं और उन्हें छोड़ दिया गया है</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">ऐसे टीवी इनपुट का %1$d लिंक छोड़ दिया गया है जो इस डिवाइस पर नहीं है</item>
+        <item quantity="other">ऐसे टीवी इनपुट के %1$d लिंक छोड़ दिए गए हैं जो इस डिवाइस पर नहीं हैं</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">किसी इनपुट को असाइन की गई %1$d प्रोफ़ाइल साथ नहीं लाई जाती</item>
+        <item quantity="other">इनपुट को असाइन की गई %1$d प्रोफ़ाइल साथ नहीं लाई जातीं</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">Projectivy में सेव किया गया %1$d आइकॉन पढ़ा नहीं जा सकता और उसे छोड़ दिया गया है</item>
+        <item quantity="other">Projectivy में सेव किए गए %1$d आइकॉन पढ़े नहीं जा सकते और उन्हें छोड़ दिया गया है</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">स्वचालित बैकअप</string>
+    <string name="backup_auto_description">QLauncher आपके सेटअप के आखिरी %1$d वर्शन इस डिवाइस पर रखता है, जिन्हें ऐसी कुंजी से एन्क्रिप्ट किया जाता है जो कभी इस डिवाइस से बाहर नहीं जाती। किसी वर्शन को बहाल करने के लिए उसे चुनें; पासवर्ड की ज़रूरत नहीं है।</string>
+    <string name="backup_auto_none">कोई स्वचालित बैकअप उपलब्ध नहीं है</string>
+    <string name="backup_files_title">बैकअप फ़ाइलें</string>
+    <string name="backup_files_theme_title">थीम फ़ाइलें</string>
+    <string name="backup_files_description">एक्सपोर्ट %1$s में सेव किए जाते हैं। सभी फ़ाइलों का ऐक्सेस मिलने पर QLauncher, Download, Documents और USB ड्राइव में भी बैकअप ढूंढता है, Projectivy के बैकअप भी।</string>
+    <string name="backup_files_searching">बैकअप फ़ाइलें खोजी जा रही हैं…</string>
+    <string name="backup_files_none">कोई बैकअप फ़ाइल नहीं मिली</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher का फ़ोल्डर</string>
+    <string name="backup_files_access">दूसरे ऐप्स और डिवाइस के बैकअप ढूंढें</string>
+    <string name="backup_files_access_desc">सभी फ़ाइलों का ऐक्सेस दें</string>
+    <string name="backup_files_access_unavailable">इस डिवाइस पर कोई सेटिंग स्क्रीन नहीं है। सभी फ़ाइलों का ऐक्सेस इस कमांड से दें: %1$s</string>
+    <string name="backup_files_browse">दूसरी जगह…</string>
+    <string name="backup_files_browse_desc">सिस्टम के फ़ाइल पिकर से कोई फ़ाइल चुनें</string>
+    <string name="backup_auto_delete_all">सभी मिटाएं</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">बदलाव के बाद</string>
+    <string name="backup_reason_import">इंपोर्ट से पहले</string>
+    <string name="backup_reason_migration">अपडेट से पहले</string>
+    <string name="backup_reason_reset">रीसेट से पहले</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">प्रोफ़ाइल #</string>
+    <string name="backup_no_picture_manager">कोई पिक्चर मैनेजर लोड नहीं हुआ</string>
+    <string name="backup_no_picture_manager_detail">यह डिवाइस अपनी पिक्चर सेटिंग बदलने का कोई समर्थित तरीका नहीं देता, इसलिए प्रोफ़ाइल अपनी वैल्यू रखती हैं पर उन्हें लागू नहीं करतीं।</string>
+</resources>

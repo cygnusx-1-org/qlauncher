@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Verze %1$s</string>
+    <string name="about_copyright">Copyright © 2026 přispěvatelé QLauncheru. Svobodný software pod licencí GNU General Public License, verze 3.</string>
+    <string name="about_libs">Knihovny / Poděkování</string>
+    <string name="about_links">Odkazy</string>
+    <string name="about_link_project">Stránka projektu</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Překlad do češtiny</string>
+    <string name="about_translation_credit">Přispěvatelé QLauncheru</string>
+    <string name="about_no_browser">V tomto zařízení není žádný prohlížeč. Otevřete %1$s na jiném zařízení.</string>
+    <string name="about_check_updates">Zkontrolovat aktualizace</string>
+    <string name="about_update_checking">Kontrola…</string>
+    <string name="about_update_latest">QLauncher je aktuální (%1$s)</string>
+    <string name="about_update_available">Je k dispozici verze %1$s</string>
+    <string name="about_update_failed">Kontrola se nezdařila: %1$s</string>
+    <string name="about_update_install">Nainstalovat QLauncher %1$s</string>
+    <string name="update_available_toast">Je k dispozici QLauncher %1$s: Nastavení › Informace › QLauncher</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Ништа</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Динамичне боје</string>
+    <string name="wallpaper_provider_default">Подразумевана позадина</string>
+    <string name="wallpaper_provider_media_file">Медијска датотека</string>
+    <string name="wallpaper_provider_folder">Фасцикла</string>
+    <string name="wallpaper_provider_focused_program">Програм у фокусу</string>
+    <string name="wallpaper_provider_now_playing">Тренутно се пушта</string>
+    <string name="wallpaper_provider_random_program">Насумичан програм</string>
+    <string name="wallpaper_provider_theme">Тема</string>
+    <string name="wallpaper_provider_unknown_plugin">Додатак</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Позадине</string>
+    <string name="wallpaper_wikimedia_nature">Природа</string>
+    <string name="wallpaper_wikimedia_landscapes">Пејзажи</string>
+    <string name="wallpaper_wikimedia_mountains">Планине</string>
+    <string name="wallpaper_wikimedia_forests">Шуме</string>
+    <string name="wallpaper_wikimedia_cities">Градови</string>
+    <string name="wallpaper_wikimedia_architecture">Архитектура</string>
+    <string name="wallpaper_wikimedia_night">Ноћ</string>
+    <string name="wallpaper_wikimedia_space">Свемир</string>
+    <string name="wallpaper_wikimedia_animals">Животиње</string>
+    <string name="wallpaper_wikimedia_custom">[Прилагођена претрага]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Прилагођени сабредит]</string>
+    <string name="wallpaper_reddit_log_out">Одјави се</string>
+    <string name="wallpaper_reddit_login_needed">Пријавите се на Reddit да бисте видели позадине са њега.</string>
+    <string name="wallpaper_reddit_login_title">Пријава на Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Пријављивање…</string>
+    <string name="wallpaper_reddit_login_denied">Приступ Reddit-у није одобрен, па позадине са Reddit-а остају недоступне.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Одговор са Reddit-а не одговара овом покушају пријаве, па је занемарен. Покушајте поново.</string>
+    <string name="wallpaper_reddit_login_failed">Пријава на Reddit није успела (%1$s). Покушајте поново касније.</string>
+    <string name="wallpaper_reddit_login_network">Reddit није доступан. Проверите мрежну везу и покушајте поново.</string>
+    <string name="wallpaper_reddit_login_page_error">Страница за пријаву на Reddit није могла да се учита. Проверите мрежну везу и покушајте поново.</string>
+    <string name="wallpaper_reddit_no_webview">Овај уређај нема компоненту веб-прегледача (Android System WebView), која је потребна за пријаву на Reddit. Инсталирајте или омогућите Android System WebView и покушајте поново.</string>
+    <string name="wallpaper_reddit_retry">Покушај поново</string>
+    <string name="wallpaper_reddit_close">Затвори</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Нема везе са извором позадина.</string>
+    <string name="wallpaper_error_server">Извор позадина је одговорио грешком.</string>
+    <string name="wallpaper_error_rate_limited">Извор позадина је затражио паузу пре следећег захтева.</string>
+    <string name="wallpaper_error_generic">Позадине нису могле да се учитају.</string>
+    <string name="wallpaper_error_no_media">Није изабрана ни слика, ни видео, ни боја.</string>
+    <string name="wallpaper_error_no_folder">Није изабрана фасцикла.</string>
+    <string name="wallpaper_error_folder_access">Фасцикла не може да се прочита. Изаберите је поново.</string>
+    <string name="wallpaper_error_folder_empty">Фасцикла не садржи слике, видео снимке ни Lottie анимације.</string>
+    <string name="wallpaper_error_theme_empty">Тренутна тема нема позадине.</string>
+    <string name="wallpaper_error_no_channels">Канали нису доступни. Омогућите их и дозволите приступ ТВ програму.</string>
+    <string name="wallpaper_error_no_notification_access">„Тренутно се пушта“ захтева приступ обавештењима.</string>
+    <string name="wallpaper_error_no_subreddit">Није подешен важећи сабредит.</string>
+    <string name="wallpaper_error_plugin">Додатак за позадине није одговорио.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Позадина је постављена</string>
+    <string name="wallpaper_set_failed">Ова датотека не може да се користи као позадина.</string>
+</resources>

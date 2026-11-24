@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">По подразбиране</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">удебелен</string>
+    <string name="backup_clock_markup_italic">курсив</string>
+    <string name="backup_clock_markup_underline">подчертан</string>
+    <string name="backup_clock_markup_strikethrough">зачертан</string>
+    <string name="backup_clock_markup_subscript">долен индекс</string>
+    <string name="backup_clock_markup_superscript">горен индекс</string>
+    <string name="backup_clock_markup_half_size">половин размер</string>
+    <string name="backup_clock_markup_one_and_a_half_size">един и половина пъти</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Изрязване на черното</string>
+    <string name="backup_pattern_apl_clipping">Изрязване при APL</string>
+    <string name="backup_pattern_white_clipping">Изрязване на бялото</string>
+    <string name="backup_pattern_grayscale_ramp">Градиент в сивата скала</string>
+    <string name="backup_pattern_grayscale_steps">Стъпки в сивата скала</string>
+    <string name="backup_pattern_dynamic_brightness">Динамична яркост</string>
+    <string name="backup_pattern_color_steps">Цветови стъпки</string>
+    <string name="backup_pattern_color_clipping">Изрязване на цветовете</string>
+    <string name="backup_pattern_flashing_color_bars">Мигащи цветни ленти</string>
+    <string name="backup_pattern_sharpness_overscan">Острота &amp; overscan</string>
+    <string name="backup_pattern_uhd">UHD тестова картина</string>
+    <string name="backup_pattern_judder">Тест за накъсване</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Съотношение на страните и острота</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Ниво на черното</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Изрязване на цветовете 240–1000 нита</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Изрязване на цветовете 3600–10000 нита</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Изрязване на цветовете 700–10000 нита</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Изрязване на цветовете 900–4000 нита</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Градиент в сивата скала 10000 нита</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Градиент в сивата скала 1000 нита</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Градиент в сивата скала 4000 нита</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE за черното</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Цветови градиенти</string>
+    <string name="backup_pattern_unavailable">Тестовата картина „%1$s“ изисква HDR видеоизход и все още не е налична</string>
+    <!-- Pages -->
+    <string name="backup_settings">Настройки</string>
+    <string name="backup_manage_settings">Управление на настройките</string>
+    <string name="backup_themes">Теми</string>
+    <string name="backup_import">Импортиране</string>
+    <string name="backup_export">Експортиране</string>
+    <string name="backup_import_from_file">От файлов мениджър</string>
+    <string name="backup_import_from_auto">От автоматично резервно копие</string>
+    <string name="backup_export_save">Запазване локално</string>
+    <string name="backup_export_share">Споделяне с друго приложение</string>
+    <string name="backup_reset">Възстановяване на стандартните</string>
+    <string name="backup_cancel">Отказ</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Готово</string>
+    <string name="backup_close">Затваряне</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Експортиране на настройките</string>
+    <string name="backup_export_theme_title">Експортиране на темата</string>
+    <string name="backup_export_description">Всичко се запазва в един файл, шифрован с избрана от вас парола (поне %1$d знака). Паролата е нужна за импортиране на файла и не може да бъде възстановена.</string>
+    <string name="backup_export_theme_description">Настройките за външен вид и текущият тапет се запазват в един файл, шифрован с избрана от вас парола (поне %1$d знака). Паролата е нужна за импортиране на темата.</string>
+    <string name="backup_password">Парола</string>
+    <string name="backup_password_show">Показване на паролата</string>
+    <string name="backup_password_hide">Скриване на паролата</string>
+    <string name="backup_password_strength">Сила на паролата</string>
+    <string name="backup_strength_too_short">Твърде кратка: поне %1$d знака</string>
+    <string name="backup_strength_weak">Слаба: лесна за отгатване</string>
+    <string name="backup_strength_fair">Средна</string>
+    <string name="backup_strength_strong">Силна</string>
+    <string name="backup_password_too_short">Паролата трябва да е поне %1$d знака</string>
+    <string name="backup_exporting">Експортира се…</string>
+    <string name="backup_export_saved">Запазено в %1$s</string>
+    <string name="backup_export_kept">Не е запазено другаде. Файлът остава в %1$s</string>
+    <string name="backup_export_shared">Изпратено. Копие остава в %1$s</string>
+    <string name="backup_export_no_file_manager">Никое приложение на това устройство не може да приеме файла. Той е в %1$s</string>
+    <string name="backup_export_failed">Експортирането не бе успешно: %1$s</string>
+    <string name="backup_share_title">Изпращане на файла на QLauncher чрез</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Импортирането заменя текущата ви конфигурация. Първо се записва автоматично резервно копие, а QLauncher се рестартира, когато приключи.</string>
+    <string name="backup_reading">Файлът се чете…</string>
+    <string name="backup_import_action">Импортиране</string>
+    <string name="backup_wrong_password">Грешна парола</string>
+    <string name="backup_password_hint">Паролата, избрана при експортирането на файла</string>
+    <string name="backup_not_a_backup">Това не е резервно копие или тема на QLauncher или Projectivy.</string>
+    <string name="backup_damaged">Файлът е повреден или непълен.</string>
+    <string name="backup_too_new">Този файл е създаден от по-нова версия на QLauncher (формат %1$d). Актуализирайте QLauncher, за да го импортирате.</string>
+    <string name="backup_unreadable">Това автоматично резервно копие не може да бъде прочетено на това устройство.</string>
+    <string name="backup_import_failed">Импортирането не бе успешно и нищо не беше променено: %1$s</string>
+    <string name="backup_applying">Импортира се… QLauncher ще се рестартира, когато приключи.</string>
+    <string name="backup_origin_ql_backup">Резервно копие на настройките на QLauncher</string>
+    <string name="backup_origin_ql_theme">Тема на QLauncher</string>
+    <string name="backup_origin_pl_backup">Резервно копие на настройките на Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Тема на Projectivy Launcher</string>
+    <string name="backup_origin_auto">Автоматично резервно копие</string>
+    <string name="backup_preview_theme_by">%1$s от %2$s</string>
+    <string name="backup_preview_version">версия %1$s</string>
+    <string name="backup_preview_settings">Настройки</string>
+    <string name="backup_preview_categories">Категории</string>
+    <string name="backup_preview_apps">Персонализации на приложения</string>
+    <string name="backup_preview_profiles">Профили на екрана</string>
+    <string name="backup_preview_files">Тапети и икони</string>
+    <string name="backup_preview_skipped">Приложения, които липсват на това устройство</string>
+    <string name="backup_replace_setup">Замяна на текущата конфигурация</string>
+    <string name="backup_apply_theme">Прилагане на темата</string>
+    <string name="backup_replace_detail">Първо се записва автоматично резервно копие на текущата конфигурация</string>
+    <string name="backup_nc_parental">Родителски код</string>
+    <string name="backup_nc_parental_detail">Не се пренася. Задайте нов код в „Родителски контрол“.</string>
+    <string name="backup_nc_premium">Премиум статус</string>
+    <string name="backup_nc_premium_detail">Не се пренася. Всяка функция на QLauncher е безплатна.</string>
+    <string name="backup_nc_inputs">Телевизионни входове</string>
+    <string name="backup_nc_profile_bindings">Връзки на профилите на екрана</string>
+    <string name="backup_nc_plugin">Плъгин за тапети</string>
+    <string name="backup_nc_plugin_detail">%1$s не е инсталиран. Източникът на тапети остава непроменен.</string>
+    <string name="backup_nc_icons">Персонализирани икони</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d променена стойност</item>
+        <item quantity="other">%1$d променени стойности</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d категория</item>
+        <item quantity="other">%1$d категории</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d приложение</item>
+        <item quantity="other">%1$d приложения</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d профил</item>
+        <item quantity="other">%1$d профила</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d файл</item>
+        <item quantity="other">%1$d файла</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d непозната настройка, пропусната</item>
+        <item quantity="other">%1$d непознати настройки, пропуснати</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d запис не съответства на инсталирано тук приложение и се пропуска</item>
+        <item quantity="other">%1$d записа не съответстват на инсталирани тук приложения и се пропускат</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d връзка към телевизионен вход, който това устройство няма, се пропуска</item>
+        <item quantity="other">%1$d връзки към телевизионни входове, които това устройство няма, се пропускат</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d профил, свързан с вход, не се пренася</item>
+        <item quantity="other">%1$d профила, свързани с входове, не се пренасят</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d икона, съхранена в Projectivy, не може да бъде прочетена и се пропуска</item>
+        <item quantity="other">%1$d икони, съхранени в Projectivy, не могат да бъдат прочетени и се пропускат</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Автоматични резервни копия</string>
+    <string name="backup_auto_description">QLauncher пази последните %1$d версии на конфигурацията ви на това устройство, шифровани с ключ, който никога не го напуска. Изберете една, за да я възстановите; не е нужна парола.</string>
+    <string name="backup_auto_none">Няма налично автоматично резервно копие</string>
+    <string name="backup_files_title">Файлове с резервни копия</string>
+    <string name="backup_files_theme_title">Файлове с теми</string>
+    <string name="backup_files_description">Експортираните файлове се запазват в %1$s. С достъп до всички файлове QLauncher намира резервни копия и в Download, Documents и на USB устройства, включително тези на Projectivy.</string>
+    <string name="backup_files_searching">Търсят се файлове с резервни копия…</string>
+    <string name="backup_files_none">Няма намерени файлове с резервни копия</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Папката на QLauncher</string>
+    <string name="backup_files_access">Намиране на резервни копия от други приложения и устройства</string>
+    <string name="backup_files_access_desc">Разрешаване на достъп до всички файлове</string>
+    <string name="backup_files_access_unavailable">На това устройство няма екран с настройки. Разрешете достъп до всички файлове с: %1$s</string>
+    <string name="backup_files_browse">Друго местоположение…</string>
+    <string name="backup_files_browse_desc">Изберете файл със системния инструмент за избор на файлове</string>
+    <string name="backup_auto_delete_all">Изтриване на всички</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">След промяна</string>
+    <string name="backup_reason_import">Преди импортиране</string>
+    <string name="backup_reason_migration">Преди актуализация</string>
+    <string name="backup_reason_reset">Преди нулиране</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Профил #</string>
+    <string name="backup_no_picture_manager">Няма зареден мениджър на картината</string>
+    <string name="backup_no_picture_manager_detail">Това устройство не предлага поддържан начин за промяна на настройките на картината, затова профилите пазят стойностите си, без да ги прилагат.</string>
+</resources>

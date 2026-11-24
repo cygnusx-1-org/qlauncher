@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">تنظیمات</string>
+    <string name="settings_breadcrumb_display">نمایشگر</string>
+    <string name="settings_breadcrumb_applications">برنامه‌ها</string>
+    <string name="settings_breadcrumb_system">سیستم</string>
+    <string name="settings_breadcrumb_about">درباره</string>
+    <string name="settings_root_title">تنظیمات QLauncher</string>
+    <string name="settings_root_description">تنظیمات برنامه را پیکربندی کنید.</string>
+    <string name="settings_legend_a11y_required">به سرویس دسترس‌پذیری نیاز دارد</string>
+    <string name="settings_legend_a11y_recommended">سرویس دسترس‌پذیری توصیه می‌شود</string>
+    <string name="settings_legend_experimental">آزمایشی</string>
+    <string name="settings_launcher_related">تنظیمات مربوط به راه‌انداز</string>
+
+    <string name="settings_general">عمومی</string>
+    <string name="settings_appearance">ظاهر</string>
+    <string name="settings_power">نیرو</string>
+    <string name="settings_parental">کنترل والدین</string>
+    <string name="settings_remote">کنترل از راه دور</string>
+    <string name="settings_accessibility">سرویس دسترس‌پذیری</string>
+    <string name="settings_display_profiles">نمایه‌های نمایشگر</string>
+    <string name="settings_manage">مدیریت تنظیمات</string>
+
+    <!-- General -->
+    <string name="settings_language">تغییر زبان برنامه</string>
+    <string name="settings_language_system">پیش‌فرض سیستم</string>
+    <string name="settings_default_launcher">تغییر راه‌انداز پیش‌فرض</string>
+    <string name="settings_default_launcher_unavailable">این دستگاه راهی برای تغییر راه‌انداز پیش‌فرض ندارد. به‌جای آن از «جایگزینی راه‌انداز فعلی» استفاده کنید.</string>
+    <string name="settings_override_home">جایگزینی راه‌انداز فعلی</string>
+    <string name="settings_override_home_desc">رهگیری فراخوانی‌های راه‌انداز فعلی (اگر نمی‌توانید راه‌انداز اصلی را تغییر دهید یا حذف کنید، مفید است)</string>
+    <string name="settings_enable_channels">فعال کردن کانال‌ها</string>
+    <string name="settings_enable_channels_desc">اگر از آن‌ها استفاده نمی‌کنید، خاموش کردن این گزینه راه‌اندازی را سریع‌تر می‌کند و حافظه کمتری مصرف می‌کند</string>
+    <string name="settings_programs_per_channel">تعداد برنامه در هر کانال</string>
+    <string name="settings_crash_error_reports">فعال کردن گزارش ناشناس خرابی‌ها و خطاها</string>
+    <string name="settings_reports_desc">فقط خطا، نسخه برنامه و مدل دستگاه فرستاده می‌شود</string>
+    <string name="settings_check_updates">بررسی به‌روزرسانی</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">دسته‌ها / کانال‌ها</string>
+    <string name="settings_cards">کارت‌ها</string>
+    <string name="settings_wallpaper">کاغذدیواری</string>
+    <string name="settings_status_bar">نوار وضعیت</string>
+    <string name="settings_left_headers">سرعنوان‌های کناری</string>
+    <string name="settings_idle_mode">حالت بیکاری راه‌انداز</string>
+    <string name="settings_font">قلم</string>
+    <string name="settings_themes">تم‌ها</string>
+    <string name="settings_themes_desc">وارد کردن / صادر کردن</string>
+    <string name="settings_load_cards_scrolling">بارگذاری کارت‌ها هنگام پیمایش</string>
+    <string name="settings_load_cards_scrolling_desc">پاسخ‌گوتر، به بهای روانی کمتر</string>
+    <string name="settings_accent">رنگ تأکیدی</string>
+    <string name="settings_accent_desc">برای پیروی از کاغذدیواری، حالت پویا را روشن کنید</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">نمایش عنوان</string>
+    <string name="settings_show_icon_title">نمایش نماد پیش از عنوان</string>
+    <string name="settings_rows_spacing">فاصله عمودی (بر حسب % ارتفاع صفحه)</string>
+    <string name="settings_fixed_position">ثابت نگه داشتن جای دسته انتخاب‌شده</string>
+    <string name="settings_hide_rows_above">پنهان کردن ردیف‌های بالای مورد انتخاب‌شده</string>
+    <string name="settings_remember_focus">به خاطر سپردن جای کارت انتخاب‌شده</string>
+    <string name="settings_unselected_opacity">کدری ردیف‌های انتخاب‌نشده</string>
+    <string name="settings_top_margin">حاشیه بالا</string>
+    <string name="settings_start_margin">حاشیه ابتدا</string>
+    <string name="settings_end_margin">حاشیه انتها</string>
+    <string name="settings_dock_padding">فاصله داخلی داک</string>
+    <string name="settings_tint_custom_icons">ته‌رنگ نمادهای سفارشی</string>
+    <string name="settings_tint_custom_icons_desc">برای نمادهای سفارشی بدون پس‌زمینه</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">گوشه‌های گرد</string>
+    <string name="settings_cards_size">اندازه کارت‌ها</string>
+    <string name="settings_cards_spacing">فاصله کارت‌ها</string>
+    <string name="settings_loop_limit">محدودیت تکرار نمادهای متحرک</string>
+    <string name="settings_ripple">جلوه موج هنگام فشردن کارت</string>
+    <string name="settings_background_color">رنگ پس‌زمینه</string>
+    <string name="settings_focused_card">کارت انتخاب‌شده</string>
+    <string name="settings_program_cards">کارت‌های برنامه تلویزیونی</string>
+    <string name="settings_tv_ratio">نسبت ابعاد کارت برنامه‌های تلویزیون</string>
+    <string name="settings_mobile_ratio">نسبت ابعاد کارت برنامه‌های موبایل</string>
+    <string name="settings_icon_pack">بسته نماد</string>
+    <string name="settings_icon_pack_none">هیچ بسته نمادی نصب نیست</string>
+    <string name="settings_icon_pack_off">هیچ‌کدام</string>
+    <string name="settings_more">بیشتر…</string>
+    <string name="settings_custom_icon_tint">ته‌رنگ نماد سفارشی</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">اندازه کارت انتخاب‌شده</string>
+    <string name="settings_focused_effect">جلوه کارت انتخاب‌شده</string>
+    <string name="settings_effect_none">هیچ‌کدام</string>
+    <string name="settings_effect_shadow">سایه</string>
+    <string name="settings_effect_glow">درخشش</string>
+    <string name="settings_glow_animation">پویانمایی درخشش</string>
+    <string name="settings_anim_none">هیچ‌کدام</string>
+    <string name="settings_anim_pulse">تپش</string>
+    <string name="settings_anim_breath">نفس</string>
+    <string name="settings_anim_fade">محوشدگی</string>
+    <string name="settings_anim_shine">برق</string>
+    <string name="settings_glow_size">اندازه درخشش</string>
+    <string name="settings_glow_color">رنگ درخشش</string>
+    <string name="settings_glow_color_desc">برای استفاده از رنگ خود کارت، خالی بگذارید</string>
+    <string name="settings_colors_override">جایگزینی رنگ‌ها</string>
+    <string name="settings_override_none">هیچ‌کدام</string>
+    <string name="settings_override_swap">جابه‌جایی پس‌زمینه/ته‌رنگ</string>
+    <string name="settings_override_custom">سفارشی</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">پخش ویدیوی پیش‌نمایش</string>
+    <string name="settings_preview_never">هرگز</string>
+    <string name="settings_preview_always">همیشه</string>
+    <string name="settings_preview_no_media">وقتی هیچ رسانه‌ای در پس‌زمینه پخش نمی‌شود</string>
+    <string name="settings_show_progress">نمایش نوار پیشرفت</string>
+    <string name="settings_show_badge">نمایش نشان</string>
+    <string name="settings_zoom_focus">جلوه بزرگ‌نمایی هنگام انتخاب</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">قالب‌های پشتیبانی‌شده: تصویر ثابت، GIF متحرک، ویدیو (ثابت یا پخش زنده RTSP)، پویانمایی Lottie</string>
+    <string name="settings_launcher_wallpaper">کاغذدیواری راه‌انداز</string>
+    <string name="settings_configure">پیکربندی</string>
+    <string name="settings_show_wallpapers">نمایش کاغذدیواری‌ها</string>
+    <string name="settings_picture_adjustment">تنظیم تصویر</string>
+    <string name="settings_image_transition">جلوه گذار تصویر</string>
+    <string name="settings_update_frequency">تناوب به‌روزرسانی (دقیقه)</string>
+    <string name="settings_video_wallpaper">کاغذدیواری ویدیویی</string>
+    <string name="settings_display_mode">حالت نمایش</string>
+    <string name="settings_bad_ratio">در صورت نسبت/کیفیت نامناسب</string>
+    <string name="settings_min_width">حداقل عرض قابل‌قبول (px)</string>
+    <string name="settings_src_none">هیچ‌کدام</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">رنگ‌های پویا</string>
+    <string name="settings_src_default">کاغذدیواری پیش‌فرض</string>
+    <string name="settings_src_media">فایل رسانه</string>
+    <string name="settings_src_folder">پوشه</string>
+    <string name="settings_src_focused_program">برنامه تلویزیونی انتخاب‌شده</string>
+    <string name="settings_src_now_playing">در حال پخش</string>
+    <string name="settings_src_random_program">برنامه تلویزیونی تصادفی</string>
+    <string name="settings_src_theme">تم</string>
+    <string name="settings_tr_none">هیچ‌کدام</string>
+    <string name="settings_tr_random">تصادفی</string>
+    <string name="settings_tr_fade">محوشدگی</string>
+    <string name="settings_tr_zoom">بزرگ‌نمایی</string>
+    <string name="settings_tr_hslide">لغزش افقی</string>
+    <string name="settings_tr_vslide">لغزش عمودی</string>
+    <string name="settings_dm_automatic">خودکار</string>
+    <string name="settings_dm_skip">رد کردن</string>
+    <string name="settings_dm_crop">برش</string>
+    <string name="settings_dm_stretch">کشیدن</string>
+    <string name="settings_dm_fit">جا دادن در مرکز</string>
+    <string name="settings_dm_fit_blur">جا دادن در مرکز + پس‌زمینه محو</string>
+    <string name="settings_dm_blur">محو</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">فام</string>
+    <string name="settings_saturation">اشباع</string>
+    <string name="settings_contrast">کنتراست</string>
+    <string name="settings_brightness">روشنایی</string>
+    <string name="settings_tint">ته‌رنگ</string>
+    <string name="settings_tint_amount">میزان ته‌رنگ</string>
+    <string name="settings_blur">محو</string>
+    <string name="settings_shadow_h">طول لایه سایه افقی</string>
+    <string name="settings_shadow_v">طول لایه سایه عمودی</string>
+    <string name="settings_shadow_opacity">کدری لایه سایه</string>
+    <string name="settings_shadow_tint">ته‌رنگ لایه سایه</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">نادیده گرفتن تناوب به‌روزرسانی</string>
+    <string name="settings_ignore_update_desc">صبر تا پایان ویدیو پیش از درخواست کاغذدیواری جدید</string>
+    <string name="settings_video_color_freq">تناوب به‌روزرسانی رنگ پویا</string>
+    <string name="settings_video_color_freq_desc">فاصله بر حسب ثانیه میان فریم‌های ویدیو که رنگ‌ها از آن‌ها خوانده می‌شود؛ 0 آن را خاموش می‌کند</string>
+    <string name="settings_volume">میزان صدا</string>
+    <string name="settings_tunneling">استفاده از پردازش سخت‌افزاری (تونل‌سازی)</string>
+    <string name="settings_decoder_fallback">فعال کردن رمزگشاهای جایگزین</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">مدیریت مجوز اعلان‌ها</string>
+    <string name="settings_granted">اعطا شده</string>
+    <string name="settings_not_granted">اعطا نشده</string>
+    <string name="settings_notification_adb">این دستگاه صفحه تنظیمات مربوط را ندارد. با این فرمان اجازه دهید: %1$s</string>
+    <string name="settings_clock">ساعت</string>
+    <string name="settings_icons">نمادها</string>
+    <string name="settings_show_system_bar">نمایش نوار وضعیت سیستم</string>
+    <string name="settings_autohide_status">پنهان کردن نوار وضعیت هنگام پیمایش</string>
+    <string name="settings_show_clock">نمایش ساعت</string>
+    <string name="settings_clock_size">اندازه قلم ساعت</string>
+    <string name="settings_clock_color">رنگ ساعت</string>
+    <string name="settings_drop_shadow">سایه</string>
+    <string name="settings_clock_line1">قالب ساعت (خط ۱)</string>
+    <string name="settings_clock_line2">قالب ساعت (خط ۲)</string>
+    <string name="settings_clock_default_format">قالب سیستم</string>
+    <string name="settings_empty">خالی</string>
+    <string name="settings_icons_size">اندازه نمادها</string>
+    <string name="settings_icons_color">رنگ نمادها</string>
+    <string name="settings_icons_container">رنگ زمینه نمادها</string>
+    <string name="settings_show_settings">نمایش تنظیمات</string>
+    <string name="settings_show_settings_desc">تنظیمات با این دنباله دکمه‌ها همچنان در دسترس است: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">نمایش اتصال</string>
+    <string name="settings_show_notifications">نمایش اعلان‌ها</string>
+    <string name="settings_autohide_notifications">پنهان کردن نماد اعلان وقتی خالی است</string>
+    <string name="settings_show_battery">نمایش باتری</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">فعال کردن</string>
+    <string name="settings_headers_on_launch">نمایش سرعنوان‌های کناری هنگام اجرا</string>
+    <string name="settings_show_icon">نمایش نماد</string>
+    <string name="settings_show_reorder">نمایش تغییر ترتیب</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">مهلت تا حالت بیکاری (دقیقه)</string>
+    <string name="settings_idle_opacity">کدری رابط کاربری</string>
+    <string name="settings_keep_clock">حفظ ساعت</string>
+    <string name="settings_prevent_screensaver">جلوگیری از محافظ صفحه سیستم</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">تنظیمات قلم QLauncher را تغییر دهید. نام خانواده‌های قلم را می‌توانید در Google Fonts پیدا کنید.</string>
+    <string name="settings_font_list">انتخاب از فهرست</string>
+    <string name="settings_font_google">قلم (Google Fonts)</string>
+    <string name="settings_font_default">پیش‌فرض</string>
+    <string name="settings_bold">پررنگ</string>
+    <string name="settings_italic">مورب</string>
+    <string name="settings_size">اندازه</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">اجرای خودکار هنگام روشن شدن</string>
+    <string name="settings_autostart_none">هیچ‌کدام</string>
+    <string name="settings_autostart_screensaver">[*] محافظ صفحه (در صورت پشتیبانی)</string>
+    <string name="settings_autostart_resume">…و هنگام بازگشت از حالت آماده‌به‌کار</string>
+    <string name="settings_autostart_delay">تأخیر اجرای خودکار (ثانیه)</string>
+    <string name="settings_simulate_activity">جلوگیری از خاموش شدن خودکار سیستم در زمان بیکاری</string>
+    <string name="settings_idle_detection">فعال کردن تشخیص داخلی بیکاری</string>
+    <string name="settings_idle_timeout_power">مهلت بیکاری (ساعت:دقیقه)</string>
+    <string name="settings_idle_action">کنش در زمان بیکاری</string>
+    <string name="settings_idle_action_shutdown">خاموش کردن</string>
+    <string name="settings_idle_action_screen_off">خاموش کردن صفحه</string>
+    <string name="settings_idle_action_screensaver">محافظ صفحه (در صورت پشتیبانی)</string>
+    <string name="settings_idle_media">نادیده گرفتن حالت بیکاری هنگام پخش رسانه</string>
+    <string name="settings_missing_notification_permission">⚠️ مجوز اعلان داده نشده است</string>
+    <string name="settings_shutdown_action">کنش خاموش کردن</string>
+    <string name="settings_shutdown_dialog">منوی روشن/خاموش</string>
+    <string name="settings_shutdown_dialog_twice">منوی روشن/خاموش (دو بار فراخوانی)</string>
+    <string name="settings_shutdown_dialog_ok">منوی روشن/خاموش + OK</string>
+    <string name="settings_hdmi_exit">خاموش شدن خودکار وقتی سیگنال ورودی HDMI قطع می‌شود</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">کدی تعیین کنید تا برنامه‌های انتخاب‌شده قفل شوند (برای انتخاب آن‌ها، کارتی را در صفحه اصلی فشار داده و نگه دارید)، در تمام روز یا بخشی از روز</string>
+    <string name="settings_parental_set_code">تنظیم کد والدین جدید</string>
+    <string name="settings_parental_code_set">یک کد تنظیم شده است</string>
+    <string name="settings_parental_long">تا ۱۵ دقیقه پس از تأیید موفق، کد درخواست نشود</string>
+    <string name="settings_parental_protect">محافظت از تنظیمات راه‌انداز و تغییرات رابط کاربری</string>
+    <string name="settings_parental_protect_desc">(به‌صورت شبانه‌روزی اعمال می‌شود)</string>
+    <string name="settings_parental_partial">فعال کردن محافظت فقط در بازه زمانی</string>
+    <string name="settings_parental_start">زمان شروع (ساعت:دقیقه)</string>
+    <string name="settings_parental_end">زمان پایان (ساعت:دقیقه)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">نمایش اطلاعات با دو بار فشردن «منو»</string>
+    <string name="settings_back_double">«حالت محیطی» با دو بار فشردن «برگشت»</string>
+    <string name="settings_back_double_desc">اجرای محافظ صفحه در دستگاه‌های پشتیبانی‌شده</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">این سرویس را روشن کنید تا هنگام روشن شدن دستگاه کاری اجرا شود، دکمه‌های کنترل از راه دور سفارشی شوند، کنترل والدین قوی‌تر شود و زمان بیکاری برای مدیریت نیرو تشخیص داده شود. این سرویس فشردن کلیدهای سخت‌افزاری و نام برنامه در پیش‌زمینه را می‌بیند؛ هر دو در حافظه همین دستگاه می‌مانند و هرگز به جایی فرستاده نمی‌شوند.</string>
+    <string name="settings_a11y_enabled">فعال</string>
+    <string name="settings_a11y_started">اجرا شده</string>
+    <string name="settings_yes">بله</string>
+    <string name="settings_no">خیر</string>
+    <string name="settings_a11y_open">نمایش تنظیمات دسترس‌پذیری</string>
+    <string name="settings_a11y_consent_title">سرویس دسترس‌پذیری</string>
+    <string name="settings_a11y_consent">با این کار، QLauncher می‌تواند فشردن دکمه‌های سخت‌افزاری و نام برنامه در پیش‌زمینه را ببیند. هر دو فقط در حافظه همین دستگاه نگه داشته می‌شوند و هرگز به جایی فرستاده نمی‌شوند. موافقید؟</string>
+    <string name="settings_a11y_alternate">استفاده از پیکربندی جایگزین</string>
+    <string name="settings_a11y_alternate_desc">مشکلات برخی دستگاه‌ها را برطرف می‌کند</string>
+    <string name="settings_a11y_volume_fix">رفع مشکل دکمه‌های صدا</string>
+    <string name="settings_a11y_volume_fix_desc">هنگام فشردن دکمه صدا، تغییر عملکرد دکمه‌ها برای لحظه‌ای متوقف می‌شود تا فشار طولانی همچنان کار کند</string>
+    <string name="settings_a11y_remap">فعال کردن تغییر عملکرد دکمه‌ها</string>
+    <string name="settings_a11y_remap_desc">این سرویس فشردن کلیدها را رهگیری می‌کند. خاموش کردن این گزینه از مشکلات فشار طولانی دکمه صدا و متوقف شدن سرویس توسط سیستم جلوگیری می‌کند، اما ممکن است جایگزینی راه‌انداز، کنترل والدین و تشخیص بیکاری کارایی کمتری داشته باشند.</string>
+    <string name="settings_a11y_reminder">نمایش یادآوری</string>
+    <string name="settings_a11y_reminder_desc">اگر سرویس دسترس‌پذیری خاموش باشد</string>
+    <string name="settings_a11y_unbound_toast">سرویس دسترس‌پذیری QLauncher در حال اجرا نیست</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">تنظیمات را در همین دستگاه یا با برنامه‌ای دیگر مانند LocalSend یا یک مدیر فایل، وارد یا صادر کنید.</string>
+    <string name="settings_import">وارد کردن</string>
+    <string name="settings_import_file">از یک فایل</string>
+    <string name="settings_import_auto">از پشتیبان خودکار</string>
+    <string name="settings_export">صادر کردن</string>
+    <string name="settings_export_local">ذخیره در دستگاه</string>
+    <string name="settings_export_share">اشتراک‌گذاری با برنامه دیگر</string>
+    <string name="settings_reset">بازنشانی به پیش‌فرض</string>
+    <string name="settings_cancel">لغو</string>
+    <string name="settings_ok">تأیید</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">دسته</string>
+    <string name="wp_custom_search">جستجوی سفارشی</string>
+    <string name="wp_reddit_login">ورود</string>
+    <string name="wp_reddit_logout">خروج: %1$s</string>
+    <string name="wp_reddit_logout_unknown">خروج</string>
+    <string name="wp_subreddit">انجمن Reddit</string>
+    <string name="wp_custom_subreddit">انجمن سفارشی</string>
+    <string name="wp_custom_subreddit_hint">چند نام که با + از هم جدا شده‌اند</string>
+    <string name="wp_folder">پوشه</string>
+    <string name="wp_folder_choose">انتخاب پوشه</string>
+    <string name="wp_media">فایل رسانه</string>
+    <string name="wp_media_choose">انتخاب فایل</string>
+    <string name="wp_choose_other">مکان دیگر…</string>
+    <string name="wp_choose_other_desc">انتخاب با انتخابگر فایل سیستم</string>
+    <string name="wp_media_searching">در حال جستجوی تصاویر و ویدیوها…</string>
+    <string name="wp_media_none">هیچ تصویر یا ویدیویی پیدا نشد. چند فایل در Pictures، Movies یا Download کپی کنید، یا یک درایو USB وصل کنید.</string>
+    <string name="wp_folders_description">پوشه‌های دارای تصویر یا ویدیو، در این دستگاه و روی درایوهای USB.</string>
+    <string name="wp_folders_none">هیچ پوشه‌ای با تصویر یا ویدیو پیدا نشد</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d فایل</item>
+        <item quantity="other">%d فایل</item>
+    </plurals>
+    <string name="wp_media_color">رنگ ساده</string>
+    <string name="wp_theme_desc">کاغذدیواری‌های همراه تم واردشده</string>
+    <string name="wp_plugin_settings">تنظیمات افزونه</string>
+    <string name="wp_not_set">تنظیم نشده</string>
+    <string name="wp_status">وضعیت</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">این کاغذدیواری</string>
+    <string name="wp_next">بعدی</string>
+    <string name="wp_source">منبع</string>
+    <string name="wp_title">عنوان</string>
+    <string name="wp_author">سازنده</string>
+    <string name="wp_set_user">تنظیم به‌عنوان کاغذدیواری کاربر</string>
+    <string name="wp_view">مشاهده</string>
+    <string name="wp_unknown">نامشخص</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">نمایه‌های نمایش ویدیو را اینجا بسازید و مدیریت کنید. آن‌ها را به منابع ورودی پیوند دهید تا خودکار تغییر کنند، یا با دو بار فشردن «منو» و سپس بالا یا پایین اعمالشان کنید.</string>
+    <string name="dp_list">فهرست نمایه‌های نمایشگر</string>
+    <string name="dp_list_desc">نمایه‌های نمایش ویدیو را اینجا بسازید یا ویرایش کنید. بسته به دستگاه، برخی کنترل‌ها به Root نیاز دارند یا اصلاً کار نمی‌کنند؛ آن‌ها برای دستگاه‌های AmLogic طراحی شده‌اند.</string>
+    <string name="dp_add">افزودن جدید…</string>
+    <string name="dp_name">نام نمایه</string>
+    <string name="dp_preview">پیش‌نمایش</string>
+    <string name="dp_fullscreen">پیش‌نمایش تمام‌صفحه</string>
+    <string name="dp_fullscreen_desc">یا با دکمه «منو» آن را روشن/خاموش کنید</string>
+    <string name="dp_delete">حذف نمایه</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">نصب برنامه‌های شخص ثالث</string>
+    <string name="install_desc">برنامه‌ای را برای نصب انتخاب کنید. ممکن است لازم باشد ابتدا نصب از منابع ناشناس را مجاز کنید.</string>
+    <string name="install_custom">نشانی URL دلخواه / کد Downloader</string>
+    <string name="install_custom_desc">فقط از منبعی استفاده کنید که به آن اعتماد دارید</string>
+    <string name="install_status">وضعیت</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">این دستگاه</string>
+
+    <string name="gallery_filter">فیلتر…</string>
+    <string name="settings_no_file_picker">این دستگاه انتخابگر فایل ندارد</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">درخشندگی</string>
+    <string name="color_opacity">کدری</string>
+    <string name="color_prefer_dynamic">ترجیح رنگ پویا</string>
+    <string name="color_prefer_dynamic_desc">در صورت وجود، این درخشندگی/کدری حفظ می‌شود</string>
+    <string name="color_clear">پاک کردن</string>
+    <string name="color_reset">بازنشانی به پیش‌فرض</string>
+</resources>

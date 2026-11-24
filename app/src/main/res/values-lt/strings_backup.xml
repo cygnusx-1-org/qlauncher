@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Numatytasis</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">paryškintas</string>
+    <string name="backup_clock_markup_italic">kursyvas</string>
+    <string name="backup_clock_markup_underline">pabrauktas</string>
+    <string name="backup_clock_markup_strikethrough">perbrauktas</string>
+    <string name="backup_clock_markup_subscript">apatinis indeksas</string>
+    <string name="backup_clock_markup_superscript">viršutinis indeksas</string>
+    <string name="backup_clock_markup_half_size">pusė dydžio</string>
+    <string name="backup_clock_markup_one_and_a_half_size">pusantro karto</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Juodos spalvos kirpimas</string>
+    <string name="backup_pattern_apl_clipping">APL kirpimas</string>
+    <string name="backup_pattern_white_clipping">Baltos spalvos kirpimas</string>
+    <string name="backup_pattern_grayscale_ramp">Pilkumo skalės gradientas</string>
+    <string name="backup_pattern_grayscale_steps">Pilkumo skalės pakopos</string>
+    <string name="backup_pattern_dynamic_brightness">Dinaminis šviesumas</string>
+    <string name="backup_pattern_color_steps">Spalvų pakopos</string>
+    <string name="backup_pattern_color_clipping">Spalvų kirpimas</string>
+    <string name="backup_pattern_flashing_color_bars">Mirksinčios spalvų juostos</string>
+    <string name="backup_pattern_sharpness_overscan">Ryškumas &amp; overscan</string>
+    <string name="backup_pattern_uhd">UHD šablonas</string>
+    <string name="backup_pattern_judder">Trūkčiojimo testas</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Kraštinių santykio ryškumas</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Juodos spalvos lygis</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Spalvų kirpimas 240–1000 nitų</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Spalvų kirpimas 3600–10000 nitų</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Spalvų kirpimas 700–10000 nitų</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Spalvų kirpimas 900–4000 nitų</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Pilkumo skalės gradientas 10000 nitų</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Pilkumo skalės gradientas 1000 nitų</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Pilkumo skalės gradientas 4000 nitų</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Juodos spalvos PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Spalvų gradientai</string>
+    <string name="backup_pattern_unavailable">Šablonui „%1$s“ reikia HDR vaizdo kelio, todėl jis dar nepasiekiamas</string>
+    <!-- Pages -->
+    <string name="backup_settings">Nustatymai</string>
+    <string name="backup_manage_settings">Tvarkyti nustatymus</string>
+    <string name="backup_themes">Temos</string>
+    <string name="backup_import">Importuoti</string>
+    <string name="backup_export">Eksportuoti</string>
+    <string name="backup_import_from_file">Iš failų tvarkytuvės</string>
+    <string name="backup_import_from_auto">Iš automatinės atsarginės kopijos</string>
+    <string name="backup_export_save">Išsaugoti vietoje</string>
+    <string name="backup_export_share">Bendrinti su kita programa</string>
+    <string name="backup_reset">Atkurti numatytuosius</string>
+    <string name="backup_cancel">Atšaukti</string>
+    <string name="backup_ok">Gerai</string>
+    <string name="backup_done">Atlikta</string>
+    <string name="backup_close">Uždaryti</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Eksportuoti nustatymus</string>
+    <string name="backup_export_theme_title">Eksportuoti temą</string>
+    <string name="backup_export_description">Viskas išsaugoma viename faile, užšifruotame jūsų pasirinktu slaptažodžiu (ne mažiau kaip %1$d simb.). Slaptažodžio reikės failui importuoti, o jo atkurti neįmanoma.</string>
+    <string name="backup_export_theme_description">Išvaizdos nustatymai ir dabartinis ekrano fonas išsaugomi viename faile, užšifruotame jūsų pasirinktu slaptažodžiu (ne mažiau kaip %1$d simb.). Slaptažodžio reikės temai importuoti.</string>
+    <string name="backup_password">Slaptažodis</string>
+    <string name="backup_password_show">Rodyti slaptažodį</string>
+    <string name="backup_password_hide">Slėpti slaptažodį</string>
+    <string name="backup_password_strength">Slaptažodžio stiprumas</string>
+    <string name="backup_strength_too_short">Per trumpas: ne mažiau kaip %1$d simb.</string>
+    <string name="backup_strength_weak">Silpnas: lengva atspėti</string>
+    <string name="backup_strength_fair">Vidutinis</string>
+    <string name="backup_strength_strong">Stiprus</string>
+    <string name="backup_password_too_short">Slaptažodyje turi būti ne mažiau kaip %1$d simb.</string>
+    <string name="backup_exporting">Eksportuojama…</string>
+    <string name="backup_export_saved">Išsaugota: %1$s</string>
+    <string name="backup_export_kept">Niekur kitur neišsaugota. Failas lieka čia: %1$s</string>
+    <string name="backup_export_shared">Išsiųsta. Kopija lieka čia: %1$s</string>
+    <string name="backup_export_no_file_manager">Jokia šio įrenginio programa negali priimti failo. Jis yra čia: %1$s</string>
+    <string name="backup_export_failed">Eksportuoti nepavyko: %1$s</string>
+    <string name="backup_share_title">Siųsti QLauncher failą naudojant</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Importuojant pakeičiama dabartinė sąranka. Pirmiausia sukuriama automatinė atsarginė kopija, o baigus QLauncher paleidžiamas iš naujo.</string>
+    <string name="backup_reading">Skaitomas failas…</string>
+    <string name="backup_import_action">Importuoti</string>
+    <string name="backup_wrong_password">Neteisingas slaptažodis</string>
+    <string name="backup_password_hint">Slaptažodis, pasirinktas eksportuojant failą</string>
+    <string name="backup_not_a_backup">Tai nėra QLauncher ar Projectivy atsarginė kopija ar tema.</string>
+    <string name="backup_damaged">Failas sugadintas arba neišsamus.</string>
+    <string name="backup_too_new">Šis failas sukurtas naujesne QLauncher versija (formatas %1$d). Atnaujinkite QLauncher, kad galėtumėte jį importuoti.</string>
+    <string name="backup_unreadable">Šios automatinės atsarginės kopijos šiame įrenginyje nuskaityti negalima.</string>
+    <string name="backup_import_failed">Importuoti nepavyko, niekas nepakeista: %1$s</string>
+    <string name="backup_applying">Importuojama… Baigus QLauncher bus paleistas iš naujo.</string>
+    <string name="backup_origin_ql_backup">QLauncher nustatymų atsarginė kopija</string>
+    <string name="backup_origin_ql_theme">QLauncher tema</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher nustatymų atsarginė kopija</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher tema</string>
+    <string name="backup_origin_auto">Automatinė atsarginė kopija</string>
+    <string name="backup_preview_theme_by">%1$s, autorius: %2$s</string>
+    <string name="backup_preview_version">versija %1$s</string>
+    <string name="backup_preview_settings">Nustatymai</string>
+    <string name="backup_preview_categories">Kategorijos</string>
+    <string name="backup_preview_apps">Programų tinkinimai</string>
+    <string name="backup_preview_profiles">Ekrano profiliai</string>
+    <string name="backup_preview_files">Ekrano fonai ir piktogramos</string>
+    <string name="backup_preview_skipped">Programos, kurių nėra šiame įrenginyje</string>
+    <string name="backup_replace_setup">Pakeisti dabartinę sąranką</string>
+    <string name="backup_apply_theme">Taikyti temą</string>
+    <string name="backup_replace_detail">Pirmiausia sukuriama automatinė dabartinės sąrankos atsarginė kopija</string>
+    <string name="backup_nc_parental">Tėvų kontrolės kodas</string>
+    <string name="backup_nc_parental_detail">Neperkeliamas. Nustatykite naują kodą skiltyje „Tėvų kontrolė“.</string>
+    <string name="backup_nc_premium">Premium būsena</string>
+    <string name="backup_nc_premium_detail">Neperkeliama. Visos QLauncher funkcijos nemokamos.</string>
+    <string name="backup_nc_inputs">TV įvestys</string>
+    <string name="backup_nc_profile_bindings">Ekrano profilių susiejimai</string>
+    <string name="backup_nc_plugin">Ekrano fono papildinys</string>
+    <string name="backup_nc_plugin_detail">%1$s neįdiegtas. Ekrano fonų šaltinis lieka nepakeistas.</string>
+    <string name="backup_nc_icons">Pasirinktinės piktogramos</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d pakeista reikšmė</item>
+        <item quantity="few">%1$d pakeistos reikšmės</item>
+        <item quantity="many">%1$d pakeistos reikšmės</item>
+        <item quantity="other">%1$d pakeistų reikšmių</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategorija</item>
+        <item quantity="few">%1$d kategorijos</item>
+        <item quantity="many">%1$d kategorijos</item>
+        <item quantity="other">%1$d kategorijų</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d programa</item>
+        <item quantity="few">%1$d programos</item>
+        <item quantity="many">%1$d programos</item>
+        <item quantity="other">%1$d programų</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profilis</item>
+        <item quantity="few">%1$d profiliai</item>
+        <item quantity="many">%1$d profilio</item>
+        <item quantity="other">%1$d profilių</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d failas</item>
+        <item quantity="few">%1$d failai</item>
+        <item quantity="many">%1$d failo</item>
+        <item quantity="other">%1$d failų</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">Praleistas %1$d nežinomas nustatymas</item>
+        <item quantity="few">Praleisti %1$d nežinomi nustatymai</item>
+        <item quantity="many">Praleista %1$d nežinomo nustatymo</item>
+        <item quantity="other">Praleista %1$d nežinomų nustatymų</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d įrašas neatitinka jokios čia įdiegtos programos, todėl praleidžiamas</item>
+        <item quantity="few">%1$d įrašai neatitinka jokios čia įdiegtos programos, todėl praleidžiami</item>
+        <item quantity="many">%1$d įrašo neatitinka jokios čia įdiegtos programos, todėl praleidžiama</item>
+        <item quantity="other">%1$d įrašų neatitinka jokios čia įdiegtos programos, todėl praleidžiama</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d susiejimas su TV įvestimi, kurios šiame įrenginyje nėra, praleidžiamas</item>
+        <item quantity="few">%1$d susiejimai su TV įvestimis, kurių šiame įrenginyje nėra, praleidžiami</item>
+        <item quantity="many">%1$d susiejimo su TV įvestimis, kurių šiame įrenginyje nėra, praleidžiama</item>
+        <item quantity="other">%1$d susiejimų su TV įvestimis, kurių šiame įrenginyje nėra, praleidžiama</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d profilis, priskirtas įvesčiai, neperkeliamas</item>
+        <item quantity="few">%1$d profiliai, priskirti įvestims, neperkeliami</item>
+        <item quantity="many">%1$d profilio, priskirto įvestims, neperkeliama</item>
+        <item quantity="other">%1$d profilių, priskirtų įvestims, neperkeliama</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d piktograma, saugoma Projectivy viduje, nenuskaitoma ir praleidžiama</item>
+        <item quantity="few">%1$d piktogramos, saugomos Projectivy viduje, nenuskaitomos ir praleidžiamos</item>
+        <item quantity="many">%1$d piktogramos, saugomos Projectivy viduje, nenuskaitoma ir praleidžiama</item>
+        <item quantity="other">%1$d piktogramų, saugomų Projectivy viduje, nenuskaitoma ir praleidžiama</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automatinės atsarginės kopijos</string>
+    <string name="backup_auto_description">QLauncher šiame įrenginyje saugo iki %1$d paskutinių jūsų sąrankos versijų, užšifruotų raktu, kuris niekada nepalieka įrenginio. Pasirinkite vieną, kad ją atkurtumėte; slaptažodžio nereikia.</string>
+    <string name="backup_auto_none">Automatinių atsarginių kopijų nėra</string>
+    <string name="backup_files_title">Atsarginių kopijų failai</string>
+    <string name="backup_files_theme_title">Temų failai</string>
+    <string name="backup_files_description">Eksportuoti failai išsaugomi čia: %1$s. Turėdamas prieigą prie visų failų, QLauncher taip pat randa atsargines kopijas aplankuose Download ir Documents bei USB atmintinėse, įskaitant Projectivy kopijas.</string>
+    <string name="backup_files_searching">Ieškoma atsarginių kopijų failų…</string>
+    <string name="backup_files_none">Atsarginių kopijų failų nerasta</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher aplankas</string>
+    <string name="backup_files_access">Rasti kitų programų ir įrenginių atsargines kopijas</string>
+    <string name="backup_files_access_desc">Leisti pasiekti visus failus</string>
+    <string name="backup_files_access_unavailable">Šiame įrenginyje nėra nustatymų ekrano. Leiskite pasiekti visus failus komanda: %1$s</string>
+    <string name="backup_files_browse">Kita vieta…</string>
+    <string name="backup_files_browse_desc">Pasirinkite failą sistemos failų rinkikliu</string>
+    <string name="backup_auto_delete_all">Ištrinti viską</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Po pakeitimo</string>
+    <string name="backup_reason_import">Prieš importavimą</string>
+    <string name="backup_reason_migration">Prieš atnaujinimą</string>
+    <string name="backup_reason_reset">Prieš nustatant iš naujo</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profilis #</string>
+    <string name="backup_no_picture_manager">Neįkelta vaizdo tvarkytuvė</string>
+    <string name="backup_no_picture_manager_detail">Šis įrenginys nesiūlo palaikomo būdo keisti vaizdo nustatymus, todėl profiliai išsaugo savo reikšmes, bet jų netaiko.</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Cap</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Colors dinàmics</string>
+    <string name="wallpaper_provider_default">Fons de pantalla predeterminat</string>
+    <string name="wallpaper_provider_media_file">Fitxer multimèdia</string>
+    <string name="wallpaper_provider_folder">Carpeta</string>
+    <string name="wallpaper_provider_focused_program">Programa seleccionat</string>
+    <string name="wallpaper_provider_now_playing">En reproducció</string>
+    <string name="wallpaper_provider_random_program">Programa aleatori</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Connector</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Fons de pantalla</string>
+    <string name="wallpaper_wikimedia_nature">Natura</string>
+    <string name="wallpaper_wikimedia_landscapes">Paisatges</string>
+    <string name="wallpaper_wikimedia_mountains">Muntanyes</string>
+    <string name="wallpaper_wikimedia_forests">Boscos</string>
+    <string name="wallpaper_wikimedia_cities">Ciutats</string>
+    <string name="wallpaper_wikimedia_architecture">Arquitectura</string>
+    <string name="wallpaper_wikimedia_night">Nit</string>
+    <string name="wallpaper_wikimedia_space">Espai</string>
+    <string name="wallpaper_wikimedia_animals">Animals</string>
+    <string name="wallpaper_wikimedia_custom">[Cerca personalitzada]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit personalitzat]</string>
+    <string name="wallpaper_reddit_log_out">Tanca la sessió</string>
+    <string name="wallpaper_reddit_login_needed">Inicieu la sessió a Reddit per veure\'n els fons de pantalla.</string>
+    <string name="wallpaper_reddit_login_title">Inicia la sessió a Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">S\'està iniciant la sessió…</string>
+    <string name="wallpaper_reddit_login_denied">No s\'ha concedit l\'accés a Reddit, de manera que els fons de pantalla de Reddit continuen sense estar disponibles.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">La resposta de Reddit no corresponia a aquest intent d\'inici de sessió i s\'ha ignorat. Torneu-ho a provar.</string>
+    <string name="wallpaper_reddit_login_failed">No s\'ha pogut iniciar la sessió a Reddit (%1$s). Torneu-ho a provar més tard.</string>
+    <string name="wallpaper_reddit_login_network">No s\'ha pogut connectar amb Reddit. Comproveu la connexió de xarxa i torneu-ho a provar.</string>
+    <string name="wallpaper_reddit_login_page_error">No s\'ha pogut carregar la pàgina d\'inici de sessió de Reddit. Comproveu la connexió de xarxa i torneu-ho a provar.</string>
+    <string name="wallpaper_reddit_no_webview">Aquest dispositiu no té el component de navegador web (Android System WebView) que necessita l\'inici de sessió de Reddit. Instal·leu o activeu Android System WebView i torneu-ho a provar.</string>
+    <string name="wallpaper_reddit_retry">Torna-ho a provar</string>
+    <string name="wallpaper_reddit_close">Tanca</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">No hi ha connexió amb la font dels fons de pantalla.</string>
+    <string name="wallpaper_error_server">La font dels fons de pantalla ha respost amb un error.</string>
+    <string name="wallpaper_error_rate_limited">La font dels fons de pantalla ha demanat que s\'esperi abans de la sol·licitud següent.</string>
+    <string name="wallpaper_error_generic">No s\'han pogut carregar els fons de pantalla.</string>
+    <string name="wallpaper_error_no_media">No s\'ha triat cap imatge, vídeo ni color.</string>
+    <string name="wallpaper_error_no_folder">No s\'ha triat cap carpeta.</string>
+    <string name="wallpaper_error_folder_access">No es pot llegir la carpeta. Torneu-la a triar.</string>
+    <string name="wallpaper_error_folder_empty">La carpeta no conté cap imatge, vídeo ni animació Lottie.</string>
+    <string name="wallpaper_error_theme_empty">El tema actual no té cap fons de pantalla.</string>
+    <string name="wallpaper_error_no_channels">Els canals no estan disponibles. Activeu-los i permeteu l\'accés a la programació de TV.</string>
+    <string name="wallpaper_error_no_notification_access">«En reproducció» necessita accés a les notificacions.</string>
+    <string name="wallpaper_error_no_subreddit">No s\'ha definit cap subreddit vàlid.</string>
+    <string name="wallpaper_error_plugin">El connector de fons de pantalla no ha respost.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">S\'ha establert el fons de pantalla</string>
+    <string name="wallpaper_set_failed">Aquest fitxer no es pot utilitzar com a fons de pantalla.</string>
+</resources>

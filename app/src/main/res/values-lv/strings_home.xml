@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Tagad atskaņo</string>
+    <string name="home_cat_inputs">Ievades</string>
+    <string name="home_cat_favorites">Izlase</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Mūzika</string>
+    <string name="home_cat_games">Spēles</string>
+    <string name="home_cat_tv_apps">TV lietotnes</string>
+    <string name="home_cat_mobile_apps">Mobilās lietotnes</string>
+    <string name="home_cat_watch_next">Skatīties tālāk</string>
+    <string name="home_cat_shortcuts">Saīsnes</string>
+    <string name="home_cat_folders">Kategoriju mapes</string>
+    <string name="home_cat_live_tv">Tiešraides TV</string>
+    <string name="home_cat_settings">Iestatījumi</string>
+    <string name="home_cat_display">Displejs</string>
+    <string name="home_cat_applications">Lietotnes</string>
+    <string name="home_cat_system">Sistēma</string>
+    <string name="home_cat_about">Par</string>
+    <string name="home_new_category">Jauna kategorija</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Visas lietotnes</string>
+    <string name="home_action_edit_categories">Labot kategorijas</string>
+    <string name="home_action_edit_channels">Labot kanālus</string>
+    <string name="home_action_launcher_settings">QLauncher iestatījumi</string>
+    <string name="home_action_android_settings">Android iestatījumi</string>
+    <string name="home_action_amlogic_settings">AmLogic papildu iestatījumi</string>
+    <string name="home_action_display_profiles">Displeja profili</string>
+    <string name="home_action_install_apps">Instalēt trešo pušu lietotnes</string>
+    <string name="home_action_accessibility">Pieejamības pakalpojums</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Pārslēgt profilu</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Šī ierīce</string>
+    <string name="home_action_about_wallpaper">Šī fona tapete</string>
+
+    <!-- Program meta -->
+    <string name="home_season">%1$s. sezona</string>
+    <string name="home_episode">%1$s. sērija</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Savienojamība</string>
+    <string name="home_status_notifications">Paziņojumi</string>
+    <string name="home_status_settings">Iestatījumi</string>
+    <string name="home_status_wallpaper">Šī fona tapete</string>
+    <string name="home_navigation_menu">Navigācijas izvēlne</string>
+    <string name="home_reorder">Mainīt secību</string>
+    <string name="home_category_settings">Kategorijas iestatījumi</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Lietotnes iestatījumi</string>
+    <string name="menu_open">Atvērt</string>
+    <string name="menu_details">Informācija</string>
+    <string name="menu_play_pause">Atskaņot/pauzēt</string>
+    <string name="menu_stop">Apturēt</string>
+    <string name="menu_previous">Iepriekšējais</string>
+    <string name="menu_next">Nākamais</string>
+    <string name="menu_uninstall">Atinstalēt</string>
+    <string name="menu_launch_on_boot">Palaist, ieslēdzot ierīci</string>
+    <string name="menu_launch_on_boot_on">Tiek palaista, ieslēdzot ierīci</string>
+    <string name="menu_add_parental">Pievienot vecāku kontrolei</string>
+    <string name="menu_remove_parental">Noņemt no vecāku kontroles</string>
+    <string name="menu_shortcuts">Saīsnes</string>
+    <string name="menu_appearance">Izskats</string>
+    <string name="menu_title">Nosaukums</string>
+    <string name="menu_change_icon">Mainīt ikonu</string>
+    <string name="menu_icon_from_picture">No attēla</string>
+    <string name="menu_icon_other_location">Cita atrašanās vieta…</string>
+    <string name="menu_icon_no_pictures">Netika atrasts neviens attēls. Iekopējiet dažus mapē Pictures vai Download vai pievienojiet USB disku.</string>
+    <string name="menu_icon_reset">Atiestatīt</string>
+    <string name="menu_crop">Apgriezt, lai aizpildītu</string>
+    <string name="menu_visibility">Redzamība</string>
+    <string name="menu_reorder">Mainīt secību</string>
+    <string name="menu_remove_from">Noņemt no kategorijas %1$s</string>
+    <string name="menu_hide">Paslēpt</string>
+    <string name="menu_add_to">Pievienot…</string>
+    <string name="menu_move_to">Pārvietot uz…</string>
+    <string name="menu_channels">Kanāli</string>
+    <string name="menu_rename_hint">Ievadiet jaunu nosaukumu un nospiediet OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Nosaukums</string>
+    <string name="editor_change_icon">Mainīt ikonu</string>
+    <string name="editor_visible">Redzama</string>
+    <string name="editor_grid">Režģis</string>
+    <string name="editor_sliding_row">Slīdoša rinda</string>
+    <string name="editor_background">Fona krāsa</string>
+    <string name="editor_show_title">Rādīt nosaukumu</string>
+    <string name="editor_size">Izmērs</string>
+    <string name="editor_advanced">Papildu iestatījumi</string>
+    <string name="editor_start_margin">Sākuma piemale</string>
+    <string name="editor_end_margin">Beigu piemale</string>
+    <string name="editor_top_margin">Augšējā piemale</string>
+    <string name="editor_cards_per_row">Kartītes rindā</string>
+    <string name="editor_row_count">Rindu skaits</string>
+    <string name="editor_auto">Automātiski</string>
+    <string name="editor_auto_value">Automātiski (%1$s)</string>
+    <string name="editor_sort">Kārtot</string>
+    <string name="editor_sort_custom">Pielāgoti</string>
+    <string name="editor_sort_name">Alfabētiski</string>
+    <string name="editor_sort_last">Pēdējās izmantotās</string>
+    <string name="editor_sort_most">Bieži izmantotās</string>
+    <string name="editor_sort_random">Nejauši</string>
+    <string name="editor_set_default">Iestatīt kā noklusējumu</string>
+    <string name="editor_is_default">Noklusējuma kategorija</string>
+    <string name="editor_manage_apps">Pārvaldīt lietotnes</string>
+    <string name="editor_hidden_items">Paslēptie vienumi</string>
+    <string name="editor_restore">Atjaunot</string>
+    <string name="editor_delete">Dzēst</string>
+    <string name="editor_delete_confirm">Vai dzēst šo kategoriju?</string>
+    <string name="editor_empty_note">Šī kategorija vēl netiks rādīta, jo tā ir tukša</string>
+    <string name="editor_request_notifications">Pieprasīt paziņojumu atļauju</string>
+    <string name="editor_channel_error">Šo kanālu vairs nevar nolasīt</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanāli</string>
+    <string name="channels_count">Kanāli: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Paziņojumi</string>
+    <string name="notifications_clear_all">Notīrīt visus</string>
+    <string name="notifications_empty">Nav paziņojumu</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Šo lietotni nevar atvērt</string>
+    <string name="home_reorder_hint">Pārvietojiet ar pa kreisi/pa labi, pabeidziet ar OK vai ATPAKAĻ</string>
+    <string name="home_category_reorder_hint">Pārvietojiet ar augšup/lejup, pabeidziet ar OK vai ATPAKAĻ</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Laipni lūdzam!</string>
+    <string name="firstrun_welcome_text">QLauncher ir Android TV palaidējs. Tas apvieno jūsu lietotnes, kanālus un iecienīto saturu vienā pielāgojamā sākuma ekrānā, aiz kura mainās fona tapetes.</string>
+    <string name="firstrun_features_title">Jūsu jaunās superspējas</string>
+    <string name="firstrun_features_text">Palaidiet lietotni vai HDMI ievadi, ieslēdzot ierīci, pārvaldiet displeja profilus, bloķējiet lietotnes ar vecāku kontroli, rādiet kalibrēšanas attēlus, nosakiet dīkstāves laiku un pielāgojiet ikvienu sākuma ekrāna daļu. Dažas funkcijas ir atkarīgas no jūsu ierīces.</string>
+    <string name="firstrun_a11y_title">Ieslēgsim pieejamību</string>
+    <string name="firstrun_a11y_text">Daudzām funkcijām ir nepieciešams QLauncher pieejamības pakalpojums: iebūvētā palaidēja aizstāšanai, darbībām ierīces ieslēgšanas brīdī, tālvadības pults pogu žestiem, dīkstāves noteikšanai un vecāku kontrolei. To var ieslēgt tagad vai vēlāk iestatījumos.</string>
+    <string name="firstrun_a11y_open">Atvērt pieejamības iestatījumus</string>
+    <string name="firstrun_permissions_title">Ja drīkstu…</string>
+    <string name="firstrun_permissions_text">Tālāk QLauncher lūgs atļauju lasīt TV programmu (kanāliem un sadaļai Skatīties tālāk) un piekļuvi paziņojumiem (paziņojumu ikonai un funkcijai Tagad atskaņo). Abas atļaujas nav obligātas.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Tālāk QLauncher lūgs piekļuvi paziņojumiem (paziņojumu ikonai un funkcijai Tagad atskaņo). Tā nav obligāta.</string>
+    <string name="firstrun_notifications_dialog">Vai atļaut piekļuvi paziņojumiem?</string>
+    <string name="firstrun_notifications_text">Piekļuve paziņojumiem ļauj QLauncher rādīt paziņojumu skaitu, paziņojumu paneli un to, kas tiek atskaņots. Poga Jā atver lapu Īpašas atļaujas, kur to var piešķirt.</string>
+    <string name="firstrun_reports_title">Vai sūtīt anonīmus avāriju un kļūdu ziņojumus?</string>
+    <string name="firstrun_reports_text">Ja QLauncher avarē vai rodas kļūda, tā var nosūtīt ziņojumu ar lietotnes versiju un ierīces modeli, lai kļūdu varētu novērst. Netiek sūtīts nekas, kas identificē jūs vai to, ko skatāties. To var mainīt vēlāk sadaļā Vispārīgi.</string>
+    <string name="firstrun_launcher_title">Padariet QLauncher par savu sākuma ekrānu</string>
+    <string name="firstrun_launcher_text">Daudzās TV ierīcēs nevar mainīt noklusējuma palaidēju. Ja jūsējā to var, izvēlieties tur QLauncher. Pretējā gadījumā ieslēdziet pieejamības pakalpojumu ar opciju „Aizstāt pašreizējo palaidēju“, un QLauncher atgriezīsies ikreiz, kad tiks atvērts iebūvētais palaidējs.</string>
+    <string name="firstrun_launcher_open">Mainīt noklusējuma palaidēju</string>
+    <string name="firstrun_start_title">Laiks sākt!</string>
+    <string name="firstrun_start_text">Visu var mainīt vēlāk iestatījumos. Nospiediet iestatījumu pogu augšējā labajā stūrī vai taustiņu secību ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">SĀKT</string>
+    <string name="firstrun_next">Tālāk</string>
+    <string name="firstrun_skip">Izlaist</string>
+    <string name="firstrun_yes">Jā</string>
+    <string name="firstrun_no">Nē</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Šajā ierīcē nav ekrānsaudzētāja</string>
+</resources>

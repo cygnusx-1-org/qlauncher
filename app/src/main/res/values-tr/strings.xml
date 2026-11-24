@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">QLauncher duvar kağıdı olarak ayarla</string>
+    <string name="import_settings">QLauncher\'a içe aktar</string>
+    <string name="accessibility_service_description">QLauncher, cihazla gelen başlatıcıyı geçersiz kılmak, açılışta eylemler çalıştırmak, kumanda düğmelerini yeniden eşlemek, boşta kalma süresini algılamak ve ebeveyn denetimini uygulamak için donanım tuşu basışlarını ve ön plandaki uygulamanın adını görür. İkisi de bu cihazın belleğinde kalır ve hiçbir yere gönderilmez.</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Скасувати</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Усі застосунки</string>
+    <string name="apps_action_edit_categories">Змінити категорії</string>
+    <string name="apps_action_edit_channels">Змінити канали</string>
+    <string name="apps_action_launcher_settings">Налаштування QLauncher</string>
+    <string name="apps_action_android_settings">Налаштування Android</string>
+    <string name="apps_action_amlogic_settings">Дод. налаштування AmLogic</string>
+    <string name="apps_action_display_profiles">Профілі дисплея</string>
+    <string name="apps_action_install_apps">Встановлення сторонніх застосунків</string>
+    <string name="apps_action_accessibility_service">Служба спец. можливостей</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Змінити профіль</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Цей пристрій</string>
+    <string name="apps_action_about_wallpaper">Поточні шпалери</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Немає</string>
+    <string name="apps_autostart_screensaver">Заставка</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Канали</string>
+    <string name="apps_channels_watch_next">Продовжити перегляд</string>
+    <string name="apps_channels_unreadable">Цей канал більше не вдається прочитати</string>
+    <string name="apps_channels_hidden">Приховано системою</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d канал</item>
+        <item quantity="few">%d канали</item>
+        <item quantity="many">%d каналів</item>
+        <item quantity="other">%d каналу</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Застосувати набір значків</string>
+    <string name="apps_iconpack_apply_message">Використовувати %1$s для значків застосунків?</string>
+    <string name="apps_iconpack_apply_confirm">Застосувати</string>
+    <string name="apps_iconpack_applied">Набір значків застосовано</string>
+    <string name="apps_iconpack_apply_missing">Набір значків не вказано</string>
+    <string name="apps_iconpack_apply_not_a_pack">Цей застосунок не є набором значків</string>
+    <string name="apps_iconpack_none">Немає</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Додати ярлик</string>
+    <string name="apps_pin_shortcut_message">Додати «%1$s» з %2$s до категорії «Ярлики»?</string>
+    <string name="apps_pin_shortcut_confirm">Додати</string>
+    <string name="apps_pin_shortcut_added">Ярлик додано</string>
+    <string name="apps_pin_shortcut_failed">Не вдалося додати ярлик</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Встановлення сторонніх застосунків</string>
+    <string name="apps_install_description">Виберіть застосунок для встановлення. Можливо, спершу доведеться дозволити встановлення з невідомих джерел.</string>
+    <string name="apps_install_custom_url">Власний URL / код Downloader</string>
+    <string name="apps_install_custom_url_desc">Використовуйте лише надійне джерело</string>
+    <string name="apps_install_choose_method">Виберіть спосіб встановлення</string>
+    <string name="apps_install_installed">Встановлено</string>
+    <string name="apps_install_category_wallpaper_plugin">Плагін шпалер</string>
+    <string name="apps_install_category_icon_pack">Набір значків</string>
+    <string name="apps_install_category_file_manager">Файловий менеджер</string>
+    <string name="apps_install_category_tool">Утиліта</string>
+    <string name="apps_install_method_store">Магазин</string>
+    <string name="apps_install_method_direct">Пряме завантаження</string>
+    <string name="apps_install_method_downloader">Застосунок Downloader</string>
+    <string name="apps_install_state_downloading">Завантаження %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Завантаження %1$s…</string>
+    <string name="apps_install_state_installing">Встановлення %1$s…</string>
+    <string name="apps_install_state_confirm">Підтвердьте встановлення %1$s</string>
+    <string name="apps_install_state_success">Встановлено: %1$s</string>
+    <string name="apps_install_state_unknown_sources">Дозвольте QLauncher встановлювати застосунки, потім поверніться, щоб продовжити</string>
+    <string name="apps_install_state_downloader_sent">Код %1$s надіслано в Downloader</string>
+    <string name="apps_install_state_downloader_type">Введіть код %1$s у Downloader</string>
+    <string name="apps_install_state_store">Відкрито в магазині</string>
+    <string name="apps_install_state_browser">Це посилання на вебсторінку; її відкрито в браузері</string>
+    <string name="apps_install_fail_invalid">Це не URL і не код Downloader</string>
+    <string name="apps_install_fail_no_usb">USB-накопичувач не знайдено</string>
+    <string name="apps_install_fail_archive">Архіви не можна встановити</string>
+    <string name="apps_install_fail_network">Не вдалося завантажити файл</string>
+    <string name="apps_install_fail_http">Сервер повернув помилку (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Файл не є застосунком (APK)</string>
+    <string name="apps_install_fail_unreadable">Не вдається прочитати файл</string>
+    <string name="apps_install_fail_install">Не вдалося виконати встановлення</string>
+    <string name="apps_install_fail_cancelled">Встановлення скасовано</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher не має дозволу встановлювати застосунки</string>
+    <string name="apps_install_fail_downloader">Застосунок Downloader не встановлено</string>
+    <string name="apps_install_fail_store">Немає доступного магазину застосунків</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Цей пристрій</string>
+    <string name="apps_device_brand_manufacturer">Бренд / Виробник</string>
+    <string name="apps_device_device_product">Пристрій / Продукт</string>
+    <string name="apps_device_model">Модель</string>
+    <string name="apps_device_hardware">Обладнання</string>
+    <string name="apps_device_fingerprint">Відбиток збірки</string>
+    <string name="apps_device_build">Збірка</string>
+    <string name="apps_device_build_desc">Опис збірки</string>
+    <string name="apps_device_device_type">Тип пристрою</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-адреса</string>
+    <string name="apps_device_root_access">Root-доступ</string>
+    <string name="apps_device_pm_info">Менеджер зображення</string>
+    <string name="apps_device_pm_none">Немає менеджера зображення</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Так</string>
+    <string name="apps_device_no">Ні</string>
+</resources>

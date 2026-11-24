@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">QLauncher-ის ფონად დაყენება</string>
+    <string name="import_settings">QLauncher-ში იმპორტი</string>
+    <string name="accessibility_service_description">QLauncher ხედავს აპარატურული ღილაკების დაჭერებს და წინა პლანზე გახსნილი აპის სახელს, რათა ჩაანაცვლოს ჩაშენებული ლაუნჩერი, შეასრულოს მოქმედებები ჩართვისას, გადაანიშნოს პულტის ღილაკები, აღმოაჩინოს უმოქმედობის დრო და უზრუნველყოს მშობელთა კონტროლი. ორივე მხოლოდ ამ მოწყობილობის მეხსიერებაში რჩება და არსად იგზავნება.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">వెర్షన్ %1$s</string>
+    <string name="about_copyright">కాపీరైట్ © 2026 QLauncher సహకారులు. GNU General Public License, వెర్షన్ 3 కింద ఉచిత సాఫ్ట్‌వేర్.</string>
+    <string name="about_libs">లైబ్రరీలు / క్రెడిట్‌లు</string>
+    <string name="about_links">లింక్‌లు</string>
+    <string name="about_link_project">ప్రాజెక్ట్ పేజీ</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">తెలుగు అనువాదం</string>
+    <string name="about_translation_credit">QLauncher సహకారులు</string>
+    <string name="about_no_browser">ఈ పరికరంలో బ్రౌజర్ లేదు. %1$sను మరో పరికరంలో తెరవండి.</string>
+    <string name="about_check_updates">అప్‌డేట్‌ల కోసం చెక్ చేయండి</string>
+    <string name="about_update_checking">చెక్ చేస్తోంది…</string>
+    <string name="about_update_latest">QLauncher తాజాగా ఉంది (%1$s)</string>
+    <string name="about_update_available">వెర్షన్ %1$s అందుబాటులో ఉంది</string>
+    <string name="about_update_failed">చెక్ చేయడం సాధ్యపడలేదు: %1$s</string>
+    <string name="about_update_install">QLauncher %1$sను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="update_available_toast">QLauncher %1$s అందుబాటులో ఉంది: సెట్టింగ్‌లు › పరిచయం › QLauncher</string>
+</resources>

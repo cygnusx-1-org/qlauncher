@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Ayarlar</string>
+    <string name="settings_breadcrumb_display">Ekran</string>
+    <string name="settings_breadcrumb_applications">Uygulamalar</string>
+    <string name="settings_breadcrumb_system">Sistem</string>
+    <string name="settings_breadcrumb_about">Hakkında</string>
+    <string name="settings_root_title">QLauncher ayarları</string>
+    <string name="settings_root_description">Uygulama ayarlarını yapılandırın.</string>
+    <string name="settings_legend_a11y_required">Erişilebilirlik hizmeti gerekli</string>
+    <string name="settings_legend_a11y_recommended">Erişilebilirlik hizmeti önerilir</string>
+    <string name="settings_legend_experimental">Deneysel</string>
+    <string name="settings_launcher_related">Başlatıcıyla ilgili ayarlar</string>
+
+    <string name="settings_general">Genel</string>
+    <string name="settings_appearance">Görünüm</string>
+    <string name="settings_power">Güç</string>
+    <string name="settings_parental">Ebeveyn denetimi</string>
+    <string name="settings_remote">Uzaktan kumanda</string>
+    <string name="settings_accessibility">Erişilebilirlik hizmeti</string>
+    <string name="settings_display_profiles">Ekran profilleri</string>
+    <string name="settings_manage">Ayarları yönet</string>
+
+    <!-- General -->
+    <string name="settings_language">Uygulama dilini değiştir</string>
+    <string name="settings_language_system">Sistem varsayılanı</string>
+    <string name="settings_default_launcher">Varsayılan başlatıcıyı değiştir</string>
+    <string name="settings_default_launcher_unavailable">Bu cihaz, varsayılan başlatıcıyı değiştirmenin bir yolunu sunmuyor. Bunun yerine “Geçerli başlatıcıyı geçersiz kıl” seçeneğini kullanın.</string>
+    <string name="settings_override_home">Geçerli başlatıcıyı geçersiz kıl</string>
+    <string name="settings_override_home_desc">Geçerli başlatıcıya yapılan çağrıları yakalar (cihazla gelen başlatıcıyı değiştiremiyor veya kaldıramıyorsanız kullanışlıdır)</string>
+    <string name="settings_enable_channels">Kanalları etkinleştir</string>
+    <string name="settings_enable_channels_desc">Kanalları kullanmıyorsanız bunu kapatmak açılışı hızlandırır ve bellek kullanımını azaltır</string>
+    <string name="settings_programs_per_channel">Kanal başına program</string>
+    <string name="settings_crash_error_reports">Anonim kilitlenme ve hata raporlarını etkinleştir</string>
+    <string name="settings_reports_desc">Yalnızca hata, uygulama sürümü ve cihaz modeli gönderilir</string>
+    <string name="settings_check_updates">Güncellemeleri kontrol et</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategoriler / Kanallar</string>
+    <string name="settings_cards">Kartlar</string>
+    <string name="settings_wallpaper">Duvar kağıdı</string>
+    <string name="settings_status_bar">Durum çubuğu</string>
+    <string name="settings_left_headers">Sol başlıklar</string>
+    <string name="settings_idle_mode">Başlatıcı boşta modu</string>
+    <string name="settings_font">Yazı tipi</string>
+    <string name="settings_themes">Temalar</string>
+    <string name="settings_themes_desc">İçe / Dışa aktar</string>
+    <string name="settings_load_cards_scrolling">Kaydırırken kartları yükle</string>
+    <string name="settings_load_cards_scrolling_desc">Akıcılık pahasına daha hızlı tepki verir</string>
+    <string name="settings_accent">Vurgu rengi</string>
+    <string name="settings_accent_desc">Duvar kağıdını izlemesi için dinamiği açın</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Başlığı göster</string>
+    <string name="settings_show_icon_title">Başlığın önünde simge göster</string>
+    <string name="settings_rows_spacing">Dikey boşluk (ekran yüksekliğine göre yüzde)</string>
+    <string name="settings_fixed_position">Odaklanan kategorinin konumunu sabit tut</string>
+    <string name="settings_hide_rows_above">Seçimin üstündeki satırları gizle</string>
+    <string name="settings_remember_focus">Odaklanan kartın konumunu hatırla</string>
+    <string name="settings_unselected_opacity">Seçili olmayan satırların opaklığı</string>
+    <string name="settings_top_margin">Üst kenar boşluğu</string>
+    <string name="settings_start_margin">Başlangıç kenar boşluğu</string>
+    <string name="settings_end_margin">Bitiş kenar boşluğu</string>
+    <string name="settings_dock_padding">Dock iç boşluğu</string>
+    <string name="settings_tint_custom_icons">Özelleştirilmiş simgeleri renklendir</string>
+    <string name="settings_tint_custom_icons_desc">Arka planı olmayan özel simgeler için</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Yuvarlak köşeler</string>
+    <string name="settings_cards_size">Kart boyutu</string>
+    <string name="settings_cards_spacing">Kart aralığı</string>
+    <string name="settings_loop_limit">Hareketli simge döngü sınırı</string>
+    <string name="settings_ripple">Karta basınca dalga efekti</string>
+    <string name="settings_background_color">Arka plan rengi</string>
+    <string name="settings_focused_card">Odaklanan kart</string>
+    <string name="settings_program_cards">Program kartları</string>
+    <string name="settings_tv_ratio">TV uygulaması kartı en boy oranı</string>
+    <string name="settings_mobile_ratio">Mobil uygulama kartı en boy oranı</string>
+    <string name="settings_icon_pack">Simge paketi</string>
+    <string name="settings_icon_pack_none">Yüklü simge paketi yok</string>
+    <string name="settings_icon_pack_off">Yok</string>
+    <string name="settings_more">Daha fazla…</string>
+    <string name="settings_custom_icon_tint">Özel simge renk tonu</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Odaklanan kart boyutu</string>
+    <string name="settings_focused_effect">Odaklanan kart efekti</string>
+    <string name="settings_effect_none">Yok</string>
+    <string name="settings_effect_shadow">Gölge</string>
+    <string name="settings_effect_glow">Parıltı</string>
+    <string name="settings_glow_animation">Parıltı animasyonu</string>
+    <string name="settings_anim_none">Yok</string>
+    <string name="settings_anim_pulse">Nabız</string>
+    <string name="settings_anim_breath">Nefes</string>
+    <string name="settings_anim_fade">Solma</string>
+    <string name="settings_anim_shine">Işıltı</string>
+    <string name="settings_glow_size">Parıltı boyutu</string>
+    <string name="settings_glow_color">Parıltı rengi</string>
+    <string name="settings_glow_color_desc">Kartın kendi rengini kullanmak için boş bırakın</string>
+    <string name="settings_colors_override">Renkleri geçersiz kıl</string>
+    <string name="settings_override_none">Yok</string>
+    <string name="settings_override_swap">Arka plan/renk tonu takası</string>
+    <string name="settings_override_custom">Özel</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Önizleme videosunu oynat</string>
+    <string name="settings_preview_never">Asla</string>
+    <string name="settings_preview_always">Her zaman</string>
+    <string name="settings_preview_no_media">Arka planda medya oynatılmıyorken</string>
+    <string name="settings_show_progress">İlerleme çubuğunu göster</string>
+    <string name="settings_show_badge">Rozeti göster</string>
+    <string name="settings_zoom_focus">Odaklanınca yakınlaştırma efekti</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Desteklenen biçimler: sabit resim, hareketli GIF, video (statik veya RTSP canlı yayın), Lottie animasyonu</string>
+    <string name="settings_launcher_wallpaper">Başlatıcı duvar kağıdı</string>
+    <string name="settings_configure">Yapılandır</string>
+    <string name="settings_show_wallpapers">Duvar kağıtlarını göster</string>
+    <string name="settings_picture_adjustment">Görüntü ayarı</string>
+    <string name="settings_image_transition">Resim geçişi</string>
+    <string name="settings_update_frequency">Güncelleme sıklığı (dk)</string>
+    <string name="settings_video_wallpaper">Video duvar kağıdı</string>
+    <string name="settings_display_mode">Görüntüleme modu</string>
+    <string name="settings_bad_ratio">Oran/kalite uygun değilse</string>
+    <string name="settings_min_width">Kabul edilen en küçük genişlik (px)</string>
+    <string name="settings_src_none">Yok</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dinamik renkler</string>
+    <string name="settings_src_default">Varsayılan duvar kağıdı</string>
+    <string name="settings_src_media">Medya dosyası</string>
+    <string name="settings_src_folder">Klasör</string>
+    <string name="settings_src_focused_program">Odaklanan program</string>
+    <string name="settings_src_now_playing">Şimdi oynatılıyor</string>
+    <string name="settings_src_random_program">Rastgele program</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Yok</string>
+    <string name="settings_tr_random">Rastgele</string>
+    <string name="settings_tr_fade">Solma</string>
+    <string name="settings_tr_zoom">Yakınlaştırma</string>
+    <string name="settings_tr_hslide">Yatay kaydırma</string>
+    <string name="settings_tr_vslide">Dikey kaydırma</string>
+    <string name="settings_dm_automatic">Otomatik</string>
+    <string name="settings_dm_skip">Atla</string>
+    <string name="settings_dm_crop">Kırp</string>
+    <string name="settings_dm_stretch">Uzat</string>
+    <string name="settings_dm_fit">Ortala ve sığdır</string>
+    <string name="settings_dm_fit_blur">Ortala ve sığdır + bulanık arka plan</string>
+    <string name="settings_dm_blur">Bulanıklaştır</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Ton</string>
+    <string name="settings_saturation">Doygunluk</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Parlaklık</string>
+    <string name="settings_tint">Renk tonu</string>
+    <string name="settings_tint_amount">Renk tonu miktarı</string>
+    <string name="settings_blur">Bulanıklık</string>
+    <string name="settings_shadow_h">Yatay gölge katmanı uzunluğu</string>
+    <string name="settings_shadow_v">Dikey gölge katmanı uzunluğu</string>
+    <string name="settings_shadow_opacity">Gölge katmanı opaklığı</string>
+    <string name="settings_shadow_tint">Gölge katmanı renk tonu</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Güncelleme sıklığını yok say</string>
+    <string name="settings_ignore_update_desc">Yeni bir duvar kağıdı istemek için videonun bitmesini bekle</string>
+    <string name="settings_video_color_freq">Dinamik renk güncelleme sıklığı</string>
+    <string name="settings_video_color_freq_desc">Renkler için okunan video kareleri arasındaki saniye; 0 kapatır</string>
+    <string name="settings_volume">Ses düzeyi</string>
+    <string name="settings_tunneling">Donanımla işlemeyi kullan (tünelleme)</string>
+    <string name="settings_decoder_fallback">Yedek kod çözücüleri etkinleştir</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Bildirim iznini yönet</string>
+    <string name="settings_granted">Verildi</string>
+    <string name="settings_not_granted">Verilmedi</string>
+    <string name="settings_notification_adb">Bu cihazda ayar ekranı yok. İzni şu komutla verin: %1$s</string>
+    <string name="settings_clock">Saat</string>
+    <string name="settings_icons">Simgeler</string>
+    <string name="settings_show_system_bar">Sistem durum çubuğunu göster</string>
+    <string name="settings_autohide_status">Kaydırırken durum çubuğunu gizle</string>
+    <string name="settings_show_clock">Saati göster</string>
+    <string name="settings_clock_size">Saat yazı tipi boyutu</string>
+    <string name="settings_clock_color">Saat rengi</string>
+    <string name="settings_drop_shadow">Gölge</string>
+    <string name="settings_clock_line1">Saat biçimi (1. satır)</string>
+    <string name="settings_clock_line2">Saat biçimi (2. satır)</string>
+    <string name="settings_clock_default_format">Sistem biçimi</string>
+    <string name="settings_empty">Boş</string>
+    <string name="settings_icons_size">Simge boyutu</string>
+    <string name="settings_icons_color">Simge rengi</string>
+    <string name="settings_icons_container">Simge kapsayıcısı rengi</string>
+    <string name="settings_show_settings">Ayarları göster</string>
+    <string name="settings_show_settings_desc">Ayarlara şu düğme dizisiyle her zaman ulaşılabilir: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Bağlantıyı göster</string>
+    <string name="settings_show_notifications">Bildirimleri göster</string>
+    <string name="settings_autohide_notifications">Bildirim yokken bildirim simgesini gizle</string>
+    <string name="settings_show_battery">Pili göster</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Etkinleştir</string>
+    <string name="settings_headers_on_launch">Açılışta sol başlıkları göster</string>
+    <string name="settings_show_icon">Simgeyi göster</string>
+    <string name="settings_show_reorder">Yeniden sıralamayı göster</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Boşta moduna geçmeden önceki süre (dk)</string>
+    <string name="settings_idle_opacity">Arayüz opaklığı</string>
+    <string name="settings_keep_clock">Saati koru</string>
+    <string name="settings_prevent_screensaver">Sistem ekran koruyucusunu engelle</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher yazı tipi ayarlarını değiştirin. Yazı tipi ailesi adlarına Google Fonts üzerinden bakılabilir.</string>
+    <string name="settings_font_list">Listeden seç</string>
+    <string name="settings_font_google">Yazı tipi (Google Fonts)</string>
+    <string name="settings_font_default">Varsayılan</string>
+    <string name="settings_bold">Kalın</string>
+    <string name="settings_italic">İtalik</string>
+    <string name="settings_size">Boyut</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Açılışta otomatik başlat</string>
+    <string name="settings_autostart_none">Yok</string>
+    <string name="settings_autostart_screensaver">[*] Ekran koruyucu (destekleniyorsa)</string>
+    <string name="settings_autostart_resume">…ve bekleme modundan çıkarken</string>
+    <string name="settings_autostart_delay">Otomatik başlatma gecikmesi (saniye)</string>
+    <string name="settings_simulate_activity">Boştayken sistemin otomatik kapanmasını engelle</string>
+    <string name="settings_idle_detection">Dahili boşta kalma algılamayı etkinleştir</string>
+    <string name="settings_idle_timeout_power">Boşta kalma süresi (saat:dk)</string>
+    <string name="settings_idle_action">Boştayken yapılacak işlem</string>
+    <string name="settings_idle_action_shutdown">Kapat</string>
+    <string name="settings_idle_action_screen_off">Ekranı kapat</string>
+    <string name="settings_idle_action_screensaver">Ekran koruyucu (destekleniyorsa)</string>
+    <string name="settings_idle_media">Medya oynatılırken boşta modunu yok say</string>
+    <string name="settings_missing_notification_permission">⚠️ Bildirim izni eksik</string>
+    <string name="settings_shutdown_action">Kapatma işlemi</string>
+    <string name="settings_shutdown_dialog">Güç menüsü</string>
+    <string name="settings_shutdown_dialog_twice">Güç menüsü (iki kez çağır)</string>
+    <string name="settings_shutdown_dialog_ok">Güç menüsü + OK</string>
+    <string name="settings_hdmi_exit">HDMI giriş sinyali kesildiğinde otomatik kapat</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Seçili uygulamaları gün boyu veya günün bir bölümünde kilitlemek için bir kod belirleyin (uygulamaları seçmek için ana ekranda bir karta uzun basın)</string>
+    <string name="settings_parental_set_code">Yeni bir ebeveyn kodu belirle</string>
+    <string name="settings_parental_code_set">Bir kod belirlendi</string>
+    <string name="settings_parental_long">Başarılı bir doğrulamadan sonra 15 dk boyunca kod isteme</string>
+    <string name="settings_parental_protect">Başlatıcı ayarlarını ve arayüz değişikliklerini koru</string>
+    <string name="settings_parental_protect_desc">(7/24 uygulanır)</string>
+    <string name="settings_parental_partial">Korumayı yalnızca şu saatler arasında etkinleştir</string>
+    <string name="settings_parental_start">Başlangıç saati (saat:dk)</string>
+    <string name="settings_parental_end">Bitiş saati (saat:dk)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">“Menü” tuşuna çift basınca bilgi göster</string>
+    <string name="settings_back_double">“Geri” tuşuna çift basınca “Ambiyans Modu”</string>
+    <string name="settings_back_double_desc">Desteklenen cihazlarda ekran koruyucuyu başlatır</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Açılışta bir eylem çalıştırmak, kumanda düğmelerini özelleştirmek, ebeveyn denetimini güçlendirmek ve güç yönetimi için boşta kalma süresini algılamak üzere hizmeti açın. Hizmet, donanım tuşu basışlarını ve öndeki uygulamanın adını görür; ikisi de bu cihazın belleğinde kalır ve hiçbir yere gönderilmez.</string>
+    <string name="settings_a11y_enabled">Etkin</string>
+    <string name="settings_a11y_started">Başlatıldı</string>
+    <string name="settings_yes">Evet</string>
+    <string name="settings_no">Hayır</string>
+    <string name="settings_a11y_open">Erişilebilirlik ayarlarını göster</string>
+    <string name="settings_a11y_consent_title">Erişilebilirlik hizmeti</string>
+    <string name="settings_a11y_consent">Bu, QLauncher\'ın donanım düğmesi basışlarını ve ön plandaki uygulamanın adını görmesine izin verir. İkisi de yalnızca bu cihazın belleğinde tutulur ve hiçbir yere gönderilmez. Kabul ediyor musunuz?</string>
+    <string name="settings_a11y_alternate">Alternatif yapılandırmayı kullan</string>
+    <string name="settings_a11y_alternate_desc">Bazı cihazlardaki sorunları giderir</string>
+    <string name="settings_a11y_volume_fix">Ses düğmeleri düzeltmesi</string>
+    <string name="settings_a11y_volume_fix_desc">Ses düğmesine basıldığında yeniden eşlemeyi kısa süre durdurur, böylece uzun basmalar çalışmaya devam eder</string>
+    <string name="settings_a11y_remap">Düğme yeniden eşlemeyi etkinleştir</string>
+    <string name="settings_a11y_remap_desc">Hizmet tuş basışlarını yakalar. Bunu kapatmak, ses düğmesine uzun basma sorunlarını ve sistemin hizmeti durdurmasını önler; ancak başlatıcıyı geçersiz kılma, ebeveyn denetimi ve boşta kalma algılama daha az etkili olabilir.</string>
+    <string name="settings_a11y_reminder">Hatırlatıcı göster</string>
+    <string name="settings_a11y_reminder_desc">Erişilebilirlik hizmeti kapatılırsa</string>
+    <string name="settings_a11y_unbound_toast">QLauncher\'ın erişilebilirlik hizmeti çalışmıyor</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Ayarları yerel olarak ya da LocalSend veya bir dosya yöneticisi gibi başka bir uygulamayla içe veya dışa aktarın.</string>
+    <string name="settings_import">İçe aktar</string>
+    <string name="settings_import_file">Bir dosyadan</string>
+    <string name="settings_import_auto">Otomatik yedekten</string>
+    <string name="settings_export">Dışa aktar</string>
+    <string name="settings_export_local">Yerel olarak kaydet</string>
+    <string name="settings_export_share">Başka bir uygulamayla paylaş</string>
+    <string name="settings_reset">Varsayılana sıfırla</string>
+    <string name="settings_cancel">İptal</string>
+    <string name="settings_ok">Tamam</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategori</string>
+    <string name="wp_custom_search">Özel arama</string>
+    <string name="wp_reddit_login">Oturum aç</string>
+    <string name="wp_reddit_logout">Oturumu kapat: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Oturumu kapat</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Özel subreddit</string>
+    <string name="wp_custom_subreddit_hint">+ ile ayrılmış birkaç ad</string>
+    <string name="wp_folder">Klasör</string>
+    <string name="wp_folder_choose">Bir klasör seçin</string>
+    <string name="wp_media">Medya dosyası</string>
+    <string name="wp_media_choose">Bir dosya seçin</string>
+    <string name="wp_choose_other">Başka bir konum…</string>
+    <string name="wp_choose_other_desc">Sistem dosya seçiciyle seçin</string>
+    <string name="wp_media_searching">Resimler ve videolar aranıyor…</string>
+    <string name="wp_media_none">Resim veya video bulunamadı. Pictures, Movies veya Download klasörüne birkaç dosya kopyalayın ya da bir USB sürücü takın.</string>
+    <string name="wp_folders_description">Bu cihazda ve USB sürücülerde resim veya video içeren klasörler.</string>
+    <string name="wp_folders_none">Resim veya video içeren klasör bulunamadı</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d dosya</item>
+        <item quantity="other">%d dosya</item>
+    </plurals>
+    <string name="wp_media_color">Düz renk</string>
+    <string name="wp_theme_desc">İçe aktarılan temanın içerdiği duvar kağıtları</string>
+    <string name="wp_plugin_settings">Eklenti ayarları</string>
+    <string name="wp_not_set">Ayarlanmadı</string>
+    <string name="wp_status">Durum</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Bu duvar kağıdı</string>
+    <string name="wp_next">Sonraki</string>
+    <string name="wp_source">Kaynak</string>
+    <string name="wp_title">Başlık</string>
+    <string name="wp_author">Yazar</string>
+    <string name="wp_set_user">Kullanıcı duvar kağıdı olarak ayarla</string>
+    <string name="wp_view">Görüntüle</string>
+    <string name="wp_unknown">Bilinmiyor</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Video ekran profillerini burada oluşturup yönetin. Otomatik değişmeleri için onları giriş kaynaklarına bağlayın ya da Menü tuşuna iki kez, ardından yukarı veya aşağı basarak uygulayın.</string>
+    <string name="dp_list">Ekran profilleri listesi</string>
+    <string name="dp_list_desc">Video ekran profillerini burada oluşturun veya düzenleyin. Cihaza bağlı olarak bazı kontroller root gerektirir ya da hiç çalışmaz; bunlar AmLogic cihazlar için tasarlanmıştır.</string>
+    <string name="dp_add">Yeni ekle…</string>
+    <string name="dp_name">Profil adı</string>
+    <string name="dp_preview">Önizleme</string>
+    <string name="dp_fullscreen">Tam ekran önizleme</string>
+    <string name="dp_fullscreen_desc">veya Menü düğmesiyle aç/kapat</string>
+    <string name="dp_delete">Profili sil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Üçüncü taraf uygulama yükle</string>
+    <string name="install_desc">Yüklenecek bir uygulama seçin. Önce bilinmeyen kaynaklardan yüklemeye izin vermeniz gerekebilir.</string>
+    <string name="install_custom">Özel URL / Downloader kodu</string>
+    <string name="install_custom_desc">Yalnızca güvendiğiniz bir kaynak kullanın</string>
+    <string name="install_status">Durum</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Bu cihaz</string>
+
+    <string name="gallery_filter">Filtrele…</string>
+    <string name="settings_no_file_picker">Bu cihazda dosya seçici yok</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Işıklılık</string>
+    <string name="color_opacity">Opaklık</string>
+    <string name="color_prefer_dynamic">Dinamik rengi tercih et</string>
+    <string name="color_prefer_dynamic_desc">Varsa bu ışıklılığı/opaklığı korur</string>
+    <string name="color_clear">Temizle</string>
+    <string name="color_reset">Varsayılana sıfırla</string>
+</resources>

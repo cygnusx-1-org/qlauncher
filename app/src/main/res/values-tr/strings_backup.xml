@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Varsayılan</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">kalın</string>
+    <string name="backup_clock_markup_italic">italik</string>
+    <string name="backup_clock_markup_underline">altı çizili</string>
+    <string name="backup_clock_markup_strikethrough">üstü çizili</string>
+    <string name="backup_clock_markup_subscript">alt simge</string>
+    <string name="backup_clock_markup_superscript">üst simge</string>
+    <string name="backup_clock_markup_half_size">yarım boy</string>
+    <string name="backup_clock_markup_one_and_a_half_size">bir buçuk kat</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Siyah kırpma</string>
+    <string name="backup_pattern_apl_clipping">APL kırpma</string>
+    <string name="backup_pattern_white_clipping">Beyaz kırpma</string>
+    <string name="backup_pattern_grayscale_ramp">Gri tonlama rampası</string>
+    <string name="backup_pattern_grayscale_steps">Gri tonlama adımları</string>
+    <string name="backup_pattern_dynamic_brightness">Dinamik parlaklık</string>
+    <string name="backup_pattern_color_steps">Renk adımları</string>
+    <string name="backup_pattern_color_clipping">Renk kırpma</string>
+    <string name="backup_pattern_flashing_color_bars">Yanıp sönen renk çubukları</string>
+    <string name="backup_pattern_sharpness_overscan">Keskinlik &amp; aşırı tarama</string>
+    <string name="backup_pattern_uhd">UHD deseni</string>
+    <string name="backup_pattern_judder">Judder testi</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] En boy oranı keskinliği</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Siyah seviyesi</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Renk kırpma 240–1000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Renk kırpma 3600–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Renk kırpma 700–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Renk kırpma 900–4000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Gri tonlama rampası 10000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Gri tonlama rampası 1000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Gri tonlama rampası 4000 nit</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Siyah PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Renk rampaları</string>
+    <string name="backup_pattern_unavailable">%1$s bir HDR video yolu gerektirir ve henüz kullanılamıyor</string>
+    <!-- Pages -->
+    <string name="backup_settings">Ayarlar</string>
+    <string name="backup_manage_settings">Ayarları yönet</string>
+    <string name="backup_themes">Temalar</string>
+    <string name="backup_import">İçe aktar</string>
+    <string name="backup_export">Dışa aktar</string>
+    <string name="backup_import_from_file">Dosya yöneticisinden</string>
+    <string name="backup_import_from_auto">Otomatik yedekten</string>
+    <string name="backup_export_save">Yerel olarak kaydet</string>
+    <string name="backup_export_share">Başka bir uygulamayla paylaş</string>
+    <string name="backup_reset">Varsayılana sıfırla</string>
+    <string name="backup_cancel">İptal</string>
+    <string name="backup_ok">Tamam</string>
+    <string name="backup_done">Bitti</string>
+    <string name="backup_close">Kapat</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Ayarları dışa aktar</string>
+    <string name="backup_export_theme_title">Temayı dışa aktar</string>
+    <string name="backup_export_description">Her şey, seçtiğiniz bir parolayla (en az %1$d karakter) şifrelenmiş tek bir dosyaya kaydedilir. Dosyayı içe aktarmak için bu parola gerekir ve parola kurtarılamaz.</string>
+    <string name="backup_export_theme_description">Görünüm ayarları ve geçerli duvar kağıdı, seçtiğiniz bir parolayla (en az %1$d karakter) şifrelenmiş tek bir dosyaya kaydedilir. Temayı içe aktarmak için bu parola gerekir.</string>
+    <string name="backup_password">Parola</string>
+    <string name="backup_password_show">Parolayı göster</string>
+    <string name="backup_password_hide">Parolayı gizle</string>
+    <string name="backup_password_strength">Parola gücü</string>
+    <string name="backup_strength_too_short">Çok kısa: en az %1$d karakter</string>
+    <string name="backup_strength_weak">Zayıf: tahmin etmesi kolay</string>
+    <string name="backup_strength_fair">Orta</string>
+    <string name="backup_strength_strong">Güçlü</string>
+    <string name="backup_password_too_short">Parola en az %1$d karakter olmalıdır</string>
+    <string name="backup_exporting">Dışa aktarılıyor…</string>
+    <string name="backup_export_saved">Şuraya kaydedildi: %1$s</string>
+    <string name="backup_export_kept">Başka bir yere kaydedilmedi. Dosya şurada kalıyor: %1$s</string>
+    <string name="backup_export_shared">Gönderildi. Bir kopyası şurada kalıyor: %1$s</string>
+    <string name="backup_export_no_file_manager">Bu cihazdaki hiçbir uygulama dosyayı alamıyor. Dosya şurada: %1$s</string>
+    <string name="backup_export_failed">Dışa aktarma başarısız oldu: %1$s</string>
+    <string name="backup_share_title">QLauncher dosyasını şununla gönder</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">İçe aktarma, geçerli kurulumunuzun yerini alır. Önce otomatik bir yedek yazılır ve işlem bitince QLauncher yeniden başlar.</string>
+    <string name="backup_reading">Dosya okunuyor…</string>
+    <string name="backup_import_action">İçe aktar</string>
+    <string name="backup_wrong_password">Yanlış parola</string>
+    <string name="backup_password_hint">Dosya dışa aktarılırken seçilen parola</string>
+    <string name="backup_not_a_backup">Bu bir QLauncher veya Projectivy yedeği ya da teması değil.</string>
+    <string name="backup_damaged">Dosya hasarlı veya eksik.</string>
+    <string name="backup_too_new">Bu dosya daha yeni bir QLauncher sürümüyle oluşturuldu (biçim %1$d). İçe aktarmak için QLauncher\'ı güncelleyin.</string>
+    <string name="backup_unreadable">Bu otomatik yedek bu cihazda okunamıyor.</string>
+    <string name="backup_import_failed">İçe aktarma başarısız oldu ve hiçbir şey değiştirilmedi: %1$s</string>
+    <string name="backup_applying">İçe aktarılıyor… İşlem bitince QLauncher yeniden başlar.</string>
+    <string name="backup_origin_ql_backup">QLauncher ayar yedeği</string>
+    <string name="backup_origin_ql_theme">QLauncher teması</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher ayar yedeği</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher teması</string>
+    <string name="backup_origin_auto">Otomatik yedek</string>
+    <string name="backup_preview_theme_by">%1$s, hazırlayan: %2$s</string>
+    <string name="backup_preview_version">sürüm %1$s</string>
+    <string name="backup_preview_settings">Ayarlar</string>
+    <string name="backup_preview_categories">Kategoriler</string>
+    <string name="backup_preview_apps">Uygulama özelleştirmeleri</string>
+    <string name="backup_preview_profiles">Ekran profilleri</string>
+    <string name="backup_preview_files">Duvar kağıtları ve simgeler</string>
+    <string name="backup_preview_skipped">Bu cihazda olmayan uygulamalar</string>
+    <string name="backup_replace_setup">Geçerli kurulumu değiştir</string>
+    <string name="backup_apply_theme">Temayı uygula</string>
+    <string name="backup_replace_detail">Önce geçerli kurulumun otomatik bir yedeği yazılır</string>
+    <string name="backup_nc_parental">Ebeveyn kodu</string>
+    <string name="backup_nc_parental_detail">Aktarılmaz. Ebeveyn denetimi bölümünde yeni bir kod belirleyin.</string>
+    <string name="backup_nc_premium">Premium durumu</string>
+    <string name="backup_nc_premium_detail">Aktarılmaz. QLauncher\'ın tüm özellikleri ücretsizdir.</string>
+    <string name="backup_nc_inputs">TV girişleri</string>
+    <string name="backup_nc_profile_bindings">Ekran profili ilişkilendirmeleri</string>
+    <string name="backup_nc_plugin">Duvar kağıdı eklentisi</string>
+    <string name="backup_nc_plugin_detail">%1$s yüklü değil. Duvar kağıdı kaynağı olduğu gibi kalır.</string>
+    <string name="backup_nc_icons">Özel simgeler</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d değiştirilmiş değer</item>
+        <item quantity="other">%1$d değiştirilmiş değer</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategori</item>
+        <item quantity="other">%1$d kategori</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d uygulama</item>
+        <item quantity="other">%1$d uygulama</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profil</item>
+        <item quantity="other">%1$d profil</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d dosya</item>
+        <item quantity="other">%1$d dosya</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d bilinmeyen ayar atlandı</item>
+        <item quantity="other">%1$d bilinmeyen ayar atlandı</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d girdi burada yüklü hiçbir uygulamayla eşleşmiyor ve atlanıyor</item>
+        <item quantity="other">%1$d girdi burada yüklü hiçbir uygulamayla eşleşmiyor ve atlanıyor</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">Bu cihazda olmayan bir TV girişine giden %1$d bağlantı atlanıyor</item>
+        <item quantity="other">Bu cihazda olmayan TV girişlerine giden %1$d bağlantı atlanıyor</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">Bir girişe atanmış %1$d profil aktarılmaz</item>
+        <item quantity="other">Girişlere atanmış %1$d profil aktarılmaz</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">Projectivy içinde saklanan %1$d simge okunamıyor ve atlanıyor</item>
+        <item quantity="other">Projectivy içinde saklanan %1$d simge okunamıyor ve atlanıyor</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Otomatik yedekler</string>
+    <string name="backup_auto_description">QLauncher, kurulumunuzun son %1$d sürümünü bu cihazda, cihazdan hiç çıkmayan bir anahtarla şifrelenmiş olarak saklar. Geri yüklemek için birini seçin; parola gerekmez.</string>
+    <string name="backup_auto_none">Kullanılabilir otomatik yedek yok</string>
+    <string name="backup_files_title">Yedek dosyaları</string>
+    <string name="backup_files_theme_title">Tema dosyaları</string>
+    <string name="backup_files_description">Dışa aktarılan dosyalar %1$s konumuna kaydedilir. Tüm dosyalara erişim izniyle QLauncher, Projectivy\'ninkiler dahil, Download ve Documents klasörlerindeki ve USB sürücülerdeki yedekleri de bulur.</string>
+    <string name="backup_files_searching">Yedek dosyaları aranıyor…</string>
+    <string name="backup_files_none">Yedek dosyası bulunamadı</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher klasörü</string>
+    <string name="backup_files_access">Diğer uygulama ve cihazlardan yedekleri bul</string>
+    <string name="backup_files_access_desc">Tüm dosyalara erişime izin ver</string>
+    <string name="backup_files_access_unavailable">Bu cihazda ayar ekranı yok. Tüm dosyalara erişime şu komutla izin verin: %1$s</string>
+    <string name="backup_files_browse">Başka bir konum…</string>
+    <string name="backup_files_browse_desc">Sistem dosya seçiciyle bir dosya seçin</string>
+    <string name="backup_auto_delete_all">Tümünü sil</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Bir değişiklikten sonra</string>
+    <string name="backup_reason_import">İçe aktarmadan önce</string>
+    <string name="backup_reason_migration">Güncellemeden önce</string>
+    <string name="backup_reason_reset">Sıfırlamadan önce</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profil #</string>
+    <string name="backup_no_picture_manager">Görüntü yöneticisi yüklenmedi</string>
+    <string name="backup_no_picture_manager_detail">Bu cihaz, görüntü ayarlarını değiştirmek için desteklenen bir yol sunmuyor; bu nedenle profiller değerlerini uygulamadan saklar.</string>
+</resources>

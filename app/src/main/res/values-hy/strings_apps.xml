@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Չեղարկել</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Բոլոր հավելվածները</string>
+    <string name="apps_action_edit_categories">Խմբագրել կատեգորիաները</string>
+    <string name="apps_action_edit_channels">Խմբագրել ալիքները</string>
+    <string name="apps_action_launcher_settings">QLauncher-ի կարգավորումներ</string>
+    <string name="apps_action_android_settings">Android-ի կարգավորումներ</string>
+    <string name="apps_action_amlogic_settings">AmLogic-ի լրացուցիչ կարգավորումներ</string>
+    <string name="apps_action_display_profiles">Էկրանի պրոֆիլներ</string>
+    <string name="apps_action_install_apps">Տեղադրել երրորդ կողմի հավելվածներ</string>
+    <string name="apps_action_accessibility_service">Հատուկ գործառույթների ծառայություն</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Փոխել պրոֆիլը</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Այս սարքը</string>
+    <string name="apps_action_about_wallpaper">Այս պաստառը</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Ոչ մեկը</string>
+    <string name="apps_autostart_screensaver">Էկրանապահ</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Ալիքներ</string>
+    <string name="apps_channels_watch_next">Դիտել հաջորդը</string>
+    <string name="apps_channels_unreadable">Այս ալիքն այլևս հնարավոր չէ կարդալ</string>
+    <string name="apps_channels_hidden">Թաքցված է համակարգի կողմից</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d ալիք</item>
+        <item quantity="other">%d ալիք</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Կիրառել պատկերակների փաթեթը</string>
+    <string name="apps_iconpack_apply_message">Օգտագործե՞լ %1$s-ը ձեր հավելվածների պատկերակների համար</string>
+    <string name="apps_iconpack_apply_confirm">Կիրառել</string>
+    <string name="apps_iconpack_applied">Պատկերակների փաթեթը կիրառվեց</string>
+    <string name="apps_iconpack_apply_missing">Պատկերակների փաթեթը նշված չէր</string>
+    <string name="apps_iconpack_apply_not_a_pack">Այս հավելվածը պատկերակների փաթեթ չէ</string>
+    <string name="apps_iconpack_none">Ոչ մեկը</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Ավելացնել դյուրանցում</string>
+    <string name="apps_pin_shortcut_message">Ավելացնե՞լ %2$s-ի «%1$s» դյուրանցումը «Դյուրանցումներ» կատեգորիային</string>
+    <string name="apps_pin_shortcut_confirm">Ավելացնել</string>
+    <string name="apps_pin_shortcut_added">Դյուրանցումն ավելացվեց</string>
+    <string name="apps_pin_shortcut_failed">Չհաջողվեց ավելացնել դյուրանցումը</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Տեղադրել երրորդ կողմի հավելվածներ</string>
+    <string name="apps_install_description">Ընտրեք տեղադրվող հավելվածը։ Գուցե տեղադրելուց առաջ անհրաժեշտ լինի թույլատրել տեղադրումն անհայտ աղբյուրներից։</string>
+    <string name="apps_install_custom_url">Այլ URL / Downloader-ի կոդ</string>
+    <string name="apps_install_custom_url_desc">Համոզվեք, որ աղբյուրը վստահելի է</string>
+    <string name="apps_install_choose_method">Ընտրեք տեղադրման եղանակը</string>
+    <string name="apps_install_installed">Տեղադրված է</string>
+    <string name="apps_install_category_wallpaper_plugin">Պաստառի պլագին</string>
+    <string name="apps_install_category_icon_pack">Պատկերակների փաթեթ</string>
+    <string name="apps_install_category_file_manager">Ֆայլերի կառավարիչ</string>
+    <string name="apps_install_category_tool">Գործիք</string>
+    <string name="apps_install_method_store">Խանութ</string>
+    <string name="apps_install_method_direct">Ուղիղ ներբեռնում</string>
+    <string name="apps_install_method_downloader">Downloader հավելված</string>
+    <string name="apps_install_state_downloading">Ներբեռնվում է %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Ներբեռնվում է %1$s…</string>
+    <string name="apps_install_state_installing">Տեղադրվում է %1$s…</string>
+    <string name="apps_install_state_confirm">Հաստատեք %1$s-ի տեղադրումը</string>
+    <string name="apps_install_state_success">%1$s-ը տեղադրվեց</string>
+    <string name="apps_install_state_unknown_sources">Թույլատրեք QLauncher-ին տեղադրել հավելվածներ, ապա վերադարձեք՝ շարունակելու համար</string>
+    <string name="apps_install_state_downloader_sent">%1$s կոդն ուղարկվեց Downloader-ին</string>
+    <string name="apps_install_state_downloader_type">Մուտքագրեք %1$s կոդը Downloader-ում</string>
+    <string name="apps_install_state_store">Բացվեց խանութում</string>
+    <string name="apps_install_state_browser">Այս հղումը վեբ էջ է, ուստի այն բացվեց դիտարկիչում</string>
+    <string name="apps_install_fail_invalid">Սա URL կամ Downloader-ի կոդ չէ</string>
+    <string name="apps_install_fail_no_usb">USB կրիչ չի գտնվել</string>
+    <string name="apps_install_fail_archive">Արխիվները հնարավոր չէ տեղադրել</string>
+    <string name="apps_install_fail_network">Ներբեռնումը ձախողվեց</string>
+    <string name="apps_install_fail_http">Սերվերը պատասխանեց սխալով (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Ֆայլը հավելված (APK) չէ</string>
+    <string name="apps_install_fail_unreadable">Ֆայլը հնարավոր չէ կարդալ</string>
+    <string name="apps_install_fail_install">Տեղադրումը ձախողվեց</string>
+    <string name="apps_install_fail_cancelled">Տեղադրումը չեղարկվեց</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher-ին թույլատրված չէ հավելվածներ տեղադրել</string>
+    <string name="apps_install_fail_downloader">Downloader հավելվածը տեղադրված չէ</string>
+    <string name="apps_install_fail_store">Հավելվածների խանութ հասանելի չէ</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Այս սարքը</string>
+    <string name="apps_device_brand_manufacturer">Ապրանքանիշ / Արտադրող</string>
+    <string name="apps_device_device_product">Սարք / Արտադրանք</string>
+    <string name="apps_device_model">Մոդել</string>
+    <string name="apps_device_hardware">Սարքակազմ</string>
+    <string name="apps_device_fingerprint">Մատնահետք</string>
+    <string name="apps_device_build">Կառուցում</string>
+    <string name="apps_device_build_desc">Կառուցման նկարագրություն</string>
+    <string name="apps_device_device_type">Սարքի տեսակ</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP հասցե</string>
+    <string name="apps_device_root_access">Root հասանելիություն</string>
+    <string name="apps_device_pm_info">Պատկերի կառավարիչ</string>
+    <string name="apps_device_pm_none">Պատկերի կառավարիչ չկա</string>
+    <string name="apps_device_id">Նույնացուցիչ</string>
+    <string name="apps_device_yes">Այո</string>
+    <string name="apps_device_no">Ոչ</string>
+</resources>

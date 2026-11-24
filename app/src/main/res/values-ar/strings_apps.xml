@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">إلغاء</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">كل التطبيقات</string>
+    <string name="apps_action_edit_categories">تعديل الفئات</string>
+    <string name="apps_action_edit_channels">تعديل القنوات</string>
+    <string name="apps_action_launcher_settings">إعدادات QLauncher</string>
+    <string name="apps_action_android_settings">إعدادات Android</string>
+    <string name="apps_action_amlogic_settings">إعدادات AmLogic الإضافية</string>
+    <string name="apps_action_display_profiles">ملفات تعريف العرض</string>
+    <string name="apps_action_install_apps">تثبيت تطبيقات خارجية</string>
+    <string name="apps_action_accessibility_service">خدمة سهولة الاستخدام</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">تبديل الملف الشخصي</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">هذا الجهاز</string>
+    <string name="apps_action_about_wallpaper">هذه الخلفية</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">بلا</string>
+    <string name="apps_autostart_screensaver">شاشة التوقف</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">القنوات</string>
+    <string name="apps_channels_watch_next">متابعة المشاهدة</string>
+    <string name="apps_channels_unreadable">لم يعد من الممكن قراءة هذه القناة</string>
+    <string name="apps_channels_hidden">مخفية من قِبل النظام</string>
+    <plurals name="apps_channel_count">
+        <item quantity="zero">%d قناة</item>
+        <item quantity="one">%d قناة</item>
+        <item quantity="two">%d قناتان</item>
+        <item quantity="few">%d قنوات</item>
+        <item quantity="many">%d قناة</item>
+        <item quantity="other">%d قناة</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">تطبيق حزمة الأيقونات</string>
+    <string name="apps_iconpack_apply_message">هل تريد استخدام %1$s لأيقونات تطبيقاتك؟</string>
+    <string name="apps_iconpack_apply_confirm">تطبيق</string>
+    <string name="apps_iconpack_applied">تم تطبيق حزمة الأيقونات</string>
+    <string name="apps_iconpack_apply_missing">لم يُحدَّد اسم أي حزمة أيقونات</string>
+    <string name="apps_iconpack_apply_not_a_pack">هذا التطبيق ليس حزمة أيقونات</string>
+    <string name="apps_iconpack_none">بلا</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">إضافة اختصار</string>
+    <string name="apps_pin_shortcut_message">هل تريد إضافة «%1$s» من %2$s إلى فئة الاختصارات؟</string>
+    <string name="apps_pin_shortcut_confirm">إضافة</string>
+    <string name="apps_pin_shortcut_added">تمت إضافة الاختصار</string>
+    <string name="apps_pin_shortcut_failed">تعذّرت إضافة الاختصار</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">تثبيت تطبيقات خارجية</string>
+    <string name="apps_install_description">يُرجى اختيار تطبيق لتثبيته. قد تحتاج إلى السماح بالتثبيت من مصادر غير معروفة قبل التثبيت.</string>
+    <string name="apps_install_custom_url">عنوان URL مخصّص / رمز Downloader</string>
+    <string name="apps_install_custom_url_desc">احرص على استخدام مصدر موثوق</string>
+    <string name="apps_install_choose_method">اختر طريقة التثبيت</string>
+    <string name="apps_install_installed">مثبّت</string>
+    <string name="apps_install_category_wallpaper_plugin">مكوّن إضافي للخلفية</string>
+    <string name="apps_install_category_icon_pack">حزمة أيقونات</string>
+    <string name="apps_install_category_file_manager">مدير ملفات</string>
+    <string name="apps_install_category_tool">أداة</string>
+    <string name="apps_install_method_store">المتجر</string>
+    <string name="apps_install_method_direct">تنزيل مباشر</string>
+    <string name="apps_install_method_downloader">تطبيق Downloader</string>
+    <string name="apps_install_state_downloading">جارٍ تنزيل %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">جارٍ تنزيل %1$s…</string>
+    <string name="apps_install_state_installing">جارٍ تثبيت %1$s…</string>
+    <string name="apps_install_state_confirm">أكّد تثبيت %1$s</string>
+    <string name="apps_install_state_success">تم تثبيت %1$s</string>
+    <string name="apps_install_state_unknown_sources">اسمح لـ QLauncher بتثبيت التطبيقات، ثم عُد للمتابعة</string>
+    <string name="apps_install_state_downloader_sent">تم إرسال الرمز %1$s إلى Downloader</string>
+    <string name="apps_install_state_downloader_type">أدخل الرمز %1$s في Downloader</string>
+    <string name="apps_install_state_store">تم الفتح في المتجر</string>
+    <string name="apps_install_state_browser">هذا الرابط صفحة ويب؛ تم فتحه في المتصفح</string>
+    <string name="apps_install_fail_invalid">هذا ليس عنوان URL ولا رمز Downloader</string>
+    <string name="apps_install_fail_no_usb">لم يُعثر على أي محرك USB</string>
+    <string name="apps_install_fail_archive">لا يمكن تثبيت الملفات المضغوطة</string>
+    <string name="apps_install_fail_network">فشل التنزيل</string>
+    <string name="apps_install_fail_http">ردّ الخادم بخطأ (%1$s)</string>
+    <string name="apps_install_fail_not_apk">الملف ليس تطبيقًا (APK)</string>
+    <string name="apps_install_fail_unreadable">لا يمكن قراءة الملف</string>
+    <string name="apps_install_fail_install">فشل التثبيت</string>
+    <string name="apps_install_fail_cancelled">تم إلغاء التثبيت</string>
+    <string name="apps_install_fail_unknown_sources">غير مسموح لـ QLauncher بتثبيت التطبيقات</string>
+    <string name="apps_install_fail_downloader">تطبيق Downloader غير مثبّت</string>
+    <string name="apps_install_fail_store">لا يتوفر أي متجر تطبيقات</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">هذا الجهاز</string>
+    <string name="apps_device_brand_manufacturer">العلامة التجارية / الشركة المصنّعة</string>
+    <string name="apps_device_device_product">الجهاز / المنتج</string>
+    <string name="apps_device_model">الطراز</string>
+    <string name="apps_device_hardware">العتاد</string>
+    <string name="apps_device_fingerprint">البصمة</string>
+    <string name="apps_device_build">رقم الإصدار</string>
+    <string name="apps_device_build_desc">وصف الإصدار</string>
+    <string name="apps_device_device_type">نوع الجهاز</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">عنوان IP</string>
+    <string name="apps_device_root_access">صلاحيات الجذر (Root)</string>
+    <string name="apps_device_pm_info">معلومات PM</string>
+    <string name="apps_device_pm_none">لا يوجد مدير صورة</string>
+    <string name="apps_device_id">المعرّف</string>
+    <string name="apps_device_yes">نعم</string>
+    <string name="apps_device_no">لا</string>
+</resources>

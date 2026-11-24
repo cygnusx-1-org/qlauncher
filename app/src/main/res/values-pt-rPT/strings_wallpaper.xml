@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Nenhuma</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Cores dinâmicas</string>
+    <string name="wallpaper_provider_default">Imagem de fundo predefinida</string>
+    <string name="wallpaper_provider_media_file">Ficheiro multimédia</string>
+    <string name="wallpaper_provider_folder">Pasta</string>
+    <string name="wallpaper_provider_focused_program">Programa em foco</string>
+    <string name="wallpaper_provider_now_playing">Em reprodução</string>
+    <string name="wallpaper_provider_random_program">Programa aleatório</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Plugin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Imagens de fundo</string>
+    <string name="wallpaper_wikimedia_nature">Natureza</string>
+    <string name="wallpaper_wikimedia_landscapes">Paisagens</string>
+    <string name="wallpaper_wikimedia_mountains">Montanhas</string>
+    <string name="wallpaper_wikimedia_forests">Florestas</string>
+    <string name="wallpaper_wikimedia_cities">Cidades</string>
+    <string name="wallpaper_wikimedia_architecture">Arquitetura</string>
+    <string name="wallpaper_wikimedia_night">Noite</string>
+    <string name="wallpaper_wikimedia_space">Espaço</string>
+    <string name="wallpaper_wikimedia_animals">Animais</string>
+    <string name="wallpaper_wikimedia_custom">[Pesquisa personalizada]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit personalizado]</string>
+    <string name="wallpaper_reddit_log_out">Terminar sessão</string>
+    <string name="wallpaper_reddit_login_needed">Inicie sessão no Reddit para ver as imagens de fundo de lá.</string>
+    <string name="wallpaper_reddit_login_title">Iniciar sessão no Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">A iniciar sessão…</string>
+    <string name="wallpaper_reddit_login_denied">O acesso ao Reddit não foi concedido, por isso as imagens de fundo do Reddit continuam indisponíveis.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">A resposta do Reddit não correspondia a esta tentativa de início de sessão e foi ignorada. Tente novamente.</string>
+    <string name="wallpaper_reddit_login_failed">Falha ao iniciar sessão no Reddit (%1$s). Tente novamente mais tarde.</string>
+    <string name="wallpaper_reddit_login_network">Não foi possível aceder ao Reddit. Verifique a ligação de rede e tente novamente.</string>
+    <string name="wallpaper_reddit_login_page_error">Não foi possível carregar a página de início de sessão do Reddit. Verifique a ligação de rede e tente novamente.</string>
+    <string name="wallpaper_reddit_no_webview">Este dispositivo não tem um componente de navegador web (Android System WebView), necessário para iniciar sessão no Reddit. Instale ou ative o Android System WebView e tente novamente.</string>
+    <string name="wallpaper_reddit_retry">Tentar novamente</string>
+    <string name="wallpaper_reddit_close">Fechar</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Sem ligação à origem das imagens de fundo.</string>
+    <string name="wallpaper_error_server">A origem das imagens de fundo respondeu com um erro.</string>
+    <string name="wallpaper_error_rate_limited">A origem das imagens de fundo pediu para aguardar antes do próximo pedido.</string>
+    <string name="wallpaper_error_generic">Não foi possível carregar as imagens de fundo.</string>
+    <string name="wallpaper_error_no_media">Não foi escolhida nenhuma imagem, vídeo ou cor.</string>
+    <string name="wallpaper_error_no_folder">Não foi escolhida nenhuma pasta.</string>
+    <string name="wallpaper_error_folder_access">Não é possível ler a pasta. Escolha-a novamente.</string>
+    <string name="wallpaper_error_folder_empty">A pasta não contém imagens, vídeos nem animações Lottie.</string>
+    <string name="wallpaper_error_theme_empty">O tema atual não tem imagens de fundo.</string>
+    <string name="wallpaper_error_no_channels">Os canais não estão disponíveis. Ative-os e permita o acesso à programação de TV.</string>
+    <string name="wallpaper_error_no_notification_access">«Em reprodução» requer acesso a notificações.</string>
+    <string name="wallpaper_error_no_subreddit">Não está definido nenhum subreddit válido.</string>
+    <string name="wallpaper_error_plugin">O plugin de imagem de fundo não respondeu.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Imagem de fundo definida</string>
+    <string name="wallpaper_set_failed">Este ficheiro não pode ser utilizado como imagem de fundo.</string>
+</resources>

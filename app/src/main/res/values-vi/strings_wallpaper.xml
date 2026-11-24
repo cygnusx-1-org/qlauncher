@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Không có</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Màu động</string>
+    <string name="wallpaper_provider_default">Hình nền mặc định</string>
+    <string name="wallpaper_provider_media_file">Tệp đa phương tiện</string>
+    <string name="wallpaper_provider_folder">Thư mục</string>
+    <string name="wallpaper_provider_focused_program">Chương trình đang chọn</string>
+    <string name="wallpaper_provider_now_playing">Đang phát</string>
+    <string name="wallpaper_provider_random_program">Chương trình ngẫu nhiên</string>
+    <string name="wallpaper_provider_theme">Chủ đề</string>
+    <string name="wallpaper_provider_unknown_plugin">Plugin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Hình nền</string>
+    <string name="wallpaper_wikimedia_nature">Thiên nhiên</string>
+    <string name="wallpaper_wikimedia_landscapes">Phong cảnh</string>
+    <string name="wallpaper_wikimedia_mountains">Núi non</string>
+    <string name="wallpaper_wikimedia_forests">Rừng</string>
+    <string name="wallpaper_wikimedia_cities">Thành phố</string>
+    <string name="wallpaper_wikimedia_architecture">Kiến trúc</string>
+    <string name="wallpaper_wikimedia_night">Ban đêm</string>
+    <string name="wallpaper_wikimedia_space">Vũ trụ</string>
+    <string name="wallpaper_wikimedia_animals">Động vật</string>
+    <string name="wallpaper_wikimedia_custom">[Tìm kiếm tùy chỉnh]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit tùy chỉnh]</string>
+    <string name="wallpaper_reddit_log_out">Đăng xuất</string>
+    <string name="wallpaper_reddit_login_needed">Đăng nhập Reddit để xem hình nền từ Reddit.</string>
+    <string name="wallpaper_reddit_login_title">Đăng nhập Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Đang đăng nhập…</string>
+    <string name="wallpaper_reddit_login_denied">Quyền truy cập Reddit chưa được cấp, nên hình nền Reddit vẫn không khả dụng.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Phản hồi từ Reddit không khớp với lần đăng nhập này nên đã bị bỏ qua. Vui lòng thử lại.</string>
+    <string name="wallpaper_reddit_login_failed">Đăng nhập Reddit không thành công (%1$s). Vui lòng thử lại sau.</string>
+    <string name="wallpaper_reddit_login_network">Không thể kết nối với Reddit. Hãy kiểm tra kết nối mạng và thử lại.</string>
+    <string name="wallpaper_reddit_login_page_error">Không thể tải trang đăng nhập Reddit. Hãy kiểm tra kết nối mạng và thử lại.</string>
+    <string name="wallpaper_reddit_no_webview">Thiết bị này không có thành phần trình duyệt web (Android System WebView) mà việc đăng nhập Reddit cần đến. Hãy cài đặt hoặc bật Android System WebView rồi thử lại.</string>
+    <string name="wallpaper_reddit_retry">Thử lại</string>
+    <string name="wallpaper_reddit_close">Đóng</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Không có kết nối tới nguồn hình nền.</string>
+    <string name="wallpaper_error_server">Nguồn hình nền trả về lỗi.</string>
+    <string name="wallpaper_error_rate_limited">Nguồn hình nền yêu cầu chờ trước lần yêu cầu tiếp theo.</string>
+    <string name="wallpaper_error_generic">Không thể tải hình nền.</string>
+    <string name="wallpaper_error_no_media">Chưa chọn ảnh, video hoặc màu nào.</string>
+    <string name="wallpaper_error_no_folder">Chưa chọn thư mục nào.</string>
+    <string name="wallpaper_error_folder_access">Không thể đọc thư mục. Hãy chọn lại.</string>
+    <string name="wallpaper_error_folder_empty">Thư mục không chứa ảnh, video hoặc ảnh động Lottie nào.</string>
+    <string name="wallpaper_error_theme_empty">Chủ đề hiện tại không có hình nền nào.</string>
+    <string name="wallpaper_error_no_channels">Kênh không khả dụng. Hãy bật kênh và cho phép truy cập danh sách chương trình TV.</string>
+    <string name="wallpaper_error_no_notification_access">“Đang phát” cần quyền truy cập thông báo.</string>
+    <string name="wallpaper_error_no_subreddit">Chưa đặt subreddit hợp lệ nào.</string>
+    <string name="wallpaper_error_plugin">Plugin hình nền không phản hồi.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Đã đặt hình nền</string>
+    <string name="wallpaper_set_failed">Không thể dùng tệp này làm hình nền.</string>
+</resources>

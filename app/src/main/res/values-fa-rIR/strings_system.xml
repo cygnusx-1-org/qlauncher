@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">لطفاً هر ترکیبی از پیکان‌ها/رقم‌ها را وارد کنید و با OK تأیید کنید</string>
+    <string name="system_parental_confirm_code">لطفاً کد را دوباره وارد کنید و با OK تأیید کنید</string>
+    <string name="system_parental_restricted">دسترسی محدود\nلطفاً کد والدین را وارد کنید</string>
+    <string name="system_parental_wrong_code">کد نادرست است</string>
+    <string name="system_parental_codes_differ">کدها یکسان نیستند، لطفاً دوباره تلاش کنید</string>
+    <string name="system_parental_code_saved">کد والدین ذخیره شد</string>
+    <string name="system_parental_recovery_code">کد بازیابی: %1$s</string>
+    <string name="system_parental_recovery_help">آن را یادداشت کنید: فقط همین یک بار نمایش داده می‌شود. اگر با پیکان‌ها وارد شود (1 = ▲، 2 = ▼، 3 = ◄، 4 = ►)، مانند کد والدین قفل را باز می‌کند.</string>
+    <string name="system_parental_press_ok">برای ادامه OK را فشار دهید</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">میان‌برهای کنترل از راه دور</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">خانه</string>
+    <string name="system_hotkeys_keys_menu_twice">منو × ۲</string>
+    <string name="system_hotkeys_change_input">تغییر ورودی</string>
+    <string name="system_hotkeys_change_profile">تغییر نمایه نمایشگر</string>
+    <string name="system_hotkeys_start_launcher">اجرای QLauncher</string>
+    <string name="system_hotkeys_home">باز کردن QLauncher؛ دو بار: برنامه‌های اخیر</string>
+    <string name="system_hotkeys_close">بستن این راهنما</string>
+    <string name="system_hotkeys_no_inputs">این دستگاه ورودی تلویزیون ندارد</string>
+    <string name="system_hotkeys_no_picture_manager">هیچ مدیر تصویری بارگذاری نشده است</string>
+    <string name="system_hotkeys_home_off">خاموش: به «جایگزینی راه‌انداز فعلی» و تغییر عملکرد دکمه‌ها نیاز دارد</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">بیکاری کاربر تشخیص داده شد، خاموش شدن تا %1$d ثانیه دیگر</string>
+    <string name="system_idle_countdown_screen_off">بیکاری کاربر تشخیص داده شد، خاموش شدن صفحه تا %1$d ثانیه دیگر</string>
+    <string name="system_idle_countdown_screensaver">بیکاری کاربر تشخیص داده شد، محافظ صفحه تا %1$d ثانیه دیگر</string>
+    <string name="system_idle_countdown_cancel">برای لغو، هر دکمه‌ای را فشار دهید</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">این دستگاه میان‌بری به تنظیمات دسترس‌پذیری ندارد. آن‌ها را از تنظیمات Android باز کنید، معمولاً در «اولویت‌های دستگاه › دسترس‌پذیری».</string>
+    <string name="system_notification_access_no_settings">این دستگاه صفحه دسترسی به اعلان ندارد. از یک رایانه با این فرمان دسترسی بدهید:</string>
+</resources>

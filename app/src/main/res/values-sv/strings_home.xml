@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Spelas nu</string>
+    <string name="home_cat_inputs">Ingångar</string>
+    <string name="home_cat_favorites">Favoriter</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Musik</string>
+    <string name="home_cat_games">Spel</string>
+    <string name="home_cat_tv_apps">TV-appar</string>
+    <string name="home_cat_mobile_apps">Mobilappar</string>
+    <string name="home_cat_watch_next">Titta härnäst</string>
+    <string name="home_cat_shortcuts">Genvägar</string>
+    <string name="home_cat_folders">Kategorimappar</string>
+    <string name="home_cat_live_tv">Live-tv</string>
+    <string name="home_cat_settings">Inställningar</string>
+    <string name="home_cat_display">Skärm</string>
+    <string name="home_cat_applications">Appar</string>
+    <string name="home_cat_system">System</string>
+    <string name="home_cat_about">Om</string>
+    <string name="home_new_category">Ny kategori</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Alla appar</string>
+    <string name="home_action_edit_categories">Redigera kategorier</string>
+    <string name="home_action_edit_channels">Redigera kanaler</string>
+    <string name="home_action_launcher_settings">QLauncher-inställningar</string>
+    <string name="home_action_android_settings">Android-inställningar</string>
+    <string name="home_action_amlogic_settings">Ytterligare AmLogic-inställningar</string>
+    <string name="home_action_display_profiles">Skärmprofiler</string>
+    <string name="home_action_install_apps">Installera tredjepartsappar</string>
+    <string name="home_action_accessibility">Tillgänglighetstjänst</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Byt profil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Den här enheten</string>
+    <string name="home_action_about_wallpaper">Den här bakgrundsbilden</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Säsong %1$s</string>
+    <string name="home_episode">Avsnitt %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Anslutning</string>
+    <string name="home_status_notifications">Aviseringar</string>
+    <string name="home_status_settings">Inställningar</string>
+    <string name="home_status_wallpaper">Den här bakgrundsbilden</string>
+    <string name="home_navigation_menu">Navigeringsmeny</string>
+    <string name="home_reorder">Ändra ordning</string>
+    <string name="home_category_settings">Kategoriinställningar</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Appinställningar</string>
+    <string name="menu_open">Öppna</string>
+    <string name="menu_details">Detaljer</string>
+    <string name="menu_play_pause">Spela upp/pausa</string>
+    <string name="menu_stop">Stoppa</string>
+    <string name="menu_previous">Föregående</string>
+    <string name="menu_next">Nästa</string>
+    <string name="menu_uninstall">Avinstallera</string>
+    <string name="menu_launch_on_boot">Starta vid uppstart</string>
+    <string name="menu_launch_on_boot_on">Startar vid uppstart</string>
+    <string name="menu_add_parental">Lägg till i föräldrakontroll</string>
+    <string name="menu_remove_parental">Ta bort från föräldrakontroll</string>
+    <string name="menu_shortcuts">Genvägar</string>
+    <string name="menu_appearance">Utseende</string>
+    <string name="menu_title">Titel</string>
+    <string name="menu_change_icon">Byt ikon</string>
+    <string name="menu_icon_from_picture">Från bild</string>
+    <string name="menu_icon_other_location">Annan plats…</string>
+    <string name="menu_icon_no_pictures">Inga bilder hittades. Kopiera några till Pictures eller Download, eller anslut ett USB-minne.</string>
+    <string name="menu_icon_reset">Återställ</string>
+    <string name="menu_crop">Beskär för att fylla</string>
+    <string name="menu_visibility">Synlighet</string>
+    <string name="menu_reorder">Ändra ordning</string>
+    <string name="menu_remove_from">Ta bort från %1$s</string>
+    <string name="menu_hide">Dölj</string>
+    <string name="menu_add_to">Lägg till i…</string>
+    <string name="menu_move_to">Flytta till…</string>
+    <string name="menu_channels">Kanaler</string>
+    <string name="menu_rename_hint">Skriv en ny titel och tryck på OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Titel</string>
+    <string name="editor_change_icon">Byt ikon</string>
+    <string name="editor_visible">Synlig</string>
+    <string name="editor_grid">Rutnät</string>
+    <string name="editor_sliding_row">Rullande rad</string>
+    <string name="editor_background">Bakgrundsfärg</string>
+    <string name="editor_show_title">Visa titel</string>
+    <string name="editor_size">Storlek</string>
+    <string name="editor_advanced">Avancerade inställningar</string>
+    <string name="editor_start_margin">Startmarginal</string>
+    <string name="editor_end_margin">Slutmarginal</string>
+    <string name="editor_top_margin">Övre marginal</string>
+    <string name="editor_cards_per_row">Kort per rad</string>
+    <string name="editor_row_count">Antal rader</string>
+    <string name="editor_auto">Automatiskt</string>
+    <string name="editor_auto_value">Automatiskt (%1$s)</string>
+    <string name="editor_sort">Sortering</string>
+    <string name="editor_sort_custom">Anpassad</string>
+    <string name="editor_sort_name">Alfabetiskt</string>
+    <string name="editor_sort_last">Senast använda</string>
+    <string name="editor_sort_most">Ofta använda</string>
+    <string name="editor_sort_random">Slumpmässigt</string>
+    <string name="editor_set_default">Ange som standard</string>
+    <string name="editor_is_default">Standardkategori</string>
+    <string name="editor_manage_apps">Hantera appar</string>
+    <string name="editor_hidden_items">Dolda objekt</string>
+    <string name="editor_restore">Återställ</string>
+    <string name="editor_delete">Radera</string>
+    <string name="editor_delete_confirm">Radera den här kategorin?</string>
+    <string name="editor_empty_note">Kategorin visas inte än eftersom den är tom</string>
+    <string name="editor_request_notifications">Begär aviseringsbehörighet</string>
+    <string name="editor_channel_error">Kanalen kan inte längre läsas</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanaler</string>
+    <string name="channels_count">%1$d kanaler</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Aviseringar</string>
+    <string name="notifications_clear_all">Rensa alla</string>
+    <string name="notifications_empty">Inga aviseringar</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Appen kan inte öppnas</string>
+    <string name="home_reorder_hint">Flytta med vänster/höger, avsluta med OK eller BAKÅT</string>
+    <string name="home_category_reorder_hint">Flytta med upp/ned, avsluta med OK eller BAKÅT</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Välkommen!</string>
+    <string name="firstrun_welcome_text">QLauncher är en appstartare för Android TV. Den samlar dina appar, kanaler och ditt favoritinnehåll på en anpassningsbar startskärm, med en växlande bakgrundsbild bakom.</string>
+    <string name="firstrun_features_title">Dina nya superkrafter</string>
+    <string name="firstrun_features_text">Starta en app eller en HDMI-ingång vid uppstart, hantera skärmprofiler, lås appar med föräldrakontroll, visa kalibreringsmönster, upptäck inaktivitet och anpassa varje del av startskärmen. Vissa funktioner beror på din enhet.</string>
+    <string name="firstrun_a11y_title">Dags för tillgänglighet</string>
+    <string name="firstrun_a11y_text">Många funktioner kräver QLaunchers tillgänglighetstjänst: att ersätta den förinstallerade appstartaren, åtgärder vid uppstart, gester med fjärrkontrollens knappar, inaktivitetsavkänning och föräldrakontroll. Du kan aktivera den nu eller senare i inställningarna.</string>
+    <string name="firstrun_a11y_open">Öppna tillgänglighetsinställningarna</string>
+    <string name="firstrun_permissions_title">Om jag får be…</string>
+    <string name="firstrun_permissions_text">Härnäst ber QLauncher om behörighet att läsa TV-tablåer (för kanaler och Titta härnäst) och om åtkomst till aviseringar (för aviseringsikonen och Spelas nu). Båda är valfria.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Härnäst ber QLauncher om åtkomst till aviseringar (för aviseringsikonen och Spelas nu). Det är valfritt.</string>
+    <string name="firstrun_notifications_dialog">Tillåta åtkomst till aviseringar?</string>
+    <string name="firstrun_notifications_text">Med åtkomst till aviseringar kan QLauncher visa antalet aviseringar, en aviseringspanel och vad som spelas. Ja öppnar sidan Särskild appåtkomst där du ger åtkomsten.</string>
+    <string name="firstrun_reports_title">Skicka anonyma krasch- och felrapporter?</string>
+    <string name="firstrun_reports_text">Om QLauncher kraschar eller stöter på ett fel kan den skicka en rapport med appversion och enhetsmodell så att buggen kan åtgärdas. Inget som identifierar dig eller vad du tittar på skickas. Du kan ändra detta senare under Allmänt.</string>
+    <string name="firstrun_launcher_title">Gör QLauncher till din startskärm</string>
+    <string name="firstrun_launcher_text">Många TV-enheter låter dig inte byta standardappstartare. Om din gör det väljer du QLauncher där. Annars aktiverar du tillgänglighetstjänsten med ”Åsidosätt aktuell appstartare”, så kommer QLauncher tillbaka varje gång den förinstallerade appstartaren öppnas.</string>
+    <string name="firstrun_launcher_open">Byt standardappstartare</string>
+    <string name="firstrun_start_title">Dags att börja!</string>
+    <string name="firstrun_start_text">Allt kan ändras senare i inställningarna. Tryck på inställningsknappen uppe till höger eller på knappsekvensen ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">KOM IGÅNG</string>
+    <string name="firstrun_next">Nästa</string>
+    <string name="firstrun_skip">Hoppa över</string>
+    <string name="firstrun_yes">Ja</string>
+    <string name="firstrun_no">Nej</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Ingen skärmsläckare på enheten</string>
+</resources>

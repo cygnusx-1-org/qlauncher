@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Predefinido</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">negrito</string>
+    <string name="backup_clock_markup_italic">itálico</string>
+    <string name="backup_clock_markup_underline">sublinhado</string>
+    <string name="backup_clock_markup_strikethrough">rasurado</string>
+    <string name="backup_clock_markup_subscript">subscrito</string>
+    <string name="backup_clock_markup_superscript">sobrescrito</string>
+    <string name="backup_clock_markup_half_size">metade do tamanho</string>
+    <string name="backup_clock_markup_one_and_a_half_size">uma vez e meia</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Corte de preto</string>
+    <string name="backup_pattern_apl_clipping">Corte de APL</string>
+    <string name="backup_pattern_white_clipping">Corte de branco</string>
+    <string name="backup_pattern_grayscale_ramp">Rampa de escala de cinzentos</string>
+    <string name="backup_pattern_grayscale_steps">Degraus de escala de cinzentos</string>
+    <string name="backup_pattern_dynamic_brightness">Brilho dinâmico</string>
+    <string name="backup_pattern_color_steps">Degraus de cor</string>
+    <string name="backup_pattern_color_clipping">Corte de cor</string>
+    <string name="backup_pattern_flashing_color_bars">Barras de cor intermitentes</string>
+    <string name="backup_pattern_sharpness_overscan">Nitidez &amp; overscan</string>
+    <string name="backup_pattern_uhd">Padrão UHD</string>
+    <string name="backup_pattern_judder">Teste de trepidação</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Proporção e nitidez</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Nível de preto</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Corte de cor 240–1000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Corte de cor 3600–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Corte de cor 700–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Corte de cor 900–4000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Rampa de escala de cinzentos 10000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Rampa de escala de cinzentos 1000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Rampa de escala de cinzentos 4000 nits</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE de preto</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Rampas de cor</string>
+    <string name="backup_pattern_unavailable">%1$s requer um caminho de vídeo HDR e ainda não está disponível</string>
+    <!-- Pages -->
+    <string name="backup_settings">Definições</string>
+    <string name="backup_manage_settings">Gerir definições</string>
+    <string name="backup_themes">Temas</string>
+    <string name="backup_import">Importar</string>
+    <string name="backup_export">Exportar</string>
+    <string name="backup_import_from_file">Do gestor de ficheiros</string>
+    <string name="backup_import_from_auto">Do backup automático</string>
+    <string name="backup_export_save">Guardar localmente</string>
+    <string name="backup_export_share">Partilhar com outra aplicação</string>
+    <string name="backup_reset">Repor predefinições</string>
+    <string name="backup_cancel">Cancelar</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Concluído</string>
+    <string name="backup_close">Fechar</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Exportar definições</string>
+    <string name="backup_export_theme_title">Exportar tema</string>
+    <string name="backup_export_description">Tudo é guardado num único ficheiro, encriptado com uma palavra-passe à sua escolha (pelo menos %1$d carateres). A palavra-passe é necessária para importar o ficheiro e não pode ser recuperada.</string>
+    <string name="backup_export_theme_description">As definições de aspeto e a imagem de fundo atual são guardadas num único ficheiro, encriptado com uma palavra-passe à sua escolha (pelo menos %1$d carateres). A palavra-passe é necessária para importar o tema.</string>
+    <string name="backup_password">Palavra-passe</string>
+    <string name="backup_password_show">Mostrar palavra-passe</string>
+    <string name="backup_password_hide">Ocultar palavra-passe</string>
+    <string name="backup_password_strength">Força da palavra-passe</string>
+    <string name="backup_strength_too_short">Demasiado curta: pelo menos %1$d carateres</string>
+    <string name="backup_strength_weak">Fraca: fácil de adivinhar</string>
+    <string name="backup_strength_fair">Razoável</string>
+    <string name="backup_strength_strong">Forte</string>
+    <string name="backup_password_too_short">A palavra-passe precisa de ter pelo menos %1$d carateres</string>
+    <string name="backup_exporting">A exportar…</string>
+    <string name="backup_export_saved">Guardado em %1$s</string>
+    <string name="backup_export_kept">Não foi guardado noutro local. O ficheiro fica em %1$s</string>
+    <string name="backup_export_shared">Enviado. Fica uma cópia em %1$s</string>
+    <string name="backup_export_no_file_manager">Nenhuma aplicação neste dispositivo pode receber o ficheiro. Está em %1$s</string>
+    <string name="backup_export_failed">A exportação falhou: %1$s</string>
+    <string name="backup_share_title">Enviar o ficheiro do QLauncher com</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">A importação substitui a sua configuração atual. Primeiro é criado um backup automático, e o QLauncher reinicia quando terminar.</string>
+    <string name="backup_reading">A ler o ficheiro…</string>
+    <string name="backup_import_action">Importar</string>
+    <string name="backup_wrong_password">Palavra-passe incorreta</string>
+    <string name="backup_password_hint">A palavra-passe escolhida quando o ficheiro foi exportado</string>
+    <string name="backup_not_a_backup">Isto não é um backup nem um tema do QLauncher ou do Projectivy.</string>
+    <string name="backup_damaged">O ficheiro está danificado ou incompleto.</string>
+    <string name="backup_too_new">Este ficheiro foi criado por uma versão mais recente do QLauncher (formato %1$d). Atualize o QLauncher para o importar.</string>
+    <string name="backup_unreadable">Não é possível ler este backup automático neste dispositivo.</string>
+    <string name="backup_import_failed">A importação falhou e nada foi alterado: %1$s</string>
+    <string name="backup_applying">A importar… O QLauncher reinicia quando terminar.</string>
+    <string name="backup_origin_ql_backup">Backup das definições do QLauncher</string>
+    <string name="backup_origin_ql_theme">Tema do QLauncher</string>
+    <string name="backup_origin_pl_backup">Backup das definições do Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Tema do Projectivy Launcher</string>
+    <string name="backup_origin_auto">Backup automático</string>
+    <string name="backup_preview_theme_by">%1$s por %2$s</string>
+    <string name="backup_preview_version">versão %1$s</string>
+    <string name="backup_preview_settings">Definições</string>
+    <string name="backup_preview_categories">Categorias</string>
+    <string name="backup_preview_apps">Personalizações de aplicações</string>
+    <string name="backup_preview_profiles">Perfis de ecrã</string>
+    <string name="backup_preview_files">Imagens de fundo e ícones</string>
+    <string name="backup_preview_skipped">Aplicações que não estão neste dispositivo</string>
+    <string name="backup_replace_setup">Substituir configuração atual</string>
+    <string name="backup_apply_theme">Aplicar tema</string>
+    <string name="backup_replace_detail">Primeiro é criado um backup automático da configuração atual</string>
+    <string name="backup_nc_parental">Código parental</string>
+    <string name="backup_nc_parental_detail">Não é transferido. Defina um novo código em Controlo parental.</string>
+    <string name="backup_nc_premium">Estado Premium</string>
+    <string name="backup_nc_premium_detail">Não é transferido. Todas as funcionalidades do QLauncher são gratuitas.</string>
+    <string name="backup_nc_inputs">Entradas de TV</string>
+    <string name="backup_nc_profile_bindings">Associações de perfis de ecrã</string>
+    <string name="backup_nc_plugin">Plugin de imagem de fundo</string>
+    <string name="backup_nc_plugin_detail">%1$s não está instalado. A origem da imagem de fundo mantém-se como está.</string>
+    <string name="backup_nc_icons">Ícones personalizados</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d valor alterado</item>
+        <item quantity="many">%1$d valores alterados</item>
+        <item quantity="other">%1$d valores alterados</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d categoria</item>
+        <item quantity="many">%1$d categorias</item>
+        <item quantity="other">%1$d categorias</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d aplicação</item>
+        <item quantity="many">%1$d aplicações</item>
+        <item quantity="other">%1$d aplicações</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d perfil</item>
+        <item quantity="many">%1$d perfis</item>
+        <item quantity="other">%1$d perfis</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d ficheiro</item>
+        <item quantity="many">%1$d ficheiros</item>
+        <item quantity="other">%1$d ficheiros</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d definição desconhecida, ignorada</item>
+        <item quantity="many">%1$d definições desconhecidas, ignoradas</item>
+        <item quantity="other">%1$d definições desconhecidas, ignoradas</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d entrada não corresponde a nenhuma aplicação instalada aqui e é ignorada</item>
+        <item quantity="many">%1$d entradas não correspondem a nenhuma aplicação instalada aqui e são ignoradas</item>
+        <item quantity="other">%1$d entradas não correspondem a nenhuma aplicação instalada aqui e são ignoradas</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d associação a uma entrada de TV que este dispositivo não tem é ignorada</item>
+        <item quantity="many">%1$d associações a entradas de TV que este dispositivo não tem são ignoradas</item>
+        <item quantity="other">%1$d associações a entradas de TV que este dispositivo não tem são ignoradas</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d perfil atribuído a uma entrada não é transferido</item>
+        <item quantity="many">%1$d perfis atribuídos a entradas não são transferidos</item>
+        <item quantity="other">%1$d perfis atribuídos a entradas não são transferidos</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d ícone guardado no Projectivy não pode ser lido e é ignorado</item>
+        <item quantity="many">%1$d ícones guardados no Projectivy não podem ser lidos e são ignorados</item>
+        <item quantity="other">%1$d ícones guardados no Projectivy não podem ser lidos e são ignorados</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Backups automáticos</string>
+    <string name="backup_auto_description">O QLauncher mantém as últimas %1$d versões da sua configuração neste dispositivo, encriptadas com uma chave que nunca sai dele. Escolha uma para a restaurar; não é necessária palavra-passe.</string>
+    <string name="backup_auto_none">Nenhum backup automático disponível</string>
+    <string name="backup_files_title">Ficheiros de backup</string>
+    <string name="backup_files_theme_title">Ficheiros de tema</string>
+    <string name="backup_files_description">As exportações são guardadas em %1$s. Com acesso a todos os ficheiros, o QLauncher também encontra backups em Download, Documents e em pens USB, incluindo os do Projectivy.</string>
+    <string name="backup_files_searching">A procurar ficheiros de backup…</string>
+    <string name="backup_files_none">Nenhum ficheiro de backup encontrado</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Pasta do QLauncher</string>
+    <string name="backup_files_access">Encontrar backups de outras aplicações e dispositivos</string>
+    <string name="backup_files_access_desc">Permitir acesso a todos os ficheiros</string>
+    <string name="backup_files_access_unavailable">Nenhum ecrã de definições neste dispositivo. Permita o acesso a todos os ficheiros com: %1$s</string>
+    <string name="backup_files_browse">Outro local…</string>
+    <string name="backup_files_browse_desc">Escolha um ficheiro com o seletor de ficheiros do sistema</string>
+    <string name="backup_auto_delete_all">Eliminar tudo</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Após uma alteração</string>
+    <string name="backup_reason_import">Antes de uma importação</string>
+    <string name="backup_reason_migration">Antes de uma atualização</string>
+    <string name="backup_reason_reset">Antes de uma reposição</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Perfil #</string>
+    <string name="backup_no_picture_manager">Nenhum gestor de imagem carregado</string>
+    <string name="backup_no_picture_manager_detail">Este dispositivo não oferece nenhuma forma suportada de alterar as definições de imagem, por isso os perfis mantêm os seus valores sem os aplicar.</string>
+</resources>

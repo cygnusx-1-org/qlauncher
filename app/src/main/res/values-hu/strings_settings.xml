@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Beállítások</string>
+    <string name="settings_breadcrumb_display">Kijelző</string>
+    <string name="settings_breadcrumb_applications">Alkalmazások</string>
+    <string name="settings_breadcrumb_system">Rendszer</string>
+    <string name="settings_breadcrumb_about">Névjegy</string>
+    <string name="settings_root_title">QLauncher-beállítások</string>
+    <string name="settings_root_description">Az alkalmazás beállításainak konfigurálása.</string>
+    <string name="settings_legend_a11y_required">Kisegítő szolgáltatás szükséges</string>
+    <string name="settings_legend_a11y_recommended">Kisegítő szolgáltatás ajánlott</string>
+    <string name="settings_legend_experimental">Kísérleti</string>
+    <string name="settings_launcher_related">Indítóval kapcsolatos beállítások</string>
+
+    <string name="settings_general">Általános</string>
+    <string name="settings_appearance">Megjelenés</string>
+    <string name="settings_power">Energiagazdálkodás</string>
+    <string name="settings_parental">Szülői felügyelet</string>
+    <string name="settings_remote">Távirányító</string>
+    <string name="settings_accessibility">Kisegítő szolgáltatás</string>
+    <string name="settings_display_profiles">Megjelenítési profilok</string>
+    <string name="settings_manage">Beállítások kezelése</string>
+
+    <!-- General -->
+    <string name="settings_language">Alkalmazás nyelvének módosítása</string>
+    <string name="settings_language_system">Rendszer alapértelmezése</string>
+    <string name="settings_default_launcher">Alapértelmezett indító módosítása</string>
+    <string name="settings_default_launcher_unavailable">Ez az eszköz nem teszi lehetővé az alapértelmezett indító módosítását. Használja helyette az „Aktuális indító felülbírálása” beállítást.</string>
+    <string name="settings_override_home">Aktuális indító felülbírálása</string>
+    <string name="settings_override_home_desc">Az aktuális indító hívásainak elfogása (hasznos, ha a gyárit nem tudja módosítani vagy eltávolítani)</string>
+    <string name="settings_enable_channels">Csatornák engedélyezése</string>
+    <string name="settings_enable_channels_desc">Ha nem használja őket, a kikapcsolásuk gyorsítja az indulást, és kevesebb memóriát használ</string>
+    <string name="settings_programs_per_channel">Műsorok csatornánként</string>
+    <string name="settings_crash_error_reports">Névtelen összeomlás- és hibajelentések</string>
+    <string name="settings_reports_desc">Csak a hiba, az alkalmazás verziója és az eszköz modellje kerül elküldésre</string>
+    <string name="settings_check_updates">Frissítések keresése</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategóriák / Csatornák</string>
+    <string name="settings_cards">Kártyák</string>
+    <string name="settings_wallpaper">Háttérkép</string>
+    <string name="settings_status_bar">Állapotsor</string>
+    <string name="settings_left_headers">Bal oldali fejlécek</string>
+    <string name="settings_idle_mode">Indító tétlen módja</string>
+    <string name="settings_font">Betűtípus</string>
+    <string name="settings_themes">Témák</string>
+    <string name="settings_themes_desc">Importálás / Exportálás</string>
+    <string name="settings_load_cards_scrolling">Kártyák betöltése görgetés közben</string>
+    <string name="settings_load_cards_scrolling_desc">Gyorsabb reagálás a gördülékenység rovására</string>
+    <string name="settings_accent">Kiemelőszín</string>
+    <string name="settings_accent_desc">Kapcsolja be a dinamikus módot, hogy a szín a háttérképet kövesse</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Cím megjelenítése</string>
+    <string name="settings_show_icon_title">Ikon megjelenítése a cím előtt</string>
+    <string name="settings_rows_spacing">Függőleges térköz (a képernyőmagasság százalékában)</string>
+    <string name="settings_fixed_position">Kijelölt kategória helyzetének rögzítése</string>
+    <string name="settings_hide_rows_above">Kijelölés feletti sorok elrejtése</string>
+    <string name="settings_remember_focus">Kijelölt kártya helyzetének megjegyzése</string>
+    <string name="settings_unselected_opacity">Nem kijelölt sorok átlátszatlansága</string>
+    <string name="settings_top_margin">Felső margó</string>
+    <string name="settings_start_margin">Kezdő margó</string>
+    <string name="settings_end_margin">Záró margó</string>
+    <string name="settings_dock_padding">Dokk belső margója</string>
+    <string name="settings_tint_custom_icons">Egyéni ikonok színezése</string>
+    <string name="settings_tint_custom_icons_desc">Háttér nélküli egyéni ikonokhoz</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Lekerekített sarkok</string>
+    <string name="settings_cards_size">Kártyák mérete</string>
+    <string name="settings_cards_spacing">Kártyák térköze</string>
+    <string name="settings_loop_limit">Animált ikonok ismétlési korlátja</string>
+    <string name="settings_ripple">Hullámeffektus kártya megnyomásakor</string>
+    <string name="settings_background_color">Háttérszín</string>
+    <string name="settings_focused_card">Kijelölt kártya</string>
+    <string name="settings_program_cards">Műsorkártyák</string>
+    <string name="settings_tv_ratio">TV-alkalmazások kártyáinak képaránya</string>
+    <string name="settings_mobile_ratio">Mobilalkalmazások kártyáinak képaránya</string>
+    <string name="settings_icon_pack">Ikoncsomag</string>
+    <string name="settings_icon_pack_none">Nincs telepítve ikoncsomag</string>
+    <string name="settings_icon_pack_off">Nincs</string>
+    <string name="settings_more">Továbbiak…</string>
+    <string name="settings_custom_icon_tint">Egyéni ikonok színe</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Kijelölt kártya mérete</string>
+    <string name="settings_focused_effect">Kijelölt kártya effektusa</string>
+    <string name="settings_effect_none">Nincs</string>
+    <string name="settings_effect_shadow">Vetett árnyék</string>
+    <string name="settings_effect_glow">Ragyogás</string>
+    <string name="settings_glow_animation">Ragyogás animációja</string>
+    <string name="settings_anim_none">Nincs</string>
+    <string name="settings_anim_pulse">Pulzálás</string>
+    <string name="settings_anim_breath">Lélegzés</string>
+    <string name="settings_anim_fade">Elhalványulás</string>
+    <string name="settings_anim_shine">Csillogás</string>
+    <string name="settings_glow_size">Ragyogás mérete</string>
+    <string name="settings_glow_color">Ragyogás színe</string>
+    <string name="settings_glow_color_desc">Hagyja üresen a kártya saját színének használatához</string>
+    <string name="settings_colors_override">Színek felülbírálása</string>
+    <string name="settings_override_none">Nincs</string>
+    <string name="settings_override_swap">Háttér és színezés felcserélése</string>
+    <string name="settings_override_custom">Egyéni</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Előnézeti videó lejátszása</string>
+    <string name="settings_preview_never">Soha</string>
+    <string name="settings_preview_always">Mindig</string>
+    <string name="settings_preview_no_media">Ha nincs a háttérben lejátszott média</string>
+    <string name="settings_show_progress">Folyamatjelző megjelenítése</string>
+    <string name="settings_show_badge">Jelvény megjelenítése</string>
+    <string name="settings_zoom_focus">Nagyítás kijelöléskor</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Támogatott formátumok: állókép, animált GIF, videó (fájl vagy RTSP élő adás), Lottie-animáció</string>
+    <string name="settings_launcher_wallpaper">Indító háttérképe</string>
+    <string name="settings_configure">Konfigurálás</string>
+    <string name="settings_show_wallpapers">Háttérképek megjelenítése</string>
+    <string name="settings_picture_adjustment">Képbeállítás</string>
+    <string name="settings_image_transition">Képátmenet</string>
+    <string name="settings_update_frequency">Frissítési gyakoriság (perc)</string>
+    <string name="settings_video_wallpaper">Videó-háttérkép</string>
+    <string name="settings_display_mode">Megjelenítési mód</string>
+    <string name="settings_bad_ratio">Rossz képarány/minőség esetén</string>
+    <string name="settings_min_width">Minimális elfogadott szélesség (px)</string>
+    <string name="settings_src_none">Nincs</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dinamikus színek</string>
+    <string name="settings_src_default">Alapértelmezett háttérkép</string>
+    <string name="settings_src_media">Médiafájl</string>
+    <string name="settings_src_folder">Mappa</string>
+    <string name="settings_src_focused_program">Kijelölt műsor</string>
+    <string name="settings_src_now_playing">Most játszott</string>
+    <string name="settings_src_random_program">Véletlenszerű műsor</string>
+    <string name="settings_src_theme">Téma</string>
+    <string name="settings_tr_none">Nincs</string>
+    <string name="settings_tr_random">Véletlenszerű</string>
+    <string name="settings_tr_fade">Áttűnés</string>
+    <string name="settings_tr_zoom">Nagyítás</string>
+    <string name="settings_tr_hslide">Vízszintes csúsztatás</string>
+    <string name="settings_tr_vslide">Függőleges csúsztatás</string>
+    <string name="settings_dm_automatic">Automatikus</string>
+    <string name="settings_dm_skip">Kihagyás</string>
+    <string name="settings_dm_crop">Vágás</string>
+    <string name="settings_dm_stretch">Nyújtás</string>
+    <string name="settings_dm_fit">Középre igazítás</string>
+    <string name="settings_dm_fit_blur">Középre igazítás + elmosott háttér</string>
+    <string name="settings_dm_blur">Elmosás</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Színárnyalat</string>
+    <string name="settings_saturation">Telítettség</string>
+    <string name="settings_contrast">Kontraszt</string>
+    <string name="settings_brightness">Fényerő</string>
+    <string name="settings_tint">Színezés</string>
+    <string name="settings_tint_amount">Színezés mértéke</string>
+    <string name="settings_blur">Elmosás</string>
+    <string name="settings_shadow_h">Vízszintes árnyékréteg hossza</string>
+    <string name="settings_shadow_v">Függőleges árnyékréteg hossza</string>
+    <string name="settings_shadow_opacity">Árnyékréteg átlátszatlansága</string>
+    <string name="settings_shadow_tint">Árnyékréteg színezése</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Frissítési gyakoriság figyelmen kívül hagyása</string>
+    <string name="settings_ignore_update_desc">Új háttérkép kérése csak a videó végén</string>
+    <string name="settings_video_color_freq">Dinamikus szín frissítési gyakorisága</string>
+    <string name="settings_video_color_freq_desc">A színekhez beolvasott videókockák közötti másodpercek; a 0 kikapcsolja</string>
+    <string name="settings_volume">Hangerő</string>
+    <string name="settings_tunneling">Hardveres megjelenítés használata (tunneling)</string>
+    <string name="settings_decoder_fallback">Tartalék dekóderek engedélyezése</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Értesítés-hozzáférés kezelése</string>
+    <string name="settings_granted">Megadva</string>
+    <string name="settings_not_granted">Nincs megadva</string>
+    <string name="settings_notification_adb">Ezen az eszközön nincs ehhez beállítási képernyő. Adja meg ezzel: %1$s</string>
+    <string name="settings_clock">Óra</string>
+    <string name="settings_icons">Ikonok</string>
+    <string name="settings_show_system_bar">Rendszer-állapotsor megjelenítése</string>
+    <string name="settings_autohide_status">Állapotsor elrejtése görgetéskor</string>
+    <string name="settings_show_clock">Óra megjelenítése</string>
+    <string name="settings_clock_size">Óra betűmérete</string>
+    <string name="settings_clock_color">Óra színe</string>
+    <string name="settings_drop_shadow">Vetett árnyék</string>
+    <string name="settings_clock_line1">Óraformátum (1. sor)</string>
+    <string name="settings_clock_line2">Óraformátum (2. sor)</string>
+    <string name="settings_clock_default_format">Rendszerformátum</string>
+    <string name="settings_empty">Üres</string>
+    <string name="settings_icons_size">Ikonok mérete</string>
+    <string name="settings_icons_color">Ikonok színe</string>
+    <string name="settings_icons_container">Ikonok hátterének színe</string>
+    <string name="settings_show_settings">Beállítások megjelenítése</string>
+    <string name="settings_show_settings_desc">A beállítások ezzel a gombsorozattal továbbra is elérhetők: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Kapcsolat megjelenítése</string>
+    <string name="settings_show_notifications">Értesítések megjelenítése</string>
+    <string name="settings_autohide_notifications">Értesítésikon elrejtése, ha nincs értesítés</string>
+    <string name="settings_show_battery">Akkumulátor megjelenítése</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Engedélyezés</string>
+    <string name="settings_headers_on_launch">Bal oldali fejlécek megjelenítése indításkor</string>
+    <string name="settings_show_icon">Ikon megjelenítése</string>
+    <string name="settings_show_reorder">Átrendezés megjelenítése</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Várakozási idő a tétlen módig (perc)</string>
+    <string name="settings_idle_opacity">Felület átlátszatlansága</string>
+    <string name="settings_keep_clock">Óra megtartása</string>
+    <string name="settings_prevent_screensaver">Rendszer-képernyővédő megakadályozása</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">A QLauncher betűtípus-beállításainak módosítása. A betűcsaládok nevei a Google Fonts oldalon kereshetők meg.</string>
+    <string name="settings_font_list">Választás listából</string>
+    <string name="settings_font_google">Betűtípus (Google Fonts)</string>
+    <string name="settings_font_default">Alapértelmezett</string>
+    <string name="settings_bold">Félkövér</string>
+    <string name="settings_italic">Dőlt</string>
+    <string name="settings_size">Méret</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Automatikus indítás bekapcsoláskor</string>
+    <string name="settings_autostart_none">Nincs</string>
+    <string name="settings_autostart_screensaver">[*] Képernyővédő (ha támogatott)</string>
+    <string name="settings_autostart_resume">…és készenlétből való visszatéréskor is</string>
+    <string name="settings_autostart_delay">Automatikus indítás késleltetése (másodperc)</string>
+    <string name="settings_simulate_activity">Automatikus rendszerleállítás megakadályozása tétlenségkor</string>
+    <string name="settings_idle_detection">Belső tétlenségészlelés engedélyezése</string>
+    <string name="settings_idle_timeout_power">Tétlenségi időkorlát (óra:perc)</string>
+    <string name="settings_idle_action">Művelet tétlenségkor</string>
+    <string name="settings_idle_action_shutdown">Kikapcsolás</string>
+    <string name="settings_idle_action_screen_off">Képernyő kikapcsolása</string>
+    <string name="settings_idle_action_screensaver">Képernyővédő (ha támogatott)</string>
+    <string name="settings_idle_media">Tétlen mód figyelmen kívül hagyása médialejátszás közben</string>
+    <string name="settings_missing_notification_permission">⚠️ Hiányzó értesítés-hozzáférés</string>
+    <string name="settings_shutdown_action">Kikapcsolási művelet</string>
+    <string name="settings_shutdown_dialog">Kikapcsolási menü</string>
+    <string name="settings_shutdown_dialog_twice">Kikapcsolási menü (kétszeri hívás)</string>
+    <string name="settings_shutdown_dialog_ok">Kikapcsolási menü + OK</string>
+    <string name="settings_hdmi_exit">Automatikus kikapcsolás, ha a HDMI-bemenet jele megszűnik</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Adjon meg egy kódot a kiválasztott alkalmazások zárolásához (a kiválasztáshoz nyomja hosszan egy kártyát a kezdőképernyőn) egész napra vagy a nap egy részére</string>
+    <string name="settings_parental_set_code">Új szülői kód beállítása</string>
+    <string name="settings_parental_code_set">Kód beállítva</string>
+    <string name="settings_parental_long">Ne kérjen kódot 15 percig sikeres ellenőrzés után</string>
+    <string name="settings_parental_protect">Indítóbeállítások és felületmódosítások védelme</string>
+    <string name="settings_parental_protect_desc">(mindig érvényes)</string>
+    <string name="settings_parental_partial">Védelem csak adott időszakban</string>
+    <string name="settings_parental_start">Kezdés ideje (óra:perc)</string>
+    <string name="settings_parental_end">Befejezés ideje (óra:perc)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Információk megjelenítése a „Menü” gomb dupla megnyomásakor</string>
+    <string name="settings_back_double">„Környezeti mód” a „Vissza” gomb dupla megnyomásakor</string>
+    <string name="settings_back_double_desc">Képernyővédő indítása a támogatott eszközökön</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Kapcsolja be a szolgáltatást, hogy műveletet futtathasson bekapcsoláskor, testre szabhassa a távirányító gombjait, megerősíthesse a szülői felügyeletet, és észlelhesse a tétlenséget az energiagazdálkodáshoz. A szolgáltatás látja a hardveres gombnyomásokat és az előtérben lévő alkalmazás nevét; mindkettő ennek az eszköznek a memóriájában marad, és soha nem kerül elküldésre.</string>
+    <string name="settings_a11y_enabled">Engedélyezve</string>
+    <string name="settings_a11y_started">Fut</string>
+    <string name="settings_yes">Igen</string>
+    <string name="settings_no">Nem</string>
+    <string name="settings_a11y_open">Kisegítő lehetőségek beállításai</string>
+    <string name="settings_a11y_consent_title">Kisegítő szolgáltatás</string>
+    <string name="settings_a11y_consent">Ezzel a QLauncher láthatja a hardveres gombnyomásokat és az előtérben lévő alkalmazás nevét. Mindkettő csak ennek az eszköznek a memóriájában marad, és soha nem kerül elküldésre. Elfogadja?</string>
+    <string name="settings_a11y_alternate">Alternatív konfiguráció használata</string>
+    <string name="settings_a11y_alternate_desc">Egyes eszközökön javítja a problémákat</string>
+    <string name="settings_a11y_volume_fix">Hangerőgombok javítása</string>
+    <string name="settings_a11y_volume_fix_desc">A hangerőgomb megnyomásakor rövid időre szünetelteti az átkiosztást, hogy a hosszú lenyomás továbbra is működjön</string>
+    <string name="settings_a11y_remap">Gombok átkiosztásának engedélyezése</string>
+    <string name="settings_a11y_remap_desc">A szolgáltatás elfogja a gombnyomásokat. A kikapcsolása megelőzi a hangerőgomb hosszú lenyomásával kapcsolatos problémákat és azt, hogy a rendszer leállítsa a szolgáltatást, de az indító felülbírálása, a szülői felügyelet és a tétlenségészlelés kevésbé lehet hatékony.</string>
+    <string name="settings_a11y_reminder">Emlékeztető megjelenítése</string>
+    <string name="settings_a11y_reminder_desc">Ha a kisegítő szolgáltatás ki van kapcsolva</string>
+    <string name="settings_a11y_unbound_toast">A QLauncher kisegítő szolgáltatása nem fut</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Beállítások importálása vagy exportálása helyben, vagy egy másik alkalmazással, például a LocalSenddel vagy egy fájlkezelővel.</string>
+    <string name="settings_import">Importálás</string>
+    <string name="settings_import_file">Fájlból</string>
+    <string name="settings_import_auto">Automatikus biztonsági mentésből</string>
+    <string name="settings_export">Exportálás</string>
+    <string name="settings_export_local">Mentés helyben</string>
+    <string name="settings_export_share">Megosztás másik alkalmazással</string>
+    <string name="settings_reset">Visszaállítás alapértelmezettre</string>
+    <string name="settings_cancel">Mégse</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategória</string>
+    <string name="wp_custom_search">Egyéni keresés</string>
+    <string name="wp_reddit_login">Bejelentkezés</string>
+    <string name="wp_reddit_logout">Kijelentkezés: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Kijelentkezés</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Egyéni subreddit</string>
+    <string name="wp_custom_subreddit_hint">Több név + jellel elválasztva</string>
+    <string name="wp_folder">Mappa</string>
+    <string name="wp_folder_choose">Mappa kiválasztása</string>
+    <string name="wp_media">Médiafájl</string>
+    <string name="wp_media_choose">Fájl kiválasztása</string>
+    <string name="wp_choose_other">Más hely…</string>
+    <string name="wp_choose_other_desc">Kiválasztás a rendszer fájlválasztójával</string>
+    <string name="wp_media_searching">Képek és videók keresése…</string>
+    <string name="wp_media_none">Nem található kép vagy videó. Másoljon néhányat a Pictures, a Movies vagy a Download mappába, vagy csatlakoztasson egy USB-meghajtót.</string>
+    <string name="wp_folders_description">Képeket vagy videókat tartalmazó mappák ezen az eszközön és USB-meghajtókon.</string>
+    <string name="wp_folders_none">Nem található képeket vagy videókat tartalmazó mappa</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fájl</item>
+        <item quantity="other">%d fájl</item>
+    </plurals>
+    <string name="wp_media_color">Egyszínű</string>
+    <string name="wp_theme_desc">Az importált téma háttérképei</string>
+    <string name="wp_plugin_settings">Bővítmény beállításai</string>
+    <string name="wp_not_set">Nincs beállítva</string>
+    <string name="wp_status">Állapot</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Ez a háttérkép</string>
+    <string name="wp_next">Következő</string>
+    <string name="wp_source">Forrás</string>
+    <string name="wp_title">Cím</string>
+    <string name="wp_author">Szerző</string>
+    <string name="wp_set_user">Beállítás saját háttérképként</string>
+    <string name="wp_view">Megtekintés</string>
+    <string name="wp_unknown">Ismeretlen</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Itt hozhat létre és kezelhet videó-megjelenítési profilokat. Rendelje őket bemeneti forrásokhoz az automatikus váltáshoz, vagy alkalmazza őket a Menü gomb kétszeri megnyomásával, majd a fel vagy le gombbal.</string>
+    <string name="dp_list">Megjelenítési profilok listája</string>
+    <string name="dp_list_desc">Itt hozhat létre vagy szerkeszthet videó-megjelenítési profilokat. Az eszköztől függően egyes vezérlők root-hozzáférést igényelnek, vagy egyáltalán nem működnek; AmLogic-eszközökhöz készültek.</string>
+    <string name="dp_add">Új hozzáadása…</string>
+    <string name="dp_name">Profil neve</string>
+    <string name="dp_preview">Előnézet</string>
+    <string name="dp_fullscreen">Teljes képernyős előnézet</string>
+    <string name="dp_fullscreen_desc">vagy váltás a Menü gombbal</string>
+    <string name="dp_delete">Profil törlése</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Külső alkalmazások telepítése</string>
+    <string name="install_desc">Válassza ki a telepítendő alkalmazást. Előfordulhat, hogy előbb engedélyeznie kell az ismeretlen forrásokból történő telepítést.</string>
+    <string name="install_custom">Egyéni URL / Downloader-kód</string>
+    <string name="install_custom_desc">Csak megbízható forrást használjon</string>
+    <string name="install_status">Állapot</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Ez az eszköz</string>
+
+    <string name="gallery_filter">Szűrés…</string>
+    <string name="settings_no_file_picker">Ezen az eszközön nincs fájlválasztó</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Fénysűrűség</string>
+    <string name="color_opacity">Átlátszatlanság</string>
+    <string name="color_prefer_dynamic">Dinamikus szín előnyben részesítése</string>
+    <string name="color_prefer_dynamic_desc">Ha elérhető, megtartja ezt a fénysűrűséget/átlátszatlanságot</string>
+    <string name="color_clear">Törlés</string>
+    <string name="color_reset">Visszaállítás alapértelmezettre</string>
+</resources>

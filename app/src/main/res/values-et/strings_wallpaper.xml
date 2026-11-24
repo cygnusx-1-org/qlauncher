@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Puudub</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dünaamilised värvid</string>
+    <string name="wallpaper_provider_default">Vaiketaustapilt</string>
+    <string name="wallpaper_provider_media_file">Meediafail</string>
+    <string name="wallpaper_provider_folder">Kaust</string>
+    <string name="wallpaper_provider_focused_program">Fookuses olev saade</string>
+    <string name="wallpaper_provider_now_playing">Praegu mängib</string>
+    <string name="wallpaper_provider_random_program">Juhuslik saade</string>
+    <string name="wallpaper_provider_theme">Teema</string>
+    <string name="wallpaper_provider_unknown_plugin">Pistikprogramm</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Taustapildid</string>
+    <string name="wallpaper_wikimedia_nature">Loodus</string>
+    <string name="wallpaper_wikimedia_landscapes">Maastikud</string>
+    <string name="wallpaper_wikimedia_mountains">Mäed</string>
+    <string name="wallpaper_wikimedia_forests">Metsad</string>
+    <string name="wallpaper_wikimedia_cities">Linnad</string>
+    <string name="wallpaper_wikimedia_architecture">Arhitektuur</string>
+    <string name="wallpaper_wikimedia_night">Öö</string>
+    <string name="wallpaper_wikimedia_space">Kosmos</string>
+    <string name="wallpaper_wikimedia_animals">Loomad</string>
+    <string name="wallpaper_wikimedia_custom">[Kohandatud otsing]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Kohandatud subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Logi välja</string>
+    <string name="wallpaper_reddit_login_needed">Logi Redditisse sisse, et näha sealseid taustapilte.</string>
+    <string name="wallpaper_reddit_login_title">Logi Redditisse sisse</string>
+    <string name="wallpaper_reddit_login_signing_in">Sisselogimine…</string>
+    <string name="wallpaper_reddit_login_denied">Redditi juurdepääsu ei antud, seega jäävad Redditi taustapildid kättesaamatuks.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Redditi vastus ei vastanud sellele sisselogimiskatsele ja jäeti tähelepanuta. Proovi uuesti.</string>
+    <string name="wallpaper_reddit_login_failed">Redditisse sisselogimine ebaõnnestus (%1$s). Proovi hiljem uuesti.</string>
+    <string name="wallpaper_reddit_login_network">Redditiga ei saadud ühendust. Kontrolli võrguühendust ja proovi uuesti.</string>
+    <string name="wallpaper_reddit_login_page_error">Redditi sisselogimislehte ei saanud laadida. Kontrolli võrguühendust ja proovi uuesti.</string>
+    <string name="wallpaper_reddit_no_webview">Selles seadmes pole veebibrauseri komponenti (Android System WebView), mida Redditi sisselogimine vajab. Installi või luba Android System WebView ja proovi uuesti.</string>
+    <string name="wallpaper_reddit_retry">Proovi uuesti</string>
+    <string name="wallpaper_reddit_close">Sulge</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Taustapiltide allikaga puudub ühendus.</string>
+    <string name="wallpaper_error_server">Taustapiltide allikas vastas veaga.</string>
+    <string name="wallpaper_error_rate_limited">Taustapiltide allikas palus enne järgmist päringut oodata.</string>
+    <string name="wallpaper_error_generic">Taustapilte ei saanud laadida.</string>
+    <string name="wallpaper_error_no_media">Pilti, videot ega värvi pole valitud.</string>
+    <string name="wallpaper_error_no_folder">Kausta pole valitud.</string>
+    <string name="wallpaper_error_folder_access">Kausta ei saa lugeda. Vali see uuesti.</string>
+    <string name="wallpaper_error_folder_empty">Kaustas pole pilte, videoid ega Lottie animatsioone.</string>
+    <string name="wallpaper_error_theme_empty">Praegusel teemal pole taustapilte.</string>
+    <string name="wallpaper_error_no_channels">Kanalid pole saadaval. Luba need ja anna juurdepääs telekavale.</string>
+    <string name="wallpaper_error_no_notification_access">Funktsioon „Praegu mängib“ vajab juurdepääsu märguannetele.</string>
+    <string name="wallpaper_error_no_subreddit">Kehtivat subredditit pole määratud.</string>
+    <string name="wallpaper_error_plugin">Taustapildi pistikprogramm ei vastanud.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Taustapilt määratud</string>
+    <string name="wallpaper_set_failed">Seda faili ei saa taustapildina kasutada.</string>
+</resources>

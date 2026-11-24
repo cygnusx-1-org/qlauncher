@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">ביטול</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">כל האפליקציות</string>
+    <string name="apps_action_edit_categories">עריכת קטגוריות</string>
+    <string name="apps_action_edit_channels">עריכת ערוצים</string>
+    <string name="apps_action_launcher_settings">הגדרות QLauncher</string>
+    <string name="apps_action_android_settings">הגדרות Android</string>
+    <string name="apps_action_amlogic_settings">הגדרות AmLogic נוספות</string>
+    <string name="apps_action_display_profiles">פרופילי תצוגה</string>
+    <string name="apps_action_install_apps">התקנת אפליקציות צד שלישי</string>
+    <string name="apps_action_accessibility_service">שירות נגישות</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">החלפת פרופיל</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">המכשיר הזה</string>
+    <string name="apps_action_about_wallpaper">הטפט הזה</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">ללא</string>
+    <string name="apps_autostart_screensaver">שומר מסך</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">ערוצים</string>
+    <string name="apps_channels_watch_next">המשך צפייה</string>
+    <string name="apps_channels_unreadable">כבר לא ניתן לקרוא את הערוץ הזה</string>
+    <string name="apps_channels_hidden">מוסתר על ידי המערכת</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d ערוץ</item>
+        <item quantity="two">%d ערוצים</item>
+        <item quantity="other">%d ערוצים</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">החלת ערכת סמלים</string>
+    <string name="apps_iconpack_apply_message">להשתמש ב-%1$s לסמלים של האפליקציות?</string>
+    <string name="apps_iconpack_apply_confirm">החלה</string>
+    <string name="apps_iconpack_applied">ערכת הסמלים הוחלה</string>
+    <string name="apps_iconpack_apply_missing">לא צוינה ערכת סמלים</string>
+    <string name="apps_iconpack_apply_not_a_pack">האפליקציה הזו אינה ערכת סמלים</string>
+    <string name="apps_iconpack_none">ללא</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">הוספת קיצור דרך</string>
+    <string name="apps_pin_shortcut_message">להוסיף את \"%1$s\" מ-%2$s לקטגוריה \"קיצורי דרך\"?</string>
+    <string name="apps_pin_shortcut_confirm">הוספה</string>
+    <string name="apps_pin_shortcut_added">קיצור הדרך נוסף</string>
+    <string name="apps_pin_shortcut_failed">לא ניתן היה להוסיף את קיצור הדרך</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">התקנת אפליקציות צד שלישי</string>
+    <string name="apps_install_description">יש לבחור אפליקציה להתקנה. ייתכן שיהיה צורך לאשר התקנה ממקורות לא ידועים לפני ההתקנה.</string>
+    <string name="apps_install_custom_url">כתובת URL מותאמת אישית / קוד Downloader</string>
+    <string name="apps_install_custom_url_desc">יש להקפיד להשתמש במקור מהימן</string>
+    <string name="apps_install_choose_method">בחירת שיטת התקנה</string>
+    <string name="apps_install_installed">מותקנת</string>
+    <string name="apps_install_category_wallpaper_plugin">תוסף טפט</string>
+    <string name="apps_install_category_icon_pack">ערכת סמלים</string>
+    <string name="apps_install_category_file_manager">מנהל קבצים</string>
+    <string name="apps_install_category_tool">כלי</string>
+    <string name="apps_install_method_store">חנות</string>
+    <string name="apps_install_method_direct">הורדה ישירה</string>
+    <string name="apps_install_method_downloader">אפליקציית Downloader</string>
+    <string name="apps_install_state_downloading">מוריד את %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">מוריד את %1$s…</string>
+    <string name="apps_install_state_installing">מתקין את %1$s…</string>
+    <string name="apps_install_state_confirm">יש לאשר את ההתקנה של %1$s</string>
+    <string name="apps_install_state_success">ההתקנה של %1$s הושלמה</string>
+    <string name="apps_install_state_unknown_sources">יש לאשר ל-QLauncher להתקין אפליקציות, ואז לחזור כדי להמשיך</string>
+    <string name="apps_install_state_downloader_sent">הקוד %1$s נשלח ל-Downloader</string>
+    <string name="apps_install_state_downloader_type">יש להזין את הקוד %1$s ב-Downloader</string>
+    <string name="apps_install_state_store">נפתח בחנות</string>
+    <string name="apps_install_state_browser">הקישור הזה הוא דף אינטרנט; הוא נפתח בדפדפן</string>
+    <string name="apps_install_fail_invalid">זו לא כתובת URL וגם לא קוד Downloader</string>
+    <string name="apps_install_fail_no_usb">לא נמצא כונן USB</string>
+    <string name="apps_install_fail_archive">לא ניתן להתקין קובצי ארכיון</string>
+    <string name="apps_install_fail_network">ההורדה נכשלה</string>
+    <string name="apps_install_fail_http">השרת השיב בשגיאה (%1$s)</string>
+    <string name="apps_install_fail_not_apk">הקובץ אינו אפליקציה (APK)</string>
+    <string name="apps_install_fail_unreadable">לא ניתן לקרוא את הקובץ</string>
+    <string name="apps_install_fail_install">ההתקנה נכשלה</string>
+    <string name="apps_install_fail_cancelled">ההתקנה בוטלה</string>
+    <string name="apps_install_fail_unknown_sources">ל-QLauncher אין הרשאה להתקין אפליקציות</string>
+    <string name="apps_install_fail_downloader">אפליקציית Downloader אינה מותקנת</string>
+    <string name="apps_install_fail_store">אין חנות אפליקציות זמינה</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">המכשיר הזה</string>
+    <string name="apps_device_brand_manufacturer">מותג / יצרן</string>
+    <string name="apps_device_device_product">מכשיר / מוצר</string>
+    <string name="apps_device_model">דגם</string>
+    <string name="apps_device_hardware">חומרה</string>
+    <string name="apps_device_fingerprint">טביעת אצבע</string>
+    <string name="apps_device_build">מספר Build</string>
+    <string name="apps_device_build_desc">תיאור Build</string>
+    <string name="apps_device_device_type">סוג מכשיר</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">כתובת IP</string>
+    <string name="apps_device_root_access">הרשאת Root</string>
+    <string name="apps_device_pm_info">מידע PM</string>
+    <string name="apps_device_pm_none">אין מנהל תמונה</string>
+    <string name="apps_device_id">מזהה</string>
+    <string name="apps_device_yes">כן</string>
+    <string name="apps_device_no">לא</string>
+</resources>

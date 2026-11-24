@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Ləğv et</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Bütün tətbiqlər</string>
+    <string name="apps_action_edit_categories">Kateqoriyaları redaktə et</string>
+    <string name="apps_action_edit_channels">Kanalları redaktə et</string>
+    <string name="apps_action_launcher_settings">QLauncher tənzimləmələri</string>
+    <string name="apps_action_android_settings">Android tənzimləmələri</string>
+    <string name="apps_action_amlogic_settings">AmLogic əlavə tənzimləmələri</string>
+    <string name="apps_action_display_profiles">Ekran profilləri</string>
+    <string name="apps_action_install_apps">Kənar tətbiqləri quraşdır</string>
+    <string name="apps_action_accessibility_service">Əlçatımlılıq xidməti</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Profili dəyiş</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Bu cihaz</string>
+    <string name="apps_action_about_wallpaper">Bu divar kağızı</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Heç biri</string>
+    <string name="apps_autostart_screensaver">Ekran qoruyucusu</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanallar</string>
+    <string name="apps_channels_watch_next">Növbəti izlə</string>
+    <string name="apps_channels_unreadable">Bu kanal artıq oxuna bilmir</string>
+    <string name="apps_channels_hidden">Sistem tərəfindən gizlədilib</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="other">%d kanal</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">İkona paketini tətbiq et</string>
+    <string name="apps_iconpack_apply_message">Tətbiqlərinizin ikonaları üçün %1$s istifadə edilsin?</string>
+    <string name="apps_iconpack_apply_confirm">Tətbiq et</string>
+    <string name="apps_iconpack_applied">İkona paketi tətbiq edildi</string>
+    <string name="apps_iconpack_apply_missing">İkona paketinin adı göstərilməyib</string>
+    <string name="apps_iconpack_apply_not_a_pack">Bu tətbiq ikona paketi deyil</string>
+    <string name="apps_iconpack_none">Heç biri</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Qısayol əlavə et</string>
+    <string name="apps_pin_shortcut_message">%2$s tətbiqindən «%1$s» Qısayollar kateqoriyasına əlavə edilsin?</string>
+    <string name="apps_pin_shortcut_confirm">Əlavə et</string>
+    <string name="apps_pin_shortcut_added">Qısayol əlavə edildi</string>
+    <string name="apps_pin_shortcut_failed">Qısayolu əlavə etmək alınmadı</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Kənar tətbiqləri quraşdır</string>
+    <string name="apps_install_description">Quraşdırmaq üçün tətbiq seçin. Quraşdırmadan əvvəl naməlum mənbələrdən quraşdırmaya icazə verməli ola bilərsiniz.</string>
+    <string name="apps_install_custom_url">Fərdi URL / Downloader kodu</string>
+    <string name="apps_install_custom_url_desc">Etibarlı mənbədən istifadə etdiyinizə əmin olun</string>
+    <string name="apps_install_choose_method">Quraşdırma üsulunu seçin</string>
+    <string name="apps_install_installed">Quraşdırılıb</string>
+    <string name="apps_install_category_wallpaper_plugin">Divar kağızı plagini</string>
+    <string name="apps_install_category_icon_pack">İkona paketi</string>
+    <string name="apps_install_category_file_manager">Fayl meneceri</string>
+    <string name="apps_install_category_tool">Alət</string>
+    <string name="apps_install_method_store">Mağaza</string>
+    <string name="apps_install_method_direct">Birbaşa endirmə</string>
+    <string name="apps_install_method_downloader">Downloader tətbiqi</string>
+    <string name="apps_install_state_downloading">%1$s endirilir… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s endirilir…</string>
+    <string name="apps_install_state_installing">%1$s quraşdırılır…</string>
+    <string name="apps_install_state_confirm">%1$s quraşdırılmasını təsdiq edin</string>
+    <string name="apps_install_state_success">%1$s quraşdırıldı</string>
+    <string name="apps_install_state_unknown_sources">QLauncher-ə tətbiq quraşdırmağa icazə verin, sonra davam etmək üçün geri qayıdın</string>
+    <string name="apps_install_state_downloader_sent">%1$s kodu Downloader-ə göndərildi</string>
+    <string name="apps_install_state_downloader_type">Downloader-də %1$s kodunu daxil edin</string>
+    <string name="apps_install_state_store">Mağazada açıldı</string>
+    <string name="apps_install_state_browser">Bu keçid veb səhifədir; brauzerdə açıldı</string>
+    <string name="apps_install_fail_invalid">Bu, URL və ya Downloader kodu deyil</string>
+    <string name="apps_install_fail_no_usb">USB disk tapılmadı</string>
+    <string name="apps_install_fail_archive">Arxivləri quraşdırmaq olmur</string>
+    <string name="apps_install_fail_network">Endirmə alınmadı</string>
+    <string name="apps_install_fail_http">Server xəta ilə cavab verdi (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Fayl tətbiq (APK) deyil</string>
+    <string name="apps_install_fail_unreadable">Faylı oxumaq mümkün deyil</string>
+    <string name="apps_install_fail_install">Quraşdırma alınmadı</string>
+    <string name="apps_install_fail_cancelled">Quraşdırma ləğv edildi</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher-in tətbiq quraşdırmasına icazə yoxdur</string>
+    <string name="apps_install_fail_downloader">Downloader tətbiqi quraşdırılmayıb</string>
+    <string name="apps_install_fail_store">Tətbiq mağazası mövcud deyil</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Bu cihaz</string>
+    <string name="apps_device_brand_manufacturer">Brend / İstehsalçı</string>
+    <string name="apps_device_device_product">Cihaz / Məhsul</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Aparat təminatı</string>
+    <string name="apps_device_fingerprint">Barmaq izi</string>
+    <string name="apps_device_build">Yığım</string>
+    <string name="apps_device_build_desc">Yığım təsviri</string>
+    <string name="apps_device_device_type">Cihaz növü</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP ünvanı</string>
+    <string name="apps_device_root_access">Root girişi</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Şəkil meneceri yoxdur</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Bəli</string>
+    <string name="apps_device_no">Xeyr</string>
+</resources>

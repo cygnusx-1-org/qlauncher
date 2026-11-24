@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Đang phát</string>
+    <string name="home_cat_inputs">Đầu vào</string>
+    <string name="home_cat_favorites">Yêu thích</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Âm nhạc</string>
+    <string name="home_cat_games">Trò chơi</string>
+    <string name="home_cat_tv_apps">Ứng dụng TV</string>
+    <string name="home_cat_mobile_apps">Ứng dụng di động</string>
+    <string name="home_cat_watch_next">Xem tiếp</string>
+    <string name="home_cat_shortcuts">Lối tắt</string>
+    <string name="home_cat_folders">Thư mục danh mục</string>
+    <string name="home_cat_live_tv">Truyền hình trực tiếp</string>
+    <string name="home_cat_settings">Cài đặt</string>
+    <string name="home_cat_display">Hiển thị</string>
+    <string name="home_cat_applications">Ứng dụng</string>
+    <string name="home_cat_system">Hệ thống</string>
+    <string name="home_cat_about">Giới thiệu</string>
+    <string name="home_new_category">Danh mục mới</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Tất cả ứng dụng</string>
+    <string name="home_action_edit_categories">Chỉnh sửa danh mục</string>
+    <string name="home_action_edit_channels">Chỉnh sửa kênh</string>
+    <string name="home_action_launcher_settings">Cài đặt QLauncher</string>
+    <string name="home_action_android_settings">Cài đặt Android</string>
+    <string name="home_action_amlogic_settings">Cài đặt bổ sung của AmLogic</string>
+    <string name="home_action_display_profiles">Cấu hình hiển thị</string>
+    <string name="home_action_install_apps">Cài đặt ứng dụng bên thứ ba</string>
+    <string name="home_action_accessibility">Dịch vụ hỗ trợ tiếp cận</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Chuyển cấu hình</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Thiết bị này</string>
+    <string name="home_action_about_wallpaper">Hình nền này</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Mùa %1$s</string>
+    <string name="home_episode">Tập %1$s</string>
+    <string name="home_minutes">%1$d phút</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Kết nối</string>
+    <string name="home_status_notifications">Thông báo</string>
+    <string name="home_status_settings">Cài đặt</string>
+    <string name="home_status_wallpaper">Hình nền này</string>
+    <string name="home_navigation_menu">Menu điều hướng</string>
+    <string name="home_reorder">Sắp xếp lại</string>
+    <string name="home_category_settings">Cài đặt danh mục</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Cài đặt ứng dụng</string>
+    <string name="menu_open">Mở</string>
+    <string name="menu_details">Chi tiết</string>
+    <string name="menu_play_pause">Phát/Tạm dừng</string>
+    <string name="menu_stop">Dừng</string>
+    <string name="menu_previous">Trước</string>
+    <string name="menu_next">Tiếp</string>
+    <string name="menu_uninstall">Gỡ cài đặt</string>
+    <string name="menu_launch_on_boot">Mở khi khởi động</string>
+    <string name="menu_launch_on_boot_on">Sẽ mở khi khởi động</string>
+    <string name="menu_add_parental">Thêm vào kiểm soát của cha mẹ</string>
+    <string name="menu_remove_parental">Xóa khỏi kiểm soát của cha mẹ</string>
+    <string name="menu_shortcuts">Lối tắt</string>
+    <string name="menu_appearance">Giao diện</string>
+    <string name="menu_title">Tiêu đề</string>
+    <string name="menu_change_icon">Đổi biểu tượng</string>
+    <string name="menu_icon_from_picture">Từ ảnh</string>
+    <string name="menu_icon_other_location">Vị trí khác…</string>
+    <string name="menu_icon_no_pictures">Không tìm thấy ảnh nào. Hãy sao chép ảnh vào Pictures hoặc Download, hoặc cắm ổ USB.</string>
+    <string name="menu_icon_reset">Đặt lại</string>
+    <string name="menu_crop">Cắt để lấp đầy</string>
+    <string name="menu_visibility">Khả năng hiển thị</string>
+    <string name="menu_reorder">Sắp xếp lại</string>
+    <string name="menu_remove_from">Xóa khỏi %1$s</string>
+    <string name="menu_hide">Ẩn</string>
+    <string name="menu_add_to">Thêm vào…</string>
+    <string name="menu_move_to">Di chuyển đến…</string>
+    <string name="menu_channels">Kênh</string>
+    <string name="menu_rename_hint">Nhập tiêu đề mới và nhấn OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Tiêu đề</string>
+    <string name="editor_change_icon">Đổi biểu tượng</string>
+    <string name="editor_visible">Hiển thị</string>
+    <string name="editor_grid">Lưới</string>
+    <string name="editor_sliding_row">Hàng trượt</string>
+    <string name="editor_background">Màu nền</string>
+    <string name="editor_show_title">Hiện tiêu đề</string>
+    <string name="editor_size">Kích thước</string>
+    <string name="editor_advanced">Cài đặt nâng cao</string>
+    <string name="editor_start_margin">Lề trái</string>
+    <string name="editor_end_margin">Lề phải</string>
+    <string name="editor_top_margin">Lề trên</string>
+    <string name="editor_cards_per_row">Số thẻ mỗi hàng</string>
+    <string name="editor_row_count">Số hàng</string>
+    <string name="editor_auto">Tự động</string>
+    <string name="editor_auto_value">Tự động (%1$s)</string>
+    <string name="editor_sort">Sắp xếp</string>
+    <string name="editor_sort_custom">Tùy chỉnh</string>
+    <string name="editor_sort_name">Theo bảng chữ cái</string>
+    <string name="editor_sort_last">Dùng gần đây</string>
+    <string name="editor_sort_most">Dùng thường xuyên</string>
+    <string name="editor_sort_random">Ngẫu nhiên</string>
+    <string name="editor_set_default">Đặt làm mặc định</string>
+    <string name="editor_is_default">Danh mục mặc định</string>
+    <string name="editor_manage_apps">Quản lý ứng dụng</string>
+    <string name="editor_hidden_items">Mục đã ẩn</string>
+    <string name="editor_restore">Khôi phục</string>
+    <string name="editor_delete">Xóa</string>
+    <string name="editor_delete_confirm">Xóa danh mục này?</string>
+    <string name="editor_empty_note">Danh mục này chưa xuất hiện vì đang trống</string>
+    <string name="editor_request_notifications">Yêu cầu quyền thông báo</string>
+    <string name="editor_channel_error">Không thể đọc kênh này nữa</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kênh</string>
+    <string name="channels_count">%1$d kênh</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Thông báo</string>
+    <string name="notifications_clear_all">Xóa tất cả</string>
+    <string name="notifications_empty">Không có thông báo</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Không thể mở ứng dụng này</string>
+    <string name="home_reorder_hint">Dùng trái/phải để di chuyển, OK hoặc QUAY LẠI để hoàn tất</string>
+    <string name="home_category_reorder_hint">Dùng lên/xuống để di chuyển, OK hoặc QUAY LẠI để hoàn tất</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Chào mừng!</string>
+    <string name="firstrun_welcome_text">QLauncher là trình khởi chạy dành cho Android TV. Ứng dụng đưa các ứng dụng, kênh và nội dung yêu thích của bạn lên một màn hình chính có thể tùy chỉnh, với hình nền luân phiên phía sau.</string>
+    <string name="firstrun_features_title">Siêu năng lực mới của bạn</string>
+    <string name="firstrun_features_text">Mở một ứng dụng hoặc đầu vào HDMI khi khởi động, quản lý cấu hình hiển thị, khóa ứng dụng bằng kiểm soát của cha mẹ, hiển thị mẫu hiệu chỉnh, phát hiện thời gian không hoạt động và tùy chỉnh mọi phần của màn hình chính. Một số tính năng phụ thuộc vào thiết bị của bạn.</string>
+    <string name="firstrun_a11y_title">Cùng bật hỗ trợ tiếp cận nào</string>
+    <string name="firstrun_a11y_text">Nhiều tính năng cần dịch vụ hỗ trợ tiếp cận của QLauncher: thay thế trình khởi chạy gốc, tác vụ khi khởi động, thao tác nút trên điều khiển từ xa, phát hiện không hoạt động và kiểm soát của cha mẹ. Bạn có thể bật ngay bây giờ hoặc sau này trong phần cài đặt.</string>
+    <string name="firstrun_a11y_open">Mở cài đặt hỗ trợ tiếp cận</string>
+    <string name="firstrun_permissions_title">Xin phép một chút…</string>
+    <string name="firstrun_permissions_text">Tiếp theo, QLauncher sẽ xin quyền đọc danh sách chương trình TV (cho kênh và Xem tiếp) và quyền truy cập thông báo (cho biểu tượng thông báo và Đang phát). Cả hai đều không bắt buộc.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Tiếp theo, QLauncher sẽ xin quyền truy cập thông báo (cho biểu tượng thông báo và Đang phát). Quyền này không bắt buộc.</string>
+    <string name="firstrun_notifications_dialog">Cho phép truy cập thông báo?</string>
+    <string name="firstrun_notifications_text">Quyền truy cập thông báo cho phép QLauncher hiển thị số lượng thông báo, bảng thông báo và nội dung đang phát. Chọn Có sẽ mở trang Quyền truy cập đặc biệt của ứng dụng, nơi bạn cấp quyền này.</string>
+    <string name="firstrun_reports_title">Gửi báo cáo sự cố và lỗi ẩn danh?</string>
+    <string name="firstrun_reports_text">Nếu QLauncher gặp sự cố hoặc lỗi, ứng dụng có thể gửi báo cáo kèm phiên bản ứng dụng và kiểu máy thiết bị để lỗi được khắc phục. Không có thông tin nào nhận dạng bạn hoặc nội dung bạn xem được gửi đi. Bạn có thể thay đổi tùy chọn này sau trong mục Chung.</string>
+    <string name="firstrun_launcher_title">Đặt QLauncher làm màn hình chính</string>
+    <string name="firstrun_launcher_text">Nhiều thiết bị TV không cho phép thay đổi trình khởi chạy mặc định. Nếu thiết bị của bạn cho phép, hãy chọn QLauncher ở đó. Nếu không, hãy bật dịch vụ hỗ trợ tiếp cận với “Ghi đè trình khởi chạy hiện tại”, và QLauncher sẽ quay lại mỗi khi trình khởi chạy gốc mở ra.</string>
+    <string name="firstrun_launcher_open">Thay đổi trình khởi chạy mặc định</string>
+    <string name="firstrun_start_title">Bắt đầu thôi!</string>
+    <string name="firstrun_start_text">Mọi thứ đều có thể thay đổi sau trong phần cài đặt. Nhấn nút cài đặt ở góc trên bên phải, hoặc chuỗi phím ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">BẮT ĐẦU</string>
+    <string name="firstrun_next">Tiếp</string>
+    <string name="firstrun_skip">Bỏ qua</string>
+    <string name="firstrun_yes">Có</string>
+    <string name="firstrun_no">Không</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Không có trình bảo vệ màn hình trên thiết bị này</string>
+</resources>

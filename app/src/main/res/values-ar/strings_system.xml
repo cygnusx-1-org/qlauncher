@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">أدخل أي تركيبة من الأسهم/الأرقام وأكّد بالضغط على OK</string>
+    <string name="system_parental_confirm_code">أدخل الرمز مرة أخرى وأكّد بالضغط على OK</string>
+    <string name="system_parental_restricted">وصول مقيّد\nأدخل رمز الرقابة الأبوية</string>
+    <string name="system_parental_wrong_code">رمز خاطئ</string>
+    <string name="system_parental_codes_differ">الرمزان غير متطابقين، يُرجى المحاولة مرة أخرى</string>
+    <string name="system_parental_code_saved">تم حفظ رمز الرقابة الأبوية</string>
+    <string name="system_parental_recovery_code">رمز الاسترداد: %1$s</string>
+    <string name="system_parental_recovery_help">دوّنه: لن يظهر إلا هذه المرة. عند إدخاله بالأسهم (1 = ▲، 2 = ▼، 3 = ◄، 4 = ►) يفتح القفل مثل رمز الرقابة الأبوية.</string>
+    <string name="system_parental_press_ok">اضغط على OK للمتابعة</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">اختصارات جهاز التحكم عن بُعد</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">الرئيسية</string>
+    <string name="system_hotkeys_keys_menu_twice">القائمة × 2</string>
+    <string name="system_hotkeys_change_input">تغيير مصدر الإدخال</string>
+    <string name="system_hotkeys_change_profile">تغيير ملف تعريف العرض</string>
+    <string name="system_hotkeys_start_launcher">تشغيل QLauncher</string>
+    <string name="system_hotkeys_home">فتح QLauncher؛ مرتين: التطبيقات الحديثة</string>
+    <string name="system_hotkeys_close">إغلاق هذه المساعدة</string>
+    <string name="system_hotkeys_no_inputs">لا توجد مصادر إدخال تلفزيون على هذا الجهاز</string>
+    <string name="system_hotkeys_no_picture_manager">لم يتم تحميل أي مدير صورة</string>
+    <string name="system_hotkeys_home_off">متوقف: يتطلب «تجاوز مشغّل التطبيقات الحالي» وإعادة تعيين الأزرار</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">تم رصد عدم نشاط المستخدم، إيقاف التشغيل خلال %1$d ث</string>
+    <string name="system_idle_countdown_screen_off">تم رصد عدم نشاط المستخدم، إطفاء الشاشة خلال %1$d ث</string>
+    <string name="system_idle_countdown_screensaver">تم رصد عدم نشاط المستخدم، شاشة التوقف خلال %1$d ث</string>
+    <string name="system_idle_countdown_cancel">اضغط على أي زر للإلغاء</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">لا يحتوي هذا الجهاز على اختصار لإعدادات سهولة الاستخدام. افتحها من إعدادات Android، عادةً ضمن الإعدادات المفضّلة للجهاز › سهولة الاستخدام.</string>
+    <string name="system_notification_access_no_settings">لا يحتوي هذا الجهاز على شاشة للوصول إلى الإشعارات. امنح الوصول من كمبيوتر باستخدام:</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Տարբերակ %1$s</string>
+    <string name="about_copyright">Հեղինակային իրավունք © 2026 QLauncher-ի մասնակիցներ։ Ազատ ծրագրակազմ՝ GNU General Public License-ի 3-րդ տարբերակի ներքո։</string>
+    <string name="about_libs">Գրադարաններ / Շնորհակալություններ</string>
+    <string name="about_links">Հղումներ</string>
+    <string name="about_link_project">Նախագծի էջ</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Հայերեն թարգմանություն</string>
+    <string name="about_translation_credit">QLauncher-ի մասնակիցներ</string>
+    <string name="about_no_browser">Այս սարքում դիտարկիչ չկա։ Բացեք %1$s հասցեն մեկ այլ սարքում։</string>
+    <string name="about_check_updates">Ստուգել թարմացումները</string>
+    <string name="about_update_checking">Ստուգվում է…</string>
+    <string name="about_update_latest">Տեղադրված է QLauncher-ի վերջին տարբերակը (%1$s)</string>
+    <string name="about_update_available">Հասանելի է %1$s տարբերակը</string>
+    <string name="about_update_failed">Չհաջողվեց ստուգել՝ %1$s</string>
+    <string name="about_update_install">Տեղադրել QLauncher %1$s</string>
+    <string name="update_available_toast">Հասանելի է QLauncher %1$s՝ Կարգավորումներ › Տեղեկություններ › QLauncher</string>
+</resources>

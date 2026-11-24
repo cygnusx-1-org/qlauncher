@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Setări</string>
+    <string name="settings_breadcrumb_display">Afișaj</string>
+    <string name="settings_breadcrumb_applications">Aplicații</string>
+    <string name="settings_breadcrumb_system">Sistem</string>
+    <string name="settings_breadcrumb_about">Despre</string>
+    <string name="settings_root_title">Setări QLauncher</string>
+    <string name="settings_root_description">Configurați setările aplicației.</string>
+    <string name="settings_legend_a11y_required">Necesită serviciul de accesibilitate</string>
+    <string name="settings_legend_a11y_recommended">Serviciul de accesibilitate este recomandat</string>
+    <string name="settings_legend_experimental">Experimental</string>
+    <string name="settings_launcher_related">Setări legate de lansator</string>
+
+    <string name="settings_general">General</string>
+    <string name="settings_appearance">Aspect</string>
+    <string name="settings_power">Alimentare</string>
+    <string name="settings_parental">Control parental</string>
+    <string name="settings_remote">Telecomandă</string>
+    <string name="settings_accessibility">Serviciu de accesibilitate</string>
+    <string name="settings_display_profiles">Profiluri de afișare</string>
+    <string name="settings_manage">Gestionați setările</string>
+
+    <!-- General -->
+    <string name="settings_language">Schimbați limba aplicației</string>
+    <string name="settings_language_system">Limba sistemului</string>
+    <string name="settings_default_launcher">Schimbați lansatorul implicit</string>
+    <string name="settings_default_launcher_unavailable">Acest dispozitiv nu oferă nicio modalitate de a schimba lansatorul implicit. Folosiți în schimb „Înlocuire lansator curent”.</string>
+    <string name="settings_override_home">Înlocuire lansator curent</string>
+    <string name="settings_override_home_desc">Interceptează apelurile către lansatorul curent (util dacă nu îl puteți schimba sau elimina pe cel preinstalat)</string>
+    <string name="settings_enable_channels">Activare canale</string>
+    <string name="settings_enable_channels_desc">Dacă nu le folosiți, dezactivarea opțiunii accelerează pornirea și reduce consumul de memorie</string>
+    <string name="settings_programs_per_channel">Programe pe canal</string>
+    <string name="settings_crash_error_reports">Activare rapoarte anonime despre blocări și erori</string>
+    <string name="settings_reports_desc">Se trimit doar eroarea, versiunea aplicației și modelul dispozitivului</string>
+    <string name="settings_check_updates">Căutați actualizări</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Categorii / Canale</string>
+    <string name="settings_cards">Carduri</string>
+    <string name="settings_wallpaper">Imagine de fundal</string>
+    <string name="settings_status_bar">Bară de stare</string>
+    <string name="settings_left_headers">Antete din stânga</string>
+    <string name="settings_idle_mode">Modul inactiv al lansatorului</string>
+    <string name="settings_font">Font</string>
+    <string name="settings_themes">Teme</string>
+    <string name="settings_themes_desc">Importare / Exportare</string>
+    <string name="settings_load_cards_scrolling">Încărcare carduri în timpul derulării</string>
+    <string name="settings_load_cards_scrolling_desc">Mai receptiv, în detrimentul fluidității</string>
+    <string name="settings_accent">Culoare de accent</string>
+    <string name="settings_accent_desc">Activați opțiunea dinamică pentru a urma imaginea de fundal</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Afișare titlu</string>
+    <string name="settings_show_icon_title">Afișare pictogramă înaintea titlului</string>
+    <string name="settings_rows_spacing">Spațiere verticală (procente din înălțimea ecranului)</string>
+    <string name="settings_fixed_position">Poziție fixă pentru categoria selectată</string>
+    <string name="settings_hide_rows_above">Ascundere rânduri deasupra selecției</string>
+    <string name="settings_remember_focus">Memorare poziție card selectat</string>
+    <string name="settings_unselected_opacity">Opacitatea rândurilor neselectate</string>
+    <string name="settings_top_margin">Margine de sus</string>
+    <string name="settings_start_margin">Margine de început</string>
+    <string name="settings_end_margin">Margine de final</string>
+    <string name="settings_dock_padding">Spațiere interioară dock</string>
+    <string name="settings_tint_custom_icons">Colorare pictograme personalizate</string>
+    <string name="settings_tint_custom_icons_desc">Pentru pictogramele personalizate fără fundal</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Colțuri rotunjite</string>
+    <string name="settings_cards_size">Dimensiunea cardurilor</string>
+    <string name="settings_cards_spacing">Spațierea cardurilor</string>
+    <string name="settings_loop_limit">Limită de repetare a pictogramelor animate</string>
+    <string name="settings_ripple">Efect de undă la apăsarea cardului</string>
+    <string name="settings_background_color">Culoare de fundal</string>
+    <string name="settings_focused_card">Card selectat</string>
+    <string name="settings_program_cards">Carduri de program</string>
+    <string name="settings_tv_ratio">Raport de aspect carduri aplicații TV</string>
+    <string name="settings_mobile_ratio">Raport de aspect carduri aplicații mobile</string>
+    <string name="settings_icon_pack">Pachet de pictograme</string>
+    <string name="settings_icon_pack_none">Niciun pachet de pictograme instalat</string>
+    <string name="settings_icon_pack_off">Niciunul</string>
+    <string name="settings_more">Mai multe…</string>
+    <string name="settings_custom_icon_tint">Tentă pictograme personalizate</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Dimensiunea cardului selectat</string>
+    <string name="settings_focused_effect">Efectul cardului selectat</string>
+    <string name="settings_effect_none">Niciunul</string>
+    <string name="settings_effect_shadow">Umbră</string>
+    <string name="settings_effect_glow">Strălucire</string>
+    <string name="settings_glow_animation">Animația strălucirii</string>
+    <string name="settings_anim_none">Niciuna</string>
+    <string name="settings_anim_pulse">Puls</string>
+    <string name="settings_anim_breath">Respirație</string>
+    <string name="settings_anim_fade">Estompare</string>
+    <string name="settings_anim_shine">Lucire</string>
+    <string name="settings_glow_size">Dimensiunea strălucirii</string>
+    <string name="settings_glow_color">Culoarea strălucirii</string>
+    <string name="settings_glow_color_desc">Lăsați gol pentru a folosi culoarea cardului</string>
+    <string name="settings_colors_override">Înlocuire culori</string>
+    <string name="settings_override_none">Niciuna</string>
+    <string name="settings_override_swap">Inversare fundal/tentă</string>
+    <string name="settings_override_custom">Personalizat</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Redare videoclip de previzualizare</string>
+    <string name="settings_preview_never">Niciodată</string>
+    <string name="settings_preview_always">Întotdeauna</string>
+    <string name="settings_preview_no_media">Când nu se redă conținut media în fundal</string>
+    <string name="settings_show_progress">Afișare bară de progres</string>
+    <string name="settings_show_badge">Afișare insignă</string>
+    <string name="settings_zoom_focus">Efect de mărire la selectare</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Formate acceptate: imagine statică, GIF animat, videoclip (static sau flux live RTSP), animație Lottie</string>
+    <string name="settings_launcher_wallpaper">Imagine de fundal a lansatorului</string>
+    <string name="settings_configure">Configurați</string>
+    <string name="settings_show_wallpapers">Afișare imagini de fundal</string>
+    <string name="settings_picture_adjustment">Ajustarea imaginii</string>
+    <string name="settings_image_transition">Tranziție imagine</string>
+    <string name="settings_update_frequency">Frecvență de actualizare (min)</string>
+    <string name="settings_video_wallpaper">Imagine de fundal video</string>
+    <string name="settings_display_mode">Mod de afișare</string>
+    <string name="settings_bad_ratio">În caz de raport/calitate necorespunzătoare</string>
+    <string name="settings_min_width">Lățime minimă acceptată (px)</string>
+    <string name="settings_src_none">Niciuna</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Culori dinamice</string>
+    <string name="settings_src_default">Imagine de fundal implicită</string>
+    <string name="settings_src_media">Fișier media</string>
+    <string name="settings_src_folder">Dosar</string>
+    <string name="settings_src_focused_program">Programul selectat</string>
+    <string name="settings_src_now_playing">Se redă acum</string>
+    <string name="settings_src_random_program">Program aleatoriu</string>
+    <string name="settings_src_theme">Temă</string>
+    <string name="settings_tr_none">Niciuna</string>
+    <string name="settings_tr_random">Aleatorie</string>
+    <string name="settings_tr_fade">Estompare</string>
+    <string name="settings_tr_zoom">Mărire</string>
+    <string name="settings_tr_hslide">Glisare orizontală</string>
+    <string name="settings_tr_vslide">Glisare verticală</string>
+    <string name="settings_dm_automatic">Automat</string>
+    <string name="settings_dm_skip">Omitere</string>
+    <string name="settings_dm_crop">Decupare</string>
+    <string name="settings_dm_stretch">Întindere</string>
+    <string name="settings_dm_fit">Încadrare centrată</string>
+    <string name="settings_dm_fit_blur">Încadrare centrată + fundal încețoșat</string>
+    <string name="settings_dm_blur">Încețoșare</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Nuanță</string>
+    <string name="settings_saturation">Saturație</string>
+    <string name="settings_contrast">Contrast</string>
+    <string name="settings_brightness">Luminozitate</string>
+    <string name="settings_tint">Tentă</string>
+    <string name="settings_tint_amount">Intensitatea tentei</string>
+    <string name="settings_blur">Încețoșare</string>
+    <string name="settings_shadow_h">Lungimea umbrei suprapuse orizontale</string>
+    <string name="settings_shadow_v">Lungimea umbrei suprapuse verticale</string>
+    <string name="settings_shadow_opacity">Opacitatea umbrei suprapuse</string>
+    <string name="settings_shadow_tint">Tenta umbrei suprapuse</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Ignorare frecvență de actualizare</string>
+    <string name="settings_ignore_update_desc">Se așteaptă finalul videoclipului înainte de a cere o nouă imagine de fundal</string>
+    <string name="settings_video_color_freq">Frecvența actualizării culorilor dinamice</string>
+    <string name="settings_video_color_freq_desc">Secunde între cadrele video citite pentru culori; 0 dezactivează opțiunea</string>
+    <string name="settings_volume">Volum</string>
+    <string name="settings_tunneling">Randare hardware (tunneling)</string>
+    <string name="settings_decoder_fallback">Activare decodoare de rezervă</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Gestionați permisiunea pentru notificări</string>
+    <string name="settings_granted">Acordată</string>
+    <string name="settings_not_granted">Neacordată</string>
+    <string name="settings_notification_adb">Niciun ecran de setări pe acest dispozitiv. Acordați-o cu: %1$s</string>
+    <string name="settings_clock">Ceas</string>
+    <string name="settings_icons">Pictograme</string>
+    <string name="settings_show_system_bar">Afișare bară de stare a sistemului</string>
+    <string name="settings_autohide_status">Ascundere bară de stare la derulare</string>
+    <string name="settings_show_clock">Afișare ceas</string>
+    <string name="settings_clock_size">Dimensiunea fontului ceasului</string>
+    <string name="settings_clock_color">Culoarea ceasului</string>
+    <string name="settings_drop_shadow">Umbră</string>
+    <string name="settings_clock_line1">Format ceas (rândul 1)</string>
+    <string name="settings_clock_line2">Format ceas (rândul 2)</string>
+    <string name="settings_clock_default_format">Formatul sistemului</string>
+    <string name="settings_empty">Gol</string>
+    <string name="settings_icons_size">Dimensiunea pictogramelor</string>
+    <string name="settings_icons_color">Culoarea pictogramelor</string>
+    <string name="settings_icons_container">Culoarea containerului pictogramelor</string>
+    <string name="settings_show_settings">Afișare setări</string>
+    <string name="settings_show_settings_desc">Setările rămân accesibile cu această secvență de butoane: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Afișare conectivitate</string>
+    <string name="settings_show_notifications">Afișare notificări</string>
+    <string name="settings_autohide_notifications">Ascundere pictogramă de notificări când nu există niciuna</string>
+    <string name="settings_show_battery">Afișare baterie</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Activare</string>
+    <string name="settings_headers_on_launch">Afișare antete din stânga la lansare</string>
+    <string name="settings_show_icon">Afișare pictogramă</string>
+    <string name="settings_show_reorder">Afișare reordonare</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Timp până la inactivitate (min)</string>
+    <string name="settings_idle_opacity">Opacitatea interfeței</string>
+    <string name="settings_keep_clock">Păstrare ceas</string>
+    <string name="settings_prevent_screensaver">Împiedicare economizor de ecran al sistemului</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Schimbați setările de font ale QLauncher. Numele familiilor de fonturi pot fi căutate pe Google Fonts.</string>
+    <string name="settings_font_list">Alegeți din listă</string>
+    <string name="settings_font_google">Font (Google Fonts)</string>
+    <string name="settings_font_default">Implicit</string>
+    <string name="settings_bold">Aldin</string>
+    <string name="settings_italic">Cursiv</string>
+    <string name="settings_size">Dimensiune</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Lansare automată la pornire</string>
+    <string name="settings_autostart_none">Niciuna</string>
+    <string name="settings_autostart_screensaver">[*] Economizor de ecran (dacă este acceptat)</string>
+    <string name="settings_autostart_resume">…și la ieșirea din modul de așteptare</string>
+    <string name="settings_autostart_delay">Întârziere lansare automată (secunde)</string>
+    <string name="settings_simulate_activity">Împiedicare oprire automată a sistemului la inactivitate</string>
+    <string name="settings_idle_detection">Activare detectare internă a inactivității</string>
+    <string name="settings_idle_timeout_power">Timp de inactivitate (oră:min)</string>
+    <string name="settings_idle_action">Acțiune la inactivitate</string>
+    <string name="settings_idle_action_shutdown">Oprire</string>
+    <string name="settings_idle_action_screen_off">Stingere ecran</string>
+    <string name="settings_idle_action_screensaver">Economizor de ecran (dacă este acceptat)</string>
+    <string name="settings_idle_media">Ignorare mod inactiv în timpul redării media</string>
+    <string name="settings_missing_notification_permission">⚠️ Lipsește permisiunea pentru notificări</string>
+    <string name="settings_shutdown_action">Acțiune de oprire</string>
+    <string name="settings_shutdown_dialog">Meniul de alimentare</string>
+    <string name="settings_shutdown_dialog_twice">Meniul de alimentare (apelat de două ori)</string>
+    <string name="settings_shutdown_dialog_ok">Meniul de alimentare + OK</string>
+    <string name="settings_hdmi_exit">Oprire automată când se pierde semnalul intrării HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Definiți un cod pentru a bloca aplicațiile selectate (apăsați lung un card de pe ecranul de pornire pentru a le alege), toată ziua sau doar o parte din zi</string>
+    <string name="settings_parental_set_code">Setați un cod parental nou</string>
+    <string name="settings_parental_code_set">Este setat un cod</string>
+    <string name="settings_parental_long">Nu se mai cere codul timp de 15 min după o validare reușită</string>
+    <string name="settings_parental_protect">Protejare setări lansator și modificări ale interfeței</string>
+    <string name="settings_parental_protect_desc">(aplicat 24/7)</string>
+    <string name="settings_parental_partial">Activare protecție doar între</string>
+    <string name="settings_parental_start">Ora de început (oră:min)</string>
+    <string name="settings_parental_end">Ora de sfârșit (oră:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Afișare informații la apăsarea dublă pe „Meniu”</string>
+    <string name="settings_back_double">„Modul ambiental” la apăsarea dublă pe „Înapoi”</string>
+    <string name="settings_back_double_desc">Pornește economizorul de ecran pe dispozitivele compatibile</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Activați serviciul pentru a rula o acțiune la pornire, a personaliza butoanele telecomenzii, a consolida controlul parental și a detecta inactivitatea pentru gestionarea alimentării. Serviciul vede apăsările tastelor fizice și numele aplicației din prim-plan; ambele rămân în memorie pe acest dispozitiv și nu sunt trimise nicăieri.</string>
+    <string name="settings_a11y_enabled">Activat</string>
+    <string name="settings_a11y_started">Pornit</string>
+    <string name="settings_yes">Da</string>
+    <string name="settings_no">Nu</string>
+    <string name="settings_a11y_open">Afișați setările de accesibilitate</string>
+    <string name="settings_a11y_consent_title">Serviciu de accesibilitate</string>
+    <string name="settings_a11y_consent">Astfel, QLauncher poate vedea apăsările butoanelor fizice și numele aplicației din prim-plan. Ambele sunt păstrate doar în memorie pe acest dispozitiv și nu sunt trimise nicăieri. Sunteți de acord?</string>
+    <string name="settings_a11y_alternate">Configurație alternativă</string>
+    <string name="settings_a11y_alternate_desc">Rezolvă probleme pe unele dispozitive</string>
+    <string name="settings_a11y_volume_fix">Remediere butoane de volum</string>
+    <string name="settings_a11y_volume_fix_desc">Oprește scurt reatribuirea la apăsarea volumului, ca apăsările lungi să funcționeze în continuare</string>
+    <string name="settings_a11y_remap">Activare reatribuire butoane</string>
+    <string name="settings_a11y_remap_desc">Serviciul interceptează apăsările de taste. Dezactivarea opțiunii evită problemele cu apăsarea lungă a volumului și oprirea serviciului de către sistem, dar înlocuirea lansatorului, controlul parental și detectarea inactivității pot fi mai puțin eficiente.</string>
+    <string name="settings_a11y_reminder">Afișare memento</string>
+    <string name="settings_a11y_reminder_desc">Dacă serviciul de accesibilitate este dezactivat</string>
+    <string name="settings_a11y_unbound_toast">Serviciul de accesibilitate al QLauncher nu rulează</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importați sau exportați setările local ori cu altă aplicație, cum ar fi LocalSend sau un manager de fișiere.</string>
+    <string name="settings_import">Importați</string>
+    <string name="settings_import_file">Dintr-un fișier</string>
+    <string name="settings_import_auto">Din copia de rezervă automată</string>
+    <string name="settings_export">Exportați</string>
+    <string name="settings_export_local">Salvați local</string>
+    <string name="settings_export_share">Distribuiți cu altă aplicație</string>
+    <string name="settings_reset">Resetați la valorile implicite</string>
+    <string name="settings_cancel">Anulați</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Categorie</string>
+    <string name="wp_custom_search">Căutare personalizată</string>
+    <string name="wp_reddit_login">Conectare</string>
+    <string name="wp_reddit_logout">Deconectare: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Deconectare</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Subreddit personalizat</string>
+    <string name="wp_custom_subreddit_hint">Mai multe nume separate prin +</string>
+    <string name="wp_folder">Dosar</string>
+    <string name="wp_folder_choose">Alegeți un dosar</string>
+    <string name="wp_media">Fișier media</string>
+    <string name="wp_media_choose">Alegeți un fișier</string>
+    <string name="wp_choose_other">Altă locație…</string>
+    <string name="wp_choose_other_desc">Alegeți cu selectorul de fișiere al sistemului</string>
+    <string name="wp_media_searching">Se caută imagini și videoclipuri…</string>
+    <string name="wp_media_none">Nu s-au găsit imagini sau videoclipuri. Copiați câteva în Pictures, Movies sau Download ori conectați o unitate USB.</string>
+    <string name="wp_folders_description">Dosare cu imagini sau videoclipuri, pe acest dispozitiv și pe unitățile USB.</string>
+    <string name="wp_folders_none">Nu s-au găsit dosare cu imagini sau videoclipuri</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fișier</item>
+        <item quantity="few">%d fișiere</item>
+        <item quantity="other">%d de fișiere</item>
+    </plurals>
+    <string name="wp_media_color">Culoare uniformă</string>
+    <string name="wp_theme_desc">Imagini de fundal incluse în tema importată</string>
+    <string name="wp_plugin_settings">Setări plugin</string>
+    <string name="wp_not_set">Nesetat</string>
+    <string name="wp_status">Stare</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Această imagine de fundal</string>
+    <string name="wp_next">Următoarea</string>
+    <string name="wp_source">Sursă</string>
+    <string name="wp_title">Titlu</string>
+    <string name="wp_author">Autor</string>
+    <string name="wp_set_user">Setați ca imagine de fundal a utilizatorului</string>
+    <string name="wp_view">Vizualizați</string>
+    <string name="wp_unknown">Necunoscut</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Creați și gestionați aici profiluri de afișare video. Asociați-le cu surse de intrare pentru a se schimba automat sau aplicați-le apăsând de două ori Meniu, apoi sus sau jos.</string>
+    <string name="dp_list">Lista profilurilor de afișare</string>
+    <string name="dp_list_desc">Creați sau editați aici profiluri de afișare video. În funcție de dispozitiv, unele comenzi necesită root sau nu funcționează deloc; sunt destinate dispozitivelor AmLogic.</string>
+    <string name="dp_add">Adăugați…</string>
+    <string name="dp_name">Numele profilului</string>
+    <string name="dp_preview">Previzualizare</string>
+    <string name="dp_fullscreen">Previzualizare pe tot ecranul</string>
+    <string name="dp_fullscreen_desc">sau comutați cu butonul Meniu</string>
+    <string name="dp_delete">Ștergeți profilul</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Instalați aplicații terțe</string>
+    <string name="install_desc">Alegeți o aplicație de instalat. Poate fi necesar să permiteți mai întâi instalările din surse necunoscute.</string>
+    <string name="install_custom">URL personalizat / cod Downloader</string>
+    <string name="install_custom_desc">Folosiți doar o sursă de încredere</string>
+    <string name="install_status">Stare</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Acest dispozitiv</string>
+
+    <string name="gallery_filter">Filtrați…</string>
+    <string name="settings_no_file_picker">Acest dispozitiv nu are selector de fișiere</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminanță</string>
+    <string name="color_opacity">Opacitate</string>
+    <string name="color_prefer_dynamic">Preferință pentru culoarea dinamică</string>
+    <string name="color_prefer_dynamic_desc">Dacă este disponibilă, va păstra această luminanță/opacitate</string>
+    <string name="color_clear">Ștergeți</string>
+    <string name="color_reset">Resetați la valorile implicite</string>
+</resources>

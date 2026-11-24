@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">מתנגן עכשיו</string>
+    <string name="home_cat_inputs">מקורות קלט</string>
+    <string name="home_cat_favorites">מועדפים</string>
+    <string name="home_cat_video">וידאו</string>
+    <string name="home_cat_music">מוזיקה</string>
+    <string name="home_cat_games">משחקים</string>
+    <string name="home_cat_tv_apps">אפליקציות טלוויזיה</string>
+    <string name="home_cat_mobile_apps">אפליקציות לנייד</string>
+    <string name="home_cat_watch_next">המשך צפייה</string>
+    <string name="home_cat_shortcuts">קיצורי דרך</string>
+    <string name="home_cat_folders">תיקיות קטגוריות</string>
+    <string name="home_cat_live_tv">טלוויזיה בשידור חי</string>
+    <string name="home_cat_settings">הגדרות</string>
+    <string name="home_cat_display">תצוגה</string>
+    <string name="home_cat_applications">אפליקציות</string>
+    <string name="home_cat_system">מערכת</string>
+    <string name="home_cat_about">אודות</string>
+    <string name="home_new_category">קטגוריה חדשה</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">כל האפליקציות</string>
+    <string name="home_action_edit_categories">עריכת קטגוריות</string>
+    <string name="home_action_edit_channels">עריכת ערוצים</string>
+    <string name="home_action_launcher_settings">הגדרות QLauncher</string>
+    <string name="home_action_android_settings">הגדרות Android</string>
+    <string name="home_action_amlogic_settings">הגדרות AmLogic נוספות</string>
+    <string name="home_action_display_profiles">פרופילי תצוגה</string>
+    <string name="home_action_install_apps">התקנת אפליקציות צד שלישי</string>
+    <string name="home_action_accessibility">שירות נגישות</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">החלפת פרופיל</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">המכשיר הזה</string>
+    <string name="home_action_about_wallpaper">הטפט הזה</string>
+
+    <!-- Program meta -->
+    <string name="home_season">עונה %1$s</string>
+    <string name="home_episode">פרק %1$s</string>
+    <string name="home_minutes">%1$d דק׳</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">קישוריות</string>
+    <string name="home_status_notifications">התראות</string>
+    <string name="home_status_settings">הגדרות</string>
+    <string name="home_status_wallpaper">הטפט הזה</string>
+    <string name="home_navigation_menu">תפריט ניווט</string>
+    <string name="home_reorder">שינוי סדר</string>
+    <string name="home_category_settings">הגדרות קטגוריה</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">הגדרות האפליקציה</string>
+    <string name="menu_open">פתיחה</string>
+    <string name="menu_details">פרטים</string>
+    <string name="menu_play_pause">הפעלה/השהיה</string>
+    <string name="menu_stop">עצירה</string>
+    <string name="menu_previous">הקודם</string>
+    <string name="menu_next">הבא</string>
+    <string name="menu_uninstall">הסרת התקנה</string>
+    <string name="menu_launch_on_boot">הפעלה באתחול</string>
+    <string name="menu_launch_on_boot_on">מופעלת באתחול</string>
+    <string name="menu_add_parental">הוספה לבקרת הורים</string>
+    <string name="menu_remove_parental">הסרה מבקרת הורים</string>
+    <string name="menu_shortcuts">קיצורי דרך</string>
+    <string name="menu_appearance">מראה</string>
+    <string name="menu_title">כותרת</string>
+    <string name="menu_change_icon">שינוי סמל</string>
+    <string name="menu_icon_from_picture">מתמונה</string>
+    <string name="menu_icon_other_location">מיקום אחר…</string>
+    <string name="menu_icon_no_pictures">לא נמצאו תמונות. אפשר להעתיק תמונות ל-Pictures או ל-Download, או לחבר כונן USB.</string>
+    <string name="menu_icon_reset">איפוס</string>
+    <string name="menu_crop">חיתוך למילוי</string>
+    <string name="menu_visibility">נראות</string>
+    <string name="menu_reorder">שינוי סדר</string>
+    <string name="menu_remove_from">הסרה מ-%1$s</string>
+    <string name="menu_hide">הסתרה</string>
+    <string name="menu_add_to">הוספה ל…</string>
+    <string name="menu_move_to">העברה ל…</string>
+    <string name="menu_channels">ערוצים</string>
+    <string name="menu_rename_hint">יש להקליד כותרת חדשה וללחוץ על OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">כותרת</string>
+    <string name="editor_change_icon">שינוי סמל</string>
+    <string name="editor_visible">מוצגת</string>
+    <string name="editor_grid">רשת</string>
+    <string name="editor_sliding_row">שורה נגללת</string>
+    <string name="editor_background">צבע רקע</string>
+    <string name="editor_show_title">הצגת כותרת</string>
+    <string name="editor_size">גודל</string>
+    <string name="editor_advanced">הגדרות מתקדמות</string>
+    <string name="editor_start_margin">שוליים בהתחלה</string>
+    <string name="editor_end_margin">שוליים בסוף</string>
+    <string name="editor_top_margin">שוליים עליונים</string>
+    <string name="editor_cards_per_row">כרטיסים בשורה</string>
+    <string name="editor_row_count">מספר שורות</string>
+    <string name="editor_auto">אוטומטי</string>
+    <string name="editor_auto_value">אוטומטי (%1$s)</string>
+    <string name="editor_sort">מיון</string>
+    <string name="editor_sort_custom">מותאם אישית</string>
+    <string name="editor_sort_name">לפי האלף-בית</string>
+    <string name="editor_sort_last">שימוש אחרון</string>
+    <string name="editor_sort_most">שימוש תכוף</string>
+    <string name="editor_sort_random">אקראי</string>
+    <string name="editor_set_default">הגדרה כברירת מחדל</string>
+    <string name="editor_is_default">קטגוריית ברירת מחדל</string>
+    <string name="editor_manage_apps">ניהול אפליקציות</string>
+    <string name="editor_hidden_items">פריטים מוסתרים</string>
+    <string name="editor_restore">שחזור</string>
+    <string name="editor_delete">מחיקה</string>
+    <string name="editor_delete_confirm">למחוק את הקטגוריה הזו?</string>
+    <string name="editor_empty_note">הקטגוריה הזו לא תופיע עדיין כי היא ריקה</string>
+    <string name="editor_request_notifications">בקשת הרשאת התראות</string>
+    <string name="editor_channel_error">כבר לא ניתן לקרוא את הערוץ הזה</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">ערוצים</string>
+    <string name="channels_count">ערוצים: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">התראות</string>
+    <string name="notifications_clear_all">ניקוי הכול</string>
+    <string name="notifications_empty">אין התראות</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">לא ניתן לפתוח את האפליקציה הזו</string>
+    <string name="home_reorder_hint">שמאלה/ימינה להזזה, OK או חזרה לסיום</string>
+    <string name="home_category_reorder_hint">למעלה/למטה להזזה, OK או חזרה לסיום</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">ברוכים הבאים!</string>
+    <string name="firstrun_welcome_text">המשגר QLauncher נועד ל-Android TV. הוא מרכז את האפליקציות, הערוצים והתוכן המועדף שלך במסך בית אחד שאפשר להתאים אישית, עם טפט מתחלף ברקע.</string>
+    <string name="firstrun_features_title">כוחות העל החדשים שלך</string>
+    <string name="firstrun_features_text">הפעלת אפליקציה או כניסת HDMI באתחול, ניהול פרופילי תצוגה, נעילת אפליקציות בבקרת הורים, הצגת תבניות כיול, זיהוי חוסר פעילות והתאמה אישית של כל חלק במסך הבית. חלק מהתכונות תלויות במכשיר.</string>
+    <string name="firstrun_a11y_title">בואו נפעיל נגישות</string>
+    <string name="firstrun_a11y_text">תכונות רבות זקוקות לשירות הנגישות של QLauncher: החלפת המשגר המקורי, פעולות באתחול, מחוות בלחצני השלט, זיהוי חוסר פעילות ובקרת הורים. אפשר להפעיל אותו עכשיו או מאוחר יותר מההגדרות.</string>
+    <string name="firstrun_a11y_open">פתיחת הגדרות הנגישות</string>
+    <string name="firstrun_permissions_title">אם יורשה לי…</string>
+    <string name="firstrun_permissions_text">בהמשך, QLauncher תבקש הרשאה לקרוא את לוח השידורים (עבור הערוצים ו\"המשך צפייה\") וגישה להתראות (עבור סמל ההתראות ו\"מתנגן עכשיו\"). שתי ההרשאות אופציונליות.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">בהמשך, QLauncher תבקש גישה להתראות (עבור סמל ההתראות ו\"מתנגן עכשיו\"). זה אופציונלי.</string>
+    <string name="firstrun_notifications_dialog">לאפשר גישה להתראות?</string>
+    <string name="firstrun_notifications_text">גישה להתראות מאפשרת ל-QLauncher להציג את מספר ההתראות, חלונית התראות ואת מה שמתנגן. \"כן\" פותח את דף הגישה המיוחדת לאפליקציות, שבו מעניקים אותה.</string>
+    <string name="firstrun_reports_title">לשלוח דוחות אנונימיים על קריסות ושגיאות?</string>
+    <string name="firstrun_reports_text">אם QLauncher קורסת או נתקלת בשגיאה, היא יכולה לשלוח דוח עם גרסת האפליקציה ודגם המכשיר כדי שאפשר יהיה לתקן את הבאג. שום דבר שמזהה אותך או את מה שצופים בו לא נשלח. אפשר לשנות את זה מאוחר יותר ב\"כללי\".</string>
+    <string name="firstrun_launcher_title">הגדרת QLauncher כמסך הבית</string>
+    <string name="firstrun_launcher_text">מכשירי טלוויזיה רבים לא מאפשרים לשנות את משגר ברירת המחדל. אם המכשיר שלך מאפשר, יש לבחור שם ב-QLauncher. אחרת, יש להפעיל את שירות הנגישות עם \"עקיפת המשגר הנוכחי\", ו-QLauncher תחזור בכל פעם שהמשגר המקורי נפתח.</string>
+    <string name="firstrun_launcher_open">שינוי משגר ברירת המחדל</string>
+    <string name="firstrun_start_title">הגיע הזמן להתחיל!</string>
+    <string name="firstrun_start_text">אפשר לשנות הכול מאוחר יותר מההגדרות. יש ללחוץ על לחצן ההגדרות בפינה הימנית העליונה, או על רצף המקשים ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">בואו נתחיל</string>
+    <string name="firstrun_next">הבא</string>
+    <string name="firstrun_skip">דילוג</string>
+    <string name="firstrun_yes">כן</string>
+    <string name="firstrun_no">לא</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">אין שומר מסך במכשיר הזה</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Įveskite bet kokį rodyklių / skaitmenų derinį ir patvirtinkite mygtuku OK</string>
+    <string name="system_parental_confirm_code">Dar kartą įveskite kodą ir patvirtinkite mygtuku OK</string>
+    <string name="system_parental_restricted">Ribota prieiga\nĮveskite tėvų kontrolės kodą</string>
+    <string name="system_parental_wrong_code">Neteisingas kodas</string>
+    <string name="system_parental_codes_differ">Kodai nesutampa, bandykite dar kartą</string>
+    <string name="system_parental_code_saved">Tėvų kontrolės kodas išsaugotas</string>
+    <string name="system_parental_recovery_code">Atkūrimo kodas: %1$s</string>
+    <string name="system_parental_recovery_help">Užsirašykite jį: jis rodomas tik šį kartą. Įvestas rodyklėmis (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), jis atrakina taip pat kaip tėvų kontrolės kodas.</string>
+    <string name="system_parental_press_ok">Paspauskite OK, kad tęstumėte</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Pulto spartieji klavišai</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Pagrindinis</string>
+    <string name="system_hotkeys_keys_menu_twice">Meniu × 2</string>
+    <string name="system_hotkeys_change_input">Keisti įvestį</string>
+    <string name="system_hotkeys_change_profile">Keisti ekrano profilį</string>
+    <string name="system_hotkeys_start_launcher">Paleisti QLauncher</string>
+    <string name="system_hotkeys_home">Atidaryti QLauncher; du kartus: naujausios programos</string>
+    <string name="system_hotkeys_close">Uždaryti šį žinyną</string>
+    <string name="system_hotkeys_no_inputs">Šiame įrenginyje nėra TV įvesčių</string>
+    <string name="system_hotkeys_no_picture_manager">Neįkelta vaizdo tvarkytuvė</string>
+    <string name="system_hotkeys_home_off">Išjungta: reikia parinkties „Perimti dabartinę paleidimo priemonę“ ir mygtukų funkcijų keitimo</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Aptiktas naudotojo neveiklumas, išjungiama po %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Aptiktas naudotojo neveiklumas, ekranas išjungiamas po %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Aptiktas naudotojo neveiklumas, ekrano užsklanda po %1$d s</string>
+    <string name="system_idle_countdown_cancel">Paspauskite bet kurį mygtuką, kad atšauktumėte</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Šiame įrenginyje nėra nuorodos į pritaikymo neįgaliesiems nustatymus. Atidarykite juos per Android nustatymus, paprastai skiltyje Įrenginio nuostatos › Pritaikymas neįgaliesiems.</string>
+    <string name="system_notification_access_no_settings">Šiame įrenginyje nėra prieigos prie pranešimų ekrano. Suteikite prieigą iš kompiuterio komanda:</string>
+</resources>

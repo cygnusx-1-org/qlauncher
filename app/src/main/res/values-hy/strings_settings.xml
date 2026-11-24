@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Կարգավորումներ</string>
+    <string name="settings_breadcrumb_display">Էկրան</string>
+    <string name="settings_breadcrumb_applications">Հավելվածներ</string>
+    <string name="settings_breadcrumb_system">Համակարգ</string>
+    <string name="settings_breadcrumb_about">Տեղեկություններ</string>
+    <string name="settings_root_title">QLauncher-ի կարգավորումներ</string>
+    <string name="settings_root_description">Կարգավորեք հավելվածը։</string>
+    <string name="settings_legend_a11y_required">Պահանջվում է հատուկ գործառույթների ծառայություն</string>
+    <string name="settings_legend_a11y_recommended">Խորհուրդ է տրվում հատուկ գործառույթների ծառայություն</string>
+    <string name="settings_legend_experimental">Փորձնական</string>
+    <string name="settings_launcher_related">Գործարկիչի կարգավորումներ</string>
+
+    <string name="settings_general">Ընդհանուր</string>
+    <string name="settings_appearance">Արտաքին տեսք</string>
+    <string name="settings_power">Սնուցում</string>
+    <string name="settings_parental">Ծնողական վերահսկողություն</string>
+    <string name="settings_remote">Հեռակառավարում</string>
+    <string name="settings_accessibility">Հատուկ գործառույթների ծառայություն</string>
+    <string name="settings_display_profiles">Էկրանի պրոֆիլներ</string>
+    <string name="settings_manage">Կարգավորումների կառավարում</string>
+
+    <!-- General -->
+    <string name="settings_language">Փոխել հավելվածի լեզուն</string>
+    <string name="settings_language_system">Ինչպես համակարգում</string>
+    <string name="settings_default_launcher">Փոխել լռելյայն գործարկիչը</string>
+    <string name="settings_default_launcher_unavailable">Այս սարքը լռելյայն գործարկիչը փոխելու հնարավորություն չունի։ Փոխարենը օգտագործեք «Փոխարինել ընթացիկ գործարկիչը»։</string>
+    <string name="settings_override_home">Փոխարինել ընթացիկ գործարկիչը</string>
+    <string name="settings_override_home_desc">Ընդհատել ընթացիկ գործարկիչի կանչերը (օգտակար է, եթե չեք կարող փոխել կամ հեռացնել ստանդարտը)</string>
+    <string name="settings_enable_channels">Միացնել ալիքները</string>
+    <string name="settings_enable_channels_desc">Եթե դրանք չեք օգտագործում, անջատելը արագացնում է գործարկումը և խնայում հիշողություն</string>
+    <string name="settings_programs_per_channel">Հաղորդումներ մեկ ալիքում</string>
+    <string name="settings_crash_error_reports">Միացնել անանուն հաշվետվությունները վթարների և սխալների մասին</string>
+    <string name="settings_reports_desc">Ուղարկվում են միայն սխալը, հավելվածի տարբերակը և սարքի մոդելը</string>
+    <string name="settings_check_updates">Ստուգել թարմացումները</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Կատեգորիաներ / Ալիքներ</string>
+    <string name="settings_cards">Քարտեր</string>
+    <string name="settings_wallpaper">Պաստառ</string>
+    <string name="settings_status_bar">Կարգավիճակի գոտի</string>
+    <string name="settings_left_headers">Ձախ վերնագրեր</string>
+    <string name="settings_idle_mode">Գործարկիչի անգործության ռեժիմ</string>
+    <string name="settings_font">Տառատեսակ</string>
+    <string name="settings_themes">Թեմաներ</string>
+    <string name="settings_themes_desc">Ներմուծում / Արտահանում</string>
+    <string name="settings_load_cards_scrolling">Բեռնել քարտերը ոլորելիս</string>
+    <string name="settings_load_cards_scrolling_desc">Ավելի արագ արձագանք՝ սահունության հաշվին</string>
+    <string name="settings_accent">Շեշտման գույն</string>
+    <string name="settings_accent_desc">Միացրեք դինամիկ գույնը՝ պաստառին հետևելու համար</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Ցույց տալ վերնագիրը</string>
+    <string name="settings_show_icon_title">Ցույց տալ պատկերակը վերնագրի դիմաց</string>
+    <string name="settings_rows_spacing">Ուղղահայաց միջակայք (էկրանի բարձրության %)</string>
+    <string name="settings_fixed_position">Ֆիքսել ընտրված կատեգորիայի դիրքը</string>
+    <string name="settings_hide_rows_above">Թաքցնել ընտրվածից վերև գտնվող շարքերը</string>
+    <string name="settings_remember_focus">Հիշել ընտրված քարտի դիրքը</string>
+    <string name="settings_unselected_opacity">Չընտրված շարքերի անթափանցիկություն</string>
+    <string name="settings_top_margin">Վերևի լուսանցք</string>
+    <string name="settings_start_margin">Սկզբի լուսանցք</string>
+    <string name="settings_end_margin">Վերջի լուսանցք</string>
+    <string name="settings_dock_padding">Դոկի ներքին լուսանցք</string>
+    <string name="settings_tint_custom_icons">Երանգավորել անհատական պատկերակները</string>
+    <string name="settings_tint_custom_icons_desc">Առանց ֆոնի անհատական պատկերակների համար</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Կլորացված անկյուններ</string>
+    <string name="settings_cards_size">Քարտերի չափը</string>
+    <string name="settings_cards_spacing">Քարտերի միջակայքը</string>
+    <string name="settings_loop_limit">Անիմացիոն պատկերակների կրկնությունների սահմանաչափ</string>
+    <string name="settings_ripple">Ալիքի էֆեկտ քարտը սեղմելիս</string>
+    <string name="settings_background_color">Ֆոնի գույն</string>
+    <string name="settings_focused_card">Ընտրված քարտ</string>
+    <string name="settings_program_cards">Հաղորդումների քարտեր</string>
+    <string name="settings_tv_ratio">Հեռուստացույցի հավելվածների քարտի համամասնություն</string>
+    <string name="settings_mobile_ratio">Բջջային հավելվածների քարտի համամասնություն</string>
+    <string name="settings_icon_pack">Պատկերակների փաթեթ</string>
+    <string name="settings_icon_pack_none">Պատկերակների փաթեթ տեղադրված չէ</string>
+    <string name="settings_icon_pack_off">Ոչ մեկը</string>
+    <string name="settings_more">Ավելին…</string>
+    <string name="settings_custom_icon_tint">Անհատական պատկերակի երանգավորում</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Ընտրված քարտի չափը</string>
+    <string name="settings_focused_effect">Ընտրված քարտի էֆեկտ</string>
+    <string name="settings_effect_none">Ոչ մեկը</string>
+    <string name="settings_effect_shadow">Ստվեր</string>
+    <string name="settings_effect_glow">Շող</string>
+    <string name="settings_glow_animation">Շողի անիմացիա</string>
+    <string name="settings_anim_none">Ոչ մեկը</string>
+    <string name="settings_anim_pulse">Բաբախում</string>
+    <string name="settings_anim_breath">Շնչառություն</string>
+    <string name="settings_anim_fade">Մարում</string>
+    <string name="settings_anim_shine">Փայլ</string>
+    <string name="settings_glow_size">Շողի չափը</string>
+    <string name="settings_glow_color">Շողի գույնը</string>
+    <string name="settings_glow_color_desc">Թողեք դատարկ՝ քարտի սեփական գույնն օգտագործելու համար</string>
+    <string name="settings_colors_override">Գույների վերասահմանում</string>
+    <string name="settings_override_none">Ոչ մեկը</string>
+    <string name="settings_override_swap">Փոխանակել ֆոնը/երանգավորումը</string>
+    <string name="settings_override_custom">Անհատական</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Նվագարկել նախադիտման տեսանյութը</string>
+    <string name="settings_preview_never">Երբեք</string>
+    <string name="settings_preview_always">Միշտ</string>
+    <string name="settings_preview_no_media">Երբ ֆոնային մեդիա չի նվագարկվում</string>
+    <string name="settings_show_progress">Ցույց տալ առաջընթացի գոտին</string>
+    <string name="settings_show_badge">Ցույց տալ նշանը</string>
+    <string name="settings_zoom_focus">Մեծացման էֆեկտ ընտրելիս</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Աջակցվող ձևաչափեր՝ ստատիկ նկար, անիմացիոն GIF, տեսանյութ (ստատիկ կամ RTSP ուղիղ հոսք), Lottie անիմացիա</string>
+    <string name="settings_launcher_wallpaper">Գործարկիչի պաստառ</string>
+    <string name="settings_configure">Կարգավորել</string>
+    <string name="settings_show_wallpapers">Ցույց տալ պաստառները</string>
+    <string name="settings_picture_adjustment">Պատկերի կարգավորում</string>
+    <string name="settings_image_transition">Պատկերների անցում</string>
+    <string name="settings_update_frequency">Թարմացման հաճախականություն (ր)</string>
+    <string name="settings_video_wallpaper">Տեսապաստառ</string>
+    <string name="settings_display_mode">Ցուցադրման ռեժիմ</string>
+    <string name="settings_bad_ratio">Վատ համամասնության/որակի դեպքում</string>
+    <string name="settings_min_width">Նվազագույն ընդունելի լայնություն (px)</string>
+    <string name="settings_src_none">Ոչ մեկը</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Դինամիկ գույներ</string>
+    <string name="settings_src_default">Լռելյայն պաստառ</string>
+    <string name="settings_src_media">Մեդիաֆայլ</string>
+    <string name="settings_src_folder">Թղթապանակ</string>
+    <string name="settings_src_focused_program">Ընտրված հաղորդում</string>
+    <string name="settings_src_now_playing">Հիմա նվագարկվում է</string>
+    <string name="settings_src_random_program">Պատահական հաղորդում</string>
+    <string name="settings_src_theme">Թեմա</string>
+    <string name="settings_tr_none">Ոչ մեկը</string>
+    <string name="settings_tr_random">Պատահական</string>
+    <string name="settings_tr_fade">Մարում</string>
+    <string name="settings_tr_zoom">Մեծացում</string>
+    <string name="settings_tr_hslide">Հորիզոնական սահք</string>
+    <string name="settings_tr_vslide">Ուղղահայաց սահք</string>
+    <string name="settings_dm_automatic">Ավտոմատ</string>
+    <string name="settings_dm_skip">Բաց թողնել</string>
+    <string name="settings_dm_crop">Կտրել</string>
+    <string name="settings_dm_stretch">Ձգել</string>
+    <string name="settings_dm_fit">Տեղավորել կենտրոնում</string>
+    <string name="settings_dm_fit_blur">Տեղավորել կենտրոնում + լղոզված ֆոն</string>
+    <string name="settings_dm_blur">Լղոզում</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Երանգ</string>
+    <string name="settings_saturation">Հագեցվածություն</string>
+    <string name="settings_contrast">Կոնտրաստ</string>
+    <string name="settings_brightness">Պայծառություն</string>
+    <string name="settings_tint">Երանգավորում</string>
+    <string name="settings_tint_amount">Երանգավորման չափը</string>
+    <string name="settings_blur">Լղոզում</string>
+    <string name="settings_shadow_h">Հորիզոնական ստվերային շերտի երկարություն</string>
+    <string name="settings_shadow_v">Ուղղահայաց ստվերային շերտի երկարություն</string>
+    <string name="settings_shadow_opacity">Ստվերային շերտի անթափանցիկություն</string>
+    <string name="settings_shadow_tint">Ստվերային շերտի երանգավորում</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Անտեսել թարմացման հաճախականությունը</string>
+    <string name="settings_ignore_update_desc">Սպասել տեսանյութի ավարտին՝ նախքան նոր պաստառ պահանջելը</string>
+    <string name="settings_video_color_freq">Դինամիկ գույնի թարմացման հաճախականություն</string>
+    <string name="settings_video_color_freq_desc">Վայրկյաններ տեսակադրերի միջև, որոնցից կարդացվում են գույները. 0-ն անջատում է այն</string>
+    <string name="settings_volume">Ձայնի ուժգնություն</string>
+    <string name="settings_tunneling">Օգտագործել սարքային արտապատկերում (թունելավորում)</string>
+    <string name="settings_decoder_fallback">Միացնել պահեստային ապակոդավորիչները</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Կառավարել ծանուցումների թույլտվությունը</string>
+    <string name="settings_granted">Տրամադրված է</string>
+    <string name="settings_not_granted">Տրամադրված չէ</string>
+    <string name="settings_notification_adb">Այս սարքում կարգավորումների էկրան չկա։ Տրամադրեք այն այս հրամանով՝ %1$s</string>
+    <string name="settings_clock">Ժամացույց</string>
+    <string name="settings_icons">Պատկերակներ</string>
+    <string name="settings_show_system_bar">Ցույց տալ համակարգի կարգավիճակի գոտին</string>
+    <string name="settings_autohide_status">Թաքցնել կարգավիճակի գոտին ոլորելիս</string>
+    <string name="settings_show_clock">Ցույց տալ ժամացույցը</string>
+    <string name="settings_clock_size">Ժամացույցի տառաչափ</string>
+    <string name="settings_clock_color">Ժամացույցի գույն</string>
+    <string name="settings_drop_shadow">Ստվեր</string>
+    <string name="settings_clock_line1">Ժամացույցի ձևաչափ (տող 1)</string>
+    <string name="settings_clock_line2">Ժամացույցի ձևաչափ (տող 2)</string>
+    <string name="settings_clock_default_format">Համակարգային ձևաչափ</string>
+    <string name="settings_empty">Դատարկ</string>
+    <string name="settings_icons_size">Պատկերակների չափը</string>
+    <string name="settings_icons_color">Պատկերակների գույնը</string>
+    <string name="settings_icons_container">Պատկերակների ֆոնի գույնը</string>
+    <string name="settings_show_settings">Ցույց տալ կարգավորումները</string>
+    <string name="settings_show_settings_desc">Կարգավորումները հասանելի են մնում կոճակների այս հաջորդականությամբ՝ ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Ցույց տալ կապը</string>
+    <string name="settings_show_notifications">Ցույց տալ ծանուցումները</string>
+    <string name="settings_autohide_notifications">Թաքցնել ծանուցումների պատկերակը, երբ դրանք չկան</string>
+    <string name="settings_show_battery">Ցույց տալ մարտկոցը</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Միացնել</string>
+    <string name="settings_headers_on_launch">Ցույց տալ ձախ վերնագրերը գործարկելիս</string>
+    <string name="settings_show_icon">Ցույց տալ պատկերակը</string>
+    <string name="settings_show_reorder">Ցույց տալ վերադասավորումը</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Ժամանակ մինչև անգործության ռեժիմ (ր)</string>
+    <string name="settings_idle_opacity">Ինտերֆեյսի անթափանցիկություն</string>
+    <string name="settings_keep_clock">Պահել ժամացույցը</string>
+    <string name="settings_prevent_screensaver">Արգելել համակարգային էկրանապահը</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Փոխեք QLauncher-ի տառատեսակի կարգավորումները։ Տառատեսակների ընտանիքների անունները կարելի է գտնել Google Fonts-ում։</string>
+    <string name="settings_font_list">Ընտրել ցանկից</string>
+    <string name="settings_font_google">Տառատեսակ (Google Fonts)</string>
+    <string name="settings_font_default">Լռելյայն</string>
+    <string name="settings_bold">Թավ</string>
+    <string name="settings_italic">Շեղ</string>
+    <string name="settings_size">Չափ</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Ավտոգործարկում միացնելիս</string>
+    <string name="settings_autostart_none">Ոչ մեկը</string>
+    <string name="settings_autostart_screensaver">[*] Էկրանապահ (եթե աջակցվում է)</string>
+    <string name="settings_autostart_resume">…և սպասման ռեժիմից վերադառնալիս</string>
+    <string name="settings_autostart_delay">Ավտոգործարկման հապաղում (վայրկյան)</string>
+    <string name="settings_simulate_activity">Արգելել համակարգի ավտոմատ անջատումը անգործության ժամանակ</string>
+    <string name="settings_idle_detection">Միացնել ներքին անգործության հայտնաբերումը</string>
+    <string name="settings_idle_timeout_power">Անգործության ժամանակ (ժ:ր)</string>
+    <string name="settings_idle_action">Գործողություն անգործության դեպքում</string>
+    <string name="settings_idle_action_shutdown">Անջատում</string>
+    <string name="settings_idle_action_screen_off">Էկրանի անջատում</string>
+    <string name="settings_idle_action_screensaver">Էկրանապահ (եթե աջակցվում է)</string>
+    <string name="settings_idle_media">Անտեսել անգործության ռեժիմը մեդիա նվագարկելիս</string>
+    <string name="settings_missing_notification_permission">⚠️ Ծանուցումների թույլտվությունը բացակայում է</string>
+    <string name="settings_shutdown_action">Անջատման գործողություն</string>
+    <string name="settings_shutdown_dialog">Սնուցման ընտրացանկ</string>
+    <string name="settings_shutdown_dialog_twice">Սնուցման ընտրացանկ (կանչել երկու անգամ)</string>
+    <string name="settings_shutdown_dialog_ok">Սնուցման ընտրացանկ + OK</string>
+    <string name="settings_hdmi_exit">Ավտոմատ անջատում, երբ HDMI մուտքի ազդանշանը դադարում է</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Սահմանեք կոդ՝ ընտրված հավելվածները կողպելու համար (ընտրելու համար երկար սեղմեք քարտը գլխավոր էկրանին)՝ ամբողջ օրը կամ օրվա մի մասը</string>
+    <string name="settings_parental_set_code">Սահմանել նոր ծնողական կոդ</string>
+    <string name="settings_parental_code_set">Կոդը սահմանված է</string>
+    <string name="settings_parental_long">Չպահանջել կոդը 15 րոպե հաջող ստուգումից հետո</string>
+    <string name="settings_parental_protect">Պաշտպանել գործարկիչի կարգավորումները և ինտերֆեյսի փոփոխությունները</string>
+    <string name="settings_parental_protect_desc">(կիրառվում է շուրջօրյա)</string>
+    <string name="settings_parental_partial">Միացնել պաշտպանությունը միայն որոշակի ժամերին</string>
+    <string name="settings_parental_start">Սկզբի ժամ (ժ:ր)</string>
+    <string name="settings_parental_end">Ավարտի ժամ (ժ:ր)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Ցուցադրել տեղեկություններ «Ընտրացանկ» կոճակի կրկնակի սեղմմամբ</string>
+    <string name="settings_back_double">«Էկրանապահ» «Հետ» կոճակի կրկնակի սեղմմամբ</string>
+    <string name="settings_back_double_desc">Գործարկել էկրանապահն աջակցվող սարքերում</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Միացրեք ծառայությունը՝ սարքը միացնելիս գործողություն կատարելու, հեռակառավարչի կոճակները կարգավորելու, ծնողական վերահսկողությունն ուժեղացնելու և սնուցման կառավարման համար անգործության ժամանակը հայտնաբերելու համար։ Այն տեսնում է սարքային ստեղների սեղմումները և առաջին պլանում գտնվող հավելվածի անունը. երկուսն էլ մնում են այս սարքի հիշողության մեջ և երբեք ոչ մի տեղ չեն ուղարկվում։</string>
+    <string name="settings_a11y_enabled">Միացված է</string>
+    <string name="settings_a11y_started">Գործարկված է</string>
+    <string name="settings_yes">Այո</string>
+    <string name="settings_no">Ոչ</string>
+    <string name="settings_a11y_open">Ցույց տալ հատուկ գործառույթների կարգավորումները</string>
+    <string name="settings_a11y_consent_title">Հատուկ գործառույթների ծառայություն</string>
+    <string name="settings_a11y_consent">Սա թույլ է տալիս QLauncher-ին տեսնել սարքային կոճակների սեղմումները և առաջին պլանում գտնվող հավելվածի անունը։ Երկուսն էլ պահվում են միայն այս սարքի հիշողության մեջ և երբեք ոչ մի տեղ չեն ուղարկվում։ Համաձա՞յն եք։</string>
+    <string name="settings_a11y_alternate">Օգտագործել այլընտրանքային կազմաձևում</string>
+    <string name="settings_a11y_alternate_desc">Շտկում է խնդիրները որոշ սարքերում</string>
+    <string name="settings_a11y_volume_fix">Ձայնի կոճակների շտկում</string>
+    <string name="settings_a11y_volume_fix_desc">Ձայնի կոճակը սեղմելիս կարճ ժամանակով դադարեցնել վերանշանակումը, որպեսզի երկար սեղմումները շարունակեն աշխատել</string>
+    <string name="settings_a11y_remap">Միացնել կոճակների վերանշանակումը</string>
+    <string name="settings_a11y_remap_desc">Ծառայությունն ընդհատում է ստեղների սեղմումները։ Սա անջատելը կանխում է ձայնի կոճակի երկար սեղմման խնդիրները և համակարգի կողմից ծառայության դադարեցումը, բայց գործարկիչի փոխարինումը, ծնողական վերահսկողությունը և անգործության հայտնաբերումը կարող են պակաս արդյունավետ լինել։</string>
+    <string name="settings_a11y_reminder">Ցույց տալ հիշեցում</string>
+    <string name="settings_a11y_reminder_desc">Եթե հատուկ գործառույթների ծառայությունն անջատված է</string>
+    <string name="settings_a11y_unbound_toast">QLauncher-ի հատուկ գործառույթների ծառայությունը չի աշխատում</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Ներմուծեք կամ արտահանեք կարգավորումները սարքում կամ այլ հավելվածի միջոցով, օրինակ՝ LocalSend-ով կամ ֆայլերի կառավարիչով։</string>
+    <string name="settings_import">Ներմուծել</string>
+    <string name="settings_import_file">Ֆայլից</string>
+    <string name="settings_import_auto">Ավտոմատ պահուստային պատճենից</string>
+    <string name="settings_export">Արտահանել</string>
+    <string name="settings_export_local">Պահել սարքում</string>
+    <string name="settings_export_share">Կիսվել այլ հավելվածի հետ</string>
+    <string name="settings_reset">Վերականգնել լռելյայնը</string>
+    <string name="settings_cancel">Չեղարկել</string>
+    <string name="settings_ok">Եղավ</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Կատեգորիա</string>
+    <string name="wp_custom_search">Անհատական որոնում</string>
+    <string name="wp_reddit_login">Մուտք</string>
+    <string name="wp_reddit_logout">Ելք՝ %1$s</string>
+    <string name="wp_reddit_logout_unknown">Ելք</string>
+    <string name="wp_subreddit">Reddit համայնք</string>
+    <string name="wp_custom_subreddit">Անհատական համայնք</string>
+    <string name="wp_custom_subreddit_hint">Մի քանի անուն՝ բաժանված + նշանով</string>
+    <string name="wp_folder">Թղթապանակ</string>
+    <string name="wp_folder_choose">Ընտրել թղթապանակ</string>
+    <string name="wp_media">Մեդիաֆայլ</string>
+    <string name="wp_media_choose">Ընտրել ֆայլ</string>
+    <string name="wp_choose_other">Այլ վայր…</string>
+    <string name="wp_choose_other_desc">Ընտրել համակարգային ֆայլընտրիչով</string>
+    <string name="wp_media_searching">Նկարների և տեսանյութերի որոնում…</string>
+    <string name="wp_media_none">Նկարներ կամ տեսանյութեր չեն գտնվել։ Պատճենեք մի քանիսը Pictures, Movies կամ Download թղթապանակ կամ միացրեք USB կրիչ։</string>
+    <string name="wp_folders_description">Նկարներով կամ տեսանյութերով թղթապանակներ՝ այս սարքում և USB կրիչներում։</string>
+    <string name="wp_folders_none">Նկարներով կամ տեսանյութերով թղթապանակներ չեն գտնվել</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d ֆայլ</item>
+        <item quantity="other">%d ֆայլ</item>
+    </plurals>
+    <string name="wp_media_color">Միագույն ֆոն</string>
+    <string name="wp_theme_desc">Ներմուծված թեմայի պաստառները</string>
+    <string name="wp_plugin_settings">Պլագինի կարգավորումներ</string>
+    <string name="wp_not_set">Սահմանված չէ</string>
+    <string name="wp_status">Կարգավիճակ</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Այս պաստառը</string>
+    <string name="wp_next">Հաջորդը</string>
+    <string name="wp_source">Աղբյուր</string>
+    <string name="wp_title">Վերնագիր</string>
+    <string name="wp_author">Հեղինակ</string>
+    <string name="wp_set_user">Սահմանել որպես օգտատիրոջ պաստառ</string>
+    <string name="wp_view">Դիտել</string>
+    <string name="wp_unknown">Անհայտ</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Ստեղծեք և կառավարեք էկրանի պրոֆիլներն այստեղ։ Կապեք դրանք մուտքի աղբյուրներին՝ ավտոմատ փոխվելու համար, կամ կիրառեք դրանք՝ երկու անգամ սեղմելով «Ընտրացանկ» կոճակը, ապա վեր կամ վար։</string>
+    <string name="dp_list">Էկրանի պրոֆիլների ցանկ</string>
+    <string name="dp_list_desc">Ստեղծեք կամ խմբագրեք էկրանի պրոֆիլներն այստեղ։ Կախված սարքից՝ որոշ կառավարման տարրեր պահանջում են root կամ ընդհանրապես չեն աշխատում. դրանք նախատեսված են AmLogic սարքերի համար։</string>
+    <string name="dp_add">Ավելացնել նոր…</string>
+    <string name="dp_name">Պրոֆիլի անուն</string>
+    <string name="dp_preview">Նախադիտում</string>
+    <string name="dp_fullscreen">Լիաէկրան նախադիտում</string>
+    <string name="dp_fullscreen_desc">կամ փոխարկեք «Ընտրացանկ» կոճակով</string>
+    <string name="dp_delete">Ջնջել պրոֆիլը</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Տեղադրել երրորդ կողմի հավելվածներ</string>
+    <string name="install_desc">Ընտրեք տեղադրվող հավելվածը։ Գուցե նախ անհրաժեշտ լինի թույլատրել տեղադրումն անհայտ աղբյուրներից։</string>
+    <string name="install_custom">Այլ URL / Downloader-ի կոդ</string>
+    <string name="install_custom_desc">Օգտագործեք միայն վստահելի աղբյուր</string>
+    <string name="install_status">Կարգավիճակ</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Այս սարքը</string>
+
+    <string name="gallery_filter">Զտիչ…</string>
+    <string name="settings_no_file_picker">Այս սարքում ֆայլընտրիչ չկա</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Լուսայնություն</string>
+    <string name="color_opacity">Անթափանցիկություն</string>
+    <string name="color_prefer_dynamic">Նախընտրել դինամիկ գույնը</string>
+    <string name="color_prefer_dynamic_desc">Եթե հասանելի է, կպահպանի այս լուսայնությունը/անթափանցիկությունը</string>
+    <string name="color_clear">Մաքրել</string>
+    <string name="color_reset">Վերականգնել լռելյայնը</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">İptal</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Tüm uygulamalar</string>
+    <string name="apps_action_edit_categories">Kategorileri düzenle</string>
+    <string name="apps_action_edit_channels">Kanalları düzenle</string>
+    <string name="apps_action_launcher_settings">QLauncher ayarları</string>
+    <string name="apps_action_android_settings">Android ayarları</string>
+    <string name="apps_action_amlogic_settings">AmLogic ek ayarları</string>
+    <string name="apps_action_display_profiles">Ekran profilleri</string>
+    <string name="apps_action_install_apps">Üçüncü taraf uygulama yükle</string>
+    <string name="apps_action_accessibility_service">Erişilebilirlik hizmeti</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Profil değiştir</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Bu cihaz</string>
+    <string name="apps_action_about_wallpaper">Bu duvar kağıdı</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Yok</string>
+    <string name="apps_autostart_screensaver">Ekran koruyucu</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanallar</string>
+    <string name="apps_channels_watch_next">İzlemeye devam et</string>
+    <string name="apps_channels_unreadable">Bu kanal artık okunamıyor</string>
+    <string name="apps_channels_hidden">Sistem tarafından gizlendi</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="other">%d kanal</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Simge paketini uygula</string>
+    <string name="apps_iconpack_apply_message">Uygulamalarınızın simgeleri için %1$s kullanılsın mı?</string>
+    <string name="apps_iconpack_apply_confirm">Uygula</string>
+    <string name="apps_iconpack_applied">Simge paketi uygulandı</string>
+    <string name="apps_iconpack_apply_missing">Simge paketi belirtilmedi</string>
+    <string name="apps_iconpack_apply_not_a_pack">Bu uygulama bir simge paketi değil</string>
+    <string name="apps_iconpack_none">Yok</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Kısayol ekle</string>
+    <string name="apps_pin_shortcut_message">%2$s uygulamasındaki “%1$s” Kısayollar kategorisine eklensin mi?</string>
+    <string name="apps_pin_shortcut_confirm">Ekle</string>
+    <string name="apps_pin_shortcut_added">Kısayol eklendi</string>
+    <string name="apps_pin_shortcut_failed">Kısayol eklenemedi</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Üçüncü taraf uygulama yükle</string>
+    <string name="apps_install_description">Lütfen yüklenecek bir uygulama seçin. Yüklemeden önce bilinmeyen kaynaklardan yüklemeye izin vermeniz gerekebilir.</string>
+    <string name="apps_install_custom_url">Özel URL / Downloader kodu</string>
+    <string name="apps_install_custom_url_desc">Güvenilir bir kaynak kullandığınızdan emin olun</string>
+    <string name="apps_install_choose_method">Bir yükleme yöntemi seçin</string>
+    <string name="apps_install_installed">Yüklü</string>
+    <string name="apps_install_category_wallpaper_plugin">Duvar kağıdı eklentisi</string>
+    <string name="apps_install_category_icon_pack">Simge paketi</string>
+    <string name="apps_install_category_file_manager">Dosya yöneticisi</string>
+    <string name="apps_install_category_tool">Araç</string>
+    <string name="apps_install_method_store">Mağaza</string>
+    <string name="apps_install_method_direct">Doğrudan indirme</string>
+    <string name="apps_install_method_downloader">Downloader uygulaması</string>
+    <string name="apps_install_state_downloading">%1$s indiriliyor… %%%2$d</string>
+    <string name="apps_install_state_downloading_unknown">%1$s indiriliyor…</string>
+    <string name="apps_install_state_installing">%1$s yükleniyor…</string>
+    <string name="apps_install_state_confirm">%1$s yüklemesini onaylayın</string>
+    <string name="apps_install_state_success">%1$s yüklendi</string>
+    <string name="apps_install_state_unknown_sources">QLauncher\'ın uygulama yüklemesine izin verin, ardından devam etmek için geri dönün</string>
+    <string name="apps_install_state_downloader_sent">%1$s kodu Downloader\'a gönderildi</string>
+    <string name="apps_install_state_downloader_type">%1$s kodunu Downloader\'a girin</string>
+    <string name="apps_install_state_store">Mağazada açıldı</string>
+    <string name="apps_install_state_browser">Bu bağlantı bir web sayfası; tarayıcıda açıldı</string>
+    <string name="apps_install_fail_invalid">Bu bir URL veya Downloader kodu değil</string>
+    <string name="apps_install_fail_no_usb">USB sürücü bulunamadı</string>
+    <string name="apps_install_fail_archive">Arşivler yüklenemez</string>
+    <string name="apps_install_fail_network">İndirme başarısız oldu</string>
+    <string name="apps_install_fail_http">Sunucu bir hatayla yanıt verdi (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Dosya bir uygulama (APK) değil</string>
+    <string name="apps_install_fail_unreadable">Dosya okunamıyor</string>
+    <string name="apps_install_fail_install">Yükleme başarısız oldu</string>
+    <string name="apps_install_fail_cancelled">Yükleme iptal edildi</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher\'ın uygulama yükleme izni yok</string>
+    <string name="apps_install_fail_downloader">Downloader uygulaması yüklü değil</string>
+    <string name="apps_install_fail_store">Kullanılabilir uygulama mağazası yok</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Bu cihaz</string>
+    <string name="apps_device_brand_manufacturer">Marka / Üretici</string>
+    <string name="apps_device_device_product">Cihaz / Ürün</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Donanım</string>
+    <string name="apps_device_fingerprint">Parmak izi</string>
+    <string name="apps_device_build">Derleme</string>
+    <string name="apps_device_build_desc">Derleme açıklaması</string>
+    <string name="apps_device_device_type">Cihaz türü</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP adresi</string>
+    <string name="apps_device_root_access">Root erişimi</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Görüntü yöneticisi yok</string>
+    <string name="apps_device_id">Kimlik</string>
+    <string name="apps_device_yes">Evet</string>
+    <string name="apps_device_no">Hayır</string>
+</resources>

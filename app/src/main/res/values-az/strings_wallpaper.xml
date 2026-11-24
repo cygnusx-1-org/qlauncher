@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Heç biri</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinamik rənglər</string>
+    <string name="wallpaper_provider_default">Standart divar kağızı</string>
+    <string name="wallpaper_provider_media_file">Media faylı</string>
+    <string name="wallpaper_provider_folder">Qovluq</string>
+    <string name="wallpaper_provider_focused_program">Fokusdakı veriliş</string>
+    <string name="wallpaper_provider_now_playing">İndi oxudulur</string>
+    <string name="wallpaper_provider_random_program">Təsadüfi veriliş</string>
+    <string name="wallpaper_provider_theme">Mövzu</string>
+    <string name="wallpaper_provider_unknown_plugin">Plagin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Divar kağızları</string>
+    <string name="wallpaper_wikimedia_nature">Təbiət</string>
+    <string name="wallpaper_wikimedia_landscapes">Mənzərələr</string>
+    <string name="wallpaper_wikimedia_mountains">Dağlar</string>
+    <string name="wallpaper_wikimedia_forests">Meşələr</string>
+    <string name="wallpaper_wikimedia_cities">Şəhərlər</string>
+    <string name="wallpaper_wikimedia_architecture">Memarlıq</string>
+    <string name="wallpaper_wikimedia_night">Gecə</string>
+    <string name="wallpaper_wikimedia_space">Kosmos</string>
+    <string name="wallpaper_wikimedia_animals">Heyvanlar</string>
+    <string name="wallpaper_wikimedia_custom">[Fərdi axtarış]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Fərdi subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Çıxış et</string>
+    <string name="wallpaper_reddit_login_needed">Reddit divar kağızlarını görmək üçün Reddit-ə daxil olun.</string>
+    <string name="wallpaper_reddit_login_title">Reddit-ə daxil ol</string>
+    <string name="wallpaper_reddit_login_signing_in">Daxil olunur…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit girişinə icazə verilmədi, buna görə Reddit divar kağızları əlçatmaz qalır.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit-dən gələn cavab bu giriş cəhdinə uyğun gəlmədi və nəzərə alınmadı. Yenidən cəhd edin.</string>
+    <string name="wallpaper_reddit_login_failed">Reddit-ə daxil olmaq alınmadı (%1$s). Bir az sonra yenidən cəhd edin.</string>
+    <string name="wallpaper_reddit_login_network">Reddit ilə əlaqə qurmaq mümkün olmadı. Şəbəkə bağlantısını yoxlayın və yenidən cəhd edin.</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit giriş səhifəsini yükləmək mümkün olmadı. Şəbəkə bağlantısını yoxlayın və yenidən cəhd edin.</string>
+    <string name="wallpaper_reddit_no_webview">Bu cihazda Reddit girişi üçün lazım olan veb brauzer komponenti (Android System WebView) yoxdur. Android System WebView-u quraşdırın və ya aktivləşdirin, sonra yenidən cəhd edin.</string>
+    <string name="wallpaper_reddit_retry">Yenidən cəhd et</string>
+    <string name="wallpaper_reddit_close">Bağla</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Divar kağızı mənbəyi ilə bağlantı yoxdur.</string>
+    <string name="wallpaper_error_server">Divar kağızı mənbəyi xəta ilə cavab verdi.</string>
+    <string name="wallpaper_error_rate_limited">Divar kağızı mənbəyi növbəti sorğudan əvvəl gözləməyi xahiş etdi.</string>
+    <string name="wallpaper_error_generic">Divar kağızlarını yükləmək mümkün olmadı.</string>
+    <string name="wallpaper_error_no_media">Heç bir şəkil, video və ya rəng seçilməyib.</string>
+    <string name="wallpaper_error_no_folder">Heç bir qovluq seçilməyib.</string>
+    <string name="wallpaper_error_folder_access">Qovluğu oxumaq mümkün deyil. Onu yenidən seçin.</string>
+    <string name="wallpaper_error_folder_empty">Qovluqda şəkil, video və ya Lottie animasiyası yoxdur.</string>
+    <string name="wallpaper_error_theme_empty">Cari mövzuda divar kağızı yoxdur.</string>
+    <string name="wallpaper_error_no_channels">Kanallar mövcud deyil. Onları aktivləşdirin və TV proqramına girişə icazə verin.</string>
+    <string name="wallpaper_error_no_notification_access">«İndi oxudulur» üçün bildiriş girişi lazımdır.</string>
+    <string name="wallpaper_error_no_subreddit">Etibarlı subreddit təyin edilməyib.</string>
+    <string name="wallpaper_error_plugin">Divar kağızı plagini cavab vermədi.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Divar kağızı təyin edildi</string>
+    <string name="wallpaper_set_failed">Bu fayl divar kağızı kimi istifadə oluna bilməz.</string>
+</resources>

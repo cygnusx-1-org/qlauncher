@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Yok</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinamik renkler</string>
+    <string name="wallpaper_provider_default">Varsayılan duvar kağıdı</string>
+    <string name="wallpaper_provider_media_file">Medya dosyası</string>
+    <string name="wallpaper_provider_folder">Klasör</string>
+    <string name="wallpaper_provider_focused_program">Odaklanan program</string>
+    <string name="wallpaper_provider_now_playing">Şimdi oynatılıyor</string>
+    <string name="wallpaper_provider_random_program">Rastgele program</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Eklenti</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Duvar kağıtları</string>
+    <string name="wallpaper_wikimedia_nature">Doğa</string>
+    <string name="wallpaper_wikimedia_landscapes">Manzaralar</string>
+    <string name="wallpaper_wikimedia_mountains">Dağlar</string>
+    <string name="wallpaper_wikimedia_forests">Ormanlar</string>
+    <string name="wallpaper_wikimedia_cities">Şehirler</string>
+    <string name="wallpaper_wikimedia_architecture">Mimari</string>
+    <string name="wallpaper_wikimedia_night">Gece</string>
+    <string name="wallpaper_wikimedia_space">Uzay</string>
+    <string name="wallpaper_wikimedia_animals">Hayvanlar</string>
+    <string name="wallpaper_wikimedia_custom">[Özel arama]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Özel subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Oturumu kapat</string>
+    <string name="wallpaper_reddit_login_needed">Reddit\'teki duvar kağıtlarını görmek için Reddit\'te oturum açın.</string>
+    <string name="wallpaper_reddit_login_title">Reddit\'te oturum aç</string>
+    <string name="wallpaper_reddit_login_signing_in">Oturum açılıyor…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit erişimi verilmedi, bu nedenle Reddit duvar kağıtları kullanılamıyor.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit\'ten gelen yanıt bu oturum açma girişimiyle eşleşmedi ve yok sayıldı. Lütfen tekrar deneyin.</string>
+    <string name="wallpaper_reddit_login_failed">Reddit\'te oturum açılamadı (%1$s). Lütfen daha sonra tekrar deneyin.</string>
+    <string name="wallpaper_reddit_login_network">Reddit\'e ulaşılamadı. Ağ bağlantısını kontrol edip tekrar deneyin.</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit oturum açma sayfası yüklenemedi. Ağ bağlantısını kontrol edip tekrar deneyin.</string>
+    <string name="wallpaper_reddit_no_webview">Bu cihazda, Reddit oturumu için gereken web tarayıcı bileşeni (Android System WebView) yok. Android System WebView bileşenini yükleyin veya etkinleştirin ve tekrar deneyin.</string>
+    <string name="wallpaper_reddit_retry">Tekrar dene</string>
+    <string name="wallpaper_reddit_close">Kapat</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Duvar kağıdı kaynağına bağlantı yok.</string>
+    <string name="wallpaper_error_server">Duvar kağıdı kaynağı bir hatayla yanıt verdi.</string>
+    <string name="wallpaper_error_rate_limited">Duvar kağıdı kaynağı, bir sonraki istekten önce beklenmesini istedi.</string>
+    <string name="wallpaper_error_generic">Duvar kağıtları yüklenemedi.</string>
+    <string name="wallpaper_error_no_media">Resim, video veya renk seçilmedi.</string>
+    <string name="wallpaper_error_no_folder">Klasör seçilmedi.</string>
+    <string name="wallpaper_error_folder_access">Klasör okunamıyor. Klasörü yeniden seçin.</string>
+    <string name="wallpaper_error_folder_empty">Klasörde resim, video veya Lottie animasyonu yok.</string>
+    <string name="wallpaper_error_theme_empty">Geçerli temada duvar kağıdı yok.</string>
+    <string name="wallpaper_error_no_channels">Kanallar kullanılamıyor. Kanalları etkinleştirin ve TV listelerine erişime izin verin.</string>
+    <string name="wallpaper_error_no_notification_access">“Şimdi oynatılıyor” için bildirim erişimi gerekir.</string>
+    <string name="wallpaper_error_no_subreddit">Geçerli bir subreddit ayarlanmadı.</string>
+    <string name="wallpaper_error_plugin">Duvar kağıdı eklentisi yanıt vermedi.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Duvar kağıdı ayarlandı</string>
+    <string name="wallpaper_set_failed">Bu dosya duvar kağıdı olarak kullanılamaz.</string>
+</resources>

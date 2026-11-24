@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">ఇప్పుడు ప్లే అవుతోంది</string>
+    <string name="home_cat_inputs">ఇన్‌పుట్‌లు</string>
+    <string name="home_cat_favorites">ఇష్టమైనవి</string>
+    <string name="home_cat_video">వీడియో</string>
+    <string name="home_cat_music">సంగీతం</string>
+    <string name="home_cat_games">గేమ్‌లు</string>
+    <string name="home_cat_tv_apps">టీవీ యాప్‌లు</string>
+    <string name="home_cat_mobile_apps">మొబైల్ యాప్‌లు</string>
+    <string name="home_cat_watch_next">తర్వాత చూడండి</string>
+    <string name="home_cat_shortcuts">షార్ట్‌కట్‌లు</string>
+    <string name="home_cat_folders">వర్గం ఫోల్డర్‌లు</string>
+    <string name="home_cat_live_tv">లైవ్ టీవీ</string>
+    <string name="home_cat_settings">సెట్టింగ్‌లు</string>
+    <string name="home_cat_display">డిస్‌ప్లే</string>
+    <string name="home_cat_applications">అప్లికేషన్‌లు</string>
+    <string name="home_cat_system">సిస్టమ్</string>
+    <string name="home_cat_about">పరిచయం</string>
+    <string name="home_new_category">కొత్త వర్గం</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">అన్ని యాప్‌లు</string>
+    <string name="home_action_edit_categories">వర్గాలను సవరించండి</string>
+    <string name="home_action_edit_channels">ఛానెల్‌లను సవరించండి</string>
+    <string name="home_action_launcher_settings">QLauncher సెట్టింగ్‌లు</string>
+    <string name="home_action_android_settings">Android సెట్టింగ్‌లు</string>
+    <string name="home_action_amlogic_settings">AmLogic అదనపు సెట్టింగ్‌లు</string>
+    <string name="home_action_display_profiles">డిస్‌ప్లే ప్రొఫైల్‌లు</string>
+    <string name="home_action_install_apps">థర్డ్-పార్టీ యాప్‌లను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="home_action_accessibility">యాక్సెసిబిలిటీ సర్వీస్</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">ప్రొఫైల్ మార్చండి</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">ఈ పరికరం</string>
+    <string name="home_action_about_wallpaper">ఈ వాల్‌పేపర్</string>
+
+    <!-- Program meta -->
+    <string name="home_season">సీజన్ %1$s</string>
+    <string name="home_episode">ఎపిసోడ్ %1$s</string>
+    <string name="home_minutes">%1$d నిమి</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">కనెక్టివిటీ</string>
+    <string name="home_status_notifications">నోటిఫికేషన్‌లు</string>
+    <string name="home_status_settings">సెట్టింగ్‌లు</string>
+    <string name="home_status_wallpaper">ఈ వాల్‌పేపర్</string>
+    <string name="home_navigation_menu">నావిగేషన్ మెనూ</string>
+    <string name="home_reorder">క్రమం మార్చండి</string>
+    <string name="home_category_settings">వర్గం సెట్టింగ్‌లు</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">యాప్ సెట్టింగ్‌లు</string>
+    <string name="menu_open">తెరవండి</string>
+    <string name="menu_details">వివరాలు</string>
+    <string name="menu_play_pause">ప్లే/పాజ్</string>
+    <string name="menu_stop">ఆపివేయండి</string>
+    <string name="menu_previous">మునుపటిది</string>
+    <string name="menu_next">తర్వాతిది</string>
+    <string name="menu_uninstall">అన్‌ఇన్‌స్టాల్ చేయండి</string>
+    <string name="menu_launch_on_boot">బూట్ సమయంలో లాంచ్ చేయండి</string>
+    <string name="menu_launch_on_boot_on">బూట్ సమయంలో లాంచ్ అవుతుంది</string>
+    <string name="menu_add_parental">తల్లిదండ్రుల నియంత్రణకు జోడించండి</string>
+    <string name="menu_remove_parental">తల్లిదండ్రుల నియంత్రణ నుండి తీసివేయండి</string>
+    <string name="menu_shortcuts">షార్ట్‌కట్‌లు</string>
+    <string name="menu_appearance">రూపం</string>
+    <string name="menu_title">శీర్షిక</string>
+    <string name="menu_change_icon">ఐకాన్‌ను మార్చండి</string>
+    <string name="menu_icon_from_picture">చిత్రం నుండి</string>
+    <string name="menu_icon_other_location">ఇతర లొకేషన్…</string>
+    <string name="menu_icon_no_pictures">చిత్రాలు ఏవీ కనుగొనబడలేదు. కొన్నింటిని Pictures లేదా Downloadకు కాపీ చేయండి, లేదా USB డ్రైవ్‌ను ప్లగ్ ఇన్ చేయండి.</string>
+    <string name="menu_icon_reset">రీసెట్ చేయండి</string>
+    <string name="menu_crop">నిండేలా కత్తిరించండి</string>
+    <string name="menu_visibility">కనిపించడం</string>
+    <string name="menu_reorder">క్రమం మార్చండి</string>
+    <string name="menu_remove_from">%1$s నుండి తీసివేయండి</string>
+    <string name="menu_hide">దాచండి</string>
+    <string name="menu_add_to">దీనికి జోడించండి…</string>
+    <string name="menu_move_to">దీనికి తరలించండి…</string>
+    <string name="menu_channels">ఛానెల్‌లు</string>
+    <string name="menu_rename_hint">కొత్త శీర్షికను టైప్ చేసి, OK నొక్కండి</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">శీర్షిక</string>
+    <string name="editor_change_icon">ఐకాన్‌ను మార్చండి</string>
+    <string name="editor_visible">కనిపిస్తుంది</string>
+    <string name="editor_grid">గ్రిడ్</string>
+    <string name="editor_sliding_row">స్లైడింగ్ వరుస</string>
+    <string name="editor_background">నేపథ్య రంగు</string>
+    <string name="editor_show_title">శీర్షికను చూపండి</string>
+    <string name="editor_size">పరిమాణం</string>
+    <string name="editor_advanced">అధునాతన సెట్టింగ్‌లు</string>
+    <string name="editor_start_margin">ప్రారంభ మార్జిన్</string>
+    <string name="editor_end_margin">ముగింపు మార్జిన్</string>
+    <string name="editor_top_margin">పై మార్జిన్</string>
+    <string name="editor_cards_per_row">ఒక్కో వరుసకు కార్డ్‌లు</string>
+    <string name="editor_row_count">వరుసల సంఖ్య</string>
+    <string name="editor_auto">ఆటో</string>
+    <string name="editor_auto_value">ఆటో (%1$s)</string>
+    <string name="editor_sort">క్రమపరచండి</string>
+    <string name="editor_sort_custom">అనుకూలం</string>
+    <string name="editor_sort_name">అక్షర క్రమంలో</string>
+    <string name="editor_sort_last">చివరిగా ఉపయోగించినవి</string>
+    <string name="editor_sort_most">తరచుగా ఉపయోగించినవి</string>
+    <string name="editor_sort_random">యాదృచ్ఛికం</string>
+    <string name="editor_set_default">డిఫాల్ట్‌గా సెట్ చేయండి</string>
+    <string name="editor_is_default">డిఫాల్ట్ వర్గం</string>
+    <string name="editor_manage_apps">యాప్‌లను నిర్వహించండి</string>
+    <string name="editor_hidden_items">దాచిన అంశాలు</string>
+    <string name="editor_restore">పునరుద్ధరించండి</string>
+    <string name="editor_delete">తొలగించండి</string>
+    <string name="editor_delete_confirm">ఈ వర్గాన్ని తొలగించాలా?</string>
+    <string name="editor_empty_note">ఈ వర్గం ఖాళీగా ఉన్నందున ఇంకా కనిపించదు</string>
+    <string name="editor_request_notifications">నోటిఫికేషన్ అనుమతిని అభ్యర్థించండి</string>
+    <string name="editor_channel_error">ఈ ఛానెల్‌ను ఇకపై చదవడం సాధ్యం కాదు</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">ఛానెల్‌లు</string>
+    <string name="channels_count">%1$d ఛానెల్‌లు</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">నోటిఫికేషన్‌లు</string>
+    <string name="notifications_clear_all">అన్నీ క్లియర్ చేయండి</string>
+    <string name="notifications_empty">నోటిఫికేషన్‌లు లేవు</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">ఈ యాప్‌ను తెరవడం సాధ్యం కాదు</string>
+    <string name="home_reorder_hint">తరలించడానికి ఎడమ/కుడి, ముగించడానికి OK లేదా వెనుకకు నొక్కండి</string>
+    <string name="home_category_reorder_hint">తరలించడానికి పైకి/కిందికి, ముగించడానికి OK లేదా వెనుకకు నొక్కండి</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">స్వాగతం!</string>
+    <string name="firstrun_welcome_text">QLauncher అనేది Android TV కోసం ఒక లాంచర్. ఇది మీ యాప్‌లు, ఛానెల్‌లు, ఇష్టమైన కంటెంట్‌ను మీకు నచ్చినట్లు మార్చుకోగల ఒకే హోమ్ స్క్రీన్‌పై ఉంచుతుంది, దాని వెనుక మారుతూ ఉండే వాల్‌పేపర్ ఉంటుంది.</string>
+    <string name="firstrun_features_title">మీ కొత్త సూపర్‌పవర్‌లు</string>
+    <string name="firstrun_features_text">బూట్ సమయంలో యాప్‌ను లేదా HDMI ఇన్‌పుట్‌ను లాంచ్ చేయండి, డిస్‌ప్లే ప్రొఫైల్‌లను నిర్వహించండి, తల్లిదండ్రుల నియంత్రణతో యాప్‌లను లాక్ చేయండి, కాలిబ్రేషన్ ప్యాటర్న్‌లను చూపండి, నిష్క్రియ సమయాన్ని గుర్తించండి, హోమ్ స్క్రీన్‌లోని ప్రతి భాగాన్ని మీకు నచ్చినట్లు మార్చుకోండి. కొన్ని ఫీచర్‌లు మీ పరికరంపై ఆధారపడి ఉంటాయి.</string>
+    <string name="firstrun_a11y_title">యాక్సెసిబిలిటీని ఆన్ చేద్దాం</string>
+    <string name="firstrun_a11y_text">చాలా ఫీచర్‌లకు QLauncher యాక్సెసిబిలిటీ సర్వీస్ అవసరం: పరికరపు సొంత లాంచర్‌ను భర్తీ చేయడం, బూట్ సమయంలో చర్యలు, రిమోట్ బటన్ సంజ్ఞలు, నిష్క్రియ గుర్తింపు, తల్లిదండ్రుల నియంత్రణ. మీరు దీన్ని ఇప్పుడు లేదా తర్వాత సెట్టింగ్‌ల నుండి ఆన్ చేయవచ్చు.</string>
+    <string name="firstrun_a11y_open">యాక్సెసిబిలిటీ సెట్టింగ్‌లను తెరవండి</string>
+    <string name="firstrun_permissions_title">మీరు అనుమతిస్తే…</string>
+    <string name="firstrun_permissions_text">తర్వాత, QLauncher టీవీ లిస్టింగ్‌లను చదవడానికి అనుమతిని (ఛానెల్‌లు, “తర్వాత చూడండి” కోసం), నోటిఫికేషన్ యాక్సెస్‌ను (నోటిఫికేషన్ ఐకాన్, “ఇప్పుడు ప్లే అవుతోంది” కోసం) అడుగుతుంది. రెండూ ఐచ్ఛికం.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">తర్వాత, QLauncher నోటిఫికేషన్ యాక్సెస్‌ను (నోటిఫికేషన్ ఐకాన్, “ఇప్పుడు ప్లే అవుతోంది” కోసం) అడుగుతుంది. ఇది ఐచ్ఛికం.</string>
+    <string name="firstrun_notifications_dialog">నోటిఫికేషన్ యాక్సెస్‌ను అనుమతించాలా?</string>
+    <string name="firstrun_notifications_text">నోటిఫికేషన్ యాక్సెస్‌తో QLauncher నోటిఫికేషన్‌ల సంఖ్యను, నోటిఫికేషన్‌ల ప్యానెల్‌ను, ఏమి ప్లే అవుతోందో చూపగలదు. “అవును” నొక్కితే “ప్రత్యేక యాప్ యాక్సెస్” పేజీ తెరుచుకుంటుంది, అక్కడ మీరు దీన్ని అనుమతించవచ్చు.</string>
+    <string name="firstrun_reports_title">అనామక క్రాష్, ఎర్రర్ రిపోర్ట్‌లను పంపాలా?</string>
+    <string name="firstrun_reports_text">QLauncher క్రాష్ అయినా లేదా ఎర్రర్‌ను ఎదుర్కొన్నా, బగ్‌ను సరిచేయడానికి యాప్ వెర్షన్, పరికరం మోడల్‌తో కూడిన రిపోర్ట్‌ను పంపగలదు. మిమ్మల్ని లేదా మీరు చూసేవాటిని గుర్తించే ఏదీ పంపబడదు. మీరు దీన్ని తర్వాత “సాధారణం”లో మార్చవచ్చు.</string>
+    <string name="firstrun_launcher_title">QLauncherను మీ హోమ్ స్క్రీన్‌గా చేసుకోండి</string>
+    <string name="firstrun_launcher_text">చాలా టీవీ పరికరాలు డిఫాల్ట్ లాంచర్‌ను మార్చనివ్వవు. మీ పరికరం అనుమతిస్తే, అక్కడ QLauncherను ఎంచుకోండి. లేకపోతే “ప్రస్తుత లాంచర్‌ను ఓవర్‌రైడ్ చేయండి”తో యాక్సెసిబిలిటీ సర్వీస్‌ను ఆన్ చేయండి, పరికరపు సొంత లాంచర్ తెరుచుకున్న ప్రతిసారీ QLauncher తిరిగి వస్తుంది.</string>
+    <string name="firstrun_launcher_open">డిఫాల్ట్ లాంచర్‌ను మార్చండి</string>
+    <string name="firstrun_start_title">ప్రారంభిద్దాం!</string>
+    <string name="firstrun_start_text">అన్నింటినీ తర్వాత సెట్టింగ్‌ల నుండి మార్చవచ్చు. పై కుడి వైపున ఉన్న సెట్టింగ్‌ల బటన్‌ను నొక్కండి, లేదా ↑→↓←↑→↓← కీ క్రమాన్ని నొక్కండి.</string>
+    <string name="firstrun_get_started">ప్రారంభించండి</string>
+    <string name="firstrun_next">తర్వాత</string>
+    <string name="firstrun_skip">దాటవేయండి</string>
+    <string name="firstrun_yes">అవును</string>
+    <string name="firstrun_no">వద్దు</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">ఈ పరికరంలో స్క్రీన్ సేవర్ లేదు</string>
+</resources>

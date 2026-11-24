@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Brez</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinamične barve</string>
+    <string name="wallpaper_provider_default">Privzeto ozadje</string>
+    <string name="wallpaper_provider_media_file">Predstavnostna datoteka</string>
+    <string name="wallpaper_provider_folder">Mapa</string>
+    <string name="wallpaper_provider_focused_program">Izbrani program</string>
+    <string name="wallpaper_provider_now_playing">Zdaj se predvaja</string>
+    <string name="wallpaper_provider_random_program">Naključni program</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Vtičnik</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Ozadja</string>
+    <string name="wallpaper_wikimedia_nature">Narava</string>
+    <string name="wallpaper_wikimedia_landscapes">Pokrajine</string>
+    <string name="wallpaper_wikimedia_mountains">Gore</string>
+    <string name="wallpaper_wikimedia_forests">Gozdovi</string>
+    <string name="wallpaper_wikimedia_cities">Mesta</string>
+    <string name="wallpaper_wikimedia_architecture">Arhitektura</string>
+    <string name="wallpaper_wikimedia_night">Noč</string>
+    <string name="wallpaper_wikimedia_space">Vesolje</string>
+    <string name="wallpaper_wikimedia_animals">Živali</string>
+    <string name="wallpaper_wikimedia_custom">[Iskanje po meri]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit po meri]</string>
+    <string name="wallpaper_reddit_log_out">Odjava</string>
+    <string name="wallpaper_reddit_login_needed">Prijavi se v Reddit, da vidiš ozadja z njega.</string>
+    <string name="wallpaper_reddit_login_title">Prijava v Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Prijavljanje…</string>
+    <string name="wallpaper_reddit_login_denied">Dostop do Reddita ni bil odobren, zato ozadja z Reddita ostanejo nedosegljiva.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Odgovor Reddita se ni ujemal s tem poskusom prijave, zato je bil prezrt. Poskusi znova.</string>
+    <string name="wallpaper_reddit_login_failed">Prijava v Reddit ni uspela (%1$s). Poskusi znova pozneje.</string>
+    <string name="wallpaper_reddit_login_network">Reddit ni dosegljiv. Preveri omrežno povezavo in poskusi znova.</string>
+    <string name="wallpaper_reddit_login_page_error">Strani za prijavo v Reddit ni bilo mogoče naložiti. Preveri omrežno povezavo in poskusi znova.</string>
+    <string name="wallpaper_reddit_no_webview">Ta naprava nima komponente spletnega brskalnika (Android System WebView), ki jo potrebuje prijava v Reddit. Namesti ali omogoči Android System WebView in poskusi znova.</string>
+    <string name="wallpaper_reddit_retry">Poskusi znova</string>
+    <string name="wallpaper_reddit_close">Zapri</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Ni povezave z virom ozadij.</string>
+    <string name="wallpaper_error_server">Vir ozadij je odgovoril z napako.</string>
+    <string name="wallpaper_error_rate_limited">Vir ozadij je zahteval premor pred naslednjo zahtevo.</string>
+    <string name="wallpaper_error_generic">Ozadij ni bilo mogoče naložiti.</string>
+    <string name="wallpaper_error_no_media">Izbrana ni nobena slika, videoposnetek ali barva.</string>
+    <string name="wallpaper_error_no_folder">Izbrana ni nobena mapa.</string>
+    <string name="wallpaper_error_folder_access">Mape ni mogoče prebrati. Znova jo izberi.</string>
+    <string name="wallpaper_error_folder_empty">Mapa ne vsebuje slik, videoposnetkov ali animacij Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Trenutna tema nima ozadij.</string>
+    <string name="wallpaper_error_no_channels">Kanali niso na voljo. Omogoči jih in dovoli dostop do TV-sporedov.</string>
+    <string name="wallpaper_error_no_notification_access">Funkcija »Zdaj se predvaja« potrebuje dostop do obvestil.</string>
+    <string name="wallpaper_error_no_subreddit">Nastavljen ni noben veljaven subreddit.</string>
+    <string name="wallpaper_error_plugin">Vtičnik za ozadja se ni odzval.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Ozadje je nastavljeno</string>
+    <string name="wallpaper_set_failed">Te datoteke ni mogoče uporabiti kot ozadje.</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Լռելյայն</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">թավ</string>
+    <string name="backup_clock_markup_italic">շեղ</string>
+    <string name="backup_clock_markup_underline">ընդգծված</string>
+    <string name="backup_clock_markup_strikethrough">վրագծված</string>
+    <string name="backup_clock_markup_subscript">ենթատող</string>
+    <string name="backup_clock_markup_superscript">վերնատող</string>
+    <string name="backup_clock_markup_half_size">կես չափս</string>
+    <string name="backup_clock_markup_one_and_a_half_size">մեկուկես անգամ</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Սևի կտրում</string>
+    <string name="backup_pattern_apl_clipping">APL կտրում</string>
+    <string name="backup_pattern_white_clipping">Սպիտակի կտրում</string>
+    <string name="backup_pattern_grayscale_ramp">Մոխրագույնի գրադիենտ</string>
+    <string name="backup_pattern_grayscale_steps">Մոխրագույնի աստիճաններ</string>
+    <string name="backup_pattern_dynamic_brightness">Դինամիկ պայծառություն</string>
+    <string name="backup_pattern_color_steps">Գունային աստիճաններ</string>
+    <string name="backup_pattern_color_clipping">Գունային կտրում</string>
+    <string name="backup_pattern_flashing_color_bars">Թարթող գունային շերտեր</string>
+    <string name="backup_pattern_sharpness_overscan">Սրություն &amp; գերսկանավորում</string>
+    <string name="backup_pattern_uhd">UHD թեստային պատկեր</string>
+    <string name="backup_pattern_judder">Շարժման ցնցման թեստ</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Կողմերի հարաբերակցության սրություն</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Սևի մակարդակ</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Գունային կտրում 240–1000 նիտ</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Գունային կտրում 3600–10000 նիտ</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Գունային կտրում 700–10000 նիտ</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Գունային կտրում 900–4000 նիտ</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Մոխրագույնի գրադիենտ 10000 նիտ</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Մոխրագույնի գրադիենտ 1000 նիտ</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Մոխրագույնի գրադիենտ 4000 նիտ</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Սև PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Գունային գրադիենտներ</string>
+    <string name="backup_pattern_unavailable">%1$s պատկերի համար անհրաժեշտ է HDR տեսաուղի, և այն դեռ հասանելի չէ</string>
+    <!-- Pages -->
+    <string name="backup_settings">Կարգավորումներ</string>
+    <string name="backup_manage_settings">Կարգավորումների կառավարում</string>
+    <string name="backup_themes">Թեմաներ</string>
+    <string name="backup_import">Ներմուծել</string>
+    <string name="backup_export">Արտահանել</string>
+    <string name="backup_import_from_file">Ֆայլերի կառավարիչից</string>
+    <string name="backup_import_from_auto">Ավտոմատ պահուստային պատճենից</string>
+    <string name="backup_export_save">Պահել սարքում</string>
+    <string name="backup_export_share">Կիսվել այլ հավելվածի հետ</string>
+    <string name="backup_reset">Վերականգնել լռելյայնը</string>
+    <string name="backup_cancel">Չեղարկել</string>
+    <string name="backup_ok">Եղավ</string>
+    <string name="backup_done">Պատրաստ է</string>
+    <string name="backup_close">Փակել</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Կարգավորումների արտահանում</string>
+    <string name="backup_export_theme_title">Թեմայի արտահանում</string>
+    <string name="backup_export_description">Ամեն ինչ պահվում է մեկ ֆայլում՝ գաղտնագրված ձեր ընտրած գաղտնաբառով (առնվազն %1$d նիշ)։ Ֆայլը ներմուծելու համար անհրաժեշտ է գաղտնաբառը, և այն հնարավոր չէ վերականգնել։</string>
+    <string name="backup_export_theme_description">Արտաքին տեսքի կարգավորումները և ընթացիկ պաստառը պահվում են մեկ ֆայլում՝ գաղտնագրված ձեր ընտրած գաղտնաբառով (առնվազն %1$d նիշ)։ Թեման ներմուծելու համար անհրաժեշտ է գաղտնաբառը։</string>
+    <string name="backup_password">Գաղտնաբառ</string>
+    <string name="backup_password_show">Ցույց տալ գաղտնաբառը</string>
+    <string name="backup_password_hide">Թաքցնել գաղտնաբառը</string>
+    <string name="backup_password_strength">Գաղտնաբառի հուսալիություն</string>
+    <string name="backup_strength_too_short">Շատ կարճ է՝ առնվազն %1$d նիշ</string>
+    <string name="backup_strength_weak">Թույլ՝ հեշտ է գուշակել</string>
+    <string name="backup_strength_fair">Միջին</string>
+    <string name="backup_strength_strong">Ուժեղ</string>
+    <string name="backup_password_too_short">Գաղտնաբառը պետք է պարունակի առնվազն %1$d նիշ</string>
+    <string name="backup_exporting">Արտահանվում է…</string>
+    <string name="backup_export_saved">Պահվեց այստեղ՝ %1$s</string>
+    <string name="backup_export_kept">Այլ տեղ չպահվեց։ Ֆայլը մնում է այստեղ՝ %1$s</string>
+    <string name="backup_export_shared">Ուղարկվեց։ Պատճենը մնում է այստեղ՝ %1$s</string>
+    <string name="backup_export_no_file_manager">Այս սարքում ոչ մի հավելված չի կարող ընդունել ֆայլը։ Այն գտնվում է այստեղ՝ %1$s</string>
+    <string name="backup_export_failed">Արտահանումը ձախողվեց՝ %1$s</string>
+    <string name="backup_share_title">Ինչո՞վ ուղարկել QLauncher-ի ֆայլը</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Ներմուծումը փոխարինում է ձեր ընթացիկ կարգավորումները։ Նախ ստեղծվում է ավտոմատ պահուստային պատճեն, և ավարտից հետո QLauncher-ը վերագործարկվում է։</string>
+    <string name="backup_reading">Ֆայլը կարդացվում է…</string>
+    <string name="backup_import_action">Ներմուծել</string>
+    <string name="backup_wrong_password">Սխալ գաղտնաբառ</string>
+    <string name="backup_password_hint">Ֆայլն արտահանելիս ընտրված գաղտնաբառը</string>
+    <string name="backup_not_a_backup">Սա QLauncher-ի կամ Projectivy-ի պահուստային պատճեն կամ թեմա չէ։</string>
+    <string name="backup_damaged">Ֆայլը վնասված է կամ թերի։</string>
+    <string name="backup_too_new">Այս ֆայլը ստեղծվել է QLauncher-ի ավելի նոր տարբերակով (ձևաչափ %1$d)։ Թարմացրեք QLauncher-ը՝ այն ներմուծելու համար։</string>
+    <string name="backup_unreadable">Այս ավտոմատ պահուստային պատճենը հնարավոր չէ կարդալ այս սարքում։</string>
+    <string name="backup_import_failed">Ներմուծումը ձախողվեց, և ոչինչ չփոխվեց՝ %1$s</string>
+    <string name="backup_applying">Ներմուծվում է… Ավարտից հետո QLauncher-ը կվերագործարկվի։</string>
+    <string name="backup_origin_ql_backup">QLauncher-ի կարգավորումների պահուստային պատճեն</string>
+    <string name="backup_origin_ql_theme">QLauncher-ի թեմա</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher-ի կարգավորումների պահուստային պատճեն</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher-ի թեմա</string>
+    <string name="backup_origin_auto">Ավտոմատ պահուստային պատճեն</string>
+    <string name="backup_preview_theme_by">%1$s, հեղինակ՝ %2$s</string>
+    <string name="backup_preview_version">տարբերակ %1$s</string>
+    <string name="backup_preview_settings">Կարգավորումներ</string>
+    <string name="backup_preview_categories">Կատեգորիաներ</string>
+    <string name="backup_preview_apps">Հավելվածների անհատականացում</string>
+    <string name="backup_preview_profiles">Էկրանի պրոֆիլներ</string>
+    <string name="backup_preview_files">Պաստառներ և պատկերակներ</string>
+    <string name="backup_preview_skipped">Հավելվածներ, որոնք այս սարքում չկան</string>
+    <string name="backup_replace_setup">Փոխարինել ընթացիկ կարգավորումները</string>
+    <string name="backup_apply_theme">Կիրառել թեման</string>
+    <string name="backup_replace_detail">Նախ ստեղծվում է ընթացիկ կարգավորումների ավտոմատ պահուստային պատճեն</string>
+    <string name="backup_nc_parental">Ծնողական կոդ</string>
+    <string name="backup_nc_parental_detail">Չի փոխանցվում։ Սահմանեք նոր կոդ «Ծնողական վերահսկողություն» բաժնում։</string>
+    <string name="backup_nc_premium">Պրեմիում կարգավիճակ</string>
+    <string name="backup_nc_premium_detail">Չի փոխանցվում։ QLauncher-ի բոլոր գործառույթներն անվճար են։</string>
+    <string name="backup_nc_inputs">Հեռուստատեսային մուտքեր</string>
+    <string name="backup_nc_profile_bindings">Էկրանի պրոֆիլների կապեր</string>
+    <string name="backup_nc_plugin">Պաստառի պլագին</string>
+    <string name="backup_nc_plugin_detail">%1$s-ը տեղադրված չէ։ Պաստառների աղբյուրը մնում է անփոփոխ։</string>
+    <string name="backup_nc_icons">Անհատական պատկերակներ</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d փոփոխված արժեք</item>
+        <item quantity="other">%1$d փոփոխված արժեք</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d կատեգորիա</item>
+        <item quantity="other">%1$d կատեգորիա</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d հավելված</item>
+        <item quantity="other">%1$d հավելված</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d պրոֆիլ</item>
+        <item quantity="other">%1$d պրոֆիլ</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d ֆայլ</item>
+        <item quantity="other">%1$d ֆայլ</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d անհայտ կարգավորում՝ բաց է թողնված</item>
+        <item quantity="other">%1$d անհայտ կարգավորում՝ բաց են թողնված</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d գրառում չի համապատասխանում այստեղ տեղադրված որևէ հավելվածի և բաց է թողնվում</item>
+        <item quantity="other">%1$d գրառում չեն համապատասխանում այստեղ տեղադրված որևէ հավելվածի և բաց են թողնվում</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d կապ հեռուստատեսային մուտքի հետ, որը այս սարքը չունի, բաց է թողնվում</item>
+        <item quantity="other">%1$d կապ հեռուստատեսային մուտքերի հետ, որոնք այս սարքը չունի, բաց են թողնվում</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">Մուտքին կցված %1$d պրոֆիլ չի փոխանցվում</item>
+        <item quantity="other">Մուտքերին կցված %1$d պրոֆիլ չեն փոխանցվում</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">Projectivy-ում պահված %1$d պատկերակ հնարավոր չէ կարդալ, և այն բաց է թողնվում</item>
+        <item quantity="other">Projectivy-ում պահված %1$d պատկերակ հնարավոր չէ կարդալ, և դրանք բաց են թողնվում</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Ավտոմատ պահուստային պատճեններ</string>
+    <string name="backup_auto_description">QLauncher-ը այս սարքում պահում է ձեր կարգավորումների վերջին %1$d տարբերակը՝ գաղտնագրված բանալիով, որը երբեք չի լքում սարքը։ Ընտրեք մեկը՝ այն վերականգնելու համար. գաղտնաբառ պետք չէ։</string>
+    <string name="backup_auto_none">Ավտոմատ պահուստային պատճեններ չկան</string>
+    <string name="backup_files_title">Պահուստային ֆայլեր</string>
+    <string name="backup_files_theme_title">Թեմայի ֆայլեր</string>
+    <string name="backup_files_description">Արտահանված ֆայլերը պահվում են այստեղ՝ %1$s։ Բոլոր ֆայլերի հասանելիության դեպքում QLauncher-ը պահուստային ֆայլեր է գտնում նաև Download և Documents թղթապանակներում ու USB կրիչներում, այդ թվում՝ Projectivy-ի ֆայլերը։</string>
+    <string name="backup_files_searching">Պահուստային ֆայլերի որոնում…</string>
+    <string name="backup_files_none">Պահուստային ֆայլեր չեն գտնվել</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher-ի թղթապանակը</string>
+    <string name="backup_files_access">Գտնել այլ հավելվածների և սարքերի պահուստային ֆայլերը</string>
+    <string name="backup_files_access_desc">Թույլատրել բոլոր ֆայլերի հասանելիությունը</string>
+    <string name="backup_files_access_unavailable">Այս սարքում կարգավորումների էկրան չկա։ Թույլատրեք բոլոր ֆայլերի հասանելիությունը այս հրամանով՝ %1$s</string>
+    <string name="backup_files_browse">Այլ վայր…</string>
+    <string name="backup_files_browse_desc">Ընտրեք ֆայլը համակարգային ֆայլընտրիչով</string>
+    <string name="backup_auto_delete_all">Ջնջել բոլորը</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Փոփոխությունից հետո</string>
+    <string name="backup_reason_import">Ներմուծումից առաջ</string>
+    <string name="backup_reason_migration">Թարմացումից առաջ</string>
+    <string name="backup_reason_reset">Վերակայումից առաջ</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Պրոֆիլ #</string>
+    <string name="backup_no_picture_manager">Պատկերի կառավարիչը բեռնված չէ</string>
+    <string name="backup_no_picture_manager_detail">Այս սարքը պատկերի կարգավորումները փոխելու աջակցվող եղանակ չունի, ուստի պրոֆիլները պահում են իրենց արժեքները՝ առանց դրանք կիրառելու։</string>
+</resources>

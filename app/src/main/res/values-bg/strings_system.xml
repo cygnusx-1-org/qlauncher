@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Въведете произволна комбинация от стрелки/цифри и потвърдете с OK</string>
+    <string name="system_parental_confirm_code">Въведете кода отново и потвърдете с OK</string>
+    <string name="system_parental_restricted">Ограничен достъп\nВъведете родителския код</string>
+    <string name="system_parental_wrong_code">Грешен код</string>
+    <string name="system_parental_codes_differ">Кодовете не съвпадат, опитайте отново</string>
+    <string name="system_parental_code_saved">Родителският код е запазен</string>
+    <string name="system_parental_recovery_code">Код за възстановяване: %1$s</string>
+    <string name="system_parental_recovery_help">Запишете го: показва се само този път. Въведен със стрелките (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), той отключва като родителския код.</string>
+    <string name="system_parental_press_ok">Натиснете OK, за да продължите</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Бързи клавиши на дистанционното</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Начало</string>
+    <string name="system_hotkeys_keys_menu_twice">Меню × 2</string>
+    <string name="system_hotkeys_change_input">Смяна на входа</string>
+    <string name="system_hotkeys_change_profile">Смяна на профила на екрана</string>
+    <string name="system_hotkeys_start_launcher">Стартиране на QLauncher</string>
+    <string name="system_hotkeys_home">Отваряне на QLauncher; два пъти: скорошни приложения</string>
+    <string name="system_hotkeys_close">Затваряне на помощта</string>
+    <string name="system_hotkeys_no_inputs">На това устройство няма телевизионни входове</string>
+    <string name="system_hotkeys_no_picture_manager">Няма зареден мениджър на картината</string>
+    <string name="system_hotkeys_home_off">Изкл.: изисква „Замяна на текущия лаунчер“ и пренасочване на бутоните</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Няма активност от потребителя, изключване след %1$d с</string>
+    <string name="system_idle_countdown_screen_off">Няма активност от потребителя, екранът се изключва след %1$d с</string>
+    <string name="system_idle_countdown_screensaver">Няма активност от потребителя, скрийнсейвър след %1$d с</string>
+    <string name="system_idle_countdown_cancel">Натиснете който и да е бутон за отказ</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Това устройство няма пряк път към настройките за достъпност. Отворете ги от настройките на Android, обикновено в Предпочитания за устройството › Достъпност.</string>
+    <string name="system_notification_access_no_settings">Това устройство няма екран за достъп до известията. Предоставете достъп от компютър с:</string>
+</resources>

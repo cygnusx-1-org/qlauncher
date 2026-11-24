@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Yön tuşları/rakamlardan oluşan herhangi bir kombinasyon girin ve OK ile onaylayın</string>
+    <string name="system_parental_confirm_code">Kodu tekrar girin ve OK ile onaylayın</string>
+    <string name="system_parental_restricted">Kısıtlı erişim\nLütfen ebeveyn kodunu girin</string>
+    <string name="system_parental_wrong_code">Yanlış kod</string>
+    <string name="system_parental_codes_differ">Kodlar eşleşmiyor, lütfen tekrar deneyin</string>
+    <string name="system_parental_code_saved">Ebeveyn kodu kaydedildi</string>
+    <string name="system_parental_recovery_code">Kurtarma kodu: %1$s</string>
+    <string name="system_parental_recovery_help">Bir yere not edin: yalnızca bu sefer gösterilir. Yön tuşlarıyla girildiğinde (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) ebeveyn kodu gibi kilidi açar.</string>
+    <string name="system_parental_press_ok">Devam etmek için OK tuşuna basın</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Kumanda kısayolları</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Ana ekran</string>
+    <string name="system_hotkeys_keys_menu_twice">Menü × 2</string>
+    <string name="system_hotkeys_change_input">Girişi değiştir</string>
+    <string name="system_hotkeys_change_profile">Ekran profilini değiştir</string>
+    <string name="system_hotkeys_start_launcher">QLauncher\'ı başlat</string>
+    <string name="system_hotkeys_home">QLauncher\'ı aç; iki kez: son uygulamalar</string>
+    <string name="system_hotkeys_close">Bu yardımı kapat</string>
+    <string name="system_hotkeys_no_inputs">Bu cihazda TV girişi yok</string>
+    <string name="system_hotkeys_no_picture_manager">Görüntü yöneticisi yüklenmedi</string>
+    <string name="system_hotkeys_home_off">Kapalı: “Geçerli başlatıcıyı geçersiz kıl” ve düğme yeniden eşleme gerekir</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Kullanıcı etkinliği yok, %1$d sn içinde kapanıyor</string>
+    <string name="system_idle_countdown_screen_off">Kullanıcı etkinliği yok, ekran %1$d sn içinde kapanıyor</string>
+    <string name="system_idle_countdown_screensaver">Kullanıcı etkinliği yok, ekran koruyucu %1$d sn içinde başlıyor</string>
+    <string name="system_idle_countdown_cancel">İptal etmek için herhangi bir düğmeye basın</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Bu cihazda erişilebilirlik ayarlarına giden bir kısayol yok. Bu ayarları Android ayarlarından, genellikle Cihaz Tercihleri › Erişilebilirlik altından açın.</string>
+    <string name="system_notification_access_no_settings">Bu cihazda bildirim erişimi ekranı yok. Erişimi bir bilgisayardan şu komutla verin:</string>
+</resources>

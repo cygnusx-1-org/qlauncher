@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Mégse</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Összes alkalmazás</string>
+    <string name="apps_action_edit_categories">Kategóriák szerkesztése</string>
+    <string name="apps_action_edit_channels">Csatornák szerkesztése</string>
+    <string name="apps_action_launcher_settings">QLauncher-beállítások</string>
+    <string name="apps_action_android_settings">Android-beállítások</string>
+    <string name="apps_action_amlogic_settings">További AmLogic-beállítások</string>
+    <string name="apps_action_display_profiles">Megjelenítési profilok</string>
+    <string name="apps_action_install_apps">Külső alkalmazások telepítése</string>
+    <string name="apps_action_accessibility_service">Kisegítő szolgáltatás</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Profilváltás</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Ez az eszköz</string>
+    <string name="apps_action_about_wallpaper">Ez a háttérkép</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Nincs</string>
+    <string name="apps_autostart_screensaver">Képernyővédő</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Csatornák</string>
+    <string name="apps_channels_watch_next">Következő megtekintés</string>
+    <string name="apps_channels_unreadable">Ez a csatorna már nem olvasható</string>
+    <string name="apps_channels_hidden">A rendszer elrejtette</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d csatorna</item>
+        <item quantity="other">%d csatorna</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Ikoncsomag alkalmazása</string>
+    <string name="apps_iconpack_apply_message">Használja a(z) %1$s csomagot az alkalmazások ikonjaihoz?</string>
+    <string name="apps_iconpack_apply_confirm">Alkalmaz</string>
+    <string name="apps_iconpack_applied">Ikoncsomag alkalmazva</string>
+    <string name="apps_iconpack_apply_missing">Nincs megadva ikoncsomag</string>
+    <string name="apps_iconpack_apply_not_a_pack">Ez az alkalmazás nem ikoncsomag</string>
+    <string name="apps_iconpack_none">Nincs</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Parancsikon hozzáadása</string>
+    <string name="apps_pin_shortcut_message">Hozzáadja a(z) „%1$s” parancsikont (%2$s) a Parancsikonok kategóriához?</string>
+    <string name="apps_pin_shortcut_confirm">Hozzáadás</string>
+    <string name="apps_pin_shortcut_added">Parancsikon hozzáadva</string>
+    <string name="apps_pin_shortcut_failed">Nem sikerült hozzáadni a parancsikont</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Külső alkalmazások telepítése</string>
+    <string name="apps_install_description">Válassza ki a telepítendő alkalmazást. Előfordulhat, hogy telepítés előtt engedélyeznie kell az ismeretlen forrásokból történő telepítést.</string>
+    <string name="apps_install_custom_url">Egyéni URL / Downloader-kód</string>
+    <string name="apps_install_custom_url_desc">Csak megbízható forrást használjon</string>
+    <string name="apps_install_choose_method">Válasszon telepítési módot</string>
+    <string name="apps_install_installed">Telepítve</string>
+    <string name="apps_install_category_wallpaper_plugin">Háttérkép-bővítmény</string>
+    <string name="apps_install_category_icon_pack">Ikoncsomag</string>
+    <string name="apps_install_category_file_manager">Fájlkezelő</string>
+    <string name="apps_install_category_tool">Eszköz</string>
+    <string name="apps_install_method_store">Áruház</string>
+    <string name="apps_install_method_direct">Közvetlen letöltés</string>
+    <string name="apps_install_method_downloader">Downloader alkalmazás</string>
+    <string name="apps_install_state_downloading">%1$s letöltése… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s letöltése…</string>
+    <string name="apps_install_state_installing">%1$s telepítése…</string>
+    <string name="apps_install_state_confirm">Erősítse meg a(z) %1$s telepítését</string>
+    <string name="apps_install_state_success">%1$s telepítve</string>
+    <string name="apps_install_state_unknown_sources">Engedélyezze, hogy a QLauncher alkalmazásokat telepítsen, majd térjen vissza a folytatáshoz</string>
+    <string name="apps_install_state_downloader_sent">Kód elküldve a Downloadernek: %1$s</string>
+    <string name="apps_install_state_downloader_type">Írja be ezt a kódot a Downloaderbe: %1$s</string>
+    <string name="apps_install_state_store">Megnyitva az áruházban</string>
+    <string name="apps_install_state_browser">Ez a hivatkozás egy weboldal, ezért a böngészőben nyílt meg</string>
+    <string name="apps_install_fail_invalid">Ez nem URL és nem is Downloader-kód</string>
+    <string name="apps_install_fail_no_usb">Nem található USB-meghajtó</string>
+    <string name="apps_install_fail_archive">Archívumok nem telepíthetők</string>
+    <string name="apps_install_fail_network">A letöltés sikertelen</string>
+    <string name="apps_install_fail_http">A kiszolgáló hibával válaszolt (%1$s)</string>
+    <string name="apps_install_fail_not_apk">A fájl nem alkalmazás (APK)</string>
+    <string name="apps_install_fail_unreadable">A fájl nem olvasható</string>
+    <string name="apps_install_fail_install">A telepítés sikertelen</string>
+    <string name="apps_install_fail_cancelled">A telepítés megszakítva</string>
+    <string name="apps_install_fail_unknown_sources">A QLauncher nem telepíthet alkalmazásokat</string>
+    <string name="apps_install_fail_downloader">A Downloader alkalmazás nincs telepítve</string>
+    <string name="apps_install_fail_store">Nem érhető el alkalmazás-áruház</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Ez az eszköz</string>
+    <string name="apps_device_brand_manufacturer">Márka / Gyártó</string>
+    <string name="apps_device_device_product">Eszköz / Termék</string>
+    <string name="apps_device_model">Modell</string>
+    <string name="apps_device_hardware">Hardver</string>
+    <string name="apps_device_fingerprint">Ujjlenyomat</string>
+    <string name="apps_device_build">Buildszám</string>
+    <string name="apps_device_build_desc">Build leírása</string>
+    <string name="apps_device_device_type">Eszköztípus</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-cím</string>
+    <string name="apps_device_root_access">Root-hozzáférés</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Nincs képkezelő</string>
+    <string name="apps_device_id">Azonosító</string>
+    <string name="apps_device_yes">Igen</string>
+    <string name="apps_device_no">Nem</string>
+</resources>

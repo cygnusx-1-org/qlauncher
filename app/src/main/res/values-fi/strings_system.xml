@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Syötä mikä tahansa nuolten/numeroiden yhdistelmä ja vahvista OK-painikkeella</string>
+    <string name="system_parental_confirm_code">Syötä koodi uudelleen ja vahvista OK-painikkeella</string>
+    <string name="system_parental_restricted">Rajoitettu pääsy\nSyötä lapsilukon koodi</string>
+    <string name="system_parental_wrong_code">Väärä koodi</string>
+    <string name="system_parental_codes_differ">Koodit eivät täsmää, yritä uudelleen</string>
+    <string name="system_parental_code_saved">Lapsilukon koodi tallennettu</string>
+    <string name="system_parental_recovery_code">Palautuskoodi: %1$s</string>
+    <string name="system_parental_recovery_help">Kirjoita se muistiin: se näytetään vain tämän kerran. Nuolilla syötettynä (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) se avaa lukituksen samoin kuin lapsilukon koodi.</string>
+    <string name="system_parental_press_ok">Jatka painamalla OK</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Kaukosäätimen pikanäppäimet</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Koti</string>
+    <string name="system_hotkeys_keys_menu_twice">Valikko × 2</string>
+    <string name="system_hotkeys_change_input">Vaihda tuloa</string>
+    <string name="system_hotkeys_change_profile">Vaihda näyttöprofiilia</string>
+    <string name="system_hotkeys_start_launcher">Käynnistä QLauncher</string>
+    <string name="system_hotkeys_home">Avaa QLauncher; kahdesti: viimeisimmät sovellukset</string>
+    <string name="system_hotkeys_close">Sulje tämä ohje</string>
+    <string name="system_hotkeys_no_inputs">Tässä laitteessa ei ole TV-tuloja</string>
+    <string name="system_hotkeys_no_picture_manager">Kuvanhallintaa ei ole ladattu</string>
+    <string name="system_hotkeys_home_off">Pois: vaatii Korvaa nykyinen käynnistin -asetuksen ja painikkeiden uudelleenmäärityksen</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Käyttämättömyys havaittu, sammutus %1$d s kuluttua</string>
+    <string name="system_idle_countdown_screen_off">Käyttämättömyys havaittu, näyttö sammuu %1$d s kuluttua</string>
+    <string name="system_idle_countdown_screensaver">Käyttämättömyys havaittu, näytönsäästäjä %1$d s kuluttua</string>
+    <string name="system_idle_countdown_cancel">Peruuta painamalla mitä tahansa painiketta</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Tässä laitteessa ei ole pikakuvaketta esteettömyysasetuksiin. Avaa ne Androidin asetuksista, yleensä kohdasta Laitteen asetukset › Esteettömyys.</string>
+    <string name="system_notification_access_no_settings">Tässä laitteessa ei ole ilmoitusten käyttöoikeusnäkymää. Myönnä käyttöoikeus tietokoneelta komennolla:</string>
+</resources>

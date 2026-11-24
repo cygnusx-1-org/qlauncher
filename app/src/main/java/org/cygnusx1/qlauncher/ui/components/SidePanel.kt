@@ -56,8 +56,10 @@ import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.Text
 import org.cygnusx1.qlauncher.ui.settings.SettingsSwitch
@@ -118,7 +120,7 @@ sealed interface PanelRow {
         val enabled: Boolean = true,
         val onClick: () -> Unit = {},
         val onLongClick: (() -> Unit)? = null,
-        /** LEFT/RIGHT on the row (sliders); return true when handled. */
+        /** LEFT/RIGHT on the row (sliders), as [dpadStep]: +1 toward the end edge; return true when handled. */
         val onHorizontal: ((Int) -> Boolean)? = null,
         /** Extra content under the title (a slider). */
         val below: (@Composable (focused: Boolean) -> Unit)? = null,
@@ -155,6 +157,7 @@ fun SidePanel(
     if (state.selected !in focusRows) state.selected = focusRows.firstOrNull() ?: 0
     val fr = remember { FocusRequester() }
     LaunchedEffect(Unit) { runCatching { fr.requestFocus() } }
+    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
 
     fun move(d: Int) {
         if (focusRows.isEmpty()) return
@@ -174,7 +177,7 @@ fun SidePanel(
             Key.DirectionUp -> { if (down) move(-1); true }
             Key.DirectionDown -> { if (down) move(1); true }
             Key.DirectionLeft, Key.DirectionRight -> {
-                if (down && row != null && row.enabled) row.onHorizontal?.invoke(if (e.key == Key.DirectionRight) 1 else -1)
+                if (down && row != null && row.enabled) row.onHorizontal?.invoke(dpadStep(e.key == Key.DirectionRight, rtl))
                 true
             }
             Key.DirectionCenter, Key.Enter, Key.NumPadEnter -> {

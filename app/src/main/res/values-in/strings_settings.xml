@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Setelan</string>
+    <string name="settings_breadcrumb_display">Layar</string>
+    <string name="settings_breadcrumb_applications">Aplikasi</string>
+    <string name="settings_breadcrumb_system">Sistem</string>
+    <string name="settings_breadcrumb_about">Tentang</string>
+    <string name="settings_root_title">Setelan QLauncher</string>
+    <string name="settings_root_description">Konfigurasikan setelan aplikasi.</string>
+    <string name="settings_legend_a11y_required">Layanan aksesibilitas diperlukan</string>
+    <string name="settings_legend_a11y_recommended">Layanan aksesibilitas disarankan</string>
+    <string name="settings_legend_experimental">Eksperimental</string>
+    <string name="settings_launcher_related">Setelan terkait launcher</string>
+
+    <string name="settings_general">Umum</string>
+    <string name="settings_appearance">Tampilan</string>
+    <string name="settings_power">Daya</string>
+    <string name="settings_parental">Kontrol orang tua</string>
+    <string name="settings_remote">Remot kontrol</string>
+    <string name="settings_accessibility">Layanan aksesibilitas</string>
+    <string name="settings_display_profiles">Profil layar</string>
+    <string name="settings_manage">Kelola setelan</string>
+
+    <!-- General -->
+    <string name="settings_language">Ubah bahasa aplikasi</string>
+    <string name="settings_language_system">Default sistem</string>
+    <string name="settings_default_launcher">Ubah launcher default</string>
+    <string name="settings_default_launcher_unavailable">Perangkat ini tidak menyediakan cara untuk mengubah launcher default. Gunakan “Ambil alih launcher saat ini” sebagai gantinya.</string>
+    <string name="settings_override_home">Ambil alih launcher saat ini</string>
+    <string name="settings_override_home_desc">Cegat panggilan ke launcher saat ini (berguna jika Anda tidak dapat mengubah atau menghapus launcher bawaan)</string>
+    <string name="settings_enable_channels">Aktifkan channel</string>
+    <string name="settings_enable_channels_desc">Jika Anda tidak menggunakannya, menonaktifkan opsi ini membuat proses mulai lebih cepat dan memakai lebih sedikit memori</string>
+    <string name="settings_programs_per_channel">Program per channel</string>
+    <string name="settings_crash_error_reports">Aktifkan laporan crash dan error anonim</string>
+    <string name="settings_reports_desc">Hanya error, versi aplikasi, dan model perangkat yang dikirim</string>
+    <string name="settings_check_updates">Periksa update</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategori / Channel</string>
+    <string name="settings_cards">Kartu</string>
+    <string name="settings_wallpaper">Wallpaper</string>
+    <string name="settings_status_bar">Bilah status</string>
+    <string name="settings_left_headers">Header kiri</string>
+    <string name="settings_idle_mode">Mode tidak aktif launcher</string>
+    <string name="settings_font">Font</string>
+    <string name="settings_themes">Tema</string>
+    <string name="settings_themes_desc">Impor / Ekspor</string>
+    <string name="settings_load_cards_scrolling">Muat kartu saat menggulir</string>
+    <string name="settings_load_cards_scrolling_desc">Lebih responsif, tetapi kurang mulus</string>
+    <string name="settings_accent">Warna aksen</string>
+    <string name="settings_accent_desc">Aktifkan dinamis untuk mengikuti wallpaper</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Tampilkan judul</string>
+    <string name="settings_show_icon_title">Tampilkan ikon di depan judul</string>
+    <string name="settings_rows_spacing">Jarak vertikal (persentase tinggi layar)</string>
+    <string name="settings_fixed_position">Pertahankan posisi kategori yang difokuskan</string>
+    <string name="settings_hide_rows_above">Sembunyikan baris di atas pilihan</string>
+    <string name="settings_remember_focus">Ingat posisi kartu yang difokuskan</string>
+    <string name="settings_unselected_opacity">Opasitas baris yang tidak dipilih</string>
+    <string name="settings_top_margin">Margin atas</string>
+    <string name="settings_start_margin">Margin awal</string>
+    <string name="settings_end_margin">Margin akhir</string>
+    <string name="settings_dock_padding">Padding dock</string>
+    <string name="settings_tint_custom_icons">Warnai ikon kustom</string>
+    <string name="settings_tint_custom_icons_desc">Untuk ikon kustom tanpa latar belakang</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Sudut membulat</string>
+    <string name="settings_cards_size">Ukuran kartu</string>
+    <string name="settings_cards_spacing">Jarak kartu</string>
+    <string name="settings_loop_limit">Batas pengulangan ikon animasi</string>
+    <string name="settings_ripple">Efek riak saat kartu ditekan</string>
+    <string name="settings_background_color">Warna latar belakang</string>
+    <string name="settings_focused_card">Kartu yang difokuskan</string>
+    <string name="settings_program_cards">Kartu program</string>
+    <string name="settings_tv_ratio">Rasio aspek kartu aplikasi TV</string>
+    <string name="settings_mobile_ratio">Rasio aspek kartu aplikasi seluler</string>
+    <string name="settings_icon_pack">Paket ikon</string>
+    <string name="settings_icon_pack_none">Tidak ada paket ikon yang terinstal</string>
+    <string name="settings_icon_pack_off">Tidak ada</string>
+    <string name="settings_more">Lainnya…</string>
+    <string name="settings_custom_icon_tint">Warna ikon kustom</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Ukuran kartu yang difokuskan</string>
+    <string name="settings_focused_effect">Efek kartu yang difokuskan</string>
+    <string name="settings_effect_none">Tidak ada</string>
+    <string name="settings_effect_shadow">Bayangan</string>
+    <string name="settings_effect_glow">Cahaya</string>
+    <string name="settings_glow_animation">Animasi cahaya</string>
+    <string name="settings_anim_none">Tidak ada</string>
+    <string name="settings_anim_pulse">Denyut</string>
+    <string name="settings_anim_breath">Napas</string>
+    <string name="settings_anim_fade">Pudar</string>
+    <string name="settings_anim_shine">Kilau</string>
+    <string name="settings_glow_size">Ukuran cahaya</string>
+    <string name="settings_glow_color">Warna cahaya</string>
+    <string name="settings_glow_color_desc">Biarkan kosong untuk menggunakan warna kartu itu sendiri</string>
+    <string name="settings_colors_override">Ganti warna</string>
+    <string name="settings_override_none">Tidak ada</string>
+    <string name="settings_override_swap">Tukar latar belakang/pewarnaan</string>
+    <string name="settings_override_custom">Kustom</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Putar video pratinjau</string>
+    <string name="settings_preview_never">Tidak pernah</string>
+    <string name="settings_preview_always">Selalu</string>
+    <string name="settings_preview_no_media">Saat tidak ada media yang diputar di latar belakang</string>
+    <string name="settings_show_progress">Tampilkan bilah progres</string>
+    <string name="settings_show_badge">Tampilkan lencana</string>
+    <string name="settings_zoom_focus">Efek zoom saat difokuskan</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Format yang didukung: gambar diam, GIF animasi, video (statis atau live stream RTSP), animasi Lottie</string>
+    <string name="settings_launcher_wallpaper">Wallpaper launcher</string>
+    <string name="settings_configure">Konfigurasi</string>
+    <string name="settings_show_wallpapers">Tampilkan wallpaper</string>
+    <string name="settings_picture_adjustment">Penyesuaian gambar</string>
+    <string name="settings_image_transition">Transisi gambar</string>
+    <string name="settings_update_frequency">Frekuensi update (mnt)</string>
+    <string name="settings_video_wallpaper">Wallpaper video</string>
+    <string name="settings_display_mode">Mode tampilan</string>
+    <string name="settings_bad_ratio">Jika rasio/kualitas buruk</string>
+    <string name="settings_min_width">Lebar minimum yang diterima (px)</string>
+    <string name="settings_src_none">Tidak ada</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Warna dinamis</string>
+    <string name="settings_src_default">Wallpaper default</string>
+    <string name="settings_src_media">File media</string>
+    <string name="settings_src_folder">Folder</string>
+    <string name="settings_src_focused_program">Program yang difokuskan</string>
+    <string name="settings_src_now_playing">Sedang Diputar</string>
+    <string name="settings_src_random_program">Program acak</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Tidak ada</string>
+    <string name="settings_tr_random">Acak</string>
+    <string name="settings_tr_fade">Pudar</string>
+    <string name="settings_tr_zoom">Perbesar</string>
+    <string name="settings_tr_hslide">Geser horizontal</string>
+    <string name="settings_tr_vslide">Geser vertikal</string>
+    <string name="settings_dm_automatic">Otomatis</string>
+    <string name="settings_dm_skip">Lewati</string>
+    <string name="settings_dm_crop">Pangkas</string>
+    <string name="settings_dm_stretch">Regangkan</string>
+    <string name="settings_dm_fit">Pas di tengah</string>
+    <string name="settings_dm_fit_blur">Pas di tengah + latar belakang buram</string>
+    <string name="settings_dm_blur">Buram</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Rona</string>
+    <string name="settings_saturation">Saturasi</string>
+    <string name="settings_contrast">Kontras</string>
+    <string name="settings_brightness">Kecerahan</string>
+    <string name="settings_tint">Pewarnaan</string>
+    <string name="settings_tint_amount">Kekuatan pewarnaan</string>
+    <string name="settings_blur">Buram</string>
+    <string name="settings_shadow_h">Panjang lapisan bayangan horizontal</string>
+    <string name="settings_shadow_v">Panjang lapisan bayangan vertikal</string>
+    <string name="settings_shadow_opacity">Opasitas lapisan bayangan</string>
+    <string name="settings_shadow_tint">Warna lapisan bayangan</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Abaikan frekuensi update</string>
+    <string name="settings_ignore_update_desc">Tunggu hingga video selesai sebelum meminta wallpaper baru</string>
+    <string name="settings_video_color_freq">Frekuensi update warna dinamis</string>
+    <string name="settings_video_color_freq_desc">Detik antara frame video yang dibaca untuk warna; 0 menonaktifkannya</string>
+    <string name="settings_volume">Volume</string>
+    <string name="settings_tunneling">Gunakan rendering hardware (tunneling)</string>
+    <string name="settings_decoder_fallback">Aktifkan decoder cadangan</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Kelola izin notifikasi</string>
+    <string name="settings_granted">Diberikan</string>
+    <string name="settings_not_granted">Tidak diberikan</string>
+    <string name="settings_notification_adb">Tidak ada layar setelan di perangkat ini. Berikan izin dengan: %1$s</string>
+    <string name="settings_clock">Jam</string>
+    <string name="settings_icons">Ikon</string>
+    <string name="settings_show_system_bar">Tampilkan bilah status sistem</string>
+    <string name="settings_autohide_status">Sembunyikan bilah status saat menggulir</string>
+    <string name="settings_show_clock">Tampilkan jam</string>
+    <string name="settings_clock_size">Ukuran font jam</string>
+    <string name="settings_clock_color">Warna jam</string>
+    <string name="settings_drop_shadow">Bayangan</string>
+    <string name="settings_clock_line1">Format jam (baris 1)</string>
+    <string name="settings_clock_line2">Format jam (baris 2)</string>
+    <string name="settings_clock_default_format">Format sistem</string>
+    <string name="settings_empty">Kosong</string>
+    <string name="settings_icons_size">Ukuran ikon</string>
+    <string name="settings_icons_color">Warna ikon</string>
+    <string name="settings_icons_container">Warna wadah ikon</string>
+    <string name="settings_show_settings">Tampilkan setelan</string>
+    <string name="settings_show_settings_desc">Setelan tetap dapat diakses dengan urutan tombol ini: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Tampilkan konektivitas</string>
+    <string name="settings_show_notifications">Tampilkan notifikasi</string>
+    <string name="settings_autohide_notifications">Sembunyikan ikon notifikasi saat kosong</string>
+    <string name="settings_show_battery">Tampilkan baterai</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Aktifkan</string>
+    <string name="settings_headers_on_launch">Tampilkan header kiri saat dibuka</string>
+    <string name="settings_show_icon">Tampilkan ikon</string>
+    <string name="settings_show_reorder">Tampilkan ubah urutan</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Waktu tunggu sebelum tidak aktif (mnt)</string>
+    <string name="settings_idle_opacity">Opasitas UI</string>
+    <string name="settings_keep_clock">Tetap tampilkan jam</string>
+    <string name="settings_prevent_screensaver">Cegah screensaver sistem</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Ubah setelan font QLauncher. Nama keluarga font dapat dicari di Google Fonts.</string>
+    <string name="settings_font_list">Pilih dari daftar</string>
+    <string name="settings_font_google">Font (Google Fonts)</string>
+    <string name="settings_font_default">Bawaan</string>
+    <string name="settings_bold">Tebal</string>
+    <string name="settings_italic">Miring</string>
+    <string name="settings_size">Ukuran</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Mulai otomatis saat booting</string>
+    <string name="settings_autostart_none">Tidak ada</string>
+    <string name="settings_autostart_screensaver">[*] Screensaver (jika didukung)</string>
+    <string name="settings_autostart_resume">…dan saat kembali dari mode standby</string>
+    <string name="settings_autostart_delay">Jeda mulai otomatis (detik)</string>
+    <string name="settings_simulate_activity">Cegah sistem mati otomatis saat tidak aktif</string>
+    <string name="settings_idle_detection">Aktifkan deteksi tidak aktif internal</string>
+    <string name="settings_idle_timeout_power">Batas waktu tidak aktif (jam:mnt)</string>
+    <string name="settings_idle_action">Tindakan saat tidak aktif</string>
+    <string name="settings_idle_action_shutdown">Matikan</string>
+    <string name="settings_idle_action_screen_off">Layar mati</string>
+    <string name="settings_idle_action_screensaver">Screensaver (jika didukung)</string>
+    <string name="settings_idle_media">Abaikan mode tidak aktif saat media diputar</string>
+    <string name="settings_missing_notification_permission">⚠️ Izin notifikasi belum diberikan</string>
+    <string name="settings_shutdown_action">Tindakan mematikan</string>
+    <string name="settings_shutdown_dialog">Dialog daya</string>
+    <string name="settings_shutdown_dialog_twice">Dialog daya (panggil dua kali)</string>
+    <string name="settings_shutdown_dialog_ok">Dialog daya + OK</string>
+    <string name="settings_hdmi_exit">Matikan otomatis saat sinyal input HDMI berhenti</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Tetapkan kode untuk mengunci aplikasi tertentu (tekan lama kartu di layar utama untuk memilihnya), sepanjang hari atau selama sebagian hari</string>
+    <string name="settings_parental_set_code">Tetapkan kode orang tua baru</string>
+    <string name="settings_parental_code_set">Kode sudah ditetapkan</string>
+    <string name="settings_parental_long">Jangan minta kode selama 15 menit setelah validasi berhasil</string>
+    <string name="settings_parental_protect">Lindungi setelan launcher dan perubahan UI</string>
+    <string name="settings_parental_protect_desc">(berlaku 24/7)</string>
+    <string name="settings_parental_partial">Aktifkan perlindungan hanya antara</string>
+    <string name="settings_parental_start">Waktu mulai (jam:mnt)</string>
+    <string name="settings_parental_end">Waktu selesai (jam:mnt)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Tampilkan info saat “Menu” ditekan dua kali</string>
+    <string name="settings_back_double">“Mode Ambien” saat “Kembali” ditekan dua kali</string>
+    <string name="settings_back_double_desc">Mulai screensaver di perangkat yang didukung</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Aktifkan layanan ini untuk menjalankan tindakan saat booting, menyesuaikan tombol remote, memperkuat kontrol orang tua, dan mendeteksi waktu tidak aktif untuk kontrol daya. Layanan ini melihat penekanan tombol fisik dan nama aplikasi yang ada di depan; keduanya tetap berada di memori perangkat ini dan tidak pernah dikirim ke mana pun.</string>
+    <string name="settings_a11y_enabled">Diaktifkan</string>
+    <string name="settings_a11y_started">Berjalan</string>
+    <string name="settings_yes">Ya</string>
+    <string name="settings_no">Tidak</string>
+    <string name="settings_a11y_open">Tampilkan setelan Aksesibilitas</string>
+    <string name="settings_a11y_consent_title">Layanan aksesibilitas</string>
+    <string name="settings_a11y_consent">Ini memungkinkan QLauncher melihat penekanan tombol fisik dan nama aplikasi yang ada di latar depan. Keduanya hanya disimpan di memori perangkat ini dan tidak pernah dikirim ke mana pun. Apakah Anda setuju?</string>
+    <string name="settings_a11y_alternate">Gunakan konfigurasi alternatif</string>
+    <string name="settings_a11y_alternate_desc">Memperbaiki masalah di beberapa perangkat</string>
+    <string name="settings_a11y_volume_fix">Perbaikan tombol volume</string>
+    <string name="settings_a11y_volume_fix_desc">Hentikan pemetaan ulang sejenak saat volume ditekan, agar tekan lama tetap berfungsi</string>
+    <string name="settings_a11y_remap">Aktifkan pemetaan ulang tombol</string>
+    <string name="settings_a11y_remap_desc">Layanan ini mencegat penekanan tombol. Menonaktifkannya menghindari masalah tekan lama tombol volume dan sistem yang menghentikan layanan, tetapi pengambilalihan launcher, kontrol orang tua, dan deteksi waktu tidak aktif mungkin kurang efektif.</string>
+    <string name="settings_a11y_reminder">Tampilkan pengingat</string>
+    <string name="settings_a11y_reminder_desc">Jika layanan aksesibilitas dinonaktifkan</string>
+    <string name="settings_a11y_unbound_toast">Layanan aksesibilitas QLauncher tidak berjalan</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Impor atau ekspor setelan secara lokal, atau dengan aplikasi lain seperti LocalSend atau pengelola file.</string>
+    <string name="settings_import">Impor</string>
+    <string name="settings_import_file">Dari file</string>
+    <string name="settings_import_auto">Dari cadangan otomatis</string>
+    <string name="settings_export">Ekspor</string>
+    <string name="settings_export_local">Simpan secara lokal</string>
+    <string name="settings_export_share">Bagikan dengan aplikasi lain</string>
+    <string name="settings_reset">Kembalikan ke default</string>
+    <string name="settings_cancel">Batal</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategori</string>
+    <string name="wp_custom_search">Penelusuran kustom</string>
+    <string name="wp_reddit_login">Masuk</string>
+    <string name="wp_reddit_logout">Keluar: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Keluar</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Subreddit kustom</string>
+    <string name="wp_custom_subreddit_hint">Beberapa nama dipisahkan dengan +</string>
+    <string name="wp_folder">Folder</string>
+    <string name="wp_folder_choose">Pilih folder</string>
+    <string name="wp_media">File media</string>
+    <string name="wp_media_choose">Pilih file</string>
+    <string name="wp_choose_other">Lokasi lain…</string>
+    <string name="wp_choose_other_desc">Pilih dengan pemilih file sistem</string>
+    <string name="wp_media_searching">Mencari gambar dan video…</string>
+    <string name="wp_media_none">Gambar atau video tidak ditemukan. Salin beberapa ke Pictures, Movies, atau Download, atau colokkan drive USB.</string>
+    <string name="wp_folders_description">Folder berisi gambar atau video, di perangkat ini dan di drive USB.</string>
+    <string name="wp_folders_none">Folder berisi gambar atau video tidak ditemukan</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="other">%d file</item>
+    </plurals>
+    <string name="wp_media_color">Warna polos</string>
+    <string name="wp_theme_desc">Wallpaper yang dibawa oleh tema yang diimpor</string>
+    <string name="wp_plugin_settings">Setelan plugin</string>
+    <string name="wp_not_set">Belum disetel</string>
+    <string name="wp_status">Status</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Wallpaper ini</string>
+    <string name="wp_next">Berikutnya</string>
+    <string name="wp_source">Sumber</string>
+    <string name="wp_title">Judul</string>
+    <string name="wp_author">Pembuat</string>
+    <string name="wp_set_user">Jadikan wallpaper pengguna</string>
+    <string name="wp_view">Lihat</string>
+    <string name="wp_unknown">Tidak diketahui</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Buat dan kelola profil layar video di sini. Kaitkan profil ke sumber input agar berganti otomatis, atau terapkan dengan menekan Menu dua kali, lalu atas atau bawah.</string>
+    <string name="dp_list">Daftar profil layar</string>
+    <string name="dp_list_desc">Buat atau edit profil layar video di sini. Bergantung pada perangkat, beberapa kontrol memerlukan root atau tidak berfungsi sama sekali; kontrol ini ditujukan untuk perangkat AmLogic.</string>
+    <string name="dp_add">Tambahkan baru…</string>
+    <string name="dp_name">Nama profil</string>
+    <string name="dp_preview">Pratinjau</string>
+    <string name="dp_fullscreen">Pratinjau layar penuh</string>
+    <string name="dp_fullscreen_desc">atau alihkan dengan tombol Menu</string>
+    <string name="dp_delete">Hapus profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Instal aplikasi pihak ketiga</string>
+    <string name="install_desc">Pilih aplikasi yang akan diinstal. Anda mungkin perlu mengizinkan penginstalan dari sumber tidak dikenal terlebih dahulu.</string>
+    <string name="install_custom">URL kustom / Kode Downloader</string>
+    <string name="install_custom_desc">Gunakan hanya sumber yang Anda percayai</string>
+    <string name="install_status">Status</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Perangkat ini</string>
+
+    <string name="gallery_filter">Saring…</string>
+    <string name="settings_no_file_picker">Perangkat ini tidak memiliki pemilih file</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminans</string>
+    <string name="color_opacity">Opasitas</string>
+    <string name="color_prefer_dynamic">Utamakan warna dinamis</string>
+    <string name="color_prefer_dynamic_desc">Jika tersedia, luminans/opasitas ini akan dipertahankan</string>
+    <string name="color_clear">Hapus</string>
+    <string name="color_reset">Kembalikan ke default</string>
+</resources>

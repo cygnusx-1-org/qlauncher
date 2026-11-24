@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Iestatīt kā QLauncher fona tapeti</string>
+    <string name="import_settings">Importēt lietotnē QLauncher</string>
+    <string name="accessibility_service_description">QLauncher redz aparatūras taustiņu nospiedumus un priekšplānā esošās lietotnes nosaukumu, lai aizstātu iebūvēto palaidēju, izpildītu darbības ierīces ieslēgšanas brīdī, pārkartētu tālvadības pults pogas, noteiktu dīkstāves laiku un nodrošinātu vecāku kontroli. Abi dati paliek tikai šīs ierīces atmiņā un nekad netiek nekur nosūtīti.</string>
+</resources>

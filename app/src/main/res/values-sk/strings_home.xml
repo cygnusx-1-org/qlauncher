@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Práve hrá</string>
+    <string name="home_cat_inputs">Vstupy</string>
+    <string name="home_cat_favorites">Obľúbené</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Hudba</string>
+    <string name="home_cat_games">Hry</string>
+    <string name="home_cat_tv_apps">Aplikácie pre TV</string>
+    <string name="home_cat_mobile_apps">Mobilné aplikácie</string>
+    <string name="home_cat_watch_next">Pokračovať v pozeraní</string>
+    <string name="home_cat_shortcuts">Skratky</string>
+    <string name="home_cat_folders">Priečinky kategórií</string>
+    <string name="home_cat_live_tv">Živé vysielanie</string>
+    <string name="home_cat_settings">Nastavenia</string>
+    <string name="home_cat_display">Zobrazenie</string>
+    <string name="home_cat_applications">Aplikácie</string>
+    <string name="home_cat_system">Systém</string>
+    <string name="home_cat_about">Informácie</string>
+    <string name="home_new_category">Nová kategória</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Všetky aplikácie</string>
+    <string name="home_action_edit_categories">Upraviť kategórie</string>
+    <string name="home_action_edit_channels">Upraviť kanály</string>
+    <string name="home_action_launcher_settings">Nastavenia QLaunchera</string>
+    <string name="home_action_android_settings">Nastavenia Androidu</string>
+    <string name="home_action_amlogic_settings">Ďalšie nastavenia AmLogic</string>
+    <string name="home_action_display_profiles">Profily zobrazenia</string>
+    <string name="home_action_install_apps">Inštalovať aplikácie tretích strán</string>
+    <string name="home_action_accessibility">Služba dostupnosti</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Prepnúť profil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Toto zariadenie</string>
+    <string name="home_action_about_wallpaper">Táto tapeta</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Séria %1$s</string>
+    <string name="home_episode">Epizóda %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Pripojenie</string>
+    <string name="home_status_notifications">Upozornenia</string>
+    <string name="home_status_settings">Nastavenia</string>
+    <string name="home_status_wallpaper">Táto tapeta</string>
+    <string name="home_navigation_menu">Navigačná ponuka</string>
+    <string name="home_reorder">Zmeniť poradie</string>
+    <string name="home_category_settings">Nastavenia kategórie</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Nastavenia aplikácie</string>
+    <string name="menu_open">Otvoriť</string>
+    <string name="menu_details">Podrobnosti</string>
+    <string name="menu_play_pause">Prehrať/Pozastaviť</string>
+    <string name="menu_stop">Zastaviť</string>
+    <string name="menu_previous">Predchádzajúca</string>
+    <string name="menu_next">Ďalšia</string>
+    <string name="menu_uninstall">Odinštalovať</string>
+    <string name="menu_launch_on_boot">Spustiť pri štarte</string>
+    <string name="menu_launch_on_boot_on">Spúšťa sa pri štarte</string>
+    <string name="menu_add_parental">Pridať do rodičovskej kontroly</string>
+    <string name="menu_remove_parental">Odstrániť z rodičovskej kontroly</string>
+    <string name="menu_shortcuts">Skratky</string>
+    <string name="menu_appearance">Vzhľad</string>
+    <string name="menu_title">Názov</string>
+    <string name="menu_change_icon">Zmeniť ikonu</string>
+    <string name="menu_icon_from_picture">Z obrázka</string>
+    <string name="menu_icon_other_location">Iné umiestnenie…</string>
+    <string name="menu_icon_no_pictures">Nenašli sa žiadne obrázky. Skopírujte nejaké do priečinka Pictures alebo Download, alebo pripojte disk USB.</string>
+    <string name="menu_icon_reset">Obnoviť</string>
+    <string name="menu_crop">Orezať a vyplniť</string>
+    <string name="menu_visibility">Viditeľnosť</string>
+    <string name="menu_reorder">Zmeniť poradie</string>
+    <string name="menu_remove_from">Odstrániť z %1$s</string>
+    <string name="menu_hide">Skryť</string>
+    <string name="menu_add_to">Pridať do…</string>
+    <string name="menu_move_to">Presunúť do…</string>
+    <string name="menu_channels">Kanály</string>
+    <string name="menu_rename_hint">Zadajte nový názov a stlačte OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Názov</string>
+    <string name="editor_change_icon">Zmeniť ikonu</string>
+    <string name="editor_visible">Zobrazovať</string>
+    <string name="editor_grid">Mriežka</string>
+    <string name="editor_sliding_row">Posuvný riadok</string>
+    <string name="editor_background">Farba pozadia</string>
+    <string name="editor_show_title">Zobraziť názov</string>
+    <string name="editor_size">Veľkosť</string>
+    <string name="editor_advanced">Rozšírené nastavenia</string>
+    <string name="editor_start_margin">Okraj na začiatku</string>
+    <string name="editor_end_margin">Okraj na konci</string>
+    <string name="editor_top_margin">Horný okraj</string>
+    <string name="editor_cards_per_row">Kariet na riadok</string>
+    <string name="editor_row_count">Počet riadkov</string>
+    <string name="editor_auto">Automaticky</string>
+    <string name="editor_auto_value">Automaticky (%1$s)</string>
+    <string name="editor_sort">Zoradenie</string>
+    <string name="editor_sort_custom">Vlastné</string>
+    <string name="editor_sort_name">Abecedne</string>
+    <string name="editor_sort_last">Naposledy použité</string>
+    <string name="editor_sort_most">Často používané</string>
+    <string name="editor_sort_random">Náhodne</string>
+    <string name="editor_set_default">Nastaviť ako predvolenú</string>
+    <string name="editor_is_default">Predvolená kategória</string>
+    <string name="editor_manage_apps">Spravovať aplikácie</string>
+    <string name="editor_hidden_items">Skryté položky</string>
+    <string name="editor_restore">Obnoviť</string>
+    <string name="editor_delete">Odstrániť</string>
+    <string name="editor_delete_confirm">Odstrániť túto kategóriu?</string>
+    <string name="editor_empty_note">Táto kategória sa zatiaľ nezobrazí, pretože je prázdna</string>
+    <string name="editor_request_notifications">Požiadať o povolenie upozornení</string>
+    <string name="editor_channel_error">Tento kanál sa už nedá načítať</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanály</string>
+    <string name="channels_count">Kanály: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Upozornenia</string>
+    <string name="notifications_clear_all">Vymazať všetko</string>
+    <string name="notifications_empty">Žiadne upozornenia</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Túto aplikáciu nemožno otvoriť</string>
+    <string name="home_reorder_hint">Presúvajte doľava/doprava, dokončite stlačením OK alebo SPÄŤ</string>
+    <string name="home_category_reorder_hint">Presúvajte nahor/nadol, dokončite stlačením OK alebo SPÄŤ</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Vitajte!</string>
+    <string name="firstrun_welcome_text">QLauncher je launcher pre Android TV. Vaše aplikácie, kanály a obľúbený obsah umiestni na jednu prispôsobiteľnú domovskú obrazovku, za ktorou sa striedajú tapety.</string>
+    <string name="firstrun_features_title">Vaše nové superschopnosti</string>
+    <string name="firstrun_features_text">Spustite pri štarte aplikáciu alebo vstup HDMI, spravujte profily zobrazenia, zamykajte aplikácie rodičovskou kontrolou, zobrazujte kalibračné obrazce, zisťujte nečinnosť a prispôsobte si každú časť domovskej obrazovky. Niektoré funkcie závisia od vášho zariadenia.</string>
+    <string name="firstrun_a11y_title">Zapnime dostupnosť</string>
+    <string name="firstrun_a11y_text">Mnoho funkcií vyžaduje službu dostupnosti QLaunchera: nahradenie pôvodného launchera, akcie pri štarte, gestá tlačidiel diaľkového ovládača, zisťovanie nečinnosti a rodičovská kontrola. Môžete ju zapnúť hneď alebo neskôr v nastaveniach.</string>
+    <string name="firstrun_a11y_open">Otvoriť nastavenia dostupnosti</string>
+    <string name="firstrun_permissions_title">Ak dovolíte…</string>
+    <string name="firstrun_permissions_text">Ďalej QLauncher požiada o povolenie čítať TV program (pre kanály a Pokračovať v pozeraní) a o prístup k upozorneniam (pre ikonu upozornení a Práve hrá). Oboje je voliteľné.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Ďalej QLauncher požiada o prístup k upozorneniam (pre ikonu upozornení a Práve hrá). Je voliteľný.</string>
+    <string name="firstrun_notifications_dialog">Povoliť prístup k upozorneniam?</string>
+    <string name="firstrun_notifications_text">Prístup k upozorneniam umožní QLauncheru zobraziť počet upozornení, panel upozornení a to, čo práve hrá. Tlačidlo Áno otvorí stránku Špeciálny prístup aplikácií, kde ho udelíte.</string>
+    <string name="firstrun_reports_title">Odosielať anonymné hlásenia o chybách?</string>
+    <string name="firstrun_reports_text">Ak QLauncher zlyhá alebo narazí na chybu, môže odoslať hlásenie s verziou aplikácie a modelom zariadenia, aby sa chyba dala opraviť. Nič, čo by identifikovalo vás alebo to, čo pozeráte, sa neodosiela. Neskôr to môžete zmeniť v časti Všeobecné.</string>
+    <string name="firstrun_launcher_title">Nastavte QLauncher ako domovskú obrazovku</string>
+    <string name="firstrun_launcher_text">Mnoho TV zariadení neumožňuje zmeniť predvolený launcher. Ak to vaše umožňuje, vyberte tam QLauncher. Inak zapnite službu dostupnosti s voľbou „Nahradiť aktuálny launcher“ a QLauncher sa vráti vždy, keď sa otvorí pôvodný launcher.</string>
+    <string name="firstrun_launcher_open">Zmeniť predvolený launcher</string>
+    <string name="firstrun_start_title">Môžeme začať!</string>
+    <string name="firstrun_start_text">Všetko sa dá neskôr zmeniť v nastaveniach. Stlačte tlačidlo nastavení vpravo hore alebo postupnosť tlačidiel ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">ZAČAŤ</string>
+    <string name="firstrun_next">Ďalej</string>
+    <string name="firstrun_skip">Preskočiť</string>
+    <string name="firstrun_yes">Áno</string>
+    <string name="firstrun_no">Nie</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Toto zariadenie nemá šetrič obrazovky</string>
+</resources>

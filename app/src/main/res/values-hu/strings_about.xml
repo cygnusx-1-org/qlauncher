@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Verzió: %1$s</string>
+    <string name="about_copyright">Copyright © 2026 a QLauncher közreműködői. Szabad szoftver a GNU General Public License 3. verziója szerint.</string>
+    <string name="about_libs">Könyvtárak / Köszönetnyilvánítás</string>
+    <string name="about_links">Hivatkozások</string>
+    <string name="about_link_project">Projektoldal</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Magyar fordítás</string>
+    <string name="about_translation_credit">A QLauncher közreműködői</string>
+    <string name="about_no_browser">Ezen az eszközön nincs böngésző. Nyissa meg ezt a címet egy másik eszközön: %1$s</string>
+    <string name="about_check_updates">Frissítések keresése</string>
+    <string name="about_update_checking">Ellenőrzés…</string>
+    <string name="about_update_latest">A QLauncher naprakész (%1$s)</string>
+    <string name="about_update_available">Új verzió érhető el: %1$s</string>
+    <string name="about_update_failed">Nem sikerült ellenőrizni: %1$s</string>
+    <string name="about_update_install">QLauncher %1$s telepítése</string>
+    <string name="update_available_toast">Elérhető a QLauncher %1$s: Beállítások › Névjegy › QLauncher</string>
+</resources>

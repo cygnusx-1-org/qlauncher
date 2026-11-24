@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Batal</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Semua aplikasi</string>
+    <string name="apps_action_edit_categories">Edit kategori</string>
+    <string name="apps_action_edit_channels">Edit channel</string>
+    <string name="apps_action_launcher_settings">Setelan QLauncher</string>
+    <string name="apps_action_android_settings">Setelan Android</string>
+    <string name="apps_action_amlogic_settings">Setelan tambahan AmLogic</string>
+    <string name="apps_action_display_profiles">Profil layar</string>
+    <string name="apps_action_install_apps">Instal aplikasi pihak ketiga</string>
+    <string name="apps_action_accessibility_service">Layanan aksesibilitas</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Ganti profil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Perangkat ini</string>
+    <string name="apps_action_about_wallpaper">Wallpaper ini</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Tidak ada</string>
+    <string name="apps_autostart_screensaver">Screensaver</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Channel</string>
+    <string name="apps_channels_watch_next">Tonton Berikutnya</string>
+    <string name="apps_channels_unreadable">Channel ini tidak dapat dibaca lagi</string>
+    <string name="apps_channels_hidden">Disembunyikan oleh sistem</string>
+    <plurals name="apps_channel_count">
+        <item quantity="other">%d channel</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Terapkan paket ikon</string>
+    <string name="apps_iconpack_apply_message">Gunakan %1$s untuk ikon aplikasi Anda?</string>
+    <string name="apps_iconpack_apply_confirm">Terapkan</string>
+    <string name="apps_iconpack_applied">Paket ikon diterapkan</string>
+    <string name="apps_iconpack_apply_missing">Tidak ada paket ikon yang disebutkan</string>
+    <string name="apps_iconpack_apply_not_a_pack">Aplikasi ini bukan paket ikon</string>
+    <string name="apps_iconpack_none">Tidak ada</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Tambahkan pintasan</string>
+    <string name="apps_pin_shortcut_message">Tambahkan “%1$s” dari %2$s ke kategori Pintasan?</string>
+    <string name="apps_pin_shortcut_confirm">Tambahkan</string>
+    <string name="apps_pin_shortcut_added">Pintasan ditambahkan</string>
+    <string name="apps_pin_shortcut_failed">Pintasan tidak dapat ditambahkan</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Instal aplikasi pihak ketiga</string>
+    <string name="apps_install_description">Pilih aplikasi yang akan diinstal. Anda mungkin perlu mengizinkan penginstalan dari sumber tidak dikenal sebelum menginstal.</string>
+    <string name="apps_install_custom_url">URL kustom / Kode Downloader</string>
+    <string name="apps_install_custom_url_desc">Pastikan Anda menggunakan sumber tepercaya</string>
+    <string name="apps_install_choose_method">Pilih metode penginstalan</string>
+    <string name="apps_install_installed">Terinstal</string>
+    <string name="apps_install_category_wallpaper_plugin">Plugin wallpaper</string>
+    <string name="apps_install_category_icon_pack">Paket ikon</string>
+    <string name="apps_install_category_file_manager">Pengelola file</string>
+    <string name="apps_install_category_tool">Alat</string>
+    <string name="apps_install_method_store">Toko</string>
+    <string name="apps_install_method_direct">Download langsung</string>
+    <string name="apps_install_method_downloader">Aplikasi Downloader</string>
+    <string name="apps_install_state_downloading">Mendownload %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Mendownload %1$s…</string>
+    <string name="apps_install_state_installing">Menginstal %1$s…</string>
+    <string name="apps_install_state_confirm">Konfirmasi penginstalan %1$s</string>
+    <string name="apps_install_state_success">%1$s terinstal</string>
+    <string name="apps_install_state_unknown_sources">Izinkan QLauncher menginstal aplikasi, lalu kembali untuk melanjutkan</string>
+    <string name="apps_install_state_downloader_sent">Kode %1$s dikirim ke Downloader</string>
+    <string name="apps_install_state_downloader_type">Masukkan kode %1$s di Downloader</string>
+    <string name="apps_install_state_store">Dibuka di toko aplikasi</string>
+    <string name="apps_install_state_browser">Link ini adalah halaman web; link dibuka di browser</string>
+    <string name="apps_install_fail_invalid">Ini bukan URL atau kode Downloader</string>
+    <string name="apps_install_fail_no_usb">Drive USB tidak ditemukan</string>
+    <string name="apps_install_fail_archive">Arsip tidak dapat diinstal</string>
+    <string name="apps_install_fail_network">Download gagal</string>
+    <string name="apps_install_fail_http">Server merespons dengan error (%1$s)</string>
+    <string name="apps_install_fail_not_apk">File ini bukan aplikasi (APK)</string>
+    <string name="apps_install_fail_unreadable">File tidak dapat dibaca</string>
+    <string name="apps_install_fail_install">Penginstalan gagal</string>
+    <string name="apps_install_fail_cancelled">Penginstalan dibatalkan</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher tidak diizinkan menginstal aplikasi</string>
+    <string name="apps_install_fail_downloader">Aplikasi Downloader tidak terinstal</string>
+    <string name="apps_install_fail_store">Tidak ada toko aplikasi yang tersedia</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Perangkat ini</string>
+    <string name="apps_device_brand_manufacturer">Merek / Produsen</string>
+    <string name="apps_device_device_product">Perangkat / Produk</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Perangkat keras</string>
+    <string name="apps_device_fingerprint">Sidik jari</string>
+    <string name="apps_device_build">Nomor build</string>
+    <string name="apps_device_build_desc">Deskripsi build</string>
+    <string name="apps_device_device_type">Jenis perangkat</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Alamat IP</string>
+    <string name="apps_device_root_access">Akses root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Tidak ada pengelola gambar</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Ya</string>
+    <string name="apps_device_no">Tidak</string>
+</resources>

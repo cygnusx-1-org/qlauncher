@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">設為 QLauncher 桌布</string>
+    <string name="import_settings">匯入至 QLauncher</string>
+    <string name="accessibility_service_description">QLauncher 會偵測硬體按鍵操作及前景應用程式的名稱，藉此接管原廠啟動器、在開機時執行動作、重新對應遙控器按鍵、偵測閒置時間，以及執行家長監護。這兩項資訊都只會保留在這部裝置的記憶體中，絕不會傳送到任何地方。</string>
+</resources>

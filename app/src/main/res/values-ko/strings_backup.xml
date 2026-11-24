@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">기본값</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">굵게</string>
+    <string name="backup_clock_markup_italic">기울임꼴</string>
+    <string name="backup_clock_markup_underline">밑줄</string>
+    <string name="backup_clock_markup_strikethrough">취소선</string>
+    <string name="backup_clock_markup_subscript">아래 첨자</string>
+    <string name="backup_clock_markup_superscript">위 첨자</string>
+    <string name="backup_clock_markup_half_size">절반 크기</string>
+    <string name="backup_clock_markup_one_and_a_half_size">1.5배 크기</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">블랙 클리핑</string>
+    <string name="backup_pattern_apl_clipping">APL 클리핑</string>
+    <string name="backup_pattern_white_clipping">화이트 클리핑</string>
+    <string name="backup_pattern_grayscale_ramp">그레이스케일 램프</string>
+    <string name="backup_pattern_grayscale_steps">그레이스케일 단계</string>
+    <string name="backup_pattern_dynamic_brightness">동적 밝기</string>
+    <string name="backup_pattern_color_steps">색상 단계</string>
+    <string name="backup_pattern_color_clipping">색상 클리핑</string>
+    <string name="backup_pattern_flashing_color_bars">깜박이는 컬러 바</string>
+    <string name="backup_pattern_sharpness_overscan">선명도 &amp; 오버스캔</string>
+    <string name="backup_pattern_uhd">UHD 패턴</string>
+    <string name="backup_pattern_judder">저더 테스트</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] 화면비 및 선명도</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] 블랙 레벨</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] 색상 클리핑 240–1000니트</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] 색상 클리핑 3600–10000니트</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] 색상 클리핑 700–10000니트</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] 색상 클리핑 900–4000니트</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] 그레이스케일 램프 10000니트</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] 그레이스케일 램프 1000니트</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] 그레이스케일 램프 4000니트</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] 블랙 PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] 컬러 램프</string>
+    <string name="backup_pattern_unavailable">%1$s에는 HDR 영상 경로가 필요하므로 아직 사용할 수 없습니다</string>
+    <!-- Pages -->
+    <string name="backup_settings">설정</string>
+    <string name="backup_manage_settings">설정 관리</string>
+    <string name="backup_themes">테마</string>
+    <string name="backup_import">가져오기</string>
+    <string name="backup_export">내보내기</string>
+    <string name="backup_import_from_file">파일 관리자에서</string>
+    <string name="backup_import_from_auto">자동 백업에서</string>
+    <string name="backup_export_save">로컬에 저장</string>
+    <string name="backup_export_share">다른 앱과 공유</string>
+    <string name="backup_reset">기본값으로 재설정</string>
+    <string name="backup_cancel">취소</string>
+    <string name="backup_ok">확인</string>
+    <string name="backup_done">완료</string>
+    <string name="backup_close">닫기</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">설정 내보내기</string>
+    <string name="backup_export_theme_title">테마 내보내기</string>
+    <string name="backup_export_description">모든 항목이 하나의 파일에 저장되며, 직접 정한 비밀번호(%1$d자 이상)로 암호화됩니다. 파일을 가져오려면 비밀번호가 필요하며, 비밀번호는 복구할 수 없습니다.</string>
+    <string name="backup_export_theme_description">모양 설정과 현재 배경화면이 하나의 파일에 저장되며, 직접 정한 비밀번호(%1$d자 이상)로 암호화됩니다. 테마를 가져오려면 비밀번호가 필요합니다.</string>
+    <string name="backup_password">비밀번호</string>
+    <string name="backup_password_show">비밀번호 표시</string>
+    <string name="backup_password_hide">비밀번호 숨기기</string>
+    <string name="backup_password_strength">비밀번호 강도</string>
+    <string name="backup_strength_too_short">너무 짧음: %1$d자 이상</string>
+    <string name="backup_strength_weak">약함: 추측하기 쉬움</string>
+    <string name="backup_strength_fair">보통</string>
+    <string name="backup_strength_strong">강함</string>
+    <string name="backup_password_too_short">비밀번호는 %1$d자 이상이어야 합니다</string>
+    <string name="backup_exporting">내보내는 중…</string>
+    <string name="backup_export_saved">%1$s에 저장했습니다</string>
+    <string name="backup_export_kept">다른 곳에 저장되지 않았습니다. 파일은 %1$s에 있습니다</string>
+    <string name="backup_export_shared">보냈습니다. 사본이 %1$s에 남아 있습니다</string>
+    <string name="backup_export_no_file_manager">이 기기에 파일을 받을 수 있는 앱이 없습니다. 파일은 %1$s에 있습니다</string>
+    <string name="backup_export_failed">내보내기 실패: %1$s</string>
+    <string name="backup_share_title">QLauncher 파일을 보낼 앱</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">가져오면 현재 구성이 대체됩니다. 먼저 자동 백업이 생성되며, 완료되면 QLauncher가 다시 시작됩니다.</string>
+    <string name="backup_reading">파일 읽는 중…</string>
+    <string name="backup_import_action">가져오기</string>
+    <string name="backup_wrong_password">비밀번호가 틀렸습니다</string>
+    <string name="backup_password_hint">파일을 내보낼 때 정한 비밀번호</string>
+    <string name="backup_not_a_backup">QLauncher 또는 Projectivy 백업이나 테마가 아닙니다.</string>
+    <string name="backup_damaged">파일이 손상되었거나 불완전합니다.</string>
+    <string name="backup_too_new">이 파일은 더 새로운 QLauncher(형식 %1$d)에서 만들어졌습니다. 가져오려면 QLauncher를 업데이트하세요.</string>
+    <string name="backup_unreadable">이 자동 백업은 이 기기에서 읽을 수 없습니다.</string>
+    <string name="backup_import_failed">가져오기에 실패하여 아무것도 변경되지 않았습니다: %1$s</string>
+    <string name="backup_applying">가져오는 중… 완료되면 QLauncher가 다시 시작됩니다.</string>
+    <string name="backup_origin_ql_backup">QLauncher 설정 백업</string>
+    <string name="backup_origin_ql_theme">QLauncher 테마</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher 설정 백업</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher 테마</string>
+    <string name="backup_origin_auto">자동 백업</string>
+    <string name="backup_preview_theme_by">%1$s (제작: %2$s)</string>
+    <string name="backup_preview_version">버전 %1$s</string>
+    <string name="backup_preview_settings">설정</string>
+    <string name="backup_preview_categories">카테고리</string>
+    <string name="backup_preview_apps">앱 맞춤설정</string>
+    <string name="backup_preview_profiles">디스플레이 프로필</string>
+    <string name="backup_preview_files">배경화면 및 아이콘</string>
+    <string name="backup_preview_skipped">이 기기에 없는 앱</string>
+    <string name="backup_replace_setup">현재 구성 대체</string>
+    <string name="backup_apply_theme">테마 적용</string>
+    <string name="backup_replace_detail">현재 구성의 자동 백업이 먼저 생성됩니다</string>
+    <string name="backup_nc_parental">자녀 보호 코드</string>
+    <string name="backup_nc_parental_detail">옮겨지지 않습니다. 자녀 보호 기능에서 새 코드를 설정하세요.</string>
+    <string name="backup_nc_premium">프리미엄 상태</string>
+    <string name="backup_nc_premium_detail">옮겨지지 않습니다. QLauncher의 모든 기능은 무료입니다.</string>
+    <string name="backup_nc_inputs">TV 입력</string>
+    <string name="backup_nc_profile_bindings">디스플레이 프로필 연결</string>
+    <string name="backup_nc_plugin">배경화면 플러그인</string>
+    <string name="backup_nc_plugin_detail">%1$s이(가) 설치되어 있지 않습니다. 배경화면 소스는 그대로 유지됩니다.</string>
+    <string name="backup_nc_icons">맞춤 아이콘</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="other">변경된 값 %1$d개</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="other">카테고리 %1$d개</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="other">앱 %1$d개</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="other">프로필 %1$d개</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="other">파일 %1$d개</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="other">알 수 없는 설정 %1$d개, 건너뜀</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="other">여기에 설치된 어떤 앱과도 일치하지 않는 항목 %1$d개를 건너뜁니다</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="other">이 기기에 없는 TV 입력에 대한 연결 %1$d개를 건너뜁니다</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="other">입력에 할당된 프로필 %1$d개는 옮겨지지 않습니다</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="other">Projectivy 내부에 저장된 아이콘 %1$d개는 읽을 수 없어 건너뜁니다</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">자동 백업</string>
+    <string name="backup_auto_description">QLauncher는 구성의 최근 %1$d개 버전을 이 기기에 보관하며, 기기 밖으로 나가지 않는 키로 암호화합니다. 복원하려면 하나를 선택하세요. 비밀번호는 필요하지 않습니다.</string>
+    <string name="backup_auto_none">사용할 수 있는 자동 백업이 없습니다</string>
+    <string name="backup_files_title">백업 파일</string>
+    <string name="backup_files_theme_title">테마 파일</string>
+    <string name="backup_files_description">내보낸 파일은 %1$s에 저장됩니다. 모든 파일에 대한 액세스 권한이 있으면 QLauncher는 Download, Documents, USB 드라이브에 있는 백업(Projectivy 백업 포함)도 찾습니다.</string>
+    <string name="backup_files_searching">백업 파일을 찾는 중…</string>
+    <string name="backup_files_none">백업 파일을 찾을 수 없습니다</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher 폴더</string>
+    <string name="backup_files_access">다른 앱 및 기기의 백업 찾기</string>
+    <string name="backup_files_access_desc">모든 파일에 대한 액세스 허용</string>
+    <string name="backup_files_access_unavailable">이 기기에 설정 화면이 없습니다. 다음 명령으로 모든 파일에 대한 액세스를 허용하세요: %1$s</string>
+    <string name="backup_files_browse">다른 위치…</string>
+    <string name="backup_files_browse_desc">시스템 파일 선택기로 파일 선택</string>
+    <string name="backup_auto_delete_all">모두 삭제</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">변경 후</string>
+    <string name="backup_reason_import">가져오기 전</string>
+    <string name="backup_reason_migration">업데이트 전</string>
+    <string name="backup_reason_reset">재설정 전</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">프로필 #</string>
+    <string name="backup_no_picture_manager">로드된 픽처 매니저 없음</string>
+    <string name="backup_no_picture_manager_detail">이 기기는 화면 설정을 변경하는 지원 방식을 제공하지 않으므로, 프로필은 값을 적용하지 않고 보관만 합니다.</string>
+</resources>

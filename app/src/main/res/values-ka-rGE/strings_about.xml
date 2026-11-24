@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">ვერსია %1$s</string>
+    <string name="about_copyright">საავტორო უფლება © 2026 QLauncher-ის მონაწილეები. თავისუფალი პროგრამა GNU General Public License-ის მე-3 ვერსიის პირობებით.</string>
+    <string name="about_libs">ბიბლიოთეკები / მადლობები</string>
+    <string name="about_links">ბმულები</string>
+    <string name="about_link_project">პროექტის გვერდი</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">ქართული თარგმანი</string>
+    <string name="about_translation_credit">QLauncher-ის მონაწილეები</string>
+    <string name="about_no_browser">ამ მოწყობილობაზე ბრაუზერი არ არის. გახსენით %1$s სხვა მოწყობილობაზე.</string>
+    <string name="about_check_updates">განახლებების შემოწმება</string>
+    <string name="about_update_checking">მოწმდება…</string>
+    <string name="about_update_latest">QLauncher განახლებულია (%1$s)</string>
+    <string name="about_update_available">ხელმისაწვდომია ვერსია %1$s</string>
+    <string name="about_update_failed">შემოწმება ვერ მოხერხდა: %1$s</string>
+    <string name="about_update_install">QLauncher %1$s-ის დაყენება</string>
+    <string name="update_available_toast">ხელმისაწვდომია QLauncher %1$s: პარამეტრები › შესახებ › QLauncher</string>
+</resources>

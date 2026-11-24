@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Predvolené</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">tučné</string>
+    <string name="backup_clock_markup_italic">kurzíva</string>
+    <string name="backup_clock_markup_underline">podčiarknuté</string>
+    <string name="backup_clock_markup_strikethrough">prečiarknuté</string>
+    <string name="backup_clock_markup_subscript">dolný index</string>
+    <string name="backup_clock_markup_superscript">horný index</string>
+    <string name="backup_clock_markup_half_size">polovičná veľkosť</string>
+    <string name="backup_clock_markup_one_and_a_half_size">jeden a polkrát</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Orezanie čiernej</string>
+    <string name="backup_pattern_apl_clipping">Orezanie APL</string>
+    <string name="backup_pattern_white_clipping">Orezanie bielej</string>
+    <string name="backup_pattern_grayscale_ramp">Plynulá stupnica šedej</string>
+    <string name="backup_pattern_grayscale_steps">Stupne šedej</string>
+    <string name="backup_pattern_dynamic_brightness">Dynamický jas</string>
+    <string name="backup_pattern_color_steps">Farebné stupne</string>
+    <string name="backup_pattern_color_clipping">Orezanie farieb</string>
+    <string name="backup_pattern_flashing_color_bars">Blikajúce farebné pruhy</string>
+    <string name="backup_pattern_sharpness_overscan">Ostrosť &amp; overscan</string>
+    <string name="backup_pattern_uhd">Obrazec UHD</string>
+    <string name="backup_pattern_judder">Test trhania obrazu</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Ostrosť pomeru strán</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Úroveň čiernej</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Orezanie farieb 240–1000 nitov</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Orezanie farieb 3600–10000 nitov</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Orezanie farieb 700–10000 nitov</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Orezanie farieb 900–4000 nitov</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Stupnica šedej 10000 nitov</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Stupnica šedej 1000 nitov</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Stupnica šedej 4000 nitov</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE čiernej</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Farebné prechody</string>
+    <string name="backup_pattern_unavailable">%1$s vyžaduje cestu pre HDR video a zatiaľ nie je k dispozícii</string>
+    <!-- Pages -->
+    <string name="backup_settings">Nastavenia</string>
+    <string name="backup_manage_settings">Správa nastavení</string>
+    <string name="backup_themes">Témy</string>
+    <string name="backup_import">Importovať</string>
+    <string name="backup_export">Exportovať</string>
+    <string name="backup_import_from_file">Zo správcu súborov</string>
+    <string name="backup_import_from_auto">Z automatickej zálohy</string>
+    <string name="backup_export_save">Uložiť lokálne</string>
+    <string name="backup_export_share">Zdieľať s inou aplikáciou</string>
+    <string name="backup_reset">Obnoviť predvolené</string>
+    <string name="backup_cancel">Zrušiť</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Hotovo</string>
+    <string name="backup_close">Zavrieť</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Exportovať nastavenia</string>
+    <string name="backup_export_theme_title">Exportovať tému</string>
+    <string name="backup_export_description">Všetko sa uloží do jedného súboru zašifrovaného heslom, ktoré si zvolíte (aspoň %1$d znakov). Heslo budete potrebovať na import súboru a nedá sa obnoviť.</string>
+    <string name="backup_export_theme_description">Nastavenia vzhľadu a aktuálna tapeta sa uložia do jedného súboru zašifrovaného heslom, ktoré si zvolíte (aspoň %1$d znakov). Heslo budete potrebovať na import témy.</string>
+    <string name="backup_password">Heslo</string>
+    <string name="backup_password_show">Zobraziť heslo</string>
+    <string name="backup_password_hide">Skryť heslo</string>
+    <string name="backup_password_strength">Sila hesla</string>
+    <string name="backup_strength_too_short">Príliš krátke: aspoň %1$d znakov</string>
+    <string name="backup_strength_weak">Slabé: ľahko uhádnuteľné</string>
+    <string name="backup_strength_fair">Prijateľné</string>
+    <string name="backup_strength_strong">Silné</string>
+    <string name="backup_password_too_short">Heslo musí mať aspoň %1$d znakov</string>
+    <string name="backup_exporting">Exportuje sa…</string>
+    <string name="backup_export_saved">Uložené do %1$s</string>
+    <string name="backup_export_kept">Nikam inam sa neuložilo. Súbor zostáva v %1$s</string>
+    <string name="backup_export_shared">Odoslané. Kópia zostáva v %1$s</string>
+    <string name="backup_export_no_file_manager">Súbor nemôže prevziať žiadna aplikácia v tomto zariadení. Je uložený v %1$s</string>
+    <string name="backup_export_failed">Export zlyhal: %1$s</string>
+    <string name="backup_share_title">Odoslať súbor QLaunchera pomocou</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Import nahradí vaše aktuálne nastavenie. Najprv sa vytvorí automatická záloha a po dokončení sa QLauncher reštartuje.</string>
+    <string name="backup_reading">Číta sa súbor…</string>
+    <string name="backup_import_action">Importovať</string>
+    <string name="backup_wrong_password">Nesprávne heslo</string>
+    <string name="backup_password_hint">Heslo zvolené pri exporte súboru</string>
+    <string name="backup_not_a_backup">Toto nie je záloha ani téma QLaunchera alebo Projectivy.</string>
+    <string name="backup_damaged">Súbor je poškodený alebo neúplný.</string>
+    <string name="backup_too_new">Tento súbor vytvorila novšia verzia QLaunchera (formát %1$d). Na import aktualizujte QLauncher.</string>
+    <string name="backup_unreadable">Túto automatickú zálohu nemožno v tomto zariadení prečítať.</string>
+    <string name="backup_import_failed">Import zlyhal a nič sa nezmenilo: %1$s</string>
+    <string name="backup_applying">Importuje sa… Po dokončení sa QLauncher reštartuje.</string>
+    <string name="backup_origin_ql_backup">Záloha nastavení QLaunchera</string>
+    <string name="backup_origin_ql_theme">Téma QLaunchera</string>
+    <string name="backup_origin_pl_backup">Záloha nastavení aplikácie Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Téma aplikácie Projectivy Launcher</string>
+    <string name="backup_origin_auto">Automatická záloha</string>
+    <string name="backup_preview_theme_by">%1$s (autor: %2$s)</string>
+    <string name="backup_preview_version">verzia %1$s</string>
+    <string name="backup_preview_settings">Nastavenia</string>
+    <string name="backup_preview_categories">Kategórie</string>
+    <string name="backup_preview_apps">Prispôsobenia aplikácií</string>
+    <string name="backup_preview_profiles">Profily zobrazenia</string>
+    <string name="backup_preview_files">Tapety a ikony</string>
+    <string name="backup_preview_skipped">Aplikácie, ktoré v tomto zariadení nie sú</string>
+    <string name="backup_replace_setup">Nahradiť aktuálne nastavenie</string>
+    <string name="backup_apply_theme">Použiť tému</string>
+    <string name="backup_replace_detail">Najprv sa vytvorí automatická záloha aktuálneho nastavenia</string>
+    <string name="backup_nc_parental">Rodičovský kód</string>
+    <string name="backup_nc_parental_detail">Neprenáša sa. Nastavte nový kód v časti Rodičovská kontrola.</string>
+    <string name="backup_nc_premium">Stav Premium</string>
+    <string name="backup_nc_premium_detail">Neprenáša sa. Všetky funkcie QLaunchera sú zadarmo.</string>
+    <string name="backup_nc_inputs">TV vstupy</string>
+    <string name="backup_nc_profile_bindings">Priradenia profilov zobrazenia</string>
+    <string name="backup_nc_plugin">Doplnok tapiet</string>
+    <string name="backup_nc_plugin_detail">Doplnok %1$s nie je nainštalovaný. Zdroj tapiet zostane bez zmeny.</string>
+    <string name="backup_nc_icons">Vlastné ikony</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d zmenená hodnota</item>
+        <item quantity="few">%1$d zmenené hodnoty</item>
+        <item quantity="many">%1$d zmenenej hodnoty</item>
+        <item quantity="other">%1$d zmenených hodnôt</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategória</item>
+        <item quantity="few">%1$d kategórie</item>
+        <item quantity="many">%1$d kategórie</item>
+        <item quantity="other">%1$d kategórií</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d aplikácia</item>
+        <item quantity="few">%1$d aplikácie</item>
+        <item quantity="many">%1$d aplikácie</item>
+        <item quantity="other">%1$d aplikácií</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profil</item>
+        <item quantity="few">%1$d profily</item>
+        <item quantity="many">%1$d profilu</item>
+        <item quantity="other">%1$d profilov</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d súbor</item>
+        <item quantity="few">%1$d súbory</item>
+        <item quantity="many">%1$d súboru</item>
+        <item quantity="other">%1$d súborov</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d neznáme nastavenie, preskočené</item>
+        <item quantity="few">%1$d neznáme nastavenia, preskočené</item>
+        <item quantity="many">%1$d neznámeho nastavenia, preskočené</item>
+        <item quantity="other">%1$d neznámych nastavení, preskočené</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d položka nezodpovedá žiadnej tu nainštalovanej aplikácii a preskočí sa</item>
+        <item quantity="few">%1$d položky nezodpovedajú žiadnej tu nainštalovanej aplikácii a preskočia sa</item>
+        <item quantity="many">%1$d položky nezodpovedá žiadnej tu nainštalovanej aplikácii a preskočí sa</item>
+        <item quantity="other">%1$d položiek nezodpovedá žiadnej tu nainštalovanej aplikácii a preskočí sa</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d odkaz na TV vstup, ktorý toto zariadenie nemá, sa preskočí</item>
+        <item quantity="few">%1$d odkazy na TV vstupy, ktoré toto zariadenie nemá, sa preskočia</item>
+        <item quantity="many">%1$d odkazu na TV vstupy, ktoré toto zariadenie nemá, sa preskočí</item>
+        <item quantity="other">%1$d odkazov na TV vstupy, ktoré toto zariadenie nemá, sa preskočí</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d profil priradený k vstupu sa neprenesie</item>
+        <item quantity="few">%1$d profily priradené k vstupom sa neprenesú</item>
+        <item quantity="many">%1$d profilu priradeného k vstupom sa neprenesie</item>
+        <item quantity="other">%1$d profilov priradených k vstupom sa neprenesie</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d ikona uložená v Projectivy sa nedá prečítať a preskočí sa</item>
+        <item quantity="few">%1$d ikony uložené v Projectivy sa nedajú prečítať a preskočia sa</item>
+        <item quantity="many">%1$d ikony uloženej v Projectivy sa nedá prečítať a preskočí sa</item>
+        <item quantity="other">%1$d ikon uložených v Projectivy sa nedá prečítať a preskočí sa</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automatické zálohy</string>
+    <string name="backup_auto_description">QLauncher uchováva v tomto zariadení posledných %1$d verzií vášho nastavenia, zašifrovaných kľúčom, ktorý zariadenie nikdy neopustí. Vyberte jednu a obnovte ju; heslo nie je potrebné.</string>
+    <string name="backup_auto_none">Nie je k dispozícii žiadna automatická záloha</string>
+    <string name="backup_files_title">Súbory záloh</string>
+    <string name="backup_files_theme_title">Súbory tém</string>
+    <string name="backup_files_description">Exporty sa ukladajú do %1$s. S prístupom ku všetkým súborom nájde QLauncher zálohy aj v priečinkoch Download a Documents a na diskoch USB, vrátane záloh z Projectivy.</string>
+    <string name="backup_files_searching">Hľadajú sa súbory záloh…</string>
+    <string name="backup_files_none">Nenašli sa žiadne súbory záloh</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Priečinok QLaunchera</string>
+    <string name="backup_files_access">Nájsť zálohy z iných aplikácií a zariadení</string>
+    <string name="backup_files_access_desc">Povoliť prístup ku všetkým súborom</string>
+    <string name="backup_files_access_unavailable">Toto zariadenie nemá obrazovku nastavení. Povoľte prístup ku všetkým súborom príkazom: %1$s</string>
+    <string name="backup_files_browse">Iné umiestnenie…</string>
+    <string name="backup_files_browse_desc">Vyberte súbor systémovým výberom súborov</string>
+    <string name="backup_auto_delete_all">Odstrániť všetko</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Po zmene</string>
+    <string name="backup_reason_import">Pred importom</string>
+    <string name="backup_reason_migration">Pred aktualizáciou</string>
+    <string name="backup_reason_reset">Pred obnovením predvolených</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profil #</string>
+    <string name="backup_no_picture_manager">Nie je načítaný žiadny správca obrazu</string>
+    <string name="backup_no_picture_manager_detail">Toto zariadenie neponúka žiadny podporovaný spôsob zmeny nastavení obrazu, takže profily si hodnoty uchovajú, ale nepoužijú ich.</string>
+</resources>

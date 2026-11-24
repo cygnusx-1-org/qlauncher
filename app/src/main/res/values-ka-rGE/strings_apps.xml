@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">გაუქმება</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">ყველა აპი</string>
+    <string name="apps_action_edit_categories">კატეგორიების რედაქტირება</string>
+    <string name="apps_action_edit_channels">არხების რედაქტირება</string>
+    <string name="apps_action_launcher_settings">QLauncher-ის პარამეტრები</string>
+    <string name="apps_action_android_settings">Android-ის პარამეტრები</string>
+    <string name="apps_action_amlogic_settings">AmLogic-ის დამატებითი პარამეტრები</string>
+    <string name="apps_action_display_profiles">ეკრანის პროფილები</string>
+    <string name="apps_action_install_apps">მესამე მხარის აპების დაყენება</string>
+    <string name="apps_action_accessibility_service">მარტივი წვდომის სერვისი</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">პროფილის გადართვა</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">ეს მოწყობილობა</string>
+    <string name="apps_action_about_wallpaper">ეს ფონი</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">არცერთი</string>
+    <string name="apps_autostart_screensaver">ეკრანმზოგი</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">არხები</string>
+    <string name="apps_channels_watch_next">შემდეგი საყურებელი</string>
+    <string name="apps_channels_unreadable">ამ არხის წაკითხვა აღარ ხერხდება</string>
+    <string name="apps_channels_hidden">დამალულია სისტემის მიერ</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d არხი</item>
+        <item quantity="other">%d არხი</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">ხატულების ნაკრების გამოყენება</string>
+    <string name="apps_iconpack_apply_message">გამოვიყენოთ %1$s თქვენი აპების ხატულებისთვის?</string>
+    <string name="apps_iconpack_apply_confirm">გამოყენება</string>
+    <string name="apps_iconpack_applied">ხატულების ნაკრები გამოყენებულია</string>
+    <string name="apps_iconpack_apply_missing">ხატულების ნაკრები არ არის მითითებული</string>
+    <string name="apps_iconpack_apply_not_a_pack">ეს აპი ხატულების ნაკრები არ არის</string>
+    <string name="apps_iconpack_none">არცერთი</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">მალსახმობის დამატება</string>
+    <string name="apps_pin_shortcut_message">დავამატოთ „%1$s“ (%2$s) კატეგორიაში „მალსახმობები“?</string>
+    <string name="apps_pin_shortcut_confirm">დამატება</string>
+    <string name="apps_pin_shortcut_added">მალსახმობი დაემატა</string>
+    <string name="apps_pin_shortcut_failed">მალსახმობის დამატება ვერ მოხერხდა</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">მესამე მხარის აპების დაყენება</string>
+    <string name="apps_install_description">აირჩიეთ დასაყენებელი აპი. დაყენებამდე შეიძლება დაგჭირდეთ უცნობი წყაროებიდან დაყენების დაშვება.</string>
+    <string name="apps_install_custom_url">საკუთარი URL / Downloader-ის კოდი</string>
+    <string name="apps_install_custom_url_desc">დარწმუნდით, რომ წყარო სანდოა</string>
+    <string name="apps_install_choose_method">აირჩიეთ დაყენების მეთოდი</string>
+    <string name="apps_install_installed">დაყენებულია</string>
+    <string name="apps_install_category_wallpaper_plugin">ფონის დანამატი</string>
+    <string name="apps_install_category_icon_pack">ხატულების ნაკრები</string>
+    <string name="apps_install_category_file_manager">ფაილების მენეჯერი</string>
+    <string name="apps_install_category_tool">ხელსაწყო</string>
+    <string name="apps_install_method_store">მაღაზია</string>
+    <string name="apps_install_method_direct">პირდაპირი ჩამოტვირთვა</string>
+    <string name="apps_install_method_downloader">Downloader აპი</string>
+    <string name="apps_install_state_downloading">%1$s იტვირთება… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s იტვირთება…</string>
+    <string name="apps_install_state_installing">%1$s ყენდება…</string>
+    <string name="apps_install_state_confirm">დაადასტურეთ %1$s-ის დაყენება</string>
+    <string name="apps_install_state_success">%1$s დაყენებულია</string>
+    <string name="apps_install_state_unknown_sources">მიეცით QLauncher-ს აპების დაყენების ნებართვა, შემდეგ დაბრუნდით გასაგრძელებლად</string>
+    <string name="apps_install_state_downloader_sent">კოდი %1$s გაიგზავნა Downloader-ში</string>
+    <string name="apps_install_state_downloader_type">შეიყვანეთ კოდი %1$s Downloader-ში</string>
+    <string name="apps_install_state_store">გაიხსნა მაღაზიაში</string>
+    <string name="apps_install_state_browser">ეს ბმული ვებგვერდია; ის ბრაუზერში გაიხსნა</string>
+    <string name="apps_install_fail_invalid">ეს არ არის URL ან Downloader-ის კოდი</string>
+    <string name="apps_install_fail_no_usb">USB დისკი ვერ მოიძებნა</string>
+    <string name="apps_install_fail_archive">არქივების დაყენება შეუძლებელია</string>
+    <string name="apps_install_fail_network">ჩამოტვირთვა ვერ მოხერხდა</string>
+    <string name="apps_install_fail_http">სერვერმა შეცდომით უპასუხა (%1$s)</string>
+    <string name="apps_install_fail_not_apk">ფაილი არ არის აპი (APK)</string>
+    <string name="apps_install_fail_unreadable">ფაილის წაკითხვა შეუძლებელია</string>
+    <string name="apps_install_fail_install">დაყენება ვერ მოხერხდა</string>
+    <string name="apps_install_fail_cancelled">დაყენება გაუქმდა</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher-ს არ აქვს აპების დაყენების ნებართვა</string>
+    <string name="apps_install_fail_downloader">Downloader აპი არ არის დაყენებული</string>
+    <string name="apps_install_fail_store">აპების მაღაზია მიუწვდომელია</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">ეს მოწყობილობა</string>
+    <string name="apps_device_brand_manufacturer">ბრენდი / მწარმოებელი</string>
+    <string name="apps_device_device_product">მოწყობილობა / პროდუქტი</string>
+    <string name="apps_device_model">მოდელი</string>
+    <string name="apps_device_hardware">აპარატურა</string>
+    <string name="apps_device_fingerprint">ანაბეჭდი</string>
+    <string name="apps_device_build">ანაწყობი</string>
+    <string name="apps_device_build_desc">ანაწყობის აღწ.</string>
+    <string name="apps_device_device_type">მოწყობილობის ტიპი</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP მისამართი</string>
+    <string name="apps_device_root_access">Root წვდომა</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">სურათის მენეჯერი არ არის</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">დიახ</string>
+    <string name="apps_device_no">არა</string>
+</resources>

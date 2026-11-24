@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">יש להזין שילוב כלשהו של חצים/ספרות ולאשר עם OK</string>
+    <string name="system_parental_confirm_code">יש להזין את הקוד שוב ולאשר עם OK</string>
+    <string name="system_parental_restricted">גישה מוגבלת\nיש להזין את קוד בקרת ההורים</string>
+    <string name="system_parental_wrong_code">קוד שגוי</string>
+    <string name="system_parental_codes_differ">הקודים לא תואמים, יש לנסות שוב</string>
+    <string name="system_parental_code_saved">קוד בקרת ההורים נשמר</string>
+    <string name="system_parental_recovery_code">קוד שחזור: %1$s</string>
+    <string name="system_parental_recovery_help">כדאי לרשום אותו: הוא מוצג רק הפעם. כשמזינים אותו עם החצים (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) הוא פותח את הנעילה כמו קוד בקרת ההורים.</string>
+    <string name="system_parental_press_ok">יש ללחוץ על OK כדי להמשיך</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">קיצורי השלט</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">בית</string>
+    <string name="system_hotkeys_keys_menu_twice">תפריט × 2</string>
+    <string name="system_hotkeys_change_input">החלפת מקור קלט</string>
+    <string name="system_hotkeys_change_profile">החלפת פרופיל תצוגה</string>
+    <string name="system_hotkeys_start_launcher">הפעלת QLauncher</string>
+    <string name="system_hotkeys_home">פתיחת QLauncher; פעמיים: אפליקציות אחרונות</string>
+    <string name="system_hotkeys_close">סגירת העזרה</string>
+    <string name="system_hotkeys_no_inputs">אין מקורות קלט של טלוויזיה במכשיר הזה</string>
+    <string name="system_hotkeys_no_picture_manager">לא נטען מנהל תמונה</string>
+    <string name="system_hotkeys_home_off">כבוי: נדרשים \"עקיפת המשגר הנוכחי\" ומיפוי מחדש של לחצנים</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">זוהה חוסר פעילות של המשתמש, כיבוי בעוד %1$d שנ׳</string>
+    <string name="system_idle_countdown_screen_off">זוהה חוסר פעילות של המשתמש, כיבוי המסך בעוד %1$d שנ׳</string>
+    <string name="system_idle_countdown_screensaver">זוהה חוסר פעילות של המשתמש, שומר המסך יופעל בעוד %1$d שנ׳</string>
+    <string name="system_idle_countdown_cancel">יש ללחוץ על לחצן כלשהו כדי לבטל</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">למכשיר הזה אין קיצור דרך להגדרות הנגישות. אפשר לפתוח אותן מהגדרות Android, בדרך כלל תחת העדפות מכשיר › נגישות.</string>
+    <string name="system_notification_access_no_settings">אין במכשיר הזה מסך של גישה להתראות. אפשר לתת גישה ממחשב באמצעות:</string>
+</resources>

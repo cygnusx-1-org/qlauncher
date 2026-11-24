@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_copyright">Авторско право © 2026 сътрудниците на QLauncher. Свободен софтуер под лиценза GNU General Public License, версия 3.</string>
+    <string name="about_libs">Библиотеки / Благодарности</string>
+    <string name="about_links">Връзки</string>
+    <string name="about_link_project">Страница на проекта</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Превод на български</string>
+    <string name="about_translation_credit">Сътрудниците на QLauncher</string>
+    <string name="about_no_browser">На това устройство няма браузър. Отворете %1$s на друго устройство.</string>
+    <string name="about_check_updates">Проверка за актуализации</string>
+    <string name="about_update_checking">Проверява се…</string>
+    <string name="about_update_latest">QLauncher е актуален (%1$s)</string>
+    <string name="about_update_available">Налична е версия %1$s</string>
+    <string name="about_update_failed">Проверката не бе успешна: %1$s</string>
+    <string name="about_update_install">Инсталиране на QLauncher %1$s</string>
+    <string name="update_available_toast">Наличен е QLauncher %1$s: Настройки › Относно › QLauncher</string>
+</resources>

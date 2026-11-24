@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">재생 중</string>
+    <string name="home_cat_inputs">입력</string>
+    <string name="home_cat_favorites">즐겨찾기</string>
+    <string name="home_cat_video">동영상</string>
+    <string name="home_cat_music">음악</string>
+    <string name="home_cat_games">게임</string>
+    <string name="home_cat_tv_apps">TV 앱</string>
+    <string name="home_cat_mobile_apps">모바일 앱</string>
+    <string name="home_cat_watch_next">다음에 볼 콘텐츠</string>
+    <string name="home_cat_shortcuts">바로가기</string>
+    <string name="home_cat_folders">카테고리 폴더</string>
+    <string name="home_cat_live_tv">실시간 TV</string>
+    <string name="home_cat_settings">설정</string>
+    <string name="home_cat_display">디스플레이</string>
+    <string name="home_cat_applications">앱</string>
+    <string name="home_cat_system">시스템</string>
+    <string name="home_cat_about">정보</string>
+    <string name="home_new_category">새 카테고리</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">모든 앱</string>
+    <string name="home_action_edit_categories">카테고리 편집</string>
+    <string name="home_action_edit_channels">채널 편집</string>
+    <string name="home_action_launcher_settings">QLauncher 설정</string>
+    <string name="home_action_android_settings">Android 설정</string>
+    <string name="home_action_amlogic_settings">AmLogic 추가 설정</string>
+    <string name="home_action_display_profiles">디스플레이 프로필</string>
+    <string name="home_action_install_apps">타사 앱 설치</string>
+    <string name="home_action_accessibility">접근성 서비스</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">프로필 전환</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">이 기기</string>
+    <string name="home_action_about_wallpaper">이 배경화면</string>
+
+    <!-- Program meta -->
+    <string name="home_season">시즌 %1$s</string>
+    <string name="home_episode">에피소드 %1$s</string>
+    <string name="home_minutes">%1$d분</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">연결</string>
+    <string name="home_status_notifications">알림</string>
+    <string name="home_status_settings">설정</string>
+    <string name="home_status_wallpaper">이 배경화면</string>
+    <string name="home_navigation_menu">탐색 메뉴</string>
+    <string name="home_reorder">순서 변경</string>
+    <string name="home_category_settings">카테고리 설정</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">앱 설정</string>
+    <string name="menu_open">열기</string>
+    <string name="menu_details">세부정보</string>
+    <string name="menu_play_pause">재생/일시중지</string>
+    <string name="menu_stop">정지</string>
+    <string name="menu_previous">이전</string>
+    <string name="menu_next">다음</string>
+    <string name="menu_uninstall">제거</string>
+    <string name="menu_launch_on_boot">부팅 시 실행</string>
+    <string name="menu_launch_on_boot_on">부팅 시 실행됨</string>
+    <string name="menu_add_parental">자녀 보호 기능에 추가</string>
+    <string name="menu_remove_parental">자녀 보호 기능에서 삭제</string>
+    <string name="menu_shortcuts">바로가기</string>
+    <string name="menu_appearance">모양</string>
+    <string name="menu_title">제목</string>
+    <string name="menu_change_icon">아이콘 변경</string>
+    <string name="menu_icon_from_picture">사진에서</string>
+    <string name="menu_icon_other_location">다른 위치…</string>
+    <string name="menu_icon_no_pictures">사진을 찾을 수 없습니다. Pictures 또는 Download에 복사하거나 USB 드라이브를 연결하세요.</string>
+    <string name="menu_icon_reset">재설정</string>
+    <string name="menu_crop">채우도록 자르기</string>
+    <string name="menu_visibility">표시 여부</string>
+    <string name="menu_reorder">순서 변경</string>
+    <string name="menu_remove_from">%1$s에서 삭제</string>
+    <string name="menu_hide">숨기기</string>
+    <string name="menu_add_to">추가할 위치…</string>
+    <string name="menu_move_to">이동할 위치…</string>
+    <string name="menu_channels">채널</string>
+    <string name="menu_rename_hint">새 제목을 입력하고 확인을 누르세요</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">제목</string>
+    <string name="editor_change_icon">아이콘 변경</string>
+    <string name="editor_visible">표시</string>
+    <string name="editor_grid">그리드</string>
+    <string name="editor_sliding_row">슬라이딩 행</string>
+    <string name="editor_background">배경 색상</string>
+    <string name="editor_show_title">제목 표시</string>
+    <string name="editor_size">크기</string>
+    <string name="editor_advanced">고급 설정</string>
+    <string name="editor_start_margin">왼쪽 여백</string>
+    <string name="editor_end_margin">오른쪽 여백</string>
+    <string name="editor_top_margin">위쪽 여백</string>
+    <string name="editor_cards_per_row">행당 카드 수</string>
+    <string name="editor_row_count">행 수</string>
+    <string name="editor_auto">자동</string>
+    <string name="editor_auto_value">자동 (%1$s)</string>
+    <string name="editor_sort">정렬</string>
+    <string name="editor_sort_custom">사용자 지정</string>
+    <string name="editor_sort_name">이름순</string>
+    <string name="editor_sort_last">최근 사용순</string>
+    <string name="editor_sort_most">자주 사용순</string>
+    <string name="editor_sort_random">무작위</string>
+    <string name="editor_set_default">기본으로 설정</string>
+    <string name="editor_is_default">기본 카테고리</string>
+    <string name="editor_manage_apps">앱 관리</string>
+    <string name="editor_hidden_items">숨겨진 항목</string>
+    <string name="editor_restore">복원</string>
+    <string name="editor_delete">삭제</string>
+    <string name="editor_delete_confirm">이 카테고리를 삭제하시겠습니까?</string>
+    <string name="editor_empty_note">이 카테고리는 비어 있어서 아직 표시되지 않습니다</string>
+    <string name="editor_request_notifications">알림 권한 요청</string>
+    <string name="editor_channel_error">이 채널을 더 이상 읽을 수 없습니다</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">채널</string>
+    <string name="channels_count">채널 %1$d개</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">알림</string>
+    <string name="notifications_clear_all">모두 지우기</string>
+    <string name="notifications_empty">알림 없음</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">이 앱을 열 수 없습니다</string>
+    <string name="home_reorder_hint">왼쪽/오른쪽으로 이동, 확인 또는 뒤로 버튼으로 완료</string>
+    <string name="home_category_reorder_hint">위/아래로 이동, 확인 또는 뒤로 버튼으로 완료</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">환영합니다!</string>
+    <string name="firstrun_welcome_text">QLauncher는 Android TV용 런처입니다. 앱, 채널, 좋아하는 콘텐츠를 맞춤설정할 수 있는 하나의 홈 화면에 모아 주며, 그 뒤로 배경화면이 바뀌며 표시됩니다.</string>
+    <string name="firstrun_features_title">새로운 초능력</string>
+    <string name="firstrun_features_text">부팅 시 앱 또는 HDMI 입력 실행, 디스플레이 프로필 관리, 자녀 보호 기능으로 앱 잠금, 보정 패턴 표시, 유휴 시간 감지, 홈 화면의 모든 부분 맞춤설정이 가능합니다. 일부 기능은 기기에 따라 다릅니다.</string>
+    <string name="firstrun_a11y_title">접근성 서비스를 켜 볼까요</string>
+    <string name="firstrun_a11y_text">많은 기능에 QLauncher의 접근성 서비스가 필요합니다: 기본 런처 대체, 부팅 시 작업, 리모컨 버튼 제스처, 유휴 감지, 자녀 보호 기능. 지금 켜거나 나중에 설정에서 켤 수 있습니다.</string>
+    <string name="firstrun_a11y_open">접근성 설정 열기</string>
+    <string name="firstrun_permissions_title">괜찮으시다면…</string>
+    <string name="firstrun_permissions_text">다음으로 QLauncher가 TV 편성표 읽기 권한(채널 및 “다음에 볼 콘텐츠”용)과 알림 액세스(알림 아이콘 및 “재생 중”용)를 요청합니다. 둘 다 선택 사항입니다.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">다음으로 QLauncher가 알림 액세스(알림 아이콘 및 “재생 중”용)를 요청합니다. 선택 사항입니다.</string>
+    <string name="firstrun_notifications_dialog">알림 액세스를 허용하시겠습니까?</string>
+    <string name="firstrun_notifications_text">알림 액세스를 허용하면 QLauncher에서 알림 개수, 알림 패널, 재생 중인 콘텐츠를 표시할 수 있습니다. “예”를 선택하면 권한을 부여할 수 있는 “특별한 앱 액세스” 페이지가 열립니다.</string>
+    <string name="firstrun_reports_title">익명 비정상 종료 및 오류 보고서를 보내시겠습니까?</string>
+    <string name="firstrun_reports_text">QLauncher가 비정상 종료되거나 오류가 발생하면 버그를 수정할 수 있도록 앱 버전과 기기 모델이 포함된 보고서를 보낼 수 있습니다. 사용자를 식별하는 정보나 시청 내용은 전송되지 않습니다. 나중에 “일반”에서 변경할 수 있습니다.</string>
+    <string name="firstrun_launcher_title">QLauncher를 홈 화면으로 설정</string>
+    <string name="firstrun_launcher_text">많은 TV 기기에서는 기본 런처를 변경할 수 없습니다. 변경할 수 있다면 그곳에서 QLauncher를 선택하세요. 그렇지 않다면 “현재 런처 대체”와 함께 접근성 서비스를 켜세요. 그러면 기본 런처가 열릴 때마다 QLauncher가 다시 나타납니다.</string>
+    <string name="firstrun_launcher_open">기본 런처 변경</string>
+    <string name="firstrun_start_title">이제 시작해 볼까요!</string>
+    <string name="firstrun_start_text">모든 항목은 나중에 설정에서 변경할 수 있습니다. 오른쪽 위의 설정 버튼을 누르거나 키 순서 ↑→↓←↑→↓←를 입력하세요.</string>
+    <string name="firstrun_get_started">시작하기</string>
+    <string name="firstrun_next">다음</string>
+    <string name="firstrun_skip">건너뛰기</string>
+    <string name="firstrun_yes">예</string>
+    <string name="firstrun_no">아니요</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">이 기기에 화면 보호기가 없습니다</string>
+</resources>

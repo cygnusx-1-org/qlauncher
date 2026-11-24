@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Asnjë</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Ngjyra dinamike</string>
+    <string name="wallpaper_provider_default">Imazhi i parazgjedhur i sfondit</string>
+    <string name="wallpaper_provider_media_file">Skedar media</string>
+    <string name="wallpaper_provider_folder">Dosje</string>
+    <string name="wallpaper_provider_focused_program">Programi në fokus</string>
+    <string name="wallpaper_provider_now_playing">Po luhet tani</string>
+    <string name="wallpaper_provider_random_program">Program i rastësishëm</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Shtojcë</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Imazhe sfondi</string>
+    <string name="wallpaper_wikimedia_nature">Natyra</string>
+    <string name="wallpaper_wikimedia_landscapes">Peizazhe</string>
+    <string name="wallpaper_wikimedia_mountains">Male</string>
+    <string name="wallpaper_wikimedia_forests">Pyje</string>
+    <string name="wallpaper_wikimedia_cities">Qytete</string>
+    <string name="wallpaper_wikimedia_architecture">Arkitektura</string>
+    <string name="wallpaper_wikimedia_night">Nata</string>
+    <string name="wallpaper_wikimedia_space">Hapësira</string>
+    <string name="wallpaper_wikimedia_animals">Kafshë</string>
+    <string name="wallpaper_wikimedia_custom">[Kërkim i personalizuar]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit i personalizuar]</string>
+    <string name="wallpaper_reddit_log_out">Dil</string>
+    <string name="wallpaper_reddit_login_needed">Identifikohu në Reddit për të parë imazhe sfondi prej tij.</string>
+    <string name="wallpaper_reddit_login_title">Identifikohu në Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Po identifikohesh…</string>
+    <string name="wallpaper_reddit_login_denied">Qasja në Reddit nuk u dha, prandaj imazhet e sfondit nga Reddit mbeten të padisponueshme.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Përgjigjja nga Reddit nuk përputhej me këtë përpjekje identifikimi dhe u shpërfill. Provo sërish.</string>
+    <string name="wallpaper_reddit_login_failed">Identifikimi në Reddit dështoi (%1$s). Provo sërish më vonë.</string>
+    <string name="wallpaper_reddit_login_network">Reddit nuk u arrit. Kontrollo lidhjen e rrjetit dhe provo sërish.</string>
+    <string name="wallpaper_reddit_login_page_error">Faqja e identifikimit në Reddit nuk mund të ngarkohej. Kontrollo lidhjen e rrjetit dhe provo sërish.</string>
+    <string name="wallpaper_reddit_no_webview">Kjo pajisje nuk ka komponentin e shfletuesit të uebit (Android System WebView), që i nevojitet identifikimit në Reddit. Instalo ose aktivizo Android System WebView dhe provo sërish.</string>
+    <string name="wallpaper_reddit_retry">Provo sërish</string>
+    <string name="wallpaper_reddit_close">Mbyll</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Nuk ka lidhje me burimin e imazheve të sfondit.</string>
+    <string name="wallpaper_error_server">Burimi i imazheve të sfondit u përgjigj me një gabim.</string>
+    <string name="wallpaper_error_rate_limited">Burimi i imazheve të sfondit kërkoi të pritet para kërkesës së radhës.</string>
+    <string name="wallpaper_error_generic">Imazhet e sfondit nuk mund të ngarkoheshin.</string>
+    <string name="wallpaper_error_no_media">Nuk është zgjedhur asnjë foto, video ose ngjyrë.</string>
+    <string name="wallpaper_error_no_folder">Nuk është zgjedhur asnjë dosje.</string>
+    <string name="wallpaper_error_folder_access">Dosja nuk mund të lexohet. Zgjidhe sërish.</string>
+    <string name="wallpaper_error_folder_empty">Dosja nuk ka foto, video ose animacione Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Tema aktuale nuk ka imazhe sfondi.</string>
+    <string name="wallpaper_error_no_channels">Kanalet nuk janë të disponueshme. Aktivizoji dhe lejo qasjen te programi televiziv.</string>
+    <string name="wallpaper_error_no_notification_access">„Po luhet tani“ kërkon qasje te njoftimet.</string>
+    <string name="wallpaper_error_no_subreddit">Nuk është caktuar asnjë subreddit i vlefshëm.</string>
+    <string name="wallpaper_error_plugin">Shtojca e imazhit të sfondit nuk u përgjigj.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Imazhi i sfondit u caktua</string>
+    <string name="wallpaper_set_failed">Ky skedar nuk mund të përdoret si imazh sfondi.</string>
+</resources>

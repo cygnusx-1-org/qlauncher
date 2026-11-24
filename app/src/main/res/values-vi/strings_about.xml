@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Phiên bản %1$s</string>
+    <string name="about_copyright">Bản quyền © 2026 những người đóng góp cho QLauncher. Phần mềm tự do theo GNU General Public License, phiên bản 3.</string>
+    <string name="about_libs">Thư viện / Ghi công</string>
+    <string name="about_links">Liên kết</string>
+    <string name="about_link_project">Trang dự án</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Bản dịch tiếng Việt</string>
+    <string name="about_translation_credit">Những người đóng góp cho QLauncher</string>
+    <string name="about_no_browser">Không có trình duyệt trên thiết bị này. Hãy mở %1$s trên thiết bị khác.</string>
+    <string name="about_check_updates">Kiểm tra bản cập nhật</string>
+    <string name="about_update_checking">Đang kiểm tra…</string>
+    <string name="about_update_latest">QLauncher đang là phiên bản mới nhất (%1$s)</string>
+    <string name="about_update_available">Đã có phiên bản %1$s</string>
+    <string name="about_update_failed">Không thể kiểm tra: %1$s</string>
+    <string name="about_update_install">Cài đặt QLauncher %1$s</string>
+    <string name="update_available_toast">Đã có QLauncher %1$s: Cài đặt › Giới thiệu › QLauncher</string>
+</resources>

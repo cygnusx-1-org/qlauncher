@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Nastavenia</string>
+    <string name="settings_breadcrumb_display">Zobrazenie</string>
+    <string name="settings_breadcrumb_applications">Aplikácie</string>
+    <string name="settings_breadcrumb_system">Systém</string>
+    <string name="settings_breadcrumb_about">Informácie</string>
+    <string name="settings_root_title">Nastavenia QLaunchera</string>
+    <string name="settings_root_description">Konfigurácia nastavení aplikácie.</string>
+    <string name="settings_legend_a11y_required">Vyžaduje službu dostupnosti</string>
+    <string name="settings_legend_a11y_recommended">Odporúča sa služba dostupnosti</string>
+    <string name="settings_legend_experimental">Experimentálne</string>
+    <string name="settings_launcher_related">Nastavenia súvisiace s launcherom</string>
+
+    <string name="settings_general">Všeobecné</string>
+    <string name="settings_appearance">Vzhľad</string>
+    <string name="settings_power">Napájanie</string>
+    <string name="settings_parental">Rodičovská kontrola</string>
+    <string name="settings_remote">Diaľkové ovládanie</string>
+    <string name="settings_accessibility">Služba dostupnosti</string>
+    <string name="settings_display_profiles">Profily zobrazenia</string>
+    <string name="settings_manage">Správa nastavení</string>
+
+    <!-- General -->
+    <string name="settings_language">Zmeniť jazyk aplikácie</string>
+    <string name="settings_language_system">Podľa systému</string>
+    <string name="settings_default_launcher">Zmeniť predvolený launcher</string>
+    <string name="settings_default_launcher_unavailable">Toto zariadenie neumožňuje zmeniť predvolený launcher. Použite namiesto toho „Nahradiť aktuálny launcher“.</string>
+    <string name="settings_override_home">Nahradiť aktuálny launcher</string>
+    <string name="settings_override_home_desc">Zachytávať volania aktuálneho launchera (užitočné, ak pôvodný nemôžete zmeniť ani odstrániť)</string>
+    <string name="settings_enable_channels">Zapnúť kanály</string>
+    <string name="settings_enable_channels_desc">Ak ich nepoužívate, ich vypnutím zrýchlite spúšťanie a ušetríte pamäť</string>
+    <string name="settings_programs_per_channel">Relácií na kanál</string>
+    <string name="settings_crash_error_reports">Zapnúť anonymné hlásenia zlyhaní a chýb</string>
+    <string name="settings_reports_desc">Odosiela sa iba chyba, verzia aplikácie a model zariadenia</string>
+    <string name="settings_check_updates">Skontrolovať aktualizácie</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategórie / Kanály</string>
+    <string name="settings_cards">Karty</string>
+    <string name="settings_wallpaper">Tapeta</string>
+    <string name="settings_status_bar">Stavový riadok</string>
+    <string name="settings_left_headers">Hlavičky vľavo</string>
+    <string name="settings_idle_mode">Režim nečinnosti launchera</string>
+    <string name="settings_font">Písmo</string>
+    <string name="settings_themes">Témy</string>
+    <string name="settings_themes_desc">Importovať / Exportovať</string>
+    <string name="settings_load_cards_scrolling">Načítavať karty počas posúvania</string>
+    <string name="settings_load_cards_scrolling_desc">Rýchlejšia odozva na úkor plynulosti</string>
+    <string name="settings_accent">Farba zvýraznenia</string>
+    <string name="settings_accent_desc">Zapnite dynamickú farbu, aby sa riadila tapetou</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Zobraziť názov</string>
+    <string name="settings_show_icon_title">Zobraziť ikonu pred názvom</string>
+    <string name="settings_rows_spacing">Zvislé rozstupy (výška obrazovky v %)</string>
+    <string name="settings_fixed_position">Zachovať pevnú pozíciu vybranej kategórie</string>
+    <string name="settings_hide_rows_above">Skryť riadky nad výberom</string>
+    <string name="settings_remember_focus">Pamätať si pozíciu vybranej karty</string>
+    <string name="settings_unselected_opacity">Nepriehľadnosť nevybraných riadkov</string>
+    <string name="settings_top_margin">Horný okraj</string>
+    <string name="settings_start_margin">Okraj na začiatku</string>
+    <string name="settings_end_margin">Okraj na konci</string>
+    <string name="settings_dock_padding">Odsadenie doku</string>
+    <string name="settings_tint_custom_icons">Tónovať vlastné ikony</string>
+    <string name="settings_tint_custom_icons_desc">Pre vlastné ikony bez pozadia</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Zaoblené rohy</string>
+    <string name="settings_cards_size">Veľkosť kariet</string>
+    <string name="settings_cards_spacing">Rozstupy kariet</string>
+    <string name="settings_loop_limit">Limit opakovania animovaných ikon</string>
+    <string name="settings_ripple">Efekt vlnenia pri stlačení karty</string>
+    <string name="settings_background_color">Farba pozadia</string>
+    <string name="settings_focused_card">Vybraná karta</string>
+    <string name="settings_program_cards">Karty relácií</string>
+    <string name="settings_tv_ratio">Pomer strán kariet aplikácií pre TV</string>
+    <string name="settings_mobile_ratio">Pomer strán kariet mobilných aplikácií</string>
+    <string name="settings_icon_pack">Balík ikon</string>
+    <string name="settings_icon_pack_none">Nie je nainštalovaný žiadny balík ikon</string>
+    <string name="settings_icon_pack_off">Žiadny</string>
+    <string name="settings_more">Ďalšie…</string>
+    <string name="settings_custom_icon_tint">Tónovanie vlastných ikon</string>
+    <string name="settings_ratio_16_9">16:9</string>
+    <string name="settings_ratio_1_1">1:1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Veľkosť vybranej karty</string>
+    <string name="settings_focused_effect">Efekt vybranej karty</string>
+    <string name="settings_effect_none">Žiadny</string>
+    <string name="settings_effect_shadow">Vrhnutý tieň</string>
+    <string name="settings_effect_glow">Žiara</string>
+    <string name="settings_glow_animation">Animácia žiary</string>
+    <string name="settings_anim_none">Žiadna</string>
+    <string name="settings_anim_pulse">Pulzovanie</string>
+    <string name="settings_anim_breath">Dýchanie</string>
+    <string name="settings_anim_fade">Prelínanie</string>
+    <string name="settings_anim_shine">Lesk</string>
+    <string name="settings_glow_size">Veľkosť žiary</string>
+    <string name="settings_glow_color">Farba žiary</string>
+    <string name="settings_glow_color_desc">Nechajte prázdne, ak chcete použiť vlastnú farbu karty</string>
+    <string name="settings_colors_override">Prepísanie farieb</string>
+    <string name="settings_override_none">Žiadne</string>
+    <string name="settings_override_swap">Vymeniť pozadie/tónovanie</string>
+    <string name="settings_override_custom">Vlastné</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Prehrať ukážkové video</string>
+    <string name="settings_preview_never">Nikdy</string>
+    <string name="settings_preview_always">Vždy</string>
+    <string name="settings_preview_no_media">Keď na pozadí neprehrávajú žiadne médiá</string>
+    <string name="settings_show_progress">Zobraziť indikátor priebehu</string>
+    <string name="settings_show_badge">Zobraziť odznak</string>
+    <string name="settings_zoom_focus">Efekt priblíženia pri výbere</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Podporované formáty: statický obrázok, animovaný GIF, video (súbor alebo živý prenos RTSP), animácia Lottie</string>
+    <string name="settings_launcher_wallpaper">Tapeta launchera</string>
+    <string name="settings_configure">Konfigurovať</string>
+    <string name="settings_show_wallpapers">Zobraziť tapety</string>
+    <string name="settings_picture_adjustment">Úprava obrazu</string>
+    <string name="settings_image_transition">Prechod obrázkov</string>
+    <string name="settings_update_frequency">Frekvencia aktualizácie (min)</string>
+    <string name="settings_video_wallpaper">Video tapeta</string>
+    <string name="settings_display_mode">Režim zobrazenia</string>
+    <string name="settings_bad_ratio">Pri zlom pomere strán/kvalite</string>
+    <string name="settings_min_width">Minimálna prijateľná šírka (px)</string>
+    <string name="settings_src_none">Žiadna</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dynamické farby</string>
+    <string name="settings_src_default">Predvolená tapeta</string>
+    <string name="settings_src_media">Mediálny súbor</string>
+    <string name="settings_src_folder">Priečinok</string>
+    <string name="settings_src_focused_program">Vybraná relácia</string>
+    <string name="settings_src_now_playing">Práve hrá</string>
+    <string name="settings_src_random_program">Náhodná relácia</string>
+    <string name="settings_src_theme">Téma</string>
+    <string name="settings_tr_none">Žiadny</string>
+    <string name="settings_tr_random">Náhodný</string>
+    <string name="settings_tr_fade">Prelínanie</string>
+    <string name="settings_tr_zoom">Priblíženie</string>
+    <string name="settings_tr_hslide">Vodorovný posun</string>
+    <string name="settings_tr_vslide">Zvislý posun</string>
+    <string name="settings_dm_automatic">Automaticky</string>
+    <string name="settings_dm_skip">Preskočiť</string>
+    <string name="settings_dm_crop">Orezať</string>
+    <string name="settings_dm_stretch">Roztiahnuť</string>
+    <string name="settings_dm_fit">Prispôsobiť na stred</string>
+    <string name="settings_dm_fit_blur">Prispôsobiť na stred + rozmazané pozadie</string>
+    <string name="settings_dm_blur">Rozmazať</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Odtieň</string>
+    <string name="settings_saturation">Sýtosť</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Jas</string>
+    <string name="settings_tint">Tónovanie</string>
+    <string name="settings_tint_amount">Miera tónovania</string>
+    <string name="settings_blur">Rozmazanie</string>
+    <string name="settings_shadow_h">Dĺžka vodorovného tieňového prekrytia</string>
+    <string name="settings_shadow_v">Dĺžka zvislého tieňového prekrytia</string>
+    <string name="settings_shadow_opacity">Nepriehľadnosť tieňového prekrytia</string>
+    <string name="settings_shadow_tint">Tónovanie tieňového prekrytia</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Ignorovať frekvenciu aktualizácie</string>
+    <string name="settings_ignore_update_desc">Pred vyžiadaním novej tapety počkať na koniec videa</string>
+    <string name="settings_video_color_freq">Frekvencia aktualizácie dynamickej farby</string>
+    <string name="settings_video_color_freq_desc">Počet sekúnd medzi snímkami videa, z ktorých sa čítajú farby; 0 funkciu vypne</string>
+    <string name="settings_volume">Hlasitosť</string>
+    <string name="settings_tunneling">Použiť hardvérové vykresľovanie (tunelovanie)</string>
+    <string name="settings_decoder_fallback">Zapnúť záložné dekodéry</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Spravovať povolenie upozornení</string>
+    <string name="settings_granted">Udelené</string>
+    <string name="settings_not_granted">Neudelené</string>
+    <string name="settings_notification_adb">Toto zariadenie nemá obrazovku nastavení. Udeľte ho príkazom: %1$s</string>
+    <string name="settings_clock">Hodiny</string>
+    <string name="settings_icons">Ikony</string>
+    <string name="settings_show_system_bar">Zobraziť systémový stavový riadok</string>
+    <string name="settings_autohide_status">Skryť stavový riadok pri posúvaní</string>
+    <string name="settings_show_clock">Zobraziť hodiny</string>
+    <string name="settings_clock_size">Veľkosť písma hodín</string>
+    <string name="settings_clock_color">Farba hodín</string>
+    <string name="settings_drop_shadow">Vrhnutý tieň</string>
+    <string name="settings_clock_line1">Formát hodín (riadok 1)</string>
+    <string name="settings_clock_line2">Formát hodín (riadok 2)</string>
+    <string name="settings_clock_default_format">Systémový formát</string>
+    <string name="settings_empty">Prázdne</string>
+    <string name="settings_icons_size">Veľkosť ikon</string>
+    <string name="settings_icons_color">Farba ikon</string>
+    <string name="settings_icons_container">Farba podkladu ikon</string>
+    <string name="settings_show_settings">Zobraziť nastavenia</string>
+    <string name="settings_show_settings_desc">Nastavenia zostanú dostupné touto postupnosťou tlačidiel: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Zobraziť pripojenie</string>
+    <string name="settings_show_notifications">Zobraziť upozornenia</string>
+    <string name="settings_autohide_notifications">Skryť ikonu upozornení, keď nie sú žiadne</string>
+    <string name="settings_show_battery">Zobraziť batériu</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Zapnúť</string>
+    <string name="settings_headers_on_launch">Zobraziť hlavičky vľavo pri spustení</string>
+    <string name="settings_show_icon">Zobraziť ikonu</string>
+    <string name="settings_show_reorder">Zobraziť zmenu poradia</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Čas do nečinnosti (min)</string>
+    <string name="settings_idle_opacity">Nepriehľadnosť rozhrania</string>
+    <string name="settings_keep_clock">Ponechať hodiny</string>
+    <string name="settings_prevent_screensaver">Zabrániť systémovému šetriču obrazovky</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Zmeňte nastavenia písma QLaunchera. Názvy rodín písiem nájdete na Google Fonts.</string>
+    <string name="settings_font_list">Vybrať zo zoznamu</string>
+    <string name="settings_font_google">Písmo (Google Fonts)</string>
+    <string name="settings_font_default">Predvolené</string>
+    <string name="settings_bold">Tučné</string>
+    <string name="settings_italic">Kurzíva</string>
+    <string name="settings_size">Veľkosť</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Automatické spustenie pri štarte</string>
+    <string name="settings_autostart_none">Nič</string>
+    <string name="settings_autostart_screensaver">[*] Šetrič obrazovky (ak je podporovaný)</string>
+    <string name="settings_autostart_resume">…a po prebudení z pohotovostného režimu</string>
+    <string name="settings_autostart_delay">Oneskorenie automatického spustenia (sekundy)</string>
+    <string name="settings_simulate_activity">Zabrániť automatickému vypnutiu systému pri nečinnosti</string>
+    <string name="settings_idle_detection">Zapnúť internú detekciu nečinnosti</string>
+    <string name="settings_idle_timeout_power">Časový limit nečinnosti (hod:min)</string>
+    <string name="settings_idle_action">Akcia pri nečinnosti</string>
+    <string name="settings_idle_action_shutdown">Vypnúť</string>
+    <string name="settings_idle_action_screen_off">Vypnúť obrazovku</string>
+    <string name="settings_idle_action_screensaver">Šetrič obrazovky (ak je podporovaný)</string>
+    <string name="settings_idle_media">Ignorovať nečinnosť počas prehrávania médií</string>
+    <string name="settings_missing_notification_permission">⚠️ Chýba povolenie upozornení</string>
+    <string name="settings_shutdown_action">Spôsob vypnutia</string>
+    <string name="settings_shutdown_dialog">Dialóg napájania</string>
+    <string name="settings_shutdown_dialog_twice">Dialóg napájania (vyvolať dvakrát)</string>
+    <string name="settings_shutdown_dialog_ok">Dialóg napájania + OK</string>
+    <string name="settings_hdmi_exit">Automaticky vypnúť, keď zmizne signál vstupu HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Nastavte kód, ktorý zamkne vybrané aplikácie (vyberiete ich dlhým stlačením karty na domovskej obrazovke), na celý deň alebo iba na jeho časť</string>
+    <string name="settings_parental_set_code">Nastaviť nový rodičovský kód</string>
+    <string name="settings_parental_code_set">Kód je nastavený</string>
+    <string name="settings_parental_long">Po úspešnom overení nevyžadovať kód 15 minút</string>
+    <string name="settings_parental_protect">Chrániť nastavenia launchera a zmeny rozhrania</string>
+    <string name="settings_parental_protect_desc">(platí nepretržite)</string>
+    <string name="settings_parental_partial">Zapnúť ochranu iba v čase medzi</string>
+    <string name="settings_parental_start">Začiatok (hod:min)</string>
+    <string name="settings_parental_end">Koniec (hod:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Zobraziť informácie dvojitým stlačením „Menu“</string>
+    <string name="settings_back_double">„Ambientný režim“ dvojitým stlačením „Späť“</string>
+    <string name="settings_back_double_desc">Spustí šetrič obrazovky na podporovaných zariadeniach</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Zapnite službu, aby ste mohli spúšťať akciu pri štarte, prispôsobiť tlačidlá diaľkového ovládača, posilniť rodičovskú kontrolu a zisťovať nečinnosť na riadenie napájania. Vidí stlačenia hardvérových tlačidiel a názov aplikácie v popredí; oboje zostáva iba v pamäti tohto zariadenia a nikam sa neodosiela.</string>
+    <string name="settings_a11y_enabled">Povolené</string>
+    <string name="settings_a11y_started">Spustené</string>
+    <string name="settings_yes">Áno</string>
+    <string name="settings_no">Nie</string>
+    <string name="settings_a11y_open">Zobraziť nastavenia dostupnosti</string>
+    <string name="settings_a11y_consent_title">Služba dostupnosti</string>
+    <string name="settings_a11y_consent">Týmto QLauncheru umožníte vidieť stlačenia hardvérových tlačidiel a názov aplikácie v popredí. Oboje sa uchováva iba v pamäti tohto zariadenia a nikam sa neodosiela. Súhlasíte?</string>
+    <string name="settings_a11y_alternate">Použiť alternatívnu konfiguráciu</string>
+    <string name="settings_a11y_alternate_desc">Rieši problémy na niektorých zariadeniach</string>
+    <string name="settings_a11y_volume_fix">Oprava tlačidiel hlasitosti</string>
+    <string name="settings_a11y_volume_fix_desc">Pri stlačení hlasitosti nakrátko preruší premapovanie, aby dlhé stlačenie naďalej fungovalo</string>
+    <string name="settings_a11y_remap">Zapnúť premapovanie tlačidiel</string>
+    <string name="settings_a11y_remap_desc">Služba zachytáva stlačenia tlačidiel. Vypnutím predídete problémom s dlhým stlačením hlasitosti a ukončovaním služby systémom, ale nahradenie launchera, rodičovská kontrola a zisťovanie nečinnosti môžu byť menej účinné.</string>
+    <string name="settings_a11y_reminder">Zobraziť pripomenutie</string>
+    <string name="settings_a11y_reminder_desc">Ak je služba dostupnosti vypnutá</string>
+    <string name="settings_a11y_unbound_toast">Služba dostupnosti QLaunchera nie je spustená</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importujte alebo exportujte nastavenia lokálne alebo pomocou inej aplikácie, napríklad LocalSend alebo správcu súborov.</string>
+    <string name="settings_import">Importovať</string>
+    <string name="settings_import_file">Zo súboru</string>
+    <string name="settings_import_auto">Z automatickej zálohy</string>
+    <string name="settings_export">Exportovať</string>
+    <string name="settings_export_local">Uložiť lokálne</string>
+    <string name="settings_export_share">Zdieľať s inou aplikáciou</string>
+    <string name="settings_reset">Obnoviť predvolené</string>
+    <string name="settings_cancel">Zrušiť</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategória</string>
+    <string name="wp_custom_search">Vlastné vyhľadávanie</string>
+    <string name="wp_reddit_login">Prihlásiť sa</string>
+    <string name="wp_reddit_logout">Odhlásiť: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Odhlásiť</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Vlastný subreddit</string>
+    <string name="wp_custom_subreddit_hint">Viac názvov oddelených znakom +</string>
+    <string name="wp_folder">Priečinok</string>
+    <string name="wp_folder_choose">Vybrať priečinok</string>
+    <string name="wp_media">Mediálny súbor</string>
+    <string name="wp_media_choose">Vybrať súbor</string>
+    <string name="wp_choose_other">Iné umiestnenie…</string>
+    <string name="wp_choose_other_desc">Vybrať systémovým výberom súborov</string>
+    <string name="wp_media_searching">Hľadajú sa obrázky a videá…</string>
+    <string name="wp_media_none">Nenašli sa žiadne obrázky ani videá. Skopírujte nejaké do priečinka Pictures, Movies alebo Download, alebo pripojte disk USB.</string>
+    <string name="wp_folders_description">Priečinky s obrázkami alebo videami v tomto zariadení a na diskoch USB.</string>
+    <string name="wp_folders_none">Nenašli sa žiadne priečinky s obrázkami alebo videami</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d súbor</item>
+        <item quantity="few">%d súbory</item>
+        <item quantity="many">%d súboru</item>
+        <item quantity="other">%d súborov</item>
+    </plurals>
+    <string name="wp_media_color">Jednofarebné pozadie</string>
+    <string name="wp_theme_desc">Tapety obsiahnuté v importovanej téme</string>
+    <string name="wp_plugin_settings">Nastavenia doplnku</string>
+    <string name="wp_not_set">Nenastavené</string>
+    <string name="wp_status">Stav</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Táto tapeta</string>
+    <string name="wp_next">Ďalšia</string>
+    <string name="wp_source">Zdroj</string>
+    <string name="wp_title">Názov</string>
+    <string name="wp_author">Autor</string>
+    <string name="wp_set_user">Nastaviť ako používateľskú tapetu</string>
+    <string name="wp_view">Zobraziť</string>
+    <string name="wp_unknown">Neznáme</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Tu môžete vytvárať a spravovať profily zobrazenia videa. Priraďte ich k vstupom, aby sa menili automaticky, alebo ich použite dvojitým stlačením tlačidla Menu a potom šípkou nahor alebo nadol.</string>
+    <string name="dp_list">Zoznam profilov zobrazenia</string>
+    <string name="dp_list_desc">Tu môžete vytvárať a upravovať profily zobrazenia videa. V závislosti od zariadenia niektoré ovládacie prvky vyžadujú root alebo vôbec nefungujú; sú určené pre zariadenia AmLogic.</string>
+    <string name="dp_add">Pridať nový…</string>
+    <string name="dp_name">Názov profilu</string>
+    <string name="dp_preview">Náhľad</string>
+    <string name="dp_fullscreen">Náhľad na celú obrazovku</string>
+    <string name="dp_fullscreen_desc">alebo prepínajte tlačidlom Menu</string>
+    <string name="dp_delete">Odstrániť profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Inštalovať aplikácie tretích strán</string>
+    <string name="install_desc">Vyberte aplikáciu na inštaláciu. Možno bude najprv potrebné povoliť inštaláciu z neznámych zdrojov.</string>
+    <string name="install_custom">Vlastná URL / kód pre Downloader</string>
+    <string name="install_custom_desc">Používajte iba zdroj, ktorému dôverujete</string>
+    <string name="install_status">Stav</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Toto zariadenie</string>
+
+    <string name="gallery_filter">Filtrovať…</string>
+    <string name="settings_no_file_picker">Toto zariadenie nemá výber súborov</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Svetlosť</string>
+    <string name="color_opacity">Nepriehľadnosť</string>
+    <string name="color_prefer_dynamic">Uprednostniť dynamickú farbu</string>
+    <string name="color_prefer_dynamic_desc">Ak je k dispozícii, zachová túto svetlosť/nepriehľadnosť</string>
+    <string name="color_clear">Vymazať</string>
+    <string name="color_reset">Obnoviť predvolené</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">无</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">动态颜色</string>
+    <string name="wallpaper_provider_default">默认壁纸</string>
+    <string name="wallpaper_provider_media_file">媒体文件</string>
+    <string name="wallpaper_provider_folder">文件夹</string>
+    <string name="wallpaper_provider_focused_program">当前选中的节目</string>
+    <string name="wallpaper_provider_now_playing">正在播放</string>
+    <string name="wallpaper_provider_random_program">随机节目</string>
+    <string name="wallpaper_provider_theme">主题</string>
+    <string name="wallpaper_provider_unknown_plugin">插件</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">壁纸</string>
+    <string name="wallpaper_wikimedia_nature">自然</string>
+    <string name="wallpaper_wikimedia_landscapes">风景</string>
+    <string name="wallpaper_wikimedia_mountains">山脉</string>
+    <string name="wallpaper_wikimedia_forests">森林</string>
+    <string name="wallpaper_wikimedia_cities">城市</string>
+    <string name="wallpaper_wikimedia_architecture">建筑</string>
+    <string name="wallpaper_wikimedia_night">夜晚</string>
+    <string name="wallpaper_wikimedia_space">太空</string>
+    <string name="wallpaper_wikimedia_animals">动物</string>
+    <string name="wallpaper_wikimedia_custom">[自定义搜索]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[自定义子版块]</string>
+    <string name="wallpaper_reddit_log_out">退出登录</string>
+    <string name="wallpaper_reddit_login_needed">登录 Reddit 后即可查看其中的壁纸。</string>
+    <string name="wallpaper_reddit_login_title">登录 Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">正在登录…</string>
+    <string name="wallpaper_reddit_login_denied">未获得 Reddit 访问授权，因此 Reddit 壁纸仍不可用。</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit 返回的响应与本次登录请求不匹配，已被忽略。请重试。</string>
+    <string name="wallpaper_reddit_login_failed">登录 Reddit 失败（%1$s）。请稍后重试。</string>
+    <string name="wallpaper_reddit_login_network">无法连接到 Reddit。请检查网络连接后重试。</string>
+    <string name="wallpaper_reddit_login_page_error">无法加载 Reddit 登录页面。请检查网络连接后重试。</string>
+    <string name="wallpaper_reddit_no_webview">此设备没有 Reddit 登录所需的网页浏览器组件（Android System WebView）。请安装或启用 Android System WebView 后重试。</string>
+    <string name="wallpaper_reddit_retry">重试</string>
+    <string name="wallpaper_reddit_close">关闭</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">无法连接到壁纸来源。</string>
+    <string name="wallpaper_error_server">壁纸来源返回了错误。</string>
+    <string name="wallpaper_error_rate_limited">壁纸来源要求稍候再发送下一个请求。</string>
+    <string name="wallpaper_error_generic">无法加载壁纸。</string>
+    <string name="wallpaper_error_no_media">尚未选择图片、视频或颜色。</string>
+    <string name="wallpaper_error_no_folder">尚未选择文件夹。</string>
+    <string name="wallpaper_error_folder_access">无法读取该文件夹。请重新选择。</string>
+    <string name="wallpaper_error_folder_empty">该文件夹中没有图片、视频或 Lottie 动画。</string>
+    <string name="wallpaper_error_theme_empty">当前主题没有壁纸。</string>
+    <string name="wallpaper_error_no_channels">频道不可用。请启用频道并允许访问电视节目单。</string>
+    <string name="wallpaper_error_no_notification_access">“正在播放”需要通知使用权。</string>
+    <string name="wallpaper_error_no_subreddit">未设置有效的子版块。</string>
+    <string name="wallpaper_error_plugin">壁纸插件没有响应。</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">壁纸已设置</string>
+    <string name="wallpaper_set_failed">此文件无法用作壁纸。</string>
+</resources>

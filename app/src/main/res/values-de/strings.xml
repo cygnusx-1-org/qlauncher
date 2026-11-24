@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Als QLauncher-Hintergrundbild festlegen</string>
+    <string name="import_settings">In QLauncher importieren</string>
+    <string name="accessibility_service_description">QLauncher erkennt Tastendrücke der Hardware und den Namen der App im Vordergrund, um den vorinstallierten Launcher zu ersetzen, Aktionen beim Hochfahren auszuführen, Fernbedienungstasten neu zu belegen, Inaktivität zu erkennen und die Kindersicherung durchzusetzen. Beides bleibt im Speicher dieses Geräts und wird nirgendwohin gesendet.</string>
+</resources>

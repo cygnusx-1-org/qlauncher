@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Сега се възпроизвежда</string>
+    <string name="home_cat_inputs">Входове</string>
+    <string name="home_cat_favorites">Любими</string>
+    <string name="home_cat_video">Видео</string>
+    <string name="home_cat_music">Музика</string>
+    <string name="home_cat_games">Игри</string>
+    <string name="home_cat_tv_apps">ТВ приложения</string>
+    <string name="home_cat_mobile_apps">Мобилни приложения</string>
+    <string name="home_cat_watch_next">Следващо за гледане</string>
+    <string name="home_cat_shortcuts">Преки пътища</string>
+    <string name="home_cat_folders">Папки с категории</string>
+    <string name="home_cat_live_tv">Телевизия на живо</string>
+    <string name="home_cat_settings">Настройки</string>
+    <string name="home_cat_display">Екран</string>
+    <string name="home_cat_applications">Приложения</string>
+    <string name="home_cat_system">Система</string>
+    <string name="home_cat_about">Относно</string>
+    <string name="home_new_category">Нова категория</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Всички приложения</string>
+    <string name="home_action_edit_categories">Редактиране на категориите</string>
+    <string name="home_action_edit_channels">Редактиране на каналите</string>
+    <string name="home_action_launcher_settings">Настройки на QLauncher</string>
+    <string name="home_action_android_settings">Настройки на Android</string>
+    <string name="home_action_amlogic_settings">Допълнителни настройки на AmLogic</string>
+    <string name="home_action_display_profiles">Профили на екрана</string>
+    <string name="home_action_install_apps">Инсталиране на приложения от трети страни</string>
+    <string name="home_action_accessibility">Услуга за достъпност</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Смяна на профила</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Това устройство</string>
+    <string name="home_action_about_wallpaper">Този тапет</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Сезон %1$s</string>
+    <string name="home_episode">Епизод %1$s</string>
+    <string name="home_minutes">%1$d мин</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Свързаност</string>
+    <string name="home_status_notifications">Известия</string>
+    <string name="home_status_settings">Настройки</string>
+    <string name="home_status_wallpaper">Този тапет</string>
+    <string name="home_navigation_menu">Меню за навигация</string>
+    <string name="home_reorder">Пренареждане</string>
+    <string name="home_category_settings">Настройки на категорията</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Настройки на приложението</string>
+    <string name="menu_open">Отваряне</string>
+    <string name="menu_details">Подробности</string>
+    <string name="menu_play_pause">Пускане/Пауза</string>
+    <string name="menu_stop">Спиране</string>
+    <string name="menu_previous">Предишно</string>
+    <string name="menu_next">Следващо</string>
+    <string name="menu_uninstall">Деинсталиране</string>
+    <string name="menu_launch_on_boot">Стартиране при включване</string>
+    <string name="menu_launch_on_boot_on">Стартира се при включване</string>
+    <string name="menu_add_parental">Добавяне към родителския контрол</string>
+    <string name="menu_remove_parental">Премахване от родителския контрол</string>
+    <string name="menu_shortcuts">Преки пътища</string>
+    <string name="menu_appearance">Външен вид</string>
+    <string name="menu_title">Заглавие</string>
+    <string name="menu_change_icon">Промяна на иконата</string>
+    <string name="menu_icon_from_picture">От изображение</string>
+    <string name="menu_icon_other_location">Друго местоположение…</string>
+    <string name="menu_icon_no_pictures">Няма намерени изображения. Копирайте някои в Pictures или Download или включете USB устройство.</string>
+    <string name="menu_icon_reset">Нулиране</string>
+    <string name="menu_crop">Изрязване за запълване</string>
+    <string name="menu_visibility">Видимост</string>
+    <string name="menu_reorder">Пренареждане</string>
+    <string name="menu_remove_from">Премахване от „%1$s“</string>
+    <string name="menu_hide">Скриване</string>
+    <string name="menu_add_to">Добавяне към…</string>
+    <string name="menu_move_to">Преместване в…</string>
+    <string name="menu_channels">Канали</string>
+    <string name="menu_rename_hint">Въведете ново заглавие и натиснете OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Заглавие</string>
+    <string name="editor_change_icon">Промяна на иконата</string>
+    <string name="editor_visible">Видима</string>
+    <string name="editor_grid">Мрежа</string>
+    <string name="editor_sliding_row">Плъзгащ се ред</string>
+    <string name="editor_background">Цвят на фона</string>
+    <string name="editor_show_title">Показване на заглавието</string>
+    <string name="editor_size">Размер</string>
+    <string name="editor_advanced">Разширени настройки</string>
+    <string name="editor_start_margin">Начално поле</string>
+    <string name="editor_end_margin">Крайно поле</string>
+    <string name="editor_top_margin">Горно поле</string>
+    <string name="editor_cards_per_row">Карти на ред</string>
+    <string name="editor_row_count">Брой редове</string>
+    <string name="editor_auto">Автоматично</string>
+    <string name="editor_auto_value">Автоматично (%1$s)</string>
+    <string name="editor_sort">Сортиране</string>
+    <string name="editor_sort_custom">Персонализирано</string>
+    <string name="editor_sort_name">По азбучен ред</string>
+    <string name="editor_sort_last">Последно използвани</string>
+    <string name="editor_sort_most">Често използвани</string>
+    <string name="editor_sort_random">Случаен ред</string>
+    <string name="editor_set_default">Задаване по подразбиране</string>
+    <string name="editor_is_default">Категория по подразбиране</string>
+    <string name="editor_manage_apps">Управление на приложенията</string>
+    <string name="editor_hidden_items">Скрити елементи</string>
+    <string name="editor_restore">Възстановяване</string>
+    <string name="editor_delete">Изтриване</string>
+    <string name="editor_delete_confirm">Да се изтрие ли тази категория?</string>
+    <string name="editor_empty_note">Тази категория още няма да се показва, защото е празна</string>
+    <string name="editor_request_notifications">Искане на разрешение за известия</string>
+    <string name="editor_channel_error">Този канал вече не може да бъде прочетен</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Канали</string>
+    <string name="channels_count">Канали: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Известия</string>
+    <string name="notifications_clear_all">Изчистване на всички</string>
+    <string name="notifications_empty">Няма известия</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Това приложение не може да бъде отворено</string>
+    <string name="home_reorder_hint">Използвайте наляво/надясно за преместване, OK или НАЗАД за край</string>
+    <string name="home_category_reorder_hint">Използвайте нагоре/надолу за преместване, OK или НАЗАД за край</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Добре дошли!</string>
+    <string name="firstrun_welcome_text">QLauncher е лаунчер за Android TV. Той събира вашите приложения, канали и любимо съдържание на един персонализируем начален екран, а зад тях се сменя тапет.</string>
+    <string name="firstrun_features_title">Вашите нови суперсили</string>
+    <string name="firstrun_features_text">Стартирайте приложение или HDMI вход при включване, управлявайте профилите на екрана, заключвайте приложения с родителски контрол, показвайте тестови картини за калибриране, откривайте бездействие и персонализирайте всяка част от началния екран. Някои функции зависят от устройството ви.</string>
+    <string name="firstrun_a11y_title">Да включим достъпността</string>
+    <string name="firstrun_a11y_text">Много функции изискват услугата за достъпност на QLauncher: замяната на стандартния лаунчер, действията при включване, жестовете с бутоните на дистанционното, откриването на бездействие и родителският контрол. Можете да я включите сега или по-късно от настройките.</string>
+    <string name="firstrun_a11y_open">Отваряне на настройките за достъпност</string>
+    <string name="firstrun_permissions_title">Ако позволите…</string>
+    <string name="firstrun_permissions_text">След това QLauncher ще поиска разрешение за четене на телевизионната програма (за каналите и „Следващо за гледане“) и достъп до известията (за иконата за известия и „Сега се възпроизвежда“). И двете са по избор.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">След това QLauncher ще поиска достъп до известията (за иконата за известия и „Сега се възпроизвежда“). Той е по избор.</string>
+    <string name="firstrun_notifications_dialog">Да се разреши ли достъп до известията?</string>
+    <string name="firstrun_notifications_text">Достъпът до известията позволява на QLauncher да показва броя на известията, панел с известия и какво се възпроизвежда. „Да“ отваря страницата „Специален достъп за приложенията“, където можете да го предоставите.</string>
+    <string name="firstrun_reports_title">Изпращане на анонимни отчети за грешки?</string>
+    <string name="firstrun_reports_text">Ако QLauncher се срине или срещне грешка, той може да изпрати отчет с версията на приложението и модела на устройството, за да бъде поправен проблемът. Не се изпраща нищо, което ви идентифицира или показва какво гледате. Можете да промените това по-късно в „Общи“.</string>
+    <string name="firstrun_launcher_title">Направете QLauncher свой начален екран</string>
+    <string name="firstrun_launcher_text">Много телевизионни устройства не позволяват смяна на лаунчера по подразбиране. Ако вашето позволява, изберете QLauncher там. Иначе включете услугата за достъпност с „Замяна на текущия лаунчер“ и QLauncher ще се връща всеки път, когато се отвори стандартният лаунчер.</string>
+    <string name="firstrun_launcher_open">Смяна на лаунчера по подразбиране</string>
+    <string name="firstrun_start_title">Време е да започнем!</string>
+    <string name="firstrun_start_text">Всичко може да се промени по-късно от настройките. Натиснете бутона за настройки горе вдясно или последователността от бутони ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">ДА ЗАПОЧВАМЕ</string>
+    <string name="firstrun_next">Напред</string>
+    <string name="firstrun_skip">Пропускане</string>
+    <string name="firstrun_yes">Да</string>
+    <string name="firstrun_no">Не</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">На това устройство няма скрийнсейвър</string>
+</resources>

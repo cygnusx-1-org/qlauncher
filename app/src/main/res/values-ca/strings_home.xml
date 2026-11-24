@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">En reproducció</string>
+    <string name="home_cat_inputs">Entrades</string>
+    <string name="home_cat_favorites">Preferits</string>
+    <string name="home_cat_video">Vídeo</string>
+    <string name="home_cat_music">Música</string>
+    <string name="home_cat_games">Jocs</string>
+    <string name="home_cat_tv_apps">Aplicacions de TV</string>
+    <string name="home_cat_mobile_apps">Aplicacions mòbils</string>
+    <string name="home_cat_watch_next">A continuació</string>
+    <string name="home_cat_shortcuts">Dreceres</string>
+    <string name="home_cat_folders">Carpetes de categories</string>
+    <string name="home_cat_live_tv">TV en directe</string>
+    <string name="home_cat_settings">Configuració</string>
+    <string name="home_cat_display">Pantalla</string>
+    <string name="home_cat_applications">Aplicacions</string>
+    <string name="home_cat_system">Sistema</string>
+    <string name="home_cat_about">Quant a</string>
+    <string name="home_new_category">Categoria nova</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Totes les aplicacions</string>
+    <string name="home_action_edit_categories">Edita les categories</string>
+    <string name="home_action_edit_channels">Edita els canals</string>
+    <string name="home_action_launcher_settings">Configuració de QLauncher</string>
+    <string name="home_action_android_settings">Configuració d\'Android</string>
+    <string name="home_action_amlogic_settings">Configuració addicional d\'AmLogic</string>
+    <string name="home_action_display_profiles">Perfils de pantalla</string>
+    <string name="home_action_install_apps">Instal·la aplicacions de tercers</string>
+    <string name="home_action_accessibility">Servei d\'accessibilitat</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Canvia de perfil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Aquest dispositiu</string>
+    <string name="home_action_about_wallpaper">Aquest fons de pantalla</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Temporada %1$s</string>
+    <string name="home_episode">Episodi %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Connectivitat</string>
+    <string name="home_status_notifications">Notificacions</string>
+    <string name="home_status_settings">Configuració</string>
+    <string name="home_status_wallpaper">Aquest fons de pantalla</string>
+    <string name="home_navigation_menu">Menú de navegació</string>
+    <string name="home_reorder">Reordena</string>
+    <string name="home_category_settings">Configuració de la categoria</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Configuració de l\'aplicació</string>
+    <string name="menu_open">Obre</string>
+    <string name="menu_details">Detalls</string>
+    <string name="menu_play_pause">Reprodueix/Pausa</string>
+    <string name="menu_stop">Atura</string>
+    <string name="menu_previous">Anterior</string>
+    <string name="menu_next">Següent</string>
+    <string name="menu_uninstall">Desinstal·la</string>
+    <string name="menu_launch_on_boot">Inicia en arrencar</string>
+    <string name="menu_launch_on_boot_on">S\'inicia en arrencar</string>
+    <string name="menu_add_parental">Afegeix al control parental</string>
+    <string name="menu_remove_parental">Treu del control parental</string>
+    <string name="menu_shortcuts">Dreceres</string>
+    <string name="menu_appearance">Aparença</string>
+    <string name="menu_title">Títol</string>
+    <string name="menu_change_icon">Canvia la icona</string>
+    <string name="menu_icon_from_picture">Des d\'una imatge</string>
+    <string name="menu_icon_other_location">Una altra ubicació…</string>
+    <string name="menu_icon_no_pictures">No s\'ha trobat cap imatge. Copieu-ne a Pictures o Download, o connecteu una unitat USB.</string>
+    <string name="menu_icon_reset">Restableix</string>
+    <string name="menu_crop">Retalla per omplir</string>
+    <string name="menu_visibility">Visibilitat</string>
+    <string name="menu_reorder">Reordena</string>
+    <string name="menu_remove_from">Treu de «%1$s»</string>
+    <string name="menu_hide">Amaga</string>
+    <string name="menu_add_to">Afegeix a…</string>
+    <string name="menu_move_to">Mou a…</string>
+    <string name="menu_channels">Canals</string>
+    <string name="menu_rename_hint">Escriviu un títol nou i premeu OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Títol</string>
+    <string name="editor_change_icon">Canvia la icona</string>
+    <string name="editor_visible">Visible</string>
+    <string name="editor_grid">Quadrícula</string>
+    <string name="editor_sliding_row">Fila lliscant</string>
+    <string name="editor_background">Color de fons</string>
+    <string name="editor_show_title">Mostra el títol</string>
+    <string name="editor_size">Mida</string>
+    <string name="editor_advanced">Configuració avançada</string>
+    <string name="editor_start_margin">Marge inicial</string>
+    <string name="editor_end_margin">Marge final</string>
+    <string name="editor_top_margin">Marge superior</string>
+    <string name="editor_cards_per_row">Targetes per fila</string>
+    <string name="editor_row_count">Nombre de files</string>
+    <string name="editor_auto">Automàtic</string>
+    <string name="editor_auto_value">Automàtic (%1$s)</string>
+    <string name="editor_sort">Ordena</string>
+    <string name="editor_sort_custom">Personalitzat</string>
+    <string name="editor_sort_name">Alfabèticament</string>
+    <string name="editor_sort_last">Últim ús</string>
+    <string name="editor_sort_most">Ús freqüent</string>
+    <string name="editor_sort_random">Aleatori</string>
+    <string name="editor_set_default">Estableix com a predeterminada</string>
+    <string name="editor_is_default">Categoria predeterminada</string>
+    <string name="editor_manage_apps">Gestiona les aplicacions</string>
+    <string name="editor_hidden_items">Elements amagats</string>
+    <string name="editor_restore">Restaura</string>
+    <string name="editor_delete">Suprimeix</string>
+    <string name="editor_delete_confirm">Voleu suprimir aquesta categoria?</string>
+    <string name="editor_empty_note">Aquesta categoria encara no apareixerà perquè és buida</string>
+    <string name="editor_request_notifications">Sol·licita el permís de notificacions</string>
+    <string name="editor_channel_error">Aquest canal ja no es pot llegir</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Canals</string>
+    <string name="channels_count">%1$d canals</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Notificacions</string>
+    <string name="notifications_clear_all">Esborra-ho tot</string>
+    <string name="notifications_empty">Cap notificació</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Aquesta aplicació no es pot obrir</string>
+    <string name="home_reorder_hint">Esquerra/dreta per moure, OK o ENRERE per acabar</string>
+    <string name="home_category_reorder_hint">Amunt/avall per moure, OK o ENRERE per acabar</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Us donem la benvinguda!</string>
+    <string name="firstrun_welcome_text">QLauncher és un llançador per a Android TV. Reuneix les vostres aplicacions, canals i continguts preferits en una sola pantalla d\'inici personalitzable, amb un fons de pantalla que va canviant al darrere.</string>
+    <string name="firstrun_features_title">Els vostres nous superpoders</string>
+    <string name="firstrun_features_text">Inicieu una aplicació o una entrada HDMI en arrencar, gestioneu perfils de pantalla, bloquegeu aplicacions amb el control parental, mostreu patrons de calibratge, detecteu la inactivitat i personalitzeu cada part de la pantalla d\'inici. Algunes funcions depenen del dispositiu.</string>
+    <string name="firstrun_a11y_title">Fem-ho accessible</string>
+    <string name="firstrun_a11y_text">Moltes funcions necessiten el servei d\'accessibilitat de QLauncher: substituir el llançador original, les accions en arrencar, els gestos dels botons del comandament, la detecció d\'inactivitat i el control parental. El podeu activar ara o més tard des de la configuració.</string>
+    <string name="firstrun_a11y_open">Obre la configuració d\'accessibilitat</string>
+    <string name="firstrun_permissions_title">Si em permeteu…</string>
+    <string name="firstrun_permissions_text">Tot seguit, QLauncher demana permís per llegir la programació de TV (per als canals i «A continuació») i accés a les notificacions (per a la icona de notificacions i «En reproducció»). Tots dos són opcionals.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Tot seguit, QLauncher demana accés a les notificacions (per a la icona de notificacions i «En reproducció»). És opcional.</string>
+    <string name="firstrun_notifications_dialog">Voleu permetre l\'accés a les notificacions?</string>
+    <string name="firstrun_notifications_text">L\'accés a les notificacions permet que QLauncher mostri el nombre de notificacions, un tauler de notificacions i què s\'està reproduint. Sí obre la pàgina Accés especial d\'aplicacions, on el podeu concedir.</string>
+    <string name="firstrun_reports_title">Voleu enviar informes d’error anònims?</string>
+    <string name="firstrun_reports_text">Si QLauncher falla o troba un error, pot enviar un informe amb la versió de l\'aplicació i el model del dispositiu perquè es pugui corregir. No s\'envia res que us identifiqui ni que indiqui què mireu. Ho podeu canviar més tard a General.</string>
+    <string name="firstrun_launcher_title">Feu de QLauncher la vostra pantalla d\'inici</string>
+    <string name="firstrun_launcher_text">Molts dispositius de TV no permeten canviar el llançador predeterminat. Si el vostre ho permet, trieu-hi QLauncher. Si no, activeu el servei d\'accessibilitat amb «Substitueix el llançador actual», i QLauncher tornarà cada vegada que s\'obri el llançador original.</string>
+    <string name="firstrun_launcher_open">Canvia el llançador predeterminat</string>
+    <string name="firstrun_start_title">Som-hi!</string>
+    <string name="firstrun_start_text">Tot es pot canviar més tard des de la configuració. Premeu el botó de configuració a dalt a la dreta, o la seqüència de tecles ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">COMENCEM</string>
+    <string name="firstrun_next">Següent</string>
+    <string name="firstrun_skip">Omet</string>
+    <string name="firstrun_yes">Sí</string>
+    <string name="firstrun_no">No</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">No hi ha cap estalvi de pantalla en aquest dispositiu</string>
+</resources>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Cilësimet</string>
+    <string name="settings_breadcrumb_display">Ekrani</string>
+    <string name="settings_breadcrumb_applications">Aplikacionet</string>
+    <string name="settings_breadcrumb_system">Sistemi</string>
+    <string name="settings_breadcrumb_about">Rreth</string>
+    <string name="settings_root_title">Cilësimet e QLauncher</string>
+    <string name="settings_root_description">Konfiguro cilësimet e aplikacionit.</string>
+    <string name="settings_legend_a11y_required">Kërkohet shërbimi i qasshmërisë</string>
+    <string name="settings_legend_a11y_recommended">Rekomandohet shërbimi i qasshmërisë</string>
+    <string name="settings_legend_experimental">Eksperimentale</string>
+    <string name="settings_launcher_related">Cilësimet e lëshuesit</string>
+
+    <string name="settings_general">Të përgjithshme</string>
+    <string name="settings_appearance">Pamja</string>
+    <string name="settings_power">Energjia</string>
+    <string name="settings_parental">Kontrolli prindëror</string>
+    <string name="settings_remote">Telekomanda</string>
+    <string name="settings_accessibility">Shërbimi i qasshmërisë</string>
+    <string name="settings_display_profiles">Profilet e ekranit</string>
+    <string name="settings_manage">Menaxho cilësimet</string>
+
+    <!-- General -->
+    <string name="settings_language">Ndrysho gjuhën e aplikacionit</string>
+    <string name="settings_language_system">Parazgjedhja e sistemit</string>
+    <string name="settings_default_launcher">Ndrysho lëshuesin e parazgjedhur</string>
+    <string name="settings_default_launcher_unavailable">Kjo pajisje nuk ofron mënyrë për të ndryshuar lëshuesin e parazgjedhur. Përdor në vend të kësaj „Zëvendëso lëshuesin aktual“.</string>
+    <string name="settings_override_home">Zëvendëso lëshuesin aktual</string>
+    <string name="settings_override_home_desc">Kap thirrjet drejt lëshuesit aktual (e dobishme nëse nuk mund ta ndryshosh ose ta heqësh lëshuesin origjinal)</string>
+    <string name="settings_enable_channels">Aktivizo kanalet</string>
+    <string name="settings_enable_channels_desc">Nëse nuk i përdor, çaktivizimi i tyre e bën nisjen më të shpejtë dhe përdor më pak memorie</string>
+    <string name="settings_programs_per_channel">Programe për kanal</string>
+    <string name="settings_crash_error_reports">Aktivizo raportet anonime të ndërprerjeve dhe gabimeve</string>
+    <string name="settings_reports_desc">Dërgohen vetëm gabimi, versioni i aplikacionit dhe modeli i pajisjes</string>
+    <string name="settings_check_updates">Kontrollo për përditësime</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategoritë / Kanalet</string>
+    <string name="settings_cards">Kartat</string>
+    <string name="settings_wallpaper">Imazhi i sfondit</string>
+    <string name="settings_status_bar">Shiriti i statusit</string>
+    <string name="settings_left_headers">Titujt majtas</string>
+    <string name="settings_idle_mode">Modaliteti i pasivitetit të lëshuesit</string>
+    <string name="settings_font">Fonti</string>
+    <string name="settings_themes">Temat</string>
+    <string name="settings_themes_desc">Importo / Eksporto</string>
+    <string name="settings_load_cards_scrolling">Ngarko kartat gjatë lëvizjes</string>
+    <string name="settings_load_cards_scrolling_desc">Më reaguese, në kurriz të rrjedhshmërisë</string>
+    <string name="settings_accent">Ngjyra theksuese</string>
+    <string name="settings_accent_desc">Aktivizo ngjyrën dinamike që të ndjekë imazhin e sfondit</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Shfaq titullin</string>
+    <string name="settings_show_icon_title">Shfaq ikonën para titullit</string>
+    <string name="settings_rows_spacing">Hapësira vertikale (lartësia e ekranit në %)</string>
+    <string name="settings_fixed_position">Mbaj fikse pozicionin e kategorisë në fokus</string>
+    <string name="settings_hide_rows_above">Fshih rreshtat mbi përzgjedhjen</string>
+    <string name="settings_remember_focus">Mbaj mend pozicionin e kartës në fokus</string>
+    <string name="settings_unselected_opacity">Patejdukshmëria e rreshtave të pazgjedhur</string>
+    <string name="settings_top_margin">Kufiri i sipërm</string>
+    <string name="settings_start_margin">Kufiri në fillim</string>
+    <string name="settings_end_margin">Kufiri në fund</string>
+    <string name="settings_dock_padding">Hapësira e brendshme e bazës</string>
+    <string name="settings_tint_custom_icons">Ngjyros ikonat e personalizuara</string>
+    <string name="settings_tint_custom_icons_desc">Për ikonat e personalizuara pa sfond</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Qoshe të rrumbullakosura</string>
+    <string name="settings_cards_size">Madhësia e kartave</string>
+    <string name="settings_cards_spacing">Hapësira mes kartave</string>
+    <string name="settings_loop_limit">Kufiri i përsëritjeve të ikonave të animuara</string>
+    <string name="settings_ripple">Efekt valëzimi kur shtypet karta</string>
+    <string name="settings_background_color">Ngjyra e sfondit</string>
+    <string name="settings_focused_card">Karta në fokus</string>
+    <string name="settings_program_cards">Kartat e programeve</string>
+    <string name="settings_tv_ratio">Raporti i kartave të aplikacioneve TV</string>
+    <string name="settings_mobile_ratio">Raporti i kartave të aplikacioneve celulare</string>
+    <string name="settings_icon_pack">Paketa e ikonave</string>
+    <string name="settings_icon_pack_none">Nuk është instaluar asnjë paketë ikonash</string>
+    <string name="settings_icon_pack_off">Asnjë</string>
+    <string name="settings_more">Më shumë…</string>
+    <string name="settings_custom_icon_tint">Ngjyra e ikonave të personalizuara</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Madhësia e kartës në fokus</string>
+    <string name="settings_focused_effect">Efekti i kartës në fokus</string>
+    <string name="settings_effect_none">Asnjë</string>
+    <string name="settings_effect_shadow">Hije</string>
+    <string name="settings_effect_glow">Shkëlqim</string>
+    <string name="settings_glow_animation">Animacioni i shkëlqimit</string>
+    <string name="settings_anim_none">Asnjë</string>
+    <string name="settings_anim_pulse">Puls</string>
+    <string name="settings_anim_breath">Frymëmarrje</string>
+    <string name="settings_anim_fade">Zbehje</string>
+    <string name="settings_anim_shine">Vezullim</string>
+    <string name="settings_glow_size">Madhësia e shkëlqimit</string>
+    <string name="settings_glow_color">Ngjyra e shkëlqimit</string>
+    <string name="settings_glow_color_desc">Lëre bosh për të përdorur ngjyrën e vetë kartës</string>
+    <string name="settings_colors_override">Zëvendësimi i ngjyrave</string>
+    <string name="settings_override_none">Asnjë</string>
+    <string name="settings_override_swap">Ndërro sfondin/ngjyrimin</string>
+    <string name="settings_override_custom">I personalizuar</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Luaj videon e parapamjes</string>
+    <string name="settings_preview_never">Kurrë</string>
+    <string name="settings_preview_always">Gjithmonë</string>
+    <string name="settings_preview_no_media">Kur nuk po luhet media në sfond</string>
+    <string name="settings_show_progress">Shfaq shiritin e përparimit</string>
+    <string name="settings_show_badge">Shfaq distinktivin</string>
+    <string name="settings_zoom_focus">Efekt zmadhimi kur është në fokus</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Formatet e mbështetura: foto statike, GIF i animuar, video (skedar ose transmetim i drejtpërdrejtë RTSP), animacion Lottie</string>
+    <string name="settings_launcher_wallpaper">Imazhi i sfondit të lëshuesit</string>
+    <string name="settings_configure">Konfiguro</string>
+    <string name="settings_show_wallpapers">Shfaq imazhet e sfondit</string>
+    <string name="settings_picture_adjustment">Rregullimi i figurës</string>
+    <string name="settings_image_transition">Kalimi i imazheve</string>
+    <string name="settings_update_frequency">Shpeshtësia e përditësimit (min)</string>
+    <string name="settings_video_wallpaper">Imazh sfondi me video</string>
+    <string name="settings_display_mode">Mënyra e shfaqjes</string>
+    <string name="settings_bad_ratio">Në rast raporti/cilësie të keqe</string>
+    <string name="settings_min_width">Gjerësia minimale e pranuar (px)</string>
+    <string name="settings_src_none">Asnjë</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Ngjyra dinamike</string>
+    <string name="settings_src_default">Imazhi i parazgjedhur i sfondit</string>
+    <string name="settings_src_media">Skedar media</string>
+    <string name="settings_src_folder">Dosje</string>
+    <string name="settings_src_focused_program">Programi në fokus</string>
+    <string name="settings_src_now_playing">Po luhet tani</string>
+    <string name="settings_src_random_program">Program i rastësishëm</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Asnjë</string>
+    <string name="settings_tr_random">Rastësor</string>
+    <string name="settings_tr_fade">Zbehje</string>
+    <string name="settings_tr_zoom">Zmadhim</string>
+    <string name="settings_tr_hslide">Rrëshqitje horizontale</string>
+    <string name="settings_tr_vslide">Rrëshqitje vertikale</string>
+    <string name="settings_dm_automatic">Automatik</string>
+    <string name="settings_dm_skip">Kapërce</string>
+    <string name="settings_dm_crop">Prit</string>
+    <string name="settings_dm_stretch">Shtrij</string>
+    <string name="settings_dm_fit">Përshtat në qendër</string>
+    <string name="settings_dm_fit_blur">Përshtat në qendër + sfond i turbullt</string>
+    <string name="settings_dm_blur">Turbullim</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Nuanca</string>
+    <string name="settings_saturation">Ngopja</string>
+    <string name="settings_contrast">Kontrasti</string>
+    <string name="settings_brightness">Ndriçimi</string>
+    <string name="settings_tint">Ngjyrimi</string>
+    <string name="settings_tint_amount">Sasia e ngjyrimit</string>
+    <string name="settings_blur">Turbullimi</string>
+    <string name="settings_shadow_h">Gjatësia e hijes horizontale</string>
+    <string name="settings_shadow_v">Gjatësia e hijes vertikale</string>
+    <string name="settings_shadow_opacity">Patejdukshmëria e hijes</string>
+    <string name="settings_shadow_tint">Ngjyrimi i hijes</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Shpërfill shpeshtësinë e përditësimit</string>
+    <string name="settings_ignore_update_desc">Prit derisa të mbarojë videoja për të kërkuar një imazh të ri sfondi</string>
+    <string name="settings_video_color_freq">Shpeshtësia e përditësimit të ngjyrës dinamike</string>
+    <string name="settings_video_color_freq_desc">Sekonda mes kuadrove të videos që lexohen për ngjyrat; 0 e çaktivizon</string>
+    <string name="settings_volume">Volumi</string>
+    <string name="settings_tunneling">Përdor interpretimin me harduer (tunneling)</string>
+    <string name="settings_decoder_fallback">Aktivizo dekoduesit rezervë</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Menaxho lejen e njoftimeve</string>
+    <string name="settings_granted">E dhënë</string>
+    <string name="settings_not_granted">E padhënë</string>
+    <string name="settings_notification_adb">Nuk ka ekran cilësimesh në këtë pajisje. Jepe me: %1$s</string>
+    <string name="settings_clock">Ora</string>
+    <string name="settings_icons">Ikonat</string>
+    <string name="settings_show_system_bar">Shfaq shiritin e statusit të sistemit</string>
+    <string name="settings_autohide_status">Fshih shiritin e statusit gjatë lëvizjes</string>
+    <string name="settings_show_clock">Shfaq orën</string>
+    <string name="settings_clock_size">Madhësia e shkrimit të orës</string>
+    <string name="settings_clock_color">Ngjyra e orës</string>
+    <string name="settings_drop_shadow">Hije</string>
+    <string name="settings_clock_line1">Formati i orës (rreshti 1)</string>
+    <string name="settings_clock_line2">Formati i orës (rreshti 2)</string>
+    <string name="settings_clock_default_format">Formati i sistemit</string>
+    <string name="settings_empty">Bosh</string>
+    <string name="settings_icons_size">Madhësia e ikonave</string>
+    <string name="settings_icons_color">Ngjyra e ikonave</string>
+    <string name="settings_icons_container">Ngjyra e kornizës së ikonave</string>
+    <string name="settings_show_settings">Shfaq cilësimet</string>
+    <string name="settings_show_settings_desc">Cilësimet mbeten të arritshme me këtë sekuencë butonash: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Shfaq lidhshmërinë</string>
+    <string name="settings_show_notifications">Shfaq njoftimet</string>
+    <string name="settings_autohide_notifications">Fshih ikonën e njoftimeve kur nuk ka njoftime</string>
+    <string name="settings_show_battery">Shfaq baterinë</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Aktivizo</string>
+    <string name="settings_headers_on_launch">Shfaq titujt majtas në hapje</string>
+    <string name="settings_show_icon">Shfaq ikonën</string>
+    <string name="settings_show_reorder">Shfaq rirenditjen</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Koha para pasivitetit (min)</string>
+    <string name="settings_idle_opacity">Patejdukshmëria e ndërfaqes</string>
+    <string name="settings_keep_clock">Mbaj orën</string>
+    <string name="settings_prevent_screensaver">Parandalo mbrojtësin e ekranit të sistemit</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Ndrysho cilësimet e fontit të QLauncher. Emrat e familjeve mund t’i kërkosh në Google Fonts.</string>
+    <string name="settings_font_list">Zgjidh nga lista</string>
+    <string name="settings_font_google">Fonti (Google Fonts)</string>
+    <string name="settings_font_default">I parazgjedhur</string>
+    <string name="settings_bold">I trashë</string>
+    <string name="settings_italic">I pjerrët</string>
+    <string name="settings_size">Madhësia</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Nisja automatike gjatë ndezjes</string>
+    <string name="settings_autostart_none">Asnjë</string>
+    <string name="settings_autostart_screensaver">[*] Mbrojtësi i ekranit (nëse mbështetet)</string>
+    <string name="settings_autostart_resume">…dhe kur rikthehet nga gatishmëria</string>
+    <string name="settings_autostart_delay">Vonesa e nisjes automatike (sekonda)</string>
+    <string name="settings_simulate_activity">Parandalo fikjen automatike të sistemit gjatë pasivitetit</string>
+    <string name="settings_idle_detection">Aktivizo zbulimin e brendshëm të pasivitetit</string>
+    <string name="settings_idle_timeout_power">Koha e pasivitetit (orë:min)</string>
+    <string name="settings_idle_action">Veprimi gjatë pasivitetit</string>
+    <string name="settings_idle_action_shutdown">Fikja</string>
+    <string name="settings_idle_action_screen_off">Fikja e ekranit</string>
+    <string name="settings_idle_action_screensaver">Mbrojtësi i ekranit (nëse mbështetet)</string>
+    <string name="settings_idle_media">Shpërfill modalitetin e pasivitetit gjatë luajtjes së medias</string>
+    <string name="settings_missing_notification_permission">⚠️ Mungon leja e njoftimeve</string>
+    <string name="settings_shutdown_action">Veprimi i fikjes</string>
+    <string name="settings_shutdown_dialog">Menyja e energjisë</string>
+    <string name="settings_shutdown_dialog_twice">Menyja e energjisë (thirrje dyfishe)</string>
+    <string name="settings_shutdown_dialog_ok">Menyja e energjisë + OK</string>
+    <string name="settings_hdmi_exit">Fikje automatike kur ndalon sinjali i hyrjes HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Përcakto një kod për të kyçur aplikacionet e zgjedhura (mbaj shtypur një kartë në ekranin bazë për t’i zgjedhur), gjatë gjithë ditës ose për një pjesë të saj</string>
+    <string name="settings_parental_set_code">Cakto një kod të ri prindëror</string>
+    <string name="settings_parental_code_set">Është caktuar një kod</string>
+    <string name="settings_parental_long">Mos kërko kod për 15 min pas një vërtetimi të suksesshëm</string>
+    <string name="settings_parental_protect">Mbro cilësimet e lëshuesit dhe ndryshimet e ndërfaqes</string>
+    <string name="settings_parental_protect_desc">(zbatohet 24/7)</string>
+    <string name="settings_parental_partial">Aktivizo mbrojtjen vetëm midis</string>
+    <string name="settings_parental_start">Ora e fillimit (orë:min)</string>
+    <string name="settings_parental_end">Ora e mbarimit (orë:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Shfaq informacion me shtypje të dyfishtë të „Menyja“</string>
+    <string name="settings_back_double">„Modaliteti i ambientit“ me shtypje të dyfishtë të „Prapa“</string>
+    <string name="settings_back_double_desc">Nis mbrojtësin e ekranit në pajisjet që e mbështetin</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Aktivizo shërbimin për të kryer një veprim gjatë nisjes, për të personalizuar butonat e telekomandës, për të forcuar kontrollin prindëror dhe për të zbuluar pasivitetin për kontrollin e energjisë. Ai sheh shtypjet e butonave fizikë dhe emrin e aplikacionit në plan të parë; të dyja mbeten në kujtesën e kësaj pajisjeje dhe nuk dërgohen askund.</string>
+    <string name="settings_a11y_enabled">I aktivizuar</string>
+    <string name="settings_a11y_started">I nisur</string>
+    <string name="settings_yes">Po</string>
+    <string name="settings_no">Jo</string>
+    <string name="settings_a11y_open">Shfaq cilësimet e qasshmërisë</string>
+    <string name="settings_a11y_consent_title">Shërbimi i qasshmërisë</string>
+    <string name="settings_a11y_consent">Kjo i lejon QLauncher të shohë shtypjet e butonave fizikë dhe emrin e aplikacionit në plan të parë. Të dyja mbahen vetëm në kujtesën e kësaj pajisjeje dhe nuk dërgohen askund. A pajtohesh?</string>
+    <string name="settings_a11y_alternate">Përdor konfigurimin alternativ</string>
+    <string name="settings_a11y_alternate_desc">Rregullon probleme në disa pajisje</string>
+    <string name="settings_a11y_volume_fix">Rregullimi i butonave të volumit</string>
+    <string name="settings_a11y_volume_fix_desc">Ndalon për pak kohë ricaktimin kur shtypet volumi, që shtypjet e gjata të funksionojnë ende</string>
+    <string name="settings_a11y_remap">Aktivizo ricaktimin e butonave</string>
+    <string name="settings_a11y_remap_desc">Shërbimi kap shtypjet e butonave. Çaktivizimi shmang problemet me shtypjen e gjatë të volumit dhe ndalimin e shërbimit nga sistemi, por zëvendësimi i lëshuesit, kontrolli prindëror dhe zbulimi i pasivitetit mund të jenë më pak efektivë.</string>
+    <string name="settings_a11y_reminder">Shfaq kujtesën</string>
+    <string name="settings_a11y_reminder_desc">Nëse shërbimi i qasshmërisë është çaktivizuar</string>
+    <string name="settings_a11y_unbound_toast">Shërbimi i qasshmërisë i QLauncher nuk është në punë</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importo ose eksporto cilësimet në pajisje, ose me një aplikacion tjetër si LocalSend apo një menaxher skedarësh.</string>
+    <string name="settings_import">Importo</string>
+    <string name="settings_import_file">Nga një skedar</string>
+    <string name="settings_import_auto">Nga kopja rezervë automatike</string>
+    <string name="settings_export">Eksporto</string>
+    <string name="settings_export_local">Ruaj në pajisje</string>
+    <string name="settings_export_share">Ndaj me një aplikacion tjetër</string>
+    <string name="settings_reset">Rivendos parazgjedhjet</string>
+    <string name="settings_cancel">Anulo</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategoria</string>
+    <string name="wp_custom_search">Kërkim i personalizuar</string>
+    <string name="wp_reddit_login">Identifikohu</string>
+    <string name="wp_reddit_logout">Dil: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Dil</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Subreddit i personalizuar</string>
+    <string name="wp_custom_subreddit_hint">Disa emra të ndarë me +</string>
+    <string name="wp_folder">Dosja</string>
+    <string name="wp_folder_choose">Zgjidh një dosje</string>
+    <string name="wp_media">Skedari media</string>
+    <string name="wp_media_choose">Zgjidh një skedar</string>
+    <string name="wp_choose_other">Vendndodhje tjetër…</string>
+    <string name="wp_choose_other_desc">Zgjidh me zgjedhësin e skedarëve të sistemit</string>
+    <string name="wp_media_searching">Po kërkohen foto dhe video…</string>
+    <string name="wp_media_none">Nuk u gjet asnjë foto apo video. Kopjo disa te Pictures, Movies ose Download, ose fut një njësi USB.</string>
+    <string name="wp_folders_description">Dosje me foto ose video, në këtë pajisje dhe në njësitë USB.</string>
+    <string name="wp_folders_none">Nuk u gjet asnjë dosje me foto ose video</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d skedar</item>
+        <item quantity="other">%d skedarë</item>
+    </plurals>
+    <string name="wp_media_color">Ngjyrë e njëtrajtshme</string>
+    <string name="wp_theme_desc">Imazhet e sfondit që përmban tema e importuar</string>
+    <string name="wp_plugin_settings">Cilësimet e shtojcës</string>
+    <string name="wp_not_set">Nuk është caktuar</string>
+    <string name="wp_status">Statusi</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Ky imazh sfondi</string>
+    <string name="wp_next">Tjetri</string>
+    <string name="wp_source">Burimi</string>
+    <string name="wp_title">Titulli</string>
+    <string name="wp_author">Autori</string>
+    <string name="wp_set_user">Cakto si imazh sfondi të përdoruesit</string>
+    <string name="wp_view">Shiko</string>
+    <string name="wp_unknown">I panjohur</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Krijo dhe menaxho këtu profilet e shfaqjes së videos. Lidhi me burimet e hyrjes që të ndryshojnë automatikisht, ose aplikoji duke shtypur dy herë Menynë dhe pastaj lart ose poshtë.</string>
+    <string name="dp_list">Lista e profileve të ekranit</string>
+    <string name="dp_list_desc">Krijo ose modifiko këtu profilet e shfaqjes së videos. Në varësi të pajisjes, disa kontrolle kërkojnë root ose nuk funksionojnë fare; ato synojnë pajisjet AmLogic.</string>
+    <string name="dp_add">Shto të ri…</string>
+    <string name="dp_name">Emri i profilit</string>
+    <string name="dp_preview">Parapamja</string>
+    <string name="dp_fullscreen">Parapamje në ekran të plotë</string>
+    <string name="dp_fullscreen_desc">ose ndërroje me butonin Menyja</string>
+    <string name="dp_delete">Fshi profilin</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Instalo aplikacione të palëve të treta</string>
+    <string name="install_desc">Zgjidh një aplikacion për ta instaluar. Mund të të duhet të lejosh fillimisht instalimet nga burime të panjohura.</string>
+    <string name="install_custom">URL e personalizuar / Kodi i Downloader</string>
+    <string name="install_custom_desc">Përdor vetëm një burim që i beson</string>
+    <string name="install_status">Statusi</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Kjo pajisje</string>
+
+    <string name="gallery_filter">Filtro…</string>
+    <string name="settings_no_file_picker">Kjo pajisje nuk ka zgjedhës skedarësh</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Ndriçueshmëria</string>
+    <string name="color_opacity">Patejdukshmëria</string>
+    <string name="color_prefer_dynamic">Prefero ngjyrën dinamike</string>
+    <string name="color_prefer_dynamic_desc">Nëse është e disponueshme, do ta ruajë këtë ndriçueshmëri/patejdukshmëri</string>
+    <string name="color_clear">Pastro</string>
+    <string name="color_reset">Rivendos parazgjedhjen</string>
+</resources>

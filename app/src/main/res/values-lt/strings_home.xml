@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Dabar leidžiama</string>
+    <string name="home_cat_inputs">Įvestys</string>
+    <string name="home_cat_favorites">Mėgstamiausi</string>
+    <string name="home_cat_video">Vaizdo įrašai</string>
+    <string name="home_cat_music">Muzika</string>
+    <string name="home_cat_games">Žaidimai</string>
+    <string name="home_cat_tv_apps">TV programos</string>
+    <string name="home_cat_mobile_apps">Mobiliosios programos</string>
+    <string name="home_cat_watch_next">Žiūrėti toliau</string>
+    <string name="home_cat_shortcuts">Spartieji klavišai</string>
+    <string name="home_cat_folders">Kategorijų aplankai</string>
+    <string name="home_cat_live_tv">Tiesioginė TV</string>
+    <string name="home_cat_settings">Nustatymai</string>
+    <string name="home_cat_display">Ekranas</string>
+    <string name="home_cat_applications">Programos</string>
+    <string name="home_cat_system">Sistema</string>
+    <string name="home_cat_about">Apie</string>
+    <string name="home_new_category">Nauja kategorija</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Visos programos</string>
+    <string name="home_action_edit_categories">Redaguoti kategorijas</string>
+    <string name="home_action_edit_channels">Redaguoti kanalus</string>
+    <string name="home_action_launcher_settings">QLauncher nustatymai</string>
+    <string name="home_action_android_settings">Android nustatymai</string>
+    <string name="home_action_amlogic_settings">Papildomi AmLogic nustatymai</string>
+    <string name="home_action_display_profiles">Ekrano profiliai</string>
+    <string name="home_action_install_apps">Įdiegti trečiųjų šalių programas</string>
+    <string name="home_action_accessibility">Pritaikymo neįgaliesiems paslauga</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Perjungti profilį</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Šis įrenginys</string>
+    <string name="home_action_about_wallpaper">Šis ekrano fonas</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Sezonas %1$s</string>
+    <string name="home_episode">Serija %1$s</string>
+    <string name="home_minutes">%1$d min.</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Ryšys</string>
+    <string name="home_status_notifications">Pranešimai</string>
+    <string name="home_status_settings">Nustatymai</string>
+    <string name="home_status_wallpaper">Šis ekrano fonas</string>
+    <string name="home_navigation_menu">Naršymo meniu</string>
+    <string name="home_reorder">Pertvarkyti</string>
+    <string name="home_category_settings">Kategorijos nustatymai</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Programos nustatymai</string>
+    <string name="menu_open">Atidaryti</string>
+    <string name="menu_details">Išsami informacija</string>
+    <string name="menu_play_pause">Leisti / pristabdyti</string>
+    <string name="menu_stop">Sustabdyti</string>
+    <string name="menu_previous">Ankstesnis</string>
+    <string name="menu_next">Kitas</string>
+    <string name="menu_uninstall">Pašalinti</string>
+    <string name="menu_launch_on_boot">Paleisti įjungus įrenginį</string>
+    <string name="menu_launch_on_boot_on">Paleidžiama įjungus įrenginį</string>
+    <string name="menu_add_parental">Įtraukti į tėvų kontrolę</string>
+    <string name="menu_remove_parental">Pašalinti iš tėvų kontrolės</string>
+    <string name="menu_shortcuts">Spartieji klavišai</string>
+    <string name="menu_appearance">Išvaizda</string>
+    <string name="menu_title">Pavadinimas</string>
+    <string name="menu_change_icon">Keisti piktogramą</string>
+    <string name="menu_icon_from_picture">Iš nuotraukos</string>
+    <string name="menu_icon_other_location">Kita vieta…</string>
+    <string name="menu_icon_no_pictures">Nuotraukų nerasta. Nukopijuokite jų į aplanką Pictures arba Download arba prijunkite USB atmintinę.</string>
+    <string name="menu_icon_reset">Atkurti</string>
+    <string name="menu_crop">Apkirpti, kad užpildytų</string>
+    <string name="menu_visibility">Matomumas</string>
+    <string name="menu_reorder">Pertvarkyti</string>
+    <string name="menu_remove_from">Pašalinti iš „%1$s“</string>
+    <string name="menu_hide">Slėpti</string>
+    <string name="menu_add_to">Pridėti prie…</string>
+    <string name="menu_move_to">Perkelti į…</string>
+    <string name="menu_channels">Kanalai</string>
+    <string name="menu_rename_hint">Įveskite naują pavadinimą ir paspauskite OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Pavadinimas</string>
+    <string name="editor_change_icon">Keisti piktogramą</string>
+    <string name="editor_visible">Matoma</string>
+    <string name="editor_grid">Tinklelis</string>
+    <string name="editor_sliding_row">Slenkanti eilutė</string>
+    <string name="editor_background">Fono spalva</string>
+    <string name="editor_show_title">Rodyti pavadinimą</string>
+    <string name="editor_size">Dydis</string>
+    <string name="editor_advanced">Išplėstiniai nustatymai</string>
+    <string name="editor_start_margin">Pradžios paraštė</string>
+    <string name="editor_end_margin">Pabaigos paraštė</string>
+    <string name="editor_top_margin">Viršutinė paraštė</string>
+    <string name="editor_cards_per_row">Kortelių eilutėje</string>
+    <string name="editor_row_count">Eilučių skaičius</string>
+    <string name="editor_auto">Automatinis</string>
+    <string name="editor_auto_value">Automatinis (%1$s)</string>
+    <string name="editor_sort">Rūšiavimas</string>
+    <string name="editor_sort_custom">Pasirinktinis</string>
+    <string name="editor_sort_name">Pagal abėcėlę</string>
+    <string name="editor_sort_last">Paskutinį kartą naudotos</string>
+    <string name="editor_sort_most">Dažnai naudojamos</string>
+    <string name="editor_sort_random">Atsitiktinai</string>
+    <string name="editor_set_default">Nustatyti kaip numatytąją</string>
+    <string name="editor_is_default">Numatytoji kategorija</string>
+    <string name="editor_manage_apps">Tvarkyti programas</string>
+    <string name="editor_hidden_items">Paslėpti elementai</string>
+    <string name="editor_restore">Atkurti</string>
+    <string name="editor_delete">Ištrinti</string>
+    <string name="editor_delete_confirm">Ištrinti šią kategoriją?</string>
+    <string name="editor_empty_note">Ši kategorija kol kas nebus rodoma, nes ji tuščia</string>
+    <string name="editor_request_notifications">Prašyti pranešimų leidimo</string>
+    <string name="editor_channel_error">Šio kanalo nebegalima nuskaityti</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanalai</string>
+    <string name="channels_count">Kanalų: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Pranešimai</string>
+    <string name="notifications_clear_all">Išvalyti viską</string>
+    <string name="notifications_empty">Pranešimų nėra</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Šios programos atidaryti negalima</string>
+    <string name="home_reorder_hint">Perkelkite rodyklėmis kairėn / dešinėn, baikite paspaudę OK arba ATGAL</string>
+    <string name="home_category_reorder_hint">Perkelkite rodyklėmis aukštyn / žemyn, baikite paspaudę OK arba ATGAL</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Sveiki!</string>
+    <string name="firstrun_welcome_text">QLauncher – tai Android TV paleidimo priemonė. Ji sudeda jūsų programas, kanalus ir mėgstamą turinį į vieną tinkinamą pagrindinį ekraną, už kurio keičiasi ekrano fonas.</string>
+    <string name="firstrun_features_title">Jūsų naujos supergalios</string>
+    <string name="firstrun_features_text">Paleiskite programą ar HDMI įvestį įjungus įrenginį, tvarkykite ekrano profilius, užrakinkite programas tėvų kontrole, rodykite kalibravimo šablonus, aptikite neveiklumą ir tinkinkite kiekvieną pagrindinio ekrano dalį. Kai kurios funkcijos priklauso nuo įrenginio.</string>
+    <string name="firstrun_a11y_title">Įjunkime pritaikymą neįgaliesiems</string>
+    <string name="firstrun_a11y_text">Daugeliui funkcijų reikia QLauncher pritaikymo neįgaliesiems paslaugos: standartinei paleidimo priemonei pakeisti, veiksmams įjungus įrenginį, pulto mygtukų gestams, neveiklumui aptikti ir tėvų kontrolei. Ją galite įjungti dabar arba vėliau nustatymuose.</string>
+    <string name="firstrun_a11y_open">Atidaryti pritaikymo neįgaliesiems nustatymus</string>
+    <string name="firstrun_permissions_title">Jei leisite…</string>
+    <string name="firstrun_permissions_text">Toliau QLauncher paprašys leidimo skaityti TV programą (kanalams ir skilčiai „Žiūrėti toliau“) ir prieigos prie pranešimų (pranešimų piktogramai ir funkcijai „Dabar leidžiama“). Abu neprivalomi.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Toliau QLauncher paprašys prieigos prie pranešimų (pranešimų piktogramai ir funkcijai „Dabar leidžiama“). Ji neprivaloma.</string>
+    <string name="firstrun_notifications_dialog">Leisti prieigą prie pranešimų?</string>
+    <string name="firstrun_notifications_text">Prieiga prie pranešimų leidžia QLauncher rodyti pranešimų skaičių, pranešimų skydelį ir tai, kas leidžiama. Mygtukas „Taip“ atidaro puslapį „Speciali prieiga prie programų“, kuriame ją suteiksite.</string>
+    <string name="firstrun_reports_title">Siųsti anonimines strigčių ir klaidų ataskaitas?</string>
+    <string name="firstrun_reports_text">Jei QLauncher užstrigtų arba įvyktų klaida, programa gali išsiųsti ataskaitą su programos versija ir įrenginio modeliu, kad klaidą būtų galima ištaisyti. Nesiunčiama nieko, kas atskleistų jūsų tapatybę ar tai, ką žiūrite. Tai galite pakeisti vėliau skiltyje „Bendra“.</string>
+    <string name="firstrun_launcher_title">Padarykite QLauncher savo pagrindiniu ekranu</string>
+    <string name="firstrun_launcher_text">Daugelis TV įrenginių neleidžia keisti numatytosios paleidimo priemonės. Jei jūsiškis leidžia, ten pasirinkite QLauncher. Kitu atveju įjunkite pritaikymo neįgaliesiems paslaugą su parinktimi „Perimti dabartinę paleidimo priemonę“, ir QLauncher sugrįš kaskart, kai atsidarys standartinė paleidimo priemonė.</string>
+    <string name="firstrun_launcher_open">Keisti numatytąją paleidimo priemonę</string>
+    <string name="firstrun_start_title">Laikas pradėti!</string>
+    <string name="firstrun_start_text">Viską vėliau galima pakeisti nustatymuose. Paspauskite nustatymų mygtuką viršuje dešinėje arba mygtukų seką ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">PRADĖKIME</string>
+    <string name="firstrun_next">Toliau</string>
+    <string name="firstrun_skip">Praleisti</string>
+    <string name="firstrun_yes">Taip</string>
+    <string name="firstrun_no">Ne</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Šiame įrenginyje nėra ekrano užsklandos</string>
+</resources>

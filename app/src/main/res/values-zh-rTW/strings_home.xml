@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">現正播放</string>
+    <string name="home_cat_inputs">輸入來源</string>
+    <string name="home_cat_favorites">我的最愛</string>
+    <string name="home_cat_video">影片</string>
+    <string name="home_cat_music">音樂</string>
+    <string name="home_cat_games">遊戲</string>
+    <string name="home_cat_tv_apps">電視應用程式</string>
+    <string name="home_cat_mobile_apps">行動應用程式</string>
+    <string name="home_cat_watch_next">接下來觀看</string>
+    <string name="home_cat_shortcuts">捷徑</string>
+    <string name="home_cat_folders">類別資料夾</string>
+    <string name="home_cat_live_tv">電視直播</string>
+    <string name="home_cat_settings">設定</string>
+    <string name="home_cat_display">顯示</string>
+    <string name="home_cat_applications">應用程式</string>
+    <string name="home_cat_system">系統</string>
+    <string name="home_cat_about">關於</string>
+    <string name="home_new_category">新增類別</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">所有應用程式</string>
+    <string name="home_action_edit_categories">編輯類別</string>
+    <string name="home_action_edit_channels">編輯頻道</string>
+    <string name="home_action_launcher_settings">QLauncher 設定</string>
+    <string name="home_action_android_settings">Android 設定</string>
+    <string name="home_action_amlogic_settings">AmLogic 其他設定</string>
+    <string name="home_action_display_profiles">顯示設定檔</string>
+    <string name="home_action_install_apps">安裝第三方應用程式</string>
+    <string name="home_action_accessibility">無障礙服務</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">切換設定檔</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">這部裝置</string>
+    <string name="home_action_about_wallpaper">目前的桌布</string>
+
+    <!-- Program meta -->
+    <string name="home_season">第 %1$s 季</string>
+    <string name="home_episode">第 %1$s 集</string>
+    <string name="home_minutes">%1$d 分鐘</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">網路連線</string>
+    <string name="home_status_notifications">通知</string>
+    <string name="home_status_settings">設定</string>
+    <string name="home_status_wallpaper">目前的桌布</string>
+    <string name="home_navigation_menu">導覽選單</string>
+    <string name="home_reorder">重新排序</string>
+    <string name="home_category_settings">類別設定</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">應用程式設定</string>
+    <string name="menu_open">開啟</string>
+    <string name="menu_details">詳細資料</string>
+    <string name="menu_play_pause">播放/暫停</string>
+    <string name="menu_stop">停止</string>
+    <string name="menu_previous">上一個</string>
+    <string name="menu_next">下一個</string>
+    <string name="menu_uninstall">解除安裝</string>
+    <string name="menu_launch_on_boot">開機時啟動</string>
+    <string name="menu_launch_on_boot_on">已設為開機時啟動</string>
+    <string name="menu_add_parental">加入家長監護</string>
+    <string name="menu_remove_parental">從家長監護中移除</string>
+    <string name="menu_shortcuts">捷徑</string>
+    <string name="menu_appearance">外觀</string>
+    <string name="menu_title">標題</string>
+    <string name="menu_change_icon">變更圖示</string>
+    <string name="menu_icon_from_picture">從圖片選擇</string>
+    <string name="menu_icon_other_location">其他位置…</string>
+    <string name="menu_icon_no_pictures">找不到圖片。請將圖片複製到 Pictures 或 Download 資料夾，或插入 USB 隨身碟。</string>
+    <string name="menu_icon_reset">重設</string>
+    <string name="menu_crop">裁切至填滿</string>
+    <string name="menu_visibility">顯示狀態</string>
+    <string name="menu_reorder">重新排序</string>
+    <string name="menu_remove_from">從 %1$s 移除</string>
+    <string name="menu_hide">隱藏</string>
+    <string name="menu_add_to">新增至…</string>
+    <string name="menu_move_to">移至…</string>
+    <string name="menu_channels">頻道</string>
+    <string name="menu_rename_hint">輸入新標題，然後按 OK 鍵</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">標題</string>
+    <string name="editor_change_icon">變更圖示</string>
+    <string name="editor_visible">顯示</string>
+    <string name="editor_grid">格狀</string>
+    <string name="editor_sliding_row">滑動列</string>
+    <string name="editor_background">背景顏色</string>
+    <string name="editor_show_title">顯示標題</string>
+    <string name="editor_size">大小</string>
+    <string name="editor_advanced">進階設定</string>
+    <string name="editor_start_margin">左邊界</string>
+    <string name="editor_end_margin">右邊界</string>
+    <string name="editor_top_margin">上邊界</string>
+    <string name="editor_cards_per_row">每列卡片數</string>
+    <string name="editor_row_count">列數</string>
+    <string name="editor_auto">自動</string>
+    <string name="editor_auto_value">自動（%1$s）</string>
+    <string name="editor_sort">排序</string>
+    <string name="editor_sort_custom">自訂</string>
+    <string name="editor_sort_name">依字母順序</string>
+    <string name="editor_sort_last">最近使用</string>
+    <string name="editor_sort_most">最常使用</string>
+    <string name="editor_sort_random">隨機</string>
+    <string name="editor_set_default">設為預設</string>
+    <string name="editor_is_default">預設類別</string>
+    <string name="editor_manage_apps">管理應用程式</string>
+    <string name="editor_hidden_items">已隱藏的項目</string>
+    <string name="editor_restore">還原</string>
+    <string name="editor_delete">刪除</string>
+    <string name="editor_delete_confirm">要刪除這個類別嗎？</string>
+    <string name="editor_empty_note">這個類別目前是空的，因此暫時不會顯示</string>
+    <string name="editor_request_notifications">要求通知權限</string>
+    <string name="editor_channel_error">無法再讀取這個頻道</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">頻道</string>
+    <string name="channels_count">%1$d 個頻道</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">通知</string>
+    <string name="notifications_clear_all">全部清除</string>
+    <string name="notifications_empty">沒有通知</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">無法開啟這個應用程式</string>
+    <string name="home_reorder_hint">按左/右方向鍵移動，按 OK 或返回鍵完成</string>
+    <string name="home_category_reorder_hint">按上/下方向鍵移動，按 OK 或返回鍵完成</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">歡迎！</string>
+    <string name="firstrun_welcome_text">QLauncher 是一款 Android TV 啟動器，能把你的應用程式、頻道和喜愛的內容集中在一個可自訂的主畫面上，背後還有輪播的桌布。</string>
+    <string name="firstrun_features_title">你的全新超能力</string>
+    <string name="firstrun_features_text">開機時啟動應用程式或 HDMI 輸入來源、管理顯示設定檔、用家長監護鎖定應用程式、顯示校正圖樣、偵測閒置時間，還能自訂主畫面的每個部分。部分功能是否可用，取決於你的裝置。</string>
+    <string name="firstrun_a11y_title">來開啟無障礙服務吧</string>
+    <string name="firstrun_a11y_text">許多功能都需要 QLauncher 的無障礙服務：接管原廠啟動器、開機時的動作、遙控器按鍵手勢、閒置偵測和家長監護。你可以現在開啟，也可以稍後從設定開啟。</string>
+    <string name="firstrun_a11y_open">開啟無障礙設定</string>
+    <string name="firstrun_permissions_title">打擾一下…</string>
+    <string name="firstrun_permissions_text">接下來，QLauncher 會要求讀取電視節目表的權限（用於頻道和「接下來觀看」），以及通知存取權（用於通知圖示和「現正播放」）。兩者皆非必要。</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">接下來，QLauncher 會要求通知存取權（用於通知圖示和「現正播放」）。這項權限並非必要。</string>
+    <string name="firstrun_notifications_dialog">要授予通知存取權嗎？</string>
+    <string name="firstrun_notifications_text">取得通知存取權後，QLauncher 就能顯示通知數量、通知面板和正在播放的內容。選擇「是」會開啟「特殊應用程式存取權」頁面，你可以在那裡授予這項權限。</string>
+    <string name="firstrun_reports_title">要傳送匿名當機和錯誤報告嗎？</string>
+    <string name="firstrun_reports_text">如果 QLauncher 當機或發生錯誤，可以傳送一份包含應用程式版本和裝置型號的報告，以便修正問題。系統不會傳送任何可識別你的身分或你觀看內容的資訊。你之後可以在「一般」中變更這項設定。</string>
+    <string name="firstrun_launcher_title">將 QLauncher 設為主畫面</string>
+    <string name="firstrun_launcher_text">許多電視裝置不允許變更預設啟動器。如果你的裝置允許，請在該處選擇 QLauncher。否則，請開啟無障礙服務並啟用「接管目前的啟動器」，這樣每當原廠啟動器開啟時，QLauncher 都會回到畫面上。</string>
+    <string name="firstrun_launcher_open">變更預設啟動器</string>
+    <string name="firstrun_start_title">開始吧！</string>
+    <string name="firstrun_start_text">之後隨時都能在設定中變更任何項目。按右上角的設定按鈕，或依序按下 ↑→↓←↑→↓←。</string>
+    <string name="firstrun_get_started">開始使用</string>
+    <string name="firstrun_next">下一步</string>
+    <string name="firstrun_skip">略過</string>
+    <string name="firstrun_yes">是</string>
+    <string name="firstrun_no">否</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">這部裝置沒有螢幕保護程式</string>
+</resources>

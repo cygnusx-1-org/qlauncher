@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versioon %1$s</string>
+    <string name="about_copyright">Autoriõigus © 2026 QLauncheri kaasautorid. Vaba tarkvara litsentsi GNU General Public License versiooni 3 alusel.</string>
+    <string name="about_libs">Teegid / tänusõnad</string>
+    <string name="about_links">Lingid</string>
+    <string name="about_link_project">Projekti leht</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Eestikeelne tõlge</string>
+    <string name="about_translation_credit">QLauncheri kaasautorid</string>
+    <string name="about_no_browser">Selles seadmes pole brauserit. Ava %1$s mõnes teises seadmes.</string>
+    <string name="about_check_updates">Otsi värskendusi</string>
+    <string name="about_update_checking">Kontrollimine…</string>
+    <string name="about_update_latest">QLauncher on ajakohane (%1$s)</string>
+    <string name="about_update_available">Saadaval on versioon %1$s</string>
+    <string name="about_update_failed">Kontrollimine ebaõnnestus: %1$s</string>
+    <string name="about_update_install">Installi QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s on saadaval: Seaded › Teave › QLauncher</string>
+</resources>

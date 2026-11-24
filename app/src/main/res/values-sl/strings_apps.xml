@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Prekliči</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Vse aplikacije</string>
+    <string name="apps_action_edit_categories">Uredi kategorije</string>
+    <string name="apps_action_edit_channels">Uredi kanale</string>
+    <string name="apps_action_launcher_settings">Nastavitve QLauncherja</string>
+    <string name="apps_action_android_settings">Nastavitve Androida</string>
+    <string name="apps_action_amlogic_settings">Dodatne nastavitve AmLogic</string>
+    <string name="apps_action_display_profiles">Profili prikaza</string>
+    <string name="apps_action_install_apps">Namesti aplikacije drugih ponudnikov</string>
+    <string name="apps_action_accessibility_service">Storitev dostopnosti</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Zamenjaj profil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Ta naprava</string>
+    <string name="apps_action_about_wallpaper">To ozadje</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Brez</string>
+    <string name="apps_autostart_screensaver">Ohranjevalnik zaslona</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanali</string>
+    <string name="apps_channels_watch_next">Naslednje za ogled</string>
+    <string name="apps_channels_unreadable">Tega kanala ni več mogoče prebrati</string>
+    <string name="apps_channels_hidden">Skril sistem</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="two">%d kanala</item>
+        <item quantity="few">%d kanali</item>
+        <item quantity="other">%d kanalov</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Uporabi paket ikon</string>
+    <string name="apps_iconpack_apply_message">Želiš uporabiti %1$s za ikone svojih aplikacij?</string>
+    <string name="apps_iconpack_apply_confirm">Uporabi</string>
+    <string name="apps_iconpack_applied">Paket ikon je uporabljen</string>
+    <string name="apps_iconpack_apply_missing">Paket ikon ni bil naveden</string>
+    <string name="apps_iconpack_apply_not_a_pack">Ta aplikacija ni paket ikon</string>
+    <string name="apps_iconpack_none">Brez</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Dodaj bližnjico</string>
+    <string name="apps_pin_shortcut_message">Želiš dodati »%1$s« iz aplikacije %2$s v kategorijo Bližnjice?</string>
+    <string name="apps_pin_shortcut_confirm">Dodaj</string>
+    <string name="apps_pin_shortcut_added">Bližnjica je dodana</string>
+    <string name="apps_pin_shortcut_failed">Bližnjice ni bilo mogoče dodati</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Namesti aplikacije drugih ponudnikov</string>
+    <string name="apps_install_description">Izberi aplikacijo za namestitev. Pred namestitvijo bo morda treba dovoliti nameščanje iz neznanih virov.</string>
+    <string name="apps_install_custom_url">URL po meri / koda za Downloader</string>
+    <string name="apps_install_custom_url_desc">Uporabi zaupanja vreden vir</string>
+    <string name="apps_install_choose_method">Izberi način namestitve</string>
+    <string name="apps_install_installed">Nameščeno</string>
+    <string name="apps_install_category_wallpaper_plugin">Vtičnik za ozadja</string>
+    <string name="apps_install_category_icon_pack">Paket ikon</string>
+    <string name="apps_install_category_file_manager">Upravitelj datotek</string>
+    <string name="apps_install_category_tool">Orodje</string>
+    <string name="apps_install_method_store">Trgovina</string>
+    <string name="apps_install_method_direct">Neposreden prenos</string>
+    <string name="apps_install_method_downloader">Aplikacija Downloader</string>
+    <string name="apps_install_state_downloading">Prenašanje aplikacije %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Prenašanje aplikacije %1$s…</string>
+    <string name="apps_install_state_installing">Nameščanje aplikacije %1$s…</string>
+    <string name="apps_install_state_confirm">Potrdi namestitev aplikacije %1$s</string>
+    <string name="apps_install_state_success">Aplikacija %1$s je nameščena</string>
+    <string name="apps_install_state_unknown_sources">Dovoli QLauncherju nameščanje aplikacij, nato se vrni za nadaljevanje</string>
+    <string name="apps_install_state_downloader_sent">Koda %1$s je poslana v Downloader</string>
+    <string name="apps_install_state_downloader_type">Vnesi kodo %1$s v Downloader</string>
+    <string name="apps_install_state_store">Odprto v trgovini</string>
+    <string name="apps_install_state_browser">Ta povezava je spletna stran; odprta je bila v brskalniku</string>
+    <string name="apps_install_fail_invalid">To ni URL ali koda za Downloader</string>
+    <string name="apps_install_fail_no_usb">Ni najdenega pogona USB</string>
+    <string name="apps_install_fail_archive">Arhivov ni mogoče namestiti</string>
+    <string name="apps_install_fail_network">Prenos ni uspel</string>
+    <string name="apps_install_fail_http">Strežnik je odgovoril z napako (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Datoteka ni aplikacija (APK)</string>
+    <string name="apps_install_fail_unreadable">Datoteke ni mogoče prebrati</string>
+    <string name="apps_install_fail_install">Namestitev ni uspela</string>
+    <string name="apps_install_fail_cancelled">Namestitev je bila preklicana</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher nima dovoljenja za nameščanje aplikacij</string>
+    <string name="apps_install_fail_downloader">Aplikacija Downloader ni nameščena</string>
+    <string name="apps_install_fail_store">Na voljo ni nobene trgovine z aplikacijami</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Ta naprava</string>
+    <string name="apps_device_brand_manufacturer">Znamka / Proizvajalec</string>
+    <string name="apps_device_device_product">Naprava / Izdelek</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Strojna oprema</string>
+    <string name="apps_device_fingerprint">Prstni odtis</string>
+    <string name="apps_device_build">Delovna različica</string>
+    <string name="apps_device_build_desc">Opis delovne različice</string>
+    <string name="apps_device_device_type">Vrsta naprave</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Naslov IP</string>
+    <string name="apps_device_root_access">Dostop root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Ni upravitelja slike</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Da</string>
+    <string name="apps_device_no">Ne</string>
+</resources>

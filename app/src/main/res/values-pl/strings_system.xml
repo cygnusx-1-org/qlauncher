@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Wprowadź dowolną kombinację strzałek/cyfr i zatwierdź przyciskiem OK</string>
+    <string name="system_parental_confirm_code">Wprowadź kod ponownie i zatwierdź przyciskiem OK</string>
+    <string name="system_parental_restricted">Dostęp ograniczony\nWprowadź kod rodzicielski</string>
+    <string name="system_parental_wrong_code">Nieprawidłowy kod</string>
+    <string name="system_parental_codes_differ">Kody nie są zgodne, spróbuj ponownie</string>
+    <string name="system_parental_code_saved">Zapisano kod rodzicielski</string>
+    <string name="system_parental_recovery_code">Kod odzyskiwania: %1$s</string>
+    <string name="system_parental_recovery_help">Zapisz go: jest wyświetlany tylko ten jeden raz. Wprowadzony strzałkami (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) odblokowuje tak samo jak kod rodzicielski.</string>
+    <string name="system_parental_press_ok">Naciśnij OK, aby kontynuować</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Skróty pilota</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Ekran główny</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Zmień wejście</string>
+    <string name="system_hotkeys_change_profile">Zmień profil wyświetlania</string>
+    <string name="system_hotkeys_start_launcher">Uruchom QLauncher</string>
+    <string name="system_hotkeys_home">Otwórz QLauncher; dwukrotnie: ostatnie aplikacje</string>
+    <string name="system_hotkeys_close">Zamknij tę pomoc</string>
+    <string name="system_hotkeys_no_inputs">Brak wejść TV na tym urządzeniu</string>
+    <string name="system_hotkeys_no_picture_manager">Nie wczytano menedżera obrazu</string>
+    <string name="system_hotkeys_home_off">Wyłączone: wymaga opcji Zastąp bieżący program uruchamiający i zmiany działania przycisków</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Wykryto brak aktywności, wyłączenie za %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Wykryto brak aktywności, wyłączenie ekranu za %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Wykryto brak aktywności, wygaszacz ekranu za %1$d s</string>
+    <string name="system_idle_countdown_cancel">Naciśnij dowolny przycisk, aby anulować</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">To urządzenie nie ma skrótu do ustawień ułatwień dostępu. Otwórz je w ustawieniach Androida, zwykle w sekcji Ustawienia urządzenia › Ułatwienia dostępu.</string>
+    <string name="system_notification_access_no_settings">To urządzenie nie ma ekranu dostępu do powiadomień. Przyznaj dostęp z komputera poleceniem:</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Ei mitään</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dynaamiset värit</string>
+    <string name="wallpaper_provider_default">Oletustaustakuva</string>
+    <string name="wallpaper_provider_media_file">Mediatiedosto</string>
+    <string name="wallpaper_provider_folder">Kansio</string>
+    <string name="wallpaper_provider_focused_program">Valittu ohjelma</string>
+    <string name="wallpaper_provider_now_playing">Nyt toistossa</string>
+    <string name="wallpaper_provider_random_program">Satunnainen ohjelma</string>
+    <string name="wallpaper_provider_theme">Teema</string>
+    <string name="wallpaper_provider_unknown_plugin">Laajennus</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Taustakuvat</string>
+    <string name="wallpaper_wikimedia_nature">Luonto</string>
+    <string name="wallpaper_wikimedia_landscapes">Maisemat</string>
+    <string name="wallpaper_wikimedia_mountains">Vuoret</string>
+    <string name="wallpaper_wikimedia_forests">Metsät</string>
+    <string name="wallpaper_wikimedia_cities">Kaupungit</string>
+    <string name="wallpaper_wikimedia_architecture">Arkkitehtuuri</string>
+    <string name="wallpaper_wikimedia_night">Yö</string>
+    <string name="wallpaper_wikimedia_space">Avaruus</string>
+    <string name="wallpaper_wikimedia_animals">Eläimet</string>
+    <string name="wallpaper_wikimedia_custom">[Oma haku]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Oma subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Kirjaudu ulos</string>
+    <string name="wallpaper_reddit_login_needed">Kirjaudu Redditiin nähdäksesi sen taustakuvat.</string>
+    <string name="wallpaper_reddit_login_title">Kirjaudu Redditiin</string>
+    <string name="wallpaper_reddit_login_signing_in">Kirjaudutaan sisään…</string>
+    <string name="wallpaper_reddit_login_denied">Redditin käyttöoikeutta ei myönnetty, joten Redditin taustakuvat eivät ole käytettävissä.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Redditin vastaus ei vastannut tätä kirjautumisyritystä, joten se ohitettiin. Yritä uudelleen.</string>
+    <string name="wallpaper_reddit_login_failed">Redditiin kirjautuminen epäonnistui (%1$s). Yritä myöhemmin uudelleen.</string>
+    <string name="wallpaper_reddit_login_network">Redditiin ei saatu yhteyttä. Tarkista verkkoyhteys ja yritä uudelleen.</string>
+    <string name="wallpaper_reddit_login_page_error">Redditin kirjautumissivua ei voitu ladata. Tarkista verkkoyhteys ja yritä uudelleen.</string>
+    <string name="wallpaper_reddit_no_webview">Tässä laitteessa ei ole selainkomponenttia (Android System WebView), jota Redditiin kirjautuminen tarvitsee. Asenna tai ota käyttöön Android System WebView ja yritä uudelleen.</string>
+    <string name="wallpaper_reddit_retry">Yritä uudelleen</string>
+    <string name="wallpaper_reddit_close">Sulje</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Ei yhteyttä taustakuvalähteeseen.</string>
+    <string name="wallpaper_error_server">Taustakuvalähde vastasi virheellä.</string>
+    <string name="wallpaper_error_rate_limited">Taustakuvalähde pyysi odottamaan ennen seuraavaa pyyntöä.</string>
+    <string name="wallpaper_error_generic">Taustakuvia ei voitu ladata.</string>
+    <string name="wallpaper_error_no_media">Kuvaa, videota tai väriä ei ole valittu.</string>
+    <string name="wallpaper_error_no_folder">Kansiota ei ole valittu.</string>
+    <string name="wallpaper_error_folder_access">Kansiota ei voi lukea. Valitse se uudelleen.</string>
+    <string name="wallpaper_error_folder_empty">Kansiossa ei ole kuvia, videoita eikä Lottie-animaatioita.</string>
+    <string name="wallpaper_error_theme_empty">Nykyisessä teemassa ei ole taustakuvia.</string>
+    <string name="wallpaper_error_no_channels">Kanavat eivät ole käytettävissä. Ota ne käyttöön ja salli TV-ohjelmatietojen käyttö.</string>
+    <string name="wallpaper_error_no_notification_access">Nyt toistossa tarvitsee ilmoitusten käyttöoikeuden.</string>
+    <string name="wallpaper_error_no_subreddit">Kelvollista subredditiä ei ole asetettu.</string>
+    <string name="wallpaper_error_plugin">Taustakuvalaajennus ei vastannut.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Taustakuva asetettu</string>
+    <string name="wallpaper_set_failed">Tätä tiedostoa ei voi käyttää taustakuvana.</string>
+</resources>

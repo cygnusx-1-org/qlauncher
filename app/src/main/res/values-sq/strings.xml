@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Cakto si imazh sfondi të QLauncher</string>
+    <string name="import_settings">Importo në QLauncher</string>
+    <string name="accessibility_service_description">QLauncher sheh shtypjet e butonave fizikë dhe emrin e aplikacionit në plan të parë, për të zëvendësuar lëshuesin origjinal, për të kryer veprime gjatë nisjes, për të ricaktuar butonat e telekomandës, për të zbuluar pasivitetin dhe për të zbatuar kontrollin prindëror. Të dyja mbeten në kujtesën e kësaj pajisjeje dhe nuk dërgohen askund.</string>
+</resources>

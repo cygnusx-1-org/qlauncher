@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Ustawienia</string>
+    <string name="settings_breadcrumb_display">Ekran</string>
+    <string name="settings_breadcrumb_applications">Aplikacje</string>
+    <string name="settings_breadcrumb_system">System</string>
+    <string name="settings_breadcrumb_about">Informacje</string>
+    <string name="settings_root_title">Ustawienia QLauncher</string>
+    <string name="settings_root_description">Skonfiguruj ustawienia aplikacji.</string>
+    <string name="settings_legend_a11y_required">Wymaga usługi ułatwień dostępu</string>
+    <string name="settings_legend_a11y_recommended">Zalecana usługa ułatwień dostępu</string>
+    <string name="settings_legend_experimental">Eksperymentalne</string>
+    <string name="settings_launcher_related">Ustawienia programu uruchamiającego</string>
+
+    <string name="settings_general">Ogólne</string>
+    <string name="settings_appearance">Wygląd</string>
+    <string name="settings_power">Zasilanie</string>
+    <string name="settings_parental">Kontrola rodzicielska</string>
+    <string name="settings_remote">Pilot</string>
+    <string name="settings_accessibility">Usługa ułatwień dostępu</string>
+    <string name="settings_display_profiles">Profile wyświetlania</string>
+    <string name="settings_manage">Zarządzaj ustawieniami</string>
+
+    <!-- General -->
+    <string name="settings_language">Zmień język aplikacji</string>
+    <string name="settings_language_system">Domyślny systemu</string>
+    <string name="settings_default_launcher">Zmień domyślny program uruchamiający</string>
+    <string name="settings_default_launcher_unavailable">To urządzenie nie pozwala zmienić domyślnego programu uruchamiającego. Użyj zamiast tego opcji „Zastąp bieżący program uruchamiający”.</string>
+    <string name="settings_override_home">Zastąp bieżący program uruchamiający</string>
+    <string name="settings_override_home_desc">Przechwytuj wywołania bieżącego programu uruchamiającego (przydatne, jeśli nie możesz zmienić ani usunąć domyślnego)</string>
+    <string name="settings_enable_channels">Włącz kanały</string>
+    <string name="settings_enable_channels_desc">Jeśli z nich nie korzystasz, wyłączenie tej opcji przyspiesza uruchamianie i zmniejsza zużycie pamięci</string>
+    <string name="settings_programs_per_channel">Programy na kanał</string>
+    <string name="settings_crash_error_reports">Wysyłaj anonimowe raporty o awariach i błędach</string>
+    <string name="settings_reports_desc">Wysyłane są tylko błąd, wersja aplikacji i model urządzenia</string>
+    <string name="settings_check_updates">Sprawdź aktualizacje</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategorie / Kanały</string>
+    <string name="settings_cards">Karty</string>
+    <string name="settings_wallpaper">Tapeta</string>
+    <string name="settings_status_bar">Pasek stanu</string>
+    <string name="settings_left_headers">Nagłówki po lewej</string>
+    <string name="settings_idle_mode">Tryb bezczynności ekranu głównego</string>
+    <string name="settings_font">Czcionka</string>
+    <string name="settings_themes">Motywy</string>
+    <string name="settings_themes_desc">Import / Eksport</string>
+    <string name="settings_load_cards_scrolling">Wczytuj karty podczas przewijania</string>
+    <string name="settings_load_cards_scrolling_desc">Szybsza reakcja kosztem płynności</string>
+    <string name="settings_accent">Kolor akcentu</string>
+    <string name="settings_accent_desc">Włącz kolor dynamiczny, aby dopasować go do tapety</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Pokaż tytuł</string>
+    <string name="settings_show_icon_title">Pokaż ikonę przed tytułem</string>
+    <string name="settings_rows_spacing">Odstęp pionowy (procent wysokości ekranu)</string>
+    <string name="settings_fixed_position">Stała pozycja zaznaczonej kategorii</string>
+    <string name="settings_hide_rows_above">Ukryj wiersze nad zaznaczeniem</string>
+    <string name="settings_remember_focus">Zapamiętaj pozycję zaznaczonej karty</string>
+    <string name="settings_unselected_opacity">Krycie niezaznaczonych wierszy</string>
+    <string name="settings_top_margin">Margines górny</string>
+    <string name="settings_start_margin">Margines początkowy</string>
+    <string name="settings_end_margin">Margines końcowy</string>
+    <string name="settings_dock_padding">Dopełnienie doku</string>
+    <string name="settings_tint_custom_icons">Barwienie własnych ikon</string>
+    <string name="settings_tint_custom_icons_desc">Dla własnych ikon bez tła</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Zaokrąglone rogi</string>
+    <string name="settings_cards_size">Rozmiar kart</string>
+    <string name="settings_cards_spacing">Odstęp między kartami</string>
+    <string name="settings_loop_limit">Limit pętli animowanych ikon</string>
+    <string name="settings_ripple">Efekt fali po naciśnięciu karty</string>
+    <string name="settings_background_color">Kolor tła</string>
+    <string name="settings_focused_card">Zaznaczona karta</string>
+    <string name="settings_program_cards">Karty programów</string>
+    <string name="settings_tv_ratio">Proporcje kart aplikacji TV</string>
+    <string name="settings_mobile_ratio">Proporcje kart aplikacji mobilnych</string>
+    <string name="settings_icon_pack">Pakiet ikon</string>
+    <string name="settings_icon_pack_none">Nie zainstalowano pakietu ikon</string>
+    <string name="settings_icon_pack_off">Brak</string>
+    <string name="settings_more">Więcej…</string>
+    <string name="settings_custom_icon_tint">Barwa własnych ikon</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Rozmiar zaznaczonej karty</string>
+    <string name="settings_focused_effect">Efekt zaznaczonej karty</string>
+    <string name="settings_effect_none">Brak</string>
+    <string name="settings_effect_shadow">Cień</string>
+    <string name="settings_effect_glow">Poświata</string>
+    <string name="settings_glow_animation">Animacja poświaty</string>
+    <string name="settings_anim_none">Brak</string>
+    <string name="settings_anim_pulse">Pulsowanie</string>
+    <string name="settings_anim_breath">Oddech</string>
+    <string name="settings_anim_fade">Zanikanie</string>
+    <string name="settings_anim_shine">Połysk</string>
+    <string name="settings_glow_size">Rozmiar poświaty</string>
+    <string name="settings_glow_color">Kolor poświaty</string>
+    <string name="settings_glow_color_desc">Pozostaw puste, aby użyć koloru karty</string>
+    <string name="settings_colors_override">Zastępowanie kolorów</string>
+    <string name="settings_override_none">Brak</string>
+    <string name="settings_override_swap">Zamień tło/barwę</string>
+    <string name="settings_override_custom">Własne</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Odtwarzaj podgląd wideo</string>
+    <string name="settings_preview_never">Nigdy</string>
+    <string name="settings_preview_always">Zawsze</string>
+    <string name="settings_preview_no_media">Gdy w tle nie są odtwarzane multimedia</string>
+    <string name="settings_show_progress">Pokaż pasek postępu</string>
+    <string name="settings_show_badge">Pokaż plakietkę</string>
+    <string name="settings_zoom_focus">Efekt powiększenia po zaznaczeniu</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Obsługiwane formaty: statyczny obraz, animowany GIF, wideo (plik lub transmisja na żywo RTSP), animacja Lottie</string>
+    <string name="settings_launcher_wallpaper">Tapeta ekranu głównego</string>
+    <string name="settings_configure">Konfiguruj</string>
+    <string name="settings_show_wallpapers">Pokaż tapety</string>
+    <string name="settings_picture_adjustment">Regulacja obrazu</string>
+    <string name="settings_image_transition">Przejście obrazów</string>
+    <string name="settings_update_frequency">Częstotliwość zmiany (min)</string>
+    <string name="settings_video_wallpaper">Tapeta wideo</string>
+    <string name="settings_display_mode">Tryb wyświetlania</string>
+    <string name="settings_bad_ratio">Przy złych proporcjach/jakości</string>
+    <string name="settings_min_width">Minimalna akceptowana szerokość (px)</string>
+    <string name="settings_src_none">Brak</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Kolory dynamiczne</string>
+    <string name="settings_src_default">Domyślna tapeta</string>
+    <string name="settings_src_media">Plik multimedialny</string>
+    <string name="settings_src_folder">Folder</string>
+    <string name="settings_src_focused_program">Zaznaczony program</string>
+    <string name="settings_src_now_playing">Teraz odtwarzane</string>
+    <string name="settings_src_random_program">Losowy program</string>
+    <string name="settings_src_theme">Motyw</string>
+    <string name="settings_tr_none">Brak</string>
+    <string name="settings_tr_random">Losowe</string>
+    <string name="settings_tr_fade">Zanikanie</string>
+    <string name="settings_tr_zoom">Powiększenie</string>
+    <string name="settings_tr_hslide">Przesunięcie poziome</string>
+    <string name="settings_tr_vslide">Przesunięcie pionowe</string>
+    <string name="settings_dm_automatic">Automatyczny</string>
+    <string name="settings_dm_skip">Pomiń</string>
+    <string name="settings_dm_crop">Przytnij</string>
+    <string name="settings_dm_stretch">Rozciągnij</string>
+    <string name="settings_dm_fit">Wyśrodkuj i dopasuj</string>
+    <string name="settings_dm_fit_blur">Wyśrodkuj i dopasuj + rozmyte tło</string>
+    <string name="settings_dm_blur">Rozmycie</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Odcień</string>
+    <string name="settings_saturation">Nasycenie</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Jasność</string>
+    <string name="settings_tint">Barwa</string>
+    <string name="settings_tint_amount">Intensywność barwy</string>
+    <string name="settings_blur">Rozmycie</string>
+    <string name="settings_shadow_h">Długość poziomej nakładki cienia</string>
+    <string name="settings_shadow_v">Długość pionowej nakładki cienia</string>
+    <string name="settings_shadow_opacity">Krycie nakładki cienia</string>
+    <string name="settings_shadow_tint">Barwa nakładki cienia</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Ignoruj częstotliwość zmiany</string>
+    <string name="settings_ignore_update_desc">Czekaj na koniec wideo przed pobraniem nowej tapety</string>
+    <string name="settings_video_color_freq">Częstotliwość aktualizacji kolorów dynamicznych</string>
+    <string name="settings_video_color_freq_desc">Odstęp w sekundach między klatkami wideo analizowanymi pod kątem kolorów; 0 wyłącza tę funkcję</string>
+    <string name="settings_volume">Głośność</string>
+    <string name="settings_tunneling">Używaj renderowania sprzętowego (tunelowanie)</string>
+    <string name="settings_decoder_fallback">Włącz zapasowe dekodery</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Zarządzaj uprawnieniem do powiadomień</string>
+    <string name="settings_granted">Przyznano</string>
+    <string name="settings_not_granted">Nie przyznano</string>
+    <string name="settings_notification_adb">Brak ekranu ustawień na tym urządzeniu. Przyznaj je poleceniem: %1$s</string>
+    <string name="settings_clock">Zegar</string>
+    <string name="settings_icons">Ikony</string>
+    <string name="settings_show_system_bar">Pokaż systemowy pasek stanu</string>
+    <string name="settings_autohide_status">Ukrywaj pasek stanu podczas przewijania</string>
+    <string name="settings_show_clock">Pokaż zegar</string>
+    <string name="settings_clock_size">Rozmiar czcionki zegara</string>
+    <string name="settings_clock_color">Kolor zegara</string>
+    <string name="settings_drop_shadow">Cień</string>
+    <string name="settings_clock_line1">Format zegara (wiersz 1)</string>
+    <string name="settings_clock_line2">Format zegara (wiersz 2)</string>
+    <string name="settings_clock_default_format">Format systemowy</string>
+    <string name="settings_empty">Puste</string>
+    <string name="settings_icons_size">Rozmiar ikon</string>
+    <string name="settings_icons_color">Kolor ikon</string>
+    <string name="settings_icons_container">Kolor tła ikon</string>
+    <string name="settings_show_settings">Pokaż ustawienia</string>
+    <string name="settings_show_settings_desc">Ustawienia pozostają dostępne po wpisaniu sekwencji przycisków: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Pokaż łączność</string>
+    <string name="settings_show_notifications">Pokaż powiadomienia</string>
+    <string name="settings_autohide_notifications">Ukryj ikonę powiadomień, gdy nie ma powiadomień</string>
+    <string name="settings_show_battery">Pokaż baterię</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Włącz</string>
+    <string name="settings_headers_on_launch">Pokazuj nagłówki po lewej przy uruchomieniu</string>
+    <string name="settings_show_icon">Pokaż ikonę</string>
+    <string name="settings_show_reorder">Pokaż zmianę kolejności</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Czas do bezczynności (min)</string>
+    <string name="settings_idle_opacity">Krycie interfejsu</string>
+    <string name="settings_keep_clock">Zachowaj zegar</string>
+    <string name="settings_prevent_screensaver">Blokuj systemowy wygaszacz ekranu</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Zmień ustawienia czcionki QLauncher. Nazwy rodzin czcionek można znaleźć w Google Fonts.</string>
+    <string name="settings_font_list">Wybierz z listy</string>
+    <string name="settings_font_google">Czcionka (Google Fonts)</string>
+    <string name="settings_font_default">Domyślna</string>
+    <string name="settings_bold">Pogrubienie</string>
+    <string name="settings_italic">Kursywa</string>
+    <string name="settings_size">Rozmiar</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Uruchamiaj przy starcie systemu</string>
+    <string name="settings_autostart_none">Brak</string>
+    <string name="settings_autostart_screensaver">[*] Wygaszacz ekranu (jeśli obsługiwany)</string>
+    <string name="settings_autostart_resume">…oraz po wybudzeniu z trybu gotowości</string>
+    <string name="settings_autostart_delay">Opóźnienie autostartu (sekundy)</string>
+    <string name="settings_simulate_activity">Zapobiegaj automatycznemu wyłączaniu systemu przy bezczynności</string>
+    <string name="settings_idle_detection">Włącz wewnętrzne wykrywanie bezczynności</string>
+    <string name="settings_idle_timeout_power">Limit bezczynności (godz.:min)</string>
+    <string name="settings_idle_action">Działanie przy bezczynności</string>
+    <string name="settings_idle_action_shutdown">Wyłączenie</string>
+    <string name="settings_idle_action_screen_off">Wyłączenie ekranu</string>
+    <string name="settings_idle_action_screensaver">Wygaszacz ekranu (jeśli obsługiwany)</string>
+    <string name="settings_idle_media">Ignoruj tryb bezczynności podczas odtwarzania multimediów</string>
+    <string name="settings_missing_notification_permission">⚠️ Brak uprawnienia do powiadomień</string>
+    <string name="settings_shutdown_action">Sposób wyłączania</string>
+    <string name="settings_shutdown_dialog">Menu zasilania</string>
+    <string name="settings_shutdown_dialog_twice">Menu zasilania (wywołaj dwukrotnie)</string>
+    <string name="settings_shutdown_dialog_ok">Menu zasilania + OK</string>
+    <string name="settings_hdmi_exit">Wyłącz automatycznie, gdy zaniknie sygnał na wejściu HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Ustaw kod, aby blokować wybrane aplikacje (przytrzymaj kartę na ekranie głównym, aby je wybrać) przez cały dzień lub jego część</string>
+    <string name="settings_parental_set_code">Ustaw nowy kod rodzicielski</string>
+    <string name="settings_parental_code_set">Kod jest ustawiony</string>
+    <string name="settings_parental_long">Nie pytaj o kod przez 15 min po poprawnym wprowadzeniu</string>
+    <string name="settings_parental_protect">Chroń ustawienia programu uruchamiającego i zmiany interfejsu</string>
+    <string name="settings_parental_protect_desc">(obowiązuje całą dobę)</string>
+    <string name="settings_parental_partial">Włącz ochronę tylko w godzinach</string>
+    <string name="settings_parental_start">Godzina rozpoczęcia (godz.:min)</string>
+    <string name="settings_parental_end">Godzina zakończenia (godz.:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Pokaż informacje po dwukrotnym naciśnięciu „Menu”</string>
+    <string name="settings_back_double">„Tryb Ambient” po dwukrotnym naciśnięciu „Wstecz”</string>
+    <string name="settings_back_double_desc">Uruchamia wygaszacz ekranu na obsługiwanych urządzeniach</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Włącz usługę, aby wykonywać akcję przy starcie, dostosować przyciski pilota, wzmocnić kontrolę rodzicielską i wykrywać bezczynność na potrzeby zarządzania zasilaniem. Usługa odczytuje naciśnięcia przycisków sprzętowych i nazwę aplikacji na pierwszym planie; obie informacje pozostają w pamięci tego urządzenia i nigdy nie są nigdzie wysyłane.</string>
+    <string name="settings_a11y_enabled">Włączona</string>
+    <string name="settings_a11y_started">Uruchomiona</string>
+    <string name="settings_yes">Tak</string>
+    <string name="settings_no">Nie</string>
+    <string name="settings_a11y_open">Pokaż ustawienia ułatwień dostępu</string>
+    <string name="settings_a11y_consent_title">Usługa ułatwień dostępu</string>
+    <string name="settings_a11y_consent">Pozwala to aplikacji QLauncher odczytywać naciśnięcia przycisków sprzętowych i nazwę aplikacji na pierwszym planie. Obie informacje są przechowywane wyłącznie w pamięci tego urządzenia i nigdy nie są nigdzie wysyłane. Czy się zgadzasz?</string>
+    <string name="settings_a11y_alternate">Użyj alternatywnej konfiguracji</string>
+    <string name="settings_a11y_alternate_desc">Rozwiązuje problemy na niektórych urządzeniach</string>
+    <string name="settings_a11y_volume_fix">Poprawka przycisków głośności</string>
+    <string name="settings_a11y_volume_fix_desc">Na chwilę wstrzymuje zmianę działania przycisków po naciśnięciu głośności, aby długie naciśnięcia nadal działały</string>
+    <string name="settings_a11y_remap">Włącz zmianę działania przycisków</string>
+    <string name="settings_a11y_remap_desc">Usługa przechwytuje naciśnięcia przycisków. Wyłączenie tej opcji zapobiega problemom z długim naciśnięciem głośności i zatrzymywaniu usługi przez system, ale zastępowanie programu uruchamiającego, kontrola rodzicielska i wykrywanie bezczynności mogą działać mniej skutecznie.</string>
+    <string name="settings_a11y_reminder">Pokazuj przypomnienie</string>
+    <string name="settings_a11y_reminder_desc">Jeśli usługa ułatwień dostępu jest wyłączona</string>
+    <string name="settings_a11y_unbound_toast">Usługa ułatwień dostępu QLauncher nie działa</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importuj lub eksportuj ustawienia lokalnie albo za pomocą innej aplikacji, takiej jak LocalSend lub menedżer plików.</string>
+    <string name="settings_import">Importuj</string>
+    <string name="settings_import_file">Z pliku</string>
+    <string name="settings_import_auto">Z automatycznej kopii zapasowej</string>
+    <string name="settings_export">Eksportuj</string>
+    <string name="settings_export_local">Zapisz lokalnie</string>
+    <string name="settings_export_share">Udostępnij innej aplikacji</string>
+    <string name="settings_reset">Przywróć domyślne</string>
+    <string name="settings_cancel">Anuluj</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategoria</string>
+    <string name="wp_custom_search">Własne wyszukiwanie</string>
+    <string name="wp_reddit_login">Zaloguj się</string>
+    <string name="wp_reddit_logout">Wyloguj: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Wyloguj się</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Własny subreddit</string>
+    <string name="wp_custom_subreddit_hint">Kilka nazw oddzielonych znakiem +</string>
+    <string name="wp_folder">Folder</string>
+    <string name="wp_folder_choose">Wybierz folder</string>
+    <string name="wp_media">Plik multimedialny</string>
+    <string name="wp_media_choose">Wybierz plik</string>
+    <string name="wp_choose_other">Inna lokalizacja…</string>
+    <string name="wp_choose_other_desc">Wybierz za pomocą systemowego selektora plików</string>
+    <string name="wp_media_searching">Wyszukiwanie zdjęć i filmów…</string>
+    <string name="wp_media_none">Nie znaleziono zdjęć ani filmów. Skopiuj je do folderu Pictures, Movies lub Download albo podłącz pamięć USB.</string>
+    <string name="wp_folders_description">Foldery ze zdjęciami lub filmami na tym urządzeniu i na dyskach USB.</string>
+    <string name="wp_folders_none">Nie znaleziono folderów ze zdjęciami ani filmami</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d plik</item>
+        <item quantity="few">%d pliki</item>
+        <item quantity="many">%d plików</item>
+        <item quantity="other">%d pliku</item>
+    </plurals>
+    <string name="wp_media_color">Jednolity kolor</string>
+    <string name="wp_theme_desc">Tapety z zaimportowanego motywu</string>
+    <string name="wp_plugin_settings">Ustawienia wtyczki</string>
+    <string name="wp_not_set">Nie ustawiono</string>
+    <string name="wp_status">Stan</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Ta tapeta</string>
+    <string name="wp_next">Następna</string>
+    <string name="wp_source">Źródło</string>
+    <string name="wp_title">Tytuł</string>
+    <string name="wp_author">Autor</string>
+    <string name="wp_set_user">Ustaw jako własną tapetę</string>
+    <string name="wp_view">Wyświetl</string>
+    <string name="wp_unknown">Nieznane</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Twórz profile wyświetlania obrazu i zarządzaj nimi. Powiąż je ze źródłami sygnału, aby zmieniały się automatycznie, lub stosuj je, naciskając dwukrotnie Menu, a następnie strzałkę w górę lub w dół.</string>
+    <string name="dp_list">Lista profili wyświetlania</string>
+    <string name="dp_list_desc">Twórz lub edytuj profile wyświetlania obrazu. W zależności od urządzenia niektóre opcje wymagają roota lub w ogóle nie działają; są przeznaczone dla urządzeń AmLogic.</string>
+    <string name="dp_add">Dodaj nowy…</string>
+    <string name="dp_name">Nazwa profilu</string>
+    <string name="dp_preview">Podgląd</string>
+    <string name="dp_fullscreen">Podgląd pełnoekranowy</string>
+    <string name="dp_fullscreen_desc">lub przełącz przyciskiem Menu</string>
+    <string name="dp_delete">Usuń profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Instaluj aplikacje zewnętrzne</string>
+    <string name="install_desc">Wybierz aplikację do zainstalowania. Może być konieczne wcześniejsze zezwolenie na instalowanie z nieznanych źródeł.</string>
+    <string name="install_custom">Własny URL / kod Downloader</string>
+    <string name="install_custom_desc">Używaj tylko zaufanego źródła</string>
+    <string name="install_status">Stan</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">To urządzenie</string>
+
+    <string name="gallery_filter">Filtruj…</string>
+    <string name="settings_no_file_picker">To urządzenie nie ma selektora plików</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminancja</string>
+    <string name="color_opacity">Krycie</string>
+    <string name="color_prefer_dynamic">Preferuj kolor dynamiczny</string>
+    <string name="color_prefer_dynamic_desc">Jeśli jest dostępny, zachowa tę luminancję/krycie</string>
+    <string name="color_clear">Wyczyść</string>
+    <string name="color_reset">Przywróć domyślne</string>
+</resources>

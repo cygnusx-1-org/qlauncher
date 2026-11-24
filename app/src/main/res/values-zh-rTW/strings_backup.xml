@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">預設</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">粗體</string>
+    <string name="backup_clock_markup_italic">斜體</string>
+    <string name="backup_clock_markup_underline">底線</string>
+    <string name="backup_clock_markup_strikethrough">刪除線</string>
+    <string name="backup_clock_markup_subscript">下標</string>
+    <string name="backup_clock_markup_superscript">上標</string>
+    <string name="backup_clock_markup_half_size">一半大小</string>
+    <string name="backup_clock_markup_one_and_a_half_size">一倍半大小</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">黑色截斷</string>
+    <string name="backup_pattern_apl_clipping">APL 截斷</string>
+    <string name="backup_pattern_white_clipping">白色截斷</string>
+    <string name="backup_pattern_grayscale_ramp">灰階漸層</string>
+    <string name="backup_pattern_grayscale_steps">灰階階梯</string>
+    <string name="backup_pattern_dynamic_brightness">動態亮度</string>
+    <string name="backup_pattern_color_steps">色彩階梯</string>
+    <string name="backup_pattern_color_clipping">色彩截斷</string>
+    <string name="backup_pattern_flashing_color_bars">閃爍彩條</string>
+    <string name="backup_pattern_sharpness_overscan">銳利度 &amp; 過度掃描</string>
+    <string name="backup_pattern_uhd">UHD 測試圖</string>
+    <string name="backup_pattern_judder">抖動測試</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] 長寬比與銳利度</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] 黑色位準</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] 色彩截斷 240–1000 尼特</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] 色彩截斷 3600–10000 尼特</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] 色彩截斷 700–10000 尼特</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] 色彩截斷 900–4000 尼特</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] 灰階漸層 10000 尼特</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] 灰階漸層 1000 尼特</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] 灰階漸層 4000 尼特</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] 黑色 PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] 色彩漸層</string>
+    <string name="backup_pattern_unavailable">%1$s 需要 HDR 影片輸出路徑，目前尚無法使用</string>
+    <!-- Pages -->
+    <string name="backup_settings">設定</string>
+    <string name="backup_manage_settings">管理設定</string>
+    <string name="backup_themes">主題</string>
+    <string name="backup_import">匯入</string>
+    <string name="backup_export">匯出</string>
+    <string name="backup_import_from_file">從檔案管理員</string>
+    <string name="backup_import_from_auto">從自動備份</string>
+    <string name="backup_export_save">儲存在本機</string>
+    <string name="backup_export_share">分享給其他應用程式</string>
+    <string name="backup_reset">重設為預設值</string>
+    <string name="backup_cancel">取消</string>
+    <string name="backup_ok">確定</string>
+    <string name="backup_done">完成</string>
+    <string name="backup_close">關閉</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">匯出設定</string>
+    <string name="backup_export_theme_title">匯出主題</string>
+    <string name="backup_export_description">所有內容都會儲存在一個檔案中，並以你設定的密碼加密（至少 %1$d 個字元）。匯入檔案時需要這組密碼，而且密碼無法找回。</string>
+    <string name="backup_export_theme_description">外觀設定和目前的桌布會儲存在一個檔案中，並以你設定的密碼加密（至少 %1$d 個字元）。匯入主題時需要這組密碼。</string>
+    <string name="backup_password">密碼</string>
+    <string name="backup_password_show">顯示密碼</string>
+    <string name="backup_password_hide">隱藏密碼</string>
+    <string name="backup_password_strength">密碼強度</string>
+    <string name="backup_strength_too_short">太短：至少需要 %1$d 個字元</string>
+    <string name="backup_strength_weak">弱：容易被猜到</string>
+    <string name="backup_strength_fair">中等</string>
+    <string name="backup_strength_strong">強</string>
+    <string name="backup_password_too_short">密碼至少需要 %1$d 個字元</string>
+    <string name="backup_exporting">正在匯出…</string>
+    <string name="backup_export_saved">已儲存至 %1$s</string>
+    <string name="backup_export_kept">未儲存到其他位置，檔案仍在 %1$s</string>
+    <string name="backup_export_shared">已傳送，%1$s 中仍保留一份副本</string>
+    <string name="backup_export_no_file_manager">這部裝置上沒有應用程式可以接收這個檔案。檔案位於 %1$s</string>
+    <string name="backup_export_failed">匯出失敗：%1$s</string>
+    <string name="backup_share_title">透過以下應用程式傳送 QLauncher 檔案</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">匯入會取代你現有的設定。系統會先寫入一份自動備份，完成後 QLauncher 會重新啟動。</string>
+    <string name="backup_reading">正在讀取檔案…</string>
+    <string name="backup_import_action">匯入</string>
+    <string name="backup_wrong_password">密碼錯誤</string>
+    <string name="backup_password_hint">匯出檔案時設定的密碼</string>
+    <string name="backup_not_a_backup">這不是 QLauncher 或 Projectivy 的備份或主題。</string>
+    <string name="backup_damaged">檔案已損毀或不完整。</string>
+    <string name="backup_too_new">這個檔案是由較新版的 QLauncher 建立（格式 %1$d）。請更新 QLauncher 後再匯入。</string>
+    <string name="backup_unreadable">無法在這部裝置上讀取這份自動備份。</string>
+    <string name="backup_import_failed">匯入失敗，未做任何變更：%1$s</string>
+    <string name="backup_applying">正在匯入… 完成後 QLauncher 會重新啟動。</string>
+    <string name="backup_origin_ql_backup">QLauncher 設定備份</string>
+    <string name="backup_origin_ql_theme">QLauncher 主題</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher 設定備份</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher 主題</string>
+    <string name="backup_origin_auto">自動備份</string>
+    <string name="backup_preview_theme_by">%1$s，作者：%2$s</string>
+    <string name="backup_preview_version">版本 %1$s</string>
+    <string name="backup_preview_settings">設定</string>
+    <string name="backup_preview_categories">類別</string>
+    <string name="backup_preview_apps">應用程式自訂項目</string>
+    <string name="backup_preview_profiles">顯示設定檔</string>
+    <string name="backup_preview_files">桌布和圖示</string>
+    <string name="backup_preview_skipped">這部裝置上沒有的應用程式</string>
+    <string name="backup_replace_setup">取代現有設定</string>
+    <string name="backup_apply_theme">套用主題</string>
+    <string name="backup_replace_detail">會先為現有設定寫入一份自動備份</string>
+    <string name="backup_nc_parental">家長密碼</string>
+    <string name="backup_nc_parental_detail">不會轉移。請在「家長監護」中設定新密碼。</string>
+    <string name="backup_nc_premium">進階版狀態</string>
+    <string name="backup_nc_premium_detail">不會轉移。QLauncher 的所有功能都是免費的。</string>
+    <string name="backup_nc_inputs">電視輸入來源</string>
+    <string name="backup_nc_profile_bindings">顯示設定檔關聯</string>
+    <string name="backup_nc_plugin">桌布外掛程式</string>
+    <string name="backup_nc_plugin_detail">未安裝 %1$s，桌布來源維持不變。</string>
+    <string name="backup_nc_icons">自訂圖示</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="other">%1$d 個已變更的值</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="other">%1$d 個類別</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="other">%1$d 個應用程式</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="other">%1$d 個設定檔</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="other">%1$d 個檔案</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="other">%1$d 項不明設定，已略過</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="other">%1$d 個項目不符合這裡安裝的任何應用程式，將會略過</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="other">%1$d 個連結指向這部裝置沒有的電視輸入來源，將會略過</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="other">%1$d 個指派給輸入來源的設定檔不會轉移</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="other">%1$d 個儲存在 Projectivy 內部的圖示無法讀取，將會略過</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">自動備份</string>
+    <string name="backup_auto_description">QLauncher 會在這部裝置上保留你最近 %1$d 個版本的設定，並以永遠不會離開這部裝置的金鑰加密。選取任一版本即可還原，不需要密碼。</string>
+    <string name="backup_auto_none">沒有可用的自動備份</string>
+    <string name="backup_files_title">備份檔案</string>
+    <string name="backup_files_theme_title">主題檔案</string>
+    <string name="backup_files_description">匯出的檔案會儲存在 %1$s。取得所有檔案存取權後，QLauncher 也能在 Download、Documents 和 USB 隨身碟中找到備份，包括 Projectivy 的備份。</string>
+    <string name="backup_files_searching">正在尋找備份檔案…</string>
+    <string name="backup_files_none">找不到備份檔案</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher 的資料夾</string>
+    <string name="backup_files_access">尋找其他應用程式和裝置的備份</string>
+    <string name="backup_files_access_desc">允許存取所有檔案</string>
+    <string name="backup_files_access_unavailable">這部裝置沒有對應的設定畫面。請使用以下指令允許存取所有檔案：%1$s</string>
+    <string name="backup_files_browse">其他位置…</string>
+    <string name="backup_files_browse_desc">使用系統檔案挑選器選擇檔案</string>
+    <string name="backup_auto_delete_all">全部刪除</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">變更後</string>
+    <string name="backup_reason_import">匯入前</string>
+    <string name="backup_reason_migration">更新前</string>
+    <string name="backup_reason_reset">重設前</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">設定檔 #</string>
+    <string name="backup_no_picture_manager">未載入畫面管理員</string>
+    <string name="backup_no_picture_manager_detail">這部裝置沒有受支援的方式可變更畫面設定，因此設定檔只會保留數值，不會實際套用。</string>
+</resources>

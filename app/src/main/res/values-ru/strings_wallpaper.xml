@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Нет</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Динамические цвета</string>
+    <string name="wallpaper_provider_default">Обои по умолчанию</string>
+    <string name="wallpaper_provider_media_file">Медиафайл</string>
+    <string name="wallpaper_provider_folder">Папка</string>
+    <string name="wallpaper_provider_focused_program">Выбранная программа</string>
+    <string name="wallpaper_provider_now_playing">Сейчас играет</string>
+    <string name="wallpaper_provider_random_program">Случайная программа</string>
+    <string name="wallpaper_provider_theme">Тема</string>
+    <string name="wallpaper_provider_unknown_plugin">Плагин</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Обои</string>
+    <string name="wallpaper_wikimedia_nature">Природа</string>
+    <string name="wallpaper_wikimedia_landscapes">Пейзажи</string>
+    <string name="wallpaper_wikimedia_mountains">Горы</string>
+    <string name="wallpaper_wikimedia_forests">Леса</string>
+    <string name="wallpaper_wikimedia_cities">Города</string>
+    <string name="wallpaper_wikimedia_architecture">Архитектура</string>
+    <string name="wallpaper_wikimedia_night">Ночь</string>
+    <string name="wallpaper_wikimedia_space">Космос</string>
+    <string name="wallpaper_wikimedia_animals">Животные</string>
+    <string name="wallpaper_wikimedia_custom">[Свой поиск]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Свой сабреддит]</string>
+    <string name="wallpaper_reddit_log_out">Выйти</string>
+    <string name="wallpaper_reddit_login_needed">Войдите в Reddit, чтобы видеть обои оттуда.</string>
+    <string name="wallpaper_reddit_login_title">Вход в Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Вход…</string>
+    <string name="wallpaper_reddit_login_denied">Доступ к Reddit не предоставлен, поэтому обои из Reddit недоступны.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Ответ Reddit не соответствует этой попытке входа и был проигнорирован. Попробуйте ещё раз.</string>
+    <string name="wallpaper_reddit_login_failed">Не удалось войти в Reddit (%1$s). Повторите попытку позже.</string>
+    <string name="wallpaper_reddit_login_network">Не удаётся подключиться к Reddit. Проверьте подключение к сети и повторите попытку.</string>
+    <string name="wallpaper_reddit_login_page_error">Не удалось загрузить страницу входа Reddit. Проверьте подключение к сети и повторите попытку.</string>
+    <string name="wallpaper_reddit_no_webview">На этом устройстве нет компонента веб-браузера (Android System WebView), необходимого для входа в Reddit. Установите или включите Android System WebView и повторите попытку.</string>
+    <string name="wallpaper_reddit_retry">Повторить</string>
+    <string name="wallpaper_reddit_close">Закрыть</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Нет подключения к источнику обоев.</string>
+    <string name="wallpaper_error_server">Источник обоев вернул ошибку.</string>
+    <string name="wallpaper_error_rate_limited">Источник обоев попросил подождать перед следующим запросом.</string>
+    <string name="wallpaper_error_generic">Не удалось загрузить обои.</string>
+    <string name="wallpaper_error_no_media">Не выбрано ни изображение, ни видео, ни цвет.</string>
+    <string name="wallpaper_error_no_folder">Папка не выбрана.</string>
+    <string name="wallpaper_error_folder_access">Не удаётся прочитать папку. Выберите её снова.</string>
+    <string name="wallpaper_error_folder_empty">В папке нет изображений, видео или анимаций Lottie.</string>
+    <string name="wallpaper_error_theme_empty">В текущей теме нет обоев.</string>
+    <string name="wallpaper_error_no_channels">Каналы недоступны. Включите их и разрешите доступ к телепрограмме.</string>
+    <string name="wallpaper_error_no_notification_access">Для «Сейчас играет» нужен доступ к уведомлениям.</string>
+    <string name="wallpaper_error_no_subreddit">Не задан действительный сабреддит.</string>
+    <string name="wallpaper_error_plugin">Плагин обоев не ответил.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Обои установлены</string>
+    <string name="wallpaper_set_failed">Этот файл нельзя использовать как обои.</string>
+</resources>

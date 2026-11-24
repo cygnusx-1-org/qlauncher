@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Սահմանել որպես QLauncher-ի պաստառ</string>
+    <string name="import_settings">Ներմուծել QLauncher-ի մեջ</string>
+    <string name="accessibility_service_description">QLauncher-ը տեսնում է սարքային ստեղների սեղմումները և առաջին պլանում գտնվող հավելվածի անունը՝ ստանդարտ գործարկիչը փոխարինելու, միացնելիս գործողություններ կատարելու, հեռակառավարչի կոճակները վերանշանակելու, անգործության ժամանակը հայտնաբերելու և ծնողական վերահսկողությունը կիրառելու համար։ Երկուսն էլ մնում են այս սարքի հիշողության մեջ և երբեք ոչ մի տեղ չեն ուղարկվում։</string>
+</resources>

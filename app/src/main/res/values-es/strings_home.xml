@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">En reproducción</string>
+    <string name="home_cat_inputs">Entradas</string>
+    <string name="home_cat_favorites">Favoritos</string>
+    <string name="home_cat_video">Vídeo</string>
+    <string name="home_cat_music">Música</string>
+    <string name="home_cat_games">Juegos</string>
+    <string name="home_cat_tv_apps">Aplicaciones de TV</string>
+    <string name="home_cat_mobile_apps">Aplicaciones móviles</string>
+    <string name="home_cat_watch_next">Ver a continuación</string>
+    <string name="home_cat_shortcuts">Accesos directos</string>
+    <string name="home_cat_folders">Carpetas de categorías</string>
+    <string name="home_cat_live_tv">TV en directo</string>
+    <string name="home_cat_settings">Ajustes</string>
+    <string name="home_cat_display">Pantalla</string>
+    <string name="home_cat_applications">Aplicaciones</string>
+    <string name="home_cat_system">Sistema</string>
+    <string name="home_cat_about">Acerca de</string>
+    <string name="home_new_category">Nueva categoría</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Todas las aplicaciones</string>
+    <string name="home_action_edit_categories">Editar categorías</string>
+    <string name="home_action_edit_channels">Editar canales</string>
+    <string name="home_action_launcher_settings">Ajustes de QLauncher</string>
+    <string name="home_action_android_settings">Ajustes de Android</string>
+    <string name="home_action_amlogic_settings">Ajustes adicionales de AmLogic</string>
+    <string name="home_action_display_profiles">Perfiles de pantalla</string>
+    <string name="home_action_install_apps">Instalar aplicaciones de terceros</string>
+    <string name="home_action_accessibility">Servicio de accesibilidad</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Cambiar de perfil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Este dispositivo</string>
+    <string name="home_action_about_wallpaper">Este fondo de pantalla</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Temporada %1$s</string>
+    <string name="home_episode">Episodio %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Conectividad</string>
+    <string name="home_status_notifications">Notificaciones</string>
+    <string name="home_status_settings">Ajustes</string>
+    <string name="home_status_wallpaper">Este fondo de pantalla</string>
+    <string name="home_navigation_menu">Menú de navegación</string>
+    <string name="home_reorder">Reordenar</string>
+    <string name="home_category_settings">Ajustes de la categoría</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Ajustes de la aplicación</string>
+    <string name="menu_open">Abrir</string>
+    <string name="menu_details">Detalles</string>
+    <string name="menu_play_pause">Reproducir/Pausar</string>
+    <string name="menu_stop">Detener</string>
+    <string name="menu_previous">Anterior</string>
+    <string name="menu_next">Siguiente</string>
+    <string name="menu_uninstall">Desinstalar</string>
+    <string name="menu_launch_on_boot">Abrir al arrancar</string>
+    <string name="menu_launch_on_boot_on">Se abre al arrancar</string>
+    <string name="menu_add_parental">Añadir al control parental</string>
+    <string name="menu_remove_parental">Quitar del control parental</string>
+    <string name="menu_shortcuts">Accesos directos</string>
+    <string name="menu_appearance">Apariencia</string>
+    <string name="menu_title">Título</string>
+    <string name="menu_change_icon">Cambiar icono</string>
+    <string name="menu_icon_from_picture">Desde una imagen</string>
+    <string name="menu_icon_other_location">Otra ubicación…</string>
+    <string name="menu_icon_no_pictures">No se han encontrado imágenes. Copia alguna en Pictures o Download, o conecta una unidad USB.</string>
+    <string name="menu_icon_reset">Restablecer</string>
+    <string name="menu_crop">Recortar para rellenar</string>
+    <string name="menu_visibility">Visibilidad</string>
+    <string name="menu_reorder">Reordenar</string>
+    <string name="menu_remove_from">Quitar de %1$s</string>
+    <string name="menu_hide">Ocultar</string>
+    <string name="menu_add_to">Añadir a…</string>
+    <string name="menu_move_to">Mover a…</string>
+    <string name="menu_channels">Canales</string>
+    <string name="menu_rename_hint">Escribe un título nuevo y pulsa OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Título</string>
+    <string name="editor_change_icon">Cambiar icono</string>
+    <string name="editor_visible">Visible</string>
+    <string name="editor_grid">Cuadrícula</string>
+    <string name="editor_sliding_row">Fila deslizante</string>
+    <string name="editor_background">Color de fondo</string>
+    <string name="editor_show_title">Mostrar título</string>
+    <string name="editor_size">Tamaño</string>
+    <string name="editor_advanced">Ajustes avanzados</string>
+    <string name="editor_start_margin">Margen inicial</string>
+    <string name="editor_end_margin">Margen final</string>
+    <string name="editor_top_margin">Margen superior</string>
+    <string name="editor_cards_per_row">Tarjetas por fila</string>
+    <string name="editor_row_count">Número de filas</string>
+    <string name="editor_auto">Automático</string>
+    <string name="editor_auto_value">Automático (%1$s)</string>
+    <string name="editor_sort">Ordenar</string>
+    <string name="editor_sort_custom">Personalizado</string>
+    <string name="editor_sort_name">Alfabéticamente</string>
+    <string name="editor_sort_last">Último uso</string>
+    <string name="editor_sort_most">Uso frecuente</string>
+    <string name="editor_sort_random">Aleatorio</string>
+    <string name="editor_set_default">Establecer como predeterminada</string>
+    <string name="editor_is_default">Categoría predeterminada</string>
+    <string name="editor_manage_apps">Gestionar aplicaciones</string>
+    <string name="editor_hidden_items">Elementos ocultos</string>
+    <string name="editor_restore">Restaurar</string>
+    <string name="editor_delete">Eliminar</string>
+    <string name="editor_delete_confirm">¿Eliminar esta categoría?</string>
+    <string name="editor_empty_note">Esta categoría aún no aparecerá porque está vacía</string>
+    <string name="editor_request_notifications">Solicitar permiso de notificaciones</string>
+    <string name="editor_channel_error">Este canal ya no se puede leer</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Canales</string>
+    <string name="channels_count">%1$d canales</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Notificaciones</string>
+    <string name="notifications_clear_all">Borrar todo</string>
+    <string name="notifications_empty">No hay notificaciones</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Esta aplicación no se puede abrir</string>
+    <string name="home_reorder_hint">Usa izquierda/derecha para mover, y OK o ATRÁS para terminar</string>
+    <string name="home_category_reorder_hint">Usa arriba/abajo para mover, y OK o ATRÁS para terminar</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">¡Te damos la bienvenida!</string>
+    <string name="firstrun_welcome_text">QLauncher es un launcher para Android TV. Reúne tus aplicaciones, canales y contenido favorito en una pantalla de inicio personalizable, con un fondo de pantalla rotativo detrás.</string>
+    <string name="firstrun_features_title">Tus nuevos superpoderes</string>
+    <string name="firstrun_features_text">Abre una aplicación o una entrada HDMI al arrancar, gestiona perfiles de pantalla, bloquea aplicaciones con el control parental, muestra patrones de calibración, detecta la inactividad y personaliza cada parte de la pantalla de inicio. Algunas funciones dependen de tu dispositivo.</string>
+    <string name="firstrun_a11y_title">Hablemos de accesibilidad</string>
+    <string name="firstrun_a11y_text">Muchas funciones necesitan el servicio de accesibilidad de QLauncher: sustituir el launcher original, las acciones al arrancar, los gestos con los botones del mando, la detección de inactividad y el control parental. Puedes activarlo ahora o más tarde desde los ajustes.</string>
+    <string name="firstrun_a11y_open">Abrir ajustes de accesibilidad</string>
+    <string name="firstrun_permissions_title">Si me permites…</string>
+    <string name="firstrun_permissions_text">A continuación, QLauncher pide permiso para leer la programación de TV (para los canales y Ver a continuación) y acceso a las notificaciones (para el icono de notificaciones y En reproducción). Ambos son opcionales.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">A continuación, QLauncher pide acceso a las notificaciones (para el icono de notificaciones y En reproducción). Es opcional.</string>
+    <string name="firstrun_notifications_dialog">¿Permitir el acceso a las notificaciones?</string>
+    <string name="firstrun_notifications_text">El acceso a las notificaciones permite que QLauncher muestre un contador de notificaciones, un panel de notificaciones y lo que se está reproduciendo. «Sí» abre la página Acceso especial de aplicaciones, donde lo concedes.</string>
+    <string name="firstrun_reports_title">¿Enviar informes anónimos de fallos y errores?</string>
+    <string name="firstrun_reports_text">Si QLauncher falla o encuentra un error, puede enviar un informe con la versión de la aplicación y el modelo del dispositivo para que se pueda corregir el fallo. No se envía nada que te identifique ni lo que ves. Puedes cambiarlo más tarde en General.</string>
+    <string name="firstrun_launcher_title">Haz de QLauncher tu pantalla de inicio</string>
+    <string name="firstrun_launcher_text">Muchos dispositivos de TV no permiten cambiar el launcher predeterminado. Si el tuyo lo permite, elige QLauncher ahí. Si no, activa el servicio de accesibilidad con «Sustituir el launcher actual», y QLauncher volverá cada vez que se abra el launcher original.</string>
+    <string name="firstrun_launcher_open">Cambiar launcher predeterminado</string>
+    <string name="firstrun_start_title">¡A empezar!</string>
+    <string name="firstrun_start_text">Todo se puede cambiar más tarde desde los ajustes. Pulsa el botón de ajustes de arriba a la derecha o la secuencia de teclas ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">EMPEZAR</string>
+    <string name="firstrun_next">Siguiente</string>
+    <string name="firstrun_skip">Omitir</string>
+    <string name="firstrun_yes">Sí</string>
+    <string name="firstrun_no">No</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">No hay salvapantallas en este dispositivo</string>
+</resources>

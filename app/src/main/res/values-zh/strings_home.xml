@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">正在播放</string>
+    <string name="home_cat_inputs">输入源</string>
+    <string name="home_cat_favorites">收藏</string>
+    <string name="home_cat_video">视频</string>
+    <string name="home_cat_music">音乐</string>
+    <string name="home_cat_games">游戏</string>
+    <string name="home_cat_tv_apps">电视应用</string>
+    <string name="home_cat_mobile_apps">移动应用</string>
+    <string name="home_cat_watch_next">接下来观看</string>
+    <string name="home_cat_shortcuts">快捷方式</string>
+    <string name="home_cat_folders">分类文件夹</string>
+    <string name="home_cat_live_tv">电视直播</string>
+    <string name="home_cat_settings">设置</string>
+    <string name="home_cat_display">显示</string>
+    <string name="home_cat_applications">应用</string>
+    <string name="home_cat_system">系统</string>
+    <string name="home_cat_about">关于</string>
+    <string name="home_new_category">新建分类</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">所有应用</string>
+    <string name="home_action_edit_categories">编辑分类</string>
+    <string name="home_action_edit_channels">编辑频道</string>
+    <string name="home_action_launcher_settings">QLauncher 设置</string>
+    <string name="home_action_android_settings">Android 设置</string>
+    <string name="home_action_amlogic_settings">AmLogic 附加设置</string>
+    <string name="home_action_display_profiles">显示配置文件</string>
+    <string name="home_action_install_apps">安装第三方应用</string>
+    <string name="home_action_accessibility">无障碍服务</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">切换配置文件</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">本设备</string>
+    <string name="home_action_about_wallpaper">当前壁纸</string>
+
+    <!-- Program meta -->
+    <string name="home_season">第 %1$s 季</string>
+    <string name="home_episode">第 %1$s 集</string>
+    <string name="home_minutes">%1$d 分钟</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">网络连接</string>
+    <string name="home_status_notifications">通知</string>
+    <string name="home_status_settings">设置</string>
+    <string name="home_status_wallpaper">当前壁纸</string>
+    <string name="home_navigation_menu">导航菜单</string>
+    <string name="home_reorder">调整顺序</string>
+    <string name="home_category_settings">分类设置</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">应用设置</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_details">详情</string>
+    <string name="menu_play_pause">播放/暂停</string>
+    <string name="menu_stop">停止</string>
+    <string name="menu_previous">上一个</string>
+    <string name="menu_next">下一个</string>
+    <string name="menu_uninstall">卸载</string>
+    <string name="menu_launch_on_boot">开机时启动</string>
+    <string name="menu_launch_on_boot_on">已设为开机时启动</string>
+    <string name="menu_add_parental">添加到家长控制</string>
+    <string name="menu_remove_parental">从家长控制中移除</string>
+    <string name="menu_shortcuts">快捷方式</string>
+    <string name="menu_appearance">外观</string>
+    <string name="menu_title">标题</string>
+    <string name="menu_change_icon">更改图标</string>
+    <string name="menu_icon_from_picture">从图片中选择</string>
+    <string name="menu_icon_other_location">其他位置…</string>
+    <string name="menu_icon_no_pictures">未找到图片。请将图片复制到 Pictures 或 Download 文件夹，或插入 U 盘。</string>
+    <string name="menu_icon_reset">重置</string>
+    <string name="menu_crop">裁剪以填满</string>
+    <string name="menu_visibility">可见性</string>
+    <string name="menu_reorder">调整顺序</string>
+    <string name="menu_remove_from">从 %1$s 中移除</string>
+    <string name="menu_hide">隐藏</string>
+    <string name="menu_add_to">添加到…</string>
+    <string name="menu_move_to">移动到…</string>
+    <string name="menu_channels">频道</string>
+    <string name="menu_rename_hint">输入新标题，然后按 OK 键</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">标题</string>
+    <string name="editor_change_icon">更改图标</string>
+    <string name="editor_visible">可见</string>
+    <string name="editor_grid">网格</string>
+    <string name="editor_sliding_row">滑动行</string>
+    <string name="editor_background">背景颜色</string>
+    <string name="editor_show_title">显示标题</string>
+    <string name="editor_size">大小</string>
+    <string name="editor_advanced">高级设置</string>
+    <string name="editor_start_margin">左边距</string>
+    <string name="editor_end_margin">右边距</string>
+    <string name="editor_top_margin">上边距</string>
+    <string name="editor_cards_per_row">每行卡片数</string>
+    <string name="editor_row_count">行数</string>
+    <string name="editor_auto">自动</string>
+    <string name="editor_auto_value">自动（%1$s）</string>
+    <string name="editor_sort">排序</string>
+    <string name="editor_sort_custom">自定义</string>
+    <string name="editor_sort_name">按字母顺序</string>
+    <string name="editor_sort_last">最近使用</string>
+    <string name="editor_sort_most">最常使用</string>
+    <string name="editor_sort_random">随机</string>
+    <string name="editor_set_default">设为默认</string>
+    <string name="editor_is_default">默认分类</string>
+    <string name="editor_manage_apps">管理应用</string>
+    <string name="editor_hidden_items">已隐藏的项目</string>
+    <string name="editor_restore">恢复</string>
+    <string name="editor_delete">删除</string>
+    <string name="editor_delete_confirm">要删除此分类吗？</string>
+    <string name="editor_empty_note">此分类为空，因此暂时不会显示</string>
+    <string name="editor_request_notifications">请求通知权限</string>
+    <string name="editor_channel_error">无法再读取此频道</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">频道</string>
+    <string name="channels_count">%1$d 个频道</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">通知</string>
+    <string name="notifications_clear_all">全部清除</string>
+    <string name="notifications_empty">没有通知</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">无法打开此应用</string>
+    <string name="home_reorder_hint">按左/右方向键移动，按 OK 或返回键完成</string>
+    <string name="home_category_reorder_hint">按上/下方向键移动，按 OK 或返回键完成</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">欢迎！</string>
+    <string name="firstrun_welcome_text">QLauncher 是一款 Android TV 启动器。它将你的应用、频道和喜爱的内容集中在一个可自定义的主屏幕上，背景还有轮换的壁纸。</string>
+    <string name="firstrun_features_title">你的新超能力</string>
+    <string name="firstrun_features_text">开机时启动应用或 HDMI 输入源、管理显示配置文件、用家长控制锁定应用、显示校准图案、检测闲置时间，并自定义主屏幕的每个部分。部分功能取决于你的设备。</string>
+    <string name="firstrun_a11y_title">来开启无障碍服务吧</string>
+    <string name="firstrun_a11y_text">许多功能需要 QLauncher 的无障碍服务：接管系统自带的启动器、开机操作、遥控器按键手势、闲置检测和家长控制。你可以现在开启，也可以稍后在设置中开启。</string>
+    <string name="firstrun_a11y_open">打开无障碍设置</string>
+    <string name="firstrun_permissions_title">打扰一下…</string>
+    <string name="firstrun_permissions_text">接下来，QLauncher 会请求读取电视节目单的权限（用于频道和“接下来观看”），以及通知使用权（用于通知图标和“正在播放”）。两者都是可选的。</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">接下来，QLauncher 会请求通知使用权（用于通知图标和“正在播放”）。此项是可选的。</string>
+    <string name="firstrun_notifications_dialog">要授予通知使用权吗？</string>
+    <string name="firstrun_notifications_text">有了通知使用权，QLauncher 就能显示通知数量、通知面板和正在播放的内容。选择“是”会打开“特殊应用权限”页面，你可以在那里授予此权限。</string>
+    <string name="firstrun_reports_title">要发送匿名崩溃和错误报告吗？</string>
+    <string name="firstrun_reports_text">如果 QLauncher 崩溃或出错，它可以发送一份包含应用版本和设备型号的报告，以便修复问题。任何能识别你身份或你所观看内容的信息都不会被发送。你可以稍后在“通用”中更改此设置。</string>
+    <string name="firstrun_launcher_title">将 QLauncher 设为主屏幕</string>
+    <string name="firstrun_launcher_text">许多电视设备不允许更改默认启动器。如果你的设备允许，请在那里选择 QLauncher。否则，请开启无障碍服务并启用“接管当前启动器”，这样每当系统自带的启动器打开时，QLauncher 都会回来。</string>
+    <string name="firstrun_launcher_open">更改默认启动器</string>
+    <string name="firstrun_start_title">开始吧！</string>
+    <string name="firstrun_start_text">以后可以在设置中更改所有内容。按右上角的设置按钮，或按方向键序列 ↑→↓←↑→↓←。</string>
+    <string name="firstrun_get_started">开始使用</string>
+    <string name="firstrun_next">下一步</string>
+    <string name="firstrun_skip">跳过</string>
+    <string name="firstrun_yes">是</string>
+    <string name="firstrun_no">否</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">此设备没有屏保</string>
+</resources>

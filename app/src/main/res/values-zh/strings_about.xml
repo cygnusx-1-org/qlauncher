@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_copyright">版权所有 © 2026 QLauncher 贡献者。依据 GNU General Public License 第 3 版发布的自由软件。</string>
+    <string name="about_libs">开源库 / 致谢</string>
+    <string name="about_links">链接</string>
+    <string name="about_link_project">项目主页</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">简体中文翻译</string>
+    <string name="about_translation_credit">QLauncher 贡献者</string>
+    <string name="about_no_browser">此设备上没有浏览器。请在其他设备上打开 %1$s。</string>
+    <string name="about_check_updates">检查更新</string>
+    <string name="about_update_checking">正在检查…</string>
+    <string name="about_update_latest">QLauncher 已是最新版本（%1$s）</string>
+    <string name="about_update_available">新版本 %1$s 现已推出</string>
+    <string name="about_update_failed">无法检查：%1$s</string>
+    <string name="about_update_install">安装 QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s 现已推出：设置 › 关于 › QLauncher</string>
+</resources>

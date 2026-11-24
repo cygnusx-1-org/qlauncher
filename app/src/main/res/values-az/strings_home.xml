@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">İndi oxudulur</string>
+    <string name="home_cat_inputs">Girişlər</string>
+    <string name="home_cat_favorites">Seçilmişlər</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Musiqi</string>
+    <string name="home_cat_games">Oyunlar</string>
+    <string name="home_cat_tv_apps">TV tətbiqləri</string>
+    <string name="home_cat_mobile_apps">Mobil tətbiqlər</string>
+    <string name="home_cat_watch_next">Növbəti izlə</string>
+    <string name="home_cat_shortcuts">Qısayollar</string>
+    <string name="home_cat_folders">Kateqoriya qovluqları</string>
+    <string name="home_cat_live_tv">Canlı TV</string>
+    <string name="home_cat_settings">Tənzimləmələr</string>
+    <string name="home_cat_display">Ekran</string>
+    <string name="home_cat_applications">Tətbiqlər</string>
+    <string name="home_cat_system">Sistem</string>
+    <string name="home_cat_about">Haqqında</string>
+    <string name="home_new_category">Yeni kateqoriya</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Bütün tətbiqlər</string>
+    <string name="home_action_edit_categories">Kateqoriyaları redaktə et</string>
+    <string name="home_action_edit_channels">Kanalları redaktə et</string>
+    <string name="home_action_launcher_settings">QLauncher tənzimləmələri</string>
+    <string name="home_action_android_settings">Android tənzimləmələri</string>
+    <string name="home_action_amlogic_settings">AmLogic əlavə tənzimləmələri</string>
+    <string name="home_action_display_profiles">Ekran profilləri</string>
+    <string name="home_action_install_apps">Kənar tətbiqləri quraşdır</string>
+    <string name="home_action_accessibility">Əlçatımlılıq xidməti</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Profili dəyiş</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Bu cihaz</string>
+    <string name="home_action_about_wallpaper">Bu divar kağızı</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Mövsüm %1$s</string>
+    <string name="home_episode">Seriya %1$s</string>
+    <string name="home_minutes">%1$d dəq</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Bağlantı</string>
+    <string name="home_status_notifications">Bildirişlər</string>
+    <string name="home_status_settings">Tənzimləmələr</string>
+    <string name="home_status_wallpaper">Bu divar kağızı</string>
+    <string name="home_navigation_menu">Naviqasiya menyusu</string>
+    <string name="home_reorder">Yenidən sırala</string>
+    <string name="home_category_settings">Kateqoriya tənzimləmələri</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Tətbiq tənzimləmələri</string>
+    <string name="menu_open">Aç</string>
+    <string name="menu_details">Təfərrüatlar</string>
+    <string name="menu_play_pause">Oynat/Fasilə</string>
+    <string name="menu_stop">Dayandır</string>
+    <string name="menu_previous">Əvvəlki</string>
+    <string name="menu_next">Növbəti</string>
+    <string name="menu_uninstall">Sil</string>
+    <string name="menu_launch_on_boot">Açılışda işə sal</string>
+    <string name="menu_launch_on_boot_on">Açılışda işə düşür</string>
+    <string name="menu_add_parental">Valideyn nəzarətinə əlavə et</string>
+    <string name="menu_remove_parental">Valideyn nəzarətindən çıxar</string>
+    <string name="menu_shortcuts">Qısayollar</string>
+    <string name="menu_appearance">Görünüş</string>
+    <string name="menu_title">Başlıq</string>
+    <string name="menu_change_icon">İkonanı dəyiş</string>
+    <string name="menu_icon_from_picture">Şəkildən</string>
+    <string name="menu_icon_other_location">Başqa yer…</string>
+    <string name="menu_icon_no_pictures">Şəkil tapılmadı. Bir neçəsini Pictures və ya Download qovluğuna kopyalayın, yaxud USB disk qoşun.</string>
+    <string name="menu_icon_reset">Sıfırla</string>
+    <string name="menu_crop">Doldurmaq üçün kəs</string>
+    <string name="menu_visibility">Görünürlük</string>
+    <string name="menu_reorder">Yenidən sırala</string>
+    <string name="menu_remove_from">%1$s kateqoriyasından çıxar</string>
+    <string name="menu_hide">Gizlət</string>
+    <string name="menu_add_to">Əlavə et…</string>
+    <string name="menu_move_to">Köçür…</string>
+    <string name="menu_channels">Kanallar</string>
+    <string name="menu_rename_hint">Yeni başlıq yazın və OK düyməsini basın</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Başlıq</string>
+    <string name="editor_change_icon">İkonanı dəyiş</string>
+    <string name="editor_visible">Görünən</string>
+    <string name="editor_grid">Şəbəkə</string>
+    <string name="editor_sliding_row">Sürüşən sətir</string>
+    <string name="editor_background">Fon rəngi</string>
+    <string name="editor_show_title">Başlığı göstər</string>
+    <string name="editor_size">Ölçü</string>
+    <string name="editor_advanced">Qabaqcıl tənzimləmələr</string>
+    <string name="editor_start_margin">Başlanğıc boşluğu</string>
+    <string name="editor_end_margin">Son boşluğu</string>
+    <string name="editor_top_margin">Yuxarı boşluq</string>
+    <string name="editor_cards_per_row">Sətirdə kart sayı</string>
+    <string name="editor_row_count">Sətir sayı</string>
+    <string name="editor_auto">Avto</string>
+    <string name="editor_auto_value">Avto (%1$s)</string>
+    <string name="editor_sort">Çeşidləmə</string>
+    <string name="editor_sort_custom">Fərdi</string>
+    <string name="editor_sort_name">Əlifba sırası ilə</string>
+    <string name="editor_sort_last">Son istifadə</string>
+    <string name="editor_sort_most">Tez-tez istifadə</string>
+    <string name="editor_sort_random">Təsadüfi</string>
+    <string name="editor_set_default">Standart olaraq təyin et</string>
+    <string name="editor_is_default">Standart kateqoriya</string>
+    <string name="editor_manage_apps">Tətbiqləri idarə et</string>
+    <string name="editor_hidden_items">Gizli elementlər</string>
+    <string name="editor_restore">Bərpa et</string>
+    <string name="editor_delete">Sil</string>
+    <string name="editor_delete_confirm">Bu kateqoriya silinsin?</string>
+    <string name="editor_empty_note">Bu kateqoriya boş olduğu üçün hələ görünməyəcək</string>
+    <string name="editor_request_notifications">Bildiriş icazəsi istə</string>
+    <string name="editor_channel_error">Bu kanal artıq oxuna bilmir</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanallar</string>
+    <string name="channels_count">%1$d kanal</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Bildirişlər</string>
+    <string name="notifications_clear_all">Hamısını təmizlə</string>
+    <string name="notifications_empty">Bildiriş yoxdur</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Bu tətbiqi açmaq mümkün deyil</string>
+    <string name="home_reorder_hint">Köçürmək üçün sol/sağ, bitirmək üçün OK və ya GERİ</string>
+    <string name="home_category_reorder_hint">Köçürmək üçün yuxarı/aşağı, bitirmək üçün OK və ya GERİ</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Xoş gəlmisiniz!</string>
+    <string name="firstrun_welcome_text">QLauncher Android TV üçün başladıcıdır. O, tətbiqlərinizi, kanallarınızı və sevimli məzmununuzu arxasında dəyişən divar kağızı olan, fərdiləşdirilə bilən vahid əsas ekranda toplayır.</string>
+    <string name="firstrun_features_title">Yeni super gücləriniz</string>
+    <string name="firstrun_features_text">Açılışda tətbiq və ya HDMI girişini işə salın, ekran profillərini idarə edin, tətbiqləri valideyn nəzarəti ilə kilidləyin, kalibrləmə nümunələrini göstərin, fəaliyyətsizliyi aşkarlayın və əsas ekranın hər hissəsini fərdiləşdirin. Bəzi funksiyalar cihazınızdan asılıdır.</string>
+    <string name="firstrun_a11y_title">Əlçatımlılığı açaq</string>
+    <string name="firstrun_a11y_text">Bir çox funksiya üçün QLauncher-in əlçatımlılıq xidməti lazımdır: daxili başladıcını əvəz etmək, açılışda əməliyyatlar, pult düymələri ilə jestlər, fəaliyyətsizliyin aşkarlanması və valideyn nəzarəti. Onu indi və ya sonra tənzimləmələrdən aktivləşdirə bilərsiniz.</string>
+    <string name="firstrun_a11y_open">Əlçatımlılıq tənzimləmələrini aç</string>
+    <string name="firstrun_permissions_title">İcazənizlə…</string>
+    <string name="firstrun_permissions_text">Sonra QLauncher TV proqramını oxumaq (kanallar və «Növbəti izlə» üçün) və bildiriş girişi (bildiriş ikonası və «İndi oxudulur» üçün) icazəsi istəyəcək. Hər ikisi məcburi deyil.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Sonra QLauncher bildiriş girişi (bildiriş ikonası və «İndi oxudulur» üçün) icazəsi istəyəcək. Bu, məcburi deyil.</string>
+    <string name="firstrun_notifications_dialog">Bildiriş girişinə icazə verilsin?</string>
+    <string name="firstrun_notifications_text">Bildiriş girişi QLauncher-ə bildiriş sayını, bildirişlər panelini və nəyin oxudulduğunu göstərməyə imkan verir. «Bəli» bu girişi verə biləcəyiniz Xüsusi icazələr səhifəsini açır.</string>
+    <string name="firstrun_reports_title">Anonim çökmə və xəta hesabatları göndərilsin?</string>
+    <string name="firstrun_reports_text">QLauncher çökərsə və ya xəta ilə qarşılaşarsa, xətanın düzəldilməsi üçün tətbiq versiyası və cihaz modeli ilə hesabat göndərə bilər. Sizi və ya nəyə baxdığınızı müəyyən edən heç nə göndərilmir. Bunu sonra Ümumi bölməsində dəyişə bilərsiniz.</string>
+    <string name="firstrun_launcher_title">QLauncher-i əsas ekranınız edin</string>
+    <string name="firstrun_launcher_text">Bir çox TV cihazı standart başladıcını dəyişməyə imkan vermir. Sizinki imkan verirsə, orada QLauncher-i seçin. Əks halda əlçatımlılıq xidmətini «Cari başladıcını əvəz et» ilə aktivləşdirin və daxili başladıcı hər açılanda QLauncher geri qayıdacaq.</string>
+    <string name="firstrun_launcher_open">Standart başladıcını dəyiş</string>
+    <string name="firstrun_start_title">Başlamaq vaxtıdır!</string>
+    <string name="firstrun_start_text">Hər şeyi sonra tənzimləmələrdən dəyişmək olar. Yuxarı sağdakı tənzimləmələr düyməsini və ya ↑→↓←↑→↓← düymə ardıcıllığını basın.</string>
+    <string name="firstrun_get_started">BAŞLAYAQ</string>
+    <string name="firstrun_next">Növbəti</string>
+    <string name="firstrun_skip">Ötür</string>
+    <string name="firstrun_yes">Bəli</string>
+    <string name="firstrun_no">Xeyr</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Bu cihazda ekran qoruyucusu yoxdur</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">無</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">動態色彩</string>
+    <string name="wallpaper_provider_default">預設桌布</string>
+    <string name="wallpaper_provider_media_file">媒體檔案</string>
+    <string name="wallpaper_provider_folder">資料夾</string>
+    <string name="wallpaper_provider_focused_program">目前選取的節目</string>
+    <string name="wallpaper_provider_now_playing">現正播放</string>
+    <string name="wallpaper_provider_random_program">隨機節目</string>
+    <string name="wallpaper_provider_theme">主題</string>
+    <string name="wallpaper_provider_unknown_plugin">外掛程式</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">桌布</string>
+    <string name="wallpaper_wikimedia_nature">自然</string>
+    <string name="wallpaper_wikimedia_landscapes">風景</string>
+    <string name="wallpaper_wikimedia_mountains">山岳</string>
+    <string name="wallpaper_wikimedia_forests">森林</string>
+    <string name="wallpaper_wikimedia_cities">城市</string>
+    <string name="wallpaper_wikimedia_architecture">建築</string>
+    <string name="wallpaper_wikimedia_night">夜景</string>
+    <string name="wallpaper_wikimedia_space">太空</string>
+    <string name="wallpaper_wikimedia_animals">動物</string>
+    <string name="wallpaper_wikimedia_custom">[自訂搜尋]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[自訂子版]</string>
+    <string name="wallpaper_reddit_log_out">登出</string>
+    <string name="wallpaper_reddit_login_needed">登入 Reddit 即可查看其中的桌布。</string>
+    <string name="wallpaper_reddit_login_title">登入 Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">正在登入…</string>
+    <string name="wallpaper_reddit_login_denied">未取得 Reddit 存取授權，因此仍無法使用 Reddit 桌布。</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit 傳回的回應與這次登入要求不符，已忽略。請再試一次。</string>
+    <string name="wallpaper_reddit_login_failed">無法登入 Reddit（%1$s）。請稍後再試。</string>
+    <string name="wallpaper_reddit_login_network">無法連上 Reddit。請檢查網路連線，然後再試一次。</string>
+    <string name="wallpaper_reddit_login_page_error">無法載入 Reddit 登入頁面。請檢查網路連線，然後再試一次。</string>
+    <string name="wallpaper_reddit_no_webview">這部裝置缺少 Reddit 登入所需的網頁瀏覽器元件（Android System WebView）。請安裝或啟用 Android System WebView，然後再試一次。</string>
+    <string name="wallpaper_reddit_retry">再試一次</string>
+    <string name="wallpaper_reddit_close">關閉</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">無法連線至桌布來源。</string>
+    <string name="wallpaper_error_server">桌布來源傳回錯誤。</string>
+    <string name="wallpaper_error_rate_limited">桌布來源要求稍候再送出下一個要求。</string>
+    <string name="wallpaper_error_generic">無法載入桌布。</string>
+    <string name="wallpaper_error_no_media">尚未選擇圖片、影片或顏色。</string>
+    <string name="wallpaper_error_no_folder">尚未選擇資料夾。</string>
+    <string name="wallpaper_error_folder_access">無法讀取這個資料夾，請重新選擇。</string>
+    <string name="wallpaper_error_folder_empty">這個資料夾中沒有圖片、影片或 Lottie 動畫。</string>
+    <string name="wallpaper_error_theme_empty">目前的主題沒有桌布。</string>
+    <string name="wallpaper_error_no_channels">無法使用頻道。請啟用頻道並允許存取電視節目表。</string>
+    <string name="wallpaper_error_no_notification_access">「現正播放」需要通知存取權。</string>
+    <string name="wallpaper_error_no_subreddit">未設定有效的子版。</string>
+    <string name="wallpaper_error_plugin">桌布外掛程式沒有回應。</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">已設定桌布</string>
+    <string name="wallpaper_set_failed">這個檔案無法設為桌布。</string>
+</resources>

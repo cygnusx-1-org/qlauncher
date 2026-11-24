@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">矢印/数字を自由に組み合わせて入力し、OK で確定してください</string>
+    <string name="system_parental_confirm_code">もう一度コードを入力し、OK で確定してください</string>
+    <string name="system_parental_restricted">アクセスが制限されています\nペアレンタルコードを入力してください</string>
+    <string name="system_parental_wrong_code">コードが違います</string>
+    <string name="system_parental_codes_differ">コードが一致しません。もう一度お試しください</string>
+    <string name="system_parental_code_saved">ペアレンタルコードを保存しました</string>
+    <string name="system_parental_recovery_code">復旧コード: %1$s</string>
+    <string name="system_parental_recovery_help">書き留めておいてください。表示されるのはこの 1 回だけです。矢印 (1 = ▲、2 = ▼、3 = ◄、4 = ►) で入力すると、ペアレンタルコードと同じようにロックを解除できます。</string>
+    <string name="system_parental_press_ok">OK を押して続行</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">リモコンのショートカット</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">ホーム</string>
+    <string name="system_hotkeys_keys_menu_twice">メニュー × 2</string>
+    <string name="system_hotkeys_change_input">入力を切り替え</string>
+    <string name="system_hotkeys_change_profile">ディスプレイプロファイルを切り替え</string>
+    <string name="system_hotkeys_start_launcher">QLauncher を起動</string>
+    <string name="system_hotkeys_home">QLauncher を開く。2 回: 最近使ったアプリ</string>
+    <string name="system_hotkeys_close">このヘルプを閉じる</string>
+    <string name="system_hotkeys_no_inputs">このデバイスには TV 入力がありません</string>
+    <string name="system_hotkeys_no_picture_manager">ピクチャーマネージャーが読み込まれていません</string>
+    <string name="system_hotkeys_home_off">オフ: 「現在のランチャーを置き換える」とボタンの割り当て変更が必要です</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">操作がないため、%1$d 秒後にシャットダウンします</string>
+    <string name="system_idle_countdown_screen_off">操作がないため、%1$d 秒後に画面をオフにします</string>
+    <string name="system_idle_countdown_screensaver">操作がないため、%1$d 秒後にスクリーンセーバーを起動します</string>
+    <string name="system_idle_countdown_cancel">いずれかのボタンを押すとキャンセルします</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">このデバイスにはユーザー補助の設定へのショートカットがありません。Android の設定から開いてください (通常は「デバイス設定 › ユーザー補助」にあります)。</string>
+    <string name="system_notification_access_no_settings">このデバイスには通知へのアクセスの画面がありません。パソコンから次のコマンドでアクセスを許可してください:</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">ตั้งเป็นวอลเปเปอร์ของ QLauncher</string>
+    <string name="import_settings">นำเข้าไปยัง QLauncher</string>
+    <string name="accessibility_service_description">QLauncher จะเห็นการกดปุ่มฮาร์ดแวร์และชื่อของแอปที่ทำงานอยู่เบื้องหน้า เพื่อใช้แทนตัวเปิดแอปเดิมของเครื่อง เรียกใช้การทำงานเมื่อเปิดเครื่อง กำหนดปุ่มรีโมตใหม่ ตรวจจับเวลาที่ไม่มีการใช้งาน และบังคับใช้การควบคุมโดยผู้ปกครอง ข้อมูลทั้งสองอย่างอยู่ในหน่วยความจำของอุปกรณ์นี้เท่านั้นและจะไม่ถูกส่งไปที่ใดเลย</string>
+</resources>

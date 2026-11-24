@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Հիմա նվագարկվում է</string>
+    <string name="home_cat_inputs">Մուտքեր</string>
+    <string name="home_cat_favorites">Ընտրյալներ</string>
+    <string name="home_cat_video">Տեսանյութ</string>
+    <string name="home_cat_music">Երաժշտություն</string>
+    <string name="home_cat_games">Խաղեր</string>
+    <string name="home_cat_tv_apps">Հեռուստացույցի հավելվածներ</string>
+    <string name="home_cat_mobile_apps">Բջջային հավելվածներ</string>
+    <string name="home_cat_watch_next">Դիտել հաջորդը</string>
+    <string name="home_cat_shortcuts">Դյուրանցումներ</string>
+    <string name="home_cat_folders">Կատեգորիաների թղթապանակներ</string>
+    <string name="home_cat_live_tv">Ուղիղ եթեր</string>
+    <string name="home_cat_settings">Կարգավորումներ</string>
+    <string name="home_cat_display">Էկրան</string>
+    <string name="home_cat_applications">Հավելվածներ</string>
+    <string name="home_cat_system">Համակարգ</string>
+    <string name="home_cat_about">Տեղեկություններ</string>
+    <string name="home_new_category">Նոր կատեգորիա</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Բոլոր հավելվածները</string>
+    <string name="home_action_edit_categories">Խմբագրել կատեգորիաները</string>
+    <string name="home_action_edit_channels">Խմբագրել ալիքները</string>
+    <string name="home_action_launcher_settings">QLauncher-ի կարգավորումներ</string>
+    <string name="home_action_android_settings">Android-ի կարգավորումներ</string>
+    <string name="home_action_amlogic_settings">AmLogic-ի լրացուցիչ կարգավորումներ</string>
+    <string name="home_action_display_profiles">Էկրանի պրոֆիլներ</string>
+    <string name="home_action_install_apps">Տեղադրել երրորդ կողմի հավելվածներ</string>
+    <string name="home_action_accessibility">Հատուկ գործառույթների ծառայություն</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Փոխել պրոֆիլը</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Այս սարքը</string>
+    <string name="home_action_about_wallpaper">Այս պաստառը</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Եթերաշրջան %1$s</string>
+    <string name="home_episode">Սերիա %1$s</string>
+    <string name="home_minutes">%1$d ր</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Կապ</string>
+    <string name="home_status_notifications">Ծանուցումներ</string>
+    <string name="home_status_settings">Կարգավորումներ</string>
+    <string name="home_status_wallpaper">Այս պաստառը</string>
+    <string name="home_navigation_menu">Նավիգացիայի ընտրացանկ</string>
+    <string name="home_reorder">Վերադասավորել</string>
+    <string name="home_category_settings">Կատեգորիայի կարգավորումներ</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Հավելվածի կարգավորումներ</string>
+    <string name="menu_open">Բացել</string>
+    <string name="menu_details">Մանրամասներ</string>
+    <string name="menu_play_pause">Նվագարկել/դադար</string>
+    <string name="menu_stop">Կանգնեցնել</string>
+    <string name="menu_previous">Նախորդը</string>
+    <string name="menu_next">Հաջորդը</string>
+    <string name="menu_uninstall">Ապատեղադրել</string>
+    <string name="menu_launch_on_boot">Գործարկել միացնելիս</string>
+    <string name="menu_launch_on_boot_on">Գործարկվում է միացնելիս</string>
+    <string name="menu_add_parental">Ավելացնել ծնողական վերահսկողությանը</string>
+    <string name="menu_remove_parental">Հեռացնել ծնողական վերահսկողությունից</string>
+    <string name="menu_shortcuts">Դյուրանցումներ</string>
+    <string name="menu_appearance">Արտաքին տեսք</string>
+    <string name="menu_title">Վերնագիր</string>
+    <string name="menu_change_icon">Փոխել պատկերակը</string>
+    <string name="menu_icon_from_picture">Նկարից</string>
+    <string name="menu_icon_other_location">Այլ վայր…</string>
+    <string name="menu_icon_no_pictures">Նկարներ չեն գտնվել։ Պատճենեք մի քանիսը Pictures կամ Download թղթապանակ կամ միացրեք USB կրիչ։</string>
+    <string name="menu_icon_reset">Վերակայել</string>
+    <string name="menu_crop">Կտրել և լցնել</string>
+    <string name="menu_visibility">Տեսանելիություն</string>
+    <string name="menu_reorder">Վերադասավորել</string>
+    <string name="menu_remove_from">Հեռացնել «%1$s»-ից</string>
+    <string name="menu_hide">Թաքցնել</string>
+    <string name="menu_add_to">Ավելացնել…</string>
+    <string name="menu_move_to">Տեղափոխել…</string>
+    <string name="menu_channels">Ալիքներ</string>
+    <string name="menu_rename_hint">Մուտքագրեք նոր վերնագիր և սեղմեք OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Վերնագիր</string>
+    <string name="editor_change_icon">Փոխել պատկերակը</string>
+    <string name="editor_visible">Տեսանելի</string>
+    <string name="editor_grid">Ցանց</string>
+    <string name="editor_sliding_row">Սահող շարք</string>
+    <string name="editor_background">Ֆոնի գույն</string>
+    <string name="editor_show_title">Ցույց տալ վերնագիրը</string>
+    <string name="editor_size">Չափ</string>
+    <string name="editor_advanced">Լրացուցիչ կարգավորումներ</string>
+    <string name="editor_start_margin">Սկզբի լուսանցք</string>
+    <string name="editor_end_margin">Վերջի լուսանցք</string>
+    <string name="editor_top_margin">Վերևի լուսանցք</string>
+    <string name="editor_cards_per_row">Քարտեր մեկ շարքում</string>
+    <string name="editor_row_count">Շարքերի քանակ</string>
+    <string name="editor_auto">Ավտոմատ</string>
+    <string name="editor_auto_value">Ավտոմատ (%1$s)</string>
+    <string name="editor_sort">Դասավորում</string>
+    <string name="editor_sort_custom">Անհատական</string>
+    <string name="editor_sort_name">Այբբենական կարգով</string>
+    <string name="editor_sort_last">Վերջին օգտագործվածը</string>
+    <string name="editor_sort_most">Հաճախ օգտագործվող</string>
+    <string name="editor_sort_random">Պատահական</string>
+    <string name="editor_set_default">Դարձնել լռելյայն</string>
+    <string name="editor_is_default">Լռելյայն կատեգորիա</string>
+    <string name="editor_manage_apps">Կառավարել հավելվածները</string>
+    <string name="editor_hidden_items">Թաքցված տարրեր</string>
+    <string name="editor_restore">Վերականգնել</string>
+    <string name="editor_delete">Ջնջել</string>
+    <string name="editor_delete_confirm">Ջնջե՞լ այս կատեգորիան</string>
+    <string name="editor_empty_note">Այս կատեգորիան դեռ չի երևա, քանի որ դատարկ է</string>
+    <string name="editor_request_notifications">Հայցել ծանուցումների թույլտվություն</string>
+    <string name="editor_channel_error">Այս ալիքն այլևս հնարավոր չէ կարդալ</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Ալիքներ</string>
+    <string name="channels_count">%1$d ալիք</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Ծանուցումներ</string>
+    <string name="notifications_clear_all">Մաքրել բոլորը</string>
+    <string name="notifications_empty">Ծանուցումներ չկան</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Այս հավելվածը հնարավոր չէ բացել</string>
+    <string name="home_reorder_hint">Տեղափոխելու համար օգտագործեք ձախ/աջ, ավարտելու համար՝ OK կամ «Հետ»</string>
+    <string name="home_category_reorder_hint">Տեղափոխելու համար օգտագործեք վեր/վար, ավարտելու համար՝ OK կամ «Հետ»</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Բարի՛ գալուստ</string>
+    <string name="firstrun_welcome_text">QLauncher-ը գործարկիչ է Android TV-ի համար։ Այն ձեր հավելվածները, ալիքները և սիրելի բովանդակությունը հավաքում է մեկ անհատականացվող գլխավոր էկրանին՝ դրա հետևում փոփոխվող պաստառով։</string>
+    <string name="firstrun_features_title">Ձեր նոր գերհզորությունները</string>
+    <string name="firstrun_features_text">Գործարկեք հավելված կամ HDMI մուտք սարքը միացնելիս, կառավարեք էկրանի պրոֆիլները, կողպեք հավելվածները ծնողական վերահսկողությամբ, ցուցադրեք չափաբերման պատկերներ, հայտնաբերեք անգործության ժամանակը և անհատականացրեք գլխավոր էկրանի յուրաքանչյուր մասը։ Որոշ գործառույթներ կախված են ձեր սարքից։</string>
+    <string name="firstrun_a11y_title">Միացնենք հատուկ գործառույթները</string>
+    <string name="firstrun_a11y_text">Շատ գործառույթների համար անհրաժեշտ է QLauncher-ի հատուկ գործառույթների ծառայությունը՝ ստանդարտ գործարկիչի փոխարինում, գործողություններ միացնելիս, հեռակառավարչի կոճակների ժեստեր, անգործության հայտնաբերում և ծնողական վերահսկողություն։ Կարող եք այն միացնել հիմա կամ ավելի ուշ՝ կարգավորումներից։</string>
+    <string name="firstrun_a11y_open">Բացել հատուկ գործառույթների կարգավորումները</string>
+    <string name="firstrun_permissions_title">Եթե թույլ տաք…</string>
+    <string name="firstrun_permissions_text">Այնուհետև QLauncher-ը թույլտվություն կխնդրի կարդալու հեռուստածրագրերի ցուցակները (ալիքների և «Դիտել հաջորդը» բաժնի համար) և ծանուցումների հասանելիություն (ծանուցումների պատկերակի և «Հիմա նվագարկվում է» բաժնի համար)։ Երկուսն էլ ընտրովի են։</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Այնուհետև QLauncher-ը կխնդրի ծանուցումների հասանելիություն (ծանուցումների պատկերակի և «Հիմա նվագարկվում է» բաժնի համար)։ Այն ընտրովի է։</string>
+    <string name="firstrun_notifications_dialog">Թույլատրե՞լ մուտք ծանուցումներին</string>
+    <string name="firstrun_notifications_text">Ծանուցումների հասանելիությունը թույլ է տալիս QLauncher-ին ցուցադրել ծանուցումների քանակը, ծանուցումների վահանակը և այն, ինչ նվագարկվում է։ «Այո»-ն բացում է «Հատուկ հասանելիություն» էջը, որտեղ կարող եք այն տրամադրել։</string>
+    <string name="firstrun_reports_title">Ուղարկե՞լ անանուն հաշվետվություններ</string>
+    <string name="firstrun_reports_text">Եթե QLauncher-ը վթարի ենթարկվի կամ սխալի հանդիպի, այն կարող է ուղարկել հաշվետվություն՝ հավելվածի տարբերակով և սարքի մոդելով, որպեսզի սխալը շտկվի։ Ոչինչ, որը նույնականացնում է ձեզ կամ այն, ինչ դիտում եք, չի ուղարկվում։ Սա կարող եք փոխել ավելի ուշ՝ «Ընդհանուր» բաժնում։</string>
+    <string name="firstrun_launcher_title">Դարձրեք QLauncher-ը գլխավոր էկրան</string>
+    <string name="firstrun_launcher_text">Շատ հեռուստատեսային սարքեր թույլ չեն տալիս փոխել լռելյայն գործարկիչը։ Եթե ձերը թույլ է տալիս, այնտեղ ընտրեք QLauncher-ը։ Հակառակ դեպքում միացրեք հատուկ գործառույթների ծառայությունը «Փոխարինել ընթացիկ գործարկիչը» կարգավորմամբ, և QLauncher-ը կվերադառնա ամեն անգամ, երբ ստանդարտ գործարկիչը բացվի։</string>
+    <string name="firstrun_launcher_open">Փոխել լռելյայն գործարկիչը</string>
+    <string name="firstrun_start_title">Ժամանակն է սկսել</string>
+    <string name="firstrun_start_text">Ամեն ինչ կարելի է փոխել ավելի ուշ՝ կարգավորումներից։ Սեղմեք կարգավորումների կոճակը վերևի աջ անկյունում կամ ստեղների ↑→↓←↑→↓← հաջորդականությունը։</string>
+    <string name="firstrun_get_started">ՍԿՍԵԼ</string>
+    <string name="firstrun_next">Հաջորդը</string>
+    <string name="firstrun_skip">Բաց թողնել</string>
+    <string name="firstrun_yes">Այո</string>
+    <string name="firstrun_no">Ոչ</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Այս սարքում էկրանապահ չկա</string>
+</resources>

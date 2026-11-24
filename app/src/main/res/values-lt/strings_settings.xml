@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Nustatymai</string>
+    <string name="settings_breadcrumb_display">Ekranas</string>
+    <string name="settings_breadcrumb_applications">Programos</string>
+    <string name="settings_breadcrumb_system">Sistema</string>
+    <string name="settings_breadcrumb_about">Apie</string>
+    <string name="settings_root_title">QLauncher nustatymai</string>
+    <string name="settings_root_description">Konfigūruokite programos nustatymus.</string>
+    <string name="settings_legend_a11y_required">Reikia pritaikymo neįgaliesiems paslaugos</string>
+    <string name="settings_legend_a11y_recommended">Rekomenduojama pritaikymo neįgaliesiems paslauga</string>
+    <string name="settings_legend_experimental">Eksperimentinė funkcija</string>
+    <string name="settings_launcher_related">Su paleidimo priemone susiję nustatymai</string>
+
+    <string name="settings_general">Bendra</string>
+    <string name="settings_appearance">Išvaizda</string>
+    <string name="settings_power">Maitinimas</string>
+    <string name="settings_parental">Tėvų kontrolė</string>
+    <string name="settings_remote">Nuotolinio valdymo pultas</string>
+    <string name="settings_accessibility">Pritaikymo neįgaliesiems paslauga</string>
+    <string name="settings_display_profiles">Ekrano profiliai</string>
+    <string name="settings_manage">Tvarkyti nustatymus</string>
+
+    <!-- General -->
+    <string name="settings_language">Keisti programos kalbą</string>
+    <string name="settings_language_system">Numatytoji sistemos</string>
+    <string name="settings_default_launcher">Keisti numatytąją paleidimo priemonę</string>
+    <string name="settings_default_launcher_unavailable">Šis įrenginys nesiūlo būdo keisti numatytąją paleidimo priemonę. Vietoj to naudokite „Perimti dabartinę paleidimo priemonę“.</string>
+    <string name="settings_override_home">Perimti dabartinę paleidimo priemonę</string>
+    <string name="settings_override_home_desc">Perimti dabartinės paleidimo priemonės iškvietimus (naudinga, jei negalite pakeisti ar pašalinti standartinės)</string>
+    <string name="settings_enable_channels">Įjungti kanalus</string>
+    <string name="settings_enable_channels_desc">Jei jų nenaudojate, tai išjungus paleidimas greitesnis ir naudojama mažiau atminties</string>
+    <string name="settings_programs_per_channel">Laidų kanale</string>
+    <string name="settings_crash_error_reports">Siųsti anonimines strigčių ir klaidų ataskaitas</string>
+    <string name="settings_reports_desc">Siunčiama tik klaida, programos versija ir įrenginio modelis</string>
+    <string name="settings_check_updates">Patikrinti, ar yra naujinių</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategorijos / Kanalai</string>
+    <string name="settings_cards">Kortelės</string>
+    <string name="settings_wallpaper">Ekrano fonas</string>
+    <string name="settings_status_bar">Būsenos juosta</string>
+    <string name="settings_left_headers">Kairiosios antraštės</string>
+    <string name="settings_idle_mode">Pagrindinio ekrano neveiklumo režimas</string>
+    <string name="settings_font">Šriftas</string>
+    <string name="settings_themes">Temos</string>
+    <string name="settings_themes_desc">Importavimas / Eksportavimas</string>
+    <string name="settings_load_cards_scrolling">Įkelti korteles slenkant</string>
+    <string name="settings_load_cards_scrolling_desc">Greitesnė reakcija sklandumo sąskaita</string>
+    <string name="settings_accent">Akcento spalva</string>
+    <string name="settings_accent_desc">Įjunkite dinaminę spalvą, kad ji atitiktų ekrano foną</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Rodyti pavadinimą</string>
+    <string name="settings_show_icon_title">Rodyti piktogramą prieš pavadinimą</string>
+    <string name="settings_rows_spacing">Vertikalus tarpas (ekrano aukščio %)</string>
+    <string name="settings_fixed_position">Fiksuoti pažymėtos kategorijos padėtį</string>
+    <string name="settings_hide_rows_above">Slėpti eilutes virš pažymėtos</string>
+    <string name="settings_remember_focus">Įsiminti pažymėtos kortelės padėtį</string>
+    <string name="settings_unselected_opacity">Nepažymėtų eilučių neskaidrumas</string>
+    <string name="settings_top_margin">Viršutinė paraštė</string>
+    <string name="settings_start_margin">Pradžios paraštė</string>
+    <string name="settings_end_margin">Pabaigos paraštė</string>
+    <string name="settings_dock_padding">Doko vidinė paraštė</string>
+    <string name="settings_tint_custom_icons">Tonuoti pasirinktines piktogramas</string>
+    <string name="settings_tint_custom_icons_desc">Pasirinktinėms piktogramoms be fono</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Suapvalinti kampai</string>
+    <string name="settings_cards_size">Kortelių dydis</string>
+    <string name="settings_cards_spacing">Tarpai tarp kortelių</string>
+    <string name="settings_loop_limit">Animuotų piktogramų kartojimų riba</string>
+    <string name="settings_ripple">Bangavimo efektas paspaudus kortelę</string>
+    <string name="settings_background_color">Fono spalva</string>
+    <string name="settings_focused_card">Pažymėta kortelė</string>
+    <string name="settings_program_cards">Laidų kortelės</string>
+    <string name="settings_tv_ratio">TV programų kortelių kraštinių santykis</string>
+    <string name="settings_mobile_ratio">Mobiliųjų programų kortelių kraštinių santykis</string>
+    <string name="settings_icon_pack">Piktogramų paketas</string>
+    <string name="settings_icon_pack_none">Neįdiegtas joks piktogramų paketas</string>
+    <string name="settings_icon_pack_off">Nėra</string>
+    <string name="settings_more">Daugiau…</string>
+    <string name="settings_custom_icon_tint">Pasirinktinių piktogramų atspalvis</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Pažymėtos kortelės dydis</string>
+    <string name="settings_focused_effect">Pažymėtos kortelės efektas</string>
+    <string name="settings_effect_none">Nėra</string>
+    <string name="settings_effect_shadow">Šešėlis</string>
+    <string name="settings_effect_glow">Švytėjimas</string>
+    <string name="settings_glow_animation">Švytėjimo animacija</string>
+    <string name="settings_anim_none">Nėra</string>
+    <string name="settings_anim_pulse">Pulsavimas</string>
+    <string name="settings_anim_breath">Kvėpavimas</string>
+    <string name="settings_anim_fade">Išblukimas</string>
+    <string name="settings_anim_shine">Žvilgesys</string>
+    <string name="settings_glow_size">Švytėjimo dydis</string>
+    <string name="settings_glow_color">Švytėjimo spalva</string>
+    <string name="settings_glow_color_desc">Palikite tuščią, kad būtų naudojama pačios kortelės spalva</string>
+    <string name="settings_colors_override">Spalvų keitimas</string>
+    <string name="settings_override_none">Nėra</string>
+    <string name="settings_override_swap">Sukeisti foną / atspalvį</string>
+    <string name="settings_override_custom">Pasirinktinis</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Leisti peržiūros vaizdo įrašą</string>
+    <string name="settings_preview_never">Niekada</string>
+    <string name="settings_preview_always">Visada</string>
+    <string name="settings_preview_no_media">Kai fone neleidžiama jokia medija</string>
+    <string name="settings_show_progress">Rodyti eigos juostą</string>
+    <string name="settings_show_badge">Rodyti ženklelį</string>
+    <string name="settings_zoom_focus">Priartinimo efektas pažymėjus</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Palaikomi formatai: nuotrauka, animuotas GIF, vaizdo įrašas (failas arba RTSP tiesioginis srautas), Lottie animacija</string>
+    <string name="settings_launcher_wallpaper">Pagrindinio ekrano fonas</string>
+    <string name="settings_configure">Konfigūruoti</string>
+    <string name="settings_show_wallpapers">Rodyti ekrano fonus</string>
+    <string name="settings_picture_adjustment">Vaizdo koregavimas</string>
+    <string name="settings_image_transition">Vaizdų perėjimas</string>
+    <string name="settings_update_frequency">Keitimo dažnis (min.)</string>
+    <string name="settings_video_wallpaper">Vaizdo įrašo ekrano fonas</string>
+    <string name="settings_display_mode">Rodymo režimas</string>
+    <string name="settings_bad_ratio">Jei netinka proporcijos / kokybė</string>
+    <string name="settings_min_width">Mažiausias priimtinas plotis (px)</string>
+    <string name="settings_src_none">Nėra</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dinaminės spalvos</string>
+    <string name="settings_src_default">Numatytasis ekrano fonas</string>
+    <string name="settings_src_media">Medijos failas</string>
+    <string name="settings_src_folder">Aplankas</string>
+    <string name="settings_src_focused_program">Pažymėta laida</string>
+    <string name="settings_src_now_playing">Dabar leidžiama</string>
+    <string name="settings_src_random_program">Atsitiktinė laida</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Nėra</string>
+    <string name="settings_tr_random">Atsitiktinis</string>
+    <string name="settings_tr_fade">Išblukimas</string>
+    <string name="settings_tr_zoom">Priartinimas</string>
+    <string name="settings_tr_hslide">Horizontalus slinkimas</string>
+    <string name="settings_tr_vslide">Vertikalus slinkimas</string>
+    <string name="settings_dm_automatic">Automatinis</string>
+    <string name="settings_dm_skip">Praleisti</string>
+    <string name="settings_dm_crop">Apkirpti</string>
+    <string name="settings_dm_stretch">Ištempti</string>
+    <string name="settings_dm_fit">Centruoti ir pritaikyti</string>
+    <string name="settings_dm_fit_blur">Centruoti ir pritaikyti + sulietas fonas</string>
+    <string name="settings_dm_blur">Suliejimas</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Spalvos tonas</string>
+    <string name="settings_saturation">Sodrumas</string>
+    <string name="settings_contrast">Kontrastas</string>
+    <string name="settings_brightness">Šviesumas</string>
+    <string name="settings_tint">Atspalvis</string>
+    <string name="settings_tint_amount">Atspalvio intensyvumas</string>
+    <string name="settings_blur">Suliejimas</string>
+    <string name="settings_shadow_h">Horizontalaus šešėlio sluoksnio ilgis</string>
+    <string name="settings_shadow_v">Vertikalaus šešėlio sluoksnio ilgis</string>
+    <string name="settings_shadow_opacity">Šešėlio sluoksnio neskaidrumas</string>
+    <string name="settings_shadow_tint">Šešėlio sluoksnio atspalvis</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Nepaisyti keitimo dažnio</string>
+    <string name="settings_ignore_update_desc">Laukti, kol vaizdo įrašas baigsis, ir tik tada prašyti naujo ekrano fono</string>
+    <string name="settings_video_color_freq">Dinaminių spalvų atnaujinimo dažnis</string>
+    <string name="settings_video_color_freq_desc">Sekundės tarp vaizdo įrašo kadrų, iš kurių nuskaitomos spalvos; 0 išjungia</string>
+    <string name="settings_volume">Garsumas</string>
+    <string name="settings_tunneling">Naudoti aparatinį atvaizdavimą (tuneliavimas)</string>
+    <string name="settings_decoder_fallback">Įjungti atsarginius dekoderius</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Tvarkyti pranešimų leidimą</string>
+    <string name="settings_granted">Suteikta</string>
+    <string name="settings_not_granted">Nesuteikta</string>
+    <string name="settings_notification_adb">Šiame įrenginyje nėra nustatymų ekrano. Suteikite jį komanda: %1$s</string>
+    <string name="settings_clock">Laikrodis</string>
+    <string name="settings_icons">Piktogramos</string>
+    <string name="settings_show_system_bar">Rodyti sistemos būsenos juostą</string>
+    <string name="settings_autohide_status">Slėpti būsenos juostą slenkant</string>
+    <string name="settings_show_clock">Rodyti laikrodį</string>
+    <string name="settings_clock_size">Laikrodžio šrifto dydis</string>
+    <string name="settings_clock_color">Laikrodžio spalva</string>
+    <string name="settings_drop_shadow">Šešėlis</string>
+    <string name="settings_clock_line1">Laikrodžio formatas (1 eilutė)</string>
+    <string name="settings_clock_line2">Laikrodžio formatas (2 eilutė)</string>
+    <string name="settings_clock_default_format">Sistemos formatas</string>
+    <string name="settings_empty">Tuščia</string>
+    <string name="settings_icons_size">Piktogramų dydis</string>
+    <string name="settings_icons_color">Piktogramų spalva</string>
+    <string name="settings_icons_container">Piktogramų fono spalva</string>
+    <string name="settings_show_settings">Rodyti nustatymus</string>
+    <string name="settings_show_settings_desc">Nustatymus visada galima pasiekti šia mygtukų seka: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Rodyti ryšį</string>
+    <string name="settings_show_notifications">Rodyti pranešimus</string>
+    <string name="settings_autohide_notifications">Slėpti pranešimų piktogramą, kai pranešimų nėra</string>
+    <string name="settings_show_battery">Rodyti akumuliatorių</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Įjungti</string>
+    <string name="settings_headers_on_launch">Rodyti kairiąsias antraštes paleidus</string>
+    <string name="settings_show_icon">Rodyti piktogramą</string>
+    <string name="settings_show_reorder">Rodyti pertvarkymo mygtuką</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Laikas iki neveiklumo (min.)</string>
+    <string name="settings_idle_opacity">Sąsajos neskaidrumas</string>
+    <string name="settings_keep_clock">Palikti laikrodį</string>
+    <string name="settings_prevent_screensaver">Neleisti sistemos ekrano užsklandos</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Keiskite QLauncher šrifto nustatymus. Šriftų šeimų pavadinimus galima rasti Google Fonts.</string>
+    <string name="settings_font_list">Pasirinkti iš sąrašo</string>
+    <string name="settings_font_google">Šriftas (Google Fonts)</string>
+    <string name="settings_font_default">Numatytasis</string>
+    <string name="settings_bold">Paryškintas</string>
+    <string name="settings_italic">Kursyvas</string>
+    <string name="settings_size">Dydis</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Automatinis paleidimas įjungus</string>
+    <string name="settings_autostart_none">Nėra</string>
+    <string name="settings_autostart_screensaver">[*] Ekrano užsklanda (jei palaikoma)</string>
+    <string name="settings_autostart_resume">…ir pabudus iš budėjimo režimo</string>
+    <string name="settings_autostart_delay">Automatinio paleidimo delsa (sekundės)</string>
+    <string name="settings_simulate_activity">Neleisti sistemai automatiškai išsijungti esant neveiklumui</string>
+    <string name="settings_idle_detection">Įjungti vidinį neveiklumo aptikimą</string>
+    <string name="settings_idle_timeout_power">Neveiklumo laikas (val.:min.)</string>
+    <string name="settings_idle_action">Veiksmas esant neveiklumui</string>
+    <string name="settings_idle_action_shutdown">Išjungti</string>
+    <string name="settings_idle_action_screen_off">Išjungti ekraną</string>
+    <string name="settings_idle_action_screensaver">Ekrano užsklanda (jei palaikoma)</string>
+    <string name="settings_idle_media">Nepaisyti neveiklumo režimo leidžiant mediją</string>
+    <string name="settings_missing_notification_permission">⚠️ Trūksta pranešimų leidimo</string>
+    <string name="settings_shutdown_action">Išjungimo veiksmas</string>
+    <string name="settings_shutdown_dialog">Maitinimo meniu</string>
+    <string name="settings_shutdown_dialog_twice">Maitinimo meniu (iškviesti du kartus)</string>
+    <string name="settings_shutdown_dialog_ok">Maitinimo meniu + OK</string>
+    <string name="settings_hdmi_exit">Automatiškai išjungti, kai dingsta HDMI įvesties signalas</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Nustatykite kodą, kad užrakintumėte pasirinktas programas (norėdami jas pasirinkti, pagrindiniame ekrane ilgai paspauskite kortelę) visai dienai arba daliai dienos</string>
+    <string name="settings_parental_set_code">Nustatyti naują tėvų kontrolės kodą</string>
+    <string name="settings_parental_code_set">Kodas nustatytas</string>
+    <string name="settings_parental_long">Neprašyti kodo 15 min. po sėkmingo patvirtinimo</string>
+    <string name="settings_parental_protect">Apsaugoti paleidimo priemonės nustatymus ir sąsajos pakeitimus</string>
+    <string name="settings_parental_protect_desc">(taikoma visą parą)</string>
+    <string name="settings_parental_partial">Įjungti apsaugą tik tarp</string>
+    <string name="settings_parental_start">Pradžios laikas (val.:min.)</string>
+    <string name="settings_parental_end">Pabaigos laikas (val.:min.)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Rodyti informaciją dukart paspaudus „Meniu“</string>
+    <string name="settings_back_double">„Aplinkos režimas“ dukart paspaudus „Atgal“</string>
+    <string name="settings_back_double_desc">Paleidžia ekrano užsklandą palaikomuose įrenginiuose</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Įjunkite paslaugą, kad galėtumėte vykdyti veiksmą įjungus įrenginį, tinkinti pulto mygtukus, sustiprinti tėvų kontrolę ir aptikti neveiklumą maitinimui valdyti. Ji mato aparatinių mygtukų paspaudimus ir priekiniame plane veikiančios programos pavadinimą; abu duomenys lieka šio įrenginio atmintyje ir niekur nesiunčiami.</string>
+    <string name="settings_a11y_enabled">Įjungta</string>
+    <string name="settings_a11y_started">Paleista</string>
+    <string name="settings_yes">Taip</string>
+    <string name="settings_no">Ne</string>
+    <string name="settings_a11y_open">Rodyti pritaikymo neįgaliesiems nustatymus</string>
+    <string name="settings_a11y_consent_title">Pritaikymo neįgaliesiems paslauga</string>
+    <string name="settings_a11y_consent">Tai leidžia QLauncher matyti aparatinių mygtukų paspaudimus ir priekiniame plane veikiančios programos pavadinimą. Abu duomenys saugomi tik šio įrenginio atmintyje ir niekur nesiunčiami. Ar sutinkate?</string>
+    <string name="settings_a11y_alternate">Naudoti alternatyvią konfigūraciją</string>
+    <string name="settings_a11y_alternate_desc">Išsprendžia problemas kai kuriuose įrenginiuose</string>
+    <string name="settings_a11y_volume_fix">Garsumo mygtukų pataisa</string>
+    <string name="settings_a11y_volume_fix_desc">Paspaudus garsumo mygtuką trumpam sustabdomas mygtukų funkcijų keitimas, kad ilgi paspaudimai vis tiek veiktų</string>
+    <string name="settings_a11y_remap">Įjungti mygtukų funkcijų keitimą</string>
+    <string name="settings_a11y_remap_desc">Paslauga perima mygtukų paspaudimus. Tai išjungus išvengiama ilgo garsumo paspaudimo problemų ir to, kad sistema sustabdytų paslaugą, tačiau paleidimo priemonės perėmimas, tėvų kontrolė ir neveiklumo aptikimas gali veikti prasčiau.</string>
+    <string name="settings_a11y_reminder">Rodyti priminimą</string>
+    <string name="settings_a11y_reminder_desc">Jei pritaikymo neįgaliesiems paslauga išjungta</string>
+    <string name="settings_a11y_unbound_toast">QLauncher pritaikymo neįgaliesiems paslauga neveikia</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importuokite ar eksportuokite nustatymus vietoje arba naudodami kitą programą, pvz., LocalSend ar failų tvarkytuvę.</string>
+    <string name="settings_import">Importuoti</string>
+    <string name="settings_import_file">Iš failo</string>
+    <string name="settings_import_auto">Iš automatinės atsarginės kopijos</string>
+    <string name="settings_export">Eksportuoti</string>
+    <string name="settings_export_local">Išsaugoti vietoje</string>
+    <string name="settings_export_share">Bendrinti su kita programa</string>
+    <string name="settings_reset">Atkurti numatytuosius</string>
+    <string name="settings_cancel">Atšaukti</string>
+    <string name="settings_ok">Gerai</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategorija</string>
+    <string name="wp_custom_search">Pasirinktinė paieška</string>
+    <string name="wp_reddit_login">Prisijungti</string>
+    <string name="wp_reddit_logout">Atsijungti: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Atsijungti</string>
+    <string name="wp_subreddit">Subredditas</string>
+    <string name="wp_custom_subreddit">Pasirinktinis subredditas</string>
+    <string name="wp_custom_subreddit_hint">Keli pavadinimai, atskirti ženklu +</string>
+    <string name="wp_folder">Aplankas</string>
+    <string name="wp_folder_choose">Pasirinkite aplanką</string>
+    <string name="wp_media">Medijos failas</string>
+    <string name="wp_media_choose">Pasirinkite failą</string>
+    <string name="wp_choose_other">Kita vieta…</string>
+    <string name="wp_choose_other_desc">Pasirinkite sistemos failų rinkikliu</string>
+    <string name="wp_media_searching">Ieškoma nuotraukų ir vaizdo įrašų…</string>
+    <string name="wp_media_none">Nuotraukų ar vaizdo įrašų nerasta. Nukopijuokite jų į aplanką Pictures, Movies arba Download arba prijunkite USB atmintinę.</string>
+    <string name="wp_folders_description">Aplankai su nuotraukomis ar vaizdo įrašais šiame įrenginyje ir USB atmintinėse.</string>
+    <string name="wp_folders_none">Aplankų su nuotraukomis ar vaizdo įrašais nerasta</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d failas</item>
+        <item quantity="few">%d failai</item>
+        <item quantity="many">%d failo</item>
+        <item quantity="other">%d failų</item>
+    </plurals>
+    <string name="wp_media_color">Vientisa spalva</string>
+    <string name="wp_theme_desc">Ekrano fonai iš importuotos temos</string>
+    <string name="wp_plugin_settings">Papildinio nustatymai</string>
+    <string name="wp_not_set">Nenustatyta</string>
+    <string name="wp_status">Būsena</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Šis ekrano fonas</string>
+    <string name="wp_next">Kitas</string>
+    <string name="wp_source">Šaltinis</string>
+    <string name="wp_title">Pavadinimas</string>
+    <string name="wp_author">Autorius</string>
+    <string name="wp_set_user">Nustatyti kaip savo ekrano foną</string>
+    <string name="wp_view">Peržiūrėti</string>
+    <string name="wp_unknown">Nežinoma</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Čia kurkite ir tvarkykite vaizdo ekrano profilius. Susiekite juos su įvesties šaltiniais, kad jie keistųsi automatiškai, arba pritaikykite dukart paspaudę Meniu, o tada aukštyn arba žemyn.</string>
+    <string name="dp_list">Ekrano profilių sąrašas</string>
+    <string name="dp_list_desc">Čia kurkite arba redaguokite vaizdo ekrano profilius. Priklausomai nuo įrenginio, kai kuriems valdikliams reikia root teisių arba jie visai neveikia; jie skirti AmLogic įrenginiams.</string>
+    <string name="dp_add">Pridėti naują…</string>
+    <string name="dp_name">Profilio pavadinimas</string>
+    <string name="dp_preview">Peržiūra</string>
+    <string name="dp_fullscreen">Viso ekrano peržiūra</string>
+    <string name="dp_fullscreen_desc">arba perjunkite mygtuku Meniu</string>
+    <string name="dp_delete">Ištrinti profilį</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Įdiegti trečiųjų šalių programas</string>
+    <string name="install_desc">Pasirinkite, kurią programą įdiegti. Pirmiausia gali tekti leisti diegti iš nežinomų šaltinių.</string>
+    <string name="install_custom">Pasirinktinis URL / Downloader kodas</string>
+    <string name="install_custom_desc">Naudokite tik patikimą šaltinį</string>
+    <string name="install_status">Būsena</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Šis įrenginys</string>
+
+    <string name="gallery_filter">Filtruoti…</string>
+    <string name="settings_no_file_picker">Šiame įrenginyje nėra failų rinkiklio</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Skaistis</string>
+    <string name="color_opacity">Neskaidrumas</string>
+    <string name="color_prefer_dynamic">Teikti pirmenybę dinaminei spalvai</string>
+    <string name="color_prefer_dynamic_desc">Jei pasiekiama, bus išlaikytas šis skaistis / neskaidrumas</string>
+    <string name="color_clear">Išvalyti</string>
+    <string name="color_reset">Atkurti numatytąją</string>
+</resources>

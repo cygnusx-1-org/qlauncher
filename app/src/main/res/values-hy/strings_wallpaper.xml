@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Ոչ մեկը</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Դինամիկ գույներ</string>
+    <string name="wallpaper_provider_default">Լռելյայն պաստառ</string>
+    <string name="wallpaper_provider_media_file">Մեդիաֆայլ</string>
+    <string name="wallpaper_provider_folder">Թղթապանակ</string>
+    <string name="wallpaper_provider_focused_program">Ընտրված հաղորդում</string>
+    <string name="wallpaper_provider_now_playing">Հիմա նվագարկվում է</string>
+    <string name="wallpaper_provider_random_program">Պատահական հաղորդում</string>
+    <string name="wallpaper_provider_theme">Թեմա</string>
+    <string name="wallpaper_provider_unknown_plugin">Պլագին</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Պաստառներ</string>
+    <string name="wallpaper_wikimedia_nature">Բնություն</string>
+    <string name="wallpaper_wikimedia_landscapes">Բնանկարներ</string>
+    <string name="wallpaper_wikimedia_mountains">Լեռներ</string>
+    <string name="wallpaper_wikimedia_forests">Անտառներ</string>
+    <string name="wallpaper_wikimedia_cities">Քաղաքներ</string>
+    <string name="wallpaper_wikimedia_architecture">Ճարտարապետություն</string>
+    <string name="wallpaper_wikimedia_night">Գիշեր</string>
+    <string name="wallpaper_wikimedia_space">Տիեզերք</string>
+    <string name="wallpaper_wikimedia_animals">Կենդանիներ</string>
+    <string name="wallpaper_wikimedia_custom">[Անհատական որոնում]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Անհատական համայնք]</string>
+    <string name="wallpaper_reddit_log_out">Դուրս գալ</string>
+    <string name="wallpaper_reddit_login_needed">Մուտք գործեք Reddit՝ այնտեղից պաստառներ տեսնելու համար։</string>
+    <string name="wallpaper_reddit_login_title">Մուտք գործել Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Մուտք է կատարվում…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit-ի հասանելիությունը չտրամադրվեց, ուստի Reddit-ի պաստառները մնում են անհասանելի։</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit-ի պատասխանը չհամապատասխանեց մուտքի այս փորձին և անտեսվեց։ Նորից փորձեք։</string>
+    <string name="wallpaper_reddit_login_failed">Reddit մուտք գործելը ձախողվեց (%1$s)։ Ավելի ուշ նորից փորձեք։</string>
+    <string name="wallpaper_reddit_login_network">Չհաջողվեց կապվել Reddit-ի հետ։ Ստուգեք ցանցային կապը և նորից փորձեք։</string>
+    <string name="wallpaper_reddit_login_page_error">Չհաջողվեց բեռնել Reddit-ի մուտքի էջը։ Ստուգեք ցանցային կապը և նորից փորձեք։</string>
+    <string name="wallpaper_reddit_no_webview">Այս սարքում չկա վեբ դիտարկիչի բաղադրիչը (Android System WebView), որն անհրաժեշտ է Reddit մուտք գործելու համար։ Տեղադրեք կամ միացրեք Android System WebView-ն և նորից փորձեք։</string>
+    <string name="wallpaper_reddit_retry">Նորից փորձել</string>
+    <string name="wallpaper_reddit_close">Փակել</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Պաստառների աղբյուրի հետ կապ չկա։</string>
+    <string name="wallpaper_error_server">Պաստառների աղբյուրը պատասխանեց սխալով։</string>
+    <string name="wallpaper_error_rate_limited">Պաստառների աղբյուրը խնդրեց սպասել մինչև հաջորդ հարցումը։</string>
+    <string name="wallpaper_error_generic">Չհաջողվեց բեռնել պաստառները։</string>
+    <string name="wallpaper_error_no_media">Ոչ մի նկար, տեսանյութ կամ գույն ընտրված չէ։</string>
+    <string name="wallpaper_error_no_folder">Ոչ մի թղթապանակ ընտրված չէ։</string>
+    <string name="wallpaper_error_folder_access">Թղթապանակը հնարավոր չէ կարդալ։ Ընտրեք այն նորից։</string>
+    <string name="wallpaper_error_folder_empty">Թղթապանակում նկարներ, տեսանյութեր կամ Lottie անիմացիաներ չկան։</string>
+    <string name="wallpaper_error_theme_empty">Ընթացիկ թեման պաստառներ չունի։</string>
+    <string name="wallpaper_error_no_channels">Ալիքները հասանելի չեն։ Միացրեք դրանք և թույլատրեք հեռուստածրագրերի ցուցակների հասանելիությունը։</string>
+    <string name="wallpaper_error_no_notification_access">«Հիմա նվագարկվում է» գործառույթի համար անհրաժեշտ է ծանուցումների հասանելիություն։</string>
+    <string name="wallpaper_error_no_subreddit">Վավեր Reddit համայնք նշված չէ։</string>
+    <string name="wallpaper_error_plugin">Պաստառի պլագինը չպատասխանեց։</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Պաստառը սահմանվեց</string>
+    <string name="wallpaper_set_failed">Այս ֆայլը հնարավոր չէ օգտագործել որպես պաստառ։</string>
+</resources>

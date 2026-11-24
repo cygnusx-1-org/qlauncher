@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Bawaan</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">tebal</string>
+    <string name="backup_clock_markup_italic">miring</string>
+    <string name="backup_clock_markup_underline">garis bawah</string>
+    <string name="backup_clock_markup_strikethrough">coret</string>
+    <string name="backup_clock_markup_subscript">subskrip</string>
+    <string name="backup_clock_markup_superscript">superskrip</string>
+    <string name="backup_clock_markup_half_size">setengah ukuran</string>
+    <string name="backup_clock_markup_one_and_a_half_size">satu setengah kali</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Clipping hitam</string>
+    <string name="backup_pattern_apl_clipping">Clipping APL</string>
+    <string name="backup_pattern_white_clipping">Clipping putih</string>
+    <string name="backup_pattern_grayscale_ramp">Gradasi skala abu-abu</string>
+    <string name="backup_pattern_grayscale_steps">Tingkatan skala abu-abu</string>
+    <string name="backup_pattern_dynamic_brightness">Kecerahan dinamis</string>
+    <string name="backup_pattern_color_steps">Tingkatan warna</string>
+    <string name="backup_pattern_color_clipping">Clipping warna</string>
+    <string name="backup_pattern_flashing_color_bars">Bar warna berkedip</string>
+    <string name="backup_pattern_sharpness_overscan">Ketajaman &amp; overscan</string>
+    <string name="backup_pattern_uhd">Pola UHD</string>
+    <string name="backup_pattern_judder">Uji judder</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Ketajaman rasio aspek</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Level hitam</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Clipping warna 240–1000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Clipping warna 3600–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Clipping warna 700–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Clipping warna 900–4000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Gradasi skala abu-abu 10000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Gradasi skala abu-abu 1000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Gradasi skala abu-abu 4000 nit</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE hitam</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Gradasi warna</string>
+    <string name="backup_pattern_unavailable">%1$s memerlukan jalur video HDR dan belum tersedia</string>
+    <!-- Pages -->
+    <string name="backup_settings">Setelan</string>
+    <string name="backup_manage_settings">Kelola setelan</string>
+    <string name="backup_themes">Tema</string>
+    <string name="backup_import">Impor</string>
+    <string name="backup_export">Ekspor</string>
+    <string name="backup_import_from_file">Dari pengelola file</string>
+    <string name="backup_import_from_auto">Dari cadangan otomatis</string>
+    <string name="backup_export_save">Simpan secara lokal</string>
+    <string name="backup_export_share">Bagikan dengan aplikasi lain</string>
+    <string name="backup_reset">Kembalikan ke default</string>
+    <string name="backup_cancel">Batal</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Selesai</string>
+    <string name="backup_close">Tutup</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Ekspor setelan</string>
+    <string name="backup_export_theme_title">Ekspor tema</string>
+    <string name="backup_export_description">Semuanya disimpan dalam satu file yang dienkripsi dengan kata sandi pilihan Anda (minimal %1$d karakter). Anda memerlukan kata sandi itu untuk mengimpor file, dan kata sandi tidak dapat dipulihkan.</string>
+    <string name="backup_export_theme_description">Setelan tampilan dan wallpaper saat ini disimpan dalam satu file yang dienkripsi dengan kata sandi pilihan Anda (minimal %1$d karakter). Anda memerlukan kata sandi itu untuk mengimpor tema.</string>
+    <string name="backup_password">Kata sandi</string>
+    <string name="backup_password_show">Tampilkan kata sandi</string>
+    <string name="backup_password_hide">Sembunyikan kata sandi</string>
+    <string name="backup_password_strength">Kekuatan kata sandi</string>
+    <string name="backup_strength_too_short">Terlalu pendek: minimal %1$d karakter</string>
+    <string name="backup_strength_weak">Lemah: mudah ditebak</string>
+    <string name="backup_strength_fair">Cukup</string>
+    <string name="backup_strength_strong">Kuat</string>
+    <string name="backup_password_too_short">Kata sandi harus terdiri dari minimal %1$d karakter</string>
+    <string name="backup_exporting">Mengekspor…</string>
+    <string name="backup_export_saved">Disimpan ke %1$s</string>
+    <string name="backup_export_kept">Tidak disimpan di tempat lain. File tetap ada di %1$s</string>
+    <string name="backup_export_shared">Terkirim. Salinannya tetap ada di %1$s</string>
+    <string name="backup_export_no_file_manager">Tidak ada aplikasi di perangkat ini yang dapat menerima file tersebut. File ada di %1$s</string>
+    <string name="backup_export_failed">Ekspor gagal: %1$s</string>
+    <string name="backup_share_title">Kirim file QLauncher dengan</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Impor akan mengganti konfigurasi Anda saat ini. Cadangan otomatis dibuat terlebih dahulu, dan QLauncher akan dimulai ulang setelah selesai.</string>
+    <string name="backup_reading">Membaca file…</string>
+    <string name="backup_import_action">Impor</string>
+    <string name="backup_wrong_password">Kata sandi salah</string>
+    <string name="backup_password_hint">Kata sandi yang dipilih saat file diekspor</string>
+    <string name="backup_not_a_backup">Ini bukan cadangan atau tema QLauncher maupun Projectivy.</string>
+    <string name="backup_damaged">File rusak atau tidak lengkap.</string>
+    <string name="backup_too_new">File ini dibuat oleh QLauncher versi yang lebih baru (format %1$d). Update QLauncher untuk mengimpornya.</string>
+    <string name="backup_unreadable">Cadangan otomatis ini tidak dapat dibaca di perangkat ini.</string>
+    <string name="backup_import_failed">Impor gagal dan tidak ada yang diubah: %1$s</string>
+    <string name="backup_applying">Mengimpor… QLauncher akan dimulai ulang setelah selesai.</string>
+    <string name="backup_origin_ql_backup">Cadangan setelan QLauncher</string>
+    <string name="backup_origin_ql_theme">Tema QLauncher</string>
+    <string name="backup_origin_pl_backup">Cadangan setelan Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Tema Projectivy Launcher</string>
+    <string name="backup_origin_auto">Cadangan otomatis</string>
+    <string name="backup_preview_theme_by">%1$s oleh %2$s</string>
+    <string name="backup_preview_version">versi %1$s</string>
+    <string name="backup_preview_settings">Setelan</string>
+    <string name="backup_preview_categories">Kategori</string>
+    <string name="backup_preview_apps">Kustomisasi aplikasi</string>
+    <string name="backup_preview_profiles">Profil layar</string>
+    <string name="backup_preview_files">Wallpaper dan ikon</string>
+    <string name="backup_preview_skipped">Aplikasi yang tidak ada di perangkat ini</string>
+    <string name="backup_replace_setup">Ganti konfigurasi saat ini</string>
+    <string name="backup_apply_theme">Terapkan tema</string>
+    <string name="backup_replace_detail">Cadangan otomatis konfigurasi saat ini dibuat terlebih dahulu</string>
+    <string name="backup_nc_parental">Kode orang tua</string>
+    <string name="backup_nc_parental_detail">Tidak ikut diimpor. Tetapkan kode baru di Kontrol orang tua.</string>
+    <string name="backup_nc_premium">Status premium</string>
+    <string name="backup_nc_premium_detail">Tidak ikut diimpor. Semua fitur QLauncher gratis.</string>
+    <string name="backup_nc_inputs">Input TV</string>
+    <string name="backup_nc_profile_bindings">Kaitan profil layar</string>
+    <string name="backup_nc_plugin">Plugin wallpaper</string>
+    <string name="backup_nc_plugin_detail">%1$s tidak terinstal. Sumber wallpaper tetap seperti sebelumnya.</string>
+    <string name="backup_nc_icons">Ikon kustom</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="other">%1$d nilai diubah</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="other">%1$d kategori</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="other">%1$d aplikasi</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="other">%1$d profil</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="other">%1$d file</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="other">%1$d setelan tidak dikenal, dilewati</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="other">%1$d entri tidak cocok dengan aplikasi mana pun yang terinstal di sini dan dilewati</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="other">%1$d tautan ke input TV yang tidak dimiliki perangkat ini dilewati</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="other">%1$d profil yang dikaitkan ke input tidak ikut diimpor</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="other">%1$d ikon yang disimpan di dalam Projectivy tidak dapat dibaca dan dilewati</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Cadangan otomatis</string>
+    <string name="backup_auto_description">QLauncher menyimpan %1$d versi terakhir konfigurasi Anda di perangkat ini, dienkripsi dengan kunci yang tidak pernah keluar dari perangkat. Pilih salah satu untuk memulihkannya; tidak perlu kata sandi.</string>
+    <string name="backup_auto_none">Tidak ada cadangan otomatis</string>
+    <string name="backup_files_title">File cadangan</string>
+    <string name="backup_files_theme_title">File tema</string>
+    <string name="backup_files_description">Hasil ekspor disimpan di %1$s. Dengan akses ke semua file, QLauncher juga menemukan cadangan di Download, Documents, dan drive USB, termasuk milik Projectivy.</string>
+    <string name="backup_files_searching">Mencari file cadangan…</string>
+    <string name="backup_files_none">File cadangan tidak ditemukan</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Folder QLauncher</string>
+    <string name="backup_files_access">Temukan cadangan dari aplikasi dan perangkat lain</string>
+    <string name="backup_files_access_desc">Izinkan akses ke semua file</string>
+    <string name="backup_files_access_unavailable">Tidak ada layar setelan di perangkat ini. Izinkan akses ke semua file dengan: %1$s</string>
+    <string name="backup_files_browse">Lokasi lain…</string>
+    <string name="backup_files_browse_desc">Pilih file dengan pemilih file sistem</string>
+    <string name="backup_auto_delete_all">Hapus semua</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Setelah perubahan</string>
+    <string name="backup_reason_import">Sebelum impor</string>
+    <string name="backup_reason_migration">Sebelum update</string>
+    <string name="backup_reason_reset">Sebelum reset</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profil #</string>
+    <string name="backup_no_picture_manager">Tidak ada pengelola gambar yang dimuat</string>
+    <string name="backup_no_picture_manager_detail">Perangkat ini tidak menyediakan cara yang didukung untuk mengubah setelan gambarnya, sehingga profil menyimpan nilainya tanpa menerapkannya.</string>
+</resources>

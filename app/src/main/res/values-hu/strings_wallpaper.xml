@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Nincs</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinamikus színek</string>
+    <string name="wallpaper_provider_default">Alapértelmezett háttérkép</string>
+    <string name="wallpaper_provider_media_file">Médiafájl</string>
+    <string name="wallpaper_provider_folder">Mappa</string>
+    <string name="wallpaper_provider_focused_program">Kijelölt műsor</string>
+    <string name="wallpaper_provider_now_playing">Most játszott</string>
+    <string name="wallpaper_provider_random_program">Véletlenszerű műsor</string>
+    <string name="wallpaper_provider_theme">Téma</string>
+    <string name="wallpaper_provider_unknown_plugin">Bővítmény</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Háttérképek</string>
+    <string name="wallpaper_wikimedia_nature">Természet</string>
+    <string name="wallpaper_wikimedia_landscapes">Tájak</string>
+    <string name="wallpaper_wikimedia_mountains">Hegyek</string>
+    <string name="wallpaper_wikimedia_forests">Erdők</string>
+    <string name="wallpaper_wikimedia_cities">Városok</string>
+    <string name="wallpaper_wikimedia_architecture">Építészet</string>
+    <string name="wallpaper_wikimedia_night">Éjszaka</string>
+    <string name="wallpaper_wikimedia_space">Világűr</string>
+    <string name="wallpaper_wikimedia_animals">Állatok</string>
+    <string name="wallpaper_wikimedia_custom">[Egyéni keresés]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Egyéni subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Kijelentkezés</string>
+    <string name="wallpaper_reddit_login_needed">Jelentkezzen be a Redditre a háttérképeinek megtekintéséhez.</string>
+    <string name="wallpaper_reddit_login_title">Bejelentkezés a Redditre</string>
+    <string name="wallpaper_reddit_login_signing_in">Bejelentkezés…</string>
+    <string name="wallpaper_reddit_login_denied">A Reddit-hozzáférés nem lett megadva, így a Reddit-háttérképek továbbra sem érhetők el.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">A Reddit válasza nem egyezett ezzel a bejelentkezési kísérlettel, ezért figyelmen kívül maradt. Próbálja újra.</string>
+    <string name="wallpaper_reddit_login_failed">A Reddit-bejelentkezés sikertelen (%1$s). Próbálja újra később.</string>
+    <string name="wallpaper_reddit_login_network">A Reddit nem érhető el. Ellenőrizze a hálózati kapcsolatot, és próbálja újra.</string>
+    <string name="wallpaper_reddit_login_page_error">A Reddit bejelentkezési oldala nem tölthető be. Ellenőrizze a hálózati kapcsolatot, és próbálja újra.</string>
+    <string name="wallpaper_reddit_no_webview">Ezen az eszközön nincs webböngésző-összetevő (Android System WebView), amely a Reddit-bejelentkezéshez szükséges. Telepítse vagy engedélyezze az Android System WebView-t, és próbálja újra.</string>
+    <string name="wallpaper_reddit_retry">Újra</string>
+    <string name="wallpaper_reddit_close">Bezárás</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Nincs kapcsolat a háttérképforrással.</string>
+    <string name="wallpaper_error_server">A háttérképforrás hibával válaszolt.</string>
+    <string name="wallpaper_error_rate_limited">A háttérképforrás várakozást kért a következő kérés előtt.</string>
+    <string name="wallpaper_error_generic">A háttérképek nem tölthetők be.</string>
+    <string name="wallpaper_error_no_media">Nincs kiválasztva kép, videó vagy szín.</string>
+    <string name="wallpaper_error_no_folder">Nincs kiválasztva mappa.</string>
+    <string name="wallpaper_error_folder_access">A mappa nem olvasható. Válassza ki újra.</string>
+    <string name="wallpaper_error_folder_empty">A mappában nincsenek képek, videók vagy Lottie-animációk.</string>
+    <string name="wallpaper_error_theme_empty">Az aktuális témában nincsenek háttérképek.</string>
+    <string name="wallpaper_error_no_channels">A csatornák nem érhetők el. Kapcsolja be őket, és engedélyezze a TV-műsorlisták elérését.</string>
+    <string name="wallpaper_error_no_notification_access">A Most játszott funkcióhoz értesítés-hozzáférés szükséges.</string>
+    <string name="wallpaper_error_no_subreddit">Nincs beállítva érvényes subreddit.</string>
+    <string name="wallpaper_error_plugin">A háttérkép-bővítmény nem válaszolt.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Háttérkép beállítva</string>
+    <string name="wallpaper_set_failed">Ez a fájl nem használható háttérképként.</string>
+</resources>

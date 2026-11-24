@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">設定</string>
+    <string name="settings_breadcrumb_display">顯示</string>
+    <string name="settings_breadcrumb_applications">應用程式</string>
+    <string name="settings_breadcrumb_system">系統</string>
+    <string name="settings_breadcrumb_about">關於</string>
+    <string name="settings_root_title">QLauncher 設定</string>
+    <string name="settings_root_description">調整應用程式設定。</string>
+    <string name="settings_legend_a11y_required">需要無障礙服務</string>
+    <string name="settings_legend_a11y_recommended">建議開啟無障礙服務</string>
+    <string name="settings_legend_experimental">實驗性功能</string>
+    <string name="settings_launcher_related">啟動器相關設定</string>
+
+    <string name="settings_general">一般</string>
+    <string name="settings_appearance">外觀</string>
+    <string name="settings_power">電源</string>
+    <string name="settings_parental">家長監護</string>
+    <string name="settings_remote">遙控器</string>
+    <string name="settings_accessibility">無障礙服務</string>
+    <string name="settings_display_profiles">顯示設定檔</string>
+    <string name="settings_manage">管理設定</string>
+
+    <!-- General -->
+    <string name="settings_language">變更應用程式語言</string>
+    <string name="settings_language_system">系統預設</string>
+    <string name="settings_default_launcher">變更預設啟動器</string>
+    <string name="settings_default_launcher_unavailable">這部裝置無法變更預設啟動器。請改用「接管目前的啟動器」。</string>
+    <string name="settings_override_home">接管目前的啟動器</string>
+    <string name="settings_override_home_desc">攔截對目前啟動器的呼叫（適用於無法變更或移除原廠啟動器的情況）</string>
+    <string name="settings_enable_channels">啟用頻道</string>
+    <string name="settings_enable_channels_desc">如果你不使用頻道，關閉這個選項可加快啟動速度並減少記憶體用量</string>
+    <string name="settings_programs_per_channel">每個頻道的節目數</string>
+    <string name="settings_crash_error_reports">啟用匿名當機和錯誤報告</string>
+    <string name="settings_reports_desc">只會傳送錯誤、應用程式版本和裝置型號</string>
+    <string name="settings_check_updates">檢查更新</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">類別 / 頻道</string>
+    <string name="settings_cards">卡片</string>
+    <string name="settings_wallpaper">桌布</string>
+    <string name="settings_status_bar">狀態列</string>
+    <string name="settings_left_headers">左側標題列</string>
+    <string name="settings_idle_mode">啟動器閒置模式</string>
+    <string name="settings_font">字型</string>
+    <string name="settings_themes">主題</string>
+    <string name="settings_themes_desc">匯入 / 匯出</string>
+    <string name="settings_load_cards_scrolling">捲動時載入卡片</string>
+    <string name="settings_load_cards_scrolling_desc">反應更快，但會犧牲流暢度</string>
+    <string name="settings_accent">強調色</string>
+    <string name="settings_accent_desc">開啟「動態」即可依桌布取色</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">顯示標題</string>
+    <string name="settings_show_icon_title">在標題前顯示圖示</string>
+    <string name="settings_rows_spacing">垂直間距（佔螢幕高度的 %）</string>
+    <string name="settings_fixed_position">固定焦點類別的位置</string>
+    <string name="settings_hide_rows_above">隱藏所選項目上方的列</string>
+    <string name="settings_remember_focus">記住焦點卡片的位置</string>
+    <string name="settings_unselected_opacity">未選取列的不透明度</string>
+    <string name="settings_top_margin">上邊界</string>
+    <string name="settings_start_margin">左邊界</string>
+    <string name="settings_end_margin">右邊界</string>
+    <string name="settings_dock_padding">Dock 內距</string>
+    <string name="settings_tint_custom_icons">為自訂圖示著色</string>
+    <string name="settings_tint_custom_icons_desc">適用於沒有背景的自訂圖示</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">圓角</string>
+    <string name="settings_cards_size">卡片大小</string>
+    <string name="settings_cards_spacing">卡片間距</string>
+    <string name="settings_loop_limit">動畫圖示循環次數上限</string>
+    <string name="settings_ripple">按下卡片時的漣漪效果</string>
+    <string name="settings_background_color">背景顏色</string>
+    <string name="settings_focused_card">焦點卡片</string>
+    <string name="settings_program_cards">節目卡片</string>
+    <string name="settings_tv_ratio">電視應用程式卡片長寬比</string>
+    <string name="settings_mobile_ratio">行動應用程式卡片長寬比</string>
+    <string name="settings_icon_pack">圖示包</string>
+    <string name="settings_icon_pack_none">未安裝圖示包</string>
+    <string name="settings_icon_pack_off">無</string>
+    <string name="settings_more">更多…</string>
+    <string name="settings_custom_icon_tint">自訂圖示色調</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">焦點卡片大小</string>
+    <string name="settings_focused_effect">焦點卡片效果</string>
+    <string name="settings_effect_none">無</string>
+    <string name="settings_effect_shadow">陰影</string>
+    <string name="settings_effect_glow">光暈</string>
+    <string name="settings_glow_animation">光暈動畫</string>
+    <string name="settings_anim_none">無</string>
+    <string name="settings_anim_pulse">脈衝</string>
+    <string name="settings_anim_breath">呼吸</string>
+    <string name="settings_anim_fade">淡入淡出</string>
+    <string name="settings_anim_shine">閃光</string>
+    <string name="settings_glow_size">光暈大小</string>
+    <string name="settings_glow_color">光暈顏色</string>
+    <string name="settings_glow_color_desc">留空即使用卡片本身的顏色</string>
+    <string name="settings_colors_override">顏色覆寫</string>
+    <string name="settings_override_none">無</string>
+    <string name="settings_override_swap">對調背景/色調</string>
+    <string name="settings_override_custom">自訂</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">播放預覽影片</string>
+    <string name="settings_preview_never">永不</string>
+    <string name="settings_preview_always">一律</string>
+    <string name="settings_preview_no_media">沒有背景媒體播放時</string>
+    <string name="settings_show_progress">顯示進度列</string>
+    <string name="settings_show_badge">顯示徽章</string>
+    <string name="settings_zoom_focus">取得焦點時放大</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">支援的格式：靜態圖片、GIF 動畫、影片（一般檔案或 RTSP 直播串流）、Lottie 動畫</string>
+    <string name="settings_launcher_wallpaper">啟動器桌布</string>
+    <string name="settings_configure">設定</string>
+    <string name="settings_show_wallpapers">顯示桌布</string>
+    <string name="settings_picture_adjustment">圖片調整</string>
+    <string name="settings_image_transition">圖片轉場效果</string>
+    <string name="settings_update_frequency">更新頻率（分鐘）</string>
+    <string name="settings_video_wallpaper">影片桌布</string>
+    <string name="settings_display_mode">顯示模式</string>
+    <string name="settings_bad_ratio">比例/畫質不佳時</string>
+    <string name="settings_min_width">可接受的最小寬度（像素）</string>
+    <string name="settings_src_none">無</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">動態色彩</string>
+    <string name="settings_src_default">預設桌布</string>
+    <string name="settings_src_media">媒體檔案</string>
+    <string name="settings_src_folder">資料夾</string>
+    <string name="settings_src_focused_program">目前選取的節目</string>
+    <string name="settings_src_now_playing">現正播放</string>
+    <string name="settings_src_random_program">隨機節目</string>
+    <string name="settings_src_theme">主題</string>
+    <string name="settings_tr_none">無</string>
+    <string name="settings_tr_random">隨機</string>
+    <string name="settings_tr_fade">淡入淡出</string>
+    <string name="settings_tr_zoom">縮放</string>
+    <string name="settings_tr_hslide">水平滑動</string>
+    <string name="settings_tr_vslide">垂直滑動</string>
+    <string name="settings_dm_automatic">自動</string>
+    <string name="settings_dm_skip">略過</string>
+    <string name="settings_dm_crop">裁切</string>
+    <string name="settings_dm_stretch">延展</string>
+    <string name="settings_dm_fit">置中符合</string>
+    <string name="settings_dm_fit_blur">置中符合 + 模糊背景</string>
+    <string name="settings_dm_blur">模糊</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">色相</string>
+    <string name="settings_saturation">飽和度</string>
+    <string name="settings_contrast">對比</string>
+    <string name="settings_brightness">亮度</string>
+    <string name="settings_tint">色調</string>
+    <string name="settings_tint_amount">色調強度</string>
+    <string name="settings_blur">模糊</string>
+    <string name="settings_shadow_h">水平陰影遮罩長度</string>
+    <string name="settings_shadow_v">垂直陰影遮罩長度</string>
+    <string name="settings_shadow_opacity">陰影遮罩不透明度</string>
+    <string name="settings_shadow_tint">陰影遮罩色調</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">忽略更新頻率</string>
+    <string name="settings_ignore_update_desc">等影片播放結束後再要求新桌布</string>
+    <string name="settings_video_color_freq">動態色彩更新頻率</string>
+    <string name="settings_video_color_freq_desc">讀取影片影格取色的間隔秒數；設為 0 即關閉</string>
+    <string name="settings_volume">音量</string>
+    <string name="settings_tunneling">使用硬體算繪（隧道模式）</string>
+    <string name="settings_decoder_fallback">啟用備援解碼器</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">管理通知權限</string>
+    <string name="settings_granted">已授予</string>
+    <string name="settings_not_granted">未授予</string>
+    <string name="settings_notification_adb">這部裝置沒有對應的設定畫面。請使用以下指令授予：%1$s</string>
+    <string name="settings_clock">時鐘</string>
+    <string name="settings_icons">圖示</string>
+    <string name="settings_show_system_bar">顯示系統狀態列</string>
+    <string name="settings_autohide_status">捲動時隱藏狀態列</string>
+    <string name="settings_show_clock">顯示時鐘</string>
+    <string name="settings_clock_size">時鐘字型大小</string>
+    <string name="settings_clock_color">時鐘顏色</string>
+    <string name="settings_drop_shadow">陰影</string>
+    <string name="settings_clock_line1">時鐘格式（第 1 行）</string>
+    <string name="settings_clock_line2">時鐘格式（第 2 行）</string>
+    <string name="settings_clock_default_format">系統格式</string>
+    <string name="settings_empty">空白</string>
+    <string name="settings_icons_size">圖示大小</string>
+    <string name="settings_icons_color">圖示顏色</string>
+    <string name="settings_icons_container">圖示容器顏色</string>
+    <string name="settings_show_settings">顯示設定按鈕</string>
+    <string name="settings_show_settings_desc">仍可透過以下按鍵序列開啟設定：↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">顯示網路連線</string>
+    <string name="settings_show_notifications">顯示通知</string>
+    <string name="settings_autohide_notifications">沒有通知時隱藏通知圖示</string>
+    <string name="settings_show_battery">顯示電池電量</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">啟用</string>
+    <string name="settings_headers_on_launch">啟動時顯示左側標題列</string>
+    <string name="settings_show_icon">顯示圖示</string>
+    <string name="settings_show_reorder">顯示重新排序</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">進入閒置前的等待時間（分鐘）</string>
+    <string name="settings_idle_opacity">介面不透明度</string>
+    <string name="settings_keep_clock">保留時鐘</string>
+    <string name="settings_prevent_screensaver">防止系統螢幕保護程式啟動</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">變更 QLauncher 的字型設定。字型系列名稱可在 Google Fonts 上查詢。</string>
+    <string name="settings_font_list">從清單中選擇</string>
+    <string name="settings_font_google">字型（Google Fonts）</string>
+    <string name="settings_font_default">預設</string>
+    <string name="settings_bold">粗體</string>
+    <string name="settings_italic">斜體</string>
+    <string name="settings_size">大小</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">開機自動啟動</string>
+    <string name="settings_autostart_none">無</string>
+    <string name="settings_autostart_screensaver">[*] 螢幕保護程式（如支援）</string>
+    <string name="settings_autostart_resume">…以及從待機狀態恢復時</string>
+    <string name="settings_autostart_delay">自動啟動延遲（秒）</string>
+    <string name="settings_simulate_activity">閒置時防止系統自動關機</string>
+    <string name="settings_idle_detection">啟用內部閒置偵測</string>
+    <string name="settings_idle_timeout_power">閒置逾時（時:分）</string>
+    <string name="settings_idle_action">閒置時的動作</string>
+    <string name="settings_idle_action_shutdown">關機</string>
+    <string name="settings_idle_action_screen_off">關閉螢幕</string>
+    <string name="settings_idle_action_screensaver">螢幕保護程式（如支援）</string>
+    <string name="settings_idle_media">播放媒體時忽略閒置模式</string>
+    <string name="settings_missing_notification_permission">⚠️ 缺少通知權限</string>
+    <string name="settings_shutdown_action">關機方式</string>
+    <string name="settings_shutdown_dialog">電源對話方塊</string>
+    <string name="settings_shutdown_dialog_twice">電源對話方塊（呼叫兩次）</string>
+    <string name="settings_shutdown_dialog_ok">電源對話方塊 + OK</string>
+    <string name="settings_hdmi_exit">HDMI 輸入訊號中斷時自動關機</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">設定一組密碼，在全天或一天中的部分時段鎖定所選的應用程式（在主畫面上長按卡片即可選擇）</string>
+    <string name="settings_parental_set_code">設定新的家長密碼</string>
+    <string name="settings_parental_code_set">已設定密碼</string>
+    <string name="settings_parental_long">驗證成功後 15 分鐘內不再要求輸入密碼</string>
+    <string name="settings_parental_protect">保護啟動器設定及介面變更</string>
+    <string name="settings_parental_protect_desc">（全天候套用）</string>
+    <string name="settings_parental_partial">只在以下時段啟用保護</string>
+    <string name="settings_parental_start">開始時間（時:分）</string>
+    <string name="settings_parental_end">結束時間（時:分）</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">按兩下「選單」鍵時顯示資訊</string>
+    <string name="settings_back_double">按兩下「返回」鍵進入「氛圍模式」</string>
+    <string name="settings_back_double_desc">在支援的裝置上啟動螢幕保護程式</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">開啟這項服務後，可以在開機時執行動作、自訂遙控器按鍵、強化家長監護，並偵測閒置時間以進行電源控制。這項服務會偵測硬體按鍵操作及前景應用程式的名稱；這兩項資訊都只會保留在這部裝置的記憶體中，絕不會傳送到任何地方。</string>
+    <string name="settings_a11y_enabled">已啟用</string>
+    <string name="settings_a11y_started">已啟動</string>
+    <string name="settings_yes">是</string>
+    <string name="settings_no">否</string>
+    <string name="settings_a11y_open">開啟無障礙設定</string>
+    <string name="settings_a11y_consent_title">無障礙服務</string>
+    <string name="settings_a11y_consent">這項服務可讓 QLauncher 偵測硬體按鍵操作及前景應用程式的名稱。這兩項資訊都只會保留在這部裝置的記憶體中，絕不會傳送到任何地方。你同意嗎？</string>
+    <string name="settings_a11y_alternate">使用替代設定</string>
+    <string name="settings_a11y_alternate_desc">可修正部分裝置上的問題</string>
+    <string name="settings_a11y_volume_fix">音量鍵修正</string>
+    <string name="settings_a11y_volume_fix_desc">按下音量鍵時暫停按鍵重新對應，讓長按仍可正常運作</string>
+    <string name="settings_a11y_remap">啟用按鍵重新對應</string>
+    <string name="settings_a11y_remap_desc">這項服務會攔截按鍵操作。關閉這個選項可避免長按音量鍵的問題，以及系統停止這項服務，但接管啟動器、家長監護和閒置偵測的效果可能會變差。</string>
+    <string name="settings_a11y_reminder">顯示提醒</string>
+    <string name="settings_a11y_reminder_desc">在無障礙服務關閉時</string>
+    <string name="settings_a11y_unbound_toast">QLauncher 的無障礙服務未執行</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">在本機匯入或匯出設定，或透過 LocalSend、檔案管理員等其他應用程式匯入或匯出。</string>
+    <string name="settings_import">匯入</string>
+    <string name="settings_import_file">從檔案</string>
+    <string name="settings_import_auto">從自動備份</string>
+    <string name="settings_export">匯出</string>
+    <string name="settings_export_local">儲存在本機</string>
+    <string name="settings_export_share">分享給其他應用程式</string>
+    <string name="settings_reset">重設為預設值</string>
+    <string name="settings_cancel">取消</string>
+    <string name="settings_ok">確定</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">類別</string>
+    <string name="wp_custom_search">自訂搜尋</string>
+    <string name="wp_reddit_login">登入</string>
+    <string name="wp_reddit_logout">登出：%1$s</string>
+    <string name="wp_reddit_logout_unknown">登出</string>
+    <string name="wp_subreddit">子版</string>
+    <string name="wp_custom_subreddit">自訂子版</string>
+    <string name="wp_custom_subreddit_hint">多個名稱之間以 + 分隔</string>
+    <string name="wp_folder">資料夾</string>
+    <string name="wp_folder_choose">選擇資料夾</string>
+    <string name="wp_media">媒體檔案</string>
+    <string name="wp_media_choose">選擇檔案</string>
+    <string name="wp_choose_other">其他位置…</string>
+    <string name="wp_choose_other_desc">使用系統檔案挑選器選擇</string>
+    <string name="wp_media_searching">正在尋找圖片和影片…</string>
+    <string name="wp_media_none">找不到圖片或影片。請將檔案複製到 Pictures、Movies 或 Download 資料夾，或插入 USB 隨身碟。</string>
+    <string name="wp_folders_description">這部裝置和 USB 隨身碟上含有圖片或影片的資料夾。</string>
+    <string name="wp_folders_none">找不到含有圖片或影片的資料夾</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="other">%d 個檔案</item>
+    </plurals>
+    <string name="wp_media_color">純色</string>
+    <string name="wp_theme_desc">匯入的主題所附帶的桌布</string>
+    <string name="wp_plugin_settings">外掛程式設定</string>
+    <string name="wp_not_set">未設定</string>
+    <string name="wp_status">狀態</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">目前的桌布</string>
+    <string name="wp_next">下一張</string>
+    <string name="wp_source">來源</string>
+    <string name="wp_title">標題</string>
+    <string name="wp_author">作者</string>
+    <string name="wp_set_user">設為使用者桌布</string>
+    <string name="wp_view">檢視</string>
+    <string name="wp_unknown">不明</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">在這裡建立及管理影片顯示設定檔。將設定檔繫結至輸入來源即可自動切換，也可以按兩下選單鍵，再按上或下來套用。</string>
+    <string name="dp_list">顯示設定檔清單</string>
+    <string name="dp_list_desc">在這裡建立或編輯影片顯示設定檔。視裝置而定，部分控制項需要 Root 權限，或完全無法運作；這些控制項主要針對 AmLogic 裝置。</string>
+    <string name="dp_add">新增…</string>
+    <string name="dp_name">設定檔名稱</string>
+    <string name="dp_preview">預覽</string>
+    <string name="dp_fullscreen">全螢幕預覽</string>
+    <string name="dp_fullscreen_desc">或按選單鍵切換</string>
+    <string name="dp_delete">刪除設定檔</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">安裝第三方應用程式</string>
+    <string name="install_desc">選擇要安裝的應用程式。你可能需要先允許安裝不明來源的應用程式。</string>
+    <string name="install_custom">自訂 URL / Downloader 代碼</string>
+    <string name="install_custom_desc">請只使用你信任的來源</string>
+    <string name="install_status">狀態</string>
+    <string name="install_method_choice">%1$s（%2$s）</string>
+
+    <!-- This device -->
+    <string name="device_title">這部裝置</string>
+
+    <string name="gallery_filter">篩選…</string>
+    <string name="settings_no_file_picker">這部裝置沒有檔案挑選器</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">明度</string>
+    <string name="color_opacity">不透明度</string>
+    <string name="color_prefer_dynamic">優先使用動態色彩</string>
+    <string name="color_prefer_dynamic_desc">如果可用，將保留這個明度/不透明度</string>
+    <string name="color_clear">清除</string>
+    <string name="color_reset">重設為預設值</string>
+</resources>

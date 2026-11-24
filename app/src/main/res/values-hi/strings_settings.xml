@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">सेटिंग</string>
+    <string name="settings_breadcrumb_display">डिसप्ले</string>
+    <string name="settings_breadcrumb_applications">ऐप्लिकेशन</string>
+    <string name="settings_breadcrumb_system">सिस्टम</string>
+    <string name="settings_breadcrumb_about">इसके बारे में</string>
+    <string name="settings_root_title">QLauncher सेटिंग</string>
+    <string name="settings_root_description">ऐप की सेटिंग कॉन्फ़िगर करें।</string>
+    <string name="settings_legend_a11y_required">सुलभता सेवा ज़रूरी है</string>
+    <string name="settings_legend_a11y_recommended">सुलभता सेवा का सुझाव दिया जाता है</string>
+    <string name="settings_legend_experimental">प्रयोग के तौर पर</string>
+    <string name="settings_launcher_related">लॉन्चर से जुड़ी सेटिंग</string>
+
+    <string name="settings_general">सामान्य</string>
+    <string name="settings_appearance">दिखावट</string>
+    <string name="settings_power">पावर</string>
+    <string name="settings_parental">माता-पिता का नियंत्रण</string>
+    <string name="settings_remote">रिमोट कंट्रोल</string>
+    <string name="settings_accessibility">सुलभता सेवा</string>
+    <string name="settings_display_profiles">डिसप्ले प्रोफ़ाइल</string>
+    <string name="settings_manage">सेटिंग मैनेज करें</string>
+
+    <!-- General -->
+    <string name="settings_language">ऐप्लिकेशन की भाषा बदलें</string>
+    <string name="settings_language_system">सिस्टम डिफ़ॉल्ट</string>
+    <string name="settings_default_launcher">डिफ़ॉल्ट लॉन्चर बदलें</string>
+    <string name="settings_default_launcher_unavailable">यह डिवाइस डिफ़ॉल्ट लॉन्चर बदलने का कोई तरीका नहीं देता। इसके बजाय “मौजूदा लॉन्चर ओवरराइड करें” का इस्तेमाल करें।</string>
+    <string name="settings_override_home">मौजूदा लॉन्चर ओवरराइड करें</string>
+    <string name="settings_override_home_desc">मौजूदा लॉन्चर को किए गए कॉल बीच में रोकें (तब काम का है, जब आप डिवाइस का अपना लॉन्चर बदल या हटा नहीं सकते)</string>
+    <string name="settings_enable_channels">चैनल चालू करें</string>
+    <string name="settings_enable_channels_desc">अगर आप इनका इस्तेमाल नहीं करते, तो इसे बंद करने से ऐप जल्दी शुरू होता है और कम मेमोरी लेता है</string>
+    <string name="settings_programs_per_channel">हर चैनल में प्रोग्राम</string>
+    <string name="settings_crash_error_reports">क्रैश और गड़बड़ी की गुमनाम रिपोर्ट चालू करें</string>
+    <string name="settings_reports_desc">सिर्फ़ गड़बड़ी, ऐप वर्शन और डिवाइस मॉडल भेजे जाते हैं</string>
+    <string name="settings_check_updates">अपडेट की जांच करें</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">श्रेणियां / चैनल</string>
+    <string name="settings_cards">कार्ड</string>
+    <string name="settings_wallpaper">वॉलपेपर</string>
+    <string name="settings_status_bar">स्टेटस बार</string>
+    <string name="settings_left_headers">बाएं हेडर</string>
+    <string name="settings_idle_mode">लॉन्चर निष्क्रिय मोड</string>
+    <string name="settings_font">फ़ॉन्ट</string>
+    <string name="settings_themes">थीम</string>
+    <string name="settings_themes_desc">इंपोर्ट / एक्सपोर्ट</string>
+    <string name="settings_load_cards_scrolling">स्क्रोल करते समय कार्ड लोड करें</string>
+    <string name="settings_load_cards_scrolling_desc">ज़्यादा तेज़ प्रतिक्रिया, पर स्क्रोलिंग कम स्मूथ</string>
+    <string name="settings_accent">ऐक्सेंट रंग</string>
+    <string name="settings_accent_desc">वॉलपेपर के हिसाब से रंग लेने के लिए डाइनैमिक चालू करें</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">शीर्षक दिखाएं</string>
+    <string name="settings_show_icon_title">शीर्षक से पहले आइकॉन दिखाएं</string>
+    <string name="settings_rows_spacing">लंबवत दूरी (स्क्रीन की ऊंचाई का %)</string>
+    <string name="settings_fixed_position">फ़ोकस की गई श्रेणी की जगह तय रखें</string>
+    <string name="settings_hide_rows_above">चुनी गई पंक्ति के ऊपर की पंक्तियां छिपाएं</string>
+    <string name="settings_remember_focus">फ़ोकस किए गए कार्ड की जगह याद रखें</string>
+    <string name="settings_unselected_opacity">न चुनी गई पंक्तियों की अपारदर्शिता</string>
+    <string name="settings_top_margin">ऊपरी मार्जिन</string>
+    <string name="settings_start_margin">शुरुआती मार्जिन</string>
+    <string name="settings_end_margin">आखिरी मार्जिन</string>
+    <string name="settings_dock_padding">डॉक पैडिंग</string>
+    <string name="settings_tint_custom_icons">कस्टम आइकॉन पर टिंट लगाएं</string>
+    <string name="settings_tint_custom_icons_desc">बिना बैकग्राउंड वाले कस्टम आइकॉन के लिए</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">गोल कोने</string>
+    <string name="settings_cards_size">कार्ड का साइज़</string>
+    <string name="settings_cards_spacing">कार्ड के बीच की दूरी</string>
+    <string name="settings_loop_limit">ऐनिमेटेड आइकॉन की लूप सीमा</string>
+    <string name="settings_ripple">कार्ड दबाने पर रिपल इफ़ेक्ट</string>
+    <string name="settings_background_color">बैकग्राउंड का रंग</string>
+    <string name="settings_focused_card">फ़ोकस किया गया कार्ड</string>
+    <string name="settings_program_cards">प्रोग्राम कार्ड</string>
+    <string name="settings_tv_ratio">टीवी ऐप कार्ड का आस्पेक्ट रेशियो</string>
+    <string name="settings_mobile_ratio">मोबाइल ऐप कार्ड का आस्पेक्ट रेशियो</string>
+    <string name="settings_icon_pack">आइकॉन पैक</string>
+    <string name="settings_icon_pack_none">कोई आइकॉन पैक इंस्टॉल नहीं है</string>
+    <string name="settings_icon_pack_off">कोई नहीं</string>
+    <string name="settings_more">और…</string>
+    <string name="settings_custom_icon_tint">कस्टम आइकॉन टिंट</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">फ़ोकस किए गए कार्ड का साइज़</string>
+    <string name="settings_focused_effect">फ़ोकस किए गए कार्ड का इफ़ेक्ट</string>
+    <string name="settings_effect_none">कोई नहीं</string>
+    <string name="settings_effect_shadow">परछाई</string>
+    <string name="settings_effect_glow">आभा</string>
+    <string name="settings_glow_animation">आभा का ऐनिमेशन</string>
+    <string name="settings_anim_none">कोई नहीं</string>
+    <string name="settings_anim_pulse">पल्स</string>
+    <string name="settings_anim_breath">सांस</string>
+    <string name="settings_anim_fade">फ़ेड</string>
+    <string name="settings_anim_shine">झिलमिल</string>
+    <string name="settings_glow_size">आभा का साइज़</string>
+    <string name="settings_glow_color">आभा का रंग</string>
+    <string name="settings_glow_color_desc">कार्ड का अपना रंग इस्तेमाल करने के लिए खाली छोड़ें</string>
+    <string name="settings_colors_override">रंग ओवरराइड</string>
+    <string name="settings_override_none">कोई नहीं</string>
+    <string name="settings_override_swap">बैकग्राउंड/टिंट आपस में बदलें</string>
+    <string name="settings_override_custom">कस्टम</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">झलक वाला वीडियो चलाएं</string>
+    <string name="settings_preview_never">कभी नहीं</string>
+    <string name="settings_preview_always">हमेशा</string>
+    <string name="settings_preview_no_media">जब बैकग्राउंड में कोई मीडिया न चल रहा हो</string>
+    <string name="settings_show_progress">प्रोग्रेस बार दिखाएं</string>
+    <string name="settings_show_badge">बैज दिखाएं</string>
+    <string name="settings_zoom_focus">फ़ोकस होने पर ज़ूम इफ़ेक्ट</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">समर्थित फ़ॉर्मैट: स्थिर तस्वीर, ऐनिमेटेड GIF, वीडियो (स्टैटिक या RTSP लाइव स्ट्रीम), Lottie ऐनिमेशन</string>
+    <string name="settings_launcher_wallpaper">लॉन्चर वॉलपेपर</string>
+    <string name="settings_configure">कॉन्फ़िगर करें</string>
+    <string name="settings_show_wallpapers">वॉलपेपर दिखाएं</string>
+    <string name="settings_picture_adjustment">तस्वीर का समायोजन</string>
+    <string name="settings_image_transition">इमेज ट्रांज़िशन</string>
+    <string name="settings_update_frequency">अपडेट की फ़्रीक्वेंसी (मिनट)</string>
+    <string name="settings_video_wallpaper">वीडियो वॉलपेपर</string>
+    <string name="settings_display_mode">डिसप्ले मोड</string>
+    <string name="settings_bad_ratio">खराब अनुपात/क्वालिटी होने पर</string>
+    <string name="settings_min_width">स्वीकार की जाने वाली कम से कम चौड़ाई (px)</string>
+    <string name="settings_src_none">कोई नहीं</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">डाइनैमिक रंग</string>
+    <string name="settings_src_default">डिफ़ॉल्ट वॉलपेपर</string>
+    <string name="settings_src_media">मीडिया फ़ाइल</string>
+    <string name="settings_src_folder">फ़ोल्डर</string>
+    <string name="settings_src_focused_program">फ़ोकस किया गया प्रोग्राम</string>
+    <string name="settings_src_now_playing">अभी चल रहा है</string>
+    <string name="settings_src_random_program">कोई भी प्रोग्राम</string>
+    <string name="settings_src_theme">थीम</string>
+    <string name="settings_tr_none">कोई नहीं</string>
+    <string name="settings_tr_random">कोई भी</string>
+    <string name="settings_tr_fade">फ़ेड</string>
+    <string name="settings_tr_zoom">ज़ूम</string>
+    <string name="settings_tr_hslide">हॉरिज़ॉन्टल स्लाइड</string>
+    <string name="settings_tr_vslide">वर्टिकल स्लाइड</string>
+    <string name="settings_dm_automatic">अपने-आप</string>
+    <string name="settings_dm_skip">छोड़ें</string>
+    <string name="settings_dm_crop">काटें</string>
+    <string name="settings_dm_stretch">खींचें</string>
+    <string name="settings_dm_fit">बीच में फ़िट करें</string>
+    <string name="settings_dm_fit_blur">बीच में फ़िट + धुंधला बैकग्राउंड</string>
+    <string name="settings_dm_blur">धुंधला करें</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">रंगत</string>
+    <string name="settings_saturation">सैचुरेशन</string>
+    <string name="settings_contrast">कंट्रास्ट</string>
+    <string name="settings_brightness">चमक</string>
+    <string name="settings_tint">टिंट</string>
+    <string name="settings_tint_amount">टिंट की मात्रा</string>
+    <string name="settings_blur">धुंधलापन</string>
+    <string name="settings_shadow_h">हॉरिज़ॉन्टल परछाई ओवरले की लंबाई</string>
+    <string name="settings_shadow_v">वर्टिकल परछाई ओवरले की लंबाई</string>
+    <string name="settings_shadow_opacity">परछाई ओवरले की अपारदर्शिता</string>
+    <string name="settings_shadow_tint">परछाई ओवरले का टिंट</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">अपडेट की फ़्रीक्वेंसी को अनदेखा करें</string>
+    <string name="settings_ignore_update_desc">नया वॉलपेपर मांगने से पहले वीडियो खत्म होने का इंतज़ार करें</string>
+    <string name="settings_video_color_freq">डाइनैमिक रंग अपडेट की फ़्रीक्वेंसी</string>
+    <string name="settings_video_color_freq_desc">रंगों के लिए पढ़े जाने वाले वीडियो फ़्रेम के बीच के सेकंड; 0 से यह बंद हो जाता है</string>
+    <string name="settings_volume">आवाज़</string>
+    <string name="settings_tunneling">हार्डवेयर रेंडरिंग (टनलिंग) इस्तेमाल करें</string>
+    <string name="settings_decoder_fallback">डिकोडर फ़ॉलबैक चालू करें</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">सूचना की अनुमति मैनेज करें</string>
+    <string name="settings_granted">दी गई</string>
+    <string name="settings_not_granted">नहीं दी गई</string>
+    <string name="settings_notification_adb">इस डिवाइस पर कोई सेटिंग स्क्रीन नहीं है। यह अनुमति इस कमांड से दें: %1$s</string>
+    <string name="settings_clock">घड़ी</string>
+    <string name="settings_icons">आइकॉन</string>
+    <string name="settings_show_system_bar">सिस्टम स्टेटस बार दिखाएं</string>
+    <string name="settings_autohide_status">स्क्रोल करने पर स्टेटस बार छिपाएं</string>
+    <string name="settings_show_clock">घड़ी दिखाएं</string>
+    <string name="settings_clock_size">घड़ी के फ़ॉन्ट का साइज़</string>
+    <string name="settings_clock_color">घड़ी का रंग</string>
+    <string name="settings_drop_shadow">परछाई</string>
+    <string name="settings_clock_line1">घड़ी का फ़ॉर्मैट (लाइन 1)</string>
+    <string name="settings_clock_line2">घड़ी का फ़ॉर्मैट (लाइन 2)</string>
+    <string name="settings_clock_default_format">सिस्टम फ़ॉर्मैट</string>
+    <string name="settings_empty">खाली</string>
+    <string name="settings_icons_size">आइकॉन का साइज़</string>
+    <string name="settings_icons_color">आइकॉन का रंग</string>
+    <string name="settings_icons_container">आइकॉन कंटेनर का रंग</string>
+    <string name="settings_show_settings">सेटिंग दिखाएं</string>
+    <string name="settings_show_settings_desc">इस बटन क्रम से सेटिंग तक पहुंचा जा सकता है: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">कनेक्टिविटी दिखाएं</string>
+    <string name="settings_show_notifications">सूचनाएं दिखाएं</string>
+    <string name="settings_autohide_notifications">खाली होने पर सूचना आइकॉन छिपाएं</string>
+    <string name="settings_show_battery">बैटरी दिखाएं</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">चालू करें</string>
+    <string name="settings_headers_on_launch">लॉन्च होने पर बाएं हेडर दिखाएं</string>
+    <string name="settings_show_icon">आइकॉन दिखाएं</string>
+    <string name="settings_show_reorder">क्रम बदलने का विकल्प दिखाएं</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">निष्क्रिय होने से पहले का समय (मिनट)</string>
+    <string name="settings_idle_opacity">UI की अपारदर्शिता</string>
+    <string name="settings_keep_clock">घड़ी दिखती रहे</string>
+    <string name="settings_prevent_screensaver">सिस्टम स्क्रीन सेवर रोकें</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher की फ़ॉन्ट सेटिंग बदलें। फ़ॉन्ट फ़ैमिली के नाम Google Fonts पर देखे जा सकते हैं।</string>
+    <string name="settings_font_list">सूची से चुनें</string>
+    <string name="settings_font_google">फ़ॉन्ट (Google Fonts)</string>
+    <string name="settings_font_default">डिफ़ॉल्ट</string>
+    <string name="settings_bold">बोल्ड</string>
+    <string name="settings_italic">इटैलिक</string>
+    <string name="settings_size">साइज़</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">बूट पर अपने-आप शुरू करें</string>
+    <string name="settings_autostart_none">कोई नहीं</string>
+    <string name="settings_autostart_screensaver">[*] स्क्रीन सेवर (अगर समर्थित हो)</string>
+    <string name="settings_autostart_resume">…और स्टैंडबाय से वापस आने पर भी</string>
+    <string name="settings_autostart_delay">अपने-आप शुरू होने में देरी (सेकंड)</string>
+    <string name="settings_simulate_activity">निष्क्रिय होने पर सिस्टम को अपने-आप बंद होने से रोकें</string>
+    <string name="settings_idle_detection">अंदरूनी निष्क्रियता पहचान चालू करें</string>
+    <string name="settings_idle_timeout_power">निष्क्रियता का टाइम आउट (घंटा:मिनट)</string>
+    <string name="settings_idle_action">निष्क्रिय होने पर कार्रवाई</string>
+    <string name="settings_idle_action_shutdown">शटडाउन</string>
+    <string name="settings_idle_action_screen_off">स्क्रीन बंद</string>
+    <string name="settings_idle_action_screensaver">स्क्रीन सेवर (अगर समर्थित हो)</string>
+    <string name="settings_idle_media">मीडिया चलते समय निष्क्रिय मोड को अनदेखा करें</string>
+    <string name="settings_missing_notification_permission">⚠️ सूचना की अनुमति नहीं है</string>
+    <string name="settings_shutdown_action">शटडाउन कार्रवाई</string>
+    <string name="settings_shutdown_dialog">पावर डायलॉग</string>
+    <string name="settings_shutdown_dialog_twice">पावर डायलॉग (दो बार कॉल करें)</string>
+    <string name="settings_shutdown_dialog_ok">पावर डायलॉग + OK</string>
+    <string name="settings_hdmi_exit">HDMI इनपुट सिग्नल रुकने पर अपने-आप शटडाउन करें</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">चुने गए ऐप्स को लॉक करने के लिए एक कोड तय करें (उन्हें चुनने के लिए होम स्क्रीन पर किसी कार्ड को देर तक दबाएं), पूरे दिन के लिए या दिन के कुछ हिस्से के लिए</string>
+    <string name="settings_parental_set_code">नया पैरेंटल कोड सेट करें</string>
+    <string name="settings_parental_code_set">एक कोड सेट है</string>
+    <string name="settings_parental_long">सही कोड डालने के बाद 15 मिनट तक कोड न मांगें</string>
+    <string name="settings_parental_protect">लॉन्चर सेटिंग और UI बदलावों को सुरक्षित रखें</string>
+    <string name="settings_parental_protect_desc">(24/7 लागू)</string>
+    <string name="settings_parental_partial">सुरक्षा सिर्फ़ इस समय के बीच चालू करें</string>
+    <string name="settings_parental_start">शुरू होने का समय (घंटा:मिनट)</string>
+    <string name="settings_parental_end">खत्म होने का समय (घंटा:मिनट)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">“मेन्यू” दो बार दबाने पर जानकारी दिखाएं</string>
+    <string name="settings_back_double">“वापस जाएं” दो बार दबाने पर “ऐंबियंट मोड”</string>
+    <string name="settings_back_double_desc">समर्थित डिवाइस पर स्क्रीन सेवर शुरू करें</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">बूट पर कोई कार्रवाई चलाने, रिमोट बटन अपनी पसंद से सेट करने, माता-पिता के नियंत्रण को मज़बूत करने और पावर कंट्रोल के लिए निष्क्रिय समय का पता लगाने के लिए यह सेवा चालू करें। यह हार्डवेयर बटन दबाए जाने और सामने चल रहे ऐप का नाम देखती है; दोनों सिर्फ़ इस डिवाइस की मेमोरी में रहते हैं और कहीं नहीं भेजे जाते।</string>
+    <string name="settings_a11y_enabled">चालू है</string>
+    <string name="settings_a11y_started">शुरू हो गई</string>
+    <string name="settings_yes">हां</string>
+    <string name="settings_no">नहीं</string>
+    <string name="settings_a11y_open">सुलभता सेटिंग दिखाएं</string>
+    <string name="settings_a11y_consent_title">सुलभता सेवा</string>
+    <string name="settings_a11y_consent">इससे QLauncher हार्डवेयर बटन दबाए जाने और सामने चल रहे ऐप का नाम देख सकता है। दोनों सिर्फ़ इस डिवाइस की मेमोरी में रखे जाते हैं और कहीं नहीं भेजे जाते। क्या आप सहमत हैं?</string>
+    <string name="settings_a11y_alternate">वैकल्पिक कॉन्फ़िगरेशन इस्तेमाल करें</string>
+    <string name="settings_a11y_alternate_desc">कुछ डिवाइस पर समस्याएं ठीक करता है</string>
+    <string name="settings_a11y_volume_fix">आवाज़ बटन सुधार</string>
+    <string name="settings_a11y_volume_fix_desc">आवाज़ बटन दबाने पर कुछ देर के लिए रीमैपिंग रोकें, ताकि देर तक दबाना काम करता रहे</string>
+    <string name="settings_a11y_remap">बटन रीमैपिंग चालू करें</string>
+    <string name="settings_a11y_remap_desc">यह सेवा बटन दबाने को बीच में पकड़ती है। इसे बंद करने से आवाज़ बटन देर तक दबाने की समस्याएं और सिस्टम का सेवा को रोक देना टल जाता है, लेकिन लॉन्चर ओवरराइड, माता-पिता का नियंत्रण और निष्क्रियता पहचान कम असरदार हो सकते हैं।</string>
+    <string name="settings_a11y_reminder">रिमाइंडर दिखाएं</string>
+    <string name="settings_a11y_reminder_desc">अगर सुलभता सेवा बंद हो</string>
+    <string name="settings_a11y_unbound_toast">QLauncher की सुलभता सेवा नहीं चल रही है</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">सेटिंग को डिवाइस पर ही, या LocalSend या फ़ाइल मैनेजर जैसे किसी दूसरे ऐप के साथ इंपोर्ट या एक्सपोर्ट करें।</string>
+    <string name="settings_import">इंपोर्ट करें</string>
+    <string name="settings_import_file">किसी फ़ाइल से</string>
+    <string name="settings_import_auto">स्वचालित बैकअप से</string>
+    <string name="settings_export">एक्सपोर्ट करें</string>
+    <string name="settings_export_local">डिवाइस पर सेव करें</string>
+    <string name="settings_export_share">किसी दूसरे ऐप से शेयर करें</string>
+    <string name="settings_reset">डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="settings_cancel">रद्द करें</string>
+    <string name="settings_ok">ठीक है</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">श्रेणी</string>
+    <string name="wp_custom_search">कस्टम खोज</string>
+    <string name="wp_reddit_login">लॉग इन करें</string>
+    <string name="wp_reddit_logout">लॉग आउट करें: %1$s</string>
+    <string name="wp_reddit_logout_unknown">लॉग आउट करें</string>
+    <string name="wp_subreddit">सबरेडिट</string>
+    <string name="wp_custom_subreddit">कस्टम सबरेडिट</string>
+    <string name="wp_custom_subreddit_hint">कई नाम, + से अलग किए हुए</string>
+    <string name="wp_folder">फ़ोल्डर</string>
+    <string name="wp_folder_choose">कोई फ़ोल्डर चुनें</string>
+    <string name="wp_media">मीडिया फ़ाइल</string>
+    <string name="wp_media_choose">कोई फ़ाइल चुनें</string>
+    <string name="wp_choose_other">दूसरी जगह…</string>
+    <string name="wp_choose_other_desc">सिस्टम के फ़ाइल पिकर से चुनें</string>
+    <string name="wp_media_searching">तस्वीरें और वीडियो खोजे जा रहे हैं…</string>
+    <string name="wp_media_none">कोई तस्वीर या वीडियो नहीं मिला। कुछ फ़ाइलें Pictures, Movies या Download में कॉपी करें, या USB ड्राइव लगाएं।</string>
+    <string name="wp_folders_description">इस डिवाइस और USB ड्राइव पर मौजूद, तस्वीरों या वीडियो वाले फ़ोल्डर।</string>
+    <string name="wp_folders_none">तस्वीरों या वीडियो वाला कोई फ़ोल्डर नहीं मिला</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d फ़ाइल</item>
+        <item quantity="other">%d फ़ाइलें</item>
+    </plurals>
+    <string name="wp_media_color">सादा रंग</string>
+    <string name="wp_theme_desc">इंपोर्ट की गई थीम के साथ आए वॉलपेपर</string>
+    <string name="wp_plugin_settings">प्लग इन की सेटिंग</string>
+    <string name="wp_not_set">सेट नहीं है</string>
+    <string name="wp_status">स्थिति</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">यह वॉलपेपर</string>
+    <string name="wp_next">अगला</string>
+    <string name="wp_source">स्रोत</string>
+    <string name="wp_title">शीर्षक</string>
+    <string name="wp_author">रचनाकार</string>
+    <string name="wp_set_user">उपयोगकर्ता वॉलपेपर के रूप में सेट करें</string>
+    <string name="wp_view">देखें</string>
+    <string name="wp_unknown">अज्ञात</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">वीडियो डिसप्ले प्रोफ़ाइल यहां बनाएं और मैनेज करें। अपने-आप बदलने के लिए उन्हें इनपुट सोर्स से जोड़ें, या मेन्यू दो बार दबाकर और फिर ऊपर या नीचे दबाकर उन्हें लागू करें।</string>
+    <string name="dp_list">डिसप्ले प्रोफ़ाइल की सूची</string>
+    <string name="dp_list_desc">वीडियो डिसप्ले प्रोफ़ाइल यहां बनाएं या उनमें बदलाव करें। डिवाइस के हिसाब से, कुछ कंट्रोल के लिए रूट ज़रूरी है या वे बिल्कुल काम नहीं करते; ये AmLogic डिवाइस के लिए बनाए गए हैं।</string>
+    <string name="dp_add">नया जोड़ें…</string>
+    <string name="dp_name">प्रोफ़ाइल का नाम</string>
+    <string name="dp_preview">झलक</string>
+    <string name="dp_fullscreen">फ़ुल स्क्रीन झलक</string>
+    <string name="dp_fullscreen_desc">या मेन्यू बटन से टॉगल करें</string>
+    <string name="dp_delete">प्रोफ़ाइल मिटाएं</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">तीसरे पक्ष के ऐप्स इंस्टॉल करें</string>
+    <string name="install_desc">इंस्टॉल करने के लिए कोई ऐप चुनें। हो सकता है कि आपको पहले अज्ञात स्रोतों से इंस्टॉल करने की अनुमति देनी पड़े।</string>
+    <string name="install_custom">कस्टम URL / Downloader कोड</string>
+    <string name="install_custom_desc">सिर्फ़ भरोसेमंद स्रोत का इस्तेमाल करें</string>
+    <string name="install_status">स्थिति</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">यह डिवाइस</string>
+
+    <string name="gallery_filter">फ़िल्टर करें…</string>
+    <string name="settings_no_file_picker">इस डिवाइस पर कोई फ़ाइल पिकर नहीं है</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">दीप्ति</string>
+    <string name="color_opacity">अपारदर्शिता</string>
+    <string name="color_prefer_dynamic">डाइनैमिक रंग को प्राथमिकता दें</string>
+    <string name="color_prefer_dynamic_desc">उपलब्ध होने पर, यह दीप्ति/अपारदर्शिता बनी रहेगी</string>
+    <string name="color_clear">साफ़ करें</string>
+    <string name="color_reset">डिफ़ॉल्ट पर रीसेट करें</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Tühista</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Kõik rakendused</string>
+    <string name="apps_action_edit_categories">Muuda kategooriaid</string>
+    <string name="apps_action_edit_channels">Muuda kanaleid</string>
+    <string name="apps_action_launcher_settings">QLauncheri seaded</string>
+    <string name="apps_action_android_settings">Androidi seaded</string>
+    <string name="apps_action_amlogic_settings">AmLogicu lisaseaded</string>
+    <string name="apps_action_display_profiles">Kuvaprofiilid</string>
+    <string name="apps_action_install_apps">Installi kolmanda osapoole rakendusi</string>
+    <string name="apps_action_accessibility_service">Juurdepääsetavusteenus</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Vaheta profiili</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">See seade</string>
+    <string name="apps_action_about_wallpaper">See taustapilt</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Puudub</string>
+    <string name="apps_autostart_screensaver">Ekraanisäästja</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanalid</string>
+    <string name="apps_channels_watch_next">Vaata järgmisena</string>
+    <string name="apps_channels_unreadable">Seda kanalit ei saa enam lugeda</string>
+    <string name="apps_channels_hidden">Süsteemi peidetud</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="other">%d kanalit</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Rakenda ikoonipakett</string>
+    <string name="apps_iconpack_apply_message">Kas kasutada rakenduste ikoonideks paketti %1$s?</string>
+    <string name="apps_iconpack_apply_confirm">Rakenda</string>
+    <string name="apps_iconpack_applied">Ikoonipakett rakendatud</string>
+    <string name="apps_iconpack_apply_missing">Ikoonipaketti ei nimetatud</string>
+    <string name="apps_iconpack_apply_not_a_pack">See rakendus pole ikoonipakett</string>
+    <string name="apps_iconpack_none">Puudub</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Lisa otsetee</string>
+    <string name="apps_pin_shortcut_message">Kas lisada „%1$s“ rakendusest %2$s kategooriasse Otseteed?</string>
+    <string name="apps_pin_shortcut_confirm">Lisa</string>
+    <string name="apps_pin_shortcut_added">Otsetee lisatud</string>
+    <string name="apps_pin_shortcut_failed">Otseteed ei saanud lisada</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Installi kolmanda osapoole rakendusi</string>
+    <string name="apps_install_description">Vali installitav rakendus. Enne installimist võib olla vaja lubada installimine tundmatutest allikatest.</string>
+    <string name="apps_install_custom_url">Kohandatud URL / Downloaderi kood</string>
+    <string name="apps_install_custom_url_desc">Kasuta kindlasti usaldusväärset allikat</string>
+    <string name="apps_install_choose_method">Vali installimisviis</string>
+    <string name="apps_install_installed">Installitud</string>
+    <string name="apps_install_category_wallpaper_plugin">Taustapildi pistikprogramm</string>
+    <string name="apps_install_category_icon_pack">Ikoonipakett</string>
+    <string name="apps_install_category_file_manager">Failihaldur</string>
+    <string name="apps_install_category_tool">Tööriist</string>
+    <string name="apps_install_method_store">Pood</string>
+    <string name="apps_install_method_direct">Otsene allalaadimine</string>
+    <string name="apps_install_method_downloader">Rakendus Downloader</string>
+    <string name="apps_install_state_downloading">%1$s allalaadimine… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s allalaadimine…</string>
+    <string name="apps_install_state_installing">%1$s installimine…</string>
+    <string name="apps_install_state_confirm">Kinnita %1$s installimine</string>
+    <string name="apps_install_state_success">%1$s on installitud</string>
+    <string name="apps_install_state_unknown_sources">Luba QLauncheril rakendusi installida ja tule siis jätkamiseks tagasi</string>
+    <string name="apps_install_state_downloader_sent">Kood %1$s saadeti Downloaderisse</string>
+    <string name="apps_install_state_downloader_type">Sisesta Downloaderis kood %1$s</string>
+    <string name="apps_install_state_store">Avati poes</string>
+    <string name="apps_install_state_browser">See link on veebileht; see avati brauseris</string>
+    <string name="apps_install_fail_invalid">See pole URL ega Downloaderi kood</string>
+    <string name="apps_install_fail_no_usb">USB-mäluseadet ei leitud</string>
+    <string name="apps_install_fail_archive">Arhiive ei saa installida</string>
+    <string name="apps_install_fail_network">Allalaadimine ebaõnnestus</string>
+    <string name="apps_install_fail_http">Server vastas veaga (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Fail pole rakendus (APK)</string>
+    <string name="apps_install_fail_unreadable">Faili ei saa lugeda</string>
+    <string name="apps_install_fail_install">Installimine ebaõnnestus</string>
+    <string name="apps_install_fail_cancelled">Installimine tühistati</string>
+    <string name="apps_install_fail_unknown_sources">QLauncheril pole lubatud rakendusi installida</string>
+    <string name="apps_install_fail_downloader">Rakendus Downloader pole installitud</string>
+    <string name="apps_install_fail_store">Ükski rakenduste pood pole saadaval</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">See seade</string>
+    <string name="apps_device_brand_manufacturer">Bränd / tootja</string>
+    <string name="apps_device_device_product">Seade / toode</string>
+    <string name="apps_device_model">Mudel</string>
+    <string name="apps_device_hardware">Riistvara</string>
+    <string name="apps_device_fingerprint">Sõrmejälg</string>
+    <string name="apps_device_build">Järk</string>
+    <string name="apps_device_build_desc">Järgu kirj.</string>
+    <string name="apps_device_device_type">Seadme tüüp</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-aadress</string>
+    <string name="apps_device_root_access">Juurkasutaja õigused</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Pildihaldur puudub</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Jah</string>
+    <string name="apps_device_no">Ei</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Cancelar</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Todas as aplicacións</string>
+    <string name="apps_action_edit_categories">Editar categorías</string>
+    <string name="apps_action_edit_channels">Editar canles</string>
+    <string name="apps_action_launcher_settings">Axustes de QLauncher</string>
+    <string name="apps_action_android_settings">Axustes de Android</string>
+    <string name="apps_action_amlogic_settings">Axustes adicionais de AmLogic</string>
+    <string name="apps_action_display_profiles">Perfís de pantalla</string>
+    <string name="apps_action_install_apps">Instalar aplicacións de terceiros</string>
+    <string name="apps_action_accessibility_service">Servizo de accesibilidade</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Cambiar de perfil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Este dispositivo</string>
+    <string name="apps_action_about_wallpaper">Este fondo de pantalla</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Ningunha</string>
+    <string name="apps_autostart_screensaver">Protector de pantalla</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Canles</string>
+    <string name="apps_channels_watch_next">Ver a continuación</string>
+    <string name="apps_channels_unreadable">Esta canle xa non se pode ler</string>
+    <string name="apps_channels_hidden">Oculta polo sistema</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d canle</item>
+        <item quantity="other">%d canles</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Aplicar paquete de iconas</string>
+    <string name="apps_iconpack_apply_message">Queres usar %1$s para as iconas das túas aplicacións?</string>
+    <string name="apps_iconpack_apply_confirm">Aplicar</string>
+    <string name="apps_iconpack_applied">Aplicouse o paquete de iconas</string>
+    <string name="apps_iconpack_apply_missing">Non se indicou ningún paquete de iconas</string>
+    <string name="apps_iconpack_apply_not_a_pack">Esta aplicación non é un paquete de iconas</string>
+    <string name="apps_iconpack_none">Ningún</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Engadir atallo</string>
+    <string name="apps_pin_shortcut_message">Queres engadir «%1$s» de %2$s á categoría Atallos?</string>
+    <string name="apps_pin_shortcut_confirm">Engadir</string>
+    <string name="apps_pin_shortcut_added">Engadiuse o atallo</string>
+    <string name="apps_pin_shortcut_failed">Non se puido engadir o atallo</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Instalar aplicacións de terceiros</string>
+    <string name="apps_install_description">Escolle unha aplicación para instalar. Quizais teñas que permitir a instalación desde orixes descoñecidas antes de instalala.</string>
+    <string name="apps_install_custom_url">URL personalizado / código de Downloader</string>
+    <string name="apps_install_custom_url_desc">Asegúrate de usar unha fonte de confianza</string>
+    <string name="apps_install_choose_method">Escolle un método de instalación</string>
+    <string name="apps_install_installed">Instalada</string>
+    <string name="apps_install_category_wallpaper_plugin">Complemento de fondos de pantalla</string>
+    <string name="apps_install_category_icon_pack">Paquete de iconas</string>
+    <string name="apps_install_category_file_manager">Xestor de ficheiros</string>
+    <string name="apps_install_category_tool">Ferramenta</string>
+    <string name="apps_install_method_store">Tenda</string>
+    <string name="apps_install_method_direct">Descarga directa</string>
+    <string name="apps_install_method_downloader">Aplicación Downloader</string>
+    <string name="apps_install_state_downloading">Descargando %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Descargando %1$s…</string>
+    <string name="apps_install_state_installing">Instalando %1$s…</string>
+    <string name="apps_install_state_confirm">Confirma a instalación de %1$s</string>
+    <string name="apps_install_state_success">Instalouse %1$s</string>
+    <string name="apps_install_state_unknown_sources">Permite que QLauncher instale aplicacións e volve para continuar</string>
+    <string name="apps_install_state_downloader_sent">Código %1$s enviado a Downloader</string>
+    <string name="apps_install_state_downloader_type">Introduce o código %1$s en Downloader</string>
+    <string name="apps_install_state_store">Abriuse na tenda</string>
+    <string name="apps_install_state_browser">Esta ligazón é unha páxina web; abriuse no navegador</string>
+    <string name="apps_install_fail_invalid">Isto non é un URL nin un código de Downloader</string>
+    <string name="apps_install_fail_no_usb">Non se atopou ningunha unidade USB</string>
+    <string name="apps_install_fail_archive">Os ficheiros comprimidos non se poden instalar</string>
+    <string name="apps_install_fail_network">A descarga fallou</string>
+    <string name="apps_install_fail_http">O servidor respondeu cun erro (%1$s)</string>
+    <string name="apps_install_fail_not_apk">O ficheiro non é unha aplicación (APK)</string>
+    <string name="apps_install_fail_unreadable">Non se pode ler o ficheiro</string>
+    <string name="apps_install_fail_install">A instalación fallou</string>
+    <string name="apps_install_fail_cancelled">Cancelouse a instalación</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher non ten permiso para instalar aplicacións</string>
+    <string name="apps_install_fail_downloader">A aplicación Downloader non está instalada</string>
+    <string name="apps_install_fail_store">Non hai ningunha tenda de aplicacións dispoñible</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Este dispositivo</string>
+    <string name="apps_device_brand_manufacturer">Marca / Fabricante</string>
+    <string name="apps_device_device_product">Dispositivo / Produto</string>
+    <string name="apps_device_model">Modelo</string>
+    <string name="apps_device_hardware">Hardware</string>
+    <string name="apps_device_fingerprint">Pegada dixital</string>
+    <string name="apps_device_build">Compilación</string>
+    <string name="apps_device_build_desc">Desc. da compilación</string>
+    <string name="apps_device_device_type">Tipo de dispositivo</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Enderezo IP</string>
+    <string name="apps_device_root_access">Acceso root</string>
+    <string name="apps_device_pm_info">Info. PM</string>
+    <string name="apps_device_pm_none">Sen xestor de imaxe</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Si</string>
+    <string name="apps_device_no">Non</string>
+</resources>

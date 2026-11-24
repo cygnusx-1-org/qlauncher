@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">ยกเลิก</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">แอปทั้งหมด</string>
+    <string name="apps_action_edit_categories">แก้ไขหมวดหมู่</string>
+    <string name="apps_action_edit_channels">แก้ไขช่อง</string>
+    <string name="apps_action_launcher_settings">การตั้งค่า QLauncher</string>
+    <string name="apps_action_android_settings">การตั้งค่า Android</string>
+    <string name="apps_action_amlogic_settings">การตั้งค่าเพิ่มเติมของ AmLogic</string>
+    <string name="apps_action_display_profiles">โปรไฟล์การแสดงผล</string>
+    <string name="apps_action_install_apps">ติดตั้งแอปของบุคคลที่สาม</string>
+    <string name="apps_action_accessibility_service">บริการการช่วยเหลือพิเศษ</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">สลับโปรไฟล์</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">อุปกรณ์นี้</string>
+    <string name="apps_action_about_wallpaper">วอลเปเปอร์นี้</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">ไม่มี</string>
+    <string name="apps_autostart_screensaver">โปรแกรมรักษาหน้าจอ</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">ช่อง</string>
+    <string name="apps_channels_watch_next">ดูต่อ</string>
+    <string name="apps_channels_unreadable">ไม่สามารถอ่านช่องนี้ได้อีกต่อไป</string>
+    <string name="apps_channels_hidden">ถูกซ่อนโดยระบบ</string>
+    <plurals name="apps_channel_count">
+        <item quantity="other">%d ช่อง</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">ใช้แพ็กไอคอน</string>
+    <string name="apps_iconpack_apply_message">ใช้ %1$s กับไอคอนแอปของคุณหรือไม่?</string>
+    <string name="apps_iconpack_apply_confirm">ใช้</string>
+    <string name="apps_iconpack_applied">ใช้แพ็กไอคอนแล้ว</string>
+    <string name="apps_iconpack_apply_missing">ไม่ได้ระบุชื่อแพ็กไอคอน</string>
+    <string name="apps_iconpack_apply_not_a_pack">แอปนี้ไม่ใช่แพ็กไอคอน</string>
+    <string name="apps_iconpack_none">ไม่มี</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">เพิ่มทางลัด</string>
+    <string name="apps_pin_shortcut_message">เพิ่ม “%1$s” จาก %2$s ลงในหมวดหมู่ทางลัดหรือไม่?</string>
+    <string name="apps_pin_shortcut_confirm">เพิ่ม</string>
+    <string name="apps_pin_shortcut_added">เพิ่มทางลัดแล้ว</string>
+    <string name="apps_pin_shortcut_failed">ไม่สามารถเพิ่มทางลัดได้</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">ติดตั้งแอปของบุคคลที่สาม</string>
+    <string name="apps_install_description">โปรดเลือกแอปที่จะติดตั้ง คุณอาจต้องอนุญาตการติดตั้งจากแหล่งที่ไม่รู้จักก่อนติดตั้ง</string>
+    <string name="apps_install_custom_url">URL ที่กำหนดเอง / รหัส Downloader</string>
+    <string name="apps_install_custom_url_desc">ตรวจสอบให้แน่ใจว่าใช้แหล่งที่เชื่อถือได้</string>
+    <string name="apps_install_choose_method">เลือกวิธีการติดตั้ง</string>
+    <string name="apps_install_installed">ติดตั้งแล้ว</string>
+    <string name="apps_install_category_wallpaper_plugin">ปลั๊กอินวอลเปเปอร์</string>
+    <string name="apps_install_category_icon_pack">แพ็กไอคอน</string>
+    <string name="apps_install_category_file_manager">ตัวจัดการไฟล์</string>
+    <string name="apps_install_category_tool">เครื่องมือ</string>
+    <string name="apps_install_method_store">สโตร์</string>
+    <string name="apps_install_method_direct">ดาวน์โหลดโดยตรง</string>
+    <string name="apps_install_method_downloader">แอป Downloader</string>
+    <string name="apps_install_state_downloading">กำลังดาวน์โหลด %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">กำลังดาวน์โหลด %1$s…</string>
+    <string name="apps_install_state_installing">กำลังติดตั้ง %1$s…</string>
+    <string name="apps_install_state_confirm">ยืนยันการติดตั้ง %1$s</string>
+    <string name="apps_install_state_success">ติดตั้ง %1$s แล้ว</string>
+    <string name="apps_install_state_unknown_sources">อนุญาตให้ QLauncher ติดตั้งแอป แล้วกลับมาเพื่อดำเนินการต่อ</string>
+    <string name="apps_install_state_downloader_sent">ส่งรหัส %1$s ไปยัง Downloader แล้ว</string>
+    <string name="apps_install_state_downloader_type">ป้อนรหัส %1$s ใน Downloader</string>
+    <string name="apps_install_state_store">เปิดในสโตร์แล้ว</string>
+    <string name="apps_install_state_browser">ลิงก์นี้เป็นหน้าเว็บ จึงเปิดในเบราว์เซอร์แล้ว</string>
+    <string name="apps_install_fail_invalid">นี่ไม่ใช่ URL หรือรหัส Downloader</string>
+    <string name="apps_install_fail_no_usb">ไม่พบไดรฟ์ USB</string>
+    <string name="apps_install_fail_archive">ไม่สามารถติดตั้งไฟล์บีบอัดได้</string>
+    <string name="apps_install_fail_network">ดาวน์โหลดไม่สำเร็จ</string>
+    <string name="apps_install_fail_http">เซิร์ฟเวอร์ตอบกลับด้วยข้อผิดพลาด (%1$s)</string>
+    <string name="apps_install_fail_not_apk">ไฟล์นี้ไม่ใช่แอป (APK)</string>
+    <string name="apps_install_fail_unreadable">ไม่สามารถอ่านไฟล์ได้</string>
+    <string name="apps_install_fail_install">ติดตั้งไม่สำเร็จ</string>
+    <string name="apps_install_fail_cancelled">ยกเลิกการติดตั้งแล้ว</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher ไม่ได้รับอนุญาตให้ติดตั้งแอป</string>
+    <string name="apps_install_fail_downloader">ไม่ได้ติดตั้งแอป Downloader</string>
+    <string name="apps_install_fail_store">ไม่มีแอปสโตร์ที่ใช้งานได้</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">อุปกรณ์นี้</string>
+    <string name="apps_device_brand_manufacturer">แบรนด์ / ผู้ผลิต</string>
+    <string name="apps_device_device_product">อุปกรณ์ / ผลิตภัณฑ์</string>
+    <string name="apps_device_model">รุ่น</string>
+    <string name="apps_device_hardware">ฮาร์ดแวร์</string>
+    <string name="apps_device_fingerprint">ลายนิ้วมือบิลด์</string>
+    <string name="apps_device_build">บิลด์</string>
+    <string name="apps_device_build_desc">คำอธิบายบิลด์</string>
+    <string name="apps_device_device_type">ประเภทอุปกรณ์</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">ที่อยู่ IP</string>
+    <string name="apps_device_root_access">สิทธิ์ root</string>
+    <string name="apps_device_pm_info">ข้อมูลตัวจัดการภาพ</string>
+    <string name="apps_device_pm_none">ไม่มีตัวจัดการภาพ</string>
+    <string name="apps_device_id">รหัส</string>
+    <string name="apps_device_yes">ใช่</string>
+    <string name="apps_device_no">ไม่</string>
+</resources>

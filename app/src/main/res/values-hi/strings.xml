@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">QLauncher वॉलपेपर के रूप में सेट करें</string>
+    <string name="import_settings">QLauncher में इंपोर्ट करें</string>
+    <string name="accessibility_service_description">QLauncher हार्डवेयर बटन दबाए जाने और सामने चल रहे ऐप का नाम देखता है, ताकि वह डिवाइस के अपने लॉन्चर को ओवरराइड कर सके, बूट पर कार्रवाइयां चला सके, रिमोट बटन रीमैप कर सके, निष्क्रिय समय का पता लगा सके और माता-पिता का नियंत्रण लागू कर सके। दोनों जानकारियां सिर्फ़ इस डिवाइस की मेमोरी में रहती हैं और कहीं नहीं भेजी जातीं।</string>
+</resources>

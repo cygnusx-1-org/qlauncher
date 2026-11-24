@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">لغو</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">همه برنامه‌ها</string>
+    <string name="apps_action_edit_categories">ویرایش دسته‌ها</string>
+    <string name="apps_action_edit_channels">ویرایش کانال‌ها</string>
+    <string name="apps_action_launcher_settings">تنظیمات QLauncher</string>
+    <string name="apps_action_android_settings">تنظیمات Android</string>
+    <string name="apps_action_amlogic_settings">تنظیمات اضافی AmLogic</string>
+    <string name="apps_action_display_profiles">نمایه‌های نمایشگر</string>
+    <string name="apps_action_install_apps">نصب برنامه‌های شخص ثالث</string>
+    <string name="apps_action_accessibility_service">سرویس دسترس‌پذیری</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">تغییر نمایه</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">این دستگاه</string>
+    <string name="apps_action_about_wallpaper">این کاغذدیواری</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">هیچ‌کدام</string>
+    <string name="apps_autostart_screensaver">محافظ صفحه</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">کانال‌ها</string>
+    <string name="apps_channels_watch_next">تماشای بعدی</string>
+    <string name="apps_channels_unreadable">این کانال دیگر قابل خواندن نیست</string>
+    <string name="apps_channels_hidden">پنهان‌شده توسط سیستم</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d کانال</item>
+        <item quantity="other">%d کانال</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">اعمال بسته نماد</string>
+    <string name="apps_iconpack_apply_message">از %1$s برای نماد برنامه‌هایتان استفاده شود؟</string>
+    <string name="apps_iconpack_apply_confirm">اعمال</string>
+    <string name="apps_iconpack_applied">بسته نماد اعمال شد</string>
+    <string name="apps_iconpack_apply_missing">هیچ بسته نمادی مشخص نشده بود</string>
+    <string name="apps_iconpack_apply_not_a_pack">این برنامه بسته نماد نیست</string>
+    <string name="apps_iconpack_none">هیچ‌کدام</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">افزودن میان‌بر</string>
+    <string name="apps_pin_shortcut_message">میان‌بر «%1$s» از %2$s به دسته «میان‌برها» افزوده شود؟</string>
+    <string name="apps_pin_shortcut_confirm">افزودن</string>
+    <string name="apps_pin_shortcut_added">میان‌بر افزوده شد</string>
+    <string name="apps_pin_shortcut_failed">افزودن میان‌بر ممکن نشد</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">نصب برنامه‌های شخص ثالث</string>
+    <string name="apps_install_description">لطفاً برنامه‌ای را برای نصب انتخاب کنید. ممکن است لازم باشد پیش از نصب، نصب از منابع ناشناس را مجاز کنید.</string>
+    <string name="apps_install_custom_url">نشانی URL دلخواه / کد Downloader</string>
+    <string name="apps_install_custom_url_desc">حتماً از منبعی مطمئن استفاده کنید</string>
+    <string name="apps_install_choose_method">روش نصب را انتخاب کنید</string>
+    <string name="apps_install_installed">نصب‌شده</string>
+    <string name="apps_install_category_wallpaper_plugin">افزونه کاغذدیواری</string>
+    <string name="apps_install_category_icon_pack">بسته نماد</string>
+    <string name="apps_install_category_file_manager">مدیر فایل</string>
+    <string name="apps_install_category_tool">ابزار</string>
+    <string name="apps_install_method_store">فروشگاه</string>
+    <string name="apps_install_method_direct">بارگیری مستقیم</string>
+    <string name="apps_install_method_downloader">برنامه Downloader</string>
+    <string name="apps_install_state_downloading">در حال بارگیری %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">در حال بارگیری %1$s…</string>
+    <string name="apps_install_state_installing">در حال نصب %1$s…</string>
+    <string name="apps_install_state_confirm">نصب %1$s را تأیید کنید</string>
+    <string name="apps_install_state_success">برنامه %1$s نصب شد</string>
+    <string name="apps_install_state_unknown_sources">به QLauncher اجازه نصب برنامه بدهید، سپس برای ادامه برگردید</string>
+    <string name="apps_install_state_downloader_sent">کد %1$s به Downloader فرستاده شد</string>
+    <string name="apps_install_state_downloader_type">کد %1$s را در Downloader وارد کنید</string>
+    <string name="apps_install_state_store">در فروشگاه باز شد</string>
+    <string name="apps_install_state_browser">این پیوند یک صفحه وب است؛ در مرورگر باز شد</string>
+    <string name="apps_install_fail_invalid">این نه URL است و نه کد Downloader</string>
+    <string name="apps_install_fail_no_usb">هیچ درایو USB پیدا نشد</string>
+    <string name="apps_install_fail_archive">فایل‌های فشرده را نمی‌توان نصب کرد</string>
+    <string name="apps_install_fail_network">بارگیری ناموفق بود</string>
+    <string name="apps_install_fail_http">سرور با خطا پاسخ داد (%1$s)</string>
+    <string name="apps_install_fail_not_apk">این فایل برنامه (APK) نیست</string>
+    <string name="apps_install_fail_unreadable">فایل قابل خواندن نیست</string>
+    <string name="apps_install_fail_install">نصب ناموفق بود</string>
+    <string name="apps_install_fail_cancelled">نصب لغو شد</string>
+    <string name="apps_install_fail_unknown_sources">اجازه نصب برنامه به QLauncher داده نشده است</string>
+    <string name="apps_install_fail_downloader">برنامه Downloader نصب نیست</string>
+    <string name="apps_install_fail_store">هیچ فروشگاه برنامه‌ای در دسترس نیست</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">این دستگاه</string>
+    <string name="apps_device_brand_manufacturer">نشان تجاری / سازنده</string>
+    <string name="apps_device_device_product">دستگاه / محصول</string>
+    <string name="apps_device_model">مدل</string>
+    <string name="apps_device_hardware">سخت‌افزار</string>
+    <string name="apps_device_fingerprint">اثرانگشت</string>
+    <string name="apps_device_build">ساخت</string>
+    <string name="apps_device_build_desc">شرح ساخت</string>
+    <string name="apps_device_device_type">نوع دستگاه</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">نشانی IP</string>
+    <string name="apps_device_root_access">دسترسی Root</string>
+    <string name="apps_device_pm_info">مدیر تصویر</string>
+    <string name="apps_device_pm_none">مدیر تصویر وجود ندارد</string>
+    <string name="apps_device_id">شناسه</string>
+    <string name="apps_device_yes">بله</string>
+    <string name="apps_device_no">خیر</string>
+</resources>

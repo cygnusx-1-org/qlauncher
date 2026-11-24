@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Προεπιλογή</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">έντονα</string>
+    <string name="backup_clock_markup_italic">πλάγια</string>
+    <string name="backup_clock_markup_underline">υπογράμμιση</string>
+    <string name="backup_clock_markup_strikethrough">διακριτή διαγραφή</string>
+    <string name="backup_clock_markup_subscript">δείκτης</string>
+    <string name="backup_clock_markup_superscript">εκθέτης</string>
+    <string name="backup_clock_markup_half_size">μισό μέγεθος</string>
+    <string name="backup_clock_markup_one_and_a_half_size">μιάμιση φορά</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Αποκοπή μαύρου</string>
+    <string name="backup_pattern_apl_clipping">Αποκοπή APL</string>
+    <string name="backup_pattern_white_clipping">Αποκοπή λευκού</string>
+    <string name="backup_pattern_grayscale_ramp">Διαβάθμιση γκρι</string>
+    <string name="backup_pattern_grayscale_steps">Βαθμίδες γκρι</string>
+    <string name="backup_pattern_dynamic_brightness">Δυναμική φωτεινότητα</string>
+    <string name="backup_pattern_color_steps">Βαθμίδες χρώματος</string>
+    <string name="backup_pattern_color_clipping">Αποκοπή χρώματος</string>
+    <string name="backup_pattern_flashing_color_bars">Αναβοσβήνουσες χρωματικές μπάρες</string>
+    <string name="backup_pattern_sharpness_overscan">Ευκρίνεια &amp; υπερσάρωση</string>
+    <string name="backup_pattern_uhd">Μοτίβο UHD</string>
+    <string name="backup_pattern_judder">Δοκιμή ομαλότητας κίνησης</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Ευκρίνεια αναλογίας διαστάσεων</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Επίπεδο μαύρου</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Αποκοπή χρώματος 240–1000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Αποκοπή χρώματος 3600–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Αποκοπή χρώματος 700–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Αποκοπή χρώματος 900–4000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Διαβάθμιση γκρι 10000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Διαβάθμιση γκρι 1000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Διαβάθμιση γκρι 4000 nits</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE μαύρου</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Χρωματικές διαβαθμίσεις</string>
+    <string name="backup_pattern_unavailable">Το %1$s χρειάζεται διαδρομή βίντεο HDR και δεν είναι ακόμη διαθέσιμο</string>
+    <!-- Pages -->
+    <string name="backup_settings">Ρυθμίσεις</string>
+    <string name="backup_manage_settings">Διαχείριση ρυθμίσεων</string>
+    <string name="backup_themes">Θέματα</string>
+    <string name="backup_import">Εισαγωγή</string>
+    <string name="backup_export">Εξαγωγή</string>
+    <string name="backup_import_from_file">Από τη διαχείριση αρχείων</string>
+    <string name="backup_import_from_auto">Από αυτόματο αντίγραφο ασφαλείας</string>
+    <string name="backup_export_save">Τοπική αποθήκευση</string>
+    <string name="backup_export_share">Κοινή χρήση με άλλη εφαρμογή</string>
+    <string name="backup_reset">Επαναφορά προεπιλογών</string>
+    <string name="backup_cancel">Ακύρωση</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Τέλος</string>
+    <string name="backup_close">Κλείσιμο</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Εξαγωγή ρυθμίσεων</string>
+    <string name="backup_export_theme_title">Εξαγωγή θέματος</string>
+    <string name="backup_export_description">Όλα αποθηκεύονται σε ένα αρχείο, κρυπτογραφημένο με κωδικό πρόσβασης της επιλογής σας (τουλάχιστον %1$d χαρακτήρες). Χρειάζεστε τον κωδικό για να εισαγάγετε το αρχείο και δεν μπορεί να ανακτηθεί.</string>
+    <string name="backup_export_theme_description">Οι ρυθμίσεις εμφάνισης και η τρέχουσα ταπετσαρία αποθηκεύονται σε ένα αρχείο, κρυπτογραφημένο με κωδικό πρόσβασης της επιλογής σας (τουλάχιστον %1$d χαρακτήρες). Χρειάζεστε τον κωδικό για να εισαγάγετε το θέμα.</string>
+    <string name="backup_password">Κωδικός πρόσβασης</string>
+    <string name="backup_password_show">Εμφάνιση κωδικού</string>
+    <string name="backup_password_hide">Απόκρυψη κωδικού</string>
+    <string name="backup_password_strength">Ισχύς κωδικού</string>
+    <string name="backup_strength_too_short">Πολύ σύντομος: τουλάχιστον %1$d χαρακτήρες</string>
+    <string name="backup_strength_weak">Αδύναμος: μαντεύεται εύκολα</string>
+    <string name="backup_strength_fair">Μέτριος</string>
+    <string name="backup_strength_strong">Ισχυρός</string>
+    <string name="backup_password_too_short">Ο κωδικός πρέπει να έχει τουλάχιστον %1$d χαρακτήρες</string>
+    <string name="backup_exporting">Εξαγωγή…</string>
+    <string name="backup_export_saved">Αποθηκεύτηκε στο %1$s</string>
+    <string name="backup_export_kept">Δεν αποθηκεύτηκε αλλού. Το αρχείο παραμένει στο %1$s</string>
+    <string name="backup_export_shared">Στάλθηκε. Ένα αντίγραφο παραμένει στο %1$s</string>
+    <string name="backup_export_no_file_manager">Καμία εφαρμογή σε αυτή τη συσκευή δεν μπορεί να δεχτεί το αρχείο. Βρίσκεται στο %1$s</string>
+    <string name="backup_export_failed">Η εξαγωγή απέτυχε: %1$s</string>
+    <string name="backup_share_title">Αποστολή του αρχείου QLauncher με</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Η εισαγωγή αντικαθιστά την τρέχουσα διαμόρφωσή σας. Πρώτα δημιουργείται αυτόματο αντίγραφο ασφαλείας και το QLauncher επανεκκινείται όταν ολοκληρωθεί.</string>
+    <string name="backup_reading">Ανάγνωση του αρχείου…</string>
+    <string name="backup_import_action">Εισαγωγή</string>
+    <string name="backup_wrong_password">Λάθος κωδικός πρόσβασης</string>
+    <string name="backup_password_hint">Ο κωδικός που επιλέχθηκε κατά την εξαγωγή του αρχείου</string>
+    <string name="backup_not_a_backup">Αυτό δεν είναι αντίγραφο ασφαλείας ή θέμα του QLauncher ή του Projectivy.</string>
+    <string name="backup_damaged">Το αρχείο είναι κατεστραμμένο ή ελλιπές.</string>
+    <string name="backup_too_new">Αυτό το αρχείο δημιουργήθηκε από νεότερο QLauncher (μορφή %1$d). Ενημερώστε το QLauncher για να το εισαγάγετε.</string>
+    <string name="backup_unreadable">Αυτό το αυτόματο αντίγραφο ασφαλείας δεν μπορεί να διαβαστεί σε αυτή τη συσκευή.</string>
+    <string name="backup_import_failed">Η εισαγωγή απέτυχε και δεν άλλαξε τίποτα: %1$s</string>
+    <string name="backup_applying">Εισαγωγή… Το QLauncher επανεκκινείται όταν ολοκληρωθεί.</string>
+    <string name="backup_origin_ql_backup">Αντίγραφο ασφαλείας ρυθμίσεων QLauncher</string>
+    <string name="backup_origin_ql_theme">Θέμα QLauncher</string>
+    <string name="backup_origin_pl_backup">Αντίγραφο ασφαλείας ρυθμίσεων Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Θέμα Projectivy Launcher</string>
+    <string name="backup_origin_auto">Αυτόματο αντίγραφο ασφαλείας</string>
+    <string name="backup_preview_theme_by">%1$s από %2$s</string>
+    <string name="backup_preview_version">έκδοση %1$s</string>
+    <string name="backup_preview_settings">Ρυθμίσεις</string>
+    <string name="backup_preview_categories">Κατηγορίες</string>
+    <string name="backup_preview_apps">Προσαρμογές εφαρμογών</string>
+    <string name="backup_preview_profiles">Προφίλ οθόνης</string>
+    <string name="backup_preview_files">Ταπετσαρίες και εικονίδια</string>
+    <string name="backup_preview_skipped">Εφαρμογές που δεν υπάρχουν σε αυτή τη συσκευή</string>
+    <string name="backup_replace_setup">Αντικατάσταση τρέχουσας διαμόρφωσης</string>
+    <string name="backup_apply_theme">Εφαρμογή θέματος</string>
+    <string name="backup_replace_detail">Πρώτα δημιουργείται αυτόματο αντίγραφο ασφαλείας της τρέχουσας διαμόρφωσης</string>
+    <string name="backup_nc_parental">Γονικός κωδικός</string>
+    <string name="backup_nc_parental_detail">Δεν μεταφέρεται. Ορίστε νέο κωδικό στον Γονικό έλεγχο.</string>
+    <string name="backup_nc_premium">Κατάσταση Premium</string>
+    <string name="backup_nc_premium_detail">Δεν μεταφέρεται. Κάθε λειτουργία του QLauncher είναι δωρεάν.</string>
+    <string name="backup_nc_inputs">Είσοδοι TV</string>
+    <string name="backup_nc_profile_bindings">Συσχετίσεις προφίλ οθόνης</string>
+    <string name="backup_nc_plugin">Πρόσθετο ταπετσαρίας</string>
+    <string name="backup_nc_plugin_detail">Το %1$s δεν είναι εγκατεστημένο. Η πηγή ταπετσαρίας παραμένει ως έχει.</string>
+    <string name="backup_nc_icons">Προσαρμοσμένα εικονίδια</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d τροποποιημένη τιμή</item>
+        <item quantity="other">%1$d τροποποιημένες τιμές</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d κατηγορία</item>
+        <item quantity="other">%1$d κατηγορίες</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d εφαρμογή</item>
+        <item quantity="other">%1$d εφαρμογές</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d προφίλ</item>
+        <item quantity="other">%1$d προφίλ</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d αρχείο</item>
+        <item quantity="other">%1$d αρχεία</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d άγνωστη ρύθμιση, παραλείφθηκε</item>
+        <item quantity="other">%1$d άγνωστες ρυθμίσεις, παραλείφθηκαν</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d καταχώριση δεν αντιστοιχεί σε καμία εφαρμογή εγκατεστημένη εδώ και παραλείπεται</item>
+        <item quantity="other">%1$d καταχωρίσεις δεν αντιστοιχούν σε καμία εφαρμογή εγκατεστημένη εδώ και παραλείπονται</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d σύνδεση με είσοδο TV που δεν έχει αυτή η συσκευή παραλείπεται</item>
+        <item quantity="other">%1$d συνδέσεις με εισόδους TV που δεν έχει αυτή η συσκευή παραλείπονται</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d προφίλ συσχετισμένο με είσοδο δεν μεταφέρεται</item>
+        <item quantity="other">%1$d προφίλ συσχετισμένα με εισόδους δεν μεταφέρονται</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d εικονίδιο αποθηκευμένο μέσα στο Projectivy δεν μπορεί να διαβαστεί και παραλείπεται</item>
+        <item quantity="other">%1$d εικονίδια αποθηκευμένα μέσα στο Projectivy δεν μπορούν να διαβαστούν και παραλείπονται</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Αυτόματα αντίγραφα ασφαλείας</string>
+    <string name="backup_auto_description">Το QLauncher κρατά τις τελευταίες %1$d εκδόσεις της διαμόρφωσής σας σε αυτή τη συσκευή, κρυπτογραφημένες με κλειδί που δεν φεύγει ποτέ από αυτήν. Επιλέξτε μία για να την επαναφέρετε· δεν απαιτείται κωδικός πρόσβασης.</string>
+    <string name="backup_auto_none">Δεν υπάρχει διαθέσιμο αυτόματο αντίγραφο ασφαλείας</string>
+    <string name="backup_files_title">Αρχεία αντιγράφων ασφαλείας</string>
+    <string name="backup_files_theme_title">Αρχεία θεμάτων</string>
+    <string name="backup_files_description">Οι εξαγωγές αποθηκεύονται στο %1$s. Με πρόσβαση σε όλα τα αρχεία, το QLauncher βρίσκει επίσης αντίγραφα ασφαλείας στους φακέλους Download και Documents και σε μονάδες USB, μαζί και αυτά του Projectivy.</string>
+    <string name="backup_files_searching">Αναζήτηση αρχείων αντιγράφων ασφαλείας…</string>
+    <string name="backup_files_none">Δεν βρέθηκαν αρχεία αντιγράφων ασφαλείας</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Φάκελος του QLauncher</string>
+    <string name="backup_files_access">Εύρεση αντιγράφων ασφαλείας από άλλες εφαρμογές και συσκευές</string>
+    <string name="backup_files_access_desc">Να επιτρέπεται η πρόσβαση σε όλα τα αρχεία</string>
+    <string name="backup_files_access_unavailable">Δεν υπάρχει οθόνη ρυθμίσεων σε αυτή τη συσκευή. Επιτρέψτε την πρόσβαση σε όλα τα αρχεία με: %1$s</string>
+    <string name="backup_files_browse">Άλλη τοποθεσία…</string>
+    <string name="backup_files_browse_desc">Επιλογή αρχείου με το πρόγραμμα επιλογής αρχείων του συστήματος</string>
+    <string name="backup_auto_delete_all">Διαγραφή όλων</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Μετά από αλλαγή</string>
+    <string name="backup_reason_import">Πριν από εισαγωγή</string>
+    <string name="backup_reason_migration">Πριν από ενημέρωση</string>
+    <string name="backup_reason_reset">Πριν από επαναφορά</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Προφίλ #</string>
+    <string name="backup_no_picture_manager">Δεν φορτώθηκε διαχειριστής εικόνας</string>
+    <string name="backup_no_picture_manager_detail">Αυτή η συσκευή δεν προσφέρει υποστηριζόμενο τρόπο αλλαγής των ρυθμίσεων εικόνας της, οπότε τα προφίλ κρατούν τις τιμές τους χωρίς να τις εφαρμόζουν.</string>
+</resources>

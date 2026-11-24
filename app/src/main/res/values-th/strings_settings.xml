@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">การตั้งค่า</string>
+    <string name="settings_breadcrumb_display">การแสดงผล</string>
+    <string name="settings_breadcrumb_applications">แอปพลิเคชัน</string>
+    <string name="settings_breadcrumb_system">ระบบ</string>
+    <string name="settings_breadcrumb_about">เกี่ยวกับ</string>
+    <string name="settings_root_title">การตั้งค่า QLauncher</string>
+    <string name="settings_root_description">กำหนดค่าการตั้งค่าของแอป</string>
+    <string name="settings_legend_a11y_required">ต้องใช้บริการการช่วยเหลือพิเศษ</string>
+    <string name="settings_legend_a11y_recommended">แนะนำให้ใช้บริการการช่วยเหลือพิเศษ</string>
+    <string name="settings_legend_experimental">ทดลอง</string>
+    <string name="settings_launcher_related">การตั้งค่าที่เกี่ยวกับตัวเปิดแอป</string>
+
+    <string name="settings_general">ทั่วไป</string>
+    <string name="settings_appearance">ลักษณะที่ปรากฏ</string>
+    <string name="settings_power">พลังงาน</string>
+    <string name="settings_parental">การควบคุมโดยผู้ปกครอง</string>
+    <string name="settings_remote">รีโมตคอนโทรล</string>
+    <string name="settings_accessibility">บริการการช่วยเหลือพิเศษ</string>
+    <string name="settings_display_profiles">โปรไฟล์การแสดงผล</string>
+    <string name="settings_manage">จัดการการตั้งค่า</string>
+
+    <!-- General -->
+    <string name="settings_language">เปลี่ยนภาษาของแอป</string>
+    <string name="settings_language_system">ค่าเริ่มต้นของระบบ</string>
+    <string name="settings_default_launcher">เปลี่ยนตัวเปิดแอปเริ่มต้น</string>
+    <string name="settings_default_launcher_unavailable">อุปกรณ์นี้ไม่มีวิธีเปลี่ยนตัวเปิดแอปเริ่มต้น ให้ใช้ “แทนที่ตัวเปิดแอปปัจจุบัน” แทน</string>
+    <string name="settings_override_home">แทนที่ตัวเปิดแอปปัจจุบัน</string>
+    <string name="settings_override_home_desc">ดักการเรียกไปยังตัวเปิดแอปปัจจุบัน (มีประโยชน์หากคุณเปลี่ยนหรือนำตัวเปิดแอปเดิมของเครื่องออกไม่ได้)</string>
+    <string name="settings_enable_channels">เปิดใช้ช่อง</string>
+    <string name="settings_enable_channels_desc">หากคุณไม่ได้ใช้ การปิดตัวเลือกนี้จะทำให้เริ่มต้นเร็วขึ้นและใช้หน่วยความจำน้อยลง</string>
+    <string name="settings_programs_per_channel">รายการต่อช่อง</string>
+    <string name="settings_crash_error_reports">เปิดใช้รายงานข้อขัดข้องและข้อผิดพลาดแบบไม่ระบุตัวตน</string>
+    <string name="settings_reports_desc">จะส่งเฉพาะข้อผิดพลาด เวอร์ชันแอป และรุ่นอุปกรณ์เท่านั้น</string>
+    <string name="settings_check_updates">ตรวจสอบการอัปเดต</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">หมวดหมู่ / ช่อง</string>
+    <string name="settings_cards">การ์ด</string>
+    <string name="settings_wallpaper">วอลเปเปอร์</string>
+    <string name="settings_status_bar">แถบสถานะ</string>
+    <string name="settings_left_headers">ส่วนหัวด้านซ้าย</string>
+    <string name="settings_idle_mode">โหมดไม่ใช้งานของตัวเปิดแอป</string>
+    <string name="settings_font">แบบอักษร</string>
+    <string name="settings_themes">ธีม</string>
+    <string name="settings_themes_desc">นำเข้า / ส่งออก</string>
+    <string name="settings_load_cards_scrolling">โหลดการ์ดขณะเลื่อน</string>
+    <string name="settings_load_cards_scrolling_desc">ตอบสนองเร็วขึ้น แต่ลื่นไหลน้อยลง</string>
+    <string name="settings_accent">สีเฉพาะจุด</string>
+    <string name="settings_accent_desc">เปิดสีแบบไดนามิกเพื่อให้สีตามวอลเปเปอร์</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">แสดงชื่อ</string>
+    <string name="settings_show_icon_title">แสดงไอคอนหน้าชื่อ</string>
+    <string name="settings_rows_spacing">ระยะห่างแนวตั้ง (% ของความสูงหน้าจอ)</string>
+    <string name="settings_fixed_position">ล็อกตำแหน่งหมวดหมู่ที่โฟกัสไว้กับที่</string>
+    <string name="settings_hide_rows_above">ซ่อนแถวที่อยู่เหนือรายการที่เลือก</string>
+    <string name="settings_remember_focus">จำตำแหน่งการ์ดที่โฟกัส</string>
+    <string name="settings_unselected_opacity">ความทึบของแถวที่ไม่ได้เลือก</string>
+    <string name="settings_top_margin">ระยะขอบบน</string>
+    <string name="settings_start_margin">ระยะขอบซ้าย</string>
+    <string name="settings_end_margin">ระยะขอบขวา</string>
+    <string name="settings_dock_padding">ระยะห่างภายในด็อก</string>
+    <string name="settings_tint_custom_icons">แต้มสีไอคอนที่กำหนดเอง</string>
+    <string name="settings_tint_custom_icons_desc">สำหรับไอคอนที่กำหนดเองซึ่งไม่มีพื้นหลัง</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">มุมโค้งมน</string>
+    <string name="settings_cards_size">ขนาดการ์ด</string>
+    <string name="settings_cards_spacing">ระยะห่างระหว่างการ์ด</string>
+    <string name="settings_loop_limit">จำนวนรอบสูงสุดของไอคอนเคลื่อนไหว</string>
+    <string name="settings_ripple">เอฟเฟกต์ระลอกคลื่นเมื่อกดการ์ด</string>
+    <string name="settings_background_color">สีพื้นหลัง</string>
+    <string name="settings_focused_card">การ์ดที่โฟกัส</string>
+    <string name="settings_program_cards">การ์ดรายการ</string>
+    <string name="settings_tv_ratio">สัดส่วนภาพการ์ดแอปทีวี</string>
+    <string name="settings_mobile_ratio">สัดส่วนภาพการ์ดแอปมือถือ</string>
+    <string name="settings_icon_pack">แพ็กไอคอน</string>
+    <string name="settings_icon_pack_none">ไม่ได้ติดตั้งแพ็กไอคอน</string>
+    <string name="settings_icon_pack_off">ไม่มี</string>
+    <string name="settings_more">เพิ่มเติม…</string>
+    <string name="settings_custom_icon_tint">สีแต้มไอคอนที่กำหนดเอง</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">ขนาดการ์ดที่โฟกัส</string>
+    <string name="settings_focused_effect">เอฟเฟกต์การ์ดที่โฟกัส</string>
+    <string name="settings_effect_none">ไม่มี</string>
+    <string name="settings_effect_shadow">เงาตกกระทบ</string>
+    <string name="settings_effect_glow">เรืองแสง</string>
+    <string name="settings_glow_animation">ภาพเคลื่อนไหวของการเรืองแสง</string>
+    <string name="settings_anim_none">ไม่มี</string>
+    <string name="settings_anim_pulse">เต้นเป็นจังหวะ</string>
+    <string name="settings_anim_breath">หายใจ</string>
+    <string name="settings_anim_fade">จางเข้าออก</string>
+    <string name="settings_anim_shine">แวววาว</string>
+    <string name="settings_glow_size">ขนาดการเรืองแสง</string>
+    <string name="settings_glow_color">สีเรืองแสง</string>
+    <string name="settings_glow_color_desc">เว้นว่างไว้เพื่อใช้สีของการ์ดเอง</string>
+    <string name="settings_colors_override">แทนที่สี</string>
+    <string name="settings_override_none">ไม่มี</string>
+    <string name="settings_override_swap">สลับพื้นหลัง/สีแต้ม</string>
+    <string name="settings_override_custom">กำหนดเอง</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">เล่นวิดีโอตัวอย่าง</string>
+    <string name="settings_preview_never">ไม่เลย</string>
+    <string name="settings_preview_always">เสมอ</string>
+    <string name="settings_preview_no_media">เมื่อไม่มีสื่อเล่นอยู่เบื้องหลัง</string>
+    <string name="settings_show_progress">แสดงแถบความคืบหน้า</string>
+    <string name="settings_show_badge">แสดงป้าย</string>
+    <string name="settings_zoom_focus">เอฟเฟกต์ซูมเมื่อโฟกัส</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">รูปแบบที่รองรับ: ภาพนิ่ง ภาพ GIF เคลื่อนไหว วิดีโอ (ไฟล์หรือสตรีมสด RTSP) ภาพเคลื่อนไหว Lottie</string>
+    <string name="settings_launcher_wallpaper">วอลเปเปอร์ของตัวเปิดแอป</string>
+    <string name="settings_configure">กำหนดค่า</string>
+    <string name="settings_show_wallpapers">แสดงวอลเปเปอร์</string>
+    <string name="settings_picture_adjustment">การปรับภาพ</string>
+    <string name="settings_image_transition">การเปลี่ยนภาพ</string>
+    <string name="settings_update_frequency">ความถี่ในการอัปเดต (นาที)</string>
+    <string name="settings_video_wallpaper">วอลเปเปอร์วิดีโอ</string>
+    <string name="settings_display_mode">โหมดการแสดงผล</string>
+    <string name="settings_bad_ratio">เมื่อสัดส่วน/คุณภาพไม่เหมาะสม</string>
+    <string name="settings_min_width">ความกว้างขั้นต่ำที่ยอมรับ (px)</string>
+    <string name="settings_src_none">ไม่มี</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">สีแบบไดนามิก</string>
+    <string name="settings_src_default">วอลเปเปอร์เริ่มต้น</string>
+    <string name="settings_src_media">ไฟล์สื่อ</string>
+    <string name="settings_src_folder">โฟลเดอร์</string>
+    <string name="settings_src_focused_program">รายการที่โฟกัสอยู่</string>
+    <string name="settings_src_now_playing">กำลังเล่น</string>
+    <string name="settings_src_random_program">รายการแบบสุ่ม</string>
+    <string name="settings_src_theme">ธีม</string>
+    <string name="settings_tr_none">ไม่มี</string>
+    <string name="settings_tr_random">สุ่ม</string>
+    <string name="settings_tr_fade">จางเข้าออก</string>
+    <string name="settings_tr_zoom">ซูม</string>
+    <string name="settings_tr_hslide">เลื่อนแนวนอน</string>
+    <string name="settings_tr_vslide">เลื่อนแนวตั้ง</string>
+    <string name="settings_dm_automatic">อัตโนมัติ</string>
+    <string name="settings_dm_skip">ข้าม</string>
+    <string name="settings_dm_crop">ครอบตัด</string>
+    <string name="settings_dm_stretch">ยืด</string>
+    <string name="settings_dm_fit">พอดีกึ่งกลาง</string>
+    <string name="settings_dm_fit_blur">พอดีกึ่งกลาง + พื้นหลังเบลอ</string>
+    <string name="settings_dm_blur">เบลอ</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">เฉดสี</string>
+    <string name="settings_saturation">ความอิ่มตัวของสี</string>
+    <string name="settings_contrast">คอนทราสต์</string>
+    <string name="settings_brightness">ความสว่าง</string>
+    <string name="settings_tint">สีแต้ม</string>
+    <string name="settings_tint_amount">ปริมาณสีแต้ม</string>
+    <string name="settings_blur">เบลอ</string>
+    <string name="settings_shadow_h">ความยาวเงาซ้อนแนวนอน</string>
+    <string name="settings_shadow_v">ความยาวเงาซ้อนแนวตั้ง</string>
+    <string name="settings_shadow_opacity">ความทึบของเงาซ้อน</string>
+    <string name="settings_shadow_tint">สีแต้มของเงาซ้อน</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">ไม่สนใจความถี่ในการอัปเดต</string>
+    <string name="settings_ignore_update_desc">รอจนวิดีโอจบก่อนขอวอลเปเปอร์ใหม่</string>
+    <string name="settings_video_color_freq">ความถี่ในการอัปเดตสีแบบไดนามิก</string>
+    <string name="settings_video_color_freq_desc">จำนวนวินาทีระหว่างเฟรมวิดีโอที่อ่านเพื่อหาสี 0 คือปิด</string>
+    <string name="settings_volume">ระดับเสียง</string>
+    <string name="settings_tunneling">ใช้การเรนเดอร์ด้วยฮาร์ดแวร์ (tunneling)</string>
+    <string name="settings_decoder_fallback">เปิดใช้ตัวถอดรหัสสำรอง</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">จัดการสิทธิ์การแจ้งเตือน</string>
+    <string name="settings_granted">ได้รับสิทธิ์แล้ว</string>
+    <string name="settings_not_granted">ไม่ได้รับสิทธิ์</string>
+    <string name="settings_notification_adb">ไม่มีหน้าจอการตั้งค่าในอุปกรณ์นี้ ให้สิทธิ์ด้วยคำสั่ง: %1$s</string>
+    <string name="settings_clock">นาฬิกา</string>
+    <string name="settings_icons">ไอคอน</string>
+    <string name="settings_show_system_bar">แสดงแถบสถานะของระบบ</string>
+    <string name="settings_autohide_status">ซ่อนแถบสถานะเมื่อเลื่อน</string>
+    <string name="settings_show_clock">แสดงนาฬิกา</string>
+    <string name="settings_clock_size">ขนาดแบบอักษรนาฬิกา</string>
+    <string name="settings_clock_color">สีนาฬิกา</string>
+    <string name="settings_drop_shadow">เงาตกกระทบ</string>
+    <string name="settings_clock_line1">รูปแบบนาฬิกา (บรรทัดที่ 1)</string>
+    <string name="settings_clock_line2">รูปแบบนาฬิกา (บรรทัดที่ 2)</string>
+    <string name="settings_clock_default_format">รูปแบบของระบบ</string>
+    <string name="settings_empty">ว่าง</string>
+    <string name="settings_icons_size">ขนาดไอคอน</string>
+    <string name="settings_icons_color">สีไอคอน</string>
+    <string name="settings_icons_container">สีกรอบไอคอน</string>
+    <string name="settings_show_settings">แสดงการตั้งค่า</string>
+    <string name="settings_show_settings_desc">ยังเข้าถึงการตั้งค่าได้ด้วยการกดปุ่มตามลำดับนี้: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">แสดงการเชื่อมต่อ</string>
+    <string name="settings_show_notifications">แสดงการแจ้งเตือน</string>
+    <string name="settings_autohide_notifications">ซ่อนไอคอนการแจ้งเตือนเมื่อไม่มีการแจ้งเตือน</string>
+    <string name="settings_show_battery">แสดงแบตเตอรี่</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">เปิดใช้</string>
+    <string name="settings_headers_on_launch">แสดงส่วนหัวด้านซ้ายเมื่อเปิด</string>
+    <string name="settings_show_icon">แสดงไอคอน</string>
+    <string name="settings_show_reorder">แสดงการจัดลำดับใหม่</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">ระยะเวลาก่อนเข้าสู่โหมดไม่ใช้งาน (นาที)</string>
+    <string name="settings_idle_opacity">ความทึบของ UI</string>
+    <string name="settings_keep_clock">คงนาฬิกาไว้</string>
+    <string name="settings_prevent_screensaver">ป้องกันโปรแกรมรักษาหน้าจอของระบบ</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">เปลี่ยนการตั้งค่าแบบอักษรของ QLauncher ค้นหาชื่อตระกูลแบบอักษรได้ใน Google Fonts</string>
+    <string name="settings_font_list">เลือกจากรายการ</string>
+    <string name="settings_font_google">แบบอักษร (Google Fonts)</string>
+    <string name="settings_font_default">ค่าเริ่มต้น</string>
+    <string name="settings_bold">ตัวหนา</string>
+    <string name="settings_italic">ตัวเอียง</string>
+    <string name="settings_size">ขนาด</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">เปิดอัตโนมัติเมื่อเปิดเครื่อง</string>
+    <string name="settings_autostart_none">ไม่มี</string>
+    <string name="settings_autostart_screensaver">[*] โปรแกรมรักษาหน้าจอ (หากรองรับ)</string>
+    <string name="settings_autostart_resume">…และเมื่อกลับมาจากโหมดสแตนด์บาย</string>
+    <string name="settings_autostart_delay">หน่วงเวลาการเปิดอัตโนมัติ (วินาที)</string>
+    <string name="settings_simulate_activity">ป้องกันไม่ให้ระบบปิดเครื่องอัตโนมัติเมื่อไม่มีการใช้งาน</string>
+    <string name="settings_idle_detection">เปิดใช้การตรวจจับการไม่ใช้งานภายใน</string>
+    <string name="settings_idle_timeout_power">ระยะหมดเวลาเมื่อไม่ใช้งาน (ชั่วโมง:นาที)</string>
+    <string name="settings_idle_action">การดำเนินการเมื่อไม่ใช้งาน</string>
+    <string name="settings_idle_action_shutdown">ปิดเครื่อง</string>
+    <string name="settings_idle_action_screen_off">ปิดหน้าจอ</string>
+    <string name="settings_idle_action_screensaver">โปรแกรมรักษาหน้าจอ (หากรองรับ)</string>
+    <string name="settings_idle_media">ไม่ใช้โหมดไม่ใช้งานขณะเล่นสื่อ</string>
+    <string name="settings_missing_notification_permission">⚠️ ไม่มีสิทธิ์การแจ้งเตือน</string>
+    <string name="settings_shutdown_action">การดำเนินการปิดเครื่อง</string>
+    <string name="settings_shutdown_dialog">เมนูเปิด/ปิดเครื่อง</string>
+    <string name="settings_shutdown_dialog_twice">เมนูเปิด/ปิดเครื่อง (เรียกสองครั้ง)</string>
+    <string name="settings_shutdown_dialog_ok">เมนูเปิด/ปิดเครื่อง + OK</string>
+    <string name="settings_hdmi_exit">ปิดเครื่องอัตโนมัติเมื่อสัญญาณอินพุต HDMI หยุด</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">กำหนดรหัสเพื่อล็อกแอปที่เลือก (กดการ์ดบนหน้าจอหลักค้างไว้เพื่อเลือก) ตลอดทั้งวันหรือบางช่วงของวัน</string>
+    <string name="settings_parental_set_code">ตั้งรหัสผู้ปกครองใหม่</string>
+    <string name="settings_parental_code_set">ตั้งรหัสแล้ว</string>
+    <string name="settings_parental_long">ไม่ต้องขอรหัสเป็นเวลา 15 นาทีหลังยืนยันสำเร็จ</string>
+    <string name="settings_parental_protect">ป้องกันการตั้งค่าตัวเปิดแอปและการเปลี่ยนแปลง UI</string>
+    <string name="settings_parental_protect_desc">(มีผลตลอด 24/7)</string>
+    <string name="settings_parental_partial">เปิดใช้การป้องกันเฉพาะในช่วงเวลา</string>
+    <string name="settings_parental_start">เวลาเริ่มต้น (ชั่วโมง:นาที)</string>
+    <string name="settings_parental_end">เวลาสิ้นสุด (ชั่วโมง:นาที)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">แสดงข้อมูลเมื่อกด “เมนู” สองครั้ง</string>
+    <string name="settings_back_double">“โหมดแอมเบียนท์” เมื่อกด “กลับ” สองครั้ง</string>
+    <string name="settings_back_double_desc">เริ่มโปรแกรมรักษาหน้าจอในอุปกรณ์ที่รองรับ</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">เปิดบริการนี้เพื่อเรียกใช้การทำงานเมื่อเปิดเครื่อง ปรับแต่งปุ่มรีโมต เสริมการควบคุมโดยผู้ปกครองให้รัดกุมขึ้น และตรวจจับเวลาที่ไม่มีการใช้งานเพื่อควบคุมพลังงาน บริการนี้เห็นการกดปุ่มฮาร์ดแวร์และชื่อของแอปที่อยู่เบื้องหน้า ข้อมูลทั้งสองอย่างอยู่ในหน่วยความจำของอุปกรณ์นี้เท่านั้นและจะไม่ถูกส่งไปที่ใดเลย</string>
+    <string name="settings_a11y_enabled">เปิดใช้แล้ว</string>
+    <string name="settings_a11y_started">เริ่มทำงานแล้ว</string>
+    <string name="settings_yes">ใช่</string>
+    <string name="settings_no">ไม่</string>
+    <string name="settings_a11y_open">แสดงการตั้งค่าการช่วยเหลือพิเศษ</string>
+    <string name="settings_a11y_consent_title">บริการการช่วยเหลือพิเศษ</string>
+    <string name="settings_a11y_consent">การดำเนินการนี้จะอนุญาตให้ QLauncher เห็นการกดปุ่มฮาร์ดแวร์และชื่อของแอปที่ทำงานอยู่เบื้องหน้า ข้อมูลทั้งสองอย่างจะเก็บไว้ในหน่วยความจำของอุปกรณ์นี้เท่านั้นและจะไม่ถูกส่งไปที่ใดเลย คุณยอมรับหรือไม่?</string>
+    <string name="settings_a11y_alternate">ใช้การกำหนดค่าทางเลือก</string>
+    <string name="settings_a11y_alternate_desc">แก้ปัญหาในอุปกรณ์บางรุ่น</string>
+    <string name="settings_a11y_volume_fix">แก้ปัญหาปุ่มระดับเสียง</string>
+    <string name="settings_a11y_volume_fix_desc">หยุดการกำหนดปุ่มใหม่ชั่วครู่เมื่อกดปุ่มระดับเสียง เพื่อให้การกดค้างยังใช้งานได้</string>
+    <string name="settings_a11y_remap">เปิดใช้การกำหนดปุ่มใหม่</string>
+    <string name="settings_a11y_remap_desc">บริการจะดักการกดปุ่ม การปิดตัวเลือกนี้ช่วยเลี่ยงปัญหาการกดปุ่มระดับเสียงค้างและการที่ระบบหยุดบริการ แต่การแทนที่ตัวเปิดแอป การควบคุมโดยผู้ปกครอง และการตรวจจับการไม่ใช้งานอาจได้ผลน้อยลง</string>
+    <string name="settings_a11y_reminder">แสดงการเตือน</string>
+    <string name="settings_a11y_reminder_desc">หากบริการการช่วยเหลือพิเศษถูกปิด</string>
+    <string name="settings_a11y_unbound_toast">บริการการช่วยเหลือพิเศษของ QLauncher ไม่ได้ทำงานอยู่</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">นำเข้าหรือส่งออกการตั้งค่าในเครื่อง หรือผ่านแอปอื่น เช่น LocalSend หรือตัวจัดการไฟล์</string>
+    <string name="settings_import">นำเข้า</string>
+    <string name="settings_import_file">จากไฟล์</string>
+    <string name="settings_import_auto">จากข้อมูลสำรองอัตโนมัติ</string>
+    <string name="settings_export">ส่งออก</string>
+    <string name="settings_export_local">บันทึกในเครื่อง</string>
+    <string name="settings_export_share">แชร์กับแอปอื่น</string>
+    <string name="settings_reset">รีเซ็ตเป็นค่าเริ่มต้น</string>
+    <string name="settings_cancel">ยกเลิก</string>
+    <string name="settings_ok">ตกลง</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">หมวดหมู่</string>
+    <string name="wp_custom_search">การค้นหาแบบกำหนดเอง</string>
+    <string name="wp_reddit_login">ลงชื่อเข้าใช้</string>
+    <string name="wp_reddit_logout">ออกจากระบบ: %1$s</string>
+    <string name="wp_reddit_logout_unknown">ออกจากระบบ</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">subreddit ที่กำหนดเอง</string>
+    <string name="wp_custom_subreddit_hint">หลายชื่อคั่นด้วย +</string>
+    <string name="wp_folder">โฟลเดอร์</string>
+    <string name="wp_folder_choose">เลือกโฟลเดอร์</string>
+    <string name="wp_media">ไฟล์สื่อ</string>
+    <string name="wp_media_choose">เลือกไฟล์</string>
+    <string name="wp_choose_other">ตำแหน่งอื่น…</string>
+    <string name="wp_choose_other_desc">เลือกด้วยเครื่องมือเลือกไฟล์ของระบบ</string>
+    <string name="wp_media_searching">กำลังค้นหารูปภาพและวิดีโอ…</string>
+    <string name="wp_media_none">ไม่พบรูปภาพหรือวิดีโอ คัดลอกไฟล์ไปที่ Pictures, Movies หรือ Download หรือเสียบไดรฟ์ USB</string>
+    <string name="wp_folders_description">โฟลเดอร์ที่มีรูปภาพหรือวิดีโอ ในอุปกรณ์นี้และในไดรฟ์ USB</string>
+    <string name="wp_folders_none">ไม่พบโฟลเดอร์ที่มีรูปภาพหรือวิดีโอ</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="other">%d ไฟล์</item>
+    </plurals>
+    <string name="wp_media_color">สีพื้น</string>
+    <string name="wp_theme_desc">วอลเปเปอร์ที่มาพร้อมกับธีมที่นำเข้า</string>
+    <string name="wp_plugin_settings">การตั้งค่าปลั๊กอิน</string>
+    <string name="wp_not_set">ไม่ได้ตั้งค่า</string>
+    <string name="wp_status">สถานะ</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">วอลเปเปอร์นี้</string>
+    <string name="wp_next">ถัดไป</string>
+    <string name="wp_source">แหล่งที่มา</string>
+    <string name="wp_title">ชื่อ</string>
+    <string name="wp_author">ผู้สร้าง</string>
+    <string name="wp_set_user">ตั้งเป็นวอลเปเปอร์ของผู้ใช้</string>
+    <string name="wp_view">ดู</string>
+    <string name="wp_unknown">ไม่ทราบ</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">สร้างและจัดการโปรไฟล์การแสดงผลวิดีโอที่นี่ ผูกโปรไฟล์กับแหล่งอินพุตเพื่อให้เปลี่ยนโดยอัตโนมัติ หรือใช้โปรไฟล์โดยกด “เมนู” สองครั้งแล้วกดขึ้นหรือลง</string>
+    <string name="dp_list">รายการโปรไฟล์การแสดงผล</string>
+    <string name="dp_list_desc">สร้างหรือแก้ไขโปรไฟล์การแสดงผลวิดีโอที่นี่ ตัวควบคุมบางอย่างต้องใช้สิทธิ์ root หรือใช้งานไม่ได้เลย ขึ้นอยู่กับอุปกรณ์ ตัวควบคุมเหล่านี้ออกแบบมาสำหรับอุปกรณ์ AmLogic</string>
+    <string name="dp_add">เพิ่มใหม่…</string>
+    <string name="dp_name">ชื่อโปรไฟล์</string>
+    <string name="dp_preview">แสดงตัวอย่าง</string>
+    <string name="dp_fullscreen">แสดงตัวอย่างแบบเต็มหน้าจอ</string>
+    <string name="dp_fullscreen_desc">หรือสลับด้วยปุ่ม “เมนู”</string>
+    <string name="dp_delete">ลบโปรไฟล์</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">ติดตั้งแอปของบุคคลที่สาม</string>
+    <string name="install_desc">เลือกแอปที่จะติดตั้ง คุณอาจต้องอนุญาตการติดตั้งจากแหล่งที่ไม่รู้จักก่อน</string>
+    <string name="install_custom">URL ที่กำหนดเอง / รหัส Downloader</string>
+    <string name="install_custom_desc">ใช้เฉพาะแหล่งที่คุณเชื่อถือ</string>
+    <string name="install_status">สถานะ</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">อุปกรณ์นี้</string>
+
+    <string name="gallery_filter">ตัวกรอง…</string>
+    <string name="settings_no_file_picker">อุปกรณ์นี้ไม่มีเครื่องมือเลือกไฟล์</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">ค่าความส่องสว่าง</string>
+    <string name="color_opacity">ความทึบ</string>
+    <string name="color_prefer_dynamic">ใช้สีแบบไดนามิกก่อน</string>
+    <string name="color_prefer_dynamic_desc">หากมี จะคงค่าความส่องสว่าง/ความทึบนี้ไว้</string>
+    <string name="color_clear">ล้าง</string>
+    <string name="color_reset">รีเซ็ตเป็นค่าเริ่มต้น</string>
+</resources>

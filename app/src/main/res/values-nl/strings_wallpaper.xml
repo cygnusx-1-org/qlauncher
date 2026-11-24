@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Geen</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dynamische kleuren</string>
+    <string name="wallpaper_provider_default">Standaardachtergrond</string>
+    <string name="wallpaper_provider_media_file">Mediabestand</string>
+    <string name="wallpaper_provider_folder">Map</string>
+    <string name="wallpaper_provider_focused_program">Programma in focus</string>
+    <string name="wallpaper_provider_now_playing">Speelt nu</string>
+    <string name="wallpaper_provider_random_program">Willekeurig programma</string>
+    <string name="wallpaper_provider_theme">Thema</string>
+    <string name="wallpaper_provider_unknown_plugin">Plug-in</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Achtergronden</string>
+    <string name="wallpaper_wikimedia_nature">Natuur</string>
+    <string name="wallpaper_wikimedia_landscapes">Landschappen</string>
+    <string name="wallpaper_wikimedia_mountains">Bergen</string>
+    <string name="wallpaper_wikimedia_forests">Bossen</string>
+    <string name="wallpaper_wikimedia_cities">Steden</string>
+    <string name="wallpaper_wikimedia_architecture">Architectuur</string>
+    <string name="wallpaper_wikimedia_night">Nacht</string>
+    <string name="wallpaper_wikimedia_space">Ruimte</string>
+    <string name="wallpaper_wikimedia_animals">Dieren</string>
+    <string name="wallpaper_wikimedia_custom">[Aangepaste zoekopdracht]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Aangepaste subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Uitloggen</string>
+    <string name="wallpaper_reddit_login_needed">Log in bij Reddit om er achtergronden van te zien.</string>
+    <string name="wallpaper_reddit_login_title">Inloggen bij Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Inloggen…</string>
+    <string name="wallpaper_reddit_login_denied">Er is geen toegang tot Reddit verleend, dus de Reddit-achtergronden blijven onbeschikbaar.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Het antwoord van Reddit hoorde niet bij deze inlogpoging en is genegeerd. Probeer het opnieuw.</string>
+    <string name="wallpaper_reddit_login_failed">Inloggen bij Reddit is mislukt (%1$s). Probeer het later opnieuw.</string>
+    <string name="wallpaper_reddit_login_network">Reddit is niet bereikbaar. Controleer de netwerkverbinding en probeer het opnieuw.</string>
+    <string name="wallpaper_reddit_login_page_error">De inlogpagina van Reddit kan niet worden geladen. Controleer de netwerkverbinding en probeer het opnieuw.</string>
+    <string name="wallpaper_reddit_no_webview">Dit apparaat heeft geen webbrowsercomponent (Android System WebView), die nodig is om bij Reddit in te loggen. Installeer Android System WebView of schakel het in en probeer het opnieuw.</string>
+    <string name="wallpaper_reddit_retry">Opnieuw proberen</string>
+    <string name="wallpaper_reddit_close">Sluiten</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Geen verbinding met de achtergrondbron.</string>
+    <string name="wallpaper_error_server">De achtergrondbron antwoordde met een fout.</string>
+    <string name="wallpaper_error_rate_limited">De achtergrondbron vroeg om te wachten met het volgende verzoek.</string>
+    <string name="wallpaper_error_generic">De achtergronden kunnen niet worden geladen.</string>
+    <string name="wallpaper_error_no_media">Er is geen foto, video of kleur gekozen.</string>
+    <string name="wallpaper_error_no_folder">Er is geen map gekozen.</string>
+    <string name="wallpaper_error_folder_access">De map kan niet worden gelezen. Kies hem opnieuw.</string>
+    <string name="wallpaper_error_folder_empty">De map bevat geen foto\'s, video\'s of Lottie-animaties.</string>
+    <string name="wallpaper_error_theme_empty">Het huidige thema heeft geen achtergronden.</string>
+    <string name="wallpaper_error_no_channels">Kanalen zijn niet beschikbaar. Schakel ze in en sta toegang tot de tv-gids toe.</string>
+    <string name="wallpaper_error_no_notification_access">‘Speelt nu’ heeft toegang tot meldingen nodig.</string>
+    <string name="wallpaper_error_no_subreddit">Er is geen geldige subreddit ingesteld.</string>
+    <string name="wallpaper_error_plugin">De achtergrondplug-in reageerde niet.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Achtergrond ingesteld</string>
+    <string name="wallpaper_set_failed">Dit bestand kan niet als achtergrond worden gebruikt.</string>
+</resources>

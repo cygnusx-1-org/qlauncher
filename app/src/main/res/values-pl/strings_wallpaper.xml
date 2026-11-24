@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Brak</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Kolory dynamiczne</string>
+    <string name="wallpaper_provider_default">Domyślna tapeta</string>
+    <string name="wallpaper_provider_media_file">Plik multimedialny</string>
+    <string name="wallpaper_provider_folder">Folder</string>
+    <string name="wallpaper_provider_focused_program">Zaznaczony program</string>
+    <string name="wallpaper_provider_now_playing">Teraz odtwarzane</string>
+    <string name="wallpaper_provider_random_program">Losowy program</string>
+    <string name="wallpaper_provider_theme">Motyw</string>
+    <string name="wallpaper_provider_unknown_plugin">Wtyczka</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Tapety</string>
+    <string name="wallpaper_wikimedia_nature">Przyroda</string>
+    <string name="wallpaper_wikimedia_landscapes">Krajobrazy</string>
+    <string name="wallpaper_wikimedia_mountains">Góry</string>
+    <string name="wallpaper_wikimedia_forests">Lasy</string>
+    <string name="wallpaper_wikimedia_cities">Miasta</string>
+    <string name="wallpaper_wikimedia_architecture">Architektura</string>
+    <string name="wallpaper_wikimedia_night">Noc</string>
+    <string name="wallpaper_wikimedia_space">Kosmos</string>
+    <string name="wallpaper_wikimedia_animals">Zwierzęta</string>
+    <string name="wallpaper_wikimedia_custom">[Własne wyszukiwanie]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Własny subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Wyloguj się</string>
+    <string name="wallpaper_reddit_login_needed">Zaloguj się w serwisie Reddit, aby zobaczyć tapety z niego.</string>
+    <string name="wallpaper_reddit_login_title">Zaloguj się w serwisie Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Logowanie…</string>
+    <string name="wallpaper_reddit_login_denied">Nie przyznano dostępu do serwisu Reddit, więc tapety z Reddit pozostają niedostępne.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Odpowiedź z serwisu Reddit nie pasowała do tej próby logowania i została zignorowana. Spróbuj ponownie.</string>
+    <string name="wallpaper_reddit_login_failed">Logowanie w serwisie Reddit nie powiodło się (%1$s). Spróbuj ponownie później.</string>
+    <string name="wallpaper_reddit_login_network">Nie można połączyć się z serwisem Reddit. Sprawdź połączenie sieciowe i spróbuj ponownie.</string>
+    <string name="wallpaper_reddit_login_page_error">Nie można wczytać strony logowania Reddit. Sprawdź połączenie sieciowe i spróbuj ponownie.</string>
+    <string name="wallpaper_reddit_no_webview">To urządzenie nie ma komponentu przeglądarki internetowej (Android System WebView), którego wymaga logowanie w serwisie Reddit. Zainstaluj lub włącz Android System WebView i spróbuj ponownie.</string>
+    <string name="wallpaper_reddit_retry">Spróbuj ponownie</string>
+    <string name="wallpaper_reddit_close">Zamknij</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Brak połączenia ze źródłem tapet.</string>
+    <string name="wallpaper_error_server">Źródło tapet zwróciło błąd.</string>
+    <string name="wallpaper_error_rate_limited">Źródło tapet poprosiło o odczekanie przed kolejnym żądaniem.</string>
+    <string name="wallpaper_error_generic">Nie udało się wczytać tapet.</string>
+    <string name="wallpaper_error_no_media">Nie wybrano zdjęcia, filmu ani koloru.</string>
+    <string name="wallpaper_error_no_folder">Nie wybrano folderu.</string>
+    <string name="wallpaper_error_folder_access">Nie można odczytać folderu. Wybierz go ponownie.</string>
+    <string name="wallpaper_error_folder_empty">Folder nie zawiera zdjęć, filmów ani animacji Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Bieżący motyw nie ma tapet.</string>
+    <string name="wallpaper_error_no_channels">Kanały są niedostępne. Włącz je i zezwól na dostęp do programu TV.</string>
+    <string name="wallpaper_error_no_notification_access">Funkcja Teraz odtwarzane wymaga dostępu do powiadomień.</string>
+    <string name="wallpaper_error_no_subreddit">Nie ustawiono prawidłowego subreddita.</string>
+    <string name="wallpaper_error_plugin">Wtyczka tapet nie odpowiedziała.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Ustawiono tapetę</string>
+    <string name="wallpaper_set_failed">Tego pliku nie można użyć jako tapety.</string>
+</resources>

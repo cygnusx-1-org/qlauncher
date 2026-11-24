@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">პარამეტრები</string>
+    <string name="settings_breadcrumb_display">ეკრანი</string>
+    <string name="settings_breadcrumb_applications">აპლიკაციები</string>
+    <string name="settings_breadcrumb_system">სისტემა</string>
+    <string name="settings_breadcrumb_about">შესახებ</string>
+    <string name="settings_root_title">QLauncher-ის პარამეტრები</string>
+    <string name="settings_root_description">აპის პარამეტრების კონფიგურაცია.</string>
+    <string name="settings_legend_a11y_required">საჭიროა მარტივი წვდომის სერვისი</string>
+    <string name="settings_legend_a11y_recommended">რეკომენდებულია მარტივი წვდომის სერვისი</string>
+    <string name="settings_legend_experimental">ექსპერიმენტული</string>
+    <string name="settings_launcher_related">ლაუნჩერთან დაკავშირებული პარამეტრები</string>
+
+    <string name="settings_general">ზოგადი</string>
+    <string name="settings_appearance">გარეგნობა</string>
+    <string name="settings_power">კვება</string>
+    <string name="settings_parental">მშობელთა კონტროლი</string>
+    <string name="settings_remote">პულტი</string>
+    <string name="settings_accessibility">მარტივი წვდომის სერვისი</string>
+    <string name="settings_display_profiles">ეკრანის პროფილები</string>
+    <string name="settings_manage">პარამეტრების მართვა</string>
+
+    <!-- General -->
+    <string name="settings_language">აპის ენის შეცვლა</string>
+    <string name="settings_language_system">სისტემის ნაგულისხმევი</string>
+    <string name="settings_default_launcher">ნაგულისხმევი ლაუნჩერის შეცვლა</string>
+    <string name="settings_default_launcher_unavailable">ეს მოწყობილობა არ იძლევა ნაგულისხმევი ლაუნჩერის შეცვლის საშუალებას. ამის ნაცვლად გამოიყენეთ „მიმდინარე ლაუნჩერის ჩანაცვლება“.</string>
+    <string name="settings_override_home">მიმდინარე ლაუნჩერის ჩანაცვლება</string>
+    <string name="settings_override_home_desc">მიმდინარე ლაუნჩერზე მიმართვების გადაჭერა (სასარგებლოა, თუ ჩაშენებულის შეცვლა ან წაშლა არ შეგიძლიათ)</string>
+    <string name="settings_enable_channels">არხების ჩართვა</string>
+    <string name="settings_enable_channels_desc">თუ მათ არ იყენებთ, ამის გამორთვა აჩქარებს გაშვებას და ნაკლებ მეხსიერებას მოიხმარს</string>
+    <string name="settings_programs_per_channel">გადაცემები თითო არხზე</string>
+    <string name="settings_crash_error_reports">ანონიმური ანგარიშები ავარიებისა და შეცდომების შესახებ</string>
+    <string name="settings_reports_desc">იგზავნება მხოლოდ შეცდომა, აპის ვერსია და მოწყობილობის მოდელი</string>
+    <string name="settings_check_updates">განახლებების შემოწმება</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">კატეგორიები / არხები</string>
+    <string name="settings_cards">ბარათები</string>
+    <string name="settings_wallpaper">ფონი</string>
+    <string name="settings_status_bar">სტატუსის ზოლი</string>
+    <string name="settings_left_headers">მარცხენა სათაურები</string>
+    <string name="settings_idle_mode">ლაუნჩერის უმოქმედობის რეჟიმი</string>
+    <string name="settings_font">შრიფტი</string>
+    <string name="settings_themes">თემები</string>
+    <string name="settings_themes_desc">იმპორტი / ექსპორტი</string>
+    <string name="settings_load_cards_scrolling">ბარათების ჩატვირთვა გადახვევისას</string>
+    <string name="settings_load_cards_scrolling_desc">უფრო სწრაფი რეაგირება, სიგლუვის ხარჯზე</string>
+    <string name="settings_accent">აქცენტის ფერი</string>
+    <string name="settings_accent_desc">ჩართეთ დინამიკური, რომ ფონს მიჰყვეს</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">სათაურის ჩვენება</string>
+    <string name="settings_show_icon_title">ხატულის ჩვენება სათაურის წინ</string>
+    <string name="settings_rows_spacing">ვერტიკალური დაშორება (ეკრანის სიმაღლის %)</string>
+    <string name="settings_fixed_position">ფოკუსირებული კატეგორიის პოზიციის დაფიქსირება</string>
+    <string name="settings_hide_rows_above">არჩეულის ზემოთ რიგების დამალვა</string>
+    <string name="settings_remember_focus">ფოკუსირებული ბარათის პოზიციის დამახსოვრება</string>
+    <string name="settings_unselected_opacity">არაარჩეული რიგების გაუმჭვირვალობა</string>
+    <string name="settings_top_margin">ზედა დაშორება</string>
+    <string name="settings_start_margin">საწყისი დაშორება</string>
+    <string name="settings_end_margin">ბოლო დაშორება</string>
+    <string name="settings_dock_padding">დოკის შიდა დაშორება</string>
+    <string name="settings_tint_custom_icons">საკუთარი ხატულების შეფერვა</string>
+    <string name="settings_tint_custom_icons_desc">საკუთარი ხატულებისთვის, რომლებსაც ფონი არ აქვს</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">მომრგვალებული კუთხეები</string>
+    <string name="settings_cards_size">ბარათების ზომა</string>
+    <string name="settings_cards_spacing">ბარათებს შორის დაშორება</string>
+    <string name="settings_loop_limit">ანიმირებული ხატულების გამეორების ლიმიტი</string>
+    <string name="settings_ripple">ტალღის ეფექტი ბარათზე დაჭერისას</string>
+    <string name="settings_background_color">ფონის ფერი</string>
+    <string name="settings_focused_card">ფოკუსირებული ბარათი</string>
+    <string name="settings_program_cards">გადაცემის ბარათები</string>
+    <string name="settings_tv_ratio">TV აპების ბარათის გვერდების თანაფარდობა</string>
+    <string name="settings_mobile_ratio">მობილური აპების ბარათის გვერდების თანაფარდობა</string>
+    <string name="settings_icon_pack">ხატულების ნაკრები</string>
+    <string name="settings_icon_pack_none">ხატულების ნაკრები არ არის დაყენებული</string>
+    <string name="settings_icon_pack_off">არცერთი</string>
+    <string name="settings_more">მეტი…</string>
+    <string name="settings_custom_icon_tint">საკუთარი ხატულის შეფერილობა</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">ფოკუსირებული ბარათის ზომა</string>
+    <string name="settings_focused_effect">ფოკუსირებული ბარათის ეფექტი</string>
+    <string name="settings_effect_none">არცერთი</string>
+    <string name="settings_effect_shadow">ჩრდილი</string>
+    <string name="settings_effect_glow">ნათება</string>
+    <string name="settings_glow_animation">ნათების ანიმაცია</string>
+    <string name="settings_anim_none">არცერთი</string>
+    <string name="settings_anim_pulse">პულსი</string>
+    <string name="settings_anim_breath">სუნთქვა</string>
+    <string name="settings_anim_fade">მილევა</string>
+    <string name="settings_anim_shine">ბრწყინვა</string>
+    <string name="settings_glow_size">ნათების ზომა</string>
+    <string name="settings_glow_color">ნათების ფერი</string>
+    <string name="settings_glow_color_desc">დატოვეთ ცარიელი, რომ ბარათის საკუთარი ფერი გამოიყენოს</string>
+    <string name="settings_colors_override">ფერების ჩანაცვლება</string>
+    <string name="settings_override_none">არცერთი</string>
+    <string name="settings_override_swap">ფონისა და შეფერილობის გაცვლა</string>
+    <string name="settings_override_custom">საკუთარი</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">წინასწარი ნახვის ვიდეოს დაკვრა</string>
+    <string name="settings_preview_never">არასდროს</string>
+    <string name="settings_preview_always">ყოველთვის</string>
+    <string name="settings_preview_no_media">როცა ფონური მედია არ უკრავს</string>
+    <string name="settings_show_progress">პროგრესის ზოლის ჩვენება</string>
+    <string name="settings_show_badge">ნიშნის ჩვენება</string>
+    <string name="settings_zoom_focus">გადიდების ეფექტი ფოკუსისას</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">მხარდაჭერილი ფორმატები: სტატიკური სურათი, ანიმირებული GIF, ვიდეო (სტატიკური ან RTSP პირდაპირი ნაკადი), Lottie ანიმაცია</string>
+    <string name="settings_launcher_wallpaper">ლაუნჩერის ფონი</string>
+    <string name="settings_configure">კონფიგურაცია</string>
+    <string name="settings_show_wallpapers">ფონების ჩვენება</string>
+    <string name="settings_picture_adjustment">სურათის რეგულირება</string>
+    <string name="settings_image_transition">სურათის გადასვლა</string>
+    <string name="settings_update_frequency">განახლების სიხშირე (წთ)</string>
+    <string name="settings_video_wallpaper">ვიდეოფონი</string>
+    <string name="settings_display_mode">ჩვენების რეჟიმი</string>
+    <string name="settings_bad_ratio">ცუდი თანაფარდობის/ხარისხის შემთხვევაში</string>
+    <string name="settings_min_width">მინიმალური დასაშვები სიგანე (px)</string>
+    <string name="settings_src_none">არცერთი</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">დინამიკური ფერები</string>
+    <string name="settings_src_default">ნაგულისხმევი ფონი</string>
+    <string name="settings_src_media">მედიაფაილი</string>
+    <string name="settings_src_folder">საქაღალდე</string>
+    <string name="settings_src_focused_program">ფოკუსირებული გადაცემა</string>
+    <string name="settings_src_now_playing">ახლა უკრავს</string>
+    <string name="settings_src_random_program">შემთხვევითი გადაცემა</string>
+    <string name="settings_src_theme">თემა</string>
+    <string name="settings_tr_none">არცერთი</string>
+    <string name="settings_tr_random">შემთხვევითი</string>
+    <string name="settings_tr_fade">მილევა</string>
+    <string name="settings_tr_zoom">გადიდება</string>
+    <string name="settings_tr_hslide">ჰორიზონტალური გასრიალება</string>
+    <string name="settings_tr_vslide">ვერტიკალური გასრიალება</string>
+    <string name="settings_dm_automatic">ავტომატური</string>
+    <string name="settings_dm_skip">გამოტოვება</string>
+    <string name="settings_dm_crop">ამოჭრა</string>
+    <string name="settings_dm_stretch">გაწელვა</string>
+    <string name="settings_dm_fit">ცენტრში მორგება</string>
+    <string name="settings_dm_fit_blur">ცენტრში მორგება + გაბუნდოვნებული ფონი</string>
+    <string name="settings_dm_blur">გაბუნდოვნება</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">ელფერი</string>
+    <string name="settings_saturation">გაჯერება</string>
+    <string name="settings_contrast">კონტრასტი</string>
+    <string name="settings_brightness">სიკაშკაშე</string>
+    <string name="settings_tint">შეფერილობა</string>
+    <string name="settings_tint_amount">შეფერილობის დონე</string>
+    <string name="settings_blur">გაბუნდოვნება</string>
+    <string name="settings_shadow_h">ჰორიზონტალური ჩრდილის ფენის სიგრძე</string>
+    <string name="settings_shadow_v">ვერტიკალური ჩრდილის ფენის სიგრძე</string>
+    <string name="settings_shadow_opacity">ჩრდილის ფენის გაუმჭვირვალობა</string>
+    <string name="settings_shadow_tint">ჩრდილის ფენის შეფერილობა</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">განახლების სიხშირის იგნორირება</string>
+    <string name="settings_ignore_update_desc">ახალი ფონის მოთხოვნამდე ვიდეოს დასრულების ლოდინი</string>
+    <string name="settings_video_color_freq">დინამიკური ფერის განახლების სიხშირე</string>
+    <string name="settings_video_color_freq_desc">წამები ფერებისთვის წაკითხულ ვიდეოკადრებს შორის; 0 გამორთავს</string>
+    <string name="settings_volume">ხმა</string>
+    <string name="settings_tunneling">აპარატური რენდერინგის გამოყენება (ტუნელირება)</string>
+    <string name="settings_decoder_fallback">სარეზერვო დეკოდერების ჩართვა</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">შეტყობინებების ნებართვის მართვა</string>
+    <string name="settings_granted">გაცემულია</string>
+    <string name="settings_not_granted">არ არის გაცემული</string>
+    <string name="settings_notification_adb">ამ მოწყობილობას პარამეტრების ეკრანი არ აქვს. გაეცით ნებართვა ბრძანებით: %1$s</string>
+    <string name="settings_clock">საათი</string>
+    <string name="settings_icons">ხატულები</string>
+    <string name="settings_show_system_bar">სისტემის სტატუსის ზოლის ჩვენება</string>
+    <string name="settings_autohide_status">სტატუსის ზოლის დამალვა გადახვევისას</string>
+    <string name="settings_show_clock">საათის ჩვენება</string>
+    <string name="settings_clock_size">საათის შრიფტის ზომა</string>
+    <string name="settings_clock_color">საათის ფერი</string>
+    <string name="settings_drop_shadow">ჩრდილი</string>
+    <string name="settings_clock_line1">საათის ფორმატი (ხაზი 1)</string>
+    <string name="settings_clock_line2">საათის ფორმატი (ხაზი 2)</string>
+    <string name="settings_clock_default_format">სისტემის ფორმატი</string>
+    <string name="settings_empty">ცარიელი</string>
+    <string name="settings_icons_size">ხატულების ზომა</string>
+    <string name="settings_icons_color">ხატულების ფერი</string>
+    <string name="settings_icons_container">ხატულების კონტეინერის ფერი</string>
+    <string name="settings_show_settings">პარამეტრების ჩვენება</string>
+    <string name="settings_show_settings_desc">პარამეტრები ხელმისაწვდომი რჩება ღილაკების ამ თანმიმდევრობით: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">კავშირის ჩვენება</string>
+    <string name="settings_show_notifications">შეტყობინებების ჩვენება</string>
+    <string name="settings_autohide_notifications">შეტყობინების ხატულის დამალვა, როცა ცარიელია</string>
+    <string name="settings_show_battery">ბატარეის ჩვენება</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">ჩართვა</string>
+    <string name="settings_headers_on_launch">მარცხენა სათაურების ჩვენება გაშვებისას</string>
+    <string name="settings_show_icon">ხატულის ჩვენება</string>
+    <string name="settings_show_reorder">გადალაგების ჩვენება</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">დრო უმოქმედობის რეჟიმამდე (წთ)</string>
+    <string name="settings_idle_opacity">ინტერფეისის გაუმჭვირვალობა</string>
+    <string name="settings_keep_clock">საათის შენარჩუნება</string>
+    <string name="settings_prevent_screensaver">სისტემის ეკრანმზოგის აღკვეთა</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher-ის შრიფტის პარამეტრების შეცვლა. შრიფტის ოჯახების სახელები შეგიძლიათ მოძებნოთ Google Fonts-ზე.</string>
+    <string name="settings_font_list">სიიდან არჩევა</string>
+    <string name="settings_font_google">შრიფტი (Google Fonts)</string>
+    <string name="settings_font_default">ნაგულისხმევი</string>
+    <string name="settings_bold">მუქი</string>
+    <string name="settings_italic">დახრილი</string>
+    <string name="settings_size">ზომა</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">ავტოგაშვება ჩართვისას</string>
+    <string name="settings_autostart_none">არცერთი</string>
+    <string name="settings_autostart_screensaver">[*] ეკრანმზოგი (თუ მხარდაჭერილია)</string>
+    <string name="settings_autostart_resume">…და ლოდინის რეჟიმიდან გამოსვლისასაც</string>
+    <string name="settings_autostart_delay">ავტოგაშვების დაყოვნება (წამი)</string>
+    <string name="settings_simulate_activity">სისტემის ავტომატური გამორთვის აღკვეთა უმოქმედობისას</string>
+    <string name="settings_idle_detection">შიდა უმოქმედობის აღმოჩენის ჩართვა</string>
+    <string name="settings_idle_timeout_power">უმოქმედობის ვადა (სთ:წთ)</string>
+    <string name="settings_idle_action">მოქმედება უმოქმედობისას</string>
+    <string name="settings_idle_action_shutdown">გამორთვა</string>
+    <string name="settings_idle_action_screen_off">ეკრანის გამორთვა</string>
+    <string name="settings_idle_action_screensaver">ეკრანმზოგი (თუ მხარდაჭერილია)</string>
+    <string name="settings_idle_media">უმოქმედობის რეჟიმის იგნორირება მედიის დაკვრისას</string>
+    <string name="settings_missing_notification_permission">⚠️ შეტყობინებების ნებართვა აკლია</string>
+    <string name="settings_shutdown_action">გამორთვის მოქმედება</string>
+    <string name="settings_shutdown_dialog">კვების დიალოგი</string>
+    <string name="settings_shutdown_dialog_twice">კვების დიალოგი (ორჯერ გამოძახება)</string>
+    <string name="settings_shutdown_dialog_ok">კვების დიალოგი + OK</string>
+    <string name="settings_hdmi_exit">ავტომატური გამორთვა, როცა HDMI შესასვლელის სიგნალი წყდება</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">დააყენეთ კოდი არჩეული აპების ჩასაკეტად (ასარჩევად დიდხანს დააჭირეთ ბარათს მთავარ ეკრანზე) მთელი დღით ან დღის ნაწილით</string>
+    <string name="settings_parental_set_code">ახალი მშობლის კოდის დაყენება</string>
+    <string name="settings_parental_code_set">კოდი დაყენებულია</string>
+    <string name="settings_parental_long">წარმატებული დადასტურების შემდეგ 15 წუთის განმავლობაში კოდი არ მოითხოვოს</string>
+    <string name="settings_parental_protect">ლაუნჩერის პარამეტრებისა და ინტერფეისის ცვლილებების დაცვა</string>
+    <string name="settings_parental_protect_desc">(მოქმედებს 24/7)</string>
+    <string name="settings_parental_partial">დაცვის ჩართვა მხოლოდ ამ დროის შუალედში</string>
+    <string name="settings_parental_start">დაწყების დრო (სთ:წთ)</string>
+    <string name="settings_parental_end">დასრულების დრო (სთ:წთ)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">ინფორმაციის ჩვენება „მენიუ“ ღილაკზე ორჯერ დაჭერისას</string>
+    <string name="settings_back_double">„გარემოს რეჟიმი“ „უკან“ ღილაკზე ორჯერ დაჭერისას</string>
+    <string name="settings_back_double_desc">ეკრანმზოგის გაშვება მხარდაჭერილ მოწყობილობებზე</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">ჩართეთ სერვისი, რათა შეასრულოთ მოქმედება ჩართვისას, მოარგოთ პულტის ღილაკები, გააძლიეროთ მშობელთა კონტროლი და აღმოაჩინოთ უმოქმედობა კვების მართვისთვის. ის ხედავს აპარატურული ღილაკების დაჭერებს და წინა პლანზე მყოფი აპის სახელს; ორივე მხოლოდ ამ მოწყობილობის მეხსიერებაში რჩება და არსად იგზავნება.</string>
+    <string name="settings_a11y_enabled">ჩართულია</string>
+    <string name="settings_a11y_started">გაშვებულია</string>
+    <string name="settings_yes">დიახ</string>
+    <string name="settings_no">არა</string>
+    <string name="settings_a11y_open">მარტივი წვდომის პარამეტრების ჩვენება</string>
+    <string name="settings_a11y_consent_title">მარტივი წვდომის სერვისი</string>
+    <string name="settings_a11y_consent">ეს QLauncher-ს საშუალებას აძლევს დაინახოს აპარატურული ღილაკების დაჭერები და წინა პლანზე მყოფი აპის სახელი. ორივე მხოლოდ ამ მოწყობილობის მეხსიერებაში ინახება და არასდროს იგზავნება. ეთანხმებით?</string>
+    <string name="settings_a11y_alternate">ალტერნატიული კონფიგურაციის გამოყენება</string>
+    <string name="settings_a11y_alternate_desc">ასწორებს პრობლემებს ზოგიერთ მოწყობილობაზე</string>
+    <string name="settings_a11y_volume_fix">ხმის ღილაკების გასწორება</string>
+    <string name="settings_a11y_volume_fix_desc">ხმის ღილაკზე დაჭერისას გადანიშვნა მოკლე დროით ჩერდება, რომ ხანგრძლივმა დაჭერებმა იმუშაოს</string>
+    <string name="settings_a11y_remap">ღილაკების გადანიშვნის ჩართვა</string>
+    <string name="settings_a11y_remap_desc">სერვისი გადაჭერს ღილაკების დაჭერებს. ამის გამორთვა აგარიდებთ ხმის ღილაკის ხანგრძლივი დაჭერის პრობლემებს და სისტემის მიერ სერვისის შეჩერებას, მაგრამ ლაუნჩერის ჩანაცვლება, მშობელთა კონტროლი და უმოქმედობის აღმოჩენა შეიძლება ნაკლებად ეფექტური გახდეს.</string>
+    <string name="settings_a11y_reminder">შეხსენების ჩვენება</string>
+    <string name="settings_a11y_reminder_desc">თუ მარტივი წვდომის სერვისი გამორთულია</string>
+    <string name="settings_a11y_unbound_toast">QLauncher-ის მარტივი წვდომის სერვისი არ მუშაობს</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">პარამეტრების იმპორტი ან ექსპორტი ადგილობრივად ან სხვა აპით, მაგალითად LocalSend-ით ან ფაილების მენეჯერით.</string>
+    <string name="settings_import">იმპორტი</string>
+    <string name="settings_import_file">ფაილიდან</string>
+    <string name="settings_import_auto">ავტომატური სარეზერვო ასლიდან</string>
+    <string name="settings_export">ექსპორტი</string>
+    <string name="settings_export_local">ადგილობრივად შენახვა</string>
+    <string name="settings_export_share">სხვა აპით გაზიარება</string>
+    <string name="settings_reset">ნაგულისხმევზე დაბრუნება</string>
+    <string name="settings_cancel">გაუქმება</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">კატეგორია</string>
+    <string name="wp_custom_search">საკუთარი ძიება</string>
+    <string name="wp_reddit_login">შესვლა</string>
+    <string name="wp_reddit_logout">გასვლა: %1$s</string>
+    <string name="wp_reddit_logout_unknown">გასვლა</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">საკუთარი subreddit</string>
+    <string name="wp_custom_subreddit_hint">რამდენიმე სახელი, გამოყოფილი +-ით</string>
+    <string name="wp_folder">საქაღალდე</string>
+    <string name="wp_folder_choose">აირჩიეთ საქაღალდე</string>
+    <string name="wp_media">მედიაფაილი</string>
+    <string name="wp_media_choose">აირჩიეთ ფაილი</string>
+    <string name="wp_choose_other">სხვა მდებარეობა…</string>
+    <string name="wp_choose_other_desc">არჩევა სისტემის ფაილების ამრჩევით</string>
+    <string name="wp_media_searching">სურათებისა და ვიდეოების ძიება…</string>
+    <string name="wp_media_none">სურათები ან ვიდეოები ვერ მოიძებნა. დააკოპირეთ რამდენიმე Pictures-ში, Movies-ში ან Download-ში, ან შეაერთეთ USB დისკი.</string>
+    <string name="wp_folders_description">საქაღალდეები სურათებით ან ვიდეოებით, ამ მოწყობილობაზე და USB დისკებზე.</string>
+    <string name="wp_folders_none">სურათებიანი ან ვიდეოებიანი საქაღალდეები ვერ მოიძებნა</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d ფაილი</item>
+        <item quantity="other">%d ფაილი</item>
+    </plurals>
+    <string name="wp_media_color">ერთფეროვანი ფერი</string>
+    <string name="wp_theme_desc">იმპორტირებული თემის ფონები</string>
+    <string name="wp_plugin_settings">დანამატის პარამეტრები</string>
+    <string name="wp_not_set">არ არის დაყენებული</string>
+    <string name="wp_status">სტატუსი</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">ეს ფონი</string>
+    <string name="wp_next">შემდეგი</string>
+    <string name="wp_source">წყარო</string>
+    <string name="wp_title">სათაური</string>
+    <string name="wp_author">ავტორი</string>
+    <string name="wp_set_user">მომხმარებლის ფონად დაყენება</string>
+    <string name="wp_view">ნახვა</string>
+    <string name="wp_unknown">უცნობი</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">აქ შექმენით და მართეთ ვიდეოს ეკრანის პროფილები. მიაბით ისინი შესასვლელ წყაროებს ავტომატური გადართვისთვის, ან გამოიყენეთ მენიუს ღილაკზე ორჯერ დაჭერით და შემდეგ ზემოთ ან ქვემოთ.</string>
+    <string name="dp_list">ეკრანის პროფილების სია</string>
+    <string name="dp_list_desc">აქ შექმენით ან შეცვალეთ ვიდეოს ეკრანის პროფილები. მოწყობილობის მიხედვით, ზოგიერთ მართვის ელემენტს root სჭირდება ან საერთოდ არ მუშაობს; ისინი AmLogic მოწყობილობებისთვისაა განკუთვნილი.</string>
+    <string name="dp_add">ახლის დამატება…</string>
+    <string name="dp_name">პროფილის სახელი</string>
+    <string name="dp_preview">წინასწარი ნახვა</string>
+    <string name="dp_fullscreen">სრულეკრანიანი წინასწარი ნახვა</string>
+    <string name="dp_fullscreen_desc">ან გადართეთ მენიუს ღილაკით</string>
+    <string name="dp_delete">პროფილის წაშლა</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">მესამე მხარის აპების დაყენება</string>
+    <string name="install_desc">აირჩიეთ დასაყენებელი აპი. შეიძლება ჯერ დაგჭირდეთ უცნობი წყაროებიდან დაყენების დაშვება.</string>
+    <string name="install_custom">საკუთარი URL / Downloader-ის კოდი</string>
+    <string name="install_custom_desc">გამოიყენეთ მხოლოდ სანდო წყარო</string>
+    <string name="install_status">სტატუსი</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">ეს მოწყობილობა</string>
+
+    <string name="gallery_filter">ფილტრი…</string>
+    <string name="settings_no_file_picker">ამ მოწყობილობას ფაილების ამრჩევი არ აქვს</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">ნათელობა</string>
+    <string name="color_opacity">გაუმჭვირვალობა</string>
+    <string name="color_prefer_dynamic">დინამიკური ფერის უპირატესობა</string>
+    <string name="color_prefer_dynamic_desc">თუ ხელმისაწვდომია, შეინარჩუნებს ამ ნათელობას/გაუმჭვირვალობას</string>
+    <string name="color_clear">გასუფთავება</string>
+    <string name="color_reset">ნაგულისხმევზე დაბრუნება</string>
+</resources>

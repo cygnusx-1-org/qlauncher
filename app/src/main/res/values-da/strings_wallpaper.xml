@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Ingen</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dynamiske farver</string>
+    <string name="wallpaper_provider_default">Standardbaggrund</string>
+    <string name="wallpaper_provider_media_file">Mediefil</string>
+    <string name="wallpaper_provider_folder">Mappe</string>
+    <string name="wallpaper_provider_focused_program">Program i fokus</string>
+    <string name="wallpaper_provider_now_playing">Afspilles nu</string>
+    <string name="wallpaper_provider_random_program">Tilfældigt program</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Plugin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Baggrunde</string>
+    <string name="wallpaper_wikimedia_nature">Natur</string>
+    <string name="wallpaper_wikimedia_landscapes">Landskaber</string>
+    <string name="wallpaper_wikimedia_mountains">Bjerge</string>
+    <string name="wallpaper_wikimedia_forests">Skove</string>
+    <string name="wallpaper_wikimedia_cities">Byer</string>
+    <string name="wallpaper_wikimedia_architecture">Arkitektur</string>
+    <string name="wallpaper_wikimedia_night">Nat</string>
+    <string name="wallpaper_wikimedia_space">Rummet</string>
+    <string name="wallpaper_wikimedia_animals">Dyr</string>
+    <string name="wallpaper_wikimedia_custom">[Tilpasset søgning]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Tilpasset subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Log ud</string>
+    <string name="wallpaper_reddit_login_needed">Log ind på Reddit for at se baggrunde derfra.</string>
+    <string name="wallpaper_reddit_login_title">Log ind på Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Logger ind…</string>
+    <string name="wallpaper_reddit_login_denied">Der blev ikke givet adgang til Reddit, så Reddit-baggrundene forbliver utilgængelige.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Svaret fra Reddit passede ikke til dette loginforsøg og blev ignoreret. Prøv igen.</string>
+    <string name="wallpaper_reddit_login_failed">Login på Reddit mislykkedes (%1$s). Prøv igen senere.</string>
+    <string name="wallpaper_reddit_login_network">Reddit kunne ikke nås. Tjek netværksforbindelsen, og prøv igen.</string>
+    <string name="wallpaper_reddit_login_page_error">Reddits loginside kunne ikke indlæses. Tjek netværksforbindelsen, og prøv igen.</string>
+    <string name="wallpaper_reddit_no_webview">Denne enhed har ingen webbrowserkomponent (Android System WebView), som Reddit-login kræver. Installer eller aktivér Android System WebView, og prøv igen.</string>
+    <string name="wallpaper_reddit_retry">Prøv igen</string>
+    <string name="wallpaper_reddit_close">Luk</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Ingen forbindelse til baggrundskilden.</string>
+    <string name="wallpaper_error_server">Baggrundskilden svarede med en fejl.</string>
+    <string name="wallpaper_error_rate_limited">Baggrundskilden bad om at vente før næste anmodning.</string>
+    <string name="wallpaper_error_generic">Baggrundene kunne ikke indlæses.</string>
+    <string name="wallpaper_error_no_media">Der er ikke valgt et billede, en video eller en farve.</string>
+    <string name="wallpaper_error_no_folder">Der er ikke valgt en mappe.</string>
+    <string name="wallpaper_error_folder_access">Mappen kan ikke læses. Vælg den igen.</string>
+    <string name="wallpaper_error_folder_empty">Mappen indeholder ingen billeder, videoer eller Lottie-animationer.</string>
+    <string name="wallpaper_error_theme_empty">Det aktuelle tema har ingen baggrunde.</string>
+    <string name="wallpaper_error_no_channels">Kanaler er ikke tilgængelige. Aktivér dem, og giv adgang til tv-guiden.</string>
+    <string name="wallpaper_error_no_notification_access">»Afspilles nu« kræver adgang til notifikationer.</string>
+    <string name="wallpaper_error_no_subreddit">Der er ikke angivet en gyldig subreddit.</string>
+    <string name="wallpaper_error_plugin">Baggrundspluginet svarede ikke.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Baggrund angivet</string>
+    <string name="wallpaper_set_failed">Denne fil kan ikke bruges som baggrund.</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Tidak ada</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Warna dinamis</string>
+    <string name="wallpaper_provider_default">Wallpaper default</string>
+    <string name="wallpaper_provider_media_file">File media</string>
+    <string name="wallpaper_provider_folder">Folder</string>
+    <string name="wallpaper_provider_focused_program">Program yang difokuskan</string>
+    <string name="wallpaper_provider_now_playing">Sedang Diputar</string>
+    <string name="wallpaper_provider_random_program">Program acak</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Plugin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Wallpaper</string>
+    <string name="wallpaper_wikimedia_nature">Alam</string>
+    <string name="wallpaper_wikimedia_landscapes">Lanskap</string>
+    <string name="wallpaper_wikimedia_mountains">Pegunungan</string>
+    <string name="wallpaper_wikimedia_forests">Hutan</string>
+    <string name="wallpaper_wikimedia_cities">Kota</string>
+    <string name="wallpaper_wikimedia_architecture">Arsitektur</string>
+    <string name="wallpaper_wikimedia_night">Malam</string>
+    <string name="wallpaper_wikimedia_space">Luar angkasa</string>
+    <string name="wallpaper_wikimedia_animals">Hewan</string>
+    <string name="wallpaper_wikimedia_custom">[Penelusuran kustom]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit kustom]</string>
+    <string name="wallpaper_reddit_log_out">Keluar</string>
+    <string name="wallpaper_reddit_login_needed">Masuk ke Reddit untuk melihat wallpaper dari sana.</string>
+    <string name="wallpaper_reddit_login_title">Masuk ke Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Sedang masuk…</string>
+    <string name="wallpaper_reddit_login_denied">Akses Reddit tidak diberikan, sehingga wallpaper Reddit tetap tidak tersedia.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Jawaban dari Reddit tidak cocok dengan upaya masuk ini sehingga diabaikan. Coba lagi.</string>
+    <string name="wallpaper_reddit_login_failed">Gagal masuk ke Reddit (%1$s). Coba lagi nanti.</string>
+    <string name="wallpaper_reddit_login_network">Reddit tidak dapat dijangkau. Periksa koneksi jaringan, lalu coba lagi.</string>
+    <string name="wallpaper_reddit_login_page_error">Halaman login Reddit tidak dapat dimuat. Periksa koneksi jaringan, lalu coba lagi.</string>
+    <string name="wallpaper_reddit_no_webview">Perangkat ini tidak memiliki komponen browser web (Android System WebView) yang diperlukan untuk login Reddit. Instal atau aktifkan Android System WebView, lalu coba lagi.</string>
+    <string name="wallpaper_reddit_retry">Coba lagi</string>
+    <string name="wallpaper_reddit_close">Tutup</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Tidak ada koneksi ke sumber wallpaper.</string>
+    <string name="wallpaper_error_server">Sumber wallpaper merespons dengan error.</string>
+    <string name="wallpaper_error_rate_limited">Sumber wallpaper meminta untuk menunggu sebelum permintaan berikutnya.</string>
+    <string name="wallpaper_error_generic">Wallpaper tidak dapat dimuat.</string>
+    <string name="wallpaper_error_no_media">Belum ada gambar, video, atau warna yang dipilih.</string>
+    <string name="wallpaper_error_no_folder">Belum ada folder yang dipilih.</string>
+    <string name="wallpaper_error_folder_access">Folder tidak dapat dibaca. Pilih folder itu lagi.</string>
+    <string name="wallpaper_error_folder_empty">Folder tidak berisi gambar, video, atau animasi Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Tema saat ini tidak memiliki wallpaper.</string>
+    <string name="wallpaper_error_no_channels">Channel tidak tersedia. Aktifkan channel dan izinkan akses ke daftar acara TV.</string>
+    <string name="wallpaper_error_no_notification_access">Sedang Diputar memerlukan akses notifikasi.</string>
+    <string name="wallpaper_error_no_subreddit">Belum ada subreddit valid yang ditetapkan.</string>
+    <string name="wallpaper_error_plugin">Plugin wallpaper tidak merespons.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Wallpaper disetel</string>
+    <string name="wallpaper_set_failed">File ini tidak dapat digunakan sebagai wallpaper.</string>
+</resources>

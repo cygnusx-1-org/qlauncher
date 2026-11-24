@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Afspilles nu</string>
+    <string name="home_cat_inputs">Indgange</string>
+    <string name="home_cat_favorites">Favoritter</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Musik</string>
+    <string name="home_cat_games">Spil</string>
+    <string name="home_cat_tv_apps">Tv-apps</string>
+    <string name="home_cat_mobile_apps">Mobilapps</string>
+    <string name="home_cat_watch_next">Fortsæt med at se</string>
+    <string name="home_cat_shortcuts">Genveje</string>
+    <string name="home_cat_folders">Kategorimapper</string>
+    <string name="home_cat_live_tv">Live-tv</string>
+    <string name="home_cat_settings">Indstillinger</string>
+    <string name="home_cat_display">Skærm</string>
+    <string name="home_cat_applications">Apps</string>
+    <string name="home_cat_system">System</string>
+    <string name="home_cat_about">Om</string>
+    <string name="home_new_category">Ny kategori</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Alle apps</string>
+    <string name="home_action_edit_categories">Rediger kategorier</string>
+    <string name="home_action_edit_channels">Rediger kanaler</string>
+    <string name="home_action_launcher_settings">QLauncher-indstillinger</string>
+    <string name="home_action_android_settings">Android-indstillinger</string>
+    <string name="home_action_amlogic_settings">Ekstra AmLogic-indstillinger</string>
+    <string name="home_action_display_profiles">Skærmprofiler</string>
+    <string name="home_action_install_apps">Installer tredjepartsapps</string>
+    <string name="home_action_accessibility">Hjælpefunktionstjeneste</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Skift profil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Denne enhed</string>
+    <string name="home_action_about_wallpaper">Denne baggrund</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Sæson %1$s</string>
+    <string name="home_episode">Afsnit %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Forbindelse</string>
+    <string name="home_status_notifications">Notifikationer</string>
+    <string name="home_status_settings">Indstillinger</string>
+    <string name="home_status_wallpaper">Denne baggrund</string>
+    <string name="home_navigation_menu">Navigationsmenu</string>
+    <string name="home_reorder">Skift rækkefølge</string>
+    <string name="home_category_settings">Kategoriindstillinger</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Appindstillinger</string>
+    <string name="menu_open">Åbn</string>
+    <string name="menu_details">Detaljer</string>
+    <string name="menu_play_pause">Afspil/pause</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_previous">Forrige</string>
+    <string name="menu_next">Næste</string>
+    <string name="menu_uninstall">Afinstaller</string>
+    <string name="menu_launch_on_boot">Start ved opstart</string>
+    <string name="menu_launch_on_boot_on">Starter ved opstart</string>
+    <string name="menu_add_parental">Føj til forældrekontrol</string>
+    <string name="menu_remove_parental">Fjern fra forældrekontrol</string>
+    <string name="menu_shortcuts">Genveje</string>
+    <string name="menu_appearance">Udseende</string>
+    <string name="menu_title">Titel</string>
+    <string name="menu_change_icon">Skift ikon</string>
+    <string name="menu_icon_from_picture">Fra billede</string>
+    <string name="menu_icon_other_location">Anden placering…</string>
+    <string name="menu_icon_no_pictures">Ingen billeder fundet. Kopiér nogle til Pictures eller Download, eller sæt et USB-drev i.</string>
+    <string name="menu_icon_reset">Nulstil</string>
+    <string name="menu_crop">Beskær for at udfylde</string>
+    <string name="menu_visibility">Synlighed</string>
+    <string name="menu_reorder">Skift rækkefølge</string>
+    <string name="menu_remove_from">Fjern fra %1$s</string>
+    <string name="menu_hide">Skjul</string>
+    <string name="menu_add_to">Føj til…</string>
+    <string name="menu_move_to">Flyt til…</string>
+    <string name="menu_channels">Kanaler</string>
+    <string name="menu_rename_hint">Skriv en ny titel, og tryk på OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Titel</string>
+    <string name="editor_change_icon">Skift ikon</string>
+    <string name="editor_visible">Synlig</string>
+    <string name="editor_grid">Gitter</string>
+    <string name="editor_sliding_row">Glidende række</string>
+    <string name="editor_background">Baggrundsfarve</string>
+    <string name="editor_show_title">Vis titel</string>
+    <string name="editor_size">Størrelse</string>
+    <string name="editor_advanced">Avancerede indstillinger</string>
+    <string name="editor_start_margin">Startmargen</string>
+    <string name="editor_end_margin">Slutmargen</string>
+    <string name="editor_top_margin">Topmargen</string>
+    <string name="editor_cards_per_row">Kort pr. række</string>
+    <string name="editor_row_count">Antal rækker</string>
+    <string name="editor_auto">Automatisk</string>
+    <string name="editor_auto_value">Automatisk (%1$s)</string>
+    <string name="editor_sort">Sortering</string>
+    <string name="editor_sort_custom">Tilpasset</string>
+    <string name="editor_sort_name">Alfabetisk</string>
+    <string name="editor_sort_last">Senest brugt</string>
+    <string name="editor_sort_most">Ofte brugt</string>
+    <string name="editor_sort_random">Tilfældig</string>
+    <string name="editor_set_default">Angiv som standard</string>
+    <string name="editor_is_default">Standardkategori</string>
+    <string name="editor_manage_apps">Administrer apps</string>
+    <string name="editor_hidden_items">Skjulte elementer</string>
+    <string name="editor_restore">Gendan</string>
+    <string name="editor_delete">Slet</string>
+    <string name="editor_delete_confirm">Vil du slette denne kategori?</string>
+    <string name="editor_empty_note">Denne kategori vises ikke endnu, fordi den er tom</string>
+    <string name="editor_request_notifications">Anmod om tilladelse til notifikationer</string>
+    <string name="editor_channel_error">Denne kanal kan ikke længere læses</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanaler</string>
+    <string name="channels_count">%1$d kanaler</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Notifikationer</string>
+    <string name="notifications_clear_all">Ryd alle</string>
+    <string name="notifications_empty">Ingen notifikationer</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Denne app kan ikke åbnes</string>
+    <string name="home_reorder_hint">Brug venstre/højre til at flytte, OK eller TILBAGE for at afslutte</string>
+    <string name="home_category_reorder_hint">Brug op/ned til at flytte, OK eller TILBAGE for at afslutte</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Velkommen!</string>
+    <string name="firstrun_welcome_text">QLauncher er en launcher til Android TV. Den samler dine apps, kanaler og dit yndlingsindhold på én startskærm, som du kan tilpasse, med en skiftende baggrund bagved.</string>
+    <string name="firstrun_features_title">Dine nye superkræfter</string>
+    <string name="firstrun_features_text">Start en app eller en HDMI-indgang ved opstart, administrer skærmprofiler, lås apps med forældrekontrol, vis kalibreringsmønstre, registrer inaktivitet, og tilpas alle dele af startskærmen. Nogle funktioner afhænger af din enhed.</string>
+    <string name="firstrun_a11y_title">Hjælpefunktioner, tak</string>
+    <string name="firstrun_a11y_text">Mange funktioner kræver QLaunchers hjælpefunktionstjeneste: at erstatte den forudinstallerede launcher, handlinger ved opstart, knapgenveje på fjernbetjeningen, registrering af inaktivitet og forældrekontrol. Du kan slå den til nu eller senere i indstillingerne.</string>
+    <string name="firstrun_a11y_open">Åbn indstillinger for hjælpefunktioner</string>
+    <string name="firstrun_permissions_title">Hvis jeg må…</string>
+    <string name="firstrun_permissions_text">Dernæst beder QLauncher om tilladelse til at læse tv-guiden (til kanaler og »Fortsæt med at se«) og om adgang til notifikationer (til notifikationsikonet og »Afspilles nu«). Begge dele er valgfrie.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Dernæst beder QLauncher om adgang til notifikationer (til notifikationsikonet og »Afspilles nu«). Det er valgfrit.</string>
+    <string name="firstrun_notifications_dialog">Vil du tillade adgang til notifikationer?</string>
+    <string name="firstrun_notifications_text">Med adgang til notifikationer kan QLauncher vise et antal notifikationer, et notifikationspanel og det, der afspilles. »Ja« åbner siden Særlig appadgang, hvor du giver adgangen.</string>
+    <string name="firstrun_reports_title">Vil du sende anonyme fejlrapporter?</string>
+    <string name="firstrun_reports_text">Hvis QLauncher går ned eller støder på en fejl, kan den sende en rapport med appversionen og enhedsmodellen, så fejlen kan rettes. Intet, der identificerer dig eller det, du ser, bliver sendt. Du kan ændre det senere under Generelt.</string>
+    <string name="firstrun_launcher_title">Gør QLauncher til din startskærm</string>
+    <string name="firstrun_launcher_text">Mange tv-enheder lader dig ikke skifte standardlauncher. Hvis din gør, så vælg QLauncher dér. Ellers skal du slå hjælpefunktionstjenesten til med »Tilsidesæt nuværende launcher«, så kommer QLauncher tilbage, hver gang den forudinstallerede launcher åbnes.</string>
+    <string name="firstrun_launcher_open">Skift standardlauncher</string>
+    <string name="firstrun_start_title">Tid til at komme i gang!</string>
+    <string name="firstrun_start_text">Alt kan ændres senere i indstillingerne. Tryk på indstillingsknappen øverst til højre, eller brug tastesekvensen ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">KOM I GANG</string>
+    <string name="firstrun_next">Næste</string>
+    <string name="firstrun_skip">Spring over</string>
+    <string name="firstrun_yes">Ja</string>
+    <string name="firstrun_no">Nej</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Ingen pauseskærm på denne enhed</string>
+</resources>

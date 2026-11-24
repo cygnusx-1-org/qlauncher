@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">वर्शन %1$s</string>
+    <string name="about_copyright">कॉपीराइट © 2026 QLauncher योगदानकर्ता। GNU General Public License, वर्शन 3 के तहत मुफ़्त सॉफ़्टवेयर।</string>
+    <string name="about_libs">लाइब्रेरी / आभार</string>
+    <string name="about_links">लिंक</string>
+    <string name="about_link_project">प्रोजेक्ट पेज</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">हिंदी अनुवाद</string>
+    <string name="about_translation_credit">QLauncher योगदानकर्ता</string>
+    <string name="about_no_browser">इस डिवाइस पर कोई ब्राउज़र नहीं है। %1$s को किसी दूसरे डिवाइस पर खोलें।</string>
+    <string name="about_check_updates">अपडेट की जांच करें</string>
+    <string name="about_update_checking">जांच की जा रही है…</string>
+    <string name="about_update_latest">QLauncher अप-टू-डेट है (%1$s)</string>
+    <string name="about_update_available">वर्शन %1$s उपलब्ध है</string>
+    <string name="about_update_failed">जांच नहीं हो सकी: %1$s</string>
+    <string name="about_update_install">QLauncher %1$s इंस्टॉल करें</string>
+    <string name="update_available_toast">QLauncher %1$s उपलब्ध है: सेटिंग › इसके बारे में › QLauncher</string>
+</resources>

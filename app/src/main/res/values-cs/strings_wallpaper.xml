@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Žádná</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dynamické barvy</string>
+    <string name="wallpaper_provider_default">Výchozí tapeta</string>
+    <string name="wallpaper_provider_media_file">Mediální soubor</string>
+    <string name="wallpaper_provider_folder">Složka</string>
+    <string name="wallpaper_provider_focused_program">Vybraný pořad</string>
+    <string name="wallpaper_provider_now_playing">Právě hraje</string>
+    <string name="wallpaper_provider_random_program">Náhodný pořad</string>
+    <string name="wallpaper_provider_theme">Motiv</string>
+    <string name="wallpaper_provider_unknown_plugin">Doplněk</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Tapety</string>
+    <string name="wallpaper_wikimedia_nature">Příroda</string>
+    <string name="wallpaper_wikimedia_landscapes">Krajiny</string>
+    <string name="wallpaper_wikimedia_mountains">Hory</string>
+    <string name="wallpaper_wikimedia_forests">Lesy</string>
+    <string name="wallpaper_wikimedia_cities">Města</string>
+    <string name="wallpaper_wikimedia_architecture">Architektura</string>
+    <string name="wallpaper_wikimedia_night">Noc</string>
+    <string name="wallpaper_wikimedia_space">Vesmír</string>
+    <string name="wallpaper_wikimedia_animals">Zvířata</string>
+    <string name="wallpaper_wikimedia_custom">[Vlastní hledání]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Vlastní subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Odhlásit se</string>
+    <string name="wallpaper_reddit_login_needed">Chcete-li vidět tapety z Redditu, přihlaste se k Redditu.</string>
+    <string name="wallpaper_reddit_login_title">Přihlášení k Redditu</string>
+    <string name="wallpaper_reddit_login_signing_in">Přihlašování…</string>
+    <string name="wallpaper_reddit_login_denied">Přístup k Redditu nebyl udělen, tapety z Redditu proto zůstanou nedostupné.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Odpověď z Redditu neodpovídala tomuto pokusu o přihlášení, a proto byla ignorována. Zkuste to znovu.</string>
+    <string name="wallpaper_reddit_login_failed">Přihlášení k Redditu se nezdařilo (%1$s). Zkuste to později.</string>
+    <string name="wallpaper_reddit_login_network">Reddit není dostupný. Zkontrolujte připojení k síti a zkuste to znovu.</string>
+    <string name="wallpaper_reddit_login_page_error">Přihlašovací stránku Redditu nelze načíst. Zkontrolujte připojení k síti a zkuste to znovu.</string>
+    <string name="wallpaper_reddit_no_webview">Toto zařízení nemá komponentu webového prohlížeče (Android System WebView), kterou přihlášení k Redditu potřebuje. Nainstalujte nebo zapněte Android System WebView a zkuste to znovu.</string>
+    <string name="wallpaper_reddit_retry">Zkusit znovu</string>
+    <string name="wallpaper_reddit_close">Zavřít</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Žádné připojení ke zdroji tapet.</string>
+    <string name="wallpaper_error_server">Zdroj tapet odpověděl chybou.</string>
+    <string name="wallpaper_error_rate_limited">Zdroj tapet požádal o počkání před dalším požadavkem.</string>
+    <string name="wallpaper_error_generic">Tapety nelze načíst.</string>
+    <string name="wallpaper_error_no_media">Nebyl vybrán žádný obrázek, video ani barva.</string>
+    <string name="wallpaper_error_no_folder">Nebyla vybrána žádná složka.</string>
+    <string name="wallpaper_error_folder_access">Složku nelze přečíst. Vyberte ji znovu.</string>
+    <string name="wallpaper_error_folder_empty">Složka neobsahuje žádné obrázky, videa ani animace Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Aktuální motiv nemá žádné tapety.</string>
+    <string name="wallpaper_error_no_channels">Kanály nejsou k dispozici. Zapněte je a povolte přístup k TV programu.</string>
+    <string name="wallpaper_error_no_notification_access">Funkce Právě hraje vyžaduje přístup k oznámením.</string>
+    <string name="wallpaper_error_no_subreddit">Není nastaven žádný platný subreddit.</string>
+    <string name="wallpaper_error_plugin">Doplněk tapet neodpověděl.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Tapeta byla nastavena</string>
+    <string name="wallpaper_set_failed">Tento soubor nelze použít jako tapetu.</string>
+</resources>

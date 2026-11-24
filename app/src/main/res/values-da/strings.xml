@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Angiv som QLauncher-baggrund</string>
+    <string name="import_settings">Importér i QLauncher</string>
+    <string name="accessibility_service_description">QLauncher ser tryk på hardwaretaster og navnet på appen i forgrunden for at tilsidesætte den forudinstallerede launcher, køre handlinger ved opstart, omtildele fjernbetjeningens knapper, registrere inaktivitet og håndhæve forældrekontrol. Begge dele bliver i hukommelsen på denne enhed og sendes aldrig nogen steder hen.</string>
+</resources>

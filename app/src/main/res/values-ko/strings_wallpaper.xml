@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">없음</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">다이내믹 색상</string>
+    <string name="wallpaper_provider_default">기본 배경화면</string>
+    <string name="wallpaper_provider_media_file">미디어 파일</string>
+    <string name="wallpaper_provider_folder">폴더</string>
+    <string name="wallpaper_provider_focused_program">포커스된 프로그램</string>
+    <string name="wallpaper_provider_now_playing">재생 중</string>
+    <string name="wallpaper_provider_random_program">무작위 프로그램</string>
+    <string name="wallpaper_provider_theme">테마</string>
+    <string name="wallpaper_provider_unknown_plugin">플러그인</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">배경화면</string>
+    <string name="wallpaper_wikimedia_nature">자연</string>
+    <string name="wallpaper_wikimedia_landscapes">풍경</string>
+    <string name="wallpaper_wikimedia_mountains">산</string>
+    <string name="wallpaper_wikimedia_forests">숲</string>
+    <string name="wallpaper_wikimedia_cities">도시</string>
+    <string name="wallpaper_wikimedia_architecture">건축</string>
+    <string name="wallpaper_wikimedia_night">밤</string>
+    <string name="wallpaper_wikimedia_space">우주</string>
+    <string name="wallpaper_wikimedia_animals">동물</string>
+    <string name="wallpaper_wikimedia_custom">[맞춤 검색]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[맞춤 서브레딧]</string>
+    <string name="wallpaper_reddit_log_out">로그아웃</string>
+    <string name="wallpaper_reddit_login_needed">Reddit의 배경화면을 보려면 Reddit에 로그인하세요.</string>
+    <string name="wallpaper_reddit_login_title">Reddit에 로그인</string>
+    <string name="wallpaper_reddit_login_signing_in">로그인 중…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit 액세스 권한이 부여되지 않아 Reddit 배경화면을 계속 사용할 수 없습니다.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit의 응답이 이번 로그인 시도와 일치하지 않아 무시되었습니다. 다시 시도하세요.</string>
+    <string name="wallpaper_reddit_login_failed">Reddit 로그인에 실패했습니다(%1$s). 나중에 다시 시도하세요.</string>
+    <string name="wallpaper_reddit_login_network">Reddit에 연결할 수 없습니다. 네트워크 연결을 확인하고 다시 시도하세요.</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit 로그인 페이지를 로드할 수 없습니다. 네트워크 연결을 확인하고 다시 시도하세요.</string>
+    <string name="wallpaper_reddit_no_webview">이 기기에는 Reddit 로그인에 필요한 웹 브라우저 구성요소(Android System WebView)가 없습니다. Android System WebView를 설치하거나 사용 설정한 후 다시 시도하세요.</string>
+    <string name="wallpaper_reddit_retry">다시 시도</string>
+    <string name="wallpaper_reddit_close">닫기</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">배경화면 소스에 연결되어 있지 않습니다.</string>
+    <string name="wallpaper_error_server">배경화면 소스에서 오류를 반환했습니다.</string>
+    <string name="wallpaper_error_rate_limited">배경화면 소스에서 다음 요청 전에 기다리도록 요청했습니다.</string>
+    <string name="wallpaper_error_generic">배경화면을 로드할 수 없습니다.</string>
+    <string name="wallpaper_error_no_media">선택된 사진, 동영상 또는 색상이 없습니다.</string>
+    <string name="wallpaper_error_no_folder">선택된 폴더가 없습니다.</string>
+    <string name="wallpaper_error_folder_access">폴더를 읽을 수 없습니다. 다시 선택하세요.</string>
+    <string name="wallpaper_error_folder_empty">폴더에 사진, 동영상 또는 Lottie 애니메이션이 없습니다.</string>
+    <string name="wallpaper_error_theme_empty">현재 테마에 배경화면이 없습니다.</string>
+    <string name="wallpaper_error_no_channels">채널을 사용할 수 없습니다. 채널을 사용 설정하고 TV 편성표에 대한 액세스를 허용하세요.</string>
+    <string name="wallpaper_error_no_notification_access">“재생 중”에는 알림 액세스가 필요합니다.</string>
+    <string name="wallpaper_error_no_subreddit">유효한 서브레딧이 설정되지 않았습니다.</string>
+    <string name="wallpaper_error_plugin">배경화면 플러그인이 응답하지 않았습니다.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">배경화면이 설정되었습니다</string>
+    <string name="wallpaper_set_failed">이 파일은 배경화면으로 사용할 수 없습니다.</string>
+</resources>

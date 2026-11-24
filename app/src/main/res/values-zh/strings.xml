@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">设为 QLauncher 壁纸</string>
+    <string name="import_settings">导入到 QLauncher</string>
+    <string name="accessibility_service_description">QLauncher 会获取硬件按键操作和前台应用的名称，以便接管系统自带的启动器、在开机时执行操作、重新映射遥控器按键、检测闲置时间以及实施家长控制。这两项信息都只保存在本设备的内存中，绝不会发送到任何地方。</string>
+</resources>

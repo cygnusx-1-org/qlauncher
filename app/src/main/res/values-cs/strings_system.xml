@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Zadejte libovolnou kombinaci šipek/číslic a potvrďte tlačítkem OK</string>
+    <string name="system_parental_confirm_code">Zadejte kód znovu a potvrďte tlačítkem OK</string>
+    <string name="system_parental_restricted">Omezený přístup\nZadejte rodičovský kód</string>
+    <string name="system_parental_wrong_code">Nesprávný kód</string>
+    <string name="system_parental_codes_differ">Kódy se neshodují, zkuste to znovu</string>
+    <string name="system_parental_code_saved">Rodičovský kód byl uložen</string>
+    <string name="system_parental_recovery_code">Kód pro obnovení: %1$s</string>
+    <string name="system_parental_recovery_help">Zapište si ho: zobrazí se jen tentokrát. Zadaný šipkami (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) odemyká stejně jako rodičovský kód.</string>
+    <string name="system_parental_press_ok">Pokračujte stisknutím OK</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Zkratky dálkového ovladače</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Domů</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Změnit vstup</string>
+    <string name="system_hotkeys_change_profile">Změnit profil zobrazení</string>
+    <string name="system_hotkeys_start_launcher">Spustit QLauncher</string>
+    <string name="system_hotkeys_home">Otevřít QLauncher; dvakrát: nedávné aplikace</string>
+    <string name="system_hotkeys_close">Zavřít tuto nápovědu</string>
+    <string name="system_hotkeys_no_inputs">Toto zařízení nemá žádné TV vstupy</string>
+    <string name="system_hotkeys_no_picture_manager">Není načten žádný správce obrazu</string>
+    <string name="system_hotkeys_home_off">Vypnuto: vyžaduje „Nahradit současný launcher“ a přemapování tlačítek</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Zjištěna nečinnost uživatele, vypnutí za %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Zjištěna nečinnost uživatele, vypnutí obrazovky za %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Zjištěna nečinnost uživatele, spořič obrazovky za %1$d s</string>
+    <string name="system_idle_countdown_cancel">Zrušíte stisknutím libovolného tlačítka</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Toto zařízení nemá zkratku do nastavení přístupnosti. Otevřete je z nastavení Androidu, obvykle v části Předvolby zařízení › Přístupnost.</string>
+    <string name="system_notification_access_no_settings">Toto zařízení nemá obrazovku přístupu k oznámením. Udělte přístup z počítače příkazem:</string>
+</resources>

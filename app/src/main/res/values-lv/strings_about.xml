@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versija %1$s</string>
+    <string name="about_copyright">Autortiesības © 2026 QLauncher līdzstrādnieki. Brīvā programmatūra, ko aizsargā GNU General Public License 3. versija.</string>
+    <string name="about_libs">Bibliotēkas / pateicības</string>
+    <string name="about_links">Saites</string>
+    <string name="about_link_project">Projekta lapa</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Tulkojums latviešu valodā</string>
+    <string name="about_translation_credit">QLauncher līdzstrādnieki</string>
+    <string name="about_no_browser">Šajā ierīcē nav pārlūka. Atveriet %1$s citā ierīcē.</string>
+    <string name="about_check_updates">Meklēt atjauninājumus</string>
+    <string name="about_update_checking">Notiek pārbaude…</string>
+    <string name="about_update_latest">Jums ir jaunākā QLauncher versija (%1$s)</string>
+    <string name="about_update_available">Pieejama versija %1$s</string>
+    <string name="about_update_failed">Neizdevās pārbaudīt: %1$s</string>
+    <string name="about_update_install">Instalēt QLauncher %1$s</string>
+    <string name="update_available_toast">Pieejama QLauncher %1$s: Iestatījumi › Par › QLauncher</string>
+</resources>

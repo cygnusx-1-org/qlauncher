@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">रद्द करें</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">सभी ऐप्स</string>
+    <string name="apps_action_edit_categories">श्रेणियां संपादित करें</string>
+    <string name="apps_action_edit_channels">चैनल संपादित करें</string>
+    <string name="apps_action_launcher_settings">QLauncher सेटिंग</string>
+    <string name="apps_action_android_settings">Android सेटिंग</string>
+    <string name="apps_action_amlogic_settings">AmLogic की अतिरिक्त सेटिंग</string>
+    <string name="apps_action_display_profiles">डिसप्ले प्रोफ़ाइल</string>
+    <string name="apps_action_install_apps">तीसरे पक्ष के ऐप्स इंस्टॉल करें</string>
+    <string name="apps_action_accessibility_service">सुलभता सेवा</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">प्रोफ़ाइल बदलें</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">यह डिवाइस</string>
+    <string name="apps_action_about_wallpaper">यह वॉलपेपर</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">कोई नहीं</string>
+    <string name="apps_autostart_screensaver">स्क्रीन सेवर</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">चैनल</string>
+    <string name="apps_channels_watch_next">अगला देखें</string>
+    <string name="apps_channels_unreadable">यह चैनल अब पढ़ा नहीं जा सकता</string>
+    <string name="apps_channels_hidden">सिस्टम ने छिपाया है</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d चैनल</item>
+        <item quantity="other">%d चैनल</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">आइकॉन पैक लागू करें</string>
+    <string name="apps_iconpack_apply_message">अपने ऐप्स के आइकॉन के लिए %1$s का इस्तेमाल करें?</string>
+    <string name="apps_iconpack_apply_confirm">लागू करें</string>
+    <string name="apps_iconpack_applied">आइकॉन पैक लागू किया गया</string>
+    <string name="apps_iconpack_apply_missing">किसी आइकॉन पैक का नाम नहीं दिया गया</string>
+    <string name="apps_iconpack_apply_not_a_pack">यह ऐप आइकॉन पैक नहीं है</string>
+    <string name="apps_iconpack_none">कोई नहीं</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">शॉर्टकट जोड़ें</string>
+    <string name="apps_pin_shortcut_message">%2$s से “%1$s” को “शॉर्टकट” श्रेणी में जोड़ें?</string>
+    <string name="apps_pin_shortcut_confirm">जोड़ें</string>
+    <string name="apps_pin_shortcut_added">शॉर्टकट जोड़ा गया</string>
+    <string name="apps_pin_shortcut_failed">शॉर्टकट नहीं जोड़ा जा सका</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">तीसरे पक्ष के ऐप्स इंस्टॉल करें</string>
+    <string name="apps_install_description">कृपया इंस्टॉल करने के लिए कोई ऐप चुनें। इंस्टॉल करने से पहले आपको अज्ञात स्रोतों से इंस्टॉल करने की अनुमति देनी पड़ सकती है।</string>
+    <string name="apps_install_custom_url">कस्टम URL / Downloader कोड</string>
+    <string name="apps_install_custom_url_desc">पक्का करें कि स्रोत भरोसेमंद हो</string>
+    <string name="apps_install_choose_method">इंस्टॉल करने का तरीका चुनें</string>
+    <string name="apps_install_installed">इंस्टॉल किया गया</string>
+    <string name="apps_install_category_wallpaper_plugin">वॉलपेपर प्लग इन</string>
+    <string name="apps_install_category_icon_pack">आइकॉन पैक</string>
+    <string name="apps_install_category_file_manager">फ़ाइल मैनेजर</string>
+    <string name="apps_install_category_tool">टूल</string>
+    <string name="apps_install_method_store">स्टोर</string>
+    <string name="apps_install_method_direct">सीधा डाउनलोड</string>
+    <string name="apps_install_method_downloader">Downloader ऐप</string>
+    <string name="apps_install_state_downloading">%1$s डाउनलोड हो रहा है… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s डाउनलोड हो रहा है…</string>
+    <string name="apps_install_state_installing">%1$s इंस्टॉल हो रहा है…</string>
+    <string name="apps_install_state_confirm">%1$s को इंस्टॉल करने की पुष्टि करें</string>
+    <string name="apps_install_state_success">%1$s इंस्टॉल हो गया</string>
+    <string name="apps_install_state_unknown_sources">QLauncher को ऐप्स इंस्टॉल करने की अनुमति दें, फिर जारी रखने के लिए वापस आएं</string>
+    <string name="apps_install_state_downloader_sent">कोड %1$s, Downloader को भेजा गया</string>
+    <string name="apps_install_state_downloader_type">Downloader में कोड %1$s डालें</string>
+    <string name="apps_install_state_store">स्टोर में खोला गया</string>
+    <string name="apps_install_state_browser">यह लिंक एक वेब पेज है; इसे ब्राउज़र में खोला गया</string>
+    <string name="apps_install_fail_invalid">यह न तो URL है और न ही Downloader कोड</string>
+    <string name="apps_install_fail_no_usb">कोई USB ड्राइव नहीं मिली</string>
+    <string name="apps_install_fail_archive">आर्काइव इंस्टॉल नहीं किए जा सकते</string>
+    <string name="apps_install_fail_network">डाउनलोड नहीं हो सका</string>
+    <string name="apps_install_fail_http">सर्वर ने गड़बड़ी का जवाब दिया (%1$s)</string>
+    <string name="apps_install_fail_not_apk">यह फ़ाइल कोई ऐप (APK) नहीं है</string>
+    <string name="apps_install_fail_unreadable">फ़ाइल पढ़ी नहीं जा सकती</string>
+    <string name="apps_install_fail_install">इंस्टॉल नहीं हो सका</string>
+    <string name="apps_install_fail_cancelled">इंस्टॉल करना रद्द कर दिया गया</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher को ऐप्स इंस्टॉल करने की अनुमति नहीं है</string>
+    <string name="apps_install_fail_downloader">Downloader ऐप इंस्टॉल नहीं है</string>
+    <string name="apps_install_fail_store">कोई ऐप स्टोर उपलब्ध नहीं है</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">यह डिवाइस</string>
+    <string name="apps_device_brand_manufacturer">ब्रैंड / निर्माता</string>
+    <string name="apps_device_device_product">डिवाइस / प्रॉडक्ट</string>
+    <string name="apps_device_model">मॉडल</string>
+    <string name="apps_device_hardware">हार्डवेयर</string>
+    <string name="apps_device_fingerprint">फ़िंगरप्रिंट</string>
+    <string name="apps_device_build">बिल्ड</string>
+    <string name="apps_device_build_desc">बिल्ड विवरण</string>
+    <string name="apps_device_device_type">डिवाइस का प्रकार</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP पता</string>
+    <string name="apps_device_root_access">रूट ऐक्सेस</string>
+    <string name="apps_device_pm_info">PM जानकारी</string>
+    <string name="apps_device_pm_none">कोई पिक्चर मैनेजर नहीं</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">हां</string>
+    <string name="apps_device_no">नहीं</string>
+</resources>

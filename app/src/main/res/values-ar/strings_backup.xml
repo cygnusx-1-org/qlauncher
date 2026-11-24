@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">الافتراضي</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">عريض</string>
+    <string name="backup_clock_markup_italic">مائل</string>
+    <string name="backup_clock_markup_underline">مسطّر</string>
+    <string name="backup_clock_markup_strikethrough">يتوسطه خط</string>
+    <string name="backup_clock_markup_subscript">منخفض</string>
+    <string name="backup_clock_markup_superscript">مرتفع</string>
+    <string name="backup_clock_markup_half_size">نصف الحجم</string>
+    <string name="backup_clock_markup_one_and_a_half_size">مرة ونصف</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">قصّ الأسود</string>
+    <string name="backup_pattern_apl_clipping">قصّ APL</string>
+    <string name="backup_pattern_white_clipping">قصّ الأبيض</string>
+    <string name="backup_pattern_grayscale_ramp">تدرّج الرمادي</string>
+    <string name="backup_pattern_grayscale_steps">درجات الرمادي</string>
+    <string name="backup_pattern_dynamic_brightness">السطوع الديناميكي</string>
+    <string name="backup_pattern_color_steps">درجات الألوان</string>
+    <string name="backup_pattern_color_clipping">قصّ الألوان</string>
+    <string name="backup_pattern_flashing_color_bars">أشرطة ألوان وامضة</string>
+    <string name="backup_pattern_sharpness_overscan">الحدّة &amp; المسح الزائد</string>
+    <string name="backup_pattern_uhd">نمط UHD</string>
+    <string name="backup_pattern_judder">اختبار تقطّع الحركة</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">\u200F[HDR] حدّة نسبة العرض إلى الارتفاع</string>
+    <string name="backup_pattern_hdr_black_level">\u200F[HDR] مستوى الأسود</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">\u200F[HDR] قصّ الألوان 240–1000 نت</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">\u200F[HDR] قصّ الألوان 3600–10000 نت</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">\u200F[HDR] قصّ الألوان 700–10000 نت</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">\u200F[HDR] قصّ الألوان 900–4000 نت</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">\u200F[HDR] تدرّج الرمادي 10000 نت</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">\u200F[HDR] تدرّج الرمادي 1000 نت</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">\u200F[HDR] تدرّج الرمادي 4000 نت</string>
+    <string name="backup_pattern_dv_black_pluge">\u200F[DV] PLUGE الأسود</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">\u200F[DV] تدرّجات الألوان</string>
+    <string name="backup_pattern_unavailable">يتطلب %1$s مسار فيديو HDR، وهو غير متاح بعد</string>
+    <!-- Pages -->
+    <string name="backup_settings">الإعدادات</string>
+    <string name="backup_manage_settings">إدارة الإعدادات</string>
+    <string name="backup_themes">السمات</string>
+    <string name="backup_import">استيراد</string>
+    <string name="backup_export">تصدير</string>
+    <string name="backup_import_from_file">من مدير الملفات</string>
+    <string name="backup_import_from_auto">من نسخة احتياطية تلقائية</string>
+    <string name="backup_export_save">حفظ محليًا</string>
+    <string name="backup_export_share">مشاركة مع تطبيق آخر</string>
+    <string name="backup_reset">استعادة الإعدادات الافتراضية</string>
+    <string name="backup_cancel">إلغاء</string>
+    <string name="backup_ok">حسنًا</string>
+    <string name="backup_done">تم</string>
+    <string name="backup_close">إغلاق</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">تصدير الإعدادات</string>
+    <string name="backup_export_theme_title">تصدير السمة</string>
+    <string name="backup_export_description">يُحفظ كل شيء في ملف واحد مشفّر بكلمة مرور تختارها (%1$d أحرف على الأقل). ستحتاج إلى كلمة المرور لاستيراد الملف، ولا يمكن استعادتها.</string>
+    <string name="backup_export_theme_description">تُحفظ إعدادات المظهر والخلفية الحالية في ملف واحد مشفّر بكلمة مرور تختارها (%1$d أحرف على الأقل). ستحتاج إلى كلمة المرور لاستيراد السمة.</string>
+    <string name="backup_password">كلمة المرور</string>
+    <string name="backup_password_show">إظهار كلمة المرور</string>
+    <string name="backup_password_hide">إخفاء كلمة المرور</string>
+    <string name="backup_password_strength">قوة كلمة المرور</string>
+    <string name="backup_strength_too_short">قصيرة جدًا: %1$d أحرف على الأقل</string>
+    <string name="backup_strength_weak">ضعيفة: سهلة التخمين</string>
+    <string name="backup_strength_fair">مقبولة</string>
+    <string name="backup_strength_strong">قوية</string>
+    <string name="backup_password_too_short">يجب أن تتكون كلمة المرور من %1$d أحرف على الأقل</string>
+    <string name="backup_exporting">جارٍ التصدير…</string>
+    <string name="backup_export_saved">تم الحفظ في %1$s</string>
+    <string name="backup_export_kept">لم يُحفظ في مكان آخر. يبقى الملف في %1$s</string>
+    <string name="backup_export_shared">تم الإرسال. تبقى نسخة في %1$s</string>
+    <string name="backup_export_no_file_manager">لا يوجد تطبيق على هذا الجهاز يمكنه استلام الملف. إنه موجود في %1$s</string>
+    <string name="backup_export_failed">فشل التصدير: %1$s</string>
+    <string name="backup_share_title">إرسال ملف QLauncher باستخدام</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">يستبدل الاستيراد إعداداتك الحالية. تُكتب نسخة احتياطية تلقائية أولًا، ثم يُعاد تشغيل QLauncher عند الانتهاء.</string>
+    <string name="backup_reading">جارٍ قراءة الملف…</string>
+    <string name="backup_import_action">استيراد</string>
+    <string name="backup_wrong_password">كلمة المرور خاطئة</string>
+    <string name="backup_password_hint">كلمة المرور التي اختيرت عند تصدير الملف</string>
+    <string name="backup_not_a_backup">هذا الملف ليس نسخة احتياطية أو سمة من QLauncher أو Projectivy.</string>
+    <string name="backup_damaged">الملف تالف أو غير مكتمل.</string>
+    <string name="backup_too_new">أُنشئ هذا الملف بإصدار أحدث من QLauncher (التنسيق %1$d). حدّث QLauncher لاستيراده.</string>
+    <string name="backup_unreadable">لا يمكن قراءة هذه النسخة الاحتياطية التلقائية على هذا الجهاز.</string>
+    <string name="backup_import_failed">فشل الاستيراد ولم يتغيّر أي شيء: %1$s</string>
+    <string name="backup_applying">جارٍ الاستيراد… سيُعاد تشغيل QLauncher عند الانتهاء.</string>
+    <string name="backup_origin_ql_backup">نسخة احتياطية لإعدادات QLauncher</string>
+    <string name="backup_origin_ql_theme">سمة QLauncher</string>
+    <string name="backup_origin_pl_backup">نسخة احتياطية لإعدادات Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">سمة Projectivy Launcher</string>
+    <string name="backup_origin_auto">نسخة احتياطية تلقائية</string>
+    <string name="backup_preview_theme_by">\u200F%1$s من تصميم %2$s</string>
+    <string name="backup_preview_version">الإصدار %1$s</string>
+    <string name="backup_preview_settings">الإعدادات</string>
+    <string name="backup_preview_categories">الفئات</string>
+    <string name="backup_preview_apps">تخصيصات التطبيقات</string>
+    <string name="backup_preview_profiles">ملفات تعريف العرض</string>
+    <string name="backup_preview_files">الخلفيات والأيقونات</string>
+    <string name="backup_preview_skipped">تطبيقات غير موجودة على هذا الجهاز</string>
+    <string name="backup_replace_setup">استبدال الإعدادات الحالية</string>
+    <string name="backup_apply_theme">تطبيق السمة</string>
+    <string name="backup_replace_detail">تُكتب أولًا نسخة احتياطية تلقائية من الإعدادات الحالية</string>
+    <string name="backup_nc_parental">رمز الرقابة الأبوية</string>
+    <string name="backup_nc_parental_detail">لا يُنقل. عيّن رمزًا جديدًا في الرقابة الأبوية.</string>
+    <string name="backup_nc_premium">حالة الإصدار المميّز</string>
+    <string name="backup_nc_premium_detail">لا تُنقل. كل ميزات QLauncher مجانية.</string>
+    <string name="backup_nc_inputs">مصادر إدخال التلفزيون</string>
+    <string name="backup_nc_profile_bindings">ارتباطات ملفات تعريف العرض</string>
+    <string name="backup_nc_plugin">المكوّن الإضافي للخلفية</string>
+    <string name="backup_nc_plugin_detail">التطبيق %1$s غير مثبّت. يبقى مصدر الخلفية كما هو.</string>
+    <string name="backup_nc_icons">الأيقونات المخصّصة</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="zero">%1$d قيمة معدّلة</item>
+        <item quantity="one">%1$d قيمة معدّلة</item>
+        <item quantity="two">%1$d قيمتان معدّلتان</item>
+        <item quantity="few">%1$d قيم معدّلة</item>
+        <item quantity="many">%1$d قيمة معدّلة</item>
+        <item quantity="other">%1$d قيمة معدّلة</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="zero">%1$d فئة</item>
+        <item quantity="one">%1$d فئة</item>
+        <item quantity="two">%1$d فئتان</item>
+        <item quantity="few">%1$d فئات</item>
+        <item quantity="many">%1$d فئة</item>
+        <item quantity="other">%1$d فئة</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="zero">%1$d تطبيق</item>
+        <item quantity="one">%1$d تطبيق</item>
+        <item quantity="two">%1$d تطبيقان</item>
+        <item quantity="few">%1$d تطبيقات</item>
+        <item quantity="many">%1$d تطبيقًا</item>
+        <item quantity="other">%1$d تطبيق</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="zero">%1$d ملف تعريف</item>
+        <item quantity="one">%1$d ملف تعريف</item>
+        <item quantity="two">%1$d ملفا تعريف</item>
+        <item quantity="few">%1$d ملفات تعريف</item>
+        <item quantity="many">%1$d ملف تعريف</item>
+        <item quantity="other">%1$d ملف تعريف</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="zero">%1$d ملف</item>
+        <item quantity="one">%1$d ملف</item>
+        <item quantity="two">%1$d ملفان</item>
+        <item quantity="few">%1$d ملفات</item>
+        <item quantity="many">%1$d ملفًا</item>
+        <item quantity="other">%1$d ملف</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="zero">%1$d إعداد غير معروف، تم تخطيه</item>
+        <item quantity="one">%1$d إعداد غير معروف، تم تخطيه</item>
+        <item quantity="two">%1$d إعدادان غير معروفين، تم تخطيهما</item>
+        <item quantity="few">%1$d إعدادات غير معروفة، تم تخطيها</item>
+        <item quantity="many">%1$d إعدادًا غير معروف، تم تخطيها</item>
+        <item quantity="other">%1$d إعداد غير معروف، تم تخطيها</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="zero">%1$d عنصر لا يطابق أي تطبيق مثبّت هنا، وسيتم تخطيه</item>
+        <item quantity="one">%1$d عنصر لا يطابق أي تطبيق مثبّت هنا، وسيتم تخطيه</item>
+        <item quantity="two">%1$d عنصران لا يطابقان أي تطبيق مثبّت هنا، وسيتم تخطيهما</item>
+        <item quantity="few">%1$d عناصر لا تطابق أي تطبيق مثبّت هنا، وسيتم تخطيها</item>
+        <item quantity="many">%1$d عنصرًا لا تطابق أي تطبيق مثبّت هنا، وسيتم تخطيها</item>
+        <item quantity="other">%1$d عنصر لا تطابق أي تطبيق مثبّت هنا، وسيتم تخطيها</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="zero">%1$d رابط إلى مصدر إدخال تلفزيون غير موجود في هذا الجهاز، وسيتم تخطيه</item>
+        <item quantity="one">%1$d رابط إلى مصدر إدخال تلفزيون غير موجود في هذا الجهاز، وسيتم تخطيه</item>
+        <item quantity="two">%1$d رابطان إلى مصادر إدخال تلفزيون غير موجودة في هذا الجهاز، وسيتم تخطيهما</item>
+        <item quantity="few">%1$d روابط إلى مصادر إدخال تلفزيون غير موجودة في هذا الجهاز، وسيتم تخطيها</item>
+        <item quantity="many">%1$d رابطًا إلى مصادر إدخال تلفزيون غير موجودة في هذا الجهاز، وسيتم تخطيها</item>
+        <item quantity="other">%1$d رابط إلى مصادر إدخال تلفزيون غير موجودة في هذا الجهاز، وسيتم تخطيها</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="zero">%1$d ملف تعريف مرتبط بمصدر إدخال لن يُنقل</item>
+        <item quantity="one">%1$d ملف تعريف مرتبط بمصدر إدخال لن يُنقل</item>
+        <item quantity="two">%1$d ملفا تعريف مرتبطان بمصادر إدخال لن يُنقلا</item>
+        <item quantity="few">%1$d ملفات تعريف مرتبطة بمصادر إدخال لن تُنقل</item>
+        <item quantity="many">%1$d ملف تعريف مرتبطًا بمصادر إدخال لن تُنقل</item>
+        <item quantity="other">%1$d ملف تعريف مرتبط بمصادر إدخال لن تُنقل</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="zero">%1$d أيقونة مخزّنة داخل Projectivy لا يمكن قراءتها، وسيتم تخطيها</item>
+        <item quantity="one">%1$d أيقونة مخزّنة داخل Projectivy لا يمكن قراءتها، وسيتم تخطيها</item>
+        <item quantity="two">%1$d أيقونتان مخزّنتان داخل Projectivy لا يمكن قراءتهما، وسيتم تخطيهما</item>
+        <item quantity="few">%1$d أيقونات مخزّنة داخل Projectivy لا يمكن قراءتها، وسيتم تخطيها</item>
+        <item quantity="many">%1$d أيقونة مخزّنة داخل Projectivy لا يمكن قراءتها، وسيتم تخطيها</item>
+        <item quantity="other">%1$d أيقونة مخزّنة داخل Projectivy لا يمكن قراءتها، وسيتم تخطيها</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">النسخ الاحتياطية التلقائية</string>
+    <string name="backup_auto_description">يحتفظ QLauncher بآخر %1$d إصدارات من إعداداتك على هذا الجهاز، مشفّرة بمفتاح لا يغادره أبدًا. اختر إحداها لاستعادتها؛ لا حاجة إلى كلمة مرور.</string>
+    <string name="backup_auto_none">لا تتوفر أي نسخة احتياطية تلقائية</string>
+    <string name="backup_files_title">ملفات النسخ الاحتياطي</string>
+    <string name="backup_files_theme_title">ملفات السمات</string>
+    <string name="backup_files_description">تُحفظ ملفات التصدير في %1$s. وعند منح الوصول إلى جميع الملفات، يعثر QLauncher أيضًا على النسخ الاحتياطية في Download وDocuments وعلى محركات USB، بما فيها نسخ Projectivy.</string>
+    <string name="backup_files_searching">جارٍ البحث عن ملفات النسخ الاحتياطي…</string>
+    <string name="backup_files_none">لم يُعثر على ملفات نسخ احتياطي</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">مجلد QLauncher</string>
+    <string name="backup_files_access">العثور على نسخ احتياطية من تطبيقات وأجهزة أخرى</string>
+    <string name="backup_files_access_desc">السماح بالوصول إلى جميع الملفات</string>
+    <string name="backup_files_access_unavailable">لا توجد شاشة إعدادات على هذا الجهاز. اسمح بالوصول إلى جميع الملفات باستخدام: %1$s</string>
+    <string name="backup_files_browse">موقع آخر…</string>
+    <string name="backup_files_browse_desc">اختر ملفًا باستخدام أداة اختيار الملفات في النظام</string>
+    <string name="backup_auto_delete_all">حذف الكل</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">بعد تغيير</string>
+    <string name="backup_reason_import">قبل استيراد</string>
+    <string name="backup_reason_migration">قبل تحديث</string>
+    <string name="backup_reason_reset">قبل إعادة ضبط</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">ملف تعريف #</string>
+    <string name="backup_no_picture_manager">لم يتم تحميل أي مدير صورة</string>
+    <string name="backup_no_picture_manager_detail">لا يوفّر هذا الجهاز أي طريقة مدعومة لتغيير إعدادات الصورة، لذا تحتفظ ملفات التعريف بقيمها دون تطبيقها.</string>
+</resources>

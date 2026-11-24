@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Tənzimləmələr</string>
+    <string name="settings_breadcrumb_display">Ekran</string>
+    <string name="settings_breadcrumb_applications">Tətbiqlər</string>
+    <string name="settings_breadcrumb_system">Sistem</string>
+    <string name="settings_breadcrumb_about">Haqqında</string>
+    <string name="settings_root_title">QLauncher tənzimləmələri</string>
+    <string name="settings_root_description">Tətbiq tənzimləmələrini konfiqurasiya edin.</string>
+    <string name="settings_legend_a11y_required">Əlçatımlılıq xidməti tələb olunur</string>
+    <string name="settings_legend_a11y_recommended">Əlçatımlılıq xidməti tövsiyə olunur</string>
+    <string name="settings_legend_experimental">Eksperimental</string>
+    <string name="settings_launcher_related">Başladıcı ilə bağlı tənzimləmələr</string>
+
+    <string name="settings_general">Ümumi</string>
+    <string name="settings_appearance">Görünüş</string>
+    <string name="settings_power">Enerji</string>
+    <string name="settings_parental">Valideyn nəzarəti</string>
+    <string name="settings_remote">Pult</string>
+    <string name="settings_accessibility">Əlçatımlılıq xidməti</string>
+    <string name="settings_display_profiles">Ekran profilləri</string>
+    <string name="settings_manage">Tənzimləmələri idarə et</string>
+
+    <!-- General -->
+    <string name="settings_language">Tətbiq dilini dəyiş</string>
+    <string name="settings_language_system">Sistem dili</string>
+    <string name="settings_default_launcher">Standart başladıcını dəyiş</string>
+    <string name="settings_default_launcher_unavailable">Bu cihaz standart başladıcını dəyişməyə imkan vermir. Əvəzində «Cari başladıcını əvəz et» seçimindən istifadə edin.</string>
+    <string name="settings_override_home">Cari başladıcını əvəz et</string>
+    <string name="settings_override_home_desc">Cari başladıcıya edilən çağırışları ələ keçirir (daxili başladıcını dəyişə və ya silə bilmirsinizsə faydalıdır)</string>
+    <string name="settings_enable_channels">Kanalları aktivləşdir</string>
+    <string name="settings_enable_channels_desc">Onlardan istifadə etmirsinizsə, bunu söndürmək açılışı sürətləndirir və daha az yaddaş tutur</string>
+    <string name="settings_programs_per_channel">Hər kanalda veriliş sayı</string>
+    <string name="settings_crash_error_reports">Anonim çökmə və xəta hesabatlarını aktivləşdir</string>
+    <string name="settings_reports_desc">Yalnız xəta, tətbiq versiyası və cihaz modeli göndərilir</string>
+    <string name="settings_check_updates">Yeniləmələri yoxla</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kateqoriyalar / Kanallar</string>
+    <string name="settings_cards">Kartlar</string>
+    <string name="settings_wallpaper">Divar kağızı</string>
+    <string name="settings_status_bar">Status paneli</string>
+    <string name="settings_left_headers">Sol başlıqlar</string>
+    <string name="settings_idle_mode">Başladıcının gözləmə rejimi</string>
+    <string name="settings_font">Şrift</string>
+    <string name="settings_themes">Mövzular</string>
+    <string name="settings_themes_desc">İdxal / İxrac</string>
+    <string name="settings_load_cards_scrolling">Sürüşdürərkən kartları yüklə</string>
+    <string name="settings_load_cards_scrolling_desc">Daha çevik, lakin axıcılıq hesabına</string>
+    <string name="settings_accent">Vurğu rəngi</string>
+    <string name="settings_accent_desc">Divar kağızına uyğunlaşmaq üçün dinamik rejimi aktivləşdirin</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Başlığı göstər</string>
+    <string name="settings_show_icon_title">Başlığın qarşısında ikonanı göstər</string>
+    <string name="settings_rows_spacing">Şaquli aralıq (ekran hündürlüyünə görə %)</string>
+    <string name="settings_fixed_position">Fokusdakı kateqoriyanın mövqeyini sabit saxla</string>
+    <string name="settings_hide_rows_above">Seçimdən yuxarıdakı sətirləri gizlət</string>
+    <string name="settings_remember_focus">Fokusdakı kartın mövqeyini yadda saxla</string>
+    <string name="settings_unselected_opacity">Seçilməmiş sətirlərin qeyri-şəffaflığı</string>
+    <string name="settings_top_margin">Yuxarı boşluq</string>
+    <string name="settings_start_margin">Başlanğıc boşluğu</string>
+    <string name="settings_end_margin">Son boşluğu</string>
+    <string name="settings_dock_padding">Dokun daxili boşluğu</string>
+    <string name="settings_tint_custom_icons">Fərdi ikonalara çalar ver</string>
+    <string name="settings_tint_custom_icons_desc">Fonu olmayan fərdi ikonalar üçün</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Yuvarlaq künclər</string>
+    <string name="settings_cards_size">Kart ölçüsü</string>
+    <string name="settings_cards_spacing">Kartlar arası aralıq</string>
+    <string name="settings_loop_limit">Animasiyalı ikonaların təkrar limiti</string>
+    <string name="settings_ripple">Karta basdıqda dalğa effekti</string>
+    <string name="settings_background_color">Fon rəngi</string>
+    <string name="settings_focused_card">Fokusdakı kart</string>
+    <string name="settings_program_cards">Veriliş kartları</string>
+    <string name="settings_tv_ratio">TV tətbiqi kartlarının tərəf nisbəti</string>
+    <string name="settings_mobile_ratio">Mobil tətbiq kartlarının tərəf nisbəti</string>
+    <string name="settings_icon_pack">İkona paketi</string>
+    <string name="settings_icon_pack_none">Quraşdırılmış ikona paketi yoxdur</string>
+    <string name="settings_icon_pack_off">Heç biri</string>
+    <string name="settings_more">Daha çox…</string>
+    <string name="settings_custom_icon_tint">Fərdi ikona çaları</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Fokusdakı kartın ölçüsü</string>
+    <string name="settings_focused_effect">Fokusdakı kartın effekti</string>
+    <string name="settings_effect_none">Heç biri</string>
+    <string name="settings_effect_shadow">Kölgə</string>
+    <string name="settings_effect_glow">Parıltı</string>
+    <string name="settings_glow_animation">Parıltı animasiyası</string>
+    <string name="settings_anim_none">Heç biri</string>
+    <string name="settings_anim_pulse">Nəbz</string>
+    <string name="settings_anim_breath">Nəfəs</string>
+    <string name="settings_anim_fade">Solma</string>
+    <string name="settings_anim_shine">Işıltı</string>
+    <string name="settings_glow_size">Parıltı ölçüsü</string>
+    <string name="settings_glow_color">Parıltı rəngi</string>
+    <string name="settings_glow_color_desc">Kartın öz rəngindən istifadə etmək üçün boş saxlayın</string>
+    <string name="settings_colors_override">Rənglərin əvəzlənməsi</string>
+    <string name="settings_override_none">Heç biri</string>
+    <string name="settings_override_swap">Fon/çalar yerini dəyiş</string>
+    <string name="settings_override_custom">Fərdi</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Önizləmə videosunu oynat</string>
+    <string name="settings_preview_never">Heç vaxt</string>
+    <string name="settings_preview_always">Həmişə</string>
+    <string name="settings_preview_no_media">Arxa fonda media oynadılmadıqda</string>
+    <string name="settings_show_progress">İrəliləyiş çubuğunu göstər</string>
+    <string name="settings_show_badge">Nişanı göstər</string>
+    <string name="settings_zoom_focus">Fokusda böyütmə effekti</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Dəstəklənən formatlar: statik şəkil, animasiyalı GIF, video (statik və ya RTSP canlı yayım), Lottie animasiyası</string>
+    <string name="settings_launcher_wallpaper">Başladıcı divar kağızı</string>
+    <string name="settings_configure">Konfiqurasiya et</string>
+    <string name="settings_show_wallpapers">Divar kağızlarını göstər</string>
+    <string name="settings_picture_adjustment">Şəkil tənzimlənməsi</string>
+    <string name="settings_image_transition">Şəkil keçidi</string>
+    <string name="settings_update_frequency">Yeniləmə tezliyi (dəq)</string>
+    <string name="settings_video_wallpaper">Video divar kağızı</string>
+    <string name="settings_display_mode">Göstərmə rejimi</string>
+    <string name="settings_bad_ratio">Uyğunsuz nisbət/keyfiyyət olduqda</string>
+    <string name="settings_min_width">Minimum qəbul edilən en (px)</string>
+    <string name="settings_src_none">Heç biri</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dinamik rənglər</string>
+    <string name="settings_src_default">Standart divar kağızı</string>
+    <string name="settings_src_media">Media faylı</string>
+    <string name="settings_src_folder">Qovluq</string>
+    <string name="settings_src_focused_program">Fokusdakı veriliş</string>
+    <string name="settings_src_now_playing">İndi oxudulur</string>
+    <string name="settings_src_random_program">Təsadüfi veriliş</string>
+    <string name="settings_src_theme">Mövzu</string>
+    <string name="settings_tr_none">Heç biri</string>
+    <string name="settings_tr_random">Təsadüfi</string>
+    <string name="settings_tr_fade">Solma</string>
+    <string name="settings_tr_zoom">Böyütmə</string>
+    <string name="settings_tr_hslide">Üfüqi sürüşmə</string>
+    <string name="settings_tr_vslide">Şaquli sürüşmə</string>
+    <string name="settings_dm_automatic">Avtomatik</string>
+    <string name="settings_dm_skip">Ötür</string>
+    <string name="settings_dm_crop">Kəs</string>
+    <string name="settings_dm_stretch">Uzat</string>
+    <string name="settings_dm_fit">Mərkəzə sığdır</string>
+    <string name="settings_dm_fit_blur">Mərkəzə sığdır + bulanıq fon</string>
+    <string name="settings_dm_blur">Bulanıqlaşdır</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Rəng tonu</string>
+    <string name="settings_saturation">Doymuşluq</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Parlaqlıq</string>
+    <string name="settings_tint">Çalar</string>
+    <string name="settings_tint_amount">Çaların miqdarı</string>
+    <string name="settings_blur">Bulanıqlıq</string>
+    <string name="settings_shadow_h">Üfüqi kölgə örtüyünün uzunluğu</string>
+    <string name="settings_shadow_v">Şaquli kölgə örtüyünün uzunluğu</string>
+    <string name="settings_shadow_opacity">Kölgə örtüyünün qeyri-şəffaflığı</string>
+    <string name="settings_shadow_tint">Kölgə örtüyünün çaları</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Yeniləmə tezliyinə məhəl qoyma</string>
+    <string name="settings_ignore_update_desc">Yeni divar kağızı istəməzdən əvvəl videonun bitməsini gözlə</string>
+    <string name="settings_video_color_freq">Dinamik rəngin yeniləmə tezliyi</string>
+    <string name="settings_video_color_freq_desc">Rənglər üçün oxunan video kadrları arasındakı saniyələr; 0 söndürür</string>
+    <string name="settings_volume">Səs</string>
+    <string name="settings_tunneling">Aparat renderindən istifadə et (tunelləmə)</string>
+    <string name="settings_decoder_fallback">Ehtiyat dekoderləri aktivləşdir</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Bildiriş icazəsini idarə et</string>
+    <string name="settings_granted">Verilib</string>
+    <string name="settings_not_granted">Verilməyib</string>
+    <string name="settings_notification_adb">Bu cihazda tənzimləmələr ekranı yoxdur. İcazəni bu əmrlə verin: %1$s</string>
+    <string name="settings_clock">Saat</string>
+    <string name="settings_icons">İkonalar</string>
+    <string name="settings_show_system_bar">Sistem status panelini göstər</string>
+    <string name="settings_autohide_status">Sürüşdürərkən status panelini gizlət</string>
+    <string name="settings_show_clock">Saatı göstər</string>
+    <string name="settings_clock_size">Saat şriftinin ölçüsü</string>
+    <string name="settings_clock_color">Saatın rəngi</string>
+    <string name="settings_drop_shadow">Kölgə</string>
+    <string name="settings_clock_line1">Saat formatı (1-ci sətir)</string>
+    <string name="settings_clock_line2">Saat formatı (2-ci sətir)</string>
+    <string name="settings_clock_default_format">Sistem formatı</string>
+    <string name="settings_empty">Boş</string>
+    <string name="settings_icons_size">İkonaların ölçüsü</string>
+    <string name="settings_icons_color">İkonaların rəngi</string>
+    <string name="settings_icons_container">İkona konteynerinin rəngi</string>
+    <string name="settings_show_settings">Tənzimləmələri göstər</string>
+    <string name="settings_show_settings_desc">Tənzimləmələr bu düymə ardıcıllığı ilə əlçatan qalır: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Bağlantını göstər</string>
+    <string name="settings_show_notifications">Bildirişləri göstər</string>
+    <string name="settings_autohide_notifications">Boş olduqda bildiriş ikonasını gizlət</string>
+    <string name="settings_show_battery">Batareyanı göstər</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Aktivləşdir</string>
+    <string name="settings_headers_on_launch">Açılışda sol başlıqları göstər</string>
+    <string name="settings_show_icon">İkonanı göstər</string>
+    <string name="settings_show_reorder">Yenidən sıralamanı göstər</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Gözləmə rejiminə qədər vaxt (dəq)</string>
+    <string name="settings_idle_opacity">İnterfeysin qeyri-şəffaflığı</string>
+    <string name="settings_keep_clock">Saatı saxla</string>
+    <string name="settings_prevent_screensaver">Sistem ekran qoruyucusunun qarşısını al</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher şrift tənzimləmələrini dəyişin. Şrift ailələrinin adlarını Google Fonts-da tapmaq olar.</string>
+    <string name="settings_font_list">Siyahıdan seç</string>
+    <string name="settings_font_google">Şrift (Google Fonts)</string>
+    <string name="settings_font_default">Standart</string>
+    <string name="settings_bold">Qalın</string>
+    <string name="settings_italic">Kursiv</string>
+    <string name="settings_size">Ölçü</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Açılışda avtomatik başlatma</string>
+    <string name="settings_autostart_none">Heç biri</string>
+    <string name="settings_autostart_screensaver">[*] Ekran qoruyucusu (dəstəklənirsə)</string>
+    <string name="settings_autostart_resume">…və gözləmə rejimindən çıxdıqda da</string>
+    <string name="settings_autostart_delay">Avtomatik başlatma gecikməsi (saniyə)</string>
+    <string name="settings_simulate_activity">Fəaliyyətsizlikdə sistemin avtomatik sönməsinin qarşısını al</string>
+    <string name="settings_idle_detection">Daxili fəaliyyətsizlik aşkarlanmasını aktivləşdir</string>
+    <string name="settings_idle_timeout_power">Fəaliyyətsizlik vaxtı (saat:dəq)</string>
+    <string name="settings_idle_action">Fəaliyyətsizlikdə əməliyyat</string>
+    <string name="settings_idle_action_shutdown">Söndürmə</string>
+    <string name="settings_idle_action_screen_off">Ekranı söndür</string>
+    <string name="settings_idle_action_screensaver">Ekran qoruyucusu (dəstəklənirsə)</string>
+    <string name="settings_idle_media">Media oynadılarkən gözləmə rejiminə məhəl qoyma</string>
+    <string name="settings_missing_notification_permission">⚠️ Bildiriş icazəsi yoxdur</string>
+    <string name="settings_shutdown_action">Söndürmə əməliyyatı</string>
+    <string name="settings_shutdown_dialog">Enerji dialoqu</string>
+    <string name="settings_shutdown_dialog_twice">Enerji dialoqu (iki dəfə çağır)</string>
+    <string name="settings_shutdown_dialog_ok">Enerji dialoqu + OK</string>
+    <string name="settings_hdmi_exit">HDMI giriş siqnalı kəsildikdə avtomatik söndür</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Seçilmiş tətbiqləri bütün gün və ya günün bir hissəsində kilidləmək üçün kod təyin edin (onları seçmək üçün əsas ekranda karta uzun basın)</string>
+    <string name="settings_parental_set_code">Yeni valideyn kodu təyin et</string>
+    <string name="settings_parental_code_set">Kod təyin edilib</string>
+    <string name="settings_parental_long">Uğurlu təsdiqdən sonra 15 dəq ərzində kod istəmə</string>
+    <string name="settings_parental_protect">Başladıcı tənzimləmələrini və interfeys dəyişikliklərini qoru</string>
+    <string name="settings_parental_protect_desc">(24/7 tətbiq edilir)</string>
+    <string name="settings_parental_partial">Qorumanı yalnız bu saatlar arasında aktivləşdir</string>
+    <string name="settings_parental_start">Başlama vaxtı (saat:dəq)</string>
+    <string name="settings_parental_end">Bitmə vaxtı (saat:dəq)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">«Menyu» iki dəfə basıldıqda məlumat göstər</string>
+    <string name="settings_back_double">«Geri» iki dəfə basıldıqda «Ambient rejimi»</string>
+    <string name="settings_back_double_desc">Dəstəklənən cihazlarda ekran qoruyucusunu başladır</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Açılışda əməliyyat icra etmək, pult düymələrini fərdiləşdirmək, valideyn nəzarətini gücləndirmək və enerji idarəetməsi üçün fəaliyyətsizliyi aşkarlamaq məqsədilə xidməti aktivləşdirin. O, aparat düymə basışlarını və öndəki tətbiqin adını görür; hər ikisi yalnız bu cihazın yaddaşında qalır və heç yerə göndərilmir.</string>
+    <string name="settings_a11y_enabled">Aktivləşdirilib</string>
+    <string name="settings_a11y_started">İşə düşüb</string>
+    <string name="settings_yes">Bəli</string>
+    <string name="settings_no">Xeyr</string>
+    <string name="settings_a11y_open">Əlçatımlılıq tənzimləmələrini göstər</string>
+    <string name="settings_a11y_consent_title">Əlçatımlılıq xidməti</string>
+    <string name="settings_a11y_consent">Bu, QLauncher-ə aparat düymə basışlarını və ön planda olan tətbiqin adını görməyə imkan verir. Hər ikisi yalnız bu cihazın yaddaşında saxlanılır və heç vaxt heç yerə göndərilmir. Razısınızmı?</string>
+    <string name="settings_a11y_alternate">Alternativ konfiqurasiyadan istifadə et</string>
+    <string name="settings_a11y_alternate_desc">Bəzi cihazlarda problemləri həll edir</string>
+    <string name="settings_a11y_volume_fix">Səs düymələri düzəlişi</string>
+    <string name="settings_a11y_volume_fix_desc">Səs düyməsi basıldıqda təyinatı qısa müddətə dayandırır ki, uzun basışlar işləməyə davam etsin</string>
+    <string name="settings_a11y_remap">Düymə təyinatını aktivləşdir</string>
+    <string name="settings_a11y_remap_desc">Xidmət düymə basışlarını ələ keçirir. Bunu söndürmək səs düyməsinə uzun basış problemlərinin və sistemin xidməti dayandırmasının qarşısını alır, lakin başladıcının əvəzlənməsi, valideyn nəzarəti və fəaliyyətsizliyin aşkarlanması daha az effektiv ola bilər.</string>
+    <string name="settings_a11y_reminder">Xatırlatma göstər</string>
+    <string name="settings_a11y_reminder_desc">Əlçatımlılıq xidməti söndürülübsə</string>
+    <string name="settings_a11y_unbound_toast">QLauncher-in əlçatımlılıq xidməti işləmir</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Tənzimləmələri yerli olaraq və ya LocalSend, yaxud fayl meneceri kimi başqa tətbiqlə idxal və ya ixrac edin.</string>
+    <string name="settings_import">İdxal</string>
+    <string name="settings_import_file">Fayldan</string>
+    <string name="settings_import_auto">Avtomatik ehtiyat nüsxədən</string>
+    <string name="settings_export">İxrac</string>
+    <string name="settings_export_local">Yerli olaraq saxla</string>
+    <string name="settings_export_share">Başqa tətbiqlə paylaş</string>
+    <string name="settings_reset">Standarta sıfırla</string>
+    <string name="settings_cancel">Ləğv et</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kateqoriya</string>
+    <string name="wp_custom_search">Fərdi axtarış</string>
+    <string name="wp_reddit_login">Daxil ol</string>
+    <string name="wp_reddit_logout">Çıxış: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Çıxış</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Fərdi subreddit</string>
+    <string name="wp_custom_subreddit_hint">+ ilə ayrılmış bir neçə ad</string>
+    <string name="wp_folder">Qovluq</string>
+    <string name="wp_folder_choose">Qovluq seçin</string>
+    <string name="wp_media">Media faylı</string>
+    <string name="wp_media_choose">Fayl seçin</string>
+    <string name="wp_choose_other">Başqa yer…</string>
+    <string name="wp_choose_other_desc">Sistemin fayl seçicisi ilə seçin</string>
+    <string name="wp_media_searching">Şəkil və videolar axtarılır…</string>
+    <string name="wp_media_none">Şəkil və ya video tapılmadı. Bir neçəsini Pictures, Movies və ya Download qovluğuna kopyalayın, yaxud USB disk qoşun.</string>
+    <string name="wp_folders_description">Bu cihazda və USB disklərdə şəkil və ya video olan qovluqlar.</string>
+    <string name="wp_folders_none">Şəkil və ya video olan qovluq tapılmadı</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fayl</item>
+        <item quantity="other">%d fayl</item>
+    </plurals>
+    <string name="wp_media_color">Düz rəng</string>
+    <string name="wp_theme_desc">İdxal edilmiş mövzunun divar kağızları</string>
+    <string name="wp_plugin_settings">Plagin tənzimləmələri</string>
+    <string name="wp_not_set">Təyin edilməyib</string>
+    <string name="wp_status">Vəziyyət</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Bu divar kağızı</string>
+    <string name="wp_next">Növbəti</string>
+    <string name="wp_source">Mənbə</string>
+    <string name="wp_title">Başlıq</string>
+    <string name="wp_author">Müəllif</string>
+    <string name="wp_set_user">İstifadəçi divar kağızı kimi təyin et</string>
+    <string name="wp_view">Bax</string>
+    <string name="wp_unknown">Naməlum</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Video ekran profillərini burada yaradın və idarə edin. Avtomatik dəyişmək üçün onları giriş mənbələrinə bağlayın və ya Menyu düyməsini iki dəfə, sonra yuxarı və ya aşağı basaraq tətbiq edin.</string>
+    <string name="dp_list">Ekran profilləri siyahısı</string>
+    <string name="dp_list_desc">Video ekran profillərini burada yaradın və ya redaktə edin. Cihazdan asılı olaraq bəzi idarəetmə elementləri root tələb edir və ya ümumiyyətlə işləmir; onlar AmLogic cihazları üçün nəzərdə tutulub.</string>
+    <string name="dp_add">Yenisini əlavə et…</string>
+    <string name="dp_name">Profil adı</string>
+    <string name="dp_preview">Önizləmə</string>
+    <string name="dp_fullscreen">Tam ekran önizləmə</string>
+    <string name="dp_fullscreen_desc">və ya Menyu düyməsi ilə açıb-bağlayın</string>
+    <string name="dp_delete">Profili sil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Kənar tətbiqləri quraşdır</string>
+    <string name="install_desc">Quraşdırmaq üçün tətbiq seçin. Əvvəlcə naməlum mənbələrdən quraşdırmaya icazə verməli ola bilərsiniz.</string>
+    <string name="install_custom">Fərdi URL / Downloader kodu</string>
+    <string name="install_custom_desc">Yalnız etibar etdiyiniz mənbədən istifadə edin</string>
+    <string name="install_status">Vəziyyət</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Bu cihaz</string>
+
+    <string name="gallery_filter">Filtr…</string>
+    <string name="settings_no_file_picker">Bu cihazda fayl seçici yoxdur</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">İşıqlılıq</string>
+    <string name="color_opacity">Qeyri-şəffaflıq</string>
+    <string name="color_prefer_dynamic">Dinamik rəngə üstünlük ver</string>
+    <string name="color_prefer_dynamic_desc">Mövcud olduqda bu işıqlılıq/qeyri-şəffaflıq saxlanılacaq</string>
+    <string name="color_clear">Təmizlə</string>
+    <string name="color_reset">Standarta sıfırla</string>
+</resources>

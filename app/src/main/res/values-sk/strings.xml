@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Nastaviť ako tapetu QLaunchera</string>
+    <string name="import_settings">Importovať do QLaunchera</string>
+    <string name="accessibility_service_description">QLauncher vidí stlačenia hardvérových tlačidiel a názov aplikácie v popredí, aby mohol nahradiť pôvodný launcher, spúšťať akcie pri štarte, premapovať tlačidlá diaľkového ovládača, zisťovať nečinnosť a uplatňovať rodičovskú kontrolu. Oboje zostáva iba v pamäti tohto zariadenia a nikam sa neodosiela.</string>
+</resources>

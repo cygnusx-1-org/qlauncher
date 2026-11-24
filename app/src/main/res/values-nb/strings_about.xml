@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versjon %1$s</string>
+    <string name="about_copyright">Copyright © 2026 QLauncher-bidragsytere. Fri programvare under GNU General Public License, versjon 3.</string>
+    <string name="about_libs">Biblioteker / Takk</string>
+    <string name="about_links">Lenker</string>
+    <string name="about_link_project">Prosjektside</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Norsk oversettelse</string>
+    <string name="about_translation_credit">QLauncher-bidragsytere</string>
+    <string name="about_no_browser">Ingen nettleser på denne enheten. Åpne %1$s på en annen enhet.</string>
+    <string name="about_check_updates">Se etter oppdateringer</string>
+    <string name="about_update_checking">Sjekker…</string>
+    <string name="about_update_latest">QLauncher er oppdatert (%1$s)</string>
+    <string name="about_update_available">Versjon %1$s er tilgjengelig</string>
+    <string name="about_update_failed">Kunne ikke sjekke: %1$s</string>
+    <string name="about_update_install">Installer QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s er tilgjengelig: Innstillinger › Om › QLauncher</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Adjon meg tetszőleges nyíl-/számkombinációt, és hagyja jóvá az OK gombbal</string>
+    <string name="system_parental_confirm_code">Adja meg újra a kódot, és hagyja jóvá az OK gombbal</string>
+    <string name="system_parental_restricted">Korlátozott hozzáférés\nAdja meg a szülői kódot</string>
+    <string name="system_parental_wrong_code">Hibás kód</string>
+    <string name="system_parental_codes_differ">A kódok nem egyeznek, próbálja újra</string>
+    <string name="system_parental_code_saved">Szülői kód mentve</string>
+    <string name="system_parental_recovery_code">Helyreállító kód: %1$s</string>
+    <string name="system_parental_recovery_help">Írja fel: csak most az egyszer jelenik meg. A nyilakkal beírva (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) ugyanúgy felold, mint a szülői kód.</string>
+    <string name="system_parental_press_ok">A folytatáshoz nyomja meg az OK gombot</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Távirányító-billentyűparancsok</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Kezdőlap</string>
+    <string name="system_hotkeys_keys_menu_twice">Menü × 2</string>
+    <string name="system_hotkeys_change_input">Bemenet váltása</string>
+    <string name="system_hotkeys_change_profile">Megjelenítési profil váltása</string>
+    <string name="system_hotkeys_start_launcher">QLauncher indítása</string>
+    <string name="system_hotkeys_home">QLauncher megnyitása; kétszer: legutóbbi alkalmazások</string>
+    <string name="system_hotkeys_close">Súgó bezárása</string>
+    <string name="system_hotkeys_no_inputs">Ezen az eszközön nincsenek TV-bemenetek</string>
+    <string name="system_hotkeys_no_picture_manager">Nincs betöltve képkezelő</string>
+    <string name="system_hotkeys_home_off">Ki: az „Aktuális indító felülbírálása” és a gombok átkiosztása szükséges hozzá</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Felhasználói tétlenség észlelve, kikapcsolás %1$d mp múlva</string>
+    <string name="system_idle_countdown_screen_off">Felhasználói tétlenség észlelve, a képernyő %1$d mp múlva kikapcsol</string>
+    <string name="system_idle_countdown_screensaver">Felhasználói tétlenség észlelve, képernyővédő %1$d mp múlva</string>
+    <string name="system_idle_countdown_cancel">A megszakításhoz nyomjon meg egy tetszőleges gombot</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Ezen az eszközön nincs parancsikon a kisegítő lehetőségek beállításaihoz. Nyissa meg őket az Android-beállításokban, általában az Eszközbeállítások › Kisegítő lehetőségek menüpontban.</string>
+    <string name="system_notification_access_no_settings">Ezen az eszközön nincs értesítés-hozzáférési képernyő. Adja meg a hozzáférést egy számítógépről ezzel a paranccsal:</string>
+</resources>

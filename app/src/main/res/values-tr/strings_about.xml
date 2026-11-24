@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Sürüm %1$s</string>
+    <string name="about_copyright">Telif hakkı © 2026 QLauncher katkıda bulunanları. GNU General Public License sürüm 3 kapsamında özgür yazılım.</string>
+    <string name="about_libs">Kitaplıklar / Teşekkürler</string>
+    <string name="about_links">Bağlantılar</string>
+    <string name="about_link_project">Proje sayfası</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Türkçe çeviri</string>
+    <string name="about_translation_credit">QLauncher katkıda bulunanları</string>
+    <string name="about_no_browser">Bu cihazda tarayıcı yok. %1$s adresini başka bir cihazda açın.</string>
+    <string name="about_check_updates">Güncellemeleri kontrol et</string>
+    <string name="about_update_checking">Kontrol ediliyor…</string>
+    <string name="about_update_latest">QLauncher güncel (%1$s)</string>
+    <string name="about_update_available">%1$s sürümü kullanılabilir</string>
+    <string name="about_update_failed">Kontrol edilemedi: %1$s</string>
+    <string name="about_update_install">QLauncher %1$s sürümünü yükle</string>
+    <string name="update_available_toast">QLauncher %1$s kullanılabilir: Ayarlar › Hakkında › QLauncher</string>
+</resources>

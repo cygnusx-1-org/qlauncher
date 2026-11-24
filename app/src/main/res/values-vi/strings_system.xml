@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Vui lòng nhập một tổ hợp mũi tên/chữ số bất kỳ và xác nhận bằng OK</string>
+    <string name="system_parental_confirm_code">Vui lòng nhập lại mã và xác nhận bằng OK</string>
+    <string name="system_parental_restricted">Truy cập bị hạn chế\nVui lòng nhập mã kiểm soát của cha mẹ</string>
+    <string name="system_parental_wrong_code">Sai mã</string>
+    <string name="system_parental_codes_differ">Mã không khớp, vui lòng thử lại</string>
+    <string name="system_parental_code_saved">Đã lưu mã kiểm soát của cha mẹ</string>
+    <string name="system_parental_recovery_code">Mã khôi phục: %1$s</string>
+    <string name="system_parental_recovery_help">Hãy ghi lại: mã chỉ hiển thị duy nhất lần này. Khi nhập bằng các mũi tên (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), mã này mở khóa giống như mã kiểm soát của cha mẹ.</string>
+    <string name="system_parental_press_ok">Nhấn OK để tiếp tục</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Phím tắt điều khiển từ xa</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Màn hình chính</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Đổi đầu vào</string>
+    <string name="system_hotkeys_change_profile">Đổi cấu hình hiển thị</string>
+    <string name="system_hotkeys_start_launcher">Khởi động QLauncher</string>
+    <string name="system_hotkeys_home">Mở QLauncher; nhấn hai lần: ứng dụng gần đây</string>
+    <string name="system_hotkeys_close">Đóng trợ giúp này</string>
+    <string name="system_hotkeys_no_inputs">Không có đầu vào TV trên thiết bị này</string>
+    <string name="system_hotkeys_no_picture_manager">Chưa tải trình quản lý hình ảnh</string>
+    <string name="system_hotkeys_home_off">Tắt: cần “Ghi đè trình khởi chạy hiện tại” và gán lại nút</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Phát hiện người dùng không hoạt động, tắt máy sau %1$d giây</string>
+    <string name="system_idle_countdown_screen_off">Phát hiện người dùng không hoạt động, tắt màn hình sau %1$d giây</string>
+    <string name="system_idle_countdown_screensaver">Phát hiện người dùng không hoạt động, bật trình bảo vệ màn hình sau %1$d giây</string>
+    <string name="system_idle_countdown_cancel">Nhấn nút bất kỳ để hủy</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Thiết bị này không có lối tắt đến cài đặt hỗ trợ tiếp cận. Hãy mở từ cài đặt Android, thường nằm trong Tùy chọn thiết bị › Hỗ trợ tiếp cận.</string>
+    <string name="system_notification_access_no_settings">Thiết bị này không có màn hình quyền truy cập thông báo. Hãy cấp quyền từ máy tính bằng lệnh:</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">ఏదీ లేదు</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">డైనమిక్ రంగులు</string>
+    <string name="wallpaper_provider_default">డిఫాల్ట్ వాల్‌పేపర్</string>
+    <string name="wallpaper_provider_media_file">మీడియా ఫైల్</string>
+    <string name="wallpaper_provider_folder">ఫోల్డర్</string>
+    <string name="wallpaper_provider_focused_program">ఫోకస్ చేసిన ప్రోగ్రామ్</string>
+    <string name="wallpaper_provider_now_playing">ఇప్పుడు ప్లే అవుతోంది</string>
+    <string name="wallpaper_provider_random_program">యాదృచ్ఛిక ప్రోగ్రామ్</string>
+    <string name="wallpaper_provider_theme">థీమ్</string>
+    <string name="wallpaper_provider_unknown_plugin">ప్లగిన్</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">వాల్‌పేపర్‌లు</string>
+    <string name="wallpaper_wikimedia_nature">ప్రకృతి</string>
+    <string name="wallpaper_wikimedia_landscapes">ప్రకృతి దృశ్యాలు</string>
+    <string name="wallpaper_wikimedia_mountains">పర్వతాలు</string>
+    <string name="wallpaper_wikimedia_forests">అడవులు</string>
+    <string name="wallpaper_wikimedia_cities">నగరాలు</string>
+    <string name="wallpaper_wikimedia_architecture">వాస్తుశిల్పం</string>
+    <string name="wallpaper_wikimedia_night">రాత్రి</string>
+    <string name="wallpaper_wikimedia_space">అంతరిక్షం</string>
+    <string name="wallpaper_wikimedia_animals">జంతువులు</string>
+    <string name="wallpaper_wikimedia_custom">[అనుకూల శోధన]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[అనుకూల సబ్‌రెడిట్]</string>
+    <string name="wallpaper_reddit_log_out">లాగ్ అవుట్ చేయండి</string>
+    <string name="wallpaper_reddit_login_needed">Reddit నుండి వాల్‌పేపర్‌లను చూడటానికి Redditకు లాగిన్ చేయండి.</string>
+    <string name="wallpaper_reddit_login_title">Redditకు లాగిన్ చేయండి</string>
+    <string name="wallpaper_reddit_login_signing_in">సైన్ ఇన్ చేస్తోంది…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit యాక్సెస్ ఇవ్వలేదు, కాబట్టి Reddit వాల్‌పేపర్‌లు అందుబాటులో ఉండవు.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit నుండి వచ్చిన సమాధానం ఈ లాగిన్ ప్రయత్నంతో సరిపోలలేదు, కాబట్టి అది విస్మరించబడింది. దయచేసి మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallpaper_reddit_login_failed">Redditకు లాగిన్ చేయడం విఫలమైంది (%1$s). దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallpaper_reddit_login_network">Redditను చేరుకోవడం సాధ్యపడలేదు. నెట్‌వర్క్ కనెక్షన్‌ను చెక్ చేసి, మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit లాగిన్ పేజీని లోడ్ చేయడం సాధ్యపడలేదు. నెట్‌వర్క్ కనెక్షన్‌ను చెక్ చేసి, మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallpaper_reddit_no_webview">Reddit లాగిన్‌కు అవసరమైన వెబ్ బ్రౌజర్ కాంపోనెంట్ (Android System WebView) ఈ పరికరంలో లేదు. Android System WebViewను ఇన్‌స్టాల్ చేసి లేదా ఎనేబుల్ చేసి, మళ్లీ ప్రయత్నించండి.</string>
+    <string name="wallpaper_reddit_retry">మళ్లీ ప్రయత్నించండి</string>
+    <string name="wallpaper_reddit_close">మూసివేయండి</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">వాల్‌పేపర్ సోర్స్‌తో కనెక్షన్ లేదు.</string>
+    <string name="wallpaper_error_server">వాల్‌పేపర్ సోర్స్ ఎర్రర్‌తో సమాధానమిచ్చింది.</string>
+    <string name="wallpaper_error_rate_limited">తదుపరి రిక్వెస్ట్‌కు ముందు వేచి ఉండమని వాల్‌పేపర్ సోర్స్ కోరింది.</string>
+    <string name="wallpaper_error_generic">వాల్‌పేపర్‌లను లోడ్ చేయడం సాధ్యపడలేదు.</string>
+    <string name="wallpaper_error_no_media">చిత్రం, వీడియో లేదా రంగు ఏదీ ఎంచుకోలేదు.</string>
+    <string name="wallpaper_error_no_folder">ఫోల్డర్ ఏదీ ఎంచుకోలేదు.</string>
+    <string name="wallpaper_error_folder_access">ఫోల్డర్‌ను చదవడం సాధ్యం కాదు. దాన్ని మళ్లీ ఎంచుకోండి.</string>
+    <string name="wallpaper_error_folder_empty">ఈ ఫోల్డర్‌లో చిత్రాలు, వీడియోలు లేదా Lottie యానిమేషన్‌లు ఏవీ లేవు.</string>
+    <string name="wallpaper_error_theme_empty">ప్రస్తుత థీమ్‌లో వాల్‌పేపర్‌లు లేవు.</string>
+    <string name="wallpaper_error_no_channels">ఛానెల్‌లు అందుబాటులో లేవు. వాటిని ఎనేబుల్ చేసి, టీవీ లిస్టింగ్‌లకు యాక్సెస్‌ను అనుమతించండి.</string>
+    <string name="wallpaper_error_no_notification_access">“ఇప్పుడు ప్లే అవుతోంది”కి నోటిఫికేషన్ యాక్సెస్ అవసరం.</string>
+    <string name="wallpaper_error_no_subreddit">చెల్లుబాటు అయ్యే సబ్‌రెడిట్ ఏదీ సెట్ చేయలేదు.</string>
+    <string name="wallpaper_error_plugin">వాల్‌పేపర్ ప్లగిన్ సమాధానం ఇవ్వలేదు.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">వాల్‌పేపర్ సెట్ చేయబడింది</string>
+    <string name="wallpaper_set_failed">ఈ ఫైల్‌ను వాల్‌పేపర్‌గా ఉపయోగించడం సాధ్యం కాదు.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_copyright">Copyright © 2026 QLauncher-bidragydere. Fri software under GNU General Public License, version 3.</string>
+    <string name="about_libs">Biblioteker / Kreditering</string>
+    <string name="about_links">Links</string>
+    <string name="about_link_project">Projektside</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Dansk oversættelse</string>
+    <string name="about_translation_credit">QLauncher-bidragydere</string>
+    <string name="about_no_browser">Ingen browser på denne enhed. Åbn %1$s på en anden enhed.</string>
+    <string name="about_check_updates">Søg efter opdateringer</string>
+    <string name="about_update_checking">Søger…</string>
+    <string name="about_update_latest">QLauncher er opdateret (%1$s)</string>
+    <string name="about_update_available">Version %1$s er tilgængelig</string>
+    <string name="about_update_failed">Kunne ikke søge: %1$s</string>
+    <string name="about_update_install">Installer QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s er tilgængelig: Indstillinger › Om › QLauncher</string>
+</resources>

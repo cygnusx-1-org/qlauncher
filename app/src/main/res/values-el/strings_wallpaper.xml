@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Καμία</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Δυναμικά χρώματα</string>
+    <string name="wallpaper_provider_default">Προεπιλεγμένη ταπετσαρία</string>
+    <string name="wallpaper_provider_media_file">Αρχείο πολυμέσων</string>
+    <string name="wallpaper_provider_folder">Φάκελος</string>
+    <string name="wallpaper_provider_focused_program">Επιλεγμένο πρόγραμμα</string>
+    <string name="wallpaper_provider_now_playing">Παίζει τώρα</string>
+    <string name="wallpaper_provider_random_program">Τυχαίο πρόγραμμα</string>
+    <string name="wallpaper_provider_theme">Θέμα</string>
+    <string name="wallpaper_provider_unknown_plugin">Πρόσθετο</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Ταπετσαρίες</string>
+    <string name="wallpaper_wikimedia_nature">Φύση</string>
+    <string name="wallpaper_wikimedia_landscapes">Τοπία</string>
+    <string name="wallpaper_wikimedia_mountains">Βουνά</string>
+    <string name="wallpaper_wikimedia_forests">Δάση</string>
+    <string name="wallpaper_wikimedia_cities">Πόλεις</string>
+    <string name="wallpaper_wikimedia_architecture">Αρχιτεκτονική</string>
+    <string name="wallpaper_wikimedia_night">Νύχτα</string>
+    <string name="wallpaper_wikimedia_space">Διάστημα</string>
+    <string name="wallpaper_wikimedia_animals">Ζώα</string>
+    <string name="wallpaper_wikimedia_custom">[Προσαρμοσμένη αναζήτηση]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Προσαρμοσμένο subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Αποσύνδεση</string>
+    <string name="wallpaper_reddit_login_needed">Συνδεθείτε στο Reddit για να βλέπετε ταπετσαρίες από αυτό.</string>
+    <string name="wallpaper_reddit_login_title">Σύνδεση στο Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Σύνδεση…</string>
+    <string name="wallpaper_reddit_login_denied">Δεν δόθηκε πρόσβαση στο Reddit, οπότε οι ταπετσαρίες του Reddit παραμένουν μη διαθέσιμες.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Η απάντηση του Reddit δεν αντιστοιχούσε σε αυτή την απόπειρα σύνδεσης και αγνοήθηκε. Δοκιμάστε ξανά.</string>
+    <string name="wallpaper_reddit_login_failed">Η σύνδεση στο Reddit απέτυχε (%1$s). Δοκιμάστε ξανά αργότερα.</string>
+    <string name="wallpaper_reddit_login_network">Δεν ήταν δυνατή η επικοινωνία με το Reddit. Ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά.</string>
+    <string name="wallpaper_reddit_login_page_error">Δεν ήταν δυνατή η φόρτωση της σελίδας σύνδεσης του Reddit. Ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά.</string>
+    <string name="wallpaper_reddit_no_webview">Αυτή η συσκευή δεν έχει στοιχείο προγράμματος περιήγησης (Android System WebView), το οποίο χρειάζεται η σύνδεση στο Reddit. Εγκαταστήστε ή ενεργοποιήστε το Android System WebView και δοκιμάστε ξανά.</string>
+    <string name="wallpaper_reddit_retry">Δοκιμάστε ξανά</string>
+    <string name="wallpaper_reddit_close">Κλείσιμο</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Δεν υπάρχει σύνδεση με την πηγή ταπετσαριών.</string>
+    <string name="wallpaper_error_server">Η πηγή ταπετσαριών απάντησε με σφάλμα.</string>
+    <string name="wallpaper_error_rate_limited">Η πηγή ταπετσαριών ζήτησε αναμονή πριν από το επόμενο αίτημα.</string>
+    <string name="wallpaper_error_generic">Δεν ήταν δυνατή η φόρτωση των ταπετσαριών.</string>
+    <string name="wallpaper_error_no_media">Δεν έχει επιλεγεί εικόνα, βίντεο ή χρώμα.</string>
+    <string name="wallpaper_error_no_folder">Δεν έχει επιλεγεί φάκελος.</string>
+    <string name="wallpaper_error_folder_access">Ο φάκελος δεν μπορεί να διαβαστεί. Επιλέξτε τον ξανά.</string>
+    <string name="wallpaper_error_folder_empty">Ο φάκελος δεν περιέχει εικόνες, βίντεο ή κινούμενα γραφικά Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Το τρέχον θέμα δεν έχει ταπετσαρίες.</string>
+    <string name="wallpaper_error_no_channels">Τα κανάλια δεν είναι διαθέσιμα. Ενεργοποιήστε τα και επιτρέψτε την πρόσβαση στο πρόγραμμα τηλεόρασης.</string>
+    <string name="wallpaper_error_no_notification_access">Το Παίζει τώρα χρειάζεται πρόσβαση στις ειδοποιήσεις.</string>
+    <string name="wallpaper_error_no_subreddit">Δεν έχει οριστεί έγκυρο subreddit.</string>
+    <string name="wallpaper_error_plugin">Το πρόσθετο ταπετσαρίας δεν απάντησε.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Η ταπετσαρία ορίστηκε</string>
+    <string name="wallpaper_set_failed">Αυτό το αρχείο δεν μπορεί να χρησιμοποιηθεί ως ταπετσαρία.</string>
+</resources>

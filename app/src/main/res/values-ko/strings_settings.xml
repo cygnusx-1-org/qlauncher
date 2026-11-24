@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">설정</string>
+    <string name="settings_breadcrumb_display">디스플레이</string>
+    <string name="settings_breadcrumb_applications">앱</string>
+    <string name="settings_breadcrumb_system">시스템</string>
+    <string name="settings_breadcrumb_about">정보</string>
+    <string name="settings_root_title">QLauncher 설정</string>
+    <string name="settings_root_description">앱 설정을 구성합니다.</string>
+    <string name="settings_legend_a11y_required">접근성 서비스 필요</string>
+    <string name="settings_legend_a11y_recommended">접근성 서비스 권장</string>
+    <string name="settings_legend_experimental">실험적 기능</string>
+    <string name="settings_launcher_related">런처 관련 설정</string>
+
+    <string name="settings_general">일반</string>
+    <string name="settings_appearance">모양</string>
+    <string name="settings_power">전원</string>
+    <string name="settings_parental">자녀 보호 기능</string>
+    <string name="settings_remote">리모컨</string>
+    <string name="settings_accessibility">접근성 서비스</string>
+    <string name="settings_display_profiles">디스플레이 프로필</string>
+    <string name="settings_manage">설정 관리</string>
+
+    <!-- General -->
+    <string name="settings_language">앱 언어 변경</string>
+    <string name="settings_language_system">시스템 기본값</string>
+    <string name="settings_default_launcher">기본 런처 변경</string>
+    <string name="settings_default_launcher_unavailable">이 기기에서는 기본 런처를 변경할 수 없습니다. 대신 “현재 런처 대체”를 사용하세요.</string>
+    <string name="settings_override_home">현재 런처 대체</string>
+    <string name="settings_override_home_desc">현재 런처에 대한 호출을 가로챕니다(기본 런처를 변경하거나 제거할 수 없을 때 유용함)</string>
+    <string name="settings_enable_channels">채널 사용</string>
+    <string name="settings_enable_channels_desc">채널을 사용하지 않는다면 이 옵션을 끄세요. 시작이 빨라지고 메모리 사용량이 줄어듭니다</string>
+    <string name="settings_programs_per_channel">채널당 프로그램 수</string>
+    <string name="settings_crash_error_reports">익명 비정상 종료 및 오류 보고 사용</string>
+    <string name="settings_reports_desc">오류, 앱 버전, 기기 모델만 전송됩니다</string>
+    <string name="settings_check_updates">업데이트 확인</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">카테고리 / 채널</string>
+    <string name="settings_cards">카드</string>
+    <string name="settings_wallpaper">배경화면</string>
+    <string name="settings_status_bar">상태 표시줄</string>
+    <string name="settings_left_headers">왼쪽 헤더</string>
+    <string name="settings_idle_mode">런처 유휴 모드</string>
+    <string name="settings_font">글꼴</string>
+    <string name="settings_themes">테마</string>
+    <string name="settings_themes_desc">가져오기 / 내보내기</string>
+    <string name="settings_load_cards_scrolling">스크롤하는 동안 카드 로드</string>
+    <string name="settings_load_cards_scrolling_desc">반응은 빨라지지만 부드러움은 떨어집니다</string>
+    <string name="settings_accent">강조 색상</string>
+    <string name="settings_accent_desc">다이내믹을 켜면 배경화면을 따라갑니다</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">제목 표시</string>
+    <string name="settings_show_icon_title">제목 앞에 아이콘 표시</string>
+    <string name="settings_rows_spacing">세로 간격(화면 높이의 %)</string>
+    <string name="settings_fixed_position">포커스된 카테고리 위치 고정</string>
+    <string name="settings_hide_rows_above">선택 항목 위의 행 숨기기</string>
+    <string name="settings_remember_focus">포커스된 카드 위치 기억</string>
+    <string name="settings_unselected_opacity">선택되지 않은 행의 불투명도</string>
+    <string name="settings_top_margin">위쪽 여백</string>
+    <string name="settings_start_margin">왼쪽 여백</string>
+    <string name="settings_end_margin">오른쪽 여백</string>
+    <string name="settings_dock_padding">독 안쪽 여백</string>
+    <string name="settings_tint_custom_icons">맞춤 아이콘에 틴트 적용</string>
+    <string name="settings_tint_custom_icons_desc">배경이 없는 맞춤 아이콘용</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">둥근 모서리</string>
+    <string name="settings_cards_size">카드 크기</string>
+    <string name="settings_cards_spacing">카드 간격</string>
+    <string name="settings_loop_limit">애니메이션 아이콘 반복 횟수 제한</string>
+    <string name="settings_ripple">카드를 누를 때 물결 효과</string>
+    <string name="settings_background_color">배경 색상</string>
+    <string name="settings_focused_card">포커스된 카드</string>
+    <string name="settings_program_cards">프로그램 카드</string>
+    <string name="settings_tv_ratio">TV 앱 카드 화면비</string>
+    <string name="settings_mobile_ratio">모바일 앱 카드 화면비</string>
+    <string name="settings_icon_pack">아이콘 팩</string>
+    <string name="settings_icon_pack_none">설치된 아이콘 팩 없음</string>
+    <string name="settings_icon_pack_off">없음</string>
+    <string name="settings_more">더보기…</string>
+    <string name="settings_custom_icon_tint">맞춤 아이콘 틴트</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">포커스된 카드 크기</string>
+    <string name="settings_focused_effect">포커스된 카드 효과</string>
+    <string name="settings_effect_none">없음</string>
+    <string name="settings_effect_shadow">그림자</string>
+    <string name="settings_effect_glow">글로우</string>
+    <string name="settings_glow_animation">글로우 애니메이션</string>
+    <string name="settings_anim_none">없음</string>
+    <string name="settings_anim_pulse">펄스</string>
+    <string name="settings_anim_breath">호흡</string>
+    <string name="settings_anim_fade">페이드</string>
+    <string name="settings_anim_shine">반짝임</string>
+    <string name="settings_glow_size">글로우 크기</string>
+    <string name="settings_glow_color">글로우 색상</string>
+    <string name="settings_glow_color_desc">비워 두면 카드 자체의 색상을 사용합니다</string>
+    <string name="settings_colors_override">색상 재정의</string>
+    <string name="settings_override_none">없음</string>
+    <string name="settings_override_swap">배경/틴트 바꾸기</string>
+    <string name="settings_override_custom">사용자 지정</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">미리보기 동영상 재생</string>
+    <string name="settings_preview_never">안 함</string>
+    <string name="settings_preview_always">항상</string>
+    <string name="settings_preview_no_media">백그라운드 미디어가 재생 중이 아닐 때</string>
+    <string name="settings_show_progress">진행률 표시줄 표시</string>
+    <string name="settings_show_badge">배지 표시</string>
+    <string name="settings_zoom_focus">포커스 시 확대 효과</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">지원 형식: 정지 이미지, 애니메이션 GIF, 동영상(정적 또는 RTSP 라이브 스트림), Lottie 애니메이션</string>
+    <string name="settings_launcher_wallpaper">런처 배경화면</string>
+    <string name="settings_configure">구성</string>
+    <string name="settings_show_wallpapers">배경화면 표시</string>
+    <string name="settings_picture_adjustment">이미지 조정</string>
+    <string name="settings_image_transition">이미지 전환 효과</string>
+    <string name="settings_update_frequency">업데이트 주기(분)</string>
+    <string name="settings_video_wallpaper">동영상 배경화면</string>
+    <string name="settings_display_mode">표시 모드</string>
+    <string name="settings_bad_ratio">비율/품질이 맞지 않을 때</string>
+    <string name="settings_min_width">최소 허용 너비(px)</string>
+    <string name="settings_src_none">없음</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">다이내믹 색상</string>
+    <string name="settings_src_default">기본 배경화면</string>
+    <string name="settings_src_media">미디어 파일</string>
+    <string name="settings_src_folder">폴더</string>
+    <string name="settings_src_focused_program">포커스된 프로그램</string>
+    <string name="settings_src_now_playing">재생 중</string>
+    <string name="settings_src_random_program">무작위 프로그램</string>
+    <string name="settings_src_theme">테마</string>
+    <string name="settings_tr_none">없음</string>
+    <string name="settings_tr_random">무작위</string>
+    <string name="settings_tr_fade">페이드</string>
+    <string name="settings_tr_zoom">줌</string>
+    <string name="settings_tr_hslide">가로 슬라이드</string>
+    <string name="settings_tr_vslide">세로 슬라이드</string>
+    <string name="settings_dm_automatic">자동</string>
+    <string name="settings_dm_skip">건너뛰기</string>
+    <string name="settings_dm_crop">자르기</string>
+    <string name="settings_dm_stretch">늘이기</string>
+    <string name="settings_dm_fit">가운데 맞춤</string>
+    <string name="settings_dm_fit_blur">가운데 맞춤 + 흐린 배경</string>
+    <string name="settings_dm_blur">흐리게</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">색조</string>
+    <string name="settings_saturation">채도</string>
+    <string name="settings_contrast">대비</string>
+    <string name="settings_brightness">밝기</string>
+    <string name="settings_tint">틴트</string>
+    <string name="settings_tint_amount">틴트 강도</string>
+    <string name="settings_blur">흐리게</string>
+    <string name="settings_shadow_h">가로 그림자 오버레이 길이</string>
+    <string name="settings_shadow_v">세로 그림자 오버레이 길이</string>
+    <string name="settings_shadow_opacity">그림자 오버레이 불투명도</string>
+    <string name="settings_shadow_tint">그림자 오버레이 틴트</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">업데이트 주기 무시</string>
+    <string name="settings_ignore_update_desc">동영상이 끝날 때까지 기다린 후 새 배경화면을 요청합니다</string>
+    <string name="settings_video_color_freq">다이내믹 색상 업데이트 주기</string>
+    <string name="settings_video_color_freq_desc">색상을 읽을 동영상 프레임 사이의 간격(초). 0이면 사용 안 함</string>
+    <string name="settings_volume">볼륨</string>
+    <string name="settings_tunneling">하드웨어 렌더링 사용(터널링)</string>
+    <string name="settings_decoder_fallback">디코더 폴백 사용</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">알림 권한 관리</string>
+    <string name="settings_granted">허용됨</string>
+    <string name="settings_not_granted">허용되지 않음</string>
+    <string name="settings_notification_adb">이 기기에 설정 화면이 없습니다. 다음 명령으로 권한을 부여하세요: %1$s</string>
+    <string name="settings_clock">시계</string>
+    <string name="settings_icons">아이콘</string>
+    <string name="settings_show_system_bar">시스템 상태 표시줄 표시</string>
+    <string name="settings_autohide_status">스크롤 시 상태 표시줄 숨기기</string>
+    <string name="settings_show_clock">시계 표시</string>
+    <string name="settings_clock_size">시계 글꼴 크기</string>
+    <string name="settings_clock_color">시계 색상</string>
+    <string name="settings_drop_shadow">그림자</string>
+    <string name="settings_clock_line1">시계 형식(첫째 줄)</string>
+    <string name="settings_clock_line2">시계 형식(둘째 줄)</string>
+    <string name="settings_clock_default_format">시스템 형식</string>
+    <string name="settings_empty">비어 있음</string>
+    <string name="settings_icons_size">아이콘 크기</string>
+    <string name="settings_icons_color">아이콘 색상</string>
+    <string name="settings_icons_container">아이콘 컨테이너 색상</string>
+    <string name="settings_show_settings">설정 표시</string>
+    <string name="settings_show_settings_desc">이 버튼 순서로 언제든지 설정에 들어갈 수 있습니다: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">연결 상태 표시</string>
+    <string name="settings_show_notifications">알림 표시</string>
+    <string name="settings_autohide_notifications">알림이 없으면 알림 아이콘 숨기기</string>
+    <string name="settings_show_battery">배터리 표시</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">사용</string>
+    <string name="settings_headers_on_launch">실행 시 왼쪽 헤더 표시</string>
+    <string name="settings_show_icon">아이콘 표시</string>
+    <string name="settings_show_reorder">순서 변경 표시</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">유휴 전환까지 시간(분)</string>
+    <string name="settings_idle_opacity">UI 불투명도</string>
+    <string name="settings_keep_clock">시계 유지</string>
+    <string name="settings_prevent_screensaver">시스템 화면 보호기 방지</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher 글꼴 설정을 변경합니다. 글꼴 패밀리 이름은 Google Fonts에서 찾을 수 있습니다.</string>
+    <string name="settings_font_list">목록에서 선택</string>
+    <string name="settings_font_google">글꼴(Google Fonts)</string>
+    <string name="settings_font_default">기본값</string>
+    <string name="settings_bold">굵게</string>
+    <string name="settings_italic">기울임꼴</string>
+    <string name="settings_size">크기</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">부팅 시 자동 시작</string>
+    <string name="settings_autostart_none">없음</string>
+    <string name="settings_autostart_screensaver">[*] 화면 보호기(지원되는 경우)</string>
+    <string name="settings_autostart_resume">…대기 모드에서 다시 켤 때도</string>
+    <string name="settings_autostart_delay">자동 시작 지연(초)</string>
+    <string name="settings_simulate_activity">유휴 시 시스템 자동 종료 방지</string>
+    <string name="settings_idle_detection">내부 유휴 감지 사용</string>
+    <string name="settings_idle_timeout_power">유휴 시간 제한(시:분)</string>
+    <string name="settings_idle_action">유휴 시 동작</string>
+    <string name="settings_idle_action_shutdown">종료</string>
+    <string name="settings_idle_action_screen_off">화면 끄기</string>
+    <string name="settings_idle_action_screensaver">화면 보호기(지원되는 경우)</string>
+    <string name="settings_idle_media">미디어 재생 중에는 유휴 모드 무시</string>
+    <string name="settings_missing_notification_permission">⚠️ 알림 권한 없음</string>
+    <string name="settings_shutdown_action">종료 동작</string>
+    <string name="settings_shutdown_dialog">전원 대화상자</string>
+    <string name="settings_shutdown_dialog_twice">전원 대화상자(두 번 호출)</string>
+    <string name="settings_shutdown_dialog_ok">전원 대화상자 + 확인</string>
+    <string name="settings_hdmi_exit">HDMI 입력 신호가 끊기면 자동 종료</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">선택한 앱(홈 화면에서 카드를 길게 눌러 선택)을 하루 종일 또는 하루 중 일부 시간 동안 잠그는 코드를 정합니다</string>
+    <string name="settings_parental_set_code">새 자녀 보호 코드 설정</string>
+    <string name="settings_parental_code_set">코드가 설정되어 있습니다</string>
+    <string name="settings_parental_long">인증에 성공한 후 15분 동안 코드를 요청하지 않음</string>
+    <string name="settings_parental_protect">런처 설정 및 UI 변경 보호</string>
+    <string name="settings_parental_protect_desc">(항상 적용)</string>
+    <string name="settings_parental_partial">다음 시간에만 보호 사용</string>
+    <string name="settings_parental_start">시작 시간(시:분)</string>
+    <string name="settings_parental_end">종료 시간(시:분)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">“메뉴” 두 번 누르기로 정보 표시</string>
+    <string name="settings_back_double">“뒤로” 두 번 누르기로 “주변 모드”</string>
+    <string name="settings_back_double_desc">지원되는 기기에서 화면 보호기를 시작합니다</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">서비스를 켜면 부팅 시 작업 실행, 리모컨 버튼 맞춤설정, 자녀 보호 기능 강화, 전원 관리를 위한 유휴 시간 감지를 할 수 있습니다. 서비스는 하드웨어 키 입력과 화면 앞에 있는 앱의 이름을 확인하며, 두 정보 모두 이 기기의 메모리에만 보관되고 어디로도 전송되지 않습니다.</string>
+    <string name="settings_a11y_enabled">사용 설정됨</string>
+    <string name="settings_a11y_started">실행 중</string>
+    <string name="settings_yes">예</string>
+    <string name="settings_no">아니요</string>
+    <string name="settings_a11y_open">접근성 설정 표시</string>
+    <string name="settings_a11y_consent_title">접근성 서비스</string>
+    <string name="settings_a11y_consent">QLauncher가 하드웨어 버튼 입력과 포그라운드 앱의 이름을 확인할 수 있게 됩니다. 두 정보 모두 이 기기의 메모리에만 보관되며 어디로도 전송되지 않습니다. 동의하십니까?</string>
+    <string name="settings_a11y_alternate">대체 구성 사용</string>
+    <string name="settings_a11y_alternate_desc">일부 기기의 문제를 해결합니다</string>
+    <string name="settings_a11y_volume_fix">볼륨 버튼 수정</string>
+    <string name="settings_a11y_volume_fix_desc">볼륨 버튼을 누르면 잠시 재매핑을 멈춰 길게 누르기가 계속 작동하도록 합니다</string>
+    <string name="settings_a11y_remap">버튼 재매핑 사용</string>
+    <string name="settings_a11y_remap_desc">서비스가 키 입력을 가로챕니다. 이 옵션을 끄면 볼륨 길게 누르기 문제와 시스템이 서비스를 중지하는 문제를 피할 수 있지만, 런처 대체, 자녀 보호 기능, 유휴 감지의 효과가 떨어질 수 있습니다.</string>
+    <string name="settings_a11y_reminder">리마인더 표시</string>
+    <string name="settings_a11y_reminder_desc">접근성 서비스가 꺼져 있는 경우</string>
+    <string name="settings_a11y_unbound_toast">QLauncher의 접근성 서비스가 실행되고 있지 않습니다</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">설정을 로컬로, 또는 LocalSend나 파일 관리자 같은 다른 앱으로 가져오거나 내보냅니다.</string>
+    <string name="settings_import">가져오기</string>
+    <string name="settings_import_file">파일에서</string>
+    <string name="settings_import_auto">자동 백업에서</string>
+    <string name="settings_export">내보내기</string>
+    <string name="settings_export_local">로컬에 저장</string>
+    <string name="settings_export_share">다른 앱과 공유</string>
+    <string name="settings_reset">기본값으로 재설정</string>
+    <string name="settings_cancel">취소</string>
+    <string name="settings_ok">확인</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">카테고리</string>
+    <string name="wp_custom_search">맞춤 검색</string>
+    <string name="wp_reddit_login">로그인</string>
+    <string name="wp_reddit_logout">로그아웃: %1$s</string>
+    <string name="wp_reddit_logout_unknown">로그아웃</string>
+    <string name="wp_subreddit">서브레딧</string>
+    <string name="wp_custom_subreddit">맞춤 서브레딧</string>
+    <string name="wp_custom_subreddit_hint">여러 이름은 +로 구분</string>
+    <string name="wp_folder">폴더</string>
+    <string name="wp_folder_choose">폴더 선택</string>
+    <string name="wp_media">미디어 파일</string>
+    <string name="wp_media_choose">파일 선택</string>
+    <string name="wp_choose_other">다른 위치…</string>
+    <string name="wp_choose_other_desc">시스템 파일 선택기로 선택</string>
+    <string name="wp_media_searching">사진 및 동영상을 찾는 중…</string>
+    <string name="wp_media_none">사진이나 동영상을 찾을 수 없습니다. Pictures, Movies 또는 Download에 복사하거나 USB 드라이브를 연결하세요.</string>
+    <string name="wp_folders_description">이 기기와 USB 드라이브에 있는, 사진이나 동영상이 들어 있는 폴더입니다.</string>
+    <string name="wp_folders_none">사진이나 동영상이 들어 있는 폴더를 찾을 수 없습니다</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="other">파일 %d개</item>
+    </plurals>
+    <string name="wp_media_color">단색</string>
+    <string name="wp_theme_desc">가져온 테마에 포함된 배경화면</string>
+    <string name="wp_plugin_settings">플러그인 설정</string>
+    <string name="wp_not_set">설정되지 않음</string>
+    <string name="wp_status">상태</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">이 배경화면</string>
+    <string name="wp_next">다음</string>
+    <string name="wp_source">출처</string>
+    <string name="wp_title">제목</string>
+    <string name="wp_author">작성자</string>
+    <string name="wp_set_user">사용자 배경화면으로 설정</string>
+    <string name="wp_view">보기</string>
+    <string name="wp_unknown">알 수 없음</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">여기에서 동영상 디스플레이 프로필을 만들고 관리합니다. 입력 소스에 연결하면 자동으로 전환되며, 메뉴를 두 번 누른 후 위나 아래를 눌러 적용할 수도 있습니다.</string>
+    <string name="dp_list">디스플레이 프로필 목록</string>
+    <string name="dp_list_desc">여기에서 동영상 디스플레이 프로필을 만들거나 편집합니다. 기기에 따라 일부 항목은 루트 권한이 필요하거나 전혀 작동하지 않습니다. 이 항목들은 AmLogic 기기용입니다.</string>
+    <string name="dp_add">새로 추가…</string>
+    <string name="dp_name">프로필 이름</string>
+    <string name="dp_preview">미리보기</string>
+    <string name="dp_fullscreen">전체 화면 미리보기</string>
+    <string name="dp_fullscreen_desc">또는 메뉴 버튼으로 전환</string>
+    <string name="dp_delete">프로필 삭제</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">타사 앱 설치</string>
+    <string name="install_desc">설치할 앱을 선택하세요. 먼저 출처를 알 수 없는 앱의 설치를 허용해야 할 수도 있습니다.</string>
+    <string name="install_custom">사용자 지정 URL / Downloader 코드</string>
+    <string name="install_custom_desc">신뢰할 수 있는 출처만 사용하세요</string>
+    <string name="install_status">상태</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">이 기기</string>
+
+    <string name="gallery_filter">필터…</string>
+    <string name="settings_no_file_picker">이 기기에 파일 선택기가 없습니다</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">휘도</string>
+    <string name="color_opacity">불투명도</string>
+    <string name="color_prefer_dynamic">다이내믹 색상 우선</string>
+    <string name="color_prefer_dynamic_desc">사용 가능한 경우 이 휘도/불투명도를 유지합니다</string>
+    <string name="color_clear">지우기</string>
+    <string name="color_reset">기본값으로 재설정</string>
+</resources>

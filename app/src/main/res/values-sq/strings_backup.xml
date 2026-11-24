@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">I parazgjedhur</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">trashë</string>
+    <string name="backup_clock_markup_italic">pjerrët</string>
+    <string name="backup_clock_markup_underline">nënvizuar</string>
+    <string name="backup_clock_markup_strikethrough">mesvijëzuar</string>
+    <string name="backup_clock_markup_subscript">poshtëshkrim</string>
+    <string name="backup_clock_markup_superscript">sipërshkrim</string>
+    <string name="backup_clock_markup_half_size">gjysmë madhësie</string>
+    <string name="backup_clock_markup_one_and_a_half_size">një herë e gjysmë</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Prerja e së zezës</string>
+    <string name="backup_pattern_apl_clipping">Prerja APL</string>
+    <string name="backup_pattern_white_clipping">Prerja e së bardhës</string>
+    <string name="backup_pattern_grayscale_ramp">Gradienti gri</string>
+    <string name="backup_pattern_grayscale_steps">Shkallët gri</string>
+    <string name="backup_pattern_dynamic_brightness">Ndriçimi dinamik</string>
+    <string name="backup_pattern_color_steps">Shkallët e ngjyrave</string>
+    <string name="backup_pattern_color_clipping">Prerja e ngjyrave</string>
+    <string name="backup_pattern_flashing_color_bars">Shirita ngjyrash vezullues</string>
+    <string name="backup_pattern_sharpness_overscan">Mprehtësia &amp; mbiskanimi</string>
+    <string name="backup_pattern_uhd">Modeli UHD</string>
+    <string name="backup_pattern_judder">Testi i rrjedhshmërisë së lëvizjes</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Mprehtësia e raportit të pamjes</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Niveli i së zezës</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Prerja e ngjyrave 240–1000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Prerja e ngjyrave 3600–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Prerja e ngjyrave 700–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Prerja e ngjyrave 900–4000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Gradienti gri 10000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Gradienti gri 1000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Gradienti gri 4000 nits</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE e zezë</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Gradientët e ngjyrave</string>
+    <string name="backup_pattern_unavailable">%1$s kërkon një shteg video HDR dhe nuk është ende i disponueshëm</string>
+    <!-- Pages -->
+    <string name="backup_settings">Cilësimet</string>
+    <string name="backup_manage_settings">Menaxho cilësimet</string>
+    <string name="backup_themes">Temat</string>
+    <string name="backup_import">Importo</string>
+    <string name="backup_export">Eksporto</string>
+    <string name="backup_import_from_file">Nga menaxheri i skedarëve</string>
+    <string name="backup_import_from_auto">Nga kopja rezervë automatike</string>
+    <string name="backup_export_save">Ruaj në pajisje</string>
+    <string name="backup_export_share">Ndaj me një aplikacion tjetër</string>
+    <string name="backup_reset">Rivendos parazgjedhjet</string>
+    <string name="backup_cancel">Anulo</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">U krye</string>
+    <string name="backup_close">Mbyll</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Eksporto cilësimet</string>
+    <string name="backup_export_theme_title">Eksporto temën</string>
+    <string name="backup_export_description">Gjithçka ruhet në një skedar, të enkriptuar me një fjalëkalim që zgjedh ti (të paktën %1$d karaktere). Fjalëkalimi të duhet për të importuar skedarin dhe nuk mund të rikuperohet.</string>
+    <string name="backup_export_theme_description">Cilësimet e pamjes dhe imazhi aktual i sfondit ruhen në një skedar, të enkriptuar me një fjalëkalim që zgjedh ti (të paktën %1$d karaktere). Fjalëkalimi të duhet për të importuar temën.</string>
+    <string name="backup_password">Fjalëkalimi</string>
+    <string name="backup_password_show">Shfaq fjalëkalimin</string>
+    <string name="backup_password_hide">Fshih fjalëkalimin</string>
+    <string name="backup_password_strength">Fortësia e fjalëkalimit</string>
+    <string name="backup_strength_too_short">Shumë i shkurtër: të paktën %1$d karaktere</string>
+    <string name="backup_strength_weak">I dobët: hamendësohet lehtë</string>
+    <string name="backup_strength_fair">Mesatar</string>
+    <string name="backup_strength_strong">I fortë</string>
+    <string name="backup_password_too_short">Fjalëkalimi duhet të ketë të paktën %1$d karaktere</string>
+    <string name="backup_exporting">Po eksportohet…</string>
+    <string name="backup_export_saved">U ruajt në %1$s</string>
+    <string name="backup_export_kept">Nuk u ruajt gjetkë. Skedari mbetet në %1$s</string>
+    <string name="backup_export_shared">U dërgua. Një kopje mbetet në %1$s</string>
+    <string name="backup_export_no_file_manager">Asnjë aplikacion në këtë pajisje nuk mund ta marrë skedarin. Ai ndodhet në %1$s</string>
+    <string name="backup_export_failed">Eksportimi dështoi: %1$s</string>
+    <string name="backup_share_title">Dërgo skedarin e QLauncher me</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Importimi zëvendëson konfigurimin tënd aktual. Fillimisht shkruhet një kopje rezervë automatike dhe QLauncher riniset kur të përfundojë.</string>
+    <string name="backup_reading">Po lexohet skedari…</string>
+    <string name="backup_import_action">Importo</string>
+    <string name="backup_wrong_password">Fjalëkalim i gabuar</string>
+    <string name="backup_password_hint">Fjalëkalimi i zgjedhur kur u eksportua skedari</string>
+    <string name="backup_not_a_backup">Kjo nuk është kopje rezervë ose temë e QLauncher apo e Projectivy.</string>
+    <string name="backup_damaged">Skedari është i dëmtuar ose i paplotë.</string>
+    <string name="backup_too_new">Ky skedar u krijua nga një QLauncher më i ri (formati %1$d). Përditëso QLauncher për ta importuar.</string>
+    <string name="backup_unreadable">Kjo kopje rezervë automatike nuk mund të lexohet në këtë pajisje.</string>
+    <string name="backup_import_failed">Importimi dështoi dhe nuk u ndryshua asgjë: %1$s</string>
+    <string name="backup_applying">Po importohet… QLauncher riniset kur të përfundojë.</string>
+    <string name="backup_origin_ql_backup">Kopje rezervë e cilësimeve të QLauncher</string>
+    <string name="backup_origin_ql_theme">Temë e QLauncher</string>
+    <string name="backup_origin_pl_backup">Kopje rezervë e cilësimeve të Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Temë e Projectivy Launcher</string>
+    <string name="backup_origin_auto">Kopje rezervë automatike</string>
+    <string name="backup_preview_theme_by">%1$s nga %2$s</string>
+    <string name="backup_preview_version">versioni %1$s</string>
+    <string name="backup_preview_settings">Cilësimet</string>
+    <string name="backup_preview_categories">Kategoritë</string>
+    <string name="backup_preview_apps">Personalizimet e aplikacioneve</string>
+    <string name="backup_preview_profiles">Profilet e ekranit</string>
+    <string name="backup_preview_files">Imazhe sfondi dhe ikona</string>
+    <string name="backup_preview_skipped">Aplikacione që nuk janë në këtë pajisje</string>
+    <string name="backup_replace_setup">Zëvendëso konfigurimin aktual</string>
+    <string name="backup_apply_theme">Apliko temën</string>
+    <string name="backup_replace_detail">Fillimisht shkruhet një kopje rezervë automatike e konfigurimit aktual</string>
+    <string name="backup_nc_parental">Kodi prindëror</string>
+    <string name="backup_nc_parental_detail">Nuk transferohet. Cakto një kod të ri te Kontrolli prindëror.</string>
+    <string name="backup_nc_premium">Gjendja Premium</string>
+    <string name="backup_nc_premium_detail">Nuk transferohet. Çdo veçori e QLauncher është falas.</string>
+    <string name="backup_nc_inputs">Hyrjet TV</string>
+    <string name="backup_nc_profile_bindings">Lidhjet e profileve të ekranit</string>
+    <string name="backup_nc_plugin">Shtojca e imazhit të sfondit</string>
+    <string name="backup_nc_plugin_detail">%1$s nuk është i instaluar. Burimi i imazhit të sfondit mbetet siç është.</string>
+    <string name="backup_nc_icons">Ikona të personalizuara</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d vlerë e ndryshuar</item>
+        <item quantity="other">%1$d vlera të ndryshuara</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategori</item>
+        <item quantity="other">%1$d kategori</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d aplikacion</item>
+        <item quantity="other">%1$d aplikacione</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profil</item>
+        <item quantity="other">%1$d profile</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d skedar</item>
+        <item quantity="other">%1$d skedarë</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d cilësim i panjohur, u anashkalua</item>
+        <item quantity="other">%1$d cilësime të panjohura, u anashkaluan</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d hyrje nuk përputhet me asnjë aplikacion të instaluar këtu dhe anashkalohet</item>
+        <item quantity="other">%1$d hyrje nuk përputhen me asnjë aplikacion të instaluar këtu dhe anashkalohen</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d lidhje me një hyrje TV që kjo pajisje nuk e ka anashkalohet</item>
+        <item quantity="other">%1$d lidhje me hyrje TV që kjo pajisje nuk i ka anashkalohen</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d profil i caktuar për një hyrje nuk transferohet</item>
+        <item quantity="other">%1$d profile të caktuara për hyrje nuk transferohen</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d ikonë e ruajtur brenda Projectivy nuk mund të lexohet dhe anashkalohet</item>
+        <item quantity="other">%1$d ikona të ruajtura brenda Projectivy nuk mund të lexohen dhe anashkalohen</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Kopjet rezervë automatike</string>
+    <string name="backup_auto_description">QLauncher mban %1$d versionet e fundit të konfigurimit tënd në këtë pajisje, të enkriptuara me një çelës që nuk largohet kurrë prej saj. Zgjidh njërin për ta rikthyer; nuk nevojitet fjalëkalim.</string>
+    <string name="backup_auto_none">Nuk ka kopje rezervë automatike të disponueshme</string>
+    <string name="backup_files_title">Skedarët e kopjeve rezervë</string>
+    <string name="backup_files_theme_title">Skedarët e temave</string>
+    <string name="backup_files_description">Eksportimet ruhen në %1$s. Me qasje te të gjithë skedarët, QLauncher gjen kopje rezervë edhe në Download, Documents dhe në njësitë USB, përfshirë ato të Projectivy.</string>
+    <string name="backup_files_searching">Po kërkohen skedarët e kopjeve rezervë…</string>
+    <string name="backup_files_none">Nuk u gjet asnjë skedar kopjeje rezervë</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Dosja e QLauncher</string>
+    <string name="backup_files_access">Gjej kopje rezervë nga aplikacione dhe pajisje të tjera</string>
+    <string name="backup_files_access_desc">Lejo qasjen te të gjithë skedarët</string>
+    <string name="backup_files_access_unavailable">Nuk ka ekran cilësimesh në këtë pajisje. Lejo qasjen te të gjithë skedarët me: %1$s</string>
+    <string name="backup_files_browse">Vendndodhje tjetër…</string>
+    <string name="backup_files_browse_desc">Zgjidh një skedar me zgjedhësin e skedarëve të sistemit</string>
+    <string name="backup_auto_delete_all">Fshiji të gjitha</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Pas një ndryshimi</string>
+    <string name="backup_reason_import">Para një importimi</string>
+    <string name="backup_reason_migration">Para një përditësimi</string>
+    <string name="backup_reason_reset">Para një rivendosjeje</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profili #</string>
+    <string name="backup_no_picture_manager">Nuk u ngarkua asnjë menaxher figure</string>
+    <string name="backup_no_picture_manager_detail">Kjo pajisje nuk ofron asnjë mënyrë të mbështetur për të ndryshuar cilësimet e figurës, prandaj profilet i ruajnë vlerat e tyre pa i zbatuar.</string>
+</resources>

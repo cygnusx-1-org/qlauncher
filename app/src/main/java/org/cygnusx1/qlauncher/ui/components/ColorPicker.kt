@@ -42,8 +42,10 @@ import androidx.compose.ui.input.key.KeyEventType
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.type
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.Text
 import kotlinx.coroutines.delay
@@ -162,6 +164,8 @@ fun ColorPickerPanel(
     var bubbleStamp by remember { mutableLongStateOf(0L) }
     val fr = remember { FocusRequester() }
     LaunchedEffect(Unit) { runCatching { fr.requestFocus() } }
+    // The picker is placed with offsets, which mirror in RTL, so LEFT/RIGHT swap there too.
+    val rtl = LocalLayoutDirection.current == LayoutDirection.Rtl
     LaunchedEffect(bubbleStamp) {
         if (bubble != null) {
             delay(1500)
@@ -225,8 +229,8 @@ fun ColorPickerPanel(
         return when (e.key) {
             Key.DirectionUp -> { if (down) vertical(-1); true }
             Key.DirectionDown -> { if (down) vertical(1); true }
-            Key.DirectionLeft -> { if (down) horizontal(-1); true }
-            Key.DirectionRight -> { if (down) horizontal(1); true }
+            Key.DirectionLeft -> { if (down) horizontal(dpadStep(false, rtl)); true }
+            Key.DirectionRight -> { if (down) horizontal(dpadStep(true, rtl)); true }
             Key.DirectionCenter, Key.Enter, Key.NumPadEnter -> {
                 if (e.type == KeyEventType.KeyUp) {
                     when (focus) {

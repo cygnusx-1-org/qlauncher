@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Версія %1$s</string>
+    <string name="about_copyright">© 2026 учасники проєкту QLauncher. Вільне ПЗ за ліцензією GNU General Public License версії 3.</string>
+    <string name="about_libs">Бібліотеки / Подяки</string>
+    <string name="about_links">Посилання</string>
+    <string name="about_link_project">Сторінка проєкту</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Переклад українською</string>
+    <string name="about_translation_credit">Учасники проєкту QLauncher</string>
+    <string name="about_no_browser">На цьому пристрої немає браузера. Відкрийте %1$s на іншому пристрої.</string>
+    <string name="about_check_updates">Перевірити оновлення</string>
+    <string name="about_update_checking">Перевірка…</string>
+    <string name="about_update_latest">Встановлено останню версію QLauncher (%1$s)</string>
+    <string name="about_update_available">Доступна версія %1$s</string>
+    <string name="about_update_failed">Не вдалося перевірити: %1$s</string>
+    <string name="about_update_install">Встановити QLauncher %1$s</string>
+    <string name="update_available_toast">Доступний QLauncher %1$s: Налаштування › Відомості › QLauncher</string>
+</resources>

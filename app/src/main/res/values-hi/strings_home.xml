@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">अभी चल रहा है</string>
+    <string name="home_cat_inputs">इनपुट</string>
+    <string name="home_cat_favorites">पसंदीदा</string>
+    <string name="home_cat_video">वीडियो</string>
+    <string name="home_cat_music">संगीत</string>
+    <string name="home_cat_games">गेम</string>
+    <string name="home_cat_tv_apps">टीवी ऐप्स</string>
+    <string name="home_cat_mobile_apps">मोबाइल ऐप्स</string>
+    <string name="home_cat_watch_next">अगला देखें</string>
+    <string name="home_cat_shortcuts">शॉर्टकट</string>
+    <string name="home_cat_folders">श्रेणी फ़ोल्डर</string>
+    <string name="home_cat_live_tv">लाइव टीवी</string>
+    <string name="home_cat_settings">सेटिंग</string>
+    <string name="home_cat_display">डिसप्ले</string>
+    <string name="home_cat_applications">ऐप्लिकेशन</string>
+    <string name="home_cat_system">सिस्टम</string>
+    <string name="home_cat_about">इसके बारे में</string>
+    <string name="home_new_category">नई श्रेणी</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">सभी ऐप्स</string>
+    <string name="home_action_edit_categories">श्रेणियां संपादित करें</string>
+    <string name="home_action_edit_channels">चैनल संपादित करें</string>
+    <string name="home_action_launcher_settings">QLauncher सेटिंग</string>
+    <string name="home_action_android_settings">Android सेटिंग</string>
+    <string name="home_action_amlogic_settings">AmLogic की अतिरिक्त सेटिंग</string>
+    <string name="home_action_display_profiles">डिसप्ले प्रोफ़ाइल</string>
+    <string name="home_action_install_apps">तीसरे पक्ष के ऐप्स इंस्टॉल करें</string>
+    <string name="home_action_accessibility">सुलभता सेवा</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">प्रोफ़ाइल बदलें</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">यह डिवाइस</string>
+    <string name="home_action_about_wallpaper">यह वॉलपेपर</string>
+
+    <!-- Program meta -->
+    <string name="home_season">सीज़न %1$s</string>
+    <string name="home_episode">एपिसोड %1$s</string>
+    <string name="home_minutes">%1$d मिनट</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">कनेक्टिविटी</string>
+    <string name="home_status_notifications">सूचनाएं</string>
+    <string name="home_status_settings">सेटिंग</string>
+    <string name="home_status_wallpaper">यह वॉलपेपर</string>
+    <string name="home_navigation_menu">नेविगेशन मेन्यू</string>
+    <string name="home_reorder">क्रम बदलें</string>
+    <string name="home_category_settings">श्रेणी की सेटिंग</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">ऐप की सेटिंग</string>
+    <string name="menu_open">खोलें</string>
+    <string name="menu_details">विवरण</string>
+    <string name="menu_play_pause">चलाएं/रोकें</string>
+    <string name="menu_stop">बंद करें</string>
+    <string name="menu_previous">पिछला</string>
+    <string name="menu_next">अगला</string>
+    <string name="menu_uninstall">अनइंस्टॉल करें</string>
+    <string name="menu_launch_on_boot">बूट पर लॉन्च करें</string>
+    <string name="menu_launch_on_boot_on">बूट पर लॉन्च होता है</string>
+    <string name="menu_add_parental">माता-पिता के नियंत्रण में जोड़ें</string>
+    <string name="menu_remove_parental">माता-पिता के नियंत्रण से हटाएं</string>
+    <string name="menu_shortcuts">शॉर्टकट</string>
+    <string name="menu_appearance">दिखावट</string>
+    <string name="menu_title">शीर्षक</string>
+    <string name="menu_change_icon">आइकॉन बदलें</string>
+    <string name="menu_icon_from_picture">तस्वीर से</string>
+    <string name="menu_icon_other_location">दूसरी जगह…</string>
+    <string name="menu_icon_no_pictures">कोई तस्वीर नहीं मिली। कुछ तस्वीरें Pictures या Download में कॉपी करें, या USB ड्राइव लगाएं।</string>
+    <string name="menu_icon_reset">रीसेट करें</string>
+    <string name="menu_crop">काटकर भरें</string>
+    <string name="menu_visibility">दृश्यता</string>
+    <string name="menu_reorder">क्रम बदलें</string>
+    <string name="menu_remove_from">%1$s से हटाएं</string>
+    <string name="menu_hide">छिपाएं</string>
+    <string name="menu_add_to">इसमें जोड़ें…</string>
+    <string name="menu_move_to">यहां ले जाएं…</string>
+    <string name="menu_channels">चैनल</string>
+    <string name="menu_rename_hint">नया शीर्षक लिखें और OK दबाएं</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">शीर्षक</string>
+    <string name="editor_change_icon">आइकॉन बदलें</string>
+    <string name="editor_visible">दृश्यमान</string>
+    <string name="editor_grid">ग्रिड</string>
+    <string name="editor_sliding_row">स्लाइड होने वाली पंक्ति</string>
+    <string name="editor_background">बैकग्राउंड का रंग</string>
+    <string name="editor_show_title">शीर्षक दिखाएं</string>
+    <string name="editor_size">साइज़</string>
+    <string name="editor_advanced">उन्नत सेटिंग</string>
+    <string name="editor_start_margin">शुरुआती मार्जिन</string>
+    <string name="editor_end_margin">आखिरी मार्जिन</string>
+    <string name="editor_top_margin">ऊपरी मार्जिन</string>
+    <string name="editor_cards_per_row">हर पंक्ति में कार्ड</string>
+    <string name="editor_row_count">पंक्तियों की संख्या</string>
+    <string name="editor_auto">अपने-आप</string>
+    <string name="editor_auto_value">अपने-आप (%1$s)</string>
+    <string name="editor_sort">क्रम से लगाएं</string>
+    <string name="editor_sort_custom">कस्टम</string>
+    <string name="editor_sort_name">वर्णक्रम से</string>
+    <string name="editor_sort_last">हाल ही में इस्तेमाल किए गए</string>
+    <string name="editor_sort_most">अक्सर इस्तेमाल किए गए</string>
+    <string name="editor_sort_random">किसी भी क्रम में</string>
+    <string name="editor_set_default">डिफ़ॉल्ट के तौर पर सेट करें</string>
+    <string name="editor_is_default">डिफ़ॉल्ट श्रेणी</string>
+    <string name="editor_manage_apps">ऐप्स मैनेज करें</string>
+    <string name="editor_hidden_items">छिपे हुए आइटम</string>
+    <string name="editor_restore">वापस लाएं</string>
+    <string name="editor_delete">मिटाएं</string>
+    <string name="editor_delete_confirm">यह श्रेणी मिटाएं?</string>
+    <string name="editor_empty_note">यह श्रेणी अभी नहीं दिखेगी, क्योंकि यह खाली है</string>
+    <string name="editor_request_notifications">सूचना की अनुमति मांगें</string>
+    <string name="editor_channel_error">यह चैनल अब पढ़ा नहीं जा सकता</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">चैनल</string>
+    <string name="channels_count">%1$d चैनल</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">सूचनाएं</string>
+    <string name="notifications_clear_all">सभी हटाएं</string>
+    <string name="notifications_empty">कोई सूचना नहीं है</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">यह ऐप खोला नहीं जा सकता</string>
+    <string name="home_reorder_hint">ले जाने के लिए बाएं/दाएं दबाएं, खत्म करने के लिए OK या बैक</string>
+    <string name="home_category_reorder_hint">ले जाने के लिए ऊपर/नीचे दबाएं, खत्म करने के लिए OK या बैक</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">आपका स्वागत है!</string>
+    <string name="firstrun_welcome_text">QLauncher, Android TV के लिए एक लॉन्चर है। यह आपके ऐप्स, चैनल और पसंदीदा कॉन्टेंट को एक ऐसी होम स्क्रीन पर रखता है जिसे आप अपनी पसंद से बदल सकते हैं, और उसके पीछे बदलता हुआ वॉलपेपर होता है।</string>
+    <string name="firstrun_features_title">आपकी नई सुपरपावर</string>
+    <string name="firstrun_features_text">बूट पर कोई ऐप या HDMI इनपुट लॉन्च करें, डिसप्ले प्रोफ़ाइल मैनेज करें, माता-पिता के नियंत्रण से ऐप्स लॉक करें, कैलिब्रेशन पैटर्न दिखाएं, निष्क्रिय समय का पता लगाएं, और होम स्क्रीन के हर हिस्से को अपनी पसंद से बदलें। कुछ सुविधाएं आपके डिवाइस पर निर्भर करती हैं।</string>
+    <string name="firstrun_a11y_title">चलिए, सुलभता चालू करें</string>
+    <string name="firstrun_a11y_text">कई सुविधाओं के लिए QLauncher की सुलभता सेवा ज़रूरी है: डिवाइस के अपने लॉन्चर की जगह लेना, बूट पर कार्रवाइयां, रिमोट बटन जेस्चर, निष्क्रियता का पता लगाना और माता-पिता का नियंत्रण। आप इसे अभी या बाद में सेटिंग से चालू कर सकते हैं।</string>
+    <string name="firstrun_a11y_open">सुलभता सेटिंग खोलें</string>
+    <string name="firstrun_permissions_title">अगर इजाज़त हो…</string>
+    <string name="firstrun_permissions_text">आगे, QLauncher टीवी लिस्टिंग पढ़ने की अनुमति (चैनल और “अगला देखें” के लिए) और सूचना का ऐक्सेस (सूचना आइकॉन और “अभी चल रहा है” के लिए) मांगेगा। दोनों ज़रूरी नहीं हैं।</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">आगे, QLauncher सूचना का ऐक्सेस (सूचना आइकॉन और “अभी चल रहा है” के लिए) मांगेगा। यह ज़रूरी नहीं है।</string>
+    <string name="firstrun_notifications_dialog">सूचना का ऐक्सेस दें?</string>
+    <string name="firstrun_notifications_text">सूचना के ऐक्सेस से QLauncher सूचनाओं की संख्या, सूचना पैनल और अभी क्या चल रहा है, यह दिखा सकता है। “हां” चुनने पर “खास ऐप्लिकेशन ऐक्सेस” पेज खुलता है, जहां आप यह ऐक्सेस दे सकते हैं।</string>
+    <string name="firstrun_reports_title">क्रैश और गड़बड़ी की गुमनाम रिपोर्ट भेजें?</string>
+    <string name="firstrun_reports_text">अगर QLauncher क्रैश होता है या उसमें कोई गड़बड़ी आती है, तो वह ऐप वर्शन और डिवाइस मॉडल के साथ एक रिपोर्ट भेज सकता है, ताकि बग ठीक किया जा सके। ऐसी कोई जानकारी नहीं भेजी जाती जिससे आपकी या आप क्या देखते हैं, इसकी पहचान हो सके। आप इसे बाद में “सामान्य” में बदल सकते हैं।</string>
+    <string name="firstrun_launcher_title">QLauncher को अपनी होम स्क्रीन बनाएं</string>
+    <string name="firstrun_launcher_text">कई टीवी डिवाइस डिफ़ॉल्ट लॉन्चर बदलने नहीं देते। अगर आपका डिवाइस देता है, तो वहां QLauncher चुनें। नहीं तो “मौजूदा लॉन्चर ओवरराइड करें” के साथ सुलभता सेवा चालू करें, और जब भी डिवाइस का अपना लॉन्चर खुलेगा, QLauncher वापस आ जाएगा।</string>
+    <string name="firstrun_launcher_open">डिफ़ॉल्ट लॉन्चर बदलें</string>
+    <string name="firstrun_start_title">चलिए, शुरू करें!</string>
+    <string name="firstrun_start_text">बाद में सेटिंग से सब कुछ बदला जा सकता है। ऊपर दाईं ओर सेटिंग बटन दबाएं, या बटनों का क्रम ↑→↓←↑→↓← दबाएं।</string>
+    <string name="firstrun_get_started">शुरू करें</string>
+    <string name="firstrun_next">आगे बढ़ें</string>
+    <string name="firstrun_skip">छोड़ें</string>
+    <string name="firstrun_yes">हां</string>
+    <string name="firstrun_no">नहीं</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">इस डिवाइस पर कोई स्क्रीन सेवर नहीं है</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Tiada</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Warna dinamik</string>
+    <string name="wallpaper_provider_default">Kertas dinding lalai</string>
+    <string name="wallpaper_provider_media_file">Fail media</string>
+    <string name="wallpaper_provider_folder">Folder</string>
+    <string name="wallpaper_provider_focused_program">Program yang difokuskan</string>
+    <string name="wallpaper_provider_now_playing">Sedang Dimainkan</string>
+    <string name="wallpaper_provider_random_program">Program rawak</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Pemalam</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Kertas dinding</string>
+    <string name="wallpaper_wikimedia_nature">Alam semula jadi</string>
+    <string name="wallpaper_wikimedia_landscapes">Landskap</string>
+    <string name="wallpaper_wikimedia_mountains">Gunung-ganang</string>
+    <string name="wallpaper_wikimedia_forests">Hutan</string>
+    <string name="wallpaper_wikimedia_cities">Bandar</string>
+    <string name="wallpaper_wikimedia_architecture">Seni bina</string>
+    <string name="wallpaper_wikimedia_night">Malam</string>
+    <string name="wallpaper_wikimedia_space">Angkasa lepas</string>
+    <string name="wallpaper_wikimedia_animals">Haiwan</string>
+    <string name="wallpaper_wikimedia_custom">[Carian tersuai]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit tersuai]</string>
+    <string name="wallpaper_reddit_log_out">Log keluar</string>
+    <string name="wallpaper_reddit_login_needed">Log masuk ke Reddit untuk melihat kertas dinding daripadanya.</string>
+    <string name="wallpaper_reddit_login_title">Log masuk ke Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Melog masuk…</string>
+    <string name="wallpaper_reddit_login_denied">Akses Reddit tidak diberikan, jadi kertas dinding Reddit kekal tidak tersedia.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Jawapan daripada Reddit tidak sepadan dengan percubaan log masuk ini dan telah diabaikan. Sila cuba lagi.</string>
+    <string name="wallpaper_reddit_login_failed">Log masuk ke Reddit gagal (%1$s). Sila cuba lagi kemudian.</string>
+    <string name="wallpaper_reddit_login_network">Reddit tidak dapat dicapai. Semak sambungan rangkaian dan cuba lagi.</string>
+    <string name="wallpaper_reddit_login_page_error">Halaman log masuk Reddit tidak dapat dimuatkan. Semak sambungan rangkaian dan cuba lagi.</string>
+    <string name="wallpaper_reddit_no_webview">Peranti ini tiada komponen penyemak imbas web (Android System WebView) yang diperlukan untuk log masuk Reddit. Pasang atau dayakan Android System WebView dan cuba lagi.</string>
+    <string name="wallpaper_reddit_retry">Cuba lagi</string>
+    <string name="wallpaper_reddit_close">Tutup</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Tiada sambungan ke sumber kertas dinding.</string>
+    <string name="wallpaper_error_server">Sumber kertas dinding menjawab dengan ralat.</string>
+    <string name="wallpaper_error_rate_limited">Sumber kertas dinding meminta supaya menunggu sebelum permintaan seterusnya.</string>
+    <string name="wallpaper_error_generic">Kertas dinding tidak dapat dimuatkan.</string>
+    <string name="wallpaper_error_no_media">Tiada gambar, video atau warna dipilih.</string>
+    <string name="wallpaper_error_no_folder">Tiada folder dipilih.</string>
+    <string name="wallpaper_error_folder_access">Folder tidak boleh dibaca. Pilih folder itu sekali lagi.</string>
+    <string name="wallpaper_error_folder_empty">Folder tidak mengandungi gambar, video atau animasi Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Tema semasa tiada kertas dinding.</string>
+    <string name="wallpaper_error_no_channels">Saluran tidak tersedia. Dayakan saluran dan benarkan akses kepada penyenaraian TV.</string>
+    <string name="wallpaper_error_no_notification_access">Sedang Dimainkan memerlukan akses pemberitahuan.</string>
+    <string name="wallpaper_error_no_subreddit">Tiada subreddit yang sah ditetapkan.</string>
+    <string name="wallpaper_error_plugin">Pemalam kertas dinding tidak menjawab.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Kertas dinding ditetapkan</string>
+    <string name="wallpaper_set_failed">Fail ini tidak boleh digunakan sebagai kertas dinding.</string>
+</resources>

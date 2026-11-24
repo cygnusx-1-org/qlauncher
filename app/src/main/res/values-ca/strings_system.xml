@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Introduïu qualsevol combinació de fletxes/dígits i valideu amb OK</string>
+    <string name="system_parental_confirm_code">Torneu a introduir el codi i valideu amb OK</string>
+    <string name="system_parental_restricted">Accés restringit\nIntroduïu el codi parental</string>
+    <string name="system_parental_wrong_code">Codi incorrecte</string>
+    <string name="system_parental_codes_differ">Els codis no coincideixen; torneu-ho a provar</string>
+    <string name="system_parental_code_saved">S\'ha desat el codi parental</string>
+    <string name="system_parental_recovery_code">Codi de recuperació: %1$s</string>
+    <string name="system_parental_recovery_help">Anoteu-lo: només es mostra aquesta vegada. Introduït amb les fletxes (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), desbloqueja com el codi parental.</string>
+    <string name="system_parental_press_ok">Premeu OK per continuar</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Dreceres del comandament</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Inici</string>
+    <string name="system_hotkeys_keys_menu_twice">Menú × 2</string>
+    <string name="system_hotkeys_change_input">Canvia l\'entrada</string>
+    <string name="system_hotkeys_change_profile">Canvia el perfil de pantalla</string>
+    <string name="system_hotkeys_start_launcher">Inicia QLauncher</string>
+    <string name="system_hotkeys_home">Obre QLauncher; dues vegades: aplicacions recents</string>
+    <string name="system_hotkeys_close">Tanca aquesta ajuda</string>
+    <string name="system_hotkeys_no_inputs">No hi ha cap entrada de TV en aquest dispositiu</string>
+    <string name="system_hotkeys_no_picture_manager">No s\'ha carregat cap gestor d\'imatge</string>
+    <string name="system_hotkeys_home_off">Desactivat: cal «Substitueix el llançador actual» i la reassignació de botons</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">S\'ha detectat inactivitat; s\'apagarà d\'aquí a %1$d s</string>
+    <string name="system_idle_countdown_screen_off">S\'ha detectat inactivitat; la pantalla s\'apagarà d\'aquí a %1$d s</string>
+    <string name="system_idle_countdown_screensaver">S\'ha detectat inactivitat; estalvi de pantalla d\'aquí a %1$d s</string>
+    <string name="system_idle_countdown_cancel">Premeu qualsevol botó per cancel·lar</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Aquest dispositiu no té cap drecera a la configuració d\'accessibilitat. Obriu-la des de la configuració d\'Android, normalment a Preferències del dispositiu › Accessibilitat.</string>
+    <string name="system_notification_access_no_settings">Aquest dispositiu no té cap pantalla d\'accés a les notificacions. Concediu l\'accés des d\'un ordinador amb:</string>
+</resources>

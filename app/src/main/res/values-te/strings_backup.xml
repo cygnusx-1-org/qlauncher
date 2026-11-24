@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">డిఫాల్ట్</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">బోల్డ్</string>
+    <string name="backup_clock_markup_italic">ఇటాలిక్</string>
+    <string name="backup_clock_markup_underline">అండర్‌లైన్</string>
+    <string name="backup_clock_markup_strikethrough">కొట్టివేత</string>
+    <string name="backup_clock_markup_subscript">సబ్‌స్క్రిప్ట్</string>
+    <string name="backup_clock_markup_superscript">సూపర్‌స్క్రిప్ట్</string>
+    <string name="backup_clock_markup_half_size">సగం పరిమాణం</string>
+    <string name="backup_clock_markup_one_and_a_half_size">ఒకటిన్నర రెట్లు</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">నలుపు క్లిప్పింగ్</string>
+    <string name="backup_pattern_apl_clipping">APL క్లిప్పింగ్</string>
+    <string name="backup_pattern_white_clipping">తెలుపు క్లిప్పింగ్</string>
+    <string name="backup_pattern_grayscale_ramp">గ్రేస్కేల్ ర్యాంప్</string>
+    <string name="backup_pattern_grayscale_steps">గ్రేస్కేల్ దశలు</string>
+    <string name="backup_pattern_dynamic_brightness">డైనమిక్ ప్రకాశం</string>
+    <string name="backup_pattern_color_steps">రంగు దశలు</string>
+    <string name="backup_pattern_color_clipping">రంగు క్లిప్పింగ్</string>
+    <string name="backup_pattern_flashing_color_bars">మెరిసే రంగు పట్టీలు</string>
+    <string name="backup_pattern_sharpness_overscan">షార్ప్‌నెస్ &amp; ఓవర్‌స్కాన్</string>
+    <string name="backup_pattern_uhd">UHD ప్యాటర్న్</string>
+    <string name="backup_pattern_judder">జడ్డర్ టెస్ట్</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] యాస్పెక్ట్ రేషియో షార్ప్‌నెస్</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] నలుపు స్థాయి</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] రంగు క్లిప్పింగ్ 240–1000 నిట్‌లు</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] రంగు క్లిప్పింగ్ 3600–10000 నిట్‌లు</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] రంగు క్లిప్పింగ్ 700–10000 నిట్‌లు</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] రంగు క్లిప్పింగ్ 900–4000 నిట్‌లు</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] గ్రేస్కేల్ ర్యాంప్ 10000 నిట్‌లు</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] గ్రేస్కేల్ ర్యాంప్ 1000 నిట్‌లు</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] గ్రేస్కేల్ ర్యాంప్ 4000 నిట్‌లు</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] నలుపు PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] రంగు ర్యాంప్‌లు</string>
+    <string name="backup_pattern_unavailable">%1$sకు HDR వీడియో పాత్ అవసరం, ఇది ఇంకా అందుబాటులో లేదు</string>
+    <!-- Pages -->
+    <string name="backup_settings">సెట్టింగ్‌లు</string>
+    <string name="backup_manage_settings">సెట్టింగ్‌లను నిర్వహించండి</string>
+    <string name="backup_themes">థీమ్‌లు</string>
+    <string name="backup_import">దిగుమతి చేయండి</string>
+    <string name="backup_export">ఎగుమతి చేయండి</string>
+    <string name="backup_import_from_file">ఫైల్ మేనేజర్ నుండి</string>
+    <string name="backup_import_from_auto">ఆటోమేటిక్ బ్యాకప్ నుండి</string>
+    <string name="backup_export_save">ఈ పరికరంలో సేవ్ చేయండి</string>
+    <string name="backup_export_share">మరో యాప్‌తో షేర్ చేయండి</string>
+    <string name="backup_reset">డిఫాల్ట్‌కు రీసెట్ చేయండి</string>
+    <string name="backup_cancel">రద్దు చేయండి</string>
+    <string name="backup_ok">సరే</string>
+    <string name="backup_done">పూర్తయింది</string>
+    <string name="backup_close">మూసివేయండి</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">సెట్టింగ్‌లను ఎగుమతి చేయండి</string>
+    <string name="backup_export_theme_title">థీమ్‌ను ఎగుమతి చేయండి</string>
+    <string name="backup_export_description">అంతా ఒకే ఫైల్‌లో సేవ్ చేయబడుతుంది, మీరు ఎంచుకునే పాస్‌వర్డ్‌తో (కనీసం %1$d అక్షరాలు) ఎన్‌క్రిప్ట్ చేయబడుతుంది. ఫైల్‌ను దిగుమతి చేయడానికి మీకు ఈ పాస్‌వర్డ్ అవసరం, దీన్ని తిరిగి పొందడం సాధ్యం కాదు.</string>
+    <string name="backup_export_theme_description">రూపం సెట్టింగ్‌లు, ప్రస్తుత వాల్‌పేపర్ ఒకే ఫైల్‌లో సేవ్ చేయబడతాయి, మీరు ఎంచుకునే పాస్‌వర్డ్‌తో (కనీసం %1$d అక్షరాలు) ఎన్‌క్రిప్ట్ చేయబడతాయి. థీమ్‌ను దిగుమతి చేయడానికి మీకు ఈ పాస్‌వర్డ్ అవసరం.</string>
+    <string name="backup_password">పాస్‌వర్డ్</string>
+    <string name="backup_password_show">పాస్‌వర్డ్‌ను చూపండి</string>
+    <string name="backup_password_hide">పాస్‌వర్డ్‌ను దాచండి</string>
+    <string name="backup_password_strength">పాస్‌వర్డ్ బలం</string>
+    <string name="backup_strength_too_short">చాలా చిన్నది: కనీసం %1$d అక్షరాలు</string>
+    <string name="backup_strength_weak">బలహీనం: సులభంగా ఊహించవచ్చు</string>
+    <string name="backup_strength_fair">పర్వాలేదు</string>
+    <string name="backup_strength_strong">బలమైనది</string>
+    <string name="backup_password_too_short">పాస్‌వర్డ్‌లో కనీసం %1$d అక్షరాలు ఉండాలి</string>
+    <string name="backup_exporting">ఎగుమతి చేస్తోంది…</string>
+    <string name="backup_export_saved">%1$sలో సేవ్ చేయబడింది</string>
+    <string name="backup_export_kept">మరెక్కడా సేవ్ చేయలేదు. ఫైల్ %1$sలోనే ఉంటుంది</string>
+    <string name="backup_export_shared">పంపబడింది. ఒక కాపీ %1$sలో ఉంటుంది</string>
+    <string name="backup_export_no_file_manager">ఈ పరికరంలో ఏ యాప్ కూడా ఫైల్‌ను తీసుకోలేదు. అది %1$sలో ఉంది</string>
+    <string name="backup_export_failed">ఎగుమతి విఫలమైంది: %1$s</string>
+    <string name="backup_share_title">QLauncher ఫైల్‌ను దీనితో పంపండి</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">దిగుమతి చేయడం వల్ల మీ ప్రస్తుత సెటప్ భర్తీ అవుతుంది. ముందుగా ఆటోమేటిక్ బ్యాకప్ రాయబడుతుంది, పూర్తయినప్పుడు QLauncher రీస్టార్ట్ అవుతుంది.</string>
+    <string name="backup_reading">ఫైల్‌ను చదువుతోంది…</string>
+    <string name="backup_import_action">దిగుమతి చేయండి</string>
+    <string name="backup_wrong_password">తప్పు పాస్‌వర్డ్</string>
+    <string name="backup_password_hint">ఫైల్‌ను ఎగుమతి చేసినప్పుడు ఎంచుకున్న పాస్‌వర్డ్</string>
+    <string name="backup_not_a_backup">ఇది QLauncher లేదా Projectivy బ్యాకప్ లేదా థీమ్ కాదు.</string>
+    <string name="backup_damaged">ఫైల్ పాడైంది లేదా అసంపూర్ణంగా ఉంది.</string>
+    <string name="backup_too_new">ఈ ఫైల్‌ను కొత్త QLauncher (ఫార్మాట్ %1$d) రూపొందించింది. దీన్ని దిగుమతి చేయడానికి QLauncherను అప్‌డేట్ చేయండి.</string>
+    <string name="backup_unreadable">ఈ ఆటోమేటిక్ బ్యాకప్‌ను ఈ పరికరంలో చదవడం సాధ్యం కాదు.</string>
+    <string name="backup_import_failed">దిగుమతి విఫలమైంది, ఏదీ మార్చబడలేదు: %1$s</string>
+    <string name="backup_applying">దిగుమతి చేస్తోంది… పూర్తయినప్పుడు QLauncher రీస్టార్ట్ అవుతుంది.</string>
+    <string name="backup_origin_ql_backup">QLauncher సెట్టింగ్‌ల బ్యాకప్</string>
+    <string name="backup_origin_ql_theme">QLauncher థీమ్</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher సెట్టింగ్‌ల బ్యాకప్</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher థీమ్</string>
+    <string name="backup_origin_auto">ఆటోమేటిక్ బ్యాకప్</string>
+    <string name="backup_preview_theme_by">%2$s రూపొందించిన %1$s</string>
+    <string name="backup_preview_version">వెర్షన్ %1$s</string>
+    <string name="backup_preview_settings">సెట్టింగ్‌లు</string>
+    <string name="backup_preview_categories">వర్గాలు</string>
+    <string name="backup_preview_apps">యాప్ అనుకూలీకరణలు</string>
+    <string name="backup_preview_profiles">డిస్‌ప్లే ప్రొఫైల్‌లు</string>
+    <string name="backup_preview_files">వాల్‌పేపర్‌లు, ఐకాన్‌లు</string>
+    <string name="backup_preview_skipped">ఈ పరికరంలో లేని యాప్‌లు</string>
+    <string name="backup_replace_setup">ప్రస్తుత సెటప్‌ను భర్తీ చేయండి</string>
+    <string name="backup_apply_theme">థీమ్‌ను వర్తింపజేయండి</string>
+    <string name="backup_replace_detail">ముందుగా ప్రస్తుత సెటప్ యొక్క ఆటోమేటిక్ బ్యాకప్ రాయబడుతుంది</string>
+    <string name="backup_nc_parental">తల్లిదండ్రుల కోడ్</string>
+    <string name="backup_nc_parental_detail">బదిలీ కాదు. “తల్లిదండ్రుల నియంత్రణ”లో కొత్త కోడ్‌ను సెట్ చేయండి.</string>
+    <string name="backup_nc_premium">ప్రీమియం స్థితి</string>
+    <string name="backup_nc_premium_detail">బదిలీ కాదు. QLauncherలోని ప్రతి ఫీచర్ ఉచితం.</string>
+    <string name="backup_nc_inputs">టీవీ ఇన్‌పుట్‌లు</string>
+    <string name="backup_nc_profile_bindings">డిస్‌ప్లే ప్రొఫైల్ అనుబంధాలు</string>
+    <string name="backup_nc_plugin">వాల్‌పేపర్ ప్లగిన్</string>
+    <string name="backup_nc_plugin_detail">%1$s ఇన్‌స్టాల్ చేయబడలేదు. వాల్‌పేపర్ సోర్స్ అలాగే ఉంటుంది.</string>
+    <string name="backup_nc_icons">అనుకూల ఐకాన్‌లు</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d మార్చిన విలువ</item>
+        <item quantity="other">%1$d మార్చిన విలువలు</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d వర్గం</item>
+        <item quantity="other">%1$d వర్గాలు</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d యాప్</item>
+        <item quantity="other">%1$d యాప్‌లు</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d ప్రొఫైల్</item>
+        <item quantity="other">%1$d ప్రొఫైల్‌లు</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d ఫైల్</item>
+        <item quantity="other">%1$d ఫైల్‌లు</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d తెలియని సెట్టింగ్, దాటవేయబడింది</item>
+        <item quantity="other">%1$d తెలియని సెట్టింగ్‌లు, దాటవేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d ఎంట్రీ ఇక్కడ ఇన్‌స్టాల్ చేసిన ఏ యాప్‌తోనూ సరిపోలలేదు, అది దాటవేయబడింది</item>
+        <item quantity="other">%1$d ఎంట్రీలు ఇక్కడ ఇన్‌స్టాల్ చేసిన ఏ యాప్‌తోనూ సరిపోలలేదు, అవి దాటవేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">ఈ పరికరంలో లేని టీవీ ఇన్‌పుట్‌కు ఉన్న %1$d లింక్ దాటవేయబడింది</item>
+        <item quantity="other">ఈ పరికరంలో లేని టీవీ ఇన్‌పుట్‌లకు ఉన్న %1$d లింక్‌లు దాటవేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">ఇన్‌పుట్‌కు కేటాయించిన %1$d ప్రొఫైల్ బదిలీ కాదు</item>
+        <item quantity="other">ఇన్‌పుట్‌లకు కేటాయించిన %1$d ప్రొఫైల్‌లు బదిలీ కావు</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">Projectivyలో నిల్వ చేసిన %1$d ఐకాన్‌ను చదవడం సాధ్యం కాదు, అది దాటవేయబడింది</item>
+        <item quantity="other">Projectivyలో నిల్వ చేసిన %1$d ఐకాన్‌లను చదవడం సాధ్యం కాదు, అవి దాటవేయబడ్డాయి</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">ఆటోమేటిక్ బ్యాకప్‌లు</string>
+    <string name="backup_auto_description">QLauncher మీ సెటప్ యొక్క చివరి %1$d వెర్షన్‌లను ఈ పరికరంలో ఉంచుతుంది, అవి ఈ పరికరాన్ని ఎప్పటికీ వదలని కీతో ఎన్‌క్రిప్ట్ చేయబడతాయి. పునరుద్ధరించడానికి ఒకదాన్ని ఎంచుకోండి; పాస్‌వర్డ్ అవసరం లేదు.</string>
+    <string name="backup_auto_none">ఆటోమేటిక్ బ్యాకప్ ఏదీ అందుబాటులో లేదు</string>
+    <string name="backup_files_title">బ్యాకప్ ఫైల్‌లు</string>
+    <string name="backup_files_theme_title">థీమ్ ఫైల్‌లు</string>
+    <string name="backup_files_description">ఎగుమతులు %1$sలో సేవ్ చేయబడతాయి. అన్ని ఫైల్‌లకు యాక్సెస్ ఉంటే, QLauncher Download, Documents ఫోల్డర్‌లలో, USB డ్రైవ్‌లలో కూడా బ్యాకప్‌లను కనుగొంటుంది, Projectivy బ్యాకప్‌లతో సహా.</string>
+    <string name="backup_files_searching">బ్యాకప్ ఫైల్‌ల కోసం వెతుకుతోంది…</string>
+    <string name="backup_files_none">బ్యాకప్ ఫైల్‌లు ఏవీ కనుగొనబడలేదు</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher ఫోల్డర్</string>
+    <string name="backup_files_access">ఇతర యాప్‌లు, పరికరాల బ్యాకప్‌లను కనుగొనండి</string>
+    <string name="backup_files_access_desc">అన్ని ఫైల్‌లకు యాక్సెస్‌ను అనుమతించండి</string>
+    <string name="backup_files_access_unavailable">ఈ పరికరంలో సెట్టింగ్‌ల స్క్రీన్ లేదు. ఈ కమాండ్‌తో అన్ని ఫైల్‌లకు యాక్సెస్‌ను అనుమతించండి: %1$s</string>
+    <string name="backup_files_browse">ఇతర లొకేషన్…</string>
+    <string name="backup_files_browse_desc">సిస్టమ్ ఫైల్ పికర్‌తో ఫైల్‌ను ఎంచుకోండి</string>
+    <string name="backup_auto_delete_all">అన్నీ తొలగించండి</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">మార్పు తర్వాత</string>
+    <string name="backup_reason_import">దిగుమతికి ముందు</string>
+    <string name="backup_reason_migration">అప్‌డేట్‌కు ముందు</string>
+    <string name="backup_reason_reset">రీసెట్‌కు ముందు</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">ప్రొఫైల్ #</string>
+    <string name="backup_no_picture_manager">పిక్చర్ మేనేజర్ ఏదీ లోడ్ కాలేదు</string>
+    <string name="backup_no_picture_manager_detail">ఈ పరికరం దాని పిక్చర్ సెట్టింగ్‌లను మార్చడానికి మద్దతు ఉన్న మార్గాన్ని అందించదు, కాబట్టి ప్రొఫైల్‌లు తమ విలువలను ఉంచుకుంటాయి కానీ వాటిని వర్తింపజేయవు.</string>
+</resources>

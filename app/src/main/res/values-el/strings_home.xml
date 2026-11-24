@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Παίζει τώρα</string>
+    <string name="home_cat_inputs">Είσοδοι</string>
+    <string name="home_cat_favorites">Αγαπημένα</string>
+    <string name="home_cat_video">Βίντεο</string>
+    <string name="home_cat_music">Μουσική</string>
+    <string name="home_cat_games">Παιχνίδια</string>
+    <string name="home_cat_tv_apps">Εφαρμογές TV</string>
+    <string name="home_cat_mobile_apps">Εφαρμογές κινητού</string>
+    <string name="home_cat_watch_next">Συνέχεια παρακολούθησης</string>
+    <string name="home_cat_shortcuts">Συντομεύσεις</string>
+    <string name="home_cat_folders">Φάκελοι κατηγοριών</string>
+    <string name="home_cat_live_tv">Ζωντανή τηλεόραση</string>
+    <string name="home_cat_settings">Ρυθμίσεις</string>
+    <string name="home_cat_display">Οθόνη</string>
+    <string name="home_cat_applications">Εφαρμογές</string>
+    <string name="home_cat_system">Σύστημα</string>
+    <string name="home_cat_about">Σχετικά</string>
+    <string name="home_new_category">Νέα κατηγορία</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Όλες οι εφαρμογές</string>
+    <string name="home_action_edit_categories">Επεξεργασία κατηγοριών</string>
+    <string name="home_action_edit_channels">Επεξεργασία καναλιών</string>
+    <string name="home_action_launcher_settings">Ρυθμίσεις QLauncher</string>
+    <string name="home_action_android_settings">Ρυθμίσεις Android</string>
+    <string name="home_action_amlogic_settings">Πρόσθετες ρυθμίσεις AmLogic</string>
+    <string name="home_action_display_profiles">Προφίλ οθόνης</string>
+    <string name="home_action_install_apps">Εγκατάσταση εφαρμογών τρίτων</string>
+    <string name="home_action_accessibility">Υπηρεσία προσβασιμότητας</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Εναλλαγή προφίλ</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Αυτή η συσκευή</string>
+    <string name="home_action_about_wallpaper">Αυτή η ταπετσαρία</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Σεζόν %1$s</string>
+    <string name="home_episode">Επεισόδιο %1$s</string>
+    <string name="home_minutes">%1$d λεπ.</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Συνδεσιμότητα</string>
+    <string name="home_status_notifications">Ειδοποιήσεις</string>
+    <string name="home_status_settings">Ρυθμίσεις</string>
+    <string name="home_status_wallpaper">Αυτή η ταπετσαρία</string>
+    <string name="home_navigation_menu">Μενού πλοήγησης</string>
+    <string name="home_reorder">Αναδιάταξη</string>
+    <string name="home_category_settings">Ρυθμίσεις κατηγορίας</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Ρυθμίσεις εφαρμογής</string>
+    <string name="menu_open">Άνοιγμα</string>
+    <string name="menu_details">Λεπτομέρειες</string>
+    <string name="menu_play_pause">Αναπαραγωγή/Παύση</string>
+    <string name="menu_stop">Διακοπή</string>
+    <string name="menu_previous">Προηγούμενο</string>
+    <string name="menu_next">Επόμενο</string>
+    <string name="menu_uninstall">Απεγκατάσταση</string>
+    <string name="menu_launch_on_boot">Άνοιγμα κατά την εκκίνηση</string>
+    <string name="menu_launch_on_boot_on">Ανοίγει κατά την εκκίνηση</string>
+    <string name="menu_add_parental">Προσθήκη στον γονικό έλεγχο</string>
+    <string name="menu_remove_parental">Αφαίρεση από τον γονικό έλεγχο</string>
+    <string name="menu_shortcuts">Συντομεύσεις</string>
+    <string name="menu_appearance">Εμφάνιση</string>
+    <string name="menu_title">Τίτλος</string>
+    <string name="menu_change_icon">Αλλαγή εικονιδίου</string>
+    <string name="menu_icon_from_picture">Από εικόνα</string>
+    <string name="menu_icon_other_location">Άλλη τοποθεσία…</string>
+    <string name="menu_icon_no_pictures">Δεν βρέθηκαν εικόνες. Αντιγράψτε μερικές στους φακέλους Pictures ή Download ή συνδέστε μια μονάδα USB.</string>
+    <string name="menu_icon_reset">Επαναφορά</string>
+    <string name="menu_crop">Περικοπή για γέμισμα</string>
+    <string name="menu_visibility">Ορατότητα</string>
+    <string name="menu_reorder">Αναδιάταξη</string>
+    <string name="menu_remove_from">Αφαίρεση από %1$s</string>
+    <string name="menu_hide">Απόκρυψη</string>
+    <string name="menu_add_to">Προσθήκη σε…</string>
+    <string name="menu_move_to">Μετακίνηση σε…</string>
+    <string name="menu_channels">Κανάλια</string>
+    <string name="menu_rename_hint">Πληκτρολογήστε νέο τίτλο και πατήστε OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Τίτλος</string>
+    <string name="editor_change_icon">Αλλαγή εικονιδίου</string>
+    <string name="editor_visible">Ορατή</string>
+    <string name="editor_grid">Πλέγμα</string>
+    <string name="editor_sliding_row">Κυλιόμενη σειρά</string>
+    <string name="editor_background">Χρώμα φόντου</string>
+    <string name="editor_show_title">Εμφάνιση τίτλου</string>
+    <string name="editor_size">Μέγεθος</string>
+    <string name="editor_advanced">Ρυθμίσεις για προχωρημένους</string>
+    <string name="editor_start_margin">Αρχικό περιθώριο</string>
+    <string name="editor_end_margin">Τελικό περιθώριο</string>
+    <string name="editor_top_margin">Επάνω περιθώριο</string>
+    <string name="editor_cards_per_row">Κάρτες ανά σειρά</string>
+    <string name="editor_row_count">Αριθμός σειρών</string>
+    <string name="editor_auto">Αυτόματο</string>
+    <string name="editor_auto_value">Αυτόματο (%1$s)</string>
+    <string name="editor_sort">Ταξινόμηση</string>
+    <string name="editor_sort_custom">Προσαρμοσμένη</string>
+    <string name="editor_sort_name">Αλφαβητικά</string>
+    <string name="editor_sort_last">Τελευταία χρήση</string>
+    <string name="editor_sort_most">Συχνή χρήση</string>
+    <string name="editor_sort_random">Τυχαία</string>
+    <string name="editor_set_default">Ορισμός ως προεπιλογής</string>
+    <string name="editor_is_default">Προεπιλεγμένη κατηγορία</string>
+    <string name="editor_manage_apps">Διαχείριση εφαρμογών</string>
+    <string name="editor_hidden_items">Κρυφά στοιχεία</string>
+    <string name="editor_restore">Επαναφορά</string>
+    <string name="editor_delete">Διαγραφή</string>
+    <string name="editor_delete_confirm">Διαγραφή αυτής της κατηγορίας;</string>
+    <string name="editor_empty_note">Αυτή η κατηγορία δεν θα εμφανιστεί ακόμη, επειδή είναι κενή</string>
+    <string name="editor_request_notifications">Αίτημα άδειας ειδοποιήσεων</string>
+    <string name="editor_channel_error">Αυτό το κανάλι δεν μπορεί πλέον να διαβαστεί</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Κανάλια</string>
+    <string name="channels_count">%1$d κανάλια</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Ειδοποιήσεις</string>
+    <string name="notifications_clear_all">Διαγραφή όλων</string>
+    <string name="notifications_empty">Δεν υπάρχουν ειδοποιήσεις</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Αυτή η εφαρμογή δεν μπορεί να ανοίξει</string>
+    <string name="home_reorder_hint">Αριστερά/δεξιά για μετακίνηση, OK ή ΠΙΣΩ για ολοκλήρωση</string>
+    <string name="home_category_reorder_hint">Πάνω/κάτω για μετακίνηση, OK ή ΠΙΣΩ για ολοκλήρωση</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Καλώς ήρθατε!</string>
+    <string name="firstrun_welcome_text">Το QLauncher είναι ένας εκκινητής για Android TV. Συγκεντρώνει τις εφαρμογές, τα κανάλια και το αγαπημένο σας περιεχόμενο σε μία προσαρμόσιμη αρχική οθόνη, με μια εναλλασσόμενη ταπετσαρία στο φόντο.</string>
+    <string name="firstrun_features_title">Οι νέες σας υπερδυνάμεις</string>
+    <string name="firstrun_features_text">Ανοίξτε μια εφαρμογή ή μια είσοδο HDMI κατά την εκκίνηση, διαχειριστείτε προφίλ οθόνης, κλειδώστε εφαρμογές με γονικό έλεγχο, εμφανίστε μοτίβα βαθμονόμησης, εντοπίστε την αδράνεια και προσαρμόστε κάθε μέρος της αρχικής οθόνης. Ορισμένες λειτουργίες εξαρτώνται από τη συσκευή σας.</string>
+    <string name="firstrun_a11y_title">Ώρα για προσβασιμότητα</string>
+    <string name="firstrun_a11y_text">Πολλές λειτουργίες χρειάζονται την υπηρεσία προσβασιμότητας του QLauncher: αντικατάσταση του εργοστασιακού εκκινητή, ενέργειες κατά την εκκίνηση, χειρονομίες με τα κουμπιά του τηλεχειριστηρίου, εντοπισμός αδράνειας και γονικός έλεγχος. Μπορείτε να την ενεργοποιήσετε τώρα ή αργότερα από τις ρυθμίσεις.</string>
+    <string name="firstrun_a11y_open">Άνοιγμα ρυθμίσεων προσβασιμότητας</string>
+    <string name="firstrun_permissions_title">Αν μου επιτρέπετε…</string>
+    <string name="firstrun_permissions_text">Στη συνέχεια, το QLauncher ζητά άδεια ανάγνωσης του προγράμματος τηλεόρασης (για τα κανάλια και τη Συνέχεια παρακολούθησης) και πρόσβαση στις ειδοποιήσεις (για το εικονίδιο ειδοποιήσεων και το Παίζει τώρα). Και τα δύο είναι προαιρετικά.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Στη συνέχεια, το QLauncher ζητά πρόσβαση στις ειδοποιήσεις (για το εικονίδιο ειδοποιήσεων και το Παίζει τώρα). Είναι προαιρετική.</string>
+    <string name="firstrun_notifications_dialog">Να επιτρέπεται η πρόσβαση στις ειδοποιήσεις;</string>
+    <string name="firstrun_notifications_text">Η πρόσβαση στις ειδοποιήσεις επιτρέπει στο QLauncher να εμφανίζει τον αριθμό των ειδοποιήσεων, έναν πίνακα ειδοποιήσεων και τι παίζει. Το Ναι ανοίγει τη σελίδα Ειδική πρόσβαση εφαρμογών, όπου την παραχωρείτε.</string>
+    <string name="firstrun_reports_title">Αποστολή ανώνυμων αναφορών σφαλμάτων;</string>
+    <string name="firstrun_reports_text">Αν το QLauncher καταρρεύσει ή συναντήσει σφάλμα, μπορεί να στείλει μια αναφορά με την έκδοση της εφαρμογής και το μοντέλο της συσκευής, ώστε να διορθωθεί το πρόβλημα. Δεν αποστέλλεται τίποτα που σας ταυτοποιεί ή δείχνει τι παρακολουθείτε. Μπορείτε να το αλλάξετε αργότερα στα Γενικά.</string>
+    <string name="firstrun_launcher_title">Κάντε το QLauncher αρχική οθόνη σας</string>
+    <string name="firstrun_launcher_text">Πολλές συσκευές TV δεν σας επιτρέπουν να αλλάξετε τον προεπιλεγμένο εκκινητή. Αν η δική σας το επιτρέπει, επιλέξτε εκεί το QLauncher. Διαφορετικά, ενεργοποιήστε την υπηρεσία προσβασιμότητας με την επιλογή «Αντικατάσταση τρέχοντος εκκινητή» και το QLauncher θα επιστρέφει κάθε φορά που ανοίγει ο εργοστασιακός εκκινητής.</string>
+    <string name="firstrun_launcher_open">Αλλαγή προεπιλεγμένου εκκινητή</string>
+    <string name="firstrun_start_title">Ώρα να ξεκινήσουμε!</string>
+    <string name="firstrun_start_text">Όλα μπορούν να αλλάξουν αργότερα από τις ρυθμίσεις. Πατήστε το κουμπί ρυθμίσεων πάνω δεξιά ή τη σειρά πλήκτρων ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">ΞΕΚΙΝΗΣΤΕ</string>
+    <string name="firstrun_next">Επόμενο</string>
+    <string name="firstrun_skip">Παράλειψη</string>
+    <string name="firstrun_yes">Ναι</string>
+    <string name="firstrun_no">Όχι</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Δεν υπάρχει προφύλαξη οθόνης σε αυτή τη συσκευή</string>
+</resources>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Postavke</string>
+    <string name="settings_breadcrumb_display">Zaslon</string>
+    <string name="settings_breadcrumb_applications">Aplikacije</string>
+    <string name="settings_breadcrumb_system">Sustav</string>
+    <string name="settings_breadcrumb_about">Informacije</string>
+    <string name="settings_root_title">Postavke QLaunchera</string>
+    <string name="settings_root_description">Konfigurirajte postavke aplikacije.</string>
+    <string name="settings_legend_a11y_required">Potrebna je usluga pristupačnosti</string>
+    <string name="settings_legend_a11y_recommended">Preporučuje se usluga pristupačnosti</string>
+    <string name="settings_legend_experimental">Eksperimentalno</string>
+    <string name="settings_launcher_related">Postavke vezane uz pokretač</string>
+
+    <string name="settings_general">Općenito</string>
+    <string name="settings_appearance">Izgled</string>
+    <string name="settings_power">Napajanje</string>
+    <string name="settings_parental">Roditeljski nadzor</string>
+    <string name="settings_remote">Daljinski upravljač</string>
+    <string name="settings_accessibility">Usluga pristupačnosti</string>
+    <string name="settings_display_profiles">Profili prikaza</string>
+    <string name="settings_manage">Upravljanje postavkama</string>
+
+    <!-- General -->
+    <string name="settings_language">Promijeni jezik aplikacije</string>
+    <string name="settings_language_system">Zadano u sustavu</string>
+    <string name="settings_default_launcher">Promijeni zadani pokretač</string>
+    <string name="settings_default_launcher_unavailable">Ovaj uređaj ne nudi način promjene zadanog pokretača. Umjesto toga upotrijebite „Zamijeni trenutačni pokretač“.</string>
+    <string name="settings_override_home">Zamijeni trenutačni pokretač</string>
+    <string name="settings_override_home_desc">Presreće pozive trenutačnom pokretaču (korisno ako tvornički ne možete promijeniti ili ukloniti)</string>
+    <string name="settings_enable_channels">Omogući kanale</string>
+    <string name="settings_enable_channels_desc">Ako ih ne upotrebljavate, isključivanjem se ubrzava pokretanje i troši manje memorije</string>
+    <string name="settings_programs_per_channel">Programa po kanalu</string>
+    <string name="settings_crash_error_reports">Omogući anonimna izvješća o rušenjima i pogreškama</string>
+    <string name="settings_reports_desc">Šalju se samo pogreška, verzija aplikacije i model uređaja</string>
+    <string name="settings_check_updates">Provjeri ažuriranja</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategorije / Kanali</string>
+    <string name="settings_cards">Kartice</string>
+    <string name="settings_wallpaper">Pozadina</string>
+    <string name="settings_status_bar">Traka statusa</string>
+    <string name="settings_left_headers">Lijeva zaglavlja</string>
+    <string name="settings_idle_mode">Način neaktivnosti pokretača</string>
+    <string name="settings_font">Font</string>
+    <string name="settings_themes">Teme</string>
+    <string name="settings_themes_desc">Uvoz / Izvoz</string>
+    <string name="settings_load_cards_scrolling">Učitavaj kartice tijekom pomicanja</string>
+    <string name="settings_load_cards_scrolling_desc">Brži odziv, nauštrb glatkoće</string>
+    <string name="settings_accent">Boja naglaska</string>
+    <string name="settings_accent_desc">Uključite dinamičnu da prati pozadinu</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Prikaži naslov</string>
+    <string name="settings_show_icon_title">Prikaži ikonu ispred naslova</string>
+    <string name="settings_rows_spacing">Okomiti razmak (postotak visine zaslona)</string>
+    <string name="settings_fixed_position">Zadrži fiksni položaj odabrane kategorije</string>
+    <string name="settings_hide_rows_above">Sakrij redove iznad odabira</string>
+    <string name="settings_remember_focus">Zapamti položaj odabrane kartice</string>
+    <string name="settings_unselected_opacity">Neprozirnost neodabranih redova</string>
+    <string name="settings_top_margin">Gornja margina</string>
+    <string name="settings_start_margin">Početna margina</string>
+    <string name="settings_end_margin">Završna margina</string>
+    <string name="settings_dock_padding">Razmak doka</string>
+    <string name="settings_tint_custom_icons">Oboji prilagođene ikone</string>
+    <string name="settings_tint_custom_icons_desc">Za prilagođene ikone bez pozadine</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Zaobljeni kutovi</string>
+    <string name="settings_cards_size">Veličina kartica</string>
+    <string name="settings_cards_spacing">Razmak kartica</string>
+    <string name="settings_loop_limit">Ograničenje ponavljanja animiranih ikona</string>
+    <string name="settings_ripple">Efekt valova pri pritisku kartice</string>
+    <string name="settings_background_color">Boja pozadine</string>
+    <string name="settings_focused_card">Odabrana kartica</string>
+    <string name="settings_program_cards">Kartice programa</string>
+    <string name="settings_tv_ratio">Omjer slike kartica TV aplikacija</string>
+    <string name="settings_mobile_ratio">Omjer slike kartica mobilnih aplikacija</string>
+    <string name="settings_icon_pack">Paket ikona</string>
+    <string name="settings_icon_pack_none">Nije instaliran nijedan paket ikona</string>
+    <string name="settings_icon_pack_off">Nijedan</string>
+    <string name="settings_more">Više…</string>
+    <string name="settings_custom_icon_tint">Nijansa prilagođenih ikona</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Veličina odabrane kartice</string>
+    <string name="settings_focused_effect">Efekt odabrane kartice</string>
+    <string name="settings_effect_none">Nijedan</string>
+    <string name="settings_effect_shadow">Sjena</string>
+    <string name="settings_effect_glow">Sjaj</string>
+    <string name="settings_glow_animation">Animacija sjaja</string>
+    <string name="settings_anim_none">Nijedna</string>
+    <string name="settings_anim_pulse">Puls</string>
+    <string name="settings_anim_breath">Disanje</string>
+    <string name="settings_anim_fade">Blijeđenje</string>
+    <string name="settings_anim_shine">Bljesak</string>
+    <string name="settings_glow_size">Veličina sjaja</string>
+    <string name="settings_glow_color">Boja sjaja</string>
+    <string name="settings_glow_color_desc">Ostavite prazno za vlastitu boju kartice</string>
+    <string name="settings_colors_override">Zamjena boja</string>
+    <string name="settings_override_none">Ništa</string>
+    <string name="settings_override_swap">Zamijeni pozadinu/nijansu</string>
+    <string name="settings_override_custom">Prilagođeno</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Reproduciraj videopregled</string>
+    <string name="settings_preview_never">Nikad</string>
+    <string name="settings_preview_always">Uvijek</string>
+    <string name="settings_preview_no_media">Kad se u pozadini ne reproducira nikakav medij</string>
+    <string name="settings_show_progress">Prikaži traku napretka</string>
+    <string name="settings_show_badge">Prikaži značku</string>
+    <string name="settings_zoom_focus">Efekt zumiranja pri odabiru</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Podržani formati: statična slika, animirani GIF, videozapis (statični ili RTSP prijenos uživo), Lottie animacija</string>
+    <string name="settings_launcher_wallpaper">Pozadina pokretača</string>
+    <string name="settings_configure">Konfiguriraj</string>
+    <string name="settings_show_wallpapers">Prikaži pozadine</string>
+    <string name="settings_picture_adjustment">Prilagodba slike</string>
+    <string name="settings_image_transition">Prijelaz slike</string>
+    <string name="settings_update_frequency">Učestalost ažuriranja (min)</string>
+    <string name="settings_video_wallpaper">Video pozadina</string>
+    <string name="settings_display_mode">Način prikaza</string>
+    <string name="settings_bad_ratio">U slučaju lošeg omjera/kvalitete</string>
+    <string name="settings_min_width">Najmanja prihvaćena širina (px)</string>
+    <string name="settings_src_none">Ništa</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dinamične boje</string>
+    <string name="settings_src_default">Zadana pozadina</string>
+    <string name="settings_src_media">Medijska datoteka</string>
+    <string name="settings_src_folder">Mapa</string>
+    <string name="settings_src_focused_program">Označeni program</string>
+    <string name="settings_src_now_playing">Sada se reproducira</string>
+    <string name="settings_src_random_program">Nasumični program</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Nijedan</string>
+    <string name="settings_tr_random">Nasumično</string>
+    <string name="settings_tr_fade">Blijeđenje</string>
+    <string name="settings_tr_zoom">Zumiranje</string>
+    <string name="settings_tr_hslide">Vodoravno klizanje</string>
+    <string name="settings_tr_vslide">Okomito klizanje</string>
+    <string name="settings_dm_automatic">Automatski</string>
+    <string name="settings_dm_skip">Preskoči</string>
+    <string name="settings_dm_crop">Izreži</string>
+    <string name="settings_dm_stretch">Rastegni</string>
+    <string name="settings_dm_fit">Prilagodi i centriraj</string>
+    <string name="settings_dm_fit_blur">Prilagodi i centriraj + zamućena pozadina</string>
+    <string name="settings_dm_blur">Zamućenje</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Ton boje</string>
+    <string name="settings_saturation">Zasićenost</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Svjetlina</string>
+    <string name="settings_tint">Nijansa</string>
+    <string name="settings_tint_amount">Jačina nijanse</string>
+    <string name="settings_blur">Zamućenje</string>
+    <string name="settings_shadow_h">Duljina vodoravnog sloja sjene</string>
+    <string name="settings_shadow_v">Duljina okomitog sloja sjene</string>
+    <string name="settings_shadow_opacity">Neprozirnost sloja sjene</string>
+    <string name="settings_shadow_tint">Nijansa sloja sjene</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Zanemari učestalost ažuriranja</string>
+    <string name="settings_ignore_update_desc">Čeka kraj videozapisa prije traženja nove pozadine</string>
+    <string name="settings_video_color_freq">Učestalost ažuriranja dinamičnih boja</string>
+    <string name="settings_video_color_freq_desc">Sekunde između sličica videozapisa iz kojih se čitaju boje; 0 isključuje</string>
+    <string name="settings_volume">Glasnoća</string>
+    <string name="settings_tunneling">Koristi hardversko renderiranje (tuneliranje)</string>
+    <string name="settings_decoder_fallback">Omogući zamjenske dekodere</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Upravljanje dopuštenjem za obavijesti</string>
+    <string name="settings_granted">Odobreno</string>
+    <string name="settings_not_granted">Nije odobreno</string>
+    <string name="settings_notification_adb">Na ovom uređaju nema zaslona postavki. Odobrite dopuštenje naredbom: %1$s</string>
+    <string name="settings_clock">Sat</string>
+    <string name="settings_icons">Ikone</string>
+    <string name="settings_show_system_bar">Prikaži sustavnu traku statusa</string>
+    <string name="settings_autohide_status">Sakrij traku statusa pri pomicanju</string>
+    <string name="settings_show_clock">Prikaži sat</string>
+    <string name="settings_clock_size">Veličina fonta sata</string>
+    <string name="settings_clock_color">Boja sata</string>
+    <string name="settings_drop_shadow">Sjena</string>
+    <string name="settings_clock_line1">Format sata (1. redak)</string>
+    <string name="settings_clock_line2">Format sata (2. redak)</string>
+    <string name="settings_clock_default_format">Format sustava</string>
+    <string name="settings_empty">Prazno</string>
+    <string name="settings_icons_size">Veličina ikona</string>
+    <string name="settings_icons_color">Boja ikona</string>
+    <string name="settings_icons_container">Boja spremnika ikona</string>
+    <string name="settings_show_settings">Prikaži postavke</string>
+    <string name="settings_show_settings_desc">Postavke ostaju dostupne ovim slijedom tipki: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Prikaži povezivost</string>
+    <string name="settings_show_notifications">Prikaži obavijesti</string>
+    <string name="settings_autohide_notifications">Sakrij ikonu obavijesti kad nema obavijesti</string>
+    <string name="settings_show_battery">Prikaži bateriju</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Omogući</string>
+    <string name="settings_headers_on_launch">Prikaži lijeva zaglavlja pri pokretanju</string>
+    <string name="settings_show_icon">Prikaži ikonu</string>
+    <string name="settings_show_reorder">Prikaži promjenu redoslijeda</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Vrijeme do neaktivnosti (min)</string>
+    <string name="settings_idle_opacity">Neprozirnost sučelja</string>
+    <string name="settings_keep_clock">Zadrži sat</string>
+    <string name="settings_prevent_screensaver">Spriječi čuvar zaslona sustava</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Promijenite postavke fonta QLaunchera. Nazive obitelji fontova možete potražiti na Google Fonts.</string>
+    <string name="settings_font_list">Odaberi s popisa</string>
+    <string name="settings_font_google">Font (Google Fonts)</string>
+    <string name="settings_font_default">Zadano</string>
+    <string name="settings_bold">Podebljano</string>
+    <string name="settings_italic">Kurziv</string>
+    <string name="settings_size">Veličina</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Automatsko pokretanje pri uključivanju</string>
+    <string name="settings_autostart_none">Ništa</string>
+    <string name="settings_autostart_screensaver">[*] Čuvar zaslona (ako je podržan)</string>
+    <string name="settings_autostart_resume">…i pri buđenju iz stanja pripravnosti</string>
+    <string name="settings_autostart_delay">Odgoda automatskog pokretanja (sekunde)</string>
+    <string name="settings_simulate_activity">Spriječi automatsko isključivanje sustava pri neaktivnosti</string>
+    <string name="settings_idle_detection">Omogući interno otkrivanje neaktivnosti</string>
+    <string name="settings_idle_timeout_power">Vrijeme do neaktivnosti (sati:min)</string>
+    <string name="settings_idle_action">Radnja pri neaktivnosti</string>
+    <string name="settings_idle_action_shutdown">Isključivanje</string>
+    <string name="settings_idle_action_screen_off">Isključivanje zaslona</string>
+    <string name="settings_idle_action_screensaver">Čuvar zaslona (ako je podržan)</string>
+    <string name="settings_idle_media">Zanemari neaktivnost tijekom reprodukcije medija</string>
+    <string name="settings_missing_notification_permission">⚠️ Nedostaje dopuštenje za obavijesti</string>
+    <string name="settings_shutdown_action">Radnja isključivanja</string>
+    <string name="settings_shutdown_dialog">Dijalog napajanja</string>
+    <string name="settings_shutdown_dialog_twice">Dijalog napajanja (dvostruki poziv)</string>
+    <string name="settings_shutdown_dialog_ok">Dijalog napajanja + OK</string>
+    <string name="settings_hdmi_exit">Automatski isključi kad nestane signala HDMI ulaza</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Postavite kod za zaključavanje odabranih aplikacija (dugo pritisnite karticu na početnom zaslonu da biste ih odabrali), cijeli dan ili dio dana</string>
+    <string name="settings_parental_set_code">Postavi novi roditeljski kod</string>
+    <string name="settings_parental_code_set">Kod je postavljen</string>
+    <string name="settings_parental_long">Ne traži kod 15 min nakon uspješne potvrde</string>
+    <string name="settings_parental_protect">Zaštiti postavke pokretača i promjene sučelja</string>
+    <string name="settings_parental_protect_desc">(primjenjuje se 24/7)</string>
+    <string name="settings_parental_partial">Omogući zaštitu samo između</string>
+    <string name="settings_parental_start">Vrijeme početka (sati:min)</string>
+    <string name="settings_parental_end">Vrijeme završetka (sati:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Prikaži informacije na dvostruki pritisak tipke „Izbornik“</string>
+    <string name="settings_back_double">„Ambijentalni način“ na dvostruki pritisak tipke „Natrag“</string>
+    <string name="settings_back_double_desc">Pokreće čuvar zaslona na podržanim uređajima</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Uključite uslugu kako biste pokretali radnju pri uključivanju, prilagodili tipke daljinskog upravljača, ojačali roditeljski nadzor i otkrivali neaktivnost za upravljanje napajanjem. Usluga vidi pritiske hardverskih tipki i naziv aplikacije u prvom planu; oboje ostaje u memoriji ovog uređaja i nikamo se ne šalje.</string>
+    <string name="settings_a11y_enabled">Omogućeno</string>
+    <string name="settings_a11y_started">Pokrenuto</string>
+    <string name="settings_yes">Da</string>
+    <string name="settings_no">Ne</string>
+    <string name="settings_a11y_open">Prikaži postavke pristupačnosti</string>
+    <string name="settings_a11y_consent_title">Usluga pristupačnosti</string>
+    <string name="settings_a11y_consent">To QLauncheru omogućuje da vidi pritiske hardverskih tipki i naziv aplikacije u prvom planu. Oboje se čuva samo u memoriji ovog uređaja i nikad se nikamo ne šalje. Slažete li se?</string>
+    <string name="settings_a11y_alternate">Koristi zamjensku konfiguraciju</string>
+    <string name="settings_a11y_alternate_desc">Rješava probleme na nekim uređajima</string>
+    <string name="settings_a11y_volume_fix">Popravak tipki za glasnoću</string>
+    <string name="settings_a11y_volume_fix_desc">Kratko zaustavlja preslikavanje pri pritisku tipke za glasnoću kako bi dugi pritisci i dalje radili</string>
+    <string name="settings_a11y_remap">Omogući preslikavanje tipki</string>
+    <string name="settings_a11y_remap_desc">Usluga presreće pritiske tipki. Isključivanjem se izbjegavaju problemi s dugim pritiskom tipke za glasnoću i zaustavljanje usluge od strane sustava, ali zamjena pokretača, roditeljski nadzor i otkrivanje neaktivnosti mogu biti manje učinkoviti.</string>
+    <string name="settings_a11y_reminder">Prikaži podsjetnik</string>
+    <string name="settings_a11y_reminder_desc">Ako je usluga pristupačnosti isključena</string>
+    <string name="settings_a11y_unbound_toast">Usluga pristupačnosti QLaunchera nije pokrenuta</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Uvezite ili izvezite postavke lokalno ili putem druge aplikacije, poput aplikacije LocalSend ili upravitelja datoteka.</string>
+    <string name="settings_import">Uvoz</string>
+    <string name="settings_import_file">Iz datoteke</string>
+    <string name="settings_import_auto">Iz automatske sigurnosne kopije</string>
+    <string name="settings_export">Izvoz</string>
+    <string name="settings_export_local">Spremi lokalno</string>
+    <string name="settings_export_share">Podijeli s drugom aplikacijom</string>
+    <string name="settings_reset">Vrati na zadano</string>
+    <string name="settings_cancel">Odustani</string>
+    <string name="settings_ok">U redu</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategorija</string>
+    <string name="wp_custom_search">Prilagođeno pretraživanje</string>
+    <string name="wp_reddit_login">Prijava</string>
+    <string name="wp_reddit_logout">Odjava: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Odjava</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Prilagođeni subreddit</string>
+    <string name="wp_custom_subreddit_hint">Više naziva odvojenih znakom +</string>
+    <string name="wp_folder">Mapa</string>
+    <string name="wp_folder_choose">Odaberi mapu</string>
+    <string name="wp_media">Medijska datoteka</string>
+    <string name="wp_media_choose">Odaberi datoteku</string>
+    <string name="wp_choose_other">Druga lokacija…</string>
+    <string name="wp_choose_other_desc">Odaberi sustavnim alatom za odabir datoteka</string>
+    <string name="wp_media_searching">Traženje slika i videozapisa…</string>
+    <string name="wp_media_none">Nisu pronađene slike ni videozapisi. Kopirajte ih u mapu Pictures, Movies ili Download ili priključite USB pogon.</string>
+    <string name="wp_folders_description">Mape sa slikama ili videozapisima na ovom uređaju i na USB pogonima.</string>
+    <string name="wp_folders_none">Nisu pronađene mape sa slikama ili videozapisima</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d datoteka</item>
+        <item quantity="few">%d datoteke</item>
+        <item quantity="other">%d datoteka</item>
+    </plurals>
+    <string name="wp_media_color">Jednobojno</string>
+    <string name="wp_theme_desc">Pozadine iz uvezene teme</string>
+    <string name="wp_plugin_settings">Postavke dodatka</string>
+    <string name="wp_not_set">Nije postavljeno</string>
+    <string name="wp_status">Stanje</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Ova pozadina</string>
+    <string name="wp_next">Sljedeća</string>
+    <string name="wp_source">Izvor</string>
+    <string name="wp_title">Naslov</string>
+    <string name="wp_author">Autor</string>
+    <string name="wp_set_user">Postavi kao korisničku pozadinu</string>
+    <string name="wp_view">Pogledaj</string>
+    <string name="wp_unknown">Nepoznato</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Ovdje izradite profile prikaza videa i upravljajte njima. Povežite ih s ulaznim izvorima za automatsku promjenu ili ih primijenite dvostrukim pritiskom tipke Izbornik, a zatim gore ili dolje.</string>
+    <string name="dp_list">Popis profila prikaza</string>
+    <string name="dp_list_desc">Ovdje izradite ili uredite profile prikaza videa. Ovisno o uređaju, neke kontrole zahtijevaju root ili uopće ne rade; namijenjene su uređajima AmLogic.</string>
+    <string name="dp_add">Dodaj novi…</string>
+    <string name="dp_name">Naziv profila</string>
+    <string name="dp_preview">Pregled</string>
+    <string name="dp_fullscreen">Pregled preko cijelog zaslona</string>
+    <string name="dp_fullscreen_desc">ili uključite/isključite tipkom Izbornik</string>
+    <string name="dp_delete">Izbriši profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Instaliraj aplikacije trećih strana</string>
+    <string name="install_desc">Odaberite aplikaciju za instalaciju. Možda ćete najprije morati dopustiti instalacije iz nepoznatih izvora.</string>
+    <string name="install_custom">Prilagođeni URL / kod za Downloader</string>
+    <string name="install_custom_desc">Koristite samo izvor kojem vjerujete</string>
+    <string name="install_status">Stanje</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Ovaj uređaj</string>
+
+    <string name="gallery_filter">Filtriraj…</string>
+    <string name="settings_no_file_picker">Ovaj uređaj nema alat za odabir datoteka</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminancija</string>
+    <string name="color_opacity">Neprozirnost</string>
+    <string name="color_prefer_dynamic">Preferiraj dinamičnu boju</string>
+    <string name="color_prefer_dynamic_desc">Ako je dostupna, zadržat će ovu luminanciju/neprozirnost</string>
+    <string name="color_clear">Očisti</string>
+    <string name="color_reset">Vrati na zadano</string>
+</resources>

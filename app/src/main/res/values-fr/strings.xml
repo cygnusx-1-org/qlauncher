@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Définir comme fond d\'écran de QLauncher</string>
+    <string name="import_settings">Importer dans QLauncher</string>
+    <string name="accessibility_service_description">QLauncher voit les appuis sur les touches physiques et le nom de l\'application au premier plan, afin de remplacer le lanceur d\'origine, d\'exécuter des actions au démarrage, de réattribuer les boutons de la télécommande, de détecter l\'inactivité et d\'appliquer le contrôle parental. Ces deux informations restent en mémoire sur cet appareil et ne sont jamais envoyées nulle part.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QLauncher</string>
+    <string name="set_as_wallpaper">Ustaw jako tapetę QLauncher</string>
+    <string name="import_settings">Importuj do QLauncher</string>
+    <string name="accessibility_service_description">QLauncher odczytuje naciśnięcia przycisków sprzętowych i nazwę aplikacji na pierwszym planie, aby zastępować domyślny program uruchamiający, wykonywać akcje przy uruchomieniu, zmieniać działanie przycisków pilota, wykrywać bezczynność i egzekwować kontrolę rodzicielską. Obie informacje pozostają w pamięci tego urządzenia i nigdy nie są nigdzie wysyłane.</string>
+</resources>

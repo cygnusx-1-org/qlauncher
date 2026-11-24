@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">ნაგულისხმევი</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">მუქი</string>
+    <string name="backup_clock_markup_italic">დახრილი</string>
+    <string name="backup_clock_markup_underline">ხაზგასმული</string>
+    <string name="backup_clock_markup_strikethrough">გადახაზული</string>
+    <string name="backup_clock_markup_subscript">ქვედა ინდექსი</string>
+    <string name="backup_clock_markup_superscript">ზედა ინდექსი</string>
+    <string name="backup_clock_markup_half_size">ნახევარი ზომა</string>
+    <string name="backup_clock_markup_one_and_a_half_size">ერთნახევარჯერ</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">შავის მოჭრა</string>
+    <string name="backup_pattern_apl_clipping">APL-ის მოჭრა</string>
+    <string name="backup_pattern_white_clipping">თეთრის მოჭრა</string>
+    <string name="backup_pattern_grayscale_ramp">ნაცრისფერის გრადიენტი</string>
+    <string name="backup_pattern_grayscale_steps">ნაცრისფერის საფეხურები</string>
+    <string name="backup_pattern_dynamic_brightness">დინამიკური სიკაშკაშე</string>
+    <string name="backup_pattern_color_steps">ფერის საფეხურები</string>
+    <string name="backup_pattern_color_clipping">ფერის მოჭრა</string>
+    <string name="backup_pattern_flashing_color_bars">მოციმციმე ფერადი ზოლები</string>
+    <string name="backup_pattern_sharpness_overscan">სიმკვეთრე &amp; კიდეების მოჭრა</string>
+    <string name="backup_pattern_uhd">UHD შაბლონი</string>
+    <string name="backup_pattern_judder">კანკალის ტესტი</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] გვერდების თანაფარდობის სიმკვეთრე</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] შავის დონე</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] ფერის მოჭრა 240–1000 ნიტი</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] ფერის მოჭრა 3600–10000 ნიტი</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] ფერის მოჭრა 700–10000 ნიტი</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] ფერის მოჭრა 900–4000 ნიტი</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] ნაცრისფერის გრადიენტი 10000 ნიტი</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] ნაცრისფერის გრადიენტი 1000 ნიტი</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] ნაცრისფერის გრადიენტი 4000 ნიტი</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] შავი PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] ფერის გრადიენტები</string>
+    <string name="backup_pattern_unavailable">%1$s საჭიროებს HDR ვიდეოგზას და ჯერ მიუწვდომელია</string>
+    <!-- Pages -->
+    <string name="backup_settings">პარამეტრები</string>
+    <string name="backup_manage_settings">პარამეტრების მართვა</string>
+    <string name="backup_themes">თემები</string>
+    <string name="backup_import">იმპორტი</string>
+    <string name="backup_export">ექსპორტი</string>
+    <string name="backup_import_from_file">ფაილების მენეჯერიდან</string>
+    <string name="backup_import_from_auto">ავტომატური სარეზერვო ასლიდან</string>
+    <string name="backup_export_save">ადგილობრივად შენახვა</string>
+    <string name="backup_export_share">სხვა აპით გაზიარება</string>
+    <string name="backup_reset">ნაგულისხმევზე დაბრუნება</string>
+    <string name="backup_cancel">გაუქმება</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">მზადაა</string>
+    <string name="backup_close">დახურვა</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">პარამეტრების ექსპორტი</string>
+    <string name="backup_export_theme_title">თემის ექსპორტი</string>
+    <string name="backup_export_description">ყველაფერი ინახება ერთ ფაილში, დაშიფრული თქვენ მიერ არჩეული პაროლით (მინიმუმ %1$d სიმბოლო). ფაილის იმპორტისთვის პაროლი დაგჭირდებათ და მისი აღდგენა შეუძლებელია.</string>
+    <string name="backup_export_theme_description">გარეგნობის პარამეტრები და მიმდინარე ფონი ინახება ერთ ფაილში, დაშიფრული თქვენ მიერ არჩეული პაროლით (მინიმუმ %1$d სიმბოლო). თემის იმპორტისთვის პაროლი დაგჭირდებათ.</string>
+    <string name="backup_password">პაროლი</string>
+    <string name="backup_password_show">პაროლის ჩვენება</string>
+    <string name="backup_password_hide">პაროლის დამალვა</string>
+    <string name="backup_password_strength">პაროლის სიძლიერე</string>
+    <string name="backup_strength_too_short">ძალიან მოკლე: მინიმუმ %1$d სიმბოლო</string>
+    <string name="backup_strength_weak">სუსტი: ადვილად გამოსაცნობი</string>
+    <string name="backup_strength_fair">საშუალო</string>
+    <string name="backup_strength_strong">ძლიერი</string>
+    <string name="backup_password_too_short">პაროლი უნდა შეიცავდეს მინიმუმ %1$d სიმბოლოს</string>
+    <string name="backup_exporting">მიმდინარეობს ექსპორტი…</string>
+    <string name="backup_export_saved">შენახულია: %1$s</string>
+    <string name="backup_export_kept">სხვაგან არ შენახულა. ფაილი რჩება აქ: %1$s</string>
+    <string name="backup_export_shared">გაიგზავნა. ასლი რჩება აქ: %1$s</string>
+    <string name="backup_export_no_file_manager">ამ მოწყობილობაზე არცერთ აპს არ შეუძლია ფაილის მიღება. ის აქ არის: %1$s</string>
+    <string name="backup_export_failed">ექსპორტი ვერ მოხერხდა: %1$s</string>
+    <string name="backup_share_title">QLauncher-ის ფაილის გაგზავნა აპით</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">იმპორტი ჩაანაცვლებს თქვენს მიმდინარე კონფიგურაციას. ჯერ ავტომატური სარეზერვო ასლი იქმნება, დასრულების შემდეგ კი QLauncher გადაიტვირთება.</string>
+    <string name="backup_reading">ფაილი იკითხება…</string>
+    <string name="backup_import_action">იმპორტი</string>
+    <string name="backup_wrong_password">არასწორი პაროლი</string>
+    <string name="backup_password_hint">ფაილის ექსპორტისას არჩეული პაროლი</string>
+    <string name="backup_not_a_backup">ეს არ არის QLauncher-ის ან Projectivy-ის სარეზერვო ასლი ან თემა.</string>
+    <string name="backup_damaged">ფაილი დაზიანებულია ან არასრულია.</string>
+    <string name="backup_too_new">ეს ფაილი შექმნილია QLauncher-ის უფრო ახალი ვერსიით (ფორმატი %1$d). მისი იმპორტისთვის განაახლეთ QLauncher.</string>
+    <string name="backup_unreadable">ამ ავტომატური სარეზერვო ასლის წაკითხვა ამ მოწყობილობაზე შეუძლებელია.</string>
+    <string name="backup_import_failed">იმპორტი ვერ მოხერხდა და არაფერი შეცვლილა: %1$s</string>
+    <string name="backup_applying">მიმდინარეობს იმპორტი… დასრულების შემდეგ QLauncher გადაიტვირთება.</string>
+    <string name="backup_origin_ql_backup">QLauncher-ის პარამეტრების სარეზერვო ასლი</string>
+    <string name="backup_origin_ql_theme">QLauncher-ის თემა</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcher-ის პარამეტრების სარეზერვო ასლი</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher-ის თემა</string>
+    <string name="backup_origin_auto">ავტომატური სარეზერვო ასლი</string>
+    <string name="backup_preview_theme_by">%1$s, ავტორი: %2$s</string>
+    <string name="backup_preview_version">ვერსია %1$s</string>
+    <string name="backup_preview_settings">პარამეტრები</string>
+    <string name="backup_preview_categories">კატეგორიები</string>
+    <string name="backup_preview_apps">აპების მორგება</string>
+    <string name="backup_preview_profiles">ეკრანის პროფილები</string>
+    <string name="backup_preview_files">ფონები და ხატულები</string>
+    <string name="backup_preview_skipped">აპები, რომლებიც ამ მოწყობილობაზე არ არის</string>
+    <string name="backup_replace_setup">მიმდინარე კონფიგურაციის ჩანაცვლება</string>
+    <string name="backup_apply_theme">თემის გამოყენება</string>
+    <string name="backup_replace_detail">ჯერ იქმნება მიმდინარე კონფიგურაციის ავტომატური სარეზერვო ასლი</string>
+    <string name="backup_nc_parental">მშობლის კოდი</string>
+    <string name="backup_nc_parental_detail">არ გადმოდის. დააყენეთ ახალი კოდი მშობელთა კონტროლში.</string>
+    <string name="backup_nc_premium">პრემიუმ სტატუსი</string>
+    <string name="backup_nc_premium_detail">არ გადმოდის. QLauncher-ის ყველა ფუნქცია უფასოა.</string>
+    <string name="backup_nc_inputs">TV შესასვლელები</string>
+    <string name="backup_nc_profile_bindings">ეკრანის პროფილების მიბმები</string>
+    <string name="backup_nc_plugin">ფონის დანამატი</string>
+    <string name="backup_nc_plugin_detail">%1$s არ არის დაყენებული. ფონის წყარო უცვლელი რჩება.</string>
+    <string name="backup_nc_icons">საკუთარი ხატულები</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d შეცვლილი მნიშვნელობა</item>
+        <item quantity="other">%1$d შეცვლილი მნიშვნელობა</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d კატეგორია</item>
+        <item quantity="other">%1$d კატეგორია</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d აპი</item>
+        <item quantity="other">%1$d აპი</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d პროფილი</item>
+        <item quantity="other">%1$d პროფილი</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d ფაილი</item>
+        <item quantity="other">%1$d ფაილი</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d უცნობი პარამეტრი, გამოტოვებულია</item>
+        <item quantity="other">%1$d უცნობი პარამეტრი, გამოტოვებულია</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d ჩანაწერი არ შეესაბამება აქ დაყენებულ არცერთ აპს და გამოტოვებულია</item>
+        <item quantity="other">%1$d ჩანაწერი არ შეესაბამება აქ დაყენებულ არცერთ აპს და გამოტოვებულია</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d ბმული TV შესასვლელზე, რომელიც ამ მოწყობილობას არ აქვს, გამოტოვებულია</item>
+        <item quantity="other">%1$d ბმული TV შესასვლელებზე, რომლებიც ამ მოწყობილობას არ აქვს, გამოტოვებულია</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">შესასვლელზე მიბმული %1$d პროფილი არ გადმოდის</item>
+        <item quantity="other">შესასვლელებზე მიბმული %1$d პროფილი არ გადმოდის</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">Projectivy-ში შენახული %1$d ხატულის წაკითხვა შეუძლებელია და გამოტოვებულია</item>
+        <item quantity="other">Projectivy-ში შენახული %1$d ხატულის წაკითხვა შეუძლებელია და გამოტოვებულია</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">ავტომატური სარეზერვო ასლები</string>
+    <string name="backup_auto_description">QLauncher ამ მოწყობილობაზე ინახავს თქვენი კონფიგურაციის ბოლო %1$d ვერსიას, დაშიფრულს გასაღებით, რომელიც მას არასდროს ტოვებს. აღსადგენად აირჩიეთ ერთ-ერთი; პაროლი საჭირო არ არის.</string>
+    <string name="backup_auto_none">ავტომატური სარეზერვო ასლი არ არის</string>
+    <string name="backup_files_title">სარეზერვო ფაილები</string>
+    <string name="backup_files_theme_title">თემის ფაილები</string>
+    <string name="backup_files_description">ექსპორტირებული ფაილები ინახება აქ: %1$s. ყველა ფაილზე წვდომით QLauncher სარეზერვო ასლებს პოულობს Download-ში, Documents-ში და USB დისკებზეც, Projectivy-ის ასლების ჩათვლით.</string>
+    <string name="backup_files_searching">სარეზერვო ფაილების ძიება…</string>
+    <string name="backup_files_none">სარეზერვო ფაილები ვერ მოიძებნა</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">QLauncher-ის საქაღალდე</string>
+    <string name="backup_files_access">სხვა აპებისა და მოწყობილობების სარეზერვო ასლების პოვნა</string>
+    <string name="backup_files_access_desc">ყველა ფაილზე წვდომის დაშვება</string>
+    <string name="backup_files_access_unavailable">ამ მოწყობილობას პარამეტრების ეკრანი არ აქვს. დაუშვით ყველა ფაილზე წვდომა ბრძანებით: %1$s</string>
+    <string name="backup_files_browse">სხვა მდებარეობა…</string>
+    <string name="backup_files_browse_desc">ფაილის არჩევა სისტემის ფაილების ამრჩევით</string>
+    <string name="backup_auto_delete_all">ყველას წაშლა</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">ცვლილების შემდეგ</string>
+    <string name="backup_reason_import">იმპორტამდე</string>
+    <string name="backup_reason_migration">განახლებამდე</string>
+    <string name="backup_reason_reset">გადაყენებამდე</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">პროფილი #</string>
+    <string name="backup_no_picture_manager">სურათის მენეჯერი არ არის ჩატვირთული</string>
+    <string name="backup_no_picture_manager_detail">ეს მოწყობილობა არ გვთავაზობს სურათის პარამეტრების შეცვლის მხარდაჭერილ გზას, ამიტომ პროფილები ინახავს მნიშვნელობებს მათი გამოყენების გარეშე.</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">არცერთი</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">დინამიკური ფერები</string>
+    <string name="wallpaper_provider_default">ნაგულისხმევი ფონი</string>
+    <string name="wallpaper_provider_media_file">მედიაფაილი</string>
+    <string name="wallpaper_provider_folder">საქაღალდე</string>
+    <string name="wallpaper_provider_focused_program">ფოკუსირებული გადაცემა</string>
+    <string name="wallpaper_provider_now_playing">ახლა უკრავს</string>
+    <string name="wallpaper_provider_random_program">შემთხვევითი გადაცემა</string>
+    <string name="wallpaper_provider_theme">თემა</string>
+    <string name="wallpaper_provider_unknown_plugin">დანამატი</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">ფონები</string>
+    <string name="wallpaper_wikimedia_nature">ბუნება</string>
+    <string name="wallpaper_wikimedia_landscapes">პეიზაჟები</string>
+    <string name="wallpaper_wikimedia_mountains">მთები</string>
+    <string name="wallpaper_wikimedia_forests">ტყეები</string>
+    <string name="wallpaper_wikimedia_cities">ქალაქები</string>
+    <string name="wallpaper_wikimedia_architecture">არქიტექტურა</string>
+    <string name="wallpaper_wikimedia_night">ღამე</string>
+    <string name="wallpaper_wikimedia_space">კოსმოსი</string>
+    <string name="wallpaper_wikimedia_animals">ცხოველები</string>
+    <string name="wallpaper_wikimedia_custom">[საკუთარი ძიება]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[საკუთარი subreddit]</string>
+    <string name="wallpaper_reddit_log_out">გასვლა</string>
+    <string name="wallpaper_reddit_login_needed">შედით Reddit-ში, რომ იქიდან ფონები ნახოთ.</string>
+    <string name="wallpaper_reddit_login_title">Reddit-ში შესვლა</string>
+    <string name="wallpaper_reddit_login_signing_in">მიმდინარეობს შესვლა…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit-მა წვდომა არ მისცა, ამიტომ Reddit-ის ფონები მიუწვდომელი რჩება.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit-ის პასუხი არ შეესაბამებოდა შესვლის ამ მცდელობას და უგულებელყოფილია. სცადეთ ხელახლა.</string>
+    <string name="wallpaper_reddit_login_failed">Reddit-ში შესვლა ვერ მოხერხდა (%1$s). სცადეთ მოგვიანებით.</string>
+    <string name="wallpaper_reddit_login_network">Reddit-თან დაკავშირება ვერ მოხერხდა. შეამოწმეთ ქსელთან კავშირი და სცადეთ ხელახლა.</string>
+    <string name="wallpaper_reddit_login_page_error">Reddit-ის შესვლის გვერდი ვერ ჩაიტვირთა. შეამოწმეთ ქსელთან კავშირი და სცადეთ ხელახლა.</string>
+    <string name="wallpaper_reddit_no_webview">ამ მოწყობილობას არ აქვს ვებბრაუზერის კომპონენტი (Android System WebView), რომელიც Reddit-ში შესვლას სჭირდება. დააყენეთ ან ჩართეთ Android System WebView და სცადეთ ხელახლა.</string>
+    <string name="wallpaper_reddit_retry">ხელახლა ცდა</string>
+    <string name="wallpaper_reddit_close">დახურვა</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">ფონების წყაროსთან კავშირი არ არის.</string>
+    <string name="wallpaper_error_server">ფონების წყარომ შეცდომით უპასუხა.</string>
+    <string name="wallpaper_error_rate_limited">ფონების წყარომ მოითხოვა, რომ შემდეგ მოთხოვნამდე დაველოდოთ.</string>
+    <string name="wallpaper_error_generic">ფონების ჩატვირთვა ვერ მოხერხდა.</string>
+    <string name="wallpaper_error_no_media">არცერთი სურათი, ვიდეო ან ფერი არ არის არჩეული.</string>
+    <string name="wallpaper_error_no_folder">საქაღალდე არ არის არჩეული.</string>
+    <string name="wallpaper_error_folder_access">საქაღალდის წაკითხვა შეუძლებელია. აირჩიეთ ის ხელახლა.</string>
+    <string name="wallpaper_error_folder_empty">საქაღალდეში არ არის სურათები, ვიდეოები ან Lottie ანიმაციები.</string>
+    <string name="wallpaper_error_theme_empty">მიმდინარე თემას ფონები არ აქვს.</string>
+    <string name="wallpaper_error_no_channels">არხები მიუწვდომელია. ჩართეთ ისინი და დაუშვით წვდომა TV პროგრამაზე.</string>
+    <string name="wallpaper_error_no_notification_access">„ახლა უკრავს“ ფუნქციას სჭირდება შეტყობინებებზე წვდომა.</string>
+    <string name="wallpaper_error_no_subreddit">სწორი subreddit არ არის მითითებული.</string>
+    <string name="wallpaper_error_plugin">ფონის დანამატმა არ უპასუხა.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">ფონი დაყენებულია</string>
+    <string name="wallpaper_set_failed">ამ ფაილის ფონად გამოყენება შეუძლებელია.</string>
+</resources>

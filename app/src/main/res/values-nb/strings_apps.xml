@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Avbryt</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Alle apper</string>
+    <string name="apps_action_edit_categories">Rediger kategorier</string>
+    <string name="apps_action_edit_channels">Rediger kanaler</string>
+    <string name="apps_action_launcher_settings">QLauncher-innstillinger</string>
+    <string name="apps_action_android_settings">Android-innstillinger</string>
+    <string name="apps_action_amlogic_settings">Ekstra AmLogic-innstillinger</string>
+    <string name="apps_action_display_profiles">Skjermprofiler</string>
+    <string name="apps_action_install_apps">Installer tredjepartsapper</string>
+    <string name="apps_action_accessibility_service">Tilgjengelighetstjeneste</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Bytt profil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Denne enheten</string>
+    <string name="apps_action_about_wallpaper">Dette bakgrunnsbildet</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Ingen</string>
+    <string name="apps_autostart_screensaver">Skjermsparer</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanaler</string>
+    <string name="apps_channels_watch_next">Se neste</string>
+    <string name="apps_channels_unreadable">Denne kanalen kan ikke lenger leses</string>
+    <string name="apps_channels_hidden">Skjult av systemet</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="other">%d kanaler</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Bruk ikonpakke</string>
+    <string name="apps_iconpack_apply_message">Bruke %1$s for appikonene?</string>
+    <string name="apps_iconpack_apply_confirm">Bruk</string>
+    <string name="apps_iconpack_applied">Ikonpakken er tatt i bruk</string>
+    <string name="apps_iconpack_apply_missing">Ingen ikonpakke ble oppgitt</string>
+    <string name="apps_iconpack_apply_not_a_pack">Denne appen er ikke en ikonpakke</string>
+    <string name="apps_iconpack_none">Ingen</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Legg til snarvei</string>
+    <string name="apps_pin_shortcut_message">Legge til «%1$s» fra %2$s i kategorien Snarveier?</string>
+    <string name="apps_pin_shortcut_confirm">Legg til</string>
+    <string name="apps_pin_shortcut_added">Snarveien er lagt til</string>
+    <string name="apps_pin_shortcut_failed">Kunne ikke legge til snarveien</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Installer tredjepartsapper</string>
+    <string name="apps_install_description">Velg en app du vil installere. Du må kanskje tillate installasjon fra ukjente kilder først.</string>
+    <string name="apps_install_custom_url">Egendefinert URL / Downloader-kode</string>
+    <string name="apps_install_custom_url_desc">Bruk en kilde du stoler på</string>
+    <string name="apps_install_choose_method">Velg installasjonsmetode</string>
+    <string name="apps_install_installed">Installert</string>
+    <string name="apps_install_category_wallpaper_plugin">Bakgrunnsplugin</string>
+    <string name="apps_install_category_icon_pack">Ikonpakke</string>
+    <string name="apps_install_category_file_manager">Filbehandler</string>
+    <string name="apps_install_category_tool">Verktøy</string>
+    <string name="apps_install_method_store">Butikk</string>
+    <string name="apps_install_method_direct">Direkte nedlasting</string>
+    <string name="apps_install_method_downloader">Downloader-appen</string>
+    <string name="apps_install_state_downloading">Laster ned %1$s… %2$d %%</string>
+    <string name="apps_install_state_downloading_unknown">Laster ned %1$s…</string>
+    <string name="apps_install_state_installing">Installerer %1$s…</string>
+    <string name="apps_install_state_confirm">Bekreft installasjonen av %1$s</string>
+    <string name="apps_install_state_success">%1$s er installert</string>
+    <string name="apps_install_state_unknown_sources">Tillat QLauncher å installere apper, og kom så tilbake for å fortsette</string>
+    <string name="apps_install_state_downloader_sent">Koden %1$s er sendt til Downloader</string>
+    <string name="apps_install_state_downloader_type">Skriv inn koden %1$s i Downloader</string>
+    <string name="apps_install_state_store">Åpnet i butikken</string>
+    <string name="apps_install_state_browser">Lenken er en nettside og ble åpnet i nettleseren</string>
+    <string name="apps_install_fail_invalid">Dette er verken en URL eller en Downloader-kode</string>
+    <string name="apps_install_fail_no_usb">Fant ingen USB-stasjon</string>
+    <string name="apps_install_fail_archive">Arkiver kan ikke installeres</string>
+    <string name="apps_install_fail_network">Nedlastingen mislyktes</string>
+    <string name="apps_install_fail_http">Serveren svarte med en feil (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Filen er ikke en app (APK)</string>
+    <string name="apps_install_fail_unreadable">Filen kan ikke leses</string>
+    <string name="apps_install_fail_install">Installasjonen mislyktes</string>
+    <string name="apps_install_fail_cancelled">Installasjonen ble avbrutt</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher har ikke tillatelse til å installere apper</string>
+    <string name="apps_install_fail_downloader">Downloader-appen er ikke installert</string>
+    <string name="apps_install_fail_store">Ingen appbutikk er tilgjengelig</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Denne enheten</string>
+    <string name="apps_device_brand_manufacturer">Merke / Produsent</string>
+    <string name="apps_device_device_product">Enhet / Produkt</string>
+    <string name="apps_device_model">Modell</string>
+    <string name="apps_device_hardware">Maskinvare</string>
+    <string name="apps_device_fingerprint">Fingeravtrykk</string>
+    <string name="apps_device_build">Byggversjon</string>
+    <string name="apps_device_build_desc">Byggbeskr.</string>
+    <string name="apps_device_device_type">Enhetstype</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP-adresse</string>
+    <string name="apps_device_root_access">Root-tilgang</string>
+    <string name="apps_device_pm_info">PM-info</string>
+    <string name="apps_device_pm_none">Ingen bildebehandler</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Ja</string>
+    <string name="apps_device_no">Nei</string>
+</resources>

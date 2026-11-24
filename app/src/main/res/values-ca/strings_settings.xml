@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Configuració</string>
+    <string name="settings_breadcrumb_display">Pantalla</string>
+    <string name="settings_breadcrumb_applications">Aplicacions</string>
+    <string name="settings_breadcrumb_system">Sistema</string>
+    <string name="settings_breadcrumb_about">Quant a</string>
+    <string name="settings_root_title">Configuració de QLauncher</string>
+    <string name="settings_root_description">Configureu els paràmetres de l\'aplicació.</string>
+    <string name="settings_legend_a11y_required">Cal el servei d\'accessibilitat</string>
+    <string name="settings_legend_a11y_recommended">Es recomana el servei d\'accessibilitat</string>
+    <string name="settings_legend_experimental">Experimental</string>
+    <string name="settings_launcher_related">Configuració relacionada amb el llançador</string>
+
+    <string name="settings_general">General</string>
+    <string name="settings_appearance">Aparença</string>
+    <string name="settings_power">Energia</string>
+    <string name="settings_parental">Control parental</string>
+    <string name="settings_remote">Comandament</string>
+    <string name="settings_accessibility">Servei d\'accessibilitat</string>
+    <string name="settings_display_profiles">Perfils de pantalla</string>
+    <string name="settings_manage">Gestiona la configuració</string>
+
+    <!-- General -->
+    <string name="settings_language">Canvia l\'idioma de l\'aplicació</string>
+    <string name="settings_language_system">Idioma del sistema</string>
+    <string name="settings_default_launcher">Canvia el llançador predeterminat</string>
+    <string name="settings_default_launcher_unavailable">Aquest dispositiu no ofereix cap manera de canviar el llançador predeterminat. Utilitzeu «Substitueix el llançador actual».</string>
+    <string name="settings_override_home">Substitueix el llançador actual</string>
+    <string name="settings_override_home_desc">Intercepta les crides al llançador actual (útil si no podeu canviar ni eliminar l\'original)</string>
+    <string name="settings_enable_channels">Activa els canals</string>
+    <string name="settings_enable_channels_desc">Si no els feu servir, desactivar-los fa que l\'inici sigui més ràpid i que s\'utilitzi menys memòria</string>
+    <string name="settings_programs_per_channel">Programes per canal</string>
+    <string name="settings_crash_error_reports">Activa els informes anònims de fallades i errors</string>
+    <string name="settings_reports_desc">Només s\'envien l\'error, la versió de l\'aplicació i el model del dispositiu</string>
+    <string name="settings_check_updates">Cerca actualitzacions</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Categories / Canals</string>
+    <string name="settings_cards">Targetes</string>
+    <string name="settings_wallpaper">Fons de pantalla</string>
+    <string name="settings_status_bar">Barra d\'estat</string>
+    <string name="settings_left_headers">Capçaleres de l\'esquerra</string>
+    <string name="settings_idle_mode">Mode inactiu del llançador</string>
+    <string name="settings_font">Tipus de lletra</string>
+    <string name="settings_themes">Temes</string>
+    <string name="settings_themes_desc">Importa / Exporta</string>
+    <string name="settings_load_cards_scrolling">Carrega les targetes durant el desplaçament</string>
+    <string name="settings_load_cards_scrolling_desc">Respon més ràpid, a costa de la fluïdesa</string>
+    <string name="settings_accent">Color d\'èmfasi</string>
+    <string name="settings_accent_desc">Activeu el mode dinàmic per seguir el fons de pantalla</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Mostra el títol</string>
+    <string name="settings_show_icon_title">Mostra la icona davant del títol</string>
+    <string name="settings_rows_spacing">Espaiat vertical (alçada de pantalla en %)</string>
+    <string name="settings_fixed_position">Mantén fixa la posició de la categoria seleccionada</string>
+    <string name="settings_hide_rows_above">Amaga les files de sobre de la selecció</string>
+    <string name="settings_remember_focus">Recorda la posició de la targeta seleccionada</string>
+    <string name="settings_unselected_opacity">Opacitat de les files no seleccionades</string>
+    <string name="settings_top_margin">Marge superior</string>
+    <string name="settings_start_margin">Marge inicial</string>
+    <string name="settings_end_margin">Marge final</string>
+    <string name="settings_dock_padding">Marge interior del dock</string>
+    <string name="settings_tint_custom_icons">Tenyeix les icones personalitzades</string>
+    <string name="settings_tint_custom_icons_desc">Per a icones personalitzades sense fons</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Cantonades arrodonides</string>
+    <string name="settings_cards_size">Mida de les targetes</string>
+    <string name="settings_cards_spacing">Espaiat de les targetes</string>
+    <string name="settings_loop_limit">Límit de bucles de les icones animades</string>
+    <string name="settings_ripple">Efecte d\'ona en prémer una targeta</string>
+    <string name="settings_background_color">Color de fons</string>
+    <string name="settings_focused_card">Targeta seleccionada</string>
+    <string name="settings_program_cards">Targetes de programa</string>
+    <string name="settings_tv_ratio">Relació d\'aspecte de les targetes d\'aplicacions de TV</string>
+    <string name="settings_mobile_ratio">Relació d\'aspecte de les targetes d\'aplicacions mòbils</string>
+    <string name="settings_icon_pack">Paquet d\'icones</string>
+    <string name="settings_icon_pack_none">No hi ha cap paquet d\'icones instal·lat</string>
+    <string name="settings_icon_pack_off">Cap</string>
+    <string name="settings_more">Més…</string>
+    <string name="settings_custom_icon_tint">Color de les icones personalitzades</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Mida de la targeta seleccionada</string>
+    <string name="settings_focused_effect">Efecte de la targeta seleccionada</string>
+    <string name="settings_effect_none">Cap</string>
+    <string name="settings_effect_shadow">Ombra</string>
+    <string name="settings_effect_glow">Resplendor</string>
+    <string name="settings_glow_animation">Animació de la resplendor</string>
+    <string name="settings_anim_none">Cap</string>
+    <string name="settings_anim_pulse">Pulsació</string>
+    <string name="settings_anim_breath">Respiració</string>
+    <string name="settings_anim_fade">Esvaïment</string>
+    <string name="settings_anim_shine">Lluentor</string>
+    <string name="settings_glow_size">Mida de la resplendor</string>
+    <string name="settings_glow_color">Color de la resplendor</string>
+    <string name="settings_glow_color_desc">Deixeu-ho buit per utilitzar el color de la targeta</string>
+    <string name="settings_colors_override">Substitució de colors</string>
+    <string name="settings_override_none">Cap</string>
+    <string name="settings_override_swap">Intercanvia fons/color</string>
+    <string name="settings_override_custom">Personalitzat</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Reprodueix el vídeo de previsualització</string>
+    <string name="settings_preview_never">Mai</string>
+    <string name="settings_preview_always">Sempre</string>
+    <string name="settings_preview_no_media">Quan no es reprodueix cap contingut multimèdia de fons</string>
+    <string name="settings_show_progress">Mostra la barra de progrés</string>
+    <string name="settings_show_badge">Mostra la insígnia</string>
+    <string name="settings_zoom_focus">Efecte de zoom en seleccionar</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Formats compatibles: imatge fixa, GIF animat, vídeo (fitxer o emissió en directe RTSP), animació Lottie</string>
+    <string name="settings_launcher_wallpaper">Fons de pantalla del llançador</string>
+    <string name="settings_configure">Configura</string>
+    <string name="settings_show_wallpapers">Mostra els fons de pantalla</string>
+    <string name="settings_picture_adjustment">Ajust de la imatge</string>
+    <string name="settings_image_transition">Transició d\'imatge</string>
+    <string name="settings_update_frequency">Freqüència d\'actualització (min)</string>
+    <string name="settings_video_wallpaper">Fons de pantalla de vídeo</string>
+    <string name="settings_display_mode">Mode de visualització</string>
+    <string name="settings_bad_ratio">En cas de mala proporció/qualitat</string>
+    <string name="settings_min_width">Amplada mínima acceptada (px)</string>
+    <string name="settings_src_none">Cap</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Colors dinàmics</string>
+    <string name="settings_src_default">Fons de pantalla predeterminat</string>
+    <string name="settings_src_media">Fitxer multimèdia</string>
+    <string name="settings_src_folder">Carpeta</string>
+    <string name="settings_src_focused_program">Programa seleccionat</string>
+    <string name="settings_src_now_playing">En reproducció</string>
+    <string name="settings_src_random_program">Programa aleatori</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Cap</string>
+    <string name="settings_tr_random">Aleatòria</string>
+    <string name="settings_tr_fade">Esvaïment</string>
+    <string name="settings_tr_zoom">Zoom</string>
+    <string name="settings_tr_hslide">Lliscament horitzontal</string>
+    <string name="settings_tr_vslide">Lliscament vertical</string>
+    <string name="settings_dm_automatic">Automàtic</string>
+    <string name="settings_dm_skip">Omet</string>
+    <string name="settings_dm_crop">Retalla</string>
+    <string name="settings_dm_stretch">Estira</string>
+    <string name="settings_dm_fit">Ajusta al centre</string>
+    <string name="settings_dm_fit_blur">Ajusta al centre + fons difuminat</string>
+    <string name="settings_dm_blur">Difuminat</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">To</string>
+    <string name="settings_saturation">Saturació</string>
+    <string name="settings_contrast">Contrast</string>
+    <string name="settings_brightness">Brillantor</string>
+    <string name="settings_tint">Tenyit</string>
+    <string name="settings_tint_amount">Intensitat del tenyit</string>
+    <string name="settings_blur">Difuminat</string>
+    <string name="settings_shadow_h">Longitud horitzontal de l\'ombra superposada</string>
+    <string name="settings_shadow_v">Longitud vertical de l\'ombra superposada</string>
+    <string name="settings_shadow_opacity">Opacitat de l\'ombra superposada</string>
+    <string name="settings_shadow_tint">Color de l\'ombra superposada</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Ignora la freqüència d\'actualització</string>
+    <string name="settings_ignore_update_desc">Espera que acabi el vídeo per demanar un fons de pantalla nou</string>
+    <string name="settings_video_color_freq">Freqüència d\'actualització del color dinàmic</string>
+    <string name="settings_video_color_freq_desc">Segons entre els fotogrames de vídeo llegits per als colors; 0 ho desactiva</string>
+    <string name="settings_volume">Volum</string>
+    <string name="settings_tunneling">Utilitza la renderització per maquinari (tunneling)</string>
+    <string name="settings_decoder_fallback">Activa els descodificadors alternatius</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Gestiona el permís de notificacions</string>
+    <string name="settings_granted">Concedit</string>
+    <string name="settings_not_granted">No concedit</string>
+    <string name="settings_notification_adb">No hi ha cap pantalla de configuració en aquest dispositiu. Concediu-lo amb: %1$s</string>
+    <string name="settings_clock">Rellotge</string>
+    <string name="settings_icons">Icones</string>
+    <string name="settings_show_system_bar">Mostra la barra d\'estat del sistema</string>
+    <string name="settings_autohide_status">Amaga la barra d\'estat en desplaçar-se</string>
+    <string name="settings_show_clock">Mostra el rellotge</string>
+    <string name="settings_clock_size">Mida de la lletra del rellotge</string>
+    <string name="settings_clock_color">Color del rellotge</string>
+    <string name="settings_drop_shadow">Ombra</string>
+    <string name="settings_clock_line1">Format del rellotge (línia 1)</string>
+    <string name="settings_clock_line2">Format del rellotge (línia 2)</string>
+    <string name="settings_clock_default_format">Format del sistema</string>
+    <string name="settings_empty">Buit</string>
+    <string name="settings_icons_size">Mida de les icones</string>
+    <string name="settings_icons_color">Color de les icones</string>
+    <string name="settings_icons_container">Color del contenidor de les icones</string>
+    <string name="settings_show_settings">Mostra la configuració</string>
+    <string name="settings_show_settings_desc">La configuració continua accessible amb aquesta seqüència de botons: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Mostra la connectivitat</string>
+    <string name="settings_show_notifications">Mostra les notificacions</string>
+    <string name="settings_autohide_notifications">Amaga la icona de notificacions quan no n\'hi ha cap</string>
+    <string name="settings_show_battery">Mostra la bateria</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Activa</string>
+    <string name="settings_headers_on_launch">Mostra les capçaleres de l\'esquerra en iniciar</string>
+    <string name="settings_show_icon">Mostra la icona</string>
+    <string name="settings_show_reorder">Mostra la reordenació</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Temps abans de la inactivitat (min)</string>
+    <string name="settings_idle_opacity">Opacitat de la interfície</string>
+    <string name="settings_keep_clock">Mantén el rellotge</string>
+    <string name="settings_prevent_screensaver">Impedeix l\'estalvi de pantalla del sistema</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Canvieu la configuració del tipus de lletra de QLauncher. Els noms de les famílies es poden consultar a Google Fonts.</string>
+    <string name="settings_font_list">Tria de la llista</string>
+    <string name="settings_font_google">Tipus de lletra (Google Fonts)</string>
+    <string name="settings_font_default">Predeterminat</string>
+    <string name="settings_bold">Negreta</string>
+    <string name="settings_italic">Cursiva</string>
+    <string name="settings_size">Mida</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Inici automàtic en arrencar</string>
+    <string name="settings_autostart_none">Cap</string>
+    <string name="settings_autostart_screensaver">[*] Estalvi de pantalla (si és compatible)</string>
+    <string name="settings_autostart_resume">…i en sortir del mode d\'espera</string>
+    <string name="settings_autostart_delay">Retard de l\'inici automàtic (segons)</string>
+    <string name="settings_simulate_activity">Impedeix l\'apagada automàtica del sistema per inactivitat</string>
+    <string name="settings_idle_detection">Activa la detecció interna d\'inactivitat</string>
+    <string name="settings_idle_timeout_power">Temps d\'inactivitat (h:min)</string>
+    <string name="settings_idle_action">Acció en cas d\'inactivitat</string>
+    <string name="settings_idle_action_shutdown">Apagada</string>
+    <string name="settings_idle_action_screen_off">Apaga la pantalla</string>
+    <string name="settings_idle_action_screensaver">Estalvi de pantalla (si és compatible)</string>
+    <string name="settings_idle_media">Ignora el mode inactiu durant la reproducció multimèdia</string>
+    <string name="settings_missing_notification_permission">⚠️ Falta el permís de notificacions</string>
+    <string name="settings_shutdown_action">Acció d\'apagada</string>
+    <string name="settings_shutdown_dialog">Menú d\'engegada</string>
+    <string name="settings_shutdown_dialog_twice">Menú d\'engegada (dues crides)</string>
+    <string name="settings_shutdown_dialog_ok">Menú d\'engegada + OK</string>
+    <string name="settings_hdmi_exit">Apagada automàtica quan s\'atura el senyal de l\'entrada HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Definiu un codi per bloquejar les aplicacions seleccionades (manteniu premuda una targeta de la pantalla d\'inici per triar-les), tot el dia o durant una part del dia</string>
+    <string name="settings_parental_set_code">Defineix un codi parental nou</string>
+    <string name="settings_parental_code_set">Hi ha un codi definit</string>
+    <string name="settings_parental_long">No demanis el codi durant 15 min després d\'una validació correcta</string>
+    <string name="settings_parental_protect">Protegeix la configuració del llançador i els canvis de la interfície</string>
+    <string name="settings_parental_protect_desc">(s\'aplica 24/7)</string>
+    <string name="settings_parental_partial">Activa la protecció només entre</string>
+    <string name="settings_parental_start">Hora d\'inici (h:min)</string>
+    <string name="settings_parental_end">Hora de finalització (h:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Mostra informació en prémer dues vegades «Menú»</string>
+    <string name="settings_back_double">«Mode ambient» en prémer dues vegades «Enrere»</string>
+    <string name="settings_back_double_desc">Inicia l\'estalvi de pantalla als dispositius compatibles</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Activeu el servei per executar una acció en arrencar, personalitzar els botons del comandament, reforçar el control parental i detectar la inactivitat per a la gestió de l\'energia. Veu les pulsacions de les tecles físiques i el nom de l\'aplicació en primer pla; totes dues dades es queden a la memòria d\'aquest dispositiu i no s\'envien enlloc.</string>
+    <string name="settings_a11y_enabled">Activat</string>
+    <string name="settings_a11y_started">Iniciat</string>
+    <string name="settings_yes">Sí</string>
+    <string name="settings_no">No</string>
+    <string name="settings_a11y_open">Mostra la configuració d\'accessibilitat</string>
+    <string name="settings_a11y_consent_title">Servei d\'accessibilitat</string>
+    <string name="settings_a11y_consent">Això permet que QLauncher vegi les pulsacions dels botons físics i el nom de l\'aplicació en primer pla. Totes dues dades es conserven només a la memòria d\'aquest dispositiu i no s\'envien enlloc. Hi esteu d\'acord?</string>
+    <string name="settings_a11y_alternate">Utilitza la configuració alternativa</string>
+    <string name="settings_a11y_alternate_desc">Soluciona problemes en alguns dispositius</string>
+    <string name="settings_a11y_volume_fix">Correcció dels botons de volum</string>
+    <string name="settings_a11y_volume_fix_desc">Atura breument la reassignació quan es prem el volum, perquè les pulsacions llargues continuïn funcionant</string>
+    <string name="settings_a11y_remap">Activa la reassignació de botons</string>
+    <string name="settings_a11y_remap_desc">El servei intercepta les pulsacions de tecles. Desactivar-ho evita problemes amb les pulsacions llargues del volum i que el sistema aturi el servei, però la substitució del llançador, el control parental i la detecció d\'inactivitat poden ser menys efectius.</string>
+    <string name="settings_a11y_reminder">Mostra un recordatori</string>
+    <string name="settings_a11y_reminder_desc">Si el servei d\'accessibilitat està desactivat</string>
+    <string name="settings_a11y_unbound_toast">El servei d\'accessibilitat de QLauncher no s\'està executant</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Importeu o exporteu la configuració localment, o amb una altra aplicació com LocalSend o un gestor de fitxers.</string>
+    <string name="settings_import">Importa</string>
+    <string name="settings_import_file">Des d\'un fitxer</string>
+    <string name="settings_import_auto">Des d\'una còpia de seguretat automàtica</string>
+    <string name="settings_export">Exporta</string>
+    <string name="settings_export_local">Desa localment</string>
+    <string name="settings_export_share">Comparteix amb una altra aplicació</string>
+    <string name="settings_reset">Restableix els valors predeterminats</string>
+    <string name="settings_cancel">Cancel·la</string>
+    <string name="settings_ok">D\'acord</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Categoria</string>
+    <string name="wp_custom_search">Cerca personalitzada</string>
+    <string name="wp_reddit_login">Inicia la sessió</string>
+    <string name="wp_reddit_logout">Tanca la sessió: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Tanca la sessió</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Subreddit personalitzat</string>
+    <string name="wp_custom_subreddit_hint">Diversos noms separats amb +</string>
+    <string name="wp_folder">Carpeta</string>
+    <string name="wp_folder_choose">Tria una carpeta</string>
+    <string name="wp_media">Fitxer multimèdia</string>
+    <string name="wp_media_choose">Tria un fitxer</string>
+    <string name="wp_choose_other">Una altra ubicació…</string>
+    <string name="wp_choose_other_desc">Tria amb el selector de fitxers del sistema</string>
+    <string name="wp_media_searching">S\'estan cercant imatges i vídeos…</string>
+    <string name="wp_media_none">No s\'ha trobat cap imatge ni cap vídeo. Copieu-ne a Pictures, Movies o Download, o connecteu una unitat USB.</string>
+    <string name="wp_folders_description">Carpetes amb imatges o vídeos, en aquest dispositiu i en unitats USB.</string>
+    <string name="wp_folders_none">No s\'ha trobat cap carpeta amb imatges o vídeos</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d fitxer</item>
+        <item quantity="many">%d fitxers</item>
+        <item quantity="other">%d fitxers</item>
+    </plurals>
+    <string name="wp_media_color">Color pla</string>
+    <string name="wp_theme_desc">Fons de pantalla inclosos al tema importat</string>
+    <string name="wp_plugin_settings">Configuració del connector</string>
+    <string name="wp_not_set">Sense definir</string>
+    <string name="wp_status">Estat</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Aquest fons de pantalla</string>
+    <string name="wp_next">Següent</string>
+    <string name="wp_source">Font</string>
+    <string name="wp_title">Títol</string>
+    <string name="wp_author">Autor</string>
+    <string name="wp_set_user">Estableix com a fons de pantalla de l\'usuari</string>
+    <string name="wp_view">Mostra</string>
+    <string name="wp_unknown">Desconegut</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Creeu i gestioneu aquí els perfils de pantalla del vídeo. Associeu-los a fonts d\'entrada perquè canviïn automàticament, o apliqueu-los prement Menú dues vegades i després amunt o avall.</string>
+    <string name="dp_list">Llista de perfils de pantalla</string>
+    <string name="dp_list_desc">Creeu o editeu aquí els perfils de pantalla del vídeo. Segons el dispositiu, alguns controls necessiten accés root o no funcionen gens; estan pensats per a dispositius AmLogic.</string>
+    <string name="dp_add">Afegeix-ne un…</string>
+    <string name="dp_name">Nom del perfil</string>
+    <string name="dp_preview">Previsualització</string>
+    <string name="dp_fullscreen">Previsualització a pantalla completa</string>
+    <string name="dp_fullscreen_desc">o commuteu-la amb el botó Menú</string>
+    <string name="dp_delete">Suprimeix el perfil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Instal·la aplicacions de tercers</string>
+    <string name="install_desc">Trieu una aplicació per instal·lar. És possible que abans hàgiu de permetre les instal·lacions des de fonts desconegudes.</string>
+    <string name="install_custom">URL personalitzat / codi de Downloader</string>
+    <string name="install_custom_desc">Utilitzeu només una font de confiança</string>
+    <string name="install_status">Estat</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Aquest dispositiu</string>
+
+    <string name="gallery_filter">Filtra…</string>
+    <string name="settings_no_file_picker">Aquest dispositiu no té cap selector de fitxers</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminància</string>
+    <string name="color_opacity">Opacitat</string>
+    <string name="color_prefer_dynamic">Prefereix el color dinàmic</string>
+    <string name="color_prefer_dynamic_desc">Si està disponible, es mantindrà aquesta luminància/opacitat</string>
+    <string name="color_clear">Esborra</string>
+    <string name="color_reset">Restableix el valor predeterminat</string>
+</resources>

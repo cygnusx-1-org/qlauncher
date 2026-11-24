@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">الإصدار %1$s</string>
+    <string name="about_copyright">حقوق النشر © 2026 للمساهمين في QLauncher. برنامج حر مرخّص بموجب GNU General Public License، الإصدار 3.</string>
+    <string name="about_libs">المكتبات / الشكر</string>
+    <string name="about_links">الروابط</string>
+    <string name="about_link_project">صفحة المشروع</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">الترجمة العربية</string>
+    <string name="about_translation_credit">المساهمون في QLauncher</string>
+    <string name="about_no_browser">لا يوجد متصفح على هذا الجهاز. افتح %1$s على جهاز آخر.</string>
+    <string name="about_check_updates">التحقق من التحديثات</string>
+    <string name="about_update_checking">جارٍ التحقق…</string>
+    <string name="about_update_latest">تطبيق QLauncher محدَّث (%1$s)</string>
+    <string name="about_update_available">الإصدار %1$s متاح</string>
+    <string name="about_update_failed">تعذّر التحقق: %1$s</string>
+    <string name="about_update_install">تثبيت QLauncher %1$s</string>
+    <string name="update_available_toast">الإصدار %1$s من QLauncher متاح: الإعدادات › حول › QLauncher</string>
+</resources>

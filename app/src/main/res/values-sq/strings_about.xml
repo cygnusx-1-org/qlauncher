@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versioni %1$s</string>
+    <string name="about_copyright">Të drejtat e autorit © 2026 kontribuuesit e QLauncher. Softuer i lirë sipas licencës GNU General Public License, versioni 3.</string>
+    <string name="about_libs">Bibliotekat / Meritat</string>
+    <string name="about_links">Lidhjet</string>
+    <string name="about_link_project">Faqja e projektit</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Përkthimi shqip</string>
+    <string name="about_translation_credit">Kontribuuesit e QLauncher</string>
+    <string name="about_no_browser">Nuk ka shfletues në këtë pajisje. Hap %1$s në një pajisje tjetër.</string>
+    <string name="about_check_updates">Kontrollo për përditësime</string>
+    <string name="about_update_checking">Po kontrollohet…</string>
+    <string name="about_update_latest">QLauncher është i përditësuar (%1$s)</string>
+    <string name="about_update_available">Versioni %1$s është i disponueshëm</string>
+    <string name="about_update_failed">Kontrolli nuk u krye: %1$s</string>
+    <string name="about_update_install">Instalo QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s është i disponueshëm: Cilësimet › Rreth › QLauncher</string>
+</resources>

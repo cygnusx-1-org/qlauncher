@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">ახლა უკრავს</string>
+    <string name="home_cat_inputs">შესასვლელები</string>
+    <string name="home_cat_favorites">რჩეულები</string>
+    <string name="home_cat_video">ვიდეო</string>
+    <string name="home_cat_music">მუსიკა</string>
+    <string name="home_cat_games">თამაშები</string>
+    <string name="home_cat_tv_apps">TV აპები</string>
+    <string name="home_cat_mobile_apps">მობილური აპები</string>
+    <string name="home_cat_watch_next">შემდეგი საყურებელი</string>
+    <string name="home_cat_shortcuts">მალსახმობები</string>
+    <string name="home_cat_folders">კატეგორიების საქაღალდეები</string>
+    <string name="home_cat_live_tv">პირდაპირი TV</string>
+    <string name="home_cat_settings">პარამეტრები</string>
+    <string name="home_cat_display">ეკრანი</string>
+    <string name="home_cat_applications">აპლიკაციები</string>
+    <string name="home_cat_system">სისტემა</string>
+    <string name="home_cat_about">შესახებ</string>
+    <string name="home_new_category">ახალი კატეგორია</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">ყველა აპი</string>
+    <string name="home_action_edit_categories">კატეგორიების რედაქტირება</string>
+    <string name="home_action_edit_channels">არხების რედაქტირება</string>
+    <string name="home_action_launcher_settings">QLauncher-ის პარამეტრები</string>
+    <string name="home_action_android_settings">Android-ის პარამეტრები</string>
+    <string name="home_action_amlogic_settings">AmLogic-ის დამატებითი პარამეტრები</string>
+    <string name="home_action_display_profiles">ეკრანის პროფილები</string>
+    <string name="home_action_install_apps">მესამე მხარის აპების დაყენება</string>
+    <string name="home_action_accessibility">მარტივი წვდომის სერვისი</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">პროფილის გადართვა</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">ეს მოწყობილობა</string>
+    <string name="home_action_about_wallpaper">ეს ფონი</string>
+
+    <!-- Program meta -->
+    <string name="home_season">სეზონი %1$s</string>
+    <string name="home_episode">ეპიზოდი %1$s</string>
+    <string name="home_minutes">%1$d წთ</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">კავშირი</string>
+    <string name="home_status_notifications">შეტყობინებები</string>
+    <string name="home_status_settings">პარამეტრები</string>
+    <string name="home_status_wallpaper">ეს ფონი</string>
+    <string name="home_navigation_menu">ნავიგაციის მენიუ</string>
+    <string name="home_reorder">გადალაგება</string>
+    <string name="home_category_settings">კატეგორიის პარამეტრები</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">აპის პარამეტრები</string>
+    <string name="menu_open">გახსნა</string>
+    <string name="menu_details">დეტალები</string>
+    <string name="menu_play_pause">დაკვრა/პაუზა</string>
+    <string name="menu_stop">შეჩერება</string>
+    <string name="menu_previous">წინა</string>
+    <string name="menu_next">შემდეგი</string>
+    <string name="menu_uninstall">დეინსტალაცია</string>
+    <string name="menu_launch_on_boot">გაშვება ჩართვისას</string>
+    <string name="menu_launch_on_boot_on">ეშვება ჩართვისას</string>
+    <string name="menu_add_parental">მშობელთა კონტროლში დამატება</string>
+    <string name="menu_remove_parental">მშობელთა კონტროლიდან ამოშლა</string>
+    <string name="menu_shortcuts">მალსახმობები</string>
+    <string name="menu_appearance">გარეგნობა</string>
+    <string name="menu_title">სათაური</string>
+    <string name="menu_change_icon">ხატულის შეცვლა</string>
+    <string name="menu_icon_from_picture">სურათიდან</string>
+    <string name="menu_icon_other_location">სხვა მდებარეობა…</string>
+    <string name="menu_icon_no_pictures">სურათები ვერ მოიძებნა. დააკოპირეთ რამდენიმე Pictures-ში ან Download-ში, ან შეაერთეთ USB დისკი.</string>
+    <string name="menu_icon_reset">გადაყენება</string>
+    <string name="menu_crop">ამოჭრა შესავსებად</string>
+    <string name="menu_visibility">ხილვადობა</string>
+    <string name="menu_reorder">გადალაგება</string>
+    <string name="menu_remove_from">ამოშლა %1$s-დან</string>
+    <string name="menu_hide">დამალვა</string>
+    <string name="menu_add_to">დამატება…</string>
+    <string name="menu_move_to">გადატანა…</string>
+    <string name="menu_channels">არხები</string>
+    <string name="menu_rename_hint">შეიყვანეთ ახალი სათაური და დააჭირეთ OK-ს</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">სათაური</string>
+    <string name="editor_change_icon">ხატულის შეცვლა</string>
+    <string name="editor_visible">ხილული</string>
+    <string name="editor_grid">ბადე</string>
+    <string name="editor_sliding_row">მოცურავე რიგი</string>
+    <string name="editor_background">ფონის ფერი</string>
+    <string name="editor_show_title">სათაურის ჩვენება</string>
+    <string name="editor_size">ზომა</string>
+    <string name="editor_advanced">გაფართოებული პარამეტრები</string>
+    <string name="editor_start_margin">საწყისი დაშორება</string>
+    <string name="editor_end_margin">ბოლო დაშორება</string>
+    <string name="editor_top_margin">ზედა დაშორება</string>
+    <string name="editor_cards_per_row">ბარათები რიგში</string>
+    <string name="editor_row_count">რიგების რაოდენობა</string>
+    <string name="editor_auto">ავტო</string>
+    <string name="editor_auto_value">ავტო (%1$s)</string>
+    <string name="editor_sort">დახარისხება</string>
+    <string name="editor_sort_custom">საკუთარი</string>
+    <string name="editor_sort_name">ანბანის მიხედვით</string>
+    <string name="editor_sort_last">ბოლოს გამოყენებული</string>
+    <string name="editor_sort_most">ხშირად გამოყენებული</string>
+    <string name="editor_sort_random">შემთხვევითი</string>
+    <string name="editor_set_default">ნაგულისხმევად დაყენება</string>
+    <string name="editor_is_default">ნაგულისხმევი კატეგორია</string>
+    <string name="editor_manage_apps">აპების მართვა</string>
+    <string name="editor_hidden_items">დამალული ელემენტები</string>
+    <string name="editor_restore">აღდგენა</string>
+    <string name="editor_delete">წაშლა</string>
+    <string name="editor_delete_confirm">წავშალოთ ეს კატეგორია?</string>
+    <string name="editor_empty_note">ეს კატეგორია ჯერ არ გამოჩნდება, რადგან ცარიელია</string>
+    <string name="editor_request_notifications">შეტყობინებების ნებართვის მოთხოვნა</string>
+    <string name="editor_channel_error">ამ არხის წაკითხვა აღარ ხერხდება</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">არხები</string>
+    <string name="channels_count">%1$d არხი</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">შეტყობინებები</string>
+    <string name="notifications_clear_all">ყველას გასუფთავება</string>
+    <string name="notifications_empty">შეტყობინებები არ არის</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">ამ აპის გახსნა შეუძლებელია</string>
+    <string name="home_reorder_hint">გადასატანად — მარცხნივ/მარჯვნივ, დასასრულებლად — OK ან უკან</string>
+    <string name="home_category_reorder_hint">გადასატანად — ზემოთ/ქვემოთ, დასასრულებლად — OK ან უკან</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">მოგესალმებით!</string>
+    <string name="firstrun_welcome_text">QLauncher არის ლაუნჩერი Android TV-სთვის. ის თქვენს აპებს, არხებს და საყვარელ კონტენტს ერთ მორგებად მთავარ ეკრანზე აერთიანებს, რომლის უკანაც ფონები იცვლება.</string>
+    <string name="firstrun_features_title">თქვენი ახალი სუპერძალები</string>
+    <string name="firstrun_features_text">გაუშვით აპი ან HDMI შესასვლელი ჩართვისას, მართეთ ეკრანის პროფილები, ჩაკეტეთ აპები მშობელთა კონტროლით, აჩვენეთ კალიბრაციის შაბლონები, აღმოაჩინეთ უმოქმედობა და მოარგეთ მთავარი ეკრანის ყველა ნაწილი. ზოგიერთი ფუნქცია თქვენს მოწყობილობაზეა დამოკიდებული.</string>
+    <string name="firstrun_a11y_title">ჩავრთოთ მარტივი წვდომა</string>
+    <string name="firstrun_a11y_text">ბევრ ფუნქციას სჭირდება QLauncher-ის მარტივი წვდომის სერვისი: ჩაშენებული ლაუნჩერის ჩანაცვლება, მოქმედებები ჩართვისას, პულტის ღილაკების ჟესტები, უმოქმედობის აღმოჩენა და მშობელთა კონტროლი. მისი ჩართვა შეგიძლიათ ახლა ან მოგვიანებით, პარამეტრებიდან.</string>
+    <string name="firstrun_a11y_open">მარტივი წვდომის პარამეტრების გახსნა</string>
+    <string name="firstrun_permissions_title">თუ ნებას მომცემთ…</string>
+    <string name="firstrun_permissions_text">შემდეგ QLauncher ითხოვს ნებართვას TV პროგრამის წასაკითხად (არხებისთვის და „შემდეგი საყურებელი“ რიგისთვის) და შეტყობინებებზე წვდომას (შეტყობინების ხატულისთვის და „ახლა უკრავს“ ფუნქციისთვის). ორივე არასავალდებულოა.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">შემდეგ QLauncher ითხოვს შეტყობინებებზე წვდომას (შეტყობინების ხატულისთვის და „ახლა უკრავს“ ფუნქციისთვის). ეს არასავალდებულოა.</string>
+    <string name="firstrun_notifications_dialog">დავუშვათ შეტყობინებებზე წვდომა?</string>
+    <string name="firstrun_notifications_text">შეტყობინებებზე წვდომით QLauncher აჩვენებს შეტყობინებების რაოდენობას, შეტყობინებების პანელს და იმას, რაც ახლა უკრავს. „დიახ“ ხსნის სპეციალური ნებართვების გვერდს, სადაც ამ წვდომას მისცემთ.</string>
+    <string name="firstrun_reports_title">გავაგზავნოთ ანონიმური ანგარიშები?</string>
+    <string name="firstrun_reports_text">თუ QLauncher ავარიულად დაიხურება ან შეცდომას წააწყდება, მას შეუძლია გაგზავნოს ანგარიში აპის ვერსიით და მოწყობილობის მოდელით, რათა ხარვეზი გასწორდეს. არ იგზავნება არაფერი, რაც თქვენს ვინაობას ან თქვენს საყურებელს გაამჟღავნებს. ამის შეცვლა მოგვიანებით შეგიძლიათ განყოფილებაში „ზოგადი“.</string>
+    <string name="firstrun_launcher_title">დააყენეთ QLauncher მთავარ ეკრანად</string>
+    <string name="firstrun_launcher_text">ბევრი TV მოწყობილობა არ იძლევა ნაგულისხმევი ლაუნჩერის შეცვლის საშუალებას. თუ თქვენი იძლევა, აირჩიეთ იქ QLauncher. სხვა შემთხვევაში ჩართეთ მარტივი წვდომის სერვისი პარამეტრით „მიმდინარე ლაუნჩერის ჩანაცვლება“ და QLauncher დაბრუნდება ყოველ ჯერზე, როცა ჩაშენებული ლაუნჩერი გაიხსნება.</string>
+    <string name="firstrun_launcher_open">ნაგულისხმევი ლაუნჩერის შეცვლა</string>
+    <string name="firstrun_start_title">დროა დავიწყოთ!</string>
+    <string name="firstrun_start_text">ყველაფრის შეცვლა მოგვიანებით პარამეტრებიდან შეიძლება. დააჭირეთ პარამეტრების ღილაკს ზედა მარჯვენა კუთხეში ან ღილაკების თანმიმდევრობას ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">დავიწყოთ</string>
+    <string name="firstrun_next">შემდეგი</string>
+    <string name="firstrun_skip">გამოტოვება</string>
+    <string name="firstrun_yes">დიახ</string>
+    <string name="firstrun_no">არა</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">ამ მოწყობილობაზე ეკრანმზოგი არ არის</string>
+</resources>

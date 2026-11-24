@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">దయచేసి బాణాలు/అంకెల ఏదైనా కలయికను ఎంటర్ చేసి, OKతో నిర్ధారించండి</string>
+    <string name="system_parental_confirm_code">దయచేసి కోడ్‌ను మళ్లీ ఎంటర్ చేసి, OKతో నిర్ధారించండి</string>
+    <string name="system_parental_restricted">పరిమిత యాక్సెస్\nదయచేసి తల్లిదండ్రుల కోడ్‌ను ఎంటర్ చేయండి</string>
+    <string name="system_parental_wrong_code">తప్పు కోడ్</string>
+    <string name="system_parental_codes_differ">కోడ్‌లు సరిపోలలేదు, దయచేసి మళ్లీ ప్రయత్నించండి</string>
+    <string name="system_parental_code_saved">తల్లిదండ్రుల కోడ్ సేవ్ చేయబడింది</string>
+    <string name="system_parental_recovery_code">రికవరీ కోడ్: %1$s</string>
+    <string name="system_parental_recovery_help">దీన్ని రాసి పెట్టుకోండి: ఇది ఈ ఒక్కసారి మాత్రమే చూపబడుతుంది. బాణాలతో ఎంటర్ చేస్తే (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) ఇది తల్లిదండ్రుల కోడ్ లాగానే అన్‌లాక్ చేస్తుంది.</string>
+    <string name="system_parental_press_ok">కొనసాగించడానికి OK నొక్కండి</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">రిమోట్ షార్ట్‌కట్‌లు</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">హోమ్</string>
+    <string name="system_hotkeys_keys_menu_twice">మెనూ × 2</string>
+    <string name="system_hotkeys_change_input">ఇన్‌పుట్‌ను మార్చండి</string>
+    <string name="system_hotkeys_change_profile">డిస్‌ప్లే ప్రొఫైల్‌ను మార్చండి</string>
+    <string name="system_hotkeys_start_launcher">QLauncherను ప్రారంభించండి</string>
+    <string name="system_hotkeys_home">QLauncherను తెరవండి; రెండుసార్లు: ఇటీవలి యాప్‌లు</string>
+    <string name="system_hotkeys_close">ఈ సహాయాన్ని మూసివేయండి</string>
+    <string name="system_hotkeys_no_inputs">ఈ పరికరంలో టీవీ ఇన్‌పుట్‌లు లేవు</string>
+    <string name="system_hotkeys_no_picture_manager">పిక్చర్ మేనేజర్ ఏదీ లోడ్ కాలేదు</string>
+    <string name="system_hotkeys_home_off">ఆఫ్: ప్రస్తుత లాంచర్ ఓవర్‌రైడ్, బటన్ రీమ్యాపింగ్ అవసరం</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">యూజర్ యాక్టివిటీ లేదు, %1$d సెకన్లలో షట్‌డౌన్ అవుతుంది</string>
+    <string name="system_idle_countdown_screen_off">యూజర్ యాక్టివిటీ లేదు, %1$d సెకన్లలో స్క్రీన్ ఆఫ్ అవుతుంది</string>
+    <string name="system_idle_countdown_screensaver">యూజర్ యాక్టివిటీ లేదు, %1$d సెకన్లలో స్క్రీన్ సేవర్ ప్రారంభమవుతుంది</string>
+    <string name="system_idle_countdown_cancel">రద్దు చేయడానికి ఏదైనా బటన్‌ను నొక్కండి</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">ఈ పరికరంలో యాక్సెసిబిలిటీ సెట్టింగ్‌లకు షార్ట్‌కట్ లేదు. వాటిని Android సెట్టింగ్‌ల నుండి తెరవండి, సాధారణంగా పరికర ప్రాధాన్యతలు › యాక్సెసిబిలిటీ కింద ఉంటాయి.</string>
+    <string name="system_notification_access_no_settings">ఈ పరికరంలో నోటిఫికేషన్ యాక్సెస్ స్క్రీన్ లేదు. కంప్యూటర్ నుండి ఈ కమాండ్‌తో యాక్సెస్ ఇవ్వండి:</string>
+</resources>

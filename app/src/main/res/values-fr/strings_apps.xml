@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Annuler</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Toutes les applications</string>
+    <string name="apps_action_edit_categories">Modifier les catégories</string>
+    <string name="apps_action_edit_channels">Modifier les chaînes</string>
+    <string name="apps_action_launcher_settings">Paramètres de QLauncher</string>
+    <string name="apps_action_android_settings">Paramètres Android</string>
+    <string name="apps_action_amlogic_settings">Paramètres supplémentaires AmLogic</string>
+    <string name="apps_action_display_profiles">Profils d\'affichage</string>
+    <string name="apps_action_install_apps">Installer des applications tierces</string>
+    <string name="apps_action_accessibility_service">Service d\'accessibilité</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Changer de profil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Cet appareil</string>
+    <string name="apps_action_about_wallpaper">Ce fond d\'écran</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Aucun</string>
+    <string name="apps_autostart_screensaver">Économiseur d\'écran</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Chaînes</string>
+    <string name="apps_channels_watch_next">À suivre</string>
+    <string name="apps_channels_unreadable">Cette chaîne ne peut plus être lue</string>
+    <string name="apps_channels_hidden">Masquée par le système</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d chaîne</item>
+        <item quantity="many">%d chaînes</item>
+        <item quantity="other">%d chaînes</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Appliquer le pack d\'icônes</string>
+    <string name="apps_iconpack_apply_message">Utiliser %1$s pour les icônes de vos applications ?</string>
+    <string name="apps_iconpack_apply_confirm">Appliquer</string>
+    <string name="apps_iconpack_applied">Pack d\'icônes appliqué</string>
+    <string name="apps_iconpack_apply_missing">Aucun pack d\'icônes n\'a été indiqué</string>
+    <string name="apps_iconpack_apply_not_a_pack">Cette application n\'est pas un pack d\'icônes</string>
+    <string name="apps_iconpack_none">Aucun</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Ajouter un raccourci</string>
+    <string name="apps_pin_shortcut_message">Ajouter « %1$s » de l\'application %2$s à la catégorie Raccourcis ?</string>
+    <string name="apps_pin_shortcut_confirm">Ajouter</string>
+    <string name="apps_pin_shortcut_added">Raccourci ajouté</string>
+    <string name="apps_pin_shortcut_failed">Impossible d\'ajouter le raccourci</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Installer des applications tierces</string>
+    <string name="apps_install_description">Veuillez choisir une application à installer. Vous devrez peut-être autoriser l\'installation depuis des sources inconnues au préalable.</string>
+    <string name="apps_install_custom_url">URL personnalisée / code Downloader</string>
+    <string name="apps_install_custom_url_desc">Assurez-vous d\'utiliser une source fiable</string>
+    <string name="apps_install_choose_method">Choisissez une méthode d\'installation</string>
+    <string name="apps_install_installed">Installée</string>
+    <string name="apps_install_category_wallpaper_plugin">Plug-in de fond d\'écran</string>
+    <string name="apps_install_category_icon_pack">Pack d\'icônes</string>
+    <string name="apps_install_category_file_manager">Gestionnaire de fichiers</string>
+    <string name="apps_install_category_tool">Outil</string>
+    <string name="apps_install_method_store">Boutique</string>
+    <string name="apps_install_method_direct">Téléchargement direct</string>
+    <string name="apps_install_method_downloader">Application Downloader</string>
+    <string name="apps_install_state_downloading">Téléchargement de %1$s… %2$d %%</string>
+    <string name="apps_install_state_downloading_unknown">Téléchargement de %1$s…</string>
+    <string name="apps_install_state_installing">Installation de %1$s…</string>
+    <string name="apps_install_state_confirm">Confirmez l\'installation de %1$s</string>
+    <string name="apps_install_state_success">Installation de %1$s terminée</string>
+    <string name="apps_install_state_unknown_sources">Autorisez QLauncher à installer des applications, puis revenez pour continuer</string>
+    <string name="apps_install_state_downloader_sent">Code %1$s envoyé à Downloader</string>
+    <string name="apps_install_state_downloader_type">Saisissez le code %1$s dans Downloader</string>
+    <string name="apps_install_state_store">Ouvert dans la boutique</string>
+    <string name="apps_install_state_browser">Ce lien est une page web ; il a été ouvert dans le navigateur</string>
+    <string name="apps_install_fail_invalid">Ce n\'est ni une URL ni un code Downloader</string>
+    <string name="apps_install_fail_no_usb">Aucune clé USB trouvée</string>
+    <string name="apps_install_fail_archive">Les archives ne peuvent pas être installées</string>
+    <string name="apps_install_fail_network">Le téléchargement a échoué</string>
+    <string name="apps_install_fail_http">Le serveur a répondu par une erreur (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Le fichier n\'est pas une application (APK)</string>
+    <string name="apps_install_fail_unreadable">Impossible de lire le fichier</string>
+    <string name="apps_install_fail_install">L\'installation a échoué</string>
+    <string name="apps_install_fail_cancelled">L\'installation a été annulée</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher n\'est pas autorisé à installer des applications</string>
+    <string name="apps_install_fail_downloader">L\'application Downloader n\'est pas installée</string>
+    <string name="apps_install_fail_store">Aucune boutique d\'applications n\'est disponible</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Cet appareil</string>
+    <string name="apps_device_brand_manufacturer">Marque / Fabricant</string>
+    <string name="apps_device_device_product">Appareil / Produit</string>
+    <string name="apps_device_model">Modèle</string>
+    <string name="apps_device_hardware">Matériel</string>
+    <string name="apps_device_fingerprint">Empreinte</string>
+    <string name="apps_device_build">Numéro de build</string>
+    <string name="apps_device_build_desc">Desc. du build</string>
+    <string name="apps_device_device_type">Type d\'appareil</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Adresse IP</string>
+    <string name="apps_device_root_access">Accès root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Aucun gestionnaire d\'image</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Oui</string>
+    <string name="apps_device_no">Non</string>
+</resources>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">సెట్టింగ్‌లు</string>
+    <string name="settings_breadcrumb_display">డిస్‌ప్లే</string>
+    <string name="settings_breadcrumb_applications">అప్లికేషన్‌లు</string>
+    <string name="settings_breadcrumb_system">సిస్టమ్</string>
+    <string name="settings_breadcrumb_about">పరిచయం</string>
+    <string name="settings_root_title">QLauncher సెట్టింగ్‌లు</string>
+    <string name="settings_root_description">యాప్ సెట్టింగ్‌లను కాన్ఫిగర్ చేయండి.</string>
+    <string name="settings_legend_a11y_required">యాక్సెసిబిలిటీ సర్వీస్ అవసరం</string>
+    <string name="settings_legend_a11y_recommended">యాక్సెసిబిలిటీ సర్వీస్ సిఫార్సు చేయబడింది</string>
+    <string name="settings_legend_experimental">ప్రయోగాత్మకం</string>
+    <string name="settings_launcher_related">లాంచర్ సంబంధిత సెట్టింగ్‌లు</string>
+
+    <string name="settings_general">సాధారణం</string>
+    <string name="settings_appearance">రూపం</string>
+    <string name="settings_power">పవర్</string>
+    <string name="settings_parental">తల్లిదండ్రుల నియంత్రణ</string>
+    <string name="settings_remote">రిమోట్ కంట్రోల్</string>
+    <string name="settings_accessibility">యాక్సెసిబిలిటీ సర్వీస్</string>
+    <string name="settings_display_profiles">డిస్‌ప్లే ప్రొఫైల్‌లు</string>
+    <string name="settings_manage">సెట్టింగ్‌లను నిర్వహించండి</string>
+
+    <!-- General -->
+    <string name="settings_language">అప్లికేషన్ భాషను మార్చండి</string>
+    <string name="settings_language_system">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="settings_default_launcher">డిఫాల్ట్ లాంచర్‌ను మార్చండి</string>
+    <string name="settings_default_launcher_unavailable">ఈ పరికరం డిఫాల్ట్ లాంచర్‌ను మార్చడానికి మార్గాన్ని అందించదు. బదులుగా “ప్రస్తుత లాంచర్‌ను ఓవర్‌రైడ్ చేయండి”ని ఉపయోగించండి.</string>
+    <string name="settings_override_home">ప్రస్తుత లాంచర్‌ను ఓవర్‌రైడ్ చేయండి</string>
+    <string name="settings_override_home_desc">ప్రస్తుత లాంచర్‌కు వెళ్లే కాల్‌లను అడ్డగించండి (మీరు పరికరపు సొంత లాంచర్‌ను మార్చలేకపోతే లేదా తీసివేయలేకపోతే ఉపయోగకరం)</string>
+    <string name="settings_enable_channels">ఛానెల్‌లను ఎనేబుల్ చేయండి</string>
+    <string name="settings_enable_channels_desc">మీరు వాటిని ఉపయోగించకపోతే, దీన్ని ఆఫ్ చేయడం వల్ల యాప్ వేగంగా ప్రారంభమవుతుంది, తక్కువ మెమరీని ఉపయోగిస్తుంది</string>
+    <string name="settings_programs_per_channel">ఒక్కో ఛానెల్‌కు ప్రోగ్రామ్‌లు</string>
+    <string name="settings_crash_error_reports">అనామక క్రాష్, ఎర్రర్ రిపోర్ట్‌లను ఎనేబుల్ చేయండి</string>
+    <string name="settings_reports_desc">ఎర్రర్, యాప్ వెర్షన్, పరికరం మోడల్ మాత్రమే పంపబడతాయి</string>
+    <string name="settings_check_updates">అప్‌డేట్‌ల కోసం చెక్ చేయండి</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">వర్గాలు / ఛానెల్‌లు</string>
+    <string name="settings_cards">కార్డ్‌లు</string>
+    <string name="settings_wallpaper">వాల్‌పేపర్</string>
+    <string name="settings_status_bar">స్టేటస్ బార్</string>
+    <string name="settings_left_headers">ఎడమ హెడర్‌లు</string>
+    <string name="settings_idle_mode">లాంచర్ నిష్క్రియ మోడ్</string>
+    <string name="settings_font">ఫాంట్</string>
+    <string name="settings_themes">థీమ్‌లు</string>
+    <string name="settings_themes_desc">దిగుమతి / ఎగుమతి</string>
+    <string name="settings_load_cards_scrolling">స్క్రోల్ చేస్తున్నప్పుడు కార్డ్‌లను లోడ్ చేయండి</string>
+    <string name="settings_load_cards_scrolling_desc">మరింత వేగంగా స్పందిస్తుంది, కానీ స్మూత్‌నెస్ తగ్గుతుంది</string>
+    <string name="settings_accent">యాక్సెంట్ రంగు</string>
+    <string name="settings_accent_desc">వాల్‌పేపర్‌ను అనుసరించడానికి డైనమిక్‌ను ఆన్ చేయండి</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">శీర్షికను చూపండి</string>
+    <string name="settings_show_icon_title">శీర్షిక ముందు ఐకాన్‌ను చూపండి</string>
+    <string name="settings_rows_spacing">నిలువు అంతరం (స్క్రీన్ ఎత్తులో %)</string>
+    <string name="settings_fixed_position">ఫోకస్ చేసిన వర్గం స్థానాన్ని స్థిరంగా ఉంచండి</string>
+    <string name="settings_hide_rows_above">ఎంపికకు పైన ఉన్న వరుసలను దాచండి</string>
+    <string name="settings_remember_focus">ఫోకస్ చేసిన కార్డ్ స్థానాన్ని గుర్తుంచుకోండి</string>
+    <string name="settings_unselected_opacity">ఎంచుకోని వరుసల అపారదర్శకత</string>
+    <string name="settings_top_margin">పై మార్జిన్</string>
+    <string name="settings_start_margin">ప్రారంభ మార్జిన్</string>
+    <string name="settings_end_margin">ముగింపు మార్జిన్</string>
+    <string name="settings_dock_padding">డాక్ ప్యాడింగ్</string>
+    <string name="settings_tint_custom_icons">అనుకూల ఐకాన్‌లకు టింట్ వేయండి</string>
+    <string name="settings_tint_custom_icons_desc">నేపథ్యం లేని అనుకూల ఐకాన్‌ల కోసం</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">గుండ్రని మూలలు</string>
+    <string name="settings_cards_size">కార్డ్‌ల పరిమాణం</string>
+    <string name="settings_cards_spacing">కార్డ్‌ల మధ్య అంతరం</string>
+    <string name="settings_loop_limit">యానిమేటెడ్ ఐకాన్‌ల లూప్ పరిమితి</string>
+    <string name="settings_ripple">కార్డ్ నొక్కినప్పుడు రిపుల్ ఎఫెక్ట్</string>
+    <string name="settings_background_color">నేపథ్య రంగు</string>
+    <string name="settings_focused_card">ఫోకస్ చేసిన కార్డ్</string>
+    <string name="settings_program_cards">ప్రోగ్రామ్ కార్డ్‌లు</string>
+    <string name="settings_tv_ratio">టీవీ యాప్‌ల కార్డ్ యాస్పెక్ట్ రేషియో</string>
+    <string name="settings_mobile_ratio">మొబైల్ యాప్‌ల కార్డ్ యాస్పెక్ట్ రేషియో</string>
+    <string name="settings_icon_pack">ఐకాన్ ప్యాక్</string>
+    <string name="settings_icon_pack_none">ఐకాన్ ప్యాక్ ఏదీ ఇన్‌స్టాల్ చేయలేదు</string>
+    <string name="settings_icon_pack_off">ఏదీ లేదు</string>
+    <string name="settings_more">మరిన్ని…</string>
+    <string name="settings_custom_icon_tint">అనుకూల ఐకాన్ టింట్</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">ఫోకస్ చేసిన కార్డ్ పరిమాణం</string>
+    <string name="settings_focused_effect">ఫోకస్ చేసిన కార్డ్ ఎఫెక్ట్</string>
+    <string name="settings_effect_none">ఏదీ లేదు</string>
+    <string name="settings_effect_shadow">నీడ</string>
+    <string name="settings_effect_glow">మెరుపు</string>
+    <string name="settings_glow_animation">మెరుపు యానిమేషన్</string>
+    <string name="settings_anim_none">ఏదీ లేదు</string>
+    <string name="settings_anim_pulse">పల్స్</string>
+    <string name="settings_anim_breath">శ్వాస</string>
+    <string name="settings_anim_fade">ఫేడ్</string>
+    <string name="settings_anim_shine">తళుకు</string>
+    <string name="settings_glow_size">మెరుపు పరిమాణం</string>
+    <string name="settings_glow_color">మెరుపు రంగు</string>
+    <string name="settings_glow_color_desc">కార్డ్ సొంత రంగును ఉపయోగించడానికి ఖాళీగా వదిలేయండి</string>
+    <string name="settings_colors_override">రంగుల ఓవర్‌రైడ్</string>
+    <string name="settings_override_none">ఏదీ లేదు</string>
+    <string name="settings_override_swap">నేపథ్యం/టింట్‌ను తారుమారు చేయండి</string>
+    <string name="settings_override_custom">అనుకూలం</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">ప్రివ్యూ వీడియోను ప్లే చేయండి</string>
+    <string name="settings_preview_never">ఎప్పుడూ వద్దు</string>
+    <string name="settings_preview_always">ఎల్లప్పుడూ</string>
+    <string name="settings_preview_no_media">నేపథ్యంలో మీడియా ఏదీ ప్లే కానప్పుడు</string>
+    <string name="settings_show_progress">ప్రోగ్రెస్ బార్‌ను చూపండి</string>
+    <string name="settings_show_badge">బ్యాడ్జ్‌ను చూపండి</string>
+    <string name="settings_zoom_focus">ఫోకస్ చేసినప్పుడు జూమ్ ఎఫెక్ట్</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">మద్దతు ఉన్న ఫార్మాట్‌లు: స్థిర చిత్రం, యానిమేటెడ్ GIF, వీడియో (స్టాటిక్ లేదా RTSP లైవ్ స్ట్రీమ్), Lottie యానిమేషన్</string>
+    <string name="settings_launcher_wallpaper">లాంచర్ వాల్‌పేపర్</string>
+    <string name="settings_configure">కాన్ఫిగర్ చేయండి</string>
+    <string name="settings_show_wallpapers">వాల్‌పేపర్‌లను చూపండి</string>
+    <string name="settings_picture_adjustment">చిత్రం సర్దుబాటు</string>
+    <string name="settings_image_transition">చిత్రం ట్రాన్సిషన్</string>
+    <string name="settings_update_frequency">అప్‌డేట్ ఫ్రీక్వెన్సీ (నిమి)</string>
+    <string name="settings_video_wallpaper">వీడియో వాల్‌పేపర్</string>
+    <string name="settings_display_mode">డిస్‌ప్లే మోడ్</string>
+    <string name="settings_bad_ratio">నిష్పత్తి/నాణ్యత సరిగా లేనప్పుడు</string>
+    <string name="settings_min_width">కనీస ఆమోదిత వెడల్పు (px)</string>
+    <string name="settings_src_none">ఏదీ లేదు</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">డైనమిక్ రంగులు</string>
+    <string name="settings_src_default">డిఫాల్ట్ వాల్‌పేపర్</string>
+    <string name="settings_src_media">మీడియా ఫైల్</string>
+    <string name="settings_src_folder">ఫోల్డర్</string>
+    <string name="settings_src_focused_program">ఫోకస్ చేసిన ప్రోగ్రామ్</string>
+    <string name="settings_src_now_playing">ఇప్పుడు ప్లే అవుతోంది</string>
+    <string name="settings_src_random_program">యాదృచ్ఛిక ప్రోగ్రామ్</string>
+    <string name="settings_src_theme">థీమ్</string>
+    <string name="settings_tr_none">ఏదీ లేదు</string>
+    <string name="settings_tr_random">యాదృచ్ఛికం</string>
+    <string name="settings_tr_fade">ఫేడ్</string>
+    <string name="settings_tr_zoom">జూమ్</string>
+    <string name="settings_tr_hslide">అడ్డంగా స్లైడ్</string>
+    <string name="settings_tr_vslide">నిలువుగా స్లైడ్</string>
+    <string name="settings_dm_automatic">ఆటోమేటిక్</string>
+    <string name="settings_dm_skip">దాటవేయండి</string>
+    <string name="settings_dm_crop">కత్తిరించండి</string>
+    <string name="settings_dm_stretch">సాగదీయండి</string>
+    <string name="settings_dm_fit">మధ్యలో అమర్చండి</string>
+    <string name="settings_dm_fit_blur">మధ్యలో అమర్చండి + బ్లర్ నేపథ్యం</string>
+    <string name="settings_dm_blur">బ్లర్</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">వర్ణం</string>
+    <string name="settings_saturation">సంతృప్తత</string>
+    <string name="settings_contrast">కాంట్రాస్ట్</string>
+    <string name="settings_brightness">ప్రకాశం</string>
+    <string name="settings_tint">టింట్</string>
+    <string name="settings_tint_amount">టింట్ మోతాదు</string>
+    <string name="settings_blur">బ్లర్</string>
+    <string name="settings_shadow_h">అడ్డం నీడ ఓవర్‌లే పొడవు</string>
+    <string name="settings_shadow_v">నిలువు నీడ ఓవర్‌లే పొడవు</string>
+    <string name="settings_shadow_opacity">నీడ ఓవర్‌లే అపారదర్శకత</string>
+    <string name="settings_shadow_tint">నీడ ఓవర్‌లే టింట్</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">అప్‌డేట్ ఫ్రీక్వెన్సీని విస్మరించండి</string>
+    <string name="settings_ignore_update_desc">కొత్త వాల్‌పేపర్‌ను అభ్యర్థించే ముందు వీడియో ముగిసే వరకు వేచి ఉండండి</string>
+    <string name="settings_video_color_freq">డైనమిక్ రంగు అప్‌డేట్ ఫ్రీక్వెన్సీ</string>
+    <string name="settings_video_color_freq_desc">రంగుల కోసం చదివే వీడియో ఫ్రేమ్‌ల మధ్య సెకన్లు; 0 దీన్ని ఆఫ్ చేస్తుంది</string>
+    <string name="settings_volume">వాల్యూమ్</string>
+    <string name="settings_tunneling">హార్డ్‌వేర్ రెండరింగ్‌ను (టన్నెలింగ్) ఉపయోగించండి</string>
+    <string name="settings_decoder_fallback">డీకోడర్‌ల ఫాల్‌బ్యాక్‌ను ఎనేబుల్ చేయండి</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">నోటిఫికేషన్‌ల అనుమతిని నిర్వహించండి</string>
+    <string name="settings_granted">అనుమతించబడింది</string>
+    <string name="settings_not_granted">అనుమతించబడలేదు</string>
+    <string name="settings_notification_adb">ఈ పరికరంలో సెట్టింగ్‌ల స్క్రీన్ లేదు. ఈ కమాండ్‌తో అనుమతించండి: %1$s</string>
+    <string name="settings_clock">గడియారం</string>
+    <string name="settings_icons">ఐకాన్‌లు</string>
+    <string name="settings_show_system_bar">సిస్టమ్ స్టేటస్ బార్‌ను చూపండి</string>
+    <string name="settings_autohide_status">స్క్రోల్ చేసినప్పుడు స్టేటస్ బార్‌ను దాచండి</string>
+    <string name="settings_show_clock">గడియారాన్ని చూపండి</string>
+    <string name="settings_clock_size">గడియారం ఫాంట్ పరిమాణం</string>
+    <string name="settings_clock_color">గడియారం రంగు</string>
+    <string name="settings_drop_shadow">నీడ</string>
+    <string name="settings_clock_line1">గడియారం ఫార్మాట్ (లైన్ 1)</string>
+    <string name="settings_clock_line2">గడియారం ఫార్మాట్ (లైన్ 2)</string>
+    <string name="settings_clock_default_format">సిస్టమ్ ఫార్మాట్</string>
+    <string name="settings_empty">ఖాళీ</string>
+    <string name="settings_icons_size">ఐకాన్‌ల పరిమాణం</string>
+    <string name="settings_icons_color">ఐకాన్‌ల రంగు</string>
+    <string name="settings_icons_container">ఐకాన్‌ల కంటైనర్ రంగు</string>
+    <string name="settings_show_settings">సెట్టింగ్‌లను చూపండి</string>
+    <string name="settings_show_settings_desc">ఈ బటన్ క్రమంతో సెట్టింగ్‌లను ఎప్పుడైనా చేరుకోవచ్చు: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">కనెక్టివిటీని చూపండి</string>
+    <string name="settings_show_notifications">నోటిఫికేషన్‌లను చూపండి</string>
+    <string name="settings_autohide_notifications">ఖాళీగా ఉన్నప్పుడు నోటిఫికేషన్ ఐకాన్‌ను దాచండి</string>
+    <string name="settings_show_battery">బ్యాటరీని చూపండి</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">ఎనేబుల్ చేయండి</string>
+    <string name="settings_headers_on_launch">లాంచ్ అయినప్పుడు ఎడమ హెడర్‌లను చూపండి</string>
+    <string name="settings_show_icon">ఐకాన్‌ను చూపండి</string>
+    <string name="settings_show_reorder">క్రమం మార్చే ఆప్షన్‌ను చూపండి</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">నిష్క్రియకు ముందు సమయం (నిమి)</string>
+    <string name="settings_idle_opacity">UI అపారదర్శకత</string>
+    <string name="settings_keep_clock">గడియారాన్ని ఉంచండి</string>
+    <string name="settings_prevent_screensaver">సిస్టమ్ స్క్రీన్ సేవర్‌ను నిరోధించండి</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">QLauncher ఫాంట్ సెట్టింగ్‌లను మార్చండి. ఫాంట్ ఫ్యామిలీ పేర్లను Google Fontsలో చూడవచ్చు.</string>
+    <string name="settings_font_list">జాబితా నుండి ఎంచుకోండి</string>
+    <string name="settings_font_google">ఫాంట్ (Google Fonts)</string>
+    <string name="settings_font_default">డిఫాల్ట్</string>
+    <string name="settings_bold">బోల్డ్</string>
+    <string name="settings_italic">ఇటాలిక్</string>
+    <string name="settings_size">పరిమాణం</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">బూట్ సమయంలో ఆటోస్టార్ట్</string>
+    <string name="settings_autostart_none">ఏదీ లేదు</string>
+    <string name="settings_autostart_screensaver">[*] స్క్రీన్ సేవర్ (మద్దతు ఉంటే)</string>
+    <string name="settings_autostart_resume">…స్టాండ్‌బై నుండి తిరిగి వచ్చినప్పుడు కూడా</string>
+    <string name="settings_autostart_delay">ఆటోస్టార్ట్ ఆలస్యం (సెకన్లు)</string>
+    <string name="settings_simulate_activity">నిష్క్రియంగా ఉన్నప్పుడు సిస్టమ్ ఆటోమేటిక్ షట్‌డౌన్‌ను నిరోధించండి</string>
+    <string name="settings_idle_detection">అంతర్గత నిష్క్రియ గుర్తింపును ఎనేబుల్ చేయండి</string>
+    <string name="settings_idle_timeout_power">నిష్క్రియ గడువు (గంట:నిమి)</string>
+    <string name="settings_idle_action">నిష్క్రియంగా ఉన్నప్పుడు చర్య</string>
+    <string name="settings_idle_action_shutdown">షట్‌డౌన్</string>
+    <string name="settings_idle_action_screen_off">స్క్రీన్ ఆఫ్</string>
+    <string name="settings_idle_action_screensaver">స్క్రీన్ సేవర్ (మద్దతు ఉంటే)</string>
+    <string name="settings_idle_media">మీడియా ప్లేబ్యాక్ సమయంలో నిష్క్రియ మోడ్‌ను విస్మరించండి</string>
+    <string name="settings_missing_notification_permission">⚠️ నోటిఫికేషన్ అనుమతి లేదు</string>
+    <string name="settings_shutdown_action">షట్‌డౌన్ చర్య</string>
+    <string name="settings_shutdown_dialog">పవర్ డైలాగ్</string>
+    <string name="settings_shutdown_dialog_twice">పవర్ డైలాగ్ (రెండుసార్లు కాల్ చేయండి)</string>
+    <string name="settings_shutdown_dialog_ok">పవర్ డైలాగ్ + OK</string>
+    <string name="settings_hdmi_exit">HDMI ఇన్‌పుట్ సిగ్నల్ ఆగిపోయినప్పుడు ఆటోమేటిక్‌గా షట్‌డౌన్ చేయండి</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">ఎంచుకున్న యాప్‌లను రోజంతా లేదా రోజులో కొంత భాగం లాక్ చేయడానికి ఒక కోడ్‌ను నిర్వచించండి (వాటిని ఎంచుకోవడానికి హోమ్ స్క్రీన్‌లో కార్డ్‌ను ఎక్కువసేపు నొక్కండి)</string>
+    <string name="settings_parental_set_code">కొత్త తల్లిదండ్రుల కోడ్‌ను సెట్ చేయండి</string>
+    <string name="settings_parental_code_set">కోడ్ సెట్ చేయబడింది</string>
+    <string name="settings_parental_long">సరైన కోడ్ ఎంటర్ చేసిన తర్వాత 15 నిమిషాల పాటు కోడ్‌ను అడగవద్దు</string>
+    <string name="settings_parental_protect">లాంచర్ సెట్టింగ్‌లను, UI మార్పులను రక్షించండి</string>
+    <string name="settings_parental_protect_desc">(24/7 వర్తిస్తుంది)</string>
+    <string name="settings_parental_partial">వీటి మధ్య మాత్రమే రక్షణను ఎనేబుల్ చేయండి</string>
+    <string name="settings_parental_start">ప్రారంభ సమయం (గంట:నిమి)</string>
+    <string name="settings_parental_end">ముగింపు సమయం (గంట:నిమి)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">“మెనూ”ను రెండుసార్లు నొక్కినప్పుడు సమాచారాన్ని చూపండి</string>
+    <string name="settings_back_double">“వెనుకకు”ను రెండుసార్లు నొక్కినప్పుడు “యాంబియంట్ మోడ్”</string>
+    <string name="settings_back_double_desc">మద్దతు ఉన్న పరికరాల్లో స్క్రీన్ సేవర్‌ను ప్రారంభించండి</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">బూట్ సమయంలో చర్యను అమలు చేయడానికి, రిమోట్ బటన్‌లను అనుకూలీకరించడానికి, తల్లిదండ్రుల నియంత్రణను బలోపేతం చేయడానికి, పవర్ కంట్రోల్ కోసం నిష్క్రియ సమయాన్ని గుర్తించడానికి సర్వీస్‌ను ఆన్ చేయండి. ఇది హార్డ్‌వేర్ కీ నొక్కడాలను, ముందున్న యాప్ పేరును చూస్తుంది; రెండూ ఈ పరికరం మెమరీలోనే ఉంటాయి, ఎక్కడికీ పంపబడవు.</string>
+    <string name="settings_a11y_enabled">ఎనేబుల్ చేయబడింది</string>
+    <string name="settings_a11y_started">ప్రారంభమైంది</string>
+    <string name="settings_yes">అవును</string>
+    <string name="settings_no">లేదు</string>
+    <string name="settings_a11y_open">యాక్సెసిబిలిటీ సెట్టింగ్‌లను చూపండి</string>
+    <string name="settings_a11y_consent_title">యాక్సెసిబిలిటీ సర్వీస్</string>
+    <string name="settings_a11y_consent">దీని వల్ల QLauncher హార్డ్‌వేర్ బటన్ నొక్కడాలను, ముందుభాగంలో ఉన్న యాప్ పేరును చూడగలదు. రెండూ ఈ పరికరం మెమరీలో మాత్రమే ఉంచబడతాయి, ఎక్కడికీ పంపబడవు. మీరు అంగీకరిస్తున్నారా?</string>
+    <string name="settings_a11y_alternate">ప్రత్యామ్నాయ కాన్ఫిగరేషన్‌ను ఉపయోగించండి</string>
+    <string name="settings_a11y_alternate_desc">కొన్ని పరికరాల్లో సమస్యలను సరిచేస్తుంది</string>
+    <string name="settings_a11y_volume_fix">వాల్యూమ్ బటన్‌ల సవరణ</string>
+    <string name="settings_a11y_volume_fix_desc">వాల్యూమ్ నొక్కినప్పుడు రీమ్యాపింగ్‌ను కాసేపు ఆపండి, తద్వారా ఎక్కువసేపు నొక్కడం పని చేస్తూనే ఉంటుంది</string>
+    <string name="settings_a11y_remap">బటన్ రీమ్యాపింగ్‌ను ఎనేబుల్ చేయండి</string>
+    <string name="settings_a11y_remap_desc">సర్వీస్ కీ నొక్కడాలను అడ్డగిస్తుంది. దీన్ని ఆఫ్ చేస్తే వాల్యూమ్‌ను ఎక్కువసేపు నొక్కడంలో సమస్యలు, సిస్టమ్ సర్వీస్‌ను ఆపివేయడం నివారించబడతాయి, కానీ లాంచర్ ఓవర్‌రైడ్, తల్లిదండ్రుల నియంత్రణ, నిష్క్రియ గుర్తింపు తక్కువ ప్రభావవంతంగా ఉండవచ్చు.</string>
+    <string name="settings_a11y_reminder">రిమైండర్‌ను చూపండి</string>
+    <string name="settings_a11y_reminder_desc">యాక్సెసిబిలిటీ సర్వీస్ ఆఫ్ అయి ఉంటే</string>
+    <string name="settings_a11y_unbound_toast">QLauncher యాక్సెసిబిలిటీ సర్వీస్ రన్ కావడం లేదు</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">సెట్టింగ్‌లను ఈ పరికరంలోనే, లేదా LocalSend లేదా ఫైల్ మేనేజర్ వంటి మరో యాప్‌తో దిగుమతి లేదా ఎగుమతి చేయండి.</string>
+    <string name="settings_import">దిగుమతి చేయండి</string>
+    <string name="settings_import_file">ఫైల్ నుండి</string>
+    <string name="settings_import_auto">ఆటోమేటిక్ బ్యాకప్ నుండి</string>
+    <string name="settings_export">ఎగుమతి చేయండి</string>
+    <string name="settings_export_local">ఈ పరికరంలో సేవ్ చేయండి</string>
+    <string name="settings_export_share">మరో యాప్‌తో షేర్ చేయండి</string>
+    <string name="settings_reset">డిఫాల్ట్‌కు రీసెట్ చేయండి</string>
+    <string name="settings_cancel">రద్దు చేయండి</string>
+    <string name="settings_ok">సరే</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">వర్గం</string>
+    <string name="wp_custom_search">అనుకూల శోధన</string>
+    <string name="wp_reddit_login">లాగిన్ చేయండి</string>
+    <string name="wp_reddit_logout">లాగ్ అవుట్ చేయండి: %1$s</string>
+    <string name="wp_reddit_logout_unknown">లాగ్ అవుట్ చేయండి</string>
+    <string name="wp_subreddit">సబ్‌రెడిట్</string>
+    <string name="wp_custom_subreddit">అనుకూల సబ్‌రెడిట్</string>
+    <string name="wp_custom_subreddit_hint">+ గుర్తుతో వేరు చేసిన అనేక పేర్లు</string>
+    <string name="wp_folder">ఫోల్డర్</string>
+    <string name="wp_folder_choose">ఫోల్డర్‌ను ఎంచుకోండి</string>
+    <string name="wp_media">మీడియా ఫైల్</string>
+    <string name="wp_media_choose">ఫైల్‌ను ఎంచుకోండి</string>
+    <string name="wp_choose_other">ఇతర లొకేషన్…</string>
+    <string name="wp_choose_other_desc">సిస్టమ్ ఫైల్ పికర్‌తో ఎంచుకోండి</string>
+    <string name="wp_media_searching">చిత్రాలు, వీడియోల కోసం వెతుకుతోంది…</string>
+    <string name="wp_media_none">చిత్రాలు లేదా వీడియోలు ఏవీ కనుగొనబడలేదు. కొన్నింటిని Pictures, Movies లేదా Downloadకు కాపీ చేయండి, లేదా USB డ్రైవ్‌ను ప్లగ్ ఇన్ చేయండి.</string>
+    <string name="wp_folders_description">ఈ పరికరంలో, USB డ్రైవ్‌లలో చిత్రాలు లేదా వీడియోలు ఉన్న ఫోల్డర్‌లు.</string>
+    <string name="wp_folders_none">చిత్రాలు లేదా వీడియోలు ఉన్న ఫోల్డర్‌లు ఏవీ కనుగొనబడలేదు</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d ఫైల్</item>
+        <item quantity="other">%d ఫైల్‌లు</item>
+    </plurals>
+    <string name="wp_media_color">సాదా రంగు</string>
+    <string name="wp_theme_desc">దిగుమతి చేసిన థీమ్‌తో వచ్చిన వాల్‌పేపర్‌లు</string>
+    <string name="wp_plugin_settings">ప్లగిన్ సెట్టింగ్‌లు</string>
+    <string name="wp_not_set">సెట్ చేయలేదు</string>
+    <string name="wp_status">స్థితి</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">ఈ వాల్‌పేపర్</string>
+    <string name="wp_next">తర్వాతిది</string>
+    <string name="wp_source">సోర్స్</string>
+    <string name="wp_title">శీర్షిక</string>
+    <string name="wp_author">సృష్టికర్త</string>
+    <string name="wp_set_user">యూజర్ వాల్‌పేపర్‌గా సెట్ చేయండి</string>
+    <string name="wp_view">చూడండి</string>
+    <string name="wp_unknown">తెలియదు</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">వీడియో డిస్‌ప్లే ప్రొఫైల్‌లను ఇక్కడ సృష్టించి, నిర్వహించండి. ఆటోమేటిక్‌గా మారడానికి వాటిని ఇన్‌పుట్ సోర్స్‌లకు బైండ్ చేయండి, లేదా మెనూను రెండుసార్లు నొక్కి, ఆపై పైకి లేదా కిందికి నొక్కి వాటిని వర్తింపజేయండి.</string>
+    <string name="dp_list">డిస్‌ప్లే ప్రొఫైల్‌ల జాబితా</string>
+    <string name="dp_list_desc">వీడియో డిస్‌ప్లే ప్రొఫైల్‌లను ఇక్కడ సృష్టించండి లేదా సవరించండి. పరికరాన్ని బట్టి, కొన్ని కంట్రోల్‌లకు రూట్ అవసరం లేదా అవి అసలు పని చేయవు; అవి AmLogic పరికరాల కోసం ఉద్దేశించినవి.</string>
+    <string name="dp_add">కొత్తది జోడించండి…</string>
+    <string name="dp_name">ప్రొఫైల్ పేరు</string>
+    <string name="dp_preview">ప్రివ్యూ</string>
+    <string name="dp_fullscreen">ఫుల్ స్క్రీన్ ప్రివ్యూ</string>
+    <string name="dp_fullscreen_desc">లేదా మెనూ బటన్‌తో టోగుల్ చేయండి</string>
+    <string name="dp_delete">ప్రొఫైల్‌ను తొలగించండి</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">థర్డ్-పార్టీ యాప్‌లను ఇన్‌స్టాల్ చేయండి</string>
+    <string name="install_desc">ఇన్‌స్టాల్ చేయడానికి ఒక యాప్‌ను ఎంచుకోండి. మీరు ముందుగా తెలియని సోర్స్‌ల నుండి ఇన్‌స్టాల్‌లను అనుమతించాల్సి రావచ్చు.</string>
+    <string name="install_custom">అనుకూల URL / Downloader కోడ్</string>
+    <string name="install_custom_desc">మీరు విశ్వసించే సోర్స్‌ను మాత్రమే ఉపయోగించండి</string>
+    <string name="install_status">స్థితి</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">ఈ పరికరం</string>
+
+    <string name="gallery_filter">ఫిల్టర్ చేయండి…</string>
+    <string name="settings_no_file_picker">ఈ పరికరంలో ఫైల్ పికర్ లేదు</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">కాంతి స్థాయి</string>
+    <string name="color_opacity">అపారదర్శకత</string>
+    <string name="color_prefer_dynamic">డైనమిక్ రంగుకు ప్రాధాన్యత ఇవ్వండి</string>
+    <string name="color_prefer_dynamic_desc">అందుబాటులో ఉంటే, ఈ కాంతి స్థాయి/అపారదర్శకతను ఉంచుతుంది</string>
+    <string name="color_clear">క్లియర్ చేయండి</string>
+    <string name="color_reset">డిఫాల్ట్‌కు రీసెట్ చేయండి</string>
+</resources>

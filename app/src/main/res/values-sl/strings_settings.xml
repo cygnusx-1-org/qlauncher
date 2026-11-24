@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Nastavitve</string>
+    <string name="settings_breadcrumb_display">Zaslon</string>
+    <string name="settings_breadcrumb_applications">Aplikacije</string>
+    <string name="settings_breadcrumb_system">Sistem</string>
+    <string name="settings_breadcrumb_about">Informacije</string>
+    <string name="settings_root_title">Nastavitve QLauncherja</string>
+    <string name="settings_root_description">Prilagodi nastavitve aplikacije.</string>
+    <string name="settings_legend_a11y_required">Potrebna je storitev dostopnosti</string>
+    <string name="settings_legend_a11y_recommended">Priporočena je storitev dostopnosti</string>
+    <string name="settings_legend_experimental">Poskusno</string>
+    <string name="settings_launcher_related">Nastavitve zaganjalnika</string>
+
+    <string name="settings_general">Splošno</string>
+    <string name="settings_appearance">Videz</string>
+    <string name="settings_power">Napajanje</string>
+    <string name="settings_parental">Starševski nadzor</string>
+    <string name="settings_remote">Daljinski upravljalnik</string>
+    <string name="settings_accessibility">Storitev dostopnosti</string>
+    <string name="settings_display_profiles">Profili prikaza</string>
+    <string name="settings_manage">Upravljanje nastavitev</string>
+
+    <!-- General -->
+    <string name="settings_language">Spremeni jezik aplikacije</string>
+    <string name="settings_language_system">Sistemsko privzeto</string>
+    <string name="settings_default_launcher">Spremeni privzeti zaganjalnik</string>
+    <string name="settings_default_launcher_unavailable">Ta naprava ne ponuja načina za spremembo privzetega zaganjalnika. Namesto tega uporabi »Nadomesti trenutni zaganjalnik«.</string>
+    <string name="settings_override_home">Nadomesti trenutni zaganjalnik</string>
+    <string name="settings_override_home_desc">Prestreza klice, namenjene trenutnemu zaganjalniku (koristno, če tovarniškega ne moreš spremeniti ali odstraniti)</string>
+    <string name="settings_enable_channels">Omogoči kanale</string>
+    <string name="settings_enable_channels_desc">Če jih ne uporabljaš, izklop pospeši zagon in porabi manj pomnilnika</string>
+    <string name="settings_programs_per_channel">Programov na kanal</string>
+    <string name="settings_crash_error_reports">Omogoči anonimna poročila o zrušitvah in napakah</string>
+    <string name="settings_reports_desc">Pošljejo se samo napaka, različica aplikacije in model naprave</string>
+    <string name="settings_check_updates">Preveri posodobitve</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Kategorije / Kanali</string>
+    <string name="settings_cards">Kartice</string>
+    <string name="settings_wallpaper">Ozadje</string>
+    <string name="settings_status_bar">Vrstica stanja</string>
+    <string name="settings_left_headers">Levi naslovi</string>
+    <string name="settings_idle_mode">Način nedejavnosti zaganjalnika</string>
+    <string name="settings_font">Pisava</string>
+    <string name="settings_themes">Teme</string>
+    <string name="settings_themes_desc">Uvoz / Izvoz</string>
+    <string name="settings_load_cards_scrolling">Nalaganje kartic med drsenjem</string>
+    <string name="settings_load_cards_scrolling_desc">Hitrejši odziv na račun gladkosti</string>
+    <string name="settings_accent">Barva poudarka</string>
+    <string name="settings_accent_desc">Vklopi dinamično, da sledi ozadju</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Prikaži naslov</string>
+    <string name="settings_show_icon_title">Prikaži ikono pred naslovom</string>
+    <string name="settings_rows_spacing">Navpični razmik (odstotek višine zaslona)</string>
+    <string name="settings_fixed_position">Ohrani fiksen položaj izbrane kategorije</string>
+    <string name="settings_hide_rows_above">Skrij vrstice nad izbiro</string>
+    <string name="settings_remember_focus">Zapomni si položaj izbrane kartice</string>
+    <string name="settings_unselected_opacity">Prekrivnost neizbranih vrstic</string>
+    <string name="settings_top_margin">Zgornji rob</string>
+    <string name="settings_start_margin">Začetni rob</string>
+    <string name="settings_end_margin">Končni rob</string>
+    <string name="settings_dock_padding">Odmik sidrišča</string>
+    <string name="settings_tint_custom_icons">Obarvaj ikone po meri</string>
+    <string name="settings_tint_custom_icons_desc">Za ikone po meri brez ozadja</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Zaobljeni koti</string>
+    <string name="settings_cards_size">Velikost kartic</string>
+    <string name="settings_cards_spacing">Razmik kartic</string>
+    <string name="settings_loop_limit">Omejitev ponavljanja animiranih ikon</string>
+    <string name="settings_ripple">Učinek valovanja ob pritisku kartice</string>
+    <string name="settings_background_color">Barva ozadja</string>
+    <string name="settings_focused_card">Izbrana kartica</string>
+    <string name="settings_program_cards">Kartice programov</string>
+    <string name="settings_tv_ratio">Razmerje stranic kartic aplikacij za TV</string>
+    <string name="settings_mobile_ratio">Razmerje stranic kartic mobilnih aplikacij</string>
+    <string name="settings_icon_pack">Paket ikon</string>
+    <string name="settings_icon_pack_none">Ni nameščenega paketa ikon</string>
+    <string name="settings_icon_pack_off">Brez</string>
+    <string name="settings_more">Več…</string>
+    <string name="settings_custom_icon_tint">Odtenek ikon po meri</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Velikost izbrane kartice</string>
+    <string name="settings_focused_effect">Učinek izbrane kartice</string>
+    <string name="settings_effect_none">Brez</string>
+    <string name="settings_effect_shadow">Senca</string>
+    <string name="settings_effect_glow">Sij</string>
+    <string name="settings_glow_animation">Animacija sija</string>
+    <string name="settings_anim_none">Brez</string>
+    <string name="settings_anim_pulse">Utripanje</string>
+    <string name="settings_anim_breath">Dihanje</string>
+    <string name="settings_anim_fade">Pojemanje</string>
+    <string name="settings_anim_shine">Lesk</string>
+    <string name="settings_glow_size">Velikost sija</string>
+    <string name="settings_glow_color">Barva sija</string>
+    <string name="settings_glow_color_desc">Pusti prazno za lastno barvo kartice</string>
+    <string name="settings_colors_override">Preglasitev barv</string>
+    <string name="settings_override_none">Brez</string>
+    <string name="settings_override_swap">Zamenjaj ozadje/odtenek</string>
+    <string name="settings_override_custom">Po meri</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Predvajaj predogledni videoposnetek</string>
+    <string name="settings_preview_never">Nikoli</string>
+    <string name="settings_preview_always">Vedno</string>
+    <string name="settings_preview_no_media">Ko se v ozadju nič ne predvaja</string>
+    <string name="settings_show_progress">Prikaži vrstico napredka</string>
+    <string name="settings_show_badge">Prikaži značko</string>
+    <string name="settings_zoom_focus">Učinek povečave ob izbiri</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Podprte oblike: mirujoča slika, animirani GIF, videoposnetek (statičen ali pretok RTSP v živo), animacija Lottie</string>
+    <string name="settings_launcher_wallpaper">Ozadje zaganjalnika</string>
+    <string name="settings_configure">Konfiguriraj</string>
+    <string name="settings_show_wallpapers">Prikaži ozadja</string>
+    <string name="settings_picture_adjustment">Prilagoditev slike</string>
+    <string name="settings_image_transition">Prehod slik</string>
+    <string name="settings_update_frequency">Pogostost posodabljanja (min)</string>
+    <string name="settings_video_wallpaper">Video ozadje</string>
+    <string name="settings_display_mode">Način prikaza</string>
+    <string name="settings_bad_ratio">Pri slabem razmerju/kakovosti</string>
+    <string name="settings_min_width">Najmanjša sprejeta širina (px)</string>
+    <string name="settings_src_none">Brez</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Dinamične barve</string>
+    <string name="settings_src_default">Privzeto ozadje</string>
+    <string name="settings_src_media">Predstavnostna datoteka</string>
+    <string name="settings_src_folder">Mapa</string>
+    <string name="settings_src_focused_program">Izbrani program</string>
+    <string name="settings_src_now_playing">Zdaj se predvaja</string>
+    <string name="settings_src_random_program">Naključni program</string>
+    <string name="settings_src_theme">Tema</string>
+    <string name="settings_tr_none">Brez</string>
+    <string name="settings_tr_random">Naključno</string>
+    <string name="settings_tr_fade">Pojemanje</string>
+    <string name="settings_tr_zoom">Povečava</string>
+    <string name="settings_tr_hslide">Vodoravni pomik</string>
+    <string name="settings_tr_vslide">Navpični pomik</string>
+    <string name="settings_dm_automatic">Samodejno</string>
+    <string name="settings_dm_skip">Preskoči</string>
+    <string name="settings_dm_crop">Obreži</string>
+    <string name="settings_dm_stretch">Raztegni</string>
+    <string name="settings_dm_fit">Prilagodi na sredino</string>
+    <string name="settings_dm_fit_blur">Prilagodi na sredino + zamegljeno ozadje</string>
+    <string name="settings_dm_blur">Zameglitev</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Barvni ton</string>
+    <string name="settings_saturation">Nasičenost</string>
+    <string name="settings_contrast">Kontrast</string>
+    <string name="settings_brightness">Svetlost</string>
+    <string name="settings_tint">Odtenek</string>
+    <string name="settings_tint_amount">Moč odtenka</string>
+    <string name="settings_blur">Zameglitev</string>
+    <string name="settings_shadow_h">Dolžina vodoravnega sloja sence</string>
+    <string name="settings_shadow_v">Dolžina navpičnega sloja sence</string>
+    <string name="settings_shadow_opacity">Prekrivnost sloja sence</string>
+    <string name="settings_shadow_tint">Odtenek sloja sence</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Prezri pogostost posodabljanja</string>
+    <string name="settings_ignore_update_desc">Počaka na konec videoposnetka, preden zahteva novo ozadje</string>
+    <string name="settings_video_color_freq">Pogostost posodabljanja dinamičnih barv</string>
+    <string name="settings_video_color_freq_desc">Sekunde med sličicami videoposnetka, iz katerih se berejo barve; 0 izklopi</string>
+    <string name="settings_volume">Glasnost</string>
+    <string name="settings_tunneling">Uporabi strojno upodabljanje (tuneliranje)</string>
+    <string name="settings_decoder_fallback">Omogoči nadomestne dekodirnike</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Upravljanje dovoljenja za obvestila</string>
+    <string name="settings_granted">Odobreno</string>
+    <string name="settings_not_granted">Ni odobreno</string>
+    <string name="settings_notification_adb">V tej napravi ni zaslona z nastavitvami. Dovoljenje odobri z ukazom: %1$s</string>
+    <string name="settings_clock">Ura</string>
+    <string name="settings_icons">Ikone</string>
+    <string name="settings_show_system_bar">Prikaži sistemsko vrstico stanja</string>
+    <string name="settings_autohide_status">Skrij vrstico stanja med drsenjem</string>
+    <string name="settings_show_clock">Prikaži uro</string>
+    <string name="settings_clock_size">Velikost pisave ure</string>
+    <string name="settings_clock_color">Barva ure</string>
+    <string name="settings_drop_shadow">Senca</string>
+    <string name="settings_clock_line1">Oblika ure (1. vrstica)</string>
+    <string name="settings_clock_line2">Oblika ure (2. vrstica)</string>
+    <string name="settings_clock_default_format">Sistemska oblika</string>
+    <string name="settings_empty">Prazno</string>
+    <string name="settings_icons_size">Velikost ikon</string>
+    <string name="settings_icons_color">Barva ikon</string>
+    <string name="settings_icons_container">Barva vsebnika ikon</string>
+    <string name="settings_show_settings">Prikaži nastavitve</string>
+    <string name="settings_show_settings_desc">Nastavitve ostanejo dosegljive s tem zaporedjem gumbov: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Prikaži povezljivost</string>
+    <string name="settings_show_notifications">Prikaži obvestila</string>
+    <string name="settings_autohide_notifications">Skrij ikono obvestil, ko ni obvestil</string>
+    <string name="settings_show_battery">Prikaži baterijo</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Omogoči</string>
+    <string name="settings_headers_on_launch">Prikaži leve naslove ob zagonu</string>
+    <string name="settings_show_icon">Prikaži ikono</string>
+    <string name="settings_show_reorder">Prikaži prerazporejanje</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Čas do nedejavnosti (min)</string>
+    <string name="settings_idle_opacity">Prekrivnost vmesnika</string>
+    <string name="settings_keep_clock">Ohrani uro</string>
+    <string name="settings_prevent_screensaver">Prepreči sistemski ohranjevalnik zaslona</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Spremeni nastavitve pisave QLauncherja. Imena družin pisav lahko poiščeš v Google Fonts.</string>
+    <string name="settings_font_list">Izberi s seznama</string>
+    <string name="settings_font_google">Pisava (Google Fonts)</string>
+    <string name="settings_font_default">Privzeto</string>
+    <string name="settings_bold">Krepko</string>
+    <string name="settings_italic">Ležeče</string>
+    <string name="settings_size">Velikost</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Samodejni zagon ob vklopu</string>
+    <string name="settings_autostart_none">Brez</string>
+    <string name="settings_autostart_screensaver">[*] Ohranjevalnik zaslona (če je podprt)</string>
+    <string name="settings_autostart_resume">…in ob prebujanju iz stanja pripravljenosti</string>
+    <string name="settings_autostart_delay">Zakasnitev samodejnega zagona (sekunde)</string>
+    <string name="settings_simulate_activity">Prepreči samodejni izklop sistema ob nedejavnosti</string>
+    <string name="settings_idle_detection">Omogoči notranje zaznavanje nedejavnosti</string>
+    <string name="settings_idle_timeout_power">Čas do nedejavnosti (ure:min)</string>
+    <string name="settings_idle_action">Dejanje ob nedejavnosti</string>
+    <string name="settings_idle_action_shutdown">Izklop</string>
+    <string name="settings_idle_action_screen_off">Izklop zaslona</string>
+    <string name="settings_idle_action_screensaver">Ohranjevalnik zaslona (če je podprt)</string>
+    <string name="settings_idle_media">Prezri nedejavnost med predvajanjem medijev</string>
+    <string name="settings_missing_notification_permission">⚠️ Manjka dovoljenje za obvestila</string>
+    <string name="settings_shutdown_action">Dejanje izklopa</string>
+    <string name="settings_shutdown_dialog">Pogovorno okno za napajanje</string>
+    <string name="settings_shutdown_dialog_twice">Pogovorno okno za napajanje (dvojni klic)</string>
+    <string name="settings_shutdown_dialog_ok">Pogovorno okno za napajanje + OK</string>
+    <string name="settings_hdmi_exit">Samodejni izklop, ko signal vhoda HDMI preneha</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Določi kodo za zaklepanje izbranih aplikacij (za izbiro dolgo pritisni kartico na začetnem zaslonu), ves dan ali del dneva</string>
+    <string name="settings_parental_set_code">Nastavi novo starševsko kodo</string>
+    <string name="settings_parental_code_set">Koda je nastavljena</string>
+    <string name="settings_parental_long">Ne zahtevaj kode 15 min po uspešni potrditvi</string>
+    <string name="settings_parental_protect">Zaščiti nastavitve zaganjalnika in spremembe vmesnika</string>
+    <string name="settings_parental_protect_desc">(velja 24/7)</string>
+    <string name="settings_parental_partial">Omogoči zaščito samo med</string>
+    <string name="settings_parental_start">Začetni čas (ure:min)</string>
+    <string name="settings_parental_end">Končni čas (ure:min)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Prikaži informacije ob dvojnem pritisku »Meni«</string>
+    <string name="settings_back_double">»Ambientni način« ob dvojnem pritisku »Nazaj«</string>
+    <string name="settings_back_double_desc">Zažene ohranjevalnik zaslona v podprtih napravah</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Vklopi storitev, da ob vklopu zaženeš dejanje, prilagodiš gumbe daljinskega upravljalnika, okrepiš starševski nadzor in zaznavaš nedejavnost za upravljanje napajanja. Storitev vidi pritiske strojnih tipk in ime aplikacije v ospredju; oboje ostane v pomnilniku te naprave in se nikamor ne pošilja.</string>
+    <string name="settings_a11y_enabled">Omogočeno</string>
+    <string name="settings_a11y_started">Zagnano</string>
+    <string name="settings_yes">Da</string>
+    <string name="settings_no">Ne</string>
+    <string name="settings_a11y_open">Prikaži nastavitve dostopnosti</string>
+    <string name="settings_a11y_consent_title">Storitev dostopnosti</string>
+    <string name="settings_a11y_consent">To QLauncherju omogoča, da vidi pritiske strojnih gumbov in ime aplikacije v ospredju. Oboje se hrani samo v pomnilniku te naprave in se nikoli nikamor ne pošlje. Se strinjaš?</string>
+    <string name="settings_a11y_alternate">Uporabi nadomestno konfiguracijo</string>
+    <string name="settings_a11y_alternate_desc">Odpravi težave v nekaterih napravah</string>
+    <string name="settings_a11y_volume_fix">Popravek gumbov za glasnost</string>
+    <string name="settings_a11y_volume_fix_desc">Ob pritisku glasnosti za kratek čas ustavi prerazporejanje, da dolgi pritiski še delujejo</string>
+    <string name="settings_a11y_remap">Omogoči prerazporejanje gumbov</string>
+    <string name="settings_a11y_remap_desc">Storitev prestreza pritiske tipk. Izklop prepreči težave z dolgim pritiskom glasnosti in ustavljanje storitve s strani sistema, vendar so lahko nadomestitev zaganjalnika, starševski nadzor in zaznavanje nedejavnosti manj učinkoviti.</string>
+    <string name="settings_a11y_reminder">Prikaži opomnik</string>
+    <string name="settings_a11y_reminder_desc">Če je storitev dostopnosti izklopljena</string>
+    <string name="settings_a11y_unbound_toast">Storitev dostopnosti QLauncherja se ne izvaja</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Uvozi ali izvozi nastavitve lokalno ali z drugo aplikacijo, na primer z aplikacijo LocalSend ali upraviteljem datotek.</string>
+    <string name="settings_import">Uvoz</string>
+    <string name="settings_import_file">Iz datoteke</string>
+    <string name="settings_import_auto">Iz samodejne varnostne kopije</string>
+    <string name="settings_export">Izvoz</string>
+    <string name="settings_export_local">Shrani lokalno</string>
+    <string name="settings_export_share">Deli z drugo aplikacijo</string>
+    <string name="settings_reset">Ponastavi na privzeto</string>
+    <string name="settings_cancel">Prekliči</string>
+    <string name="settings_ok">V redu</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Kategorija</string>
+    <string name="wp_custom_search">Iskanje po meri</string>
+    <string name="wp_reddit_login">Prijava</string>
+    <string name="wp_reddit_logout">Odjava: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Odjava</string>
+    <string name="wp_subreddit">Subreddit</string>
+    <string name="wp_custom_subreddit">Subreddit po meri</string>
+    <string name="wp_custom_subreddit_hint">Več imen, ločenih z +</string>
+    <string name="wp_folder">Mapa</string>
+    <string name="wp_folder_choose">Izberi mapo</string>
+    <string name="wp_media">Predstavnostna datoteka</string>
+    <string name="wp_media_choose">Izberi datoteko</string>
+    <string name="wp_choose_other">Druga lokacija…</string>
+    <string name="wp_choose_other_desc">Izberi s sistemskim izbirnikom datotek</string>
+    <string name="wp_media_searching">Iskanje slik in videoposnetkov…</string>
+    <string name="wp_media_none">Ni najdenih slik ali videoposnetkov. Kopiraj jih v mapo Pictures, Movies ali Download ali priključi pogon USB.</string>
+    <string name="wp_folders_description">Mape s slikami ali videoposnetki v tej napravi in na pogonih USB.</string>
+    <string name="wp_folders_none">Ni najdenih map s slikami ali videoposnetki</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d datoteka</item>
+        <item quantity="two">%d datoteki</item>
+        <item quantity="few">%d datoteke</item>
+        <item quantity="other">%d datotek</item>
+    </plurals>
+    <string name="wp_media_color">Enobarvno</string>
+    <string name="wp_theme_desc">Ozadja iz uvožene teme</string>
+    <string name="wp_plugin_settings">Nastavitve vtičnika</string>
+    <string name="wp_not_set">Ni nastavljeno</string>
+    <string name="wp_status">Stanje</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">To ozadje</string>
+    <string name="wp_next">Naslednje</string>
+    <string name="wp_source">Vir</string>
+    <string name="wp_title">Naslov</string>
+    <string name="wp_author">Avtor</string>
+    <string name="wp_set_user">Nastavi kot uporabniško ozadje</string>
+    <string name="wp_view">Ogled</string>
+    <string name="wp_unknown">Neznano</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Tukaj ustvari profile prikaza videa in jih upravljaj. Poveži jih z vhodnimi viri za samodejno menjavo ali jih uporabi tako, da dvakrat pritisneš gumb Meni in nato gor ali dol.</string>
+    <string name="dp_list">Seznam profilov prikaza</string>
+    <string name="dp_list_desc">Tukaj ustvari ali uredi profile prikaza videa. Odvisno od naprave nekateri kontrolniki potrebujejo root ali sploh ne delujejo; namenjeni so napravam AmLogic.</string>
+    <string name="dp_add">Dodaj novega…</string>
+    <string name="dp_name">Ime profila</string>
+    <string name="dp_preview">Predogled</string>
+    <string name="dp_fullscreen">Celozaslonski predogled</string>
+    <string name="dp_fullscreen_desc">ali preklopi z gumbom Meni</string>
+    <string name="dp_delete">Izbriši profil</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Namesti aplikacije drugih ponudnikov</string>
+    <string name="install_desc">Izberi aplikacijo za namestitev. Morda bo treba najprej dovoliti nameščanje iz neznanih virov.</string>
+    <string name="install_custom">URL po meri / koda za Downloader</string>
+    <string name="install_custom_desc">Uporabljaj samo vir, ki mu zaupaš</string>
+    <string name="install_status">Stanje</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Ta naprava</string>
+
+    <string name="gallery_filter">Filtriraj…</string>
+    <string name="settings_no_file_picker">Ta naprava nima izbirnika datotek</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Luminanca</string>
+    <string name="color_opacity">Prekrivnost</string>
+    <string name="color_prefer_dynamic">Raje uporabi dinamično barvo</string>
+    <string name="color_prefer_dynamic_desc">Če je na voljo, ohrani to luminanco/prekrivnost</string>
+    <string name="color_clear">Počisti</string>
+    <string name="color_reset">Ponastavi na privzeto</string>
+</resources>

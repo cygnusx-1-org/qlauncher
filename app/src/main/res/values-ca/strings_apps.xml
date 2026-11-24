@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Cancel·la</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Totes les aplicacions</string>
+    <string name="apps_action_edit_categories">Edita les categories</string>
+    <string name="apps_action_edit_channels">Edita els canals</string>
+    <string name="apps_action_launcher_settings">Configuració de QLauncher</string>
+    <string name="apps_action_android_settings">Configuració d\'Android</string>
+    <string name="apps_action_amlogic_settings">Configuració addicional d\'AmLogic</string>
+    <string name="apps_action_display_profiles">Perfils de pantalla</string>
+    <string name="apps_action_install_apps">Instal·la aplicacions de tercers</string>
+    <string name="apps_action_accessibility_service">Servei d\'accessibilitat</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Canvia de perfil</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Aquest dispositiu</string>
+    <string name="apps_action_about_wallpaper">Aquest fons de pantalla</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Cap</string>
+    <string name="apps_autostart_screensaver">Estalvi de pantalla</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Canals</string>
+    <string name="apps_channels_watch_next">A continuació</string>
+    <string name="apps_channels_unreadable">Aquest canal ja no es pot llegir</string>
+    <string name="apps_channels_hidden">Amagat pel sistema</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d canal</item>
+        <item quantity="many">%d canals</item>
+        <item quantity="other">%d canals</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Aplica el paquet d\'icones</string>
+    <string name="apps_iconpack_apply_message">Voleu utilitzar %1$s per a les icones de les aplicacions?</string>
+    <string name="apps_iconpack_apply_confirm">Aplica</string>
+    <string name="apps_iconpack_applied">S\'ha aplicat el paquet d\'icones</string>
+    <string name="apps_iconpack_apply_missing">No s\'ha indicat cap paquet d\'icones</string>
+    <string name="apps_iconpack_apply_not_a_pack">Aquesta aplicació no és un paquet d\'icones</string>
+    <string name="apps_iconpack_none">Cap</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Afegeix una drecera</string>
+    <string name="apps_pin_shortcut_message">Voleu afegir «%1$s» de l\'aplicació %2$s a la categoria Dreceres?</string>
+    <string name="apps_pin_shortcut_confirm">Afegeix</string>
+    <string name="apps_pin_shortcut_added">S\'ha afegit la drecera</string>
+    <string name="apps_pin_shortcut_failed">No s\'ha pogut afegir la drecera</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Instal·la aplicacions de tercers</string>
+    <string name="apps_install_description">Trieu una aplicació per instal·lar. És possible que abans hàgiu de permetre la instal·lació des de fonts desconegudes.</string>
+    <string name="apps_install_custom_url">URL personalitzat / codi de Downloader</string>
+    <string name="apps_install_custom_url_desc">Assegureu-vos d\'utilitzar una font de confiança</string>
+    <string name="apps_install_choose_method">Trieu un mètode d\'instal·lació</string>
+    <string name="apps_install_installed">Instal·lada</string>
+    <string name="apps_install_category_wallpaper_plugin">Connector de fons de pantalla</string>
+    <string name="apps_install_category_icon_pack">Paquet d\'icones</string>
+    <string name="apps_install_category_file_manager">Gestor de fitxers</string>
+    <string name="apps_install_category_tool">Eina</string>
+    <string name="apps_install_method_store">Botiga</string>
+    <string name="apps_install_method_direct">Baixada directa</string>
+    <string name="apps_install_method_downloader">Aplicació Downloader</string>
+    <string name="apps_install_state_downloading">S\'està baixant %1$s… %2$d %%</string>
+    <string name="apps_install_state_downloading_unknown">S\'està baixant %1$s…</string>
+    <string name="apps_install_state_installing">S\'està instal·lant %1$s…</string>
+    <string name="apps_install_state_confirm">Confirmeu la instal·lació de %1$s</string>
+    <string name="apps_install_state_success">S\'ha instal·lat %1$s</string>
+    <string name="apps_install_state_unknown_sources">Permeteu que QLauncher instal·li aplicacions i torneu per continuar</string>
+    <string name="apps_install_state_downloader_sent">S\'ha enviat el codi %1$s a Downloader</string>
+    <string name="apps_install_state_downloader_type">Introduïu el codi %1$s a Downloader</string>
+    <string name="apps_install_state_store">S\'ha obert a la botiga</string>
+    <string name="apps_install_state_browser">Aquest enllaç és una pàgina web; s\'ha obert al navegador</string>
+    <string name="apps_install_fail_invalid">No és cap URL ni cap codi de Downloader</string>
+    <string name="apps_install_fail_no_usb">No s\'ha trobat cap unitat USB</string>
+    <string name="apps_install_fail_archive">Els arxius comprimits no es poden instal·lar</string>
+    <string name="apps_install_fail_network">La baixada ha fallat</string>
+    <string name="apps_install_fail_http">El servidor ha respost amb un error (%1$s)</string>
+    <string name="apps_install_fail_not_apk">El fitxer no és una aplicació (APK)</string>
+    <string name="apps_install_fail_unreadable">No es pot llegir el fitxer</string>
+    <string name="apps_install_fail_install">La instal·lació ha fallat</string>
+    <string name="apps_install_fail_cancelled">S\'ha cancel·lat la instal·lació</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher no té permís per instal·lar aplicacions</string>
+    <string name="apps_install_fail_downloader">L\'aplicació Downloader no està instal·lada</string>
+    <string name="apps_install_fail_store">No hi ha cap botiga d\'aplicacions disponible</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Aquest dispositiu</string>
+    <string name="apps_device_brand_manufacturer">Marca / Fabricant</string>
+    <string name="apps_device_device_product">Dispositiu / Producte</string>
+    <string name="apps_device_model">Model</string>
+    <string name="apps_device_hardware">Maquinari</string>
+    <string name="apps_device_fingerprint">Empremta</string>
+    <string name="apps_device_build">Compilació</string>
+    <string name="apps_device_build_desc">Desc. de la compilació</string>
+    <string name="apps_device_device_type">Tipus de dispositiu</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Adreça IP</string>
+    <string name="apps_device_root_access">Accés root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Cap gestor d\'imatge</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Sí</string>
+    <string name="apps_device_no">No</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Masukkan kombinasi panah/angka apa pun, lalu konfirmasi dengan OK</string>
+    <string name="system_parental_confirm_code">Masukkan kode sekali lagi, lalu konfirmasi dengan OK</string>
+    <string name="system_parental_restricted">Akses dibatasi\nMasukkan kode orang tua</string>
+    <string name="system_parental_wrong_code">Kode salah</string>
+    <string name="system_parental_codes_differ">Kode tidak cocok, coba lagi</string>
+    <string name="system_parental_code_saved">Kode orang tua disimpan</string>
+    <string name="system_parental_recovery_code">Kode pemulihan: %1$s</string>
+    <string name="system_parental_recovery_help">Catat kode ini: kode hanya ditampilkan kali ini saja. Jika dimasukkan dengan tombol panah (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►), kode ini membuka kunci seperti kode orang tua.</string>
+    <string name="system_parental_press_ok">Tekan OK untuk melanjutkan</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Pintasan remote</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Beranda</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Ganti input</string>
+    <string name="system_hotkeys_change_profile">Ganti profil layar</string>
+    <string name="system_hotkeys_start_launcher">Mulai QLauncher</string>
+    <string name="system_hotkeys_home">Buka QLauncher; dua kali: aplikasi terbaru</string>
+    <string name="system_hotkeys_close">Tutup bantuan ini</string>
+    <string name="system_hotkeys_no_inputs">Tidak ada input TV di perangkat ini</string>
+    <string name="system_hotkeys_no_picture_manager">Tidak ada pengelola gambar yang dimuat</string>
+    <string name="system_hotkeys_home_off">Nonaktif: memerlukan “Ambil alih launcher saat ini” dan pemetaan ulang tombol</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Pengguna tidak aktif, perangkat dimatikan dalam %1$d dtk</string>
+    <string name="system_idle_countdown_screen_off">Pengguna tidak aktif, layar dimatikan dalam %1$d dtk</string>
+    <string name="system_idle_countdown_screensaver">Pengguna tidak aktif, screensaver dimulai dalam %1$d dtk</string>
+    <string name="system_idle_countdown_cancel">Tekan tombol apa saja untuk membatalkan</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Perangkat ini tidak memiliki pintasan ke setelan aksesibilitas. Buka dari Setelan Android, biasanya di Preferensi Perangkat › Aksesibilitas.</string>
+    <string name="system_notification_access_no_settings">Perangkat ini tidak memiliki layar akses notifikasi. Berikan akses dari komputer dengan:</string>
+</resources>

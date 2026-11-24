@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">バージョン %1$s</string>
+    <string name="about_copyright">Copyright © 2026 QLauncher コントリビューター。GNU General Public License バージョン 3 に基づくフリーソフトウェアです。</string>
+    <string name="about_libs">ライブラリ / クレジット</string>
+    <string name="about_links">リンク</string>
+    <string name="about_link_project">プロジェクトページ</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">日本語翻訳</string>
+    <string name="about_translation_credit">QLauncher コントリビューター</string>
+    <string name="about_no_browser">このデバイスにはブラウザがありません。別のデバイスで %1$s を開いてください。</string>
+    <string name="about_check_updates">更新を確認</string>
+    <string name="about_update_checking">確認中…</string>
+    <string name="about_update_latest">QLauncher は最新です (%1$s)</string>
+    <string name="about_update_available">バージョン %1$s が利用可能です</string>
+    <string name="about_update_failed">確認できませんでした: %1$s</string>
+    <string name="about_update_install">QLauncher %1$s をインストール</string>
+    <string name="update_available_toast">QLauncher %1$s が利用可能です: 設定 › 情報 › QLauncher</string>
+</resources>

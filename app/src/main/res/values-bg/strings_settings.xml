@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">Настройки</string>
+    <string name="settings_breadcrumb_display">Екран</string>
+    <string name="settings_breadcrumb_applications">Приложения</string>
+    <string name="settings_breadcrumb_system">Система</string>
+    <string name="settings_breadcrumb_about">Относно</string>
+    <string name="settings_root_title">Настройки на QLauncher</string>
+    <string name="settings_root_description">Конфигуриране на настройките на приложението.</string>
+    <string name="settings_legend_a11y_required">Изисква се услугата за достъпност</string>
+    <string name="settings_legend_a11y_recommended">Препоръчва се услугата за достъпност</string>
+    <string name="settings_legend_experimental">Експериментално</string>
+    <string name="settings_launcher_related">Настройки, свързани с лаунчера</string>
+
+    <string name="settings_general">Общи</string>
+    <string name="settings_appearance">Външен вид</string>
+    <string name="settings_power">Захранване</string>
+    <string name="settings_parental">Родителски контрол</string>
+    <string name="settings_remote">Дистанционно управление</string>
+    <string name="settings_accessibility">Услуга за достъпност</string>
+    <string name="settings_display_profiles">Профили на екрана</string>
+    <string name="settings_manage">Управление на настройките</string>
+
+    <!-- General -->
+    <string name="settings_language">Смяна на езика на приложението</string>
+    <string name="settings_language_system">Език на системата</string>
+    <string name="settings_default_launcher">Смяна на лаунчера по подразбиране</string>
+    <string name="settings_default_launcher_unavailable">Това устройство не предлага начин за смяна на лаунчера по подразбиране. Вместо това използвайте „Замяна на текущия лаунчер“.</string>
+    <string name="settings_override_home">Замяна на текущия лаунчер</string>
+    <string name="settings_override_home_desc">Прихващане на извикванията към текущия лаунчер (полезно, ако не можете да смените или премахнете стандартния)</string>
+    <string name="settings_enable_channels">Активиране на каналите</string>
+    <string name="settings_enable_channels_desc">Ако не ги използвате, изключването им ускорява стартирането и намалява използваната памет</string>
+    <string name="settings_programs_per_channel">Програми на канал</string>
+    <string name="settings_crash_error_reports">Анонимни отчети за сривове и грешки</string>
+    <string name="settings_reports_desc">Изпращат се само грешката, версията на приложението и моделът на устройството</string>
+    <string name="settings_check_updates">Проверка за актуализации</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">Категории / Канали</string>
+    <string name="settings_cards">Карти</string>
+    <string name="settings_wallpaper">Тапет</string>
+    <string name="settings_status_bar">Лента на състоянието</string>
+    <string name="settings_left_headers">Заглавия отляво</string>
+    <string name="settings_idle_mode">Режим на бездействие на лаунчера</string>
+    <string name="settings_font">Шрифт</string>
+    <string name="settings_themes">Теми</string>
+    <string name="settings_themes_desc">Импортиране / Експортиране</string>
+    <string name="settings_load_cards_scrolling">Зареждане на картите при превъртане</string>
+    <string name="settings_load_cards_scrolling_desc">По-бърза реакция за сметка на плавността</string>
+    <string name="settings_accent">Цвят на акцентите</string>
+    <string name="settings_accent_desc">Включете динамичния цвят, за да следва тапета</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">Показване на заглавието</string>
+    <string name="settings_show_icon_title">Показване на икона пред заглавието</string>
+    <string name="settings_rows_spacing">Вертикално разстояние (в % от височината на екрана)</string>
+    <string name="settings_fixed_position">Фиксирана позиция на категорията на фокус</string>
+    <string name="settings_hide_rows_above">Скриване на редовете над избрания</string>
+    <string name="settings_remember_focus">Запомняне на позицията на картата на фокус</string>
+    <string name="settings_unselected_opacity">Непрозрачност на неизбраните редове</string>
+    <string name="settings_top_margin">Горно поле</string>
+    <string name="settings_start_margin">Начално поле</string>
+    <string name="settings_end_margin">Крайно поле</string>
+    <string name="settings_dock_padding">Отстъп на дока</string>
+    <string name="settings_tint_custom_icons">Оцветяване на персонализираните икони</string>
+    <string name="settings_tint_custom_icons_desc">За персонализирани икони без фон</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">Заоблени ъгли</string>
+    <string name="settings_cards_size">Размер на картите</string>
+    <string name="settings_cards_spacing">Разстояние между картите</string>
+    <string name="settings_loop_limit">Лимит на повторенията на анимираните икони</string>
+    <string name="settings_ripple">Ефект на вълна при натискане на карта</string>
+    <string name="settings_background_color">Цвят на фона</string>
+    <string name="settings_focused_card">Карта на фокус</string>
+    <string name="settings_program_cards">Карти на програми</string>
+    <string name="settings_tv_ratio">Съотношение на картите на ТВ приложенията</string>
+    <string name="settings_mobile_ratio">Съотношение на картите на мобилните приложения</string>
+    <string name="settings_icon_pack">Пакет с икони</string>
+    <string name="settings_icon_pack_none">Няма инсталиран пакет с икони</string>
+    <string name="settings_icon_pack_off">Без</string>
+    <string name="settings_more">Още…</string>
+    <string name="settings_custom_icon_tint">Цвят на персонализираните икони</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">Размер на картата на фокус</string>
+    <string name="settings_focused_effect">Ефект на картата на фокус</string>
+    <string name="settings_effect_none">Без</string>
+    <string name="settings_effect_shadow">Падаща сянка</string>
+    <string name="settings_effect_glow">Сияние</string>
+    <string name="settings_glow_animation">Анимация на сиянието</string>
+    <string name="settings_anim_none">Без</string>
+    <string name="settings_anim_pulse">Пулсиране</string>
+    <string name="settings_anim_breath">Дишане</string>
+    <string name="settings_anim_fade">Избледняване</string>
+    <string name="settings_anim_shine">Блясък</string>
+    <string name="settings_glow_size">Размер на сиянието</string>
+    <string name="settings_glow_color">Цвят на сиянието</string>
+    <string name="settings_glow_color_desc">Оставете празно, за да се използва собственият цвят на картата</string>
+    <string name="settings_colors_override">Замяна на цветовете</string>
+    <string name="settings_override_none">Без</string>
+    <string name="settings_override_swap">Размяна на фон/оцветяване</string>
+    <string name="settings_override_custom">Персонализирано</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">Пускане на видео за преглед</string>
+    <string name="settings_preview_never">Никога</string>
+    <string name="settings_preview_always">Винаги</string>
+    <string name="settings_preview_no_media">Когато не се възпроизвежда медия във фонов режим</string>
+    <string name="settings_show_progress">Показване на лентата за напредък</string>
+    <string name="settings_show_badge">Показване на значка</string>
+    <string name="settings_zoom_focus">Ефект на увеличение при фокус</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">Поддържани формати: неподвижно изображение, анимиран GIF, видео (статично или RTSP поток на живо), Lottie анимация</string>
+    <string name="settings_launcher_wallpaper">Тапет на лаунчера</string>
+    <string name="settings_configure">Конфигуриране</string>
+    <string name="settings_show_wallpapers">Показване на тапети</string>
+    <string name="settings_picture_adjustment">Настройка на изображението</string>
+    <string name="settings_image_transition">Преход между изображенията</string>
+    <string name="settings_update_frequency">Честота на смяна (мин)</string>
+    <string name="settings_video_wallpaper">Видеотапет</string>
+    <string name="settings_display_mode">Режим на показване</string>
+    <string name="settings_bad_ratio">При лошо съотношение/качество</string>
+    <string name="settings_min_width">Минимална приета ширина (px)</string>
+    <string name="settings_src_none">Без</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">Динамични цветове</string>
+    <string name="settings_src_default">Тапет по подразбиране</string>
+    <string name="settings_src_media">Медиен файл</string>
+    <string name="settings_src_folder">Папка</string>
+    <string name="settings_src_focused_program">Програма на фокус</string>
+    <string name="settings_src_now_playing">Сега се възпроизвежда</string>
+    <string name="settings_src_random_program">Случайна програма</string>
+    <string name="settings_src_theme">Тема</string>
+    <string name="settings_tr_none">Без</string>
+    <string name="settings_tr_random">Случаен</string>
+    <string name="settings_tr_fade">Избледняване</string>
+    <string name="settings_tr_zoom">Мащабиране</string>
+    <string name="settings_tr_hslide">Хоризонтално плъзгане</string>
+    <string name="settings_tr_vslide">Вертикално плъзгане</string>
+    <string name="settings_dm_automatic">Автоматично</string>
+    <string name="settings_dm_skip">Пропускане</string>
+    <string name="settings_dm_crop">Изрязване</string>
+    <string name="settings_dm_stretch">Разтягане</string>
+    <string name="settings_dm_fit">Побиране в центъра</string>
+    <string name="settings_dm_fit_blur">Побиране в центъра + размазан фон</string>
+    <string name="settings_dm_blur">Размазване</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">Нюанс</string>
+    <string name="settings_saturation">Наситеност</string>
+    <string name="settings_contrast">Контраст</string>
+    <string name="settings_brightness">Яркост</string>
+    <string name="settings_tint">Оцветяване</string>
+    <string name="settings_tint_amount">Сила на оцветяването</string>
+    <string name="settings_blur">Размазване</string>
+    <string name="settings_shadow_h">Дължина на хоризонталното засенчване</string>
+    <string name="settings_shadow_v">Дължина на вертикалното засенчване</string>
+    <string name="settings_shadow_opacity">Непрозрачност на засенчването</string>
+    <string name="settings_shadow_tint">Оцветяване на засенчването</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">Пренебрегване на честотата на смяна</string>
+    <string name="settings_ignore_update_desc">Изчакване на края на видеото преди заявка за нов тапет</string>
+    <string name="settings_video_color_freq">Честота на обновяване на динамичния цвят</string>
+    <string name="settings_video_color_freq_desc">Секунди между кадрите на видеото, от които се четат цветовете; 0 го изключва</string>
+    <string name="settings_volume">Сила на звука</string>
+    <string name="settings_tunneling">Хардуерно рендериране (тунелиране)</string>
+    <string name="settings_decoder_fallback">Активиране на резервни декодери</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">Управление на разрешението за известия</string>
+    <string name="settings_granted">Предоставено</string>
+    <string name="settings_not_granted">Не е предоставено</string>
+    <string name="settings_notification_adb">На това устройство няма екран с настройки. Предоставете го с: %1$s</string>
+    <string name="settings_clock">Часовник</string>
+    <string name="settings_icons">Икони</string>
+    <string name="settings_show_system_bar">Показване на системната лента на състоянието</string>
+    <string name="settings_autohide_status">Скриване на лентата на състоянието при превъртане</string>
+    <string name="settings_show_clock">Показване на часовника</string>
+    <string name="settings_clock_size">Размер на шрифта на часовника</string>
+    <string name="settings_clock_color">Цвят на часовника</string>
+    <string name="settings_drop_shadow">Падаща сянка</string>
+    <string name="settings_clock_line1">Формат на часовника (ред 1)</string>
+    <string name="settings_clock_line2">Формат на часовника (ред 2)</string>
+    <string name="settings_clock_default_format">Системен формат</string>
+    <string name="settings_empty">Празно</string>
+    <string name="settings_icons_size">Размер на иконите</string>
+    <string name="settings_icons_color">Цвят на иконите</string>
+    <string name="settings_icons_container">Цвят на фона на иконите</string>
+    <string name="settings_show_settings">Показване на настройките</string>
+    <string name="settings_show_settings_desc">Настройките остават достъпни с тази последователност от бутони: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">Показване на свързаността</string>
+    <string name="settings_show_notifications">Показване на известията</string>
+    <string name="settings_autohide_notifications">Скриване на иконата за известия, когато няма такива</string>
+    <string name="settings_show_battery">Показване на батерията</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">Активиране</string>
+    <string name="settings_headers_on_launch">Показване на заглавията отляво при стартиране</string>
+    <string name="settings_show_icon">Показване на икона</string>
+    <string name="settings_show_reorder">Показване на пренареждането</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">Време до бездействие (мин)</string>
+    <string name="settings_idle_opacity">Непрозрачност на интерфейса</string>
+    <string name="settings_keep_clock">Запазване на часовника</string>
+    <string name="settings_prevent_screensaver">Блокиране на системния скрийнсейвър</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">Промяна на настройките на шрифта на QLauncher. Имената на семействата шрифтове могат да се намерят в Google Fonts.</string>
+    <string name="settings_font_list">Избор от списък</string>
+    <string name="settings_font_google">Шрифт (Google Fonts)</string>
+    <string name="settings_font_default">По подразбиране</string>
+    <string name="settings_bold">Удебелен</string>
+    <string name="settings_italic">Курсив</string>
+    <string name="settings_size">Размер</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">Автоматично стартиране при включване</string>
+    <string name="settings_autostart_none">Без</string>
+    <string name="settings_autostart_screensaver">[*] Скрийнсейвър (ако се поддържа)</string>
+    <string name="settings_autostart_resume">…и при излизане от режим на готовност</string>
+    <string name="settings_autostart_delay">Забавяне на автоматичното стартиране (секунди)</string>
+    <string name="settings_simulate_activity">Блокиране на автоматичното изключване на системата при бездействие</string>
+    <string name="settings_idle_detection">Активиране на вътрешното откриване на бездействие</string>
+    <string name="settings_idle_timeout_power">Време до бездействие (час:мин)</string>
+    <string name="settings_idle_action">Действие при бездействие</string>
+    <string name="settings_idle_action_shutdown">Изключване</string>
+    <string name="settings_idle_action_screen_off">Изключване на екрана</string>
+    <string name="settings_idle_action_screensaver">Скрийнсейвър (ако се поддържа)</string>
+    <string name="settings_idle_media">Пренебрегване на бездействието при възпроизвеждане на медия</string>
+    <string name="settings_missing_notification_permission">⚠️ Липсва разрешение за известия</string>
+    <string name="settings_shutdown_action">Действие за изключване</string>
+    <string name="settings_shutdown_dialog">Диалог за захранването</string>
+    <string name="settings_shutdown_dialog_twice">Диалог за захранването (двукратно извикване)</string>
+    <string name="settings_shutdown_dialog_ok">Диалог за захранването + OK</string>
+    <string name="settings_hdmi_exit">Автоматично изключване, когато сигналът на HDMI входа спре</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">Задайте код, за да заключите избрани приложения (задръжте натисната карта на началния екран, за да ги изберете), за целия ден или за част от него</string>
+    <string name="settings_parental_set_code">Задаване на нов родителски код</string>
+    <string name="settings_parental_code_set">Зададен е код</string>
+    <string name="settings_parental_long">Без искане на код 15 мин след успешно потвърждение</string>
+    <string name="settings_parental_protect">Защита на настройките на лаунчера и промените в интерфейса</string>
+    <string name="settings_parental_protect_desc">(прилага се 24/7)</string>
+    <string name="settings_parental_partial">Активиране на защитата само между</string>
+    <string name="settings_parental_start">Начален час (час:мин)</string>
+    <string name="settings_parental_end">Краен час (час:мин)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">Показване на информация при двукратно натискане на „Меню“</string>
+    <string name="settings_back_double">„Амбиентен режим“ при двукратно натискане на „Назад“</string>
+    <string name="settings_back_double_desc">Стартиране на скрийнсейвъра на поддържаните устройства</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">Включете услугата, за да изпълнявате действие при включване, да персонализирате бутоните на дистанционното, да засилите родителския контрол и да откривате бездействие за управление на захранването. Тя вижда натисканията на хардуерните бутони и името на приложението на преден план; и двете остават в паметта на това устройство и никога не се изпращат никъде.</string>
+    <string name="settings_a11y_enabled">Активирана</string>
+    <string name="settings_a11y_started">Стартирана</string>
+    <string name="settings_yes">Да</string>
+    <string name="settings_no">Не</string>
+    <string name="settings_a11y_open">Показване на настройките за достъпност</string>
+    <string name="settings_a11y_consent_title">Услуга за достъпност</string>
+    <string name="settings_a11y_consent">Това позволява на QLauncher да вижда натисканията на хардуерните бутони и името на приложението на преден план. И двете се пазят само в паметта на това устройство и никога не се изпращат никъде. Съгласни ли сте?</string>
+    <string name="settings_a11y_alternate">Използване на алтернативна конфигурация</string>
+    <string name="settings_a11y_alternate_desc">Отстранява проблеми на някои устройства</string>
+    <string name="settings_a11y_volume_fix">Поправка за бутоните за сила на звука</string>
+    <string name="settings_a11y_volume_fix_desc">Кратко спиране на пренасочването при натискане на бутон за сила на звука, така че продължителното натискане да продължи да работи</string>
+    <string name="settings_a11y_remap">Активиране на пренасочването на бутоните</string>
+    <string name="settings_a11y_remap_desc">Услугата прихваща натисканията на бутони. Изключването избягва проблеми с продължителното натискане на бутоните за сила на звука и спирането на услугата от системата, но замяната на лаунчера, родителският контрол и откриването на бездействие може да са по-малко ефективни.</string>
+    <string name="settings_a11y_reminder">Показване на напомняне</string>
+    <string name="settings_a11y_reminder_desc">Ако услугата за достъпност е изключена</string>
+    <string name="settings_a11y_unbound_toast">Услугата за достъпност на QLauncher не работи</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">Импортирайте или експортирайте настройки локално или чрез друго приложение, като LocalSend или файлов мениджър.</string>
+    <string name="settings_import">Импортиране</string>
+    <string name="settings_import_file">От файл</string>
+    <string name="settings_import_auto">От автоматично резервно копие</string>
+    <string name="settings_export">Експортиране</string>
+    <string name="settings_export_local">Запазване локално</string>
+    <string name="settings_export_share">Споделяне с друго приложение</string>
+    <string name="settings_reset">Възстановяване на стандартните</string>
+    <string name="settings_cancel">Отказ</string>
+    <string name="settings_ok">OK</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">Категория</string>
+    <string name="wp_custom_search">Собствено търсене</string>
+    <string name="wp_reddit_login">Вход</string>
+    <string name="wp_reddit_logout">Изход: %1$s</string>
+    <string name="wp_reddit_logout_unknown">Изход</string>
+    <string name="wp_subreddit">Субредит</string>
+    <string name="wp_custom_subreddit">Собствен субредит</string>
+    <string name="wp_custom_subreddit_hint">Няколко имена, разделени с +</string>
+    <string name="wp_folder">Папка</string>
+    <string name="wp_folder_choose">Изберете папка</string>
+    <string name="wp_media">Медиен файл</string>
+    <string name="wp_media_choose">Изберете файл</string>
+    <string name="wp_choose_other">Друго местоположение…</string>
+    <string name="wp_choose_other_desc">Избор със системния инструмент за избор на файлове</string>
+    <string name="wp_media_searching">Търсят се изображения и видеоклипове…</string>
+    <string name="wp_media_none">Няма намерени изображения или видеоклипове. Копирайте някои в Pictures, Movies или Download или включете USB устройство.</string>
+    <string name="wp_folders_description">Папки с изображения или видеоклипове на това устройство и на USB устройства.</string>
+    <string name="wp_folders_none">Няма намерени папки с изображения или видеоклипове</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d файл</item>
+        <item quantity="other">%d файла</item>
+    </plurals>
+    <string name="wp_media_color">Плътен цвят</string>
+    <string name="wp_theme_desc">Тапети, включени в импортираната тема</string>
+    <string name="wp_plugin_settings">Настройки на плъгина</string>
+    <string name="wp_not_set">Не е зададено</string>
+    <string name="wp_status">Състояние</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">Този тапет</string>
+    <string name="wp_next">Следващ</string>
+    <string name="wp_source">Източник</string>
+    <string name="wp_title">Заглавие</string>
+    <string name="wp_author">Автор</string>
+    <string name="wp_set_user">Задаване като потребителски тапет</string>
+    <string name="wp_view">Преглед</string>
+    <string name="wp_unknown">Неизвестно</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">Тук създавате и управлявате профилите на екрана. Свържете ги с входни източници, за да се сменят автоматично, или ги прилагайте, като натиснете два пъти „Меню“ и след това нагоре или надолу.</string>
+    <string name="dp_list">Списък с профили на екрана</string>
+    <string name="dp_list_desc">Тук създавате или редактирате профилите на екрана. В зависимост от устройството някои настройки изискват root или изобщо не работят; те са предназначени за устройства с AmLogic.</string>
+    <string name="dp_add">Добавяне на нов…</string>
+    <string name="dp_name">Име на профила</string>
+    <string name="dp_preview">Визуализация</string>
+    <string name="dp_fullscreen">Визуализация на цял екран</string>
+    <string name="dp_fullscreen_desc">или превключване с бутона „Меню“</string>
+    <string name="dp_delete">Изтриване на профила</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">Инсталиране на приложения от трети страни</string>
+    <string name="install_desc">Изберете приложение за инсталиране. Може първо да се наложи да разрешите инсталирането от неизвестни източници.</string>
+    <string name="install_custom">Собствен URL адрес / код за Downloader</string>
+    <string name="install_custom_desc">Използвайте само източник, на който имате доверие</string>
+    <string name="install_status">Състояние</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">Това устройство</string>
+
+    <string name="gallery_filter">Филтър…</string>
+    <string name="settings_no_file_picker">Това устройство няма инструмент за избор на файлове</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">Светлота</string>
+    <string name="color_opacity">Непрозрачност</string>
+    <string name="color_prefer_dynamic">Предпочитане на динамичен цвят</string>
+    <string name="color_prefer_dynamic_desc">Ако е наличен, ще запази тази светлота/непрозрачност</string>
+    <string name="color_clear">Изчистване</string>
+    <string name="color_reset">Възстановяване на стандартния</string>
+</resources>

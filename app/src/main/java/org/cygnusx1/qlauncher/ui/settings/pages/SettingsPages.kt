@@ -508,9 +508,64 @@ object SettingsPages {
     const val NAV_BACK = "<back>"
 }
 
-/** Locales with string files (English only for now). Empty tag = follow the system. */
+/**
+ * Locales with string files — the same set Electric Eel translates — as BCP-47 tag to the language's
+ * own name. Empty tag = follow the system. A tag carries a region where its res directory does
+ * (`fa-IR` → `values-fa-rIR`). `he` matches `values-he` and the legacy `values-iw` (identical
+ * copies), `id` the legacy `values-in`. `mo` (Moldovan) repeats Romanian, as Electric Eel's does.
+ */
 object Languages {
-    val all: List<Pair<String, String>> = listOf("" to "", "en" to "English")
+    val all: List<Pair<String, String>> = listOf(
+        "" to "",
+        "ar" to "العربية",
+        "az" to "Azərbaycan dili",
+        "bg" to "Български",
+        "ca" to "Català",
+        "cs" to "Čeština",
+        "da" to "Dansk",
+        "de" to "Deutsch",
+        "el" to "Ελληνικά",
+        "en" to "English",
+        "es" to "Español",
+        "et" to "Eesti",
+        "fa-IR" to "فارسی",
+        "fi" to "Suomi",
+        "fr" to "Français",
+        "gl-ES" to "Galego",
+        "he" to "עברית",
+        "hi" to "हिन्दी",
+        "hr" to "Hrvatski",
+        "hu" to "Magyar",
+        "hy" to "Հայերեն",
+        "id" to "Bahasa Indonesia",
+        "it" to "Italiano",
+        "ja" to "日本語",
+        "ka-GE" to "ქართული",
+        "ko" to "한국어",
+        "lt" to "Lietuvių",
+        "lv" to "Latviešu",
+        "mo" to "Moldovenească",
+        "ms" to "Bahasa Melayu",
+        "nb" to "Norsk bokmål",
+        "nl" to "Nederlands",
+        "pl" to "Polski",
+        "pt-BR" to "Português (Brasil)",
+        "pt-PT" to "Português (Portugal)",
+        "ro" to "Română",
+        "ru" to "Русский",
+        "sk" to "Slovenčina",
+        "sl" to "Slovenščina",
+        "sq" to "Shqip",
+        "sr" to "Српски",
+        "sv" to "Svenska",
+        "te" to "తెలుగు",
+        "th" to "ไทย",
+        "tr" to "Türkçe",
+        "uk" to "Українська",
+        "vi" to "Tiếng Việt",
+        "zh-CN" to "简体中文",
+        "zh-TW" to "繁體中文",
+    )
 }
 
 /** The accessibility service's "started" state, provided by the system subsystem. */

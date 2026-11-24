@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">เวอร์ชัน %1$s</string>
+    <string name="about_copyright">ลิขสิทธิ์ © 2026 ผู้ร่วมพัฒนา QLauncher ซอฟต์แวร์เสรีภายใต้ GNU General Public License เวอร์ชัน 3</string>
+    <string name="about_libs">ไลบรารี / เครดิต</string>
+    <string name="about_links">ลิงก์</string>
+    <string name="about_link_project">หน้าโครงการ</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">คำแปลภาษาไทย</string>
+    <string name="about_translation_credit">ผู้ร่วมพัฒนา QLauncher</string>
+    <string name="about_no_browser">ไม่มีเบราว์เซอร์ในอุปกรณ์นี้ เปิด %1$s ในอุปกรณ์อื่น</string>
+    <string name="about_check_updates">ตรวจสอบการอัปเดต</string>
+    <string name="about_update_checking">กำลังตรวจสอบ…</string>
+    <string name="about_update_latest">QLauncher เป็นเวอร์ชันล่าสุดแล้ว (%1$s)</string>
+    <string name="about_update_available">เวอร์ชัน %1$s พร้อมให้ใช้งานแล้ว</string>
+    <string name="about_update_failed">ตรวจสอบไม่ได้: %1$s</string>
+    <string name="about_update_install">ติดตั้ง QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s พร้อมให้ใช้งานแล้ว: การตั้งค่า › เกี่ยวกับ › QLauncher</string>
+</resources>

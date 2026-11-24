@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">הגדרות</string>
+    <string name="settings_breadcrumb_display">תצוגה</string>
+    <string name="settings_breadcrumb_applications">אפליקציות</string>
+    <string name="settings_breadcrumb_system">מערכת</string>
+    <string name="settings_breadcrumb_about">אודות</string>
+    <string name="settings_root_title">הגדרות QLauncher</string>
+    <string name="settings_root_description">קביעת ההגדרות של האפליקציה.</string>
+    <string name="settings_legend_a11y_required">נדרש שירות נגישות</string>
+    <string name="settings_legend_a11y_recommended">מומלץ שירות נגישות</string>
+    <string name="settings_legend_experimental">ניסיוני</string>
+    <string name="settings_launcher_related">הגדרות הקשורות למשגר</string>
+
+    <string name="settings_general">כללי</string>
+    <string name="settings_appearance">מראה</string>
+    <string name="settings_power">הפעלה וכיבוי</string>
+    <string name="settings_parental">בקרת הורים</string>
+    <string name="settings_remote">שלט רחוק</string>
+    <string name="settings_accessibility">שירות נגישות</string>
+    <string name="settings_display_profiles">פרופילי תצוגה</string>
+    <string name="settings_manage">ניהול הגדרות</string>
+
+    <!-- General -->
+    <string name="settings_language">שינוי שפת האפליקציה</string>
+    <string name="settings_language_system">ברירת המחדל של המערכת</string>
+    <string name="settings_default_launcher">שינוי משגר ברירת המחדל</string>
+    <string name="settings_default_launcher_unavailable">המכשיר הזה לא מציע דרך לשנות את משגר ברירת המחדל. במקום זאת, יש להשתמש ב\"עקיפת המשגר הנוכחי\".</string>
+    <string name="settings_override_home">עקיפת המשגר הנוכחי</string>
+    <string name="settings_override_home_desc">יירוט קריאות למשגר הנוכחי (שימושי אם אי אפשר לשנות או להסיר את המשגר המקורי)</string>
+    <string name="settings_enable_channels">הפעלת ערוצים</string>
+    <string name="settings_enable_channels_desc">אם לא משתמשים בהם, כיבוי האפשרות מאיץ את ההפעלה ומפחית את השימוש בזיכרון</string>
+    <string name="settings_programs_per_channel">תוכניות לכל ערוץ</string>
+    <string name="settings_crash_error_reports">הפעלת דיווח אנונימי על קריסות ושגיאות</string>
+    <string name="settings_reports_desc">נשלחים רק השגיאה, גרסת האפליקציה ודגם המכשיר</string>
+    <string name="settings_check_updates">בדיקת עדכונים</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">קטגוריות / ערוצים</string>
+    <string name="settings_cards">כרטיסים</string>
+    <string name="settings_wallpaper">טפט</string>
+    <string name="settings_status_bar">שורת הסטטוס</string>
+    <string name="settings_left_headers">כותרות צד</string>
+    <string name="settings_idle_mode">מצב סרק של המשגר</string>
+    <string name="settings_font">גופן</string>
+    <string name="settings_themes">ערכות נושא</string>
+    <string name="settings_themes_desc">ייבוא / ייצוא</string>
+    <string name="settings_load_cards_scrolling">טעינת כרטיסים בזמן גלילה</string>
+    <string name="settings_load_cards_scrolling_desc">תגובה מהירה יותר על חשבון החלקות</string>
+    <string name="settings_accent">צבע הדגשה</string>
+    <string name="settings_accent_desc">יש להפעיל את האפשרות הדינמית כדי שהצבע יתאים לטפט</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">הצגת כותרת</string>
+    <string name="settings_show_icon_title">הצגת סמל לפני הכותרת</string>
+    <string name="settings_rows_spacing">ריווח אנכי (% מגובה המסך)</string>
+    <string name="settings_fixed_position">קיבוע המיקום של הקטגוריה שבפוקוס</string>
+    <string name="settings_hide_rows_above">הסתרת השורות שמעל הבחירה</string>
+    <string name="settings_remember_focus">זכירת המיקום של הכרטיס שבפוקוס</string>
+    <string name="settings_unselected_opacity">אטימות השורות שלא נבחרו</string>
+    <string name="settings_top_margin">שוליים עליונים</string>
+    <string name="settings_start_margin">שוליים בהתחלה</string>
+    <string name="settings_end_margin">שוליים בסוף</string>
+    <string name="settings_dock_padding">ריפוד המעגן</string>
+    <string name="settings_tint_custom_icons">צביעת סמלים מותאמים אישית</string>
+    <string name="settings_tint_custom_icons_desc">לסמלים מותאמים אישית בלי רקע</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">פינות מעוגלות</string>
+    <string name="settings_cards_size">גודל הכרטיסים</string>
+    <string name="settings_cards_spacing">ריווח בין הכרטיסים</string>
+    <string name="settings_loop_limit">מגבלת לולאה לסמלים מונפשים</string>
+    <string name="settings_ripple">אפקט אדווה בלחיצה על כרטיס</string>
+    <string name="settings_background_color">צבע רקע</string>
+    <string name="settings_focused_card">הכרטיס שבפוקוס</string>
+    <string name="settings_program_cards">כרטיסי תוכניות</string>
+    <string name="settings_tv_ratio">יחס גובה-רוחב של כרטיסי אפליקציות טלוויזיה</string>
+    <string name="settings_mobile_ratio">יחס גובה-רוחב של כרטיסי אפליקציות לנייד</string>
+    <string name="settings_icon_pack">ערכת סמלים</string>
+    <string name="settings_icon_pack_none">לא מותקנת ערכת סמלים</string>
+    <string name="settings_icon_pack_off">ללא</string>
+    <string name="settings_more">עוד…</string>
+    <string name="settings_custom_icon_tint">צבע לסמלים מותאמים אישית</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">גודל הכרטיס שבפוקוס</string>
+    <string name="settings_focused_effect">אפקט הכרטיס שבפוקוס</string>
+    <string name="settings_effect_none">ללא</string>
+    <string name="settings_effect_shadow">הטלת צל</string>
+    <string name="settings_effect_glow">זוהר</string>
+    <string name="settings_glow_animation">הנפשת זוהר</string>
+    <string name="settings_anim_none">ללא</string>
+    <string name="settings_anim_pulse">פעימה</string>
+    <string name="settings_anim_breath">נשימה</string>
+    <string name="settings_anim_fade">דהייה</string>
+    <string name="settings_anim_shine">ברק</string>
+    <string name="settings_glow_size">גודל הזוהר</string>
+    <string name="settings_glow_color">צבע הזוהר</string>
+    <string name="settings_glow_color_desc">יש להשאיר ריק כדי להשתמש בצבע של הכרטיס עצמו</string>
+    <string name="settings_colors_override">עקיפת צבעים</string>
+    <string name="settings_override_none">ללא</string>
+    <string name="settings_override_swap">החלפה בין רקע/צביעה</string>
+    <string name="settings_override_custom">מותאם אישית</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">הפעלת סרטון תצוגה מקדימה</string>
+    <string name="settings_preview_never">אף פעם</string>
+    <string name="settings_preview_always">תמיד</string>
+    <string name="settings_preview_no_media">כשלא מתנגנת מדיה ברקע</string>
+    <string name="settings_show_progress">הצגת סרגל התקדמות</string>
+    <string name="settings_show_badge">הצגת תג</string>
+    <string name="settings_zoom_focus">אפקט זום בפוקוס</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">פורמטים נתמכים: תמונת סטילס, GIF מונפש, וידאו (קובץ סטטי או שידור חי ב-RTSP), הנפשת Lottie</string>
+    <string name="settings_launcher_wallpaper">טפט המשגר</string>
+    <string name="settings_configure">הגדרה</string>
+    <string name="settings_show_wallpapers">הצגת טפטים</string>
+    <string name="settings_picture_adjustment">כוונון תמונה</string>
+    <string name="settings_image_transition">מעבר בין תמונות</string>
+    <string name="settings_update_frequency">תדירות עדכון (בדקות)</string>
+    <string name="settings_video_wallpaper">טפט וידאו</string>
+    <string name="settings_display_mode">מצב תצוגה</string>
+    <string name="settings_bad_ratio">ביחס/איכות לא מתאימים</string>
+    <string name="settings_min_width">רוחב מינימלי מקובל (בפיקסלים)</string>
+    <string name="settings_src_none">ללא</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">צבעים דינמיים</string>
+    <string name="settings_src_default">טפט ברירת מחדל</string>
+    <string name="settings_src_media">קובץ מדיה</string>
+    <string name="settings_src_folder">תיקייה</string>
+    <string name="settings_src_focused_program">התוכנית שבפוקוס</string>
+    <string name="settings_src_now_playing">מתנגן עכשיו</string>
+    <string name="settings_src_random_program">תוכנית אקראית</string>
+    <string name="settings_src_theme">ערכת נושא</string>
+    <string name="settings_tr_none">ללא</string>
+    <string name="settings_tr_random">אקראי</string>
+    <string name="settings_tr_fade">דהייה</string>
+    <string name="settings_tr_zoom">זום</string>
+    <string name="settings_tr_hslide">החלקה אופקית</string>
+    <string name="settings_tr_vslide">החלקה אנכית</string>
+    <string name="settings_dm_automatic">אוטומטי</string>
+    <string name="settings_dm_skip">דילוג</string>
+    <string name="settings_dm_crop">חיתוך</string>
+    <string name="settings_dm_stretch">מתיחה</string>
+    <string name="settings_dm_fit">התאמה למרכז</string>
+    <string name="settings_dm_fit_blur">התאמה למרכז + רקע מטושטש</string>
+    <string name="settings_dm_blur">טשטוש</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">גוון</string>
+    <string name="settings_saturation">רוויה</string>
+    <string name="settings_contrast">ניגודיות</string>
+    <string name="settings_brightness">בהירות</string>
+    <string name="settings_tint">צביעה</string>
+    <string name="settings_tint_amount">עוצמת הצביעה</string>
+    <string name="settings_blur">טשטוש</string>
+    <string name="settings_shadow_h">אורך שכבת הצל האופקית</string>
+    <string name="settings_shadow_v">אורך שכבת הצל האנכית</string>
+    <string name="settings_shadow_opacity">אטימות שכבת הצל</string>
+    <string name="settings_shadow_tint">צביעת שכבת הצל</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">התעלמות מתדירות העדכון</string>
+    <string name="settings_ignore_update_desc">המתנה לסיום הסרטון לפני בקשת טפט חדש</string>
+    <string name="settings_video_color_freq">תדירות עדכון הצבע הדינמי</string>
+    <string name="settings_video_color_freq_desc">שניות בין פריימי וידאו שמהם נקראים הצבעים; 0 מכבה את האפשרות</string>
+    <string name="settings_volume">עוצמת קול</string>
+    <string name="settings_tunneling">שימוש בעיבוד חומרה (מנהור)</string>
+    <string name="settings_decoder_fallback">הפעלת מפענחים חלופיים</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">ניהול הרשאת התראות</string>
+    <string name="settings_granted">ניתנה</string>
+    <string name="settings_not_granted">לא ניתנה</string>
+    <string name="settings_notification_adb">אין מסך הגדרות במכשיר הזה. אפשר לתת אותה באמצעות: %1$s</string>
+    <string name="settings_clock">שעון</string>
+    <string name="settings_icons">סמלים</string>
+    <string name="settings_show_system_bar">הצגת שורת הסטטוס של המערכת</string>
+    <string name="settings_autohide_status">הסתרת שורת הסטטוס בגלילה</string>
+    <string name="settings_show_clock">הצגת שעון</string>
+    <string name="settings_clock_size">גודל גופן השעון</string>
+    <string name="settings_clock_color">צבע השעון</string>
+    <string name="settings_drop_shadow">הטלת צל</string>
+    <string name="settings_clock_line1">תבנית השעון (שורה 1)</string>
+    <string name="settings_clock_line2">תבנית השעון (שורה 2)</string>
+    <string name="settings_clock_default_format">תבנית המערכת</string>
+    <string name="settings_empty">ריק</string>
+    <string name="settings_icons_size">גודל הסמלים</string>
+    <string name="settings_icons_color">צבע הסמלים</string>
+    <string name="settings_icons_container">צבע המכל של הסמלים</string>
+    <string name="settings_show_settings">הצגת הגדרות</string>
+    <string name="settings_show_settings_desc">ההגדרות נשארות נגישות עם רצף הלחצנים הזה: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">הצגת קישוריות</string>
+    <string name="settings_show_notifications">הצגת התראות</string>
+    <string name="settings_autohide_notifications">הסתרת סמל ההתראות כשאין התראות</string>
+    <string name="settings_show_battery">הצגת סוללה</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">הפעלה</string>
+    <string name="settings_headers_on_launch">הצגת כותרות הצד בהפעלה</string>
+    <string name="settings_show_icon">הצגת סמל</string>
+    <string name="settings_show_reorder">הצגת שינוי סדר</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">זמן עד למצב סרק (בדקות)</string>
+    <string name="settings_idle_opacity">אטימות הממשק</string>
+    <string name="settings_keep_clock">השארת השעון</string>
+    <string name="settings_prevent_screensaver">מניעת שומר המסך של המערכת</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">שינוי הגדרות הגופן של QLauncher. אפשר לחפש שמות של משפחות גופנים ב-Google Fonts.</string>
+    <string name="settings_font_list">בחירה מרשימה</string>
+    <string name="settings_font_google">גופן (Google Fonts)</string>
+    <string name="settings_font_default">ברירת מחדל</string>
+    <string name="settings_bold">מודגש</string>
+    <string name="settings_italic">נטוי</string>
+    <string name="settings_size">גודל</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">הפעלה אוטומטית באתחול</string>
+    <string name="settings_autostart_none">ללא</string>
+    <string name="settings_autostart_screensaver">[*] שומר מסך (אם נתמך)</string>
+    <string name="settings_autostart_resume">…וגם ביציאה ממצב המתנה</string>
+    <string name="settings_autostart_delay">השהיית הפעלה אוטומטית (בשניות)</string>
+    <string name="settings_simulate_activity">מניעת כיבוי אוטומטי של המערכת בזמן חוסר פעילות</string>
+    <string name="settings_idle_detection">הפעלת זיהוי פנימי של חוסר פעילות</string>
+    <string name="settings_idle_timeout_power">זמן קצוב לחוסר פעילות (שעה:דקה)</string>
+    <string name="settings_idle_action">פעולה בחוסר פעילות</string>
+    <string name="settings_idle_action_shutdown">כיבוי</string>
+    <string name="settings_idle_action_screen_off">כיבוי המסך</string>
+    <string name="settings_idle_action_screensaver">שומר מסך (אם נתמך)</string>
+    <string name="settings_idle_media">התעלמות מחוסר פעילות בזמן הפעלת מדיה</string>
+    <string name="settings_missing_notification_permission">⚠️ חסרה הרשאת התראות</string>
+    <string name="settings_shutdown_action">פעולת כיבוי</string>
+    <string name="settings_shutdown_dialog">תפריט ההפעלה</string>
+    <string name="settings_shutdown_dialog_twice">תפריט ההפעלה (קריאה כפולה)</string>
+    <string name="settings_shutdown_dialog_ok">תפריט ההפעלה + OK</string>
+    <string name="settings_hdmi_exit">כיבוי אוטומטי כשאות כניסת ה-HDMI נפסק</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">הגדרת קוד לנעילת אפליקציות נבחרות (לחיצה ארוכה על כרטיס במסך הבית בוחרת אותן), לאורך כל היום או לחלק ממנו</string>
+    <string name="settings_parental_set_code">הגדרת קוד חדש לבקרת הורים</string>
+    <string name="settings_parental_code_set">הוגדר קוד</string>
+    <string name="settings_parental_long">ללא בקשת קוד במשך 15 דקות אחרי אימות מוצלח</string>
+    <string name="settings_parental_protect">הגנה על הגדרות המשגר ועל שינויים בממשק</string>
+    <string name="settings_parental_protect_desc">(חלה 24/7)</string>
+    <string name="settings_parental_partial">הפעלת הגנה רק בין</string>
+    <string name="settings_parental_start">שעת התחלה (שעה:דקה)</string>
+    <string name="settings_parental_end">שעת סיום (שעה:דקה)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">הצגת מידע בלחיצה כפולה על \"תפריט\"</string>
+    <string name="settings_back_double">\"מצב אווירה\" בלחיצה כפולה על \"חזרה\"</string>
+    <string name="settings_back_double_desc">הפעלת שומר המסך במכשירים נתמכים</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">הפעלת השירות מאפשרת להריץ פעולה באתחול, להתאים אישית את לחצני השלט, לחזק את בקרת ההורים ולזהות חוסר פעילות לשליטה בצריכת החשמל. השירות רואה לחיצות על מקשי החומרה ואת שם האפליקציה שבחזית; שני הנתונים נשארים בזיכרון במכשיר הזה ולעולם לא נשלחים לשום מקום.</string>
+    <string name="settings_a11y_enabled">מופעל</string>
+    <string name="settings_a11y_started">פועל</string>
+    <string name="settings_yes">כן</string>
+    <string name="settings_no">לא</string>
+    <string name="settings_a11y_open">הצגת הגדרות הנגישות</string>
+    <string name="settings_a11y_consent_title">שירות נגישות</string>
+    <string name="settings_a11y_consent">זה מאפשר ל-QLauncher לראות לחיצות על לחצני החומרה ואת שם האפליקציה שבחזית. שני הנתונים נשמרים בזיכרון במכשיר הזה בלבד ולעולם לא נשלחים לשום מקום. לאשר?</string>
+    <string name="settings_a11y_alternate">שימוש בתצורה חלופית</string>
+    <string name="settings_a11y_alternate_desc">פותר בעיות בחלק מהמכשירים</string>
+    <string name="settings_a11y_volume_fix">תיקון לחצני עוצמת הקול</string>
+    <string name="settings_a11y_volume_fix_desc">הפסקה קצרה של המיפוי מחדש בלחיצה על עוצמת הקול, כדי שלחיצות ארוכות ימשיכו לעבוד</string>
+    <string name="settings_a11y_remap">הפעלת מיפוי מחדש של לחצנים</string>
+    <string name="settings_a11y_remap_desc">השירות מיירט לחיצות על מקשים. כיבוי האפשרות מונע בעיות בלחיצה ארוכה על עוצמת הקול ואת עצירת השירות על ידי המערכת, אבל עקיפת המשגר, בקרת ההורים וזיהוי חוסר הפעילות עלולים להיות פחות יעילים.</string>
+    <string name="settings_a11y_reminder">הצגת תזכורת</string>
+    <string name="settings_a11y_reminder_desc">אם שירות הנגישות כבוי</string>
+    <string name="settings_a11y_unbound_toast">שירות הנגישות של QLauncher לא פועל</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">ייבוא או ייצוא של הגדרות באופן מקומי, או עם אפליקציה אחרת כמו LocalSend או מנהל קבצים.</string>
+    <string name="settings_import">ייבוא</string>
+    <string name="settings_import_file">מקובץ</string>
+    <string name="settings_import_auto">מגיבוי אוטומטי</string>
+    <string name="settings_export">ייצוא</string>
+    <string name="settings_export_local">שמירה מקומית</string>
+    <string name="settings_export_share">שיתוף עם אפליקציה אחרת</string>
+    <string name="settings_reset">איפוס לברירת המחדל</string>
+    <string name="settings_cancel">ביטול</string>
+    <string name="settings_ok">אישור</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">קטגוריה</string>
+    <string name="wp_custom_search">חיפוש מותאם אישית</string>
+    <string name="wp_reddit_login">התחברות</string>
+    <string name="wp_reddit_logout">התנתקות: %1$s</string>
+    <string name="wp_reddit_logout_unknown">התנתקות</string>
+    <string name="wp_subreddit">קהילת Reddit</string>
+    <string name="wp_custom_subreddit">קהילה מותאמת אישית</string>
+    <string name="wp_custom_subreddit_hint">כמה שמות מופרדים ב-+</string>
+    <string name="wp_folder">תיקייה</string>
+    <string name="wp_folder_choose">בחירת תיקייה</string>
+    <string name="wp_media">קובץ מדיה</string>
+    <string name="wp_media_choose">בחירת קובץ</string>
+    <string name="wp_choose_other">מיקום אחר…</string>
+    <string name="wp_choose_other_desc">בחירה בבורר הקבצים של המערכת</string>
+    <string name="wp_media_searching">מחפש תמונות וסרטונים…</string>
+    <string name="wp_media_none">לא נמצאו תמונות או סרטונים. אפשר להעתיק כאלה ל-Pictures, ל-Movies או ל-Download, או לחבר כונן USB.</string>
+    <string name="wp_folders_description">תיקיות עם תמונות או סרטונים, במכשיר הזה ובכונני USB.</string>
+    <string name="wp_folders_none">לא נמצאו תיקיות עם תמונות או סרטונים</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="one">%d קובץ</item>
+        <item quantity="two">%d קבצים</item>
+        <item quantity="other">%d קבצים</item>
+    </plurals>
+    <string name="wp_media_color">צבע אחיד</string>
+    <string name="wp_theme_desc">טפטים שמגיעים עם ערכת הנושא המיובאת</string>
+    <string name="wp_plugin_settings">הגדרות התוסף</string>
+    <string name="wp_not_set">לא הוגדר</string>
+    <string name="wp_status">סטטוס</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">הטפט הזה</string>
+    <string name="wp_next">הבא</string>
+    <string name="wp_source">מקור</string>
+    <string name="wp_title">כותרת</string>
+    <string name="wp_author">יוצר</string>
+    <string name="wp_set_user">הגדרה כטפט המשתמש</string>
+    <string name="wp_view">הצגה</string>
+    <string name="wp_unknown">לא ידוע</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">כאן יוצרים ומנהלים פרופילי תצוגת וידאו. אפשר לשייך אותם למקורות קלט כדי שיוחלפו אוטומטית, או להחיל אותם בלחיצה כפולה על \"תפריט\" ואז למעלה או למטה.</string>
+    <string name="dp_list">רשימת פרופילי תצוגה</string>
+    <string name="dp_list_desc">כאן יוצרים או עורכים פרופילי תצוגת וידאו. בהתאם למכשיר, חלק מהפקדים דורשים הרשאת Root או לא עובדים בכלל; הם מיועדים למכשירי AmLogic.</string>
+    <string name="dp_add">הוספת חדש…</string>
+    <string name="dp_name">שם הפרופיל</string>
+    <string name="dp_preview">תצוגה מקדימה</string>
+    <string name="dp_fullscreen">תצוגה מקדימה במסך מלא</string>
+    <string name="dp_fullscreen_desc">או החלפת מצב עם לחצן התפריט</string>
+    <string name="dp_delete">מחיקת הפרופיל</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">התקנת אפליקציות צד שלישי</string>
+    <string name="install_desc">יש לבחור אפליקציה להתקנה. ייתכן שקודם יהיה צורך לאשר התקנות ממקורות לא ידועים.</string>
+    <string name="install_custom">כתובת URL מותאמת אישית / קוד Downloader</string>
+    <string name="install_custom_desc">יש להשתמש רק במקור מהימן</string>
+    <string name="install_status">סטטוס</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">המכשיר הזה</string>
+
+    <string name="gallery_filter">סינון…</string>
+    <string name="settings_no_file_picker">אין בורר קבצים במכשיר הזה</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">בהירות</string>
+    <string name="color_opacity">אטימות</string>
+    <string name="color_prefer_dynamic">העדפת צבע דינמי</string>
+    <string name="color_prefer_dynamic_desc">אם זמין, הבהירות/האטימות האלה יישמרו</string>
+    <string name="color_clear">ניקוי</string>
+    <string name="color_reset">איפוס לברירת המחדל</string>
+</resources>

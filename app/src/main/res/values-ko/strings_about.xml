@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">버전 %1$s</string>
+    <string name="about_copyright">Copyright © 2026 QLauncher 기여자. GNU General Public License 버전 3에 따른 자유 소프트웨어입니다.</string>
+    <string name="about_libs">라이브러리 / 크레딧</string>
+    <string name="about_links">링크</string>
+    <string name="about_link_project">프로젝트 페이지</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">한국어 번역</string>
+    <string name="about_translation_credit">QLauncher 기여자</string>
+    <string name="about_no_browser">이 기기에 브라우저가 없습니다. 다른 기기에서 %1$s을(를) 여세요.</string>
+    <string name="about_check_updates">업데이트 확인</string>
+    <string name="about_update_checking">확인 중…</string>
+    <string name="about_update_latest">QLauncher가 최신 버전입니다 (%1$s)</string>
+    <string name="about_update_available">%1$s 버전을 사용할 수 있습니다</string>
+    <string name="about_update_failed">확인할 수 없음: %1$s</string>
+    <string name="about_update_install">QLauncher %1$s 설치</string>
+    <string name="update_available_toast">QLauncher %1$s 버전을 사용할 수 있습니다: 설정 › 정보 › QLauncher</string>
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">پیش‌فرض</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">پررنگ</string>
+    <string name="backup_clock_markup_italic">مورب</string>
+    <string name="backup_clock_markup_underline">زیرخط‌دار</string>
+    <string name="backup_clock_markup_strikethrough">خط‌خورده</string>
+    <string name="backup_clock_markup_subscript">زیرنویس</string>
+    <string name="backup_clock_markup_superscript">بالانویس</string>
+    <string name="backup_clock_markup_half_size">نصف اندازه</string>
+    <string name="backup_clock_markup_one_and_a_half_size">یک و نیم برابر</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">برش سیاه</string>
+    <string name="backup_pattern_apl_clipping">برش APL</string>
+    <string name="backup_pattern_white_clipping">برش سفید</string>
+    <string name="backup_pattern_grayscale_ramp">شیب خاکستری</string>
+    <string name="backup_pattern_grayscale_steps">پله‌های خاکستری</string>
+    <string name="backup_pattern_dynamic_brightness">روشنایی پویا</string>
+    <string name="backup_pattern_color_steps">پله‌های رنگی</string>
+    <string name="backup_pattern_color_clipping">برش رنگ</string>
+    <string name="backup_pattern_flashing_color_bars">نوارهای رنگی چشمک‌زن</string>
+    <string name="backup_pattern_sharpness_overscan">وضوح &amp; اوراسکن</string>
+    <string name="backup_pattern_uhd">الگوی UHD</string>
+    <string name="backup_pattern_judder">آزمون لرزش تصویر</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] وضوح نسبت تصویر</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] سطح سیاهی</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] برش رنگ 240–1000 نیت</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] برش رنگ 3600–10000 نیت</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] برش رنگ 700–10000 نیت</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] برش رنگ 900–4000 نیت</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] شیب خاکستری 10000 نیت</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] شیب خاکستری 1000 نیت</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] شیب خاکستری 4000 نیت</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE سیاه</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] شیب‌های رنگی</string>
+    <string name="backup_pattern_unavailable">الگوی %1$s به مسیر ویدیوی HDR نیاز دارد و هنوز در دسترس نیست</string>
+    <!-- Pages -->
+    <string name="backup_settings">تنظیمات</string>
+    <string name="backup_manage_settings">مدیریت تنظیمات</string>
+    <string name="backup_themes">تم‌ها</string>
+    <string name="backup_import">وارد کردن</string>
+    <string name="backup_export">صادر کردن</string>
+    <string name="backup_import_from_file">از مدیر فایل</string>
+    <string name="backup_import_from_auto">از پشتیبان خودکار</string>
+    <string name="backup_export_save">ذخیره در دستگاه</string>
+    <string name="backup_export_share">اشتراک‌گذاری با برنامه دیگر</string>
+    <string name="backup_reset">بازنشانی به پیش‌فرض</string>
+    <string name="backup_cancel">لغو</string>
+    <string name="backup_ok">تأیید</string>
+    <string name="backup_done">تمام</string>
+    <string name="backup_close">بستن</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">صادر کردن تنظیمات</string>
+    <string name="backup_export_theme_title">صادر کردن تم</string>
+    <string name="backup_export_description">همه‌چیز در یک فایل ذخیره می‌شود که با گذرواژه‌ای به انتخاب شما (دست‌کم %1$d نویسه) رمزگذاری شده است. برای وارد کردن فایل به این گذرواژه نیاز دارید و بازیابی آن ممکن نیست.</string>
+    <string name="backup_export_theme_description">تنظیمات ظاهری و کاغذدیواری فعلی در یک فایل ذخیره می‌شوند که با گذرواژه‌ای به انتخاب شما (دست‌کم %1$d نویسه) رمزگذاری شده است. برای وارد کردن تم به این گذرواژه نیاز دارید.</string>
+    <string name="backup_password">گذرواژه</string>
+    <string name="backup_password_show">نمایش گذرواژه</string>
+    <string name="backup_password_hide">پنهان کردن گذرواژه</string>
+    <string name="backup_password_strength">قدرت گذرواژه</string>
+    <string name="backup_strength_too_short">خیلی کوتاه: دست‌کم %1$d نویسه</string>
+    <string name="backup_strength_weak">ضعیف: به‌راحتی حدس زده می‌شود</string>
+    <string name="backup_strength_fair">متوسط</string>
+    <string name="backup_strength_strong">قوی</string>
+    <string name="backup_password_too_short">گذرواژه باید دست‌کم %1$d نویسه داشته باشد</string>
+    <string name="backup_exporting">در حال صادر کردن…</string>
+    <string name="backup_export_saved">در %1$s ذخیره شد</string>
+    <string name="backup_export_kept">جای دیگری ذخیره نشد. فایل در %1$s می‌ماند</string>
+    <string name="backup_export_shared">فرستاده شد. یک نسخه در %1$s می‌ماند</string>
+    <string name="backup_export_no_file_manager">هیچ برنامه‌ای در این دستگاه نمی‌تواند فایل را دریافت کند. فایل در %1$s است</string>
+    <string name="backup_export_failed">صادر کردن ناموفق بود: %1$s</string>
+    <string name="backup_share_title">فرستادن فایل QLauncher با</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">وارد کردن، پیکربندی فعلی شما را جایگزین می‌کند. ابتدا یک پشتیبان خودکار نوشته می‌شود و پس از پایان کار، QLauncher دوباره راه‌اندازی می‌شود.</string>
+    <string name="backup_reading">در حال خواندن فایل…</string>
+    <string name="backup_import_action">وارد کردن</string>
+    <string name="backup_wrong_password">گذرواژه نادرست است</string>
+    <string name="backup_password_hint">گذرواژه‌ای که هنگام صادر کردن فایل انتخاب شد</string>
+    <string name="backup_not_a_backup">این فایل پشتیبان یا تم QLauncher یا Projectivy نیست.</string>
+    <string name="backup_damaged">فایل آسیب‌دیده یا ناقص است.</string>
+    <string name="backup_too_new">این فایل با نسخه جدیدتری از QLauncher ساخته شده است (قالب %1$d). برای وارد کردن آن، QLauncher را به‌روزرسانی کنید.</string>
+    <string name="backup_unreadable">این پشتیبان خودکار در این دستگاه قابل خواندن نیست.</string>
+    <string name="backup_import_failed">وارد کردن ناموفق بود و چیزی تغییر نکرد: %1$s</string>
+    <string name="backup_applying">در حال وارد کردن… پس از پایان کار، QLauncher دوباره راه‌اندازی می‌شود.</string>
+    <string name="backup_origin_ql_backup">پشتیبان تنظیمات QLauncher</string>
+    <string name="backup_origin_ql_theme">تم QLauncher</string>
+    <string name="backup_origin_pl_backup">پشتیبان تنظیمات Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">تم Projectivy Launcher</string>
+    <string name="backup_origin_auto">پشتیبان خودکار</string>
+    <string name="backup_preview_theme_by">%1$s، اثر %2$s</string>
+    <string name="backup_preview_version">نسخه %1$s</string>
+    <string name="backup_preview_settings">تنظیمات</string>
+    <string name="backup_preview_categories">دسته‌ها</string>
+    <string name="backup_preview_apps">سفارشی‌سازی برنامه‌ها</string>
+    <string name="backup_preview_profiles">نمایه‌های نمایشگر</string>
+    <string name="backup_preview_files">کاغذدیواری‌ها و نمادها</string>
+    <string name="backup_preview_skipped">برنامه‌هایی که در این دستگاه نیستند</string>
+    <string name="backup_replace_setup">جایگزینی پیکربندی فعلی</string>
+    <string name="backup_apply_theme">اعمال تم</string>
+    <string name="backup_replace_detail">ابتدا یک پشتیبان خودکار از پیکربندی فعلی نوشته می‌شود</string>
+    <string name="backup_nc_parental">کد والدین</string>
+    <string name="backup_nc_parental_detail">منتقل نمی‌شود. در «کنترل والدین» کد جدیدی تنظیم کنید.</string>
+    <string name="backup_nc_premium">وضعیت نسخه ویژه</string>
+    <string name="backup_nc_premium_detail">منتقل نمی‌شود. همه قابلیت‌های QLauncher رایگان است.</string>
+    <string name="backup_nc_inputs">ورودی‌های تلویزیون</string>
+    <string name="backup_nc_profile_bindings">پیوند نمایه‌های نمایشگر</string>
+    <string name="backup_nc_plugin">افزونه کاغذدیواری</string>
+    <string name="backup_nc_plugin_detail">افزونه %1$s نصب نیست. منبع کاغذدیواری بدون تغییر می‌ماند.</string>
+    <string name="backup_nc_icons">نمادهای سفارشی</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d مقدار تغییریافته</item>
+        <item quantity="other">%1$d مقدار تغییریافته</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d دسته</item>
+        <item quantity="other">%1$d دسته</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d برنامه</item>
+        <item quantity="other">%1$d برنامه</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d نمایه</item>
+        <item quantity="other">%1$d نمایه</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d فایل</item>
+        <item quantity="other">%1$d فایل</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d تنظیم ناشناخته، نادیده گرفته شد</item>
+        <item quantity="other">%1$d تنظیم ناشناخته، نادیده گرفته شدند</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d مورد با هیچ برنامه نصب‌شده‌ای در اینجا مطابقت ندارد و نادیده گرفته می‌شود</item>
+        <item quantity="other">%1$d مورد با هیچ برنامه نصب‌شده‌ای در اینجا مطابقت ندارند و نادیده گرفته می‌شوند</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d پیوند به ورودی تلویزیونی که این دستگاه ندارد، نادیده گرفته می‌شود</item>
+        <item quantity="other">%1$d پیوند به ورودی‌های تلویزیونی که این دستگاه ندارد، نادیده گرفته می‌شوند</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d نمایه اختصاص‌یافته به یک ورودی منتقل نمی‌شود</item>
+        <item quantity="other">%1$d نمایه اختصاص‌یافته به ورودی‌ها منتقل نمی‌شوند</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d نماد ذخیره‌شده در Projectivy قابل خواندن نیست و نادیده گرفته می‌شود</item>
+        <item quantity="other">%1$d نماد ذخیره‌شده در Projectivy قابل خواندن نیستند و نادیده گرفته می‌شوند</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">پشتیبان‌های خودکار</string>
+    <string name="backup_auto_description">برنامه QLauncher آخرین %1$d نسخه از پیکربندی شما را در این دستگاه نگه می‌دارد، رمزگذاری‌شده با کلیدی که هرگز از دستگاه خارج نمی‌شود. برای بازیابی، یکی را انتخاب کنید؛ گذرواژه لازم نیست.</string>
+    <string name="backup_auto_none">هیچ پشتیبان خودکاری موجود نیست</string>
+    <string name="backup_files_title">فایل‌های پشتیبان</string>
+    <string name="backup_files_theme_title">فایل‌های تم</string>
+    <string name="backup_files_description">فایل‌های صادرشده در %1$s ذخیره می‌شوند. با دسترسی به همه فایل‌ها، QLauncher پشتیبان‌ها را در Download و Documents و درایوهای USB نیز پیدا می‌کند، از جمله پشتیبان‌های Projectivy را.</string>
+    <string name="backup_files_searching">در حال جستجوی فایل‌های پشتیبان…</string>
+    <string name="backup_files_none">هیچ فایل پشتیبانی پیدا نشد</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">پوشه QLauncher</string>
+    <string name="backup_files_access">یافتن پشتیبان‌های برنامه‌ها و دستگاه‌های دیگر</string>
+    <string name="backup_files_access_desc">اجازه دسترسی به همه فایل‌ها</string>
+    <string name="backup_files_access_unavailable">این دستگاه صفحه تنظیمات مربوط را ندارد. دسترسی به همه فایل‌ها را با این فرمان مجاز کنید: %1$s</string>
+    <string name="backup_files_browse">مکان دیگر…</string>
+    <string name="backup_files_browse_desc">انتخاب فایل با انتخابگر فایل سیستم</string>
+    <string name="backup_auto_delete_all">حذف همه</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">پس از یک تغییر</string>
+    <string name="backup_reason_import">پیش از وارد کردن</string>
+    <string name="backup_reason_migration">پیش از به‌روزرسانی</string>
+    <string name="backup_reason_reset">پیش از بازنشانی</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">نمایه #</string>
+    <string name="backup_no_picture_manager">هیچ مدیر تصویری بارگذاری نشده است</string>
+    <string name="backup_no_picture_manager_detail">این دستگاه هیچ روش پشتیبانی‌شده‌ای برای تغییر تنظیمات تصویر ندارد، بنابراین نمایه‌ها مقادیر خود را نگه می‌دارند بی‌آنکه اعمالشان کنند.</string>
+</resources>

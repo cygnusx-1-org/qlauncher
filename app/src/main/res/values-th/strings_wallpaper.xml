@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">ไม่มี</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">สีแบบไดนามิก</string>
+    <string name="wallpaper_provider_default">วอลเปเปอร์เริ่มต้น</string>
+    <string name="wallpaper_provider_media_file">ไฟล์สื่อ</string>
+    <string name="wallpaper_provider_folder">โฟลเดอร์</string>
+    <string name="wallpaper_provider_focused_program">รายการที่โฟกัสอยู่</string>
+    <string name="wallpaper_provider_now_playing">กำลังเล่น</string>
+    <string name="wallpaper_provider_random_program">รายการแบบสุ่ม</string>
+    <string name="wallpaper_provider_theme">ธีม</string>
+    <string name="wallpaper_provider_unknown_plugin">ปลั๊กอิน</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">วอลเปเปอร์</string>
+    <string name="wallpaper_wikimedia_nature">ธรรมชาติ</string>
+    <string name="wallpaper_wikimedia_landscapes">ภูมิทัศน์</string>
+    <string name="wallpaper_wikimedia_mountains">ภูเขา</string>
+    <string name="wallpaper_wikimedia_forests">ป่าไม้</string>
+    <string name="wallpaper_wikimedia_cities">เมือง</string>
+    <string name="wallpaper_wikimedia_architecture">สถาปัตยกรรม</string>
+    <string name="wallpaper_wikimedia_night">กลางคืน</string>
+    <string name="wallpaper_wikimedia_space">อวกาศ</string>
+    <string name="wallpaper_wikimedia_animals">สัตว์</string>
+    <string name="wallpaper_wikimedia_custom">[ค้นหาแบบกำหนดเอง]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[subreddit ที่กำหนดเอง]</string>
+    <string name="wallpaper_reddit_log_out">ออกจากระบบ</string>
+    <string name="wallpaper_reddit_login_needed">ลงชื่อเข้าใช้ Reddit เพื่อดูวอลเปเปอร์จาก Reddit</string>
+    <string name="wallpaper_reddit_login_title">ลงชื่อเข้าใช้ Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">กำลังลงชื่อเข้าใช้…</string>
+    <string name="wallpaper_reddit_login_denied">ไม่ได้รับสิทธิ์เข้าถึง Reddit วอลเปเปอร์จาก Reddit จึงยังใช้งานไม่ได้</string>
+    <string name="wallpaper_reddit_login_state_mismatch">การตอบกลับจาก Reddit ไม่ตรงกับการลงชื่อเข้าใช้ครั้งนี้และถูกละเว้น โปรดลองอีกครั้ง</string>
+    <string name="wallpaper_reddit_login_failed">ลงชื่อเข้าใช้ Reddit ไม่สำเร็จ (%1$s) โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="wallpaper_reddit_login_network">ติดต่อ Reddit ไม่ได้ ตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="wallpaper_reddit_login_page_error">โหลดหน้าลงชื่อเข้าใช้ Reddit ไม่ได้ ตรวจสอบการเชื่อมต่อเครือข่ายแล้วลองอีกครั้ง</string>
+    <string name="wallpaper_reddit_no_webview">อุปกรณ์นี้ไม่มีคอมโพเนนต์เว็บเบราว์เซอร์ (Android System WebView) ซึ่งจำเป็นสำหรับการลงชื่อเข้าใช้ Reddit ติดตั้งหรือเปิดใช้ Android System WebView แล้วลองอีกครั้ง</string>
+    <string name="wallpaper_reddit_retry">ลองอีกครั้ง</string>
+    <string name="wallpaper_reddit_close">ปิด</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">ไม่มีการเชื่อมต่อกับแหล่งวอลเปเปอร์</string>
+    <string name="wallpaper_error_server">แหล่งวอลเปเปอร์ตอบกลับด้วยข้อผิดพลาด</string>
+    <string name="wallpaper_error_rate_limited">แหล่งวอลเปเปอร์ขอให้รอก่อนส่งคำขอถัดไป</string>
+    <string name="wallpaper_error_generic">โหลดวอลเปเปอร์ไม่ได้</string>
+    <string name="wallpaper_error_no_media">ยังไม่ได้เลือกรูปภาพ วิดีโอ หรือสี</string>
+    <string name="wallpaper_error_no_folder">ยังไม่ได้เลือกโฟลเดอร์</string>
+    <string name="wallpaper_error_folder_access">อ่านโฟลเดอร์ไม่ได้ โปรดเลือกอีกครั้ง</string>
+    <string name="wallpaper_error_folder_empty">โฟลเดอร์นี้ไม่มีรูปภาพ วิดีโอ หรือภาพเคลื่อนไหว Lottie</string>
+    <string name="wallpaper_error_theme_empty">ธีมปัจจุบันไม่มีวอลเปเปอร์</string>
+    <string name="wallpaper_error_no_channels">ช่องไม่พร้อมใช้งาน เปิดใช้ช่องและอนุญาตให้เข้าถึงรายการทีวี</string>
+    <string name="wallpaper_error_no_notification_access">“กำลังเล่น” ต้องใช้สิทธิ์เข้าถึงการแจ้งเตือน</string>
+    <string name="wallpaper_error_no_subreddit">ไม่ได้ตั้งค่า subreddit ที่ถูกต้อง</string>
+    <string name="wallpaper_error_plugin">ปลั๊กอินวอลเปเปอร์ไม่ตอบสนอง</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">ตั้งวอลเปเปอร์แล้ว</string>
+    <string name="wallpaper_set_failed">ใช้ไฟล์นี้เป็นวอลเปเปอร์ไม่ได้</string>
+</resources>

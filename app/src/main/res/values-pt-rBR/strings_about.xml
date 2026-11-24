@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versão %1$s</string>
+    <string name="about_copyright">Copyright © 2026 colaboradores do QLauncher. Software livre sob a GNU General Public License, versão 3.</string>
+    <string name="about_libs">Bibliotecas / Créditos</string>
+    <string name="about_links">Links</string>
+    <string name="about_link_project">Página do projeto</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Tradução para português do Brasil</string>
+    <string name="about_translation_credit">Colaboradores do QLauncher</string>
+    <string name="about_no_browser">Nenhum navegador neste dispositivo. Abra %1$s em outro dispositivo.</string>
+    <string name="about_check_updates">Verificar atualizações</string>
+    <string name="about_update_checking">Verificando…</string>
+    <string name="about_update_latest">O QLauncher está atualizado (%1$s)</string>
+    <string name="about_update_available">Versão %1$s disponível</string>
+    <string name="about_update_failed">Não foi possível verificar: %1$s</string>
+    <string name="about_update_install">Instalar o QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s disponível: Configurações › Sobre › QLauncher</string>
+</resources>

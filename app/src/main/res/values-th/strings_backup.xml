@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">ค่าเริ่มต้น</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">ตัวหนา</string>
+    <string name="backup_clock_markup_italic">ตัวเอียง</string>
+    <string name="backup_clock_markup_underline">ขีดเส้นใต้</string>
+    <string name="backup_clock_markup_strikethrough">ขีดทับ</string>
+    <string name="backup_clock_markup_subscript">ตัวห้อย</string>
+    <string name="backup_clock_markup_superscript">ตัวยก</string>
+    <string name="backup_clock_markup_half_size">ครึ่งขนาด</string>
+    <string name="backup_clock_markup_one_and_a_half_size">หนึ่งเท่าครึ่ง</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">การตัดระดับสีดำ</string>
+    <string name="backup_pattern_apl_clipping">การตัดระดับ APL</string>
+    <string name="backup_pattern_white_clipping">การตัดระดับสีขาว</string>
+    <string name="backup_pattern_grayscale_ramp">ไล่ระดับสีเทา</string>
+    <string name="backup_pattern_grayscale_steps">ขั้นระดับสีเทา</string>
+    <string name="backup_pattern_dynamic_brightness">ความสว่างแบบไดนามิก</string>
+    <string name="backup_pattern_color_steps">ขั้นระดับสี</string>
+    <string name="backup_pattern_color_clipping">การตัดระดับสี</string>
+    <string name="backup_pattern_flashing_color_bars">แถบสีกะพริบ</string>
+    <string name="backup_pattern_sharpness_overscan">ความคมชัด &amp; โอเวอร์สแกน</string>
+    <string name="backup_pattern_uhd">รูปแบบ UHD</string>
+    <string name="backup_pattern_judder">ทดสอบภาพกระตุก</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] ความคมชัดตามอัตราส่วนภาพ</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] ระดับสีดำ</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] การตัดระดับสี 240–1000 นิต</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] การตัดระดับสี 3600–10000 นิต</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] การตัดระดับสี 700–10000 นิต</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] การตัดระดับสี 900–4000 นิต</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] ไล่ระดับสีเทา 10000 นิต</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] ไล่ระดับสีเทา 1000 นิต</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] ไล่ระดับสีเทา 4000 นิต</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE สีดำ</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] ไล่ระดับสี</string>
+    <string name="backup_pattern_unavailable">%1$s ต้องใช้เส้นทางวิดีโอ HDR และยังไม่พร้อมใช้งาน</string>
+    <!-- Pages -->
+    <string name="backup_settings">การตั้งค่า</string>
+    <string name="backup_manage_settings">จัดการการตั้งค่า</string>
+    <string name="backup_themes">ธีม</string>
+    <string name="backup_import">นำเข้า</string>
+    <string name="backup_export">ส่งออก</string>
+    <string name="backup_import_from_file">จากตัวจัดการไฟล์</string>
+    <string name="backup_import_from_auto">จากข้อมูลสำรองอัตโนมัติ</string>
+    <string name="backup_export_save">บันทึกในเครื่อง</string>
+    <string name="backup_export_share">แชร์กับแอปอื่น</string>
+    <string name="backup_reset">รีเซ็ตเป็นค่าเริ่มต้น</string>
+    <string name="backup_cancel">ยกเลิก</string>
+    <string name="backup_ok">ตกลง</string>
+    <string name="backup_done">เสร็จสิ้น</string>
+    <string name="backup_close">ปิด</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">ส่งออกการตั้งค่า</string>
+    <string name="backup_export_theme_title">ส่งออกธีม</string>
+    <string name="backup_export_description">ทุกอย่างจะถูกบันทึกไว้ในไฟล์เดียว เข้ารหัสด้วยรหัสผ่านที่คุณเลือก (อย่างน้อย %1$d ตัวอักษร) คุณต้องใช้รหัสผ่านนี้เพื่อนำเข้าไฟล์ และไม่สามารถกู้คืนรหัสผ่านได้</string>
+    <string name="backup_export_theme_description">การตั้งค่าลักษณะที่ปรากฏและวอลเปเปอร์ปัจจุบันจะถูกบันทึกไว้ในไฟล์เดียว เข้ารหัสด้วยรหัสผ่านที่คุณเลือก (อย่างน้อย %1$d ตัวอักษร) คุณต้องใช้รหัสผ่านนี้เพื่อนำเข้าธีม</string>
+    <string name="backup_password">รหัสผ่าน</string>
+    <string name="backup_password_show">แสดงรหัสผ่าน</string>
+    <string name="backup_password_hide">ซ่อนรหัสผ่าน</string>
+    <string name="backup_password_strength">ความแข็งแกร่งของรหัสผ่าน</string>
+    <string name="backup_strength_too_short">สั้นเกินไป: อย่างน้อย %1$d ตัวอักษร</string>
+    <string name="backup_strength_weak">อ่อน: เดาได้ง่าย</string>
+    <string name="backup_strength_fair">พอใช้</string>
+    <string name="backup_strength_strong">แข็งแกร่ง</string>
+    <string name="backup_password_too_short">รหัสผ่านต้องมีอย่างน้อย %1$d ตัวอักษร</string>
+    <string name="backup_exporting">กำลังส่งออก…</string>
+    <string name="backup_export_saved">บันทึกไว้ที่ %1$s แล้ว</string>
+    <string name="backup_export_kept">ไม่ได้บันทึกไว้ที่อื่น ไฟล์ยังอยู่ใน %1$s</string>
+    <string name="backup_export_shared">ส่งแล้ว สำเนาหนึ่งยังอยู่ใน %1$s</string>
+    <string name="backup_export_no_file_manager">ไม่มีแอปในอุปกรณ์นี้ที่รับไฟล์ได้ ไฟล์อยู่ใน %1$s</string>
+    <string name="backup_export_failed">ส่งออกไม่สำเร็จ: %1$s</string>
+    <string name="backup_share_title">ส่งไฟล์ QLauncher ด้วย</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">การนำเข้าจะแทนที่การตั้งค่าปัจจุบันของคุณ ระบบจะสร้างข้อมูลสำรองอัตโนมัติก่อน และ QLauncher จะรีสตาร์ทเมื่อเสร็จ</string>
+    <string name="backup_reading">กำลังอ่านไฟล์…</string>
+    <string name="backup_import_action">นำเข้า</string>
+    <string name="backup_wrong_password">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="backup_password_hint">รหัสผ่านที่เลือกไว้ตอนส่งออกไฟล์</string>
+    <string name="backup_not_a_backup">ไฟล์นี้ไม่ใช่ข้อมูลสำรองหรือธีมของ QLauncher หรือ Projectivy</string>
+    <string name="backup_damaged">ไฟล์เสียหายหรือไม่สมบูรณ์</string>
+    <string name="backup_too_new">ไฟล์นี้สร้างโดย QLauncher เวอร์ชันที่ใหม่กว่า (รูปแบบ %1$d) อัปเดต QLauncher เพื่อนำเข้าไฟล์นี้</string>
+    <string name="backup_unreadable">ไม่สามารถอ่านข้อมูลสำรองอัตโนมัตินี้ในอุปกรณ์นี้ได้</string>
+    <string name="backup_import_failed">นำเข้าไม่สำเร็จและไม่มีสิ่งใดถูกเปลี่ยนแปลง: %1$s</string>
+    <string name="backup_applying">กำลังนำเข้า… QLauncher จะรีสตาร์ทเมื่อเสร็จ</string>
+    <string name="backup_origin_ql_backup">ข้อมูลสำรองการตั้งค่า QLauncher</string>
+    <string name="backup_origin_ql_theme">ธีม QLauncher</string>
+    <string name="backup_origin_pl_backup">ข้อมูลสำรองการตั้งค่า Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">ธีม Projectivy Launcher</string>
+    <string name="backup_origin_auto">ข้อมูลสำรองอัตโนมัติ</string>
+    <string name="backup_preview_theme_by">%1$s โดย %2$s</string>
+    <string name="backup_preview_version">เวอร์ชัน %1$s</string>
+    <string name="backup_preview_settings">การตั้งค่า</string>
+    <string name="backup_preview_categories">หมวดหมู่</string>
+    <string name="backup_preview_apps">การปรับแต่งแอป</string>
+    <string name="backup_preview_profiles">โปรไฟล์การแสดงผล</string>
+    <string name="backup_preview_files">วอลเปเปอร์และไอคอน</string>
+    <string name="backup_preview_skipped">แอปที่ไม่มีในอุปกรณ์นี้</string>
+    <string name="backup_replace_setup">แทนที่การตั้งค่าปัจจุบัน</string>
+    <string name="backup_apply_theme">ใช้ธีม</string>
+    <string name="backup_replace_detail">ระบบจะสร้างข้อมูลสำรองอัตโนมัติของการตั้งค่าปัจจุบันก่อน</string>
+    <string name="backup_nc_parental">รหัสผู้ปกครอง</string>
+    <string name="backup_nc_parental_detail">ไม่ถูกนำมาด้วย ตั้งรหัสใหม่ในการควบคุมโดยผู้ปกครอง</string>
+    <string name="backup_nc_premium">สถานะพรีเมียม</string>
+    <string name="backup_nc_premium_detail">ไม่ถูกนำมาด้วย ทุกฟีเจอร์ของ QLauncher ใช้ได้ฟรี</string>
+    <string name="backup_nc_inputs">อินพุตทีวี</string>
+    <string name="backup_nc_profile_bindings">การเชื่อมโยงโปรไฟล์การแสดงผล</string>
+    <string name="backup_nc_plugin">ปลั๊กอินวอลเปเปอร์</string>
+    <string name="backup_nc_plugin_detail">ไม่ได้ติดตั้ง %1$s แหล่งวอลเปเปอร์จะยังคงเหมือนเดิม</string>
+    <string name="backup_nc_icons">ไอคอนที่กำหนดเอง</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="other">%1$d ค่าที่เปลี่ยนแปลง</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="other">%1$d หมวดหมู่</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="other">%1$d แอป</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="other">%1$d โปรไฟล์</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="other">%1$d ไฟล์</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="other">การตั้งค่าที่ไม่รู้จัก %1$d รายการ ข้ามไปแล้ว</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="other">%1$d รายการไม่ตรงกับแอปที่ติดตั้งในเครื่องนี้และจะถูกข้าม</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="other">ลิงก์ %1$d รายการไปยังอินพุตทีวีที่อุปกรณ์นี้ไม่มีจะถูกข้าม</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="other">โปรไฟล์ %1$d รายการที่กำหนดให้กับอินพุตจะไม่ถูกนำมาด้วย</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="other">ไอคอน %1$d รายการที่เก็บอยู่ใน Projectivy อ่านไม่ได้และจะถูกข้าม</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">ข้อมูลสำรองอัตโนมัติ</string>
+    <string name="backup_auto_description">QLauncher จะเก็บการตั้งค่าของคุณ %1$d เวอร์ชันล่าสุดไว้ในอุปกรณ์นี้ เข้ารหัสด้วยคีย์ที่ไม่เคยออกไปจากอุปกรณ์ เลือกเวอร์ชันหนึ่งเพื่อกู้คืนโดยไม่ต้องใช้รหัสผ่าน</string>
+    <string name="backup_auto_none">ไม่มีข้อมูลสำรองอัตโนมัติ</string>
+    <string name="backup_files_title">ไฟล์ข้อมูลสำรอง</string>
+    <string name="backup_files_theme_title">ไฟล์ธีม</string>
+    <string name="backup_files_description">ไฟล์ที่ส่งออกจะบันทึกไว้ใน %1$s หากมีสิทธิ์เข้าถึงไฟล์ทั้งหมด QLauncher จะค้นหาข้อมูลสำรองใน Download, Documents และในไดรฟ์ USB ด้วย รวมถึงของ Projectivy</string>
+    <string name="backup_files_searching">กำลังค้นหาไฟล์ข้อมูลสำรอง…</string>
+    <string name="backup_files_none">ไม่พบไฟล์ข้อมูลสำรอง</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">โฟลเดอร์ของ QLauncher</string>
+    <string name="backup_files_access">ค้นหาข้อมูลสำรองจากแอปและอุปกรณ์อื่น</string>
+    <string name="backup_files_access_desc">อนุญาตให้เข้าถึงไฟล์ทั้งหมด</string>
+    <string name="backup_files_access_unavailable">ไม่มีหน้าจอการตั้งค่าในอุปกรณ์นี้ อนุญาตการเข้าถึงไฟล์ทั้งหมดด้วยคำสั่ง: %1$s</string>
+    <string name="backup_files_browse">ตำแหน่งอื่น…</string>
+    <string name="backup_files_browse_desc">เลือกไฟล์ด้วยเครื่องมือเลือกไฟล์ของระบบ</string>
+    <string name="backup_auto_delete_all">ลบทั้งหมด</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">หลังการเปลี่ยนแปลง</string>
+    <string name="backup_reason_import">ก่อนการนำเข้า</string>
+    <string name="backup_reason_migration">ก่อนการอัปเดต</string>
+    <string name="backup_reason_reset">ก่อนการรีเซ็ต</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">โปรไฟล์ #</string>
+    <string name="backup_no_picture_manager">ไม่ได้โหลดตัวจัดการภาพ</string>
+    <string name="backup_no_picture_manager_detail">อุปกรณ์นี้ไม่มีวิธีที่รองรับในการเปลี่ยนการตั้งค่าภาพ โปรไฟล์จึงเก็บค่าไว้โดยไม่นำไปใช้</string>
+</resources>

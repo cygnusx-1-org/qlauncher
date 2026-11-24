@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">再生中</string>
+    <string name="home_cat_inputs">入力</string>
+    <string name="home_cat_favorites">お気に入り</string>
+    <string name="home_cat_video">動画</string>
+    <string name="home_cat_music">音楽</string>
+    <string name="home_cat_games">ゲーム</string>
+    <string name="home_cat_tv_apps">TV アプリ</string>
+    <string name="home_cat_mobile_apps">モバイルアプリ</string>
+    <string name="home_cat_watch_next">次に見る</string>
+    <string name="home_cat_shortcuts">ショートカット</string>
+    <string name="home_cat_folders">カテゴリーフォルダ</string>
+    <string name="home_cat_live_tv">ライブ TV</string>
+    <string name="home_cat_settings">設定</string>
+    <string name="home_cat_display">ディスプレイ</string>
+    <string name="home_cat_applications">アプリ</string>
+    <string name="home_cat_system">システム</string>
+    <string name="home_cat_about">情報</string>
+    <string name="home_new_category">新しいカテゴリー</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">すべてのアプリ</string>
+    <string name="home_action_edit_categories">カテゴリーを編集</string>
+    <string name="home_action_edit_channels">チャンネルを編集</string>
+    <string name="home_action_launcher_settings">QLauncher の設定</string>
+    <string name="home_action_android_settings">Android の設定</string>
+    <string name="home_action_amlogic_settings">AmLogic の追加設定</string>
+    <string name="home_action_display_profiles">ディスプレイプロファイル</string>
+    <string name="home_action_install_apps">サードパーティアプリをインストール</string>
+    <string name="home_action_accessibility">ユーザー補助サービス</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">プロファイルを切り替え</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">このデバイス</string>
+    <string name="home_action_about_wallpaper">この壁紙</string>
+
+    <!-- Program meta -->
+    <string name="home_season">シーズン %1$s</string>
+    <string name="home_episode">エピソード %1$s</string>
+    <string name="home_minutes">%1$d分</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">接続</string>
+    <string name="home_status_notifications">通知</string>
+    <string name="home_status_settings">設定</string>
+    <string name="home_status_wallpaper">この壁紙</string>
+    <string name="home_navigation_menu">ナビゲーションメニュー</string>
+    <string name="home_reorder">並べ替え</string>
+    <string name="home_category_settings">カテゴリーの設定</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">アプリの設定</string>
+    <string name="menu_open">開く</string>
+    <string name="menu_details">詳細</string>
+    <string name="menu_play_pause">再生/一時停止</string>
+    <string name="menu_stop">停止</string>
+    <string name="menu_previous">前へ</string>
+    <string name="menu_next">次へ</string>
+    <string name="menu_uninstall">アンインストール</string>
+    <string name="menu_launch_on_boot">起動時に開く</string>
+    <string name="menu_launch_on_boot_on">起動時に開きます</string>
+    <string name="menu_add_parental">ペアレンタルコントロールに追加</string>
+    <string name="menu_remove_parental">ペアレンタルコントロールから削除</string>
+    <string name="menu_shortcuts">ショートカット</string>
+    <string name="menu_appearance">外観</string>
+    <string name="menu_title">タイトル</string>
+    <string name="menu_change_icon">アイコンを変更</string>
+    <string name="menu_icon_from_picture">画像から</string>
+    <string name="menu_icon_other_location">その他の場所…</string>
+    <string name="menu_icon_no_pictures">画像が見つかりません。Pictures または Download にコピーするか、USB ドライブを接続してください。</string>
+    <string name="menu_icon_reset">リセット</string>
+    <string name="menu_crop">トリミングして全体に表示</string>
+    <string name="menu_visibility">表示</string>
+    <string name="menu_reorder">並べ替え</string>
+    <string name="menu_remove_from">%1$s から削除</string>
+    <string name="menu_hide">非表示にする</string>
+    <string name="menu_add_to">追加先…</string>
+    <string name="menu_move_to">移動先…</string>
+    <string name="menu_channels">チャンネル</string>
+    <string name="menu_rename_hint">新しいタイトルを入力して OK を押してください</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">タイトル</string>
+    <string name="editor_change_icon">アイコンを変更</string>
+    <string name="editor_visible">表示</string>
+    <string name="editor_grid">グリッド</string>
+    <string name="editor_sliding_row">スライド行</string>
+    <string name="editor_background">背景色</string>
+    <string name="editor_show_title">タイトルを表示</string>
+    <string name="editor_size">サイズ</string>
+    <string name="editor_advanced">詳細設定</string>
+    <string name="editor_start_margin">左の余白</string>
+    <string name="editor_end_margin">右の余白</string>
+    <string name="editor_top_margin">上の余白</string>
+    <string name="editor_cards_per_row">1 行あたりのカード数</string>
+    <string name="editor_row_count">行数</string>
+    <string name="editor_auto">自動</string>
+    <string name="editor_auto_value">自動 (%1$s)</string>
+    <string name="editor_sort">並べ替え</string>
+    <string name="editor_sort_custom">カスタム</string>
+    <string name="editor_sort_name">名前順</string>
+    <string name="editor_sort_last">最近使用した順</string>
+    <string name="editor_sort_most">よく使う順</string>
+    <string name="editor_sort_random">ランダム</string>
+    <string name="editor_set_default">デフォルトに設定</string>
+    <string name="editor_is_default">デフォルトのカテゴリー</string>
+    <string name="editor_manage_apps">アプリを管理</string>
+    <string name="editor_hidden_items">非表示の項目</string>
+    <string name="editor_restore">復元</string>
+    <string name="editor_delete">削除</string>
+    <string name="editor_delete_confirm">このカテゴリーを削除しますか？</string>
+    <string name="editor_empty_note">このカテゴリーは空のため、まだ表示されません</string>
+    <string name="editor_request_notifications">通知の権限をリクエスト</string>
+    <string name="editor_channel_error">このチャンネルは読み込めなくなりました</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">チャンネル</string>
+    <string name="channels_count">%1$d チャンネル</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">通知</string>
+    <string name="notifications_clear_all">すべて消去</string>
+    <string name="notifications_empty">通知はありません</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">このアプリは開けません</string>
+    <string name="home_reorder_hint">左右で移動、OK または戻るで終了</string>
+    <string name="home_category_reorder_hint">上下で移動、OK または戻るで終了</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">ようこそ！</string>
+    <string name="firstrun_welcome_text">QLauncher は Android TV 用のランチャーです。アプリ、チャンネル、お気に入りのコンテンツを、自由にカスタマイズできる 1 つのホーム画面にまとめ、その背景で壁紙が切り替わります。</string>
+    <string name="firstrun_features_title">新しいスーパーパワー</string>
+    <string name="firstrun_features_text">起動時のアプリや HDMI 入力の起動、ディスプレイプロファイルの管理、ペアレンタルコントロールによるアプリのロック、キャリブレーションパターンの表示、無操作時間の検出、ホーム画面のあらゆる部分のカスタマイズができます。一部の機能はデバイスによって異なります。</string>
+    <string name="firstrun_a11y_title">ユーザー補助を有効にしましょう</string>
+    <string name="firstrun_a11y_text">多くの機能には QLauncher のユーザー補助サービスが必要です: 標準ランチャーの置き換え、起動時のアクション、リモコンボタンのジェスチャー、無操作の検出、ペアレンタルコントロール。今すぐ、または後で設定から有効にできます。</string>
+    <string name="firstrun_a11y_open">ユーザー補助の設定を開く</string>
+    <string name="firstrun_permissions_title">よろしければ…</string>
+    <string name="firstrun_permissions_text">次に、QLauncher はテレビ番組表の読み取り (チャンネルと「次に見る」用) と通知へのアクセス (通知アイコンと「再生中」用) の許可をリクエストします。どちらも任意です。</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">次に、QLauncher は通知へのアクセス (通知アイコンと「再生中」用) の許可をリクエストします。これは任意です。</string>
+    <string name="firstrun_notifications_dialog">通知へのアクセスを許可しますか？</string>
+    <string name="firstrun_notifications_text">通知へのアクセスを許可すると、QLauncher で通知の件数、通知パネル、再生中のコンテンツを表示できます。「はい」を選ぶと、アクセスを許可する「特別なアプリアクセス」のページが開きます。</string>
+    <string name="firstrun_reports_title">匿名のエラーレポートを送信しますか？</string>
+    <string name="firstrun_reports_text">QLauncher がクラッシュしたりエラーが発生したりした場合に、バグを修正できるよう、アプリのバージョンとデバイスのモデルを含むレポートを送信できます。あなたを特定する情報や視聴内容は送信されません。この設定は後で「一般」から変更できます。</string>
+    <string name="firstrun_launcher_title">QLauncher をホーム画面にする</string>
+    <string name="firstrun_launcher_text">多くのテレビデバイスでは、デフォルトのランチャーを変更できません。変更できる場合は、そこで QLauncher を選択してください。できない場合は、ユーザー補助サービスで「現在のランチャーを置き換える」を有効にすると、標準ランチャーが開くたびに QLauncher に戻ります。</string>
+    <string name="firstrun_launcher_open">デフォルトのランチャーを変更</string>
+    <string name="firstrun_start_title">さあ、始めましょう！</string>
+    <string name="firstrun_start_text">すべて後から設定で変更できます。右上の設定ボタンを押すか、キー操作 ↑→↓←↑→↓← を入力してください。</string>
+    <string name="firstrun_get_started">はじめる</string>
+    <string name="firstrun_next">次へ</string>
+    <string name="firstrun_skip">スキップ</string>
+    <string name="firstrun_yes">はい</string>
+    <string name="firstrun_no">いいえ</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">このデバイスにはスクリーンセーバーがありません</string>
+</resources>

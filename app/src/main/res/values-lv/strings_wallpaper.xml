@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Nav</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinamiskās krāsas</string>
+    <string name="wallpaper_provider_default">Noklusējuma fona tapete</string>
+    <string name="wallpaper_provider_media_file">Multivides fails</string>
+    <string name="wallpaper_provider_folder">Mape</string>
+    <string name="wallpaper_provider_focused_program">Fokusētais raidījums</string>
+    <string name="wallpaper_provider_now_playing">Tagad atskaņo</string>
+    <string name="wallpaper_provider_random_program">Nejaušs raidījums</string>
+    <string name="wallpaper_provider_theme">Motīvs</string>
+    <string name="wallpaper_provider_unknown_plugin">Spraudnis</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Fona tapetes</string>
+    <string name="wallpaper_wikimedia_nature">Daba</string>
+    <string name="wallpaper_wikimedia_landscapes">Ainavas</string>
+    <string name="wallpaper_wikimedia_mountains">Kalni</string>
+    <string name="wallpaper_wikimedia_forests">Meži</string>
+    <string name="wallpaper_wikimedia_cities">Pilsētas</string>
+    <string name="wallpaper_wikimedia_architecture">Arhitektūra</string>
+    <string name="wallpaper_wikimedia_night">Nakts</string>
+    <string name="wallpaper_wikimedia_space">Kosmoss</string>
+    <string name="wallpaper_wikimedia_animals">Dzīvnieki</string>
+    <string name="wallpaper_wikimedia_custom">[Pielāgota meklēšana]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Pielāgots subreddit]</string>
+    <string name="wallpaper_reddit_log_out">Izrakstīties</string>
+    <string name="wallpaper_reddit_login_needed">Pierakstieties Reddit, lai redzētu tā fona tapetes.</string>
+    <string name="wallpaper_reddit_login_title">Pierakstīties Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Notiek pierakstīšanās…</string>
+    <string name="wallpaper_reddit_login_denied">Piekļuve Reddit netika piešķirta, tāpēc Reddit fona tapetes joprojām nav pieejamas.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit atbilde neatbilda šim pierakstīšanās mēģinājumam un tika ignorēta. Mēģiniet vēlreiz.</string>
+    <string name="wallpaper_reddit_login_failed">Pierakstīšanās Reddit neizdevās (%1$s). Mēģiniet vēlreiz vēlāk.</string>
+    <string name="wallpaper_reddit_login_network">Nevarēja sazināties ar Reddit. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz.</string>
+    <string name="wallpaper_reddit_login_page_error">Nevarēja ielādēt Reddit pierakstīšanās lapu. Pārbaudiet tīkla savienojumu un mēģiniet vēlreiz.</string>
+    <string name="wallpaper_reddit_no_webview">Šajā ierīcē nav tīmekļa pārlūka komponenta (Android System WebView), kas nepieciešams pierakstīšanai Reddit. Instalējiet vai iespējojiet Android System WebView un mēģiniet vēlreiz.</string>
+    <string name="wallpaper_reddit_retry">Mēģināt vēlreiz</string>
+    <string name="wallpaper_reddit_close">Aizvērt</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Nav savienojuma ar fona tapešu avotu.</string>
+    <string name="wallpaper_error_server">Fona tapešu avots atbildēja ar kļūdu.</string>
+    <string name="wallpaper_error_rate_limited">Fona tapešu avots lūdza nogaidīt pirms nākamā pieprasījuma.</string>
+    <string name="wallpaper_error_generic">Neizdevās ielādēt fona tapetes.</string>
+    <string name="wallpaper_error_no_media">Nav izvēlēts neviens attēls, video vai krāsa.</string>
+    <string name="wallpaper_error_no_folder">Nav izvēlēta neviena mape.</string>
+    <string name="wallpaper_error_folder_access">Mapi nevar nolasīt. Izvēlieties to vēlreiz.</string>
+    <string name="wallpaper_error_folder_empty">Mapē nav attēlu, video vai Lottie animāciju.</string>
+    <string name="wallpaper_error_theme_empty">Pašreizējam motīvam nav fona tapešu.</string>
+    <string name="wallpaper_error_no_channels">Kanāli nav pieejami. Iespējojiet tos un atļaujiet piekļuvi TV programmai.</string>
+    <string name="wallpaper_error_no_notification_access">Funkcijai „Tagad atskaņo“ nepieciešama piekļuve paziņojumiem.</string>
+    <string name="wallpaper_error_no_subreddit">Nav iestatīts derīgs subreddit.</string>
+    <string name="wallpaper_error_plugin">Fona tapetes spraudnis neatbildēja.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Fona tapete iestatīta</string>
+    <string name="wallpaper_set_failed">Šo failu nevar izmantot kā fona tapeti.</string>
+</resources>

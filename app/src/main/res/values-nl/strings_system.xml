@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Voer een willekeurige combinatie van pijlen/cijfers in en bevestig met OK</string>
+    <string name="system_parental_confirm_code">Voer de code opnieuw in en bevestig met OK</string>
+    <string name="system_parental_restricted">Beperkte toegang\nVoer de code voor ouderlijk toezicht in</string>
+    <string name="system_parental_wrong_code">Verkeerde code</string>
+    <string name="system_parental_codes_differ">De codes komen niet overeen, probeer het opnieuw</string>
+    <string name="system_parental_code_saved">Code voor ouderlijk toezicht opgeslagen</string>
+    <string name="system_parental_recovery_code">Herstelcode: %1$s</string>
+    <string name="system_parental_recovery_help">Schrijf hem op: hij wordt alleen deze ene keer getoond. Ingevoerd met de pijlen (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) ontgrendelt hij net als de code voor ouderlijk toezicht.</string>
+    <string name="system_parental_press_ok">Druk op OK om door te gaan</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Sneltoetsen afstandsbediening</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Home</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Ingang wijzigen</string>
+    <string name="system_hotkeys_change_profile">Weergaveprofiel wijzigen</string>
+    <string name="system_hotkeys_start_launcher">QLauncher starten</string>
+    <string name="system_hotkeys_home">QLauncher openen; twee keer: recente apps</string>
+    <string name="system_hotkeys_close">Deze hulp sluiten</string>
+    <string name="system_hotkeys_no_inputs">Geen tv-ingangen op dit apparaat</string>
+    <string name="system_hotkeys_no_picture_manager">Geen beeldbeheer geladen</string>
+    <string name="system_hotkeys_home_off">Uit: vereist Huidige launcher vervangen en knoppen opnieuw toewijzen</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Geen gebruikersactiviteit gedetecteerd, uitschakelen over %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Geen gebruikersactiviteit gedetecteerd, scherm uit over %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Geen gebruikersactiviteit gedetecteerd, screensaver over %1$d s</string>
+    <string name="system_idle_countdown_cancel">Druk op een willekeurige knop om te annuleren</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Dit apparaat heeft geen snelkoppeling naar de toegankelijkheidsinstellingen. Open ze via de Android-instellingen, meestal onder Apparaatvoorkeuren › Toegankelijkheid.</string>
+    <string name="system_notification_access_no_settings">Dit apparaat heeft geen scherm voor toegang tot meldingen. Verleen toegang vanaf een computer met:</string>
+</resources>

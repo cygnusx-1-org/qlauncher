@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Sisesta mis tahes nooleklahvide/numbrite kombinatsioon ja kinnita nupuga OK</string>
+    <string name="system_parental_confirm_code">Sisesta kood uuesti ja kinnita nupuga OK</string>
+    <string name="system_parental_restricted">Piiratud juurdepääs\nSisesta vanemliku järelevalve kood</string>
+    <string name="system_parental_wrong_code">Vale kood</string>
+    <string name="system_parental_codes_differ">Koodid ei ühti, proovi uuesti</string>
+    <string name="system_parental_code_saved">Vanemliku järelevalve kood salvestatud</string>
+    <string name="system_parental_recovery_code">Taastekood: %1$s</string>
+    <string name="system_parental_recovery_help">Kirjuta see üles: seda näidatakse ainult see üks kord. Nooltega sisestatuna (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) avab see luku nagu vanemliku järelevalve kood.</string>
+    <string name="system_parental_press_ok">Jätkamiseks vajuta OK</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Puldi otseteed</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Avaleht</string>
+    <string name="system_hotkeys_keys_menu_twice">Menüü × 2</string>
+    <string name="system_hotkeys_change_input">Vaheta sisendit</string>
+    <string name="system_hotkeys_change_profile">Vaheta kuvaprofiili</string>
+    <string name="system_hotkeys_start_launcher">Käivita QLauncher</string>
+    <string name="system_hotkeys_home">Ava QLauncher; kaks korda: hiljutised rakendused</string>
+    <string name="system_hotkeys_close">Sulge see abi</string>
+    <string name="system_hotkeys_no_inputs">Selles seadmes pole telerisisendeid</string>
+    <string name="system_hotkeys_no_picture_manager">Pildihaldurit pole laaditud</string>
+    <string name="system_hotkeys_home_off">Väljas: vajab valikut „Asenda praegune käivitaja“ ja nuppude ümbermääramist</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Kasutaja tegevusetus tuvastatud, väljalülitus %1$d s pärast</string>
+    <string name="system_idle_countdown_screen_off">Kasutaja tegevusetus tuvastatud, ekraan lülitub välja %1$d s pärast</string>
+    <string name="system_idle_countdown_screensaver">Kasutaja tegevusetus tuvastatud, ekraanisäästja %1$d s pärast</string>
+    <string name="system_idle_countdown_cancel">Tühistamiseks vajuta mis tahes nuppu</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Selles seadmes pole otseteed juurdepääsetavuse seadetele. Ava need Androidi seadetest, tavaliselt jaotisest Seadme eelistused › Juurdepääsetavus.</string>
+    <string name="system_notification_access_no_settings">Selles seadmes pole märguannete juurdepääsu kuva. Anna juurdepääs arvutist käsuga:</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Без</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Динамични цветове</string>
+    <string name="wallpaper_provider_default">Тапет по подразбиране</string>
+    <string name="wallpaper_provider_media_file">Медиен файл</string>
+    <string name="wallpaper_provider_folder">Папка</string>
+    <string name="wallpaper_provider_focused_program">Програма на фокус</string>
+    <string name="wallpaper_provider_now_playing">Сега се възпроизвежда</string>
+    <string name="wallpaper_provider_random_program">Случайна програма</string>
+    <string name="wallpaper_provider_theme">Тема</string>
+    <string name="wallpaper_provider_unknown_plugin">Плъгин</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Тапети</string>
+    <string name="wallpaper_wikimedia_nature">Природа</string>
+    <string name="wallpaper_wikimedia_landscapes">Пейзажи</string>
+    <string name="wallpaper_wikimedia_mountains">Планини</string>
+    <string name="wallpaper_wikimedia_forests">Гори</string>
+    <string name="wallpaper_wikimedia_cities">Градове</string>
+    <string name="wallpaper_wikimedia_architecture">Архитектура</string>
+    <string name="wallpaper_wikimedia_night">Нощ</string>
+    <string name="wallpaper_wikimedia_space">Космос</string>
+    <string name="wallpaper_wikimedia_animals">Животни</string>
+    <string name="wallpaper_wikimedia_custom">[Собствено търсене]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Собствен субредит]</string>
+    <string name="wallpaper_reddit_log_out">Изход</string>
+    <string name="wallpaper_reddit_login_needed">Влезте в Reddit, за да виждате тапети от него.</string>
+    <string name="wallpaper_reddit_login_title">Вход в Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Влизане…</string>
+    <string name="wallpaper_reddit_login_denied">Достъпът до Reddit не беше разрешен, затова тапетите от Reddit остават недостъпни.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Отговорът от Reddit не съответстваше на този опит за вход и беше пренебрегнат. Опитайте отново.</string>
+    <string name="wallpaper_reddit_login_failed">Входът в Reddit не бе успешен (%1$s). Опитайте отново по-късно.</string>
+    <string name="wallpaper_reddit_login_network">Няма връзка с Reddit. Проверете мрежовата връзка и опитайте отново.</string>
+    <string name="wallpaper_reddit_login_page_error">Страницата за вход в Reddit не можа да се зареди. Проверете мрежовата връзка и опитайте отново.</string>
+    <string name="wallpaper_reddit_no_webview">Това устройство няма компонент за уеб браузър (Android System WebView), който е нужен за входа в Reddit. Инсталирайте или активирайте Android System WebView и опитайте отново.</string>
+    <string name="wallpaper_reddit_retry">Опитайте отново</string>
+    <string name="wallpaper_reddit_close">Затваряне</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Няма връзка с източника на тапети.</string>
+    <string name="wallpaper_error_server">Източникът на тапети отговори с грешка.</string>
+    <string name="wallpaper_error_rate_limited">Източникът на тапети поиска изчакване преди следващата заявка.</string>
+    <string name="wallpaper_error_generic">Тапетите не можаха да се заредят.</string>
+    <string name="wallpaper_error_no_media">Не е избрано изображение, видео или цвят.</string>
+    <string name="wallpaper_error_no_folder">Не е избрана папка.</string>
+    <string name="wallpaper_error_folder_access">Папката не може да бъде прочетена. Изберете я отново.</string>
+    <string name="wallpaper_error_folder_empty">Папката не съдържа изображения, видеоклипове или Lottie анимации.</string>
+    <string name="wallpaper_error_theme_empty">Текущата тема няма тапети.</string>
+    <string name="wallpaper_error_no_channels">Каналите не са налични. Активирайте ги и разрешете достъп до телевизионната програма.</string>
+    <string name="wallpaper_error_no_notification_access">„Сега се възпроизвежда“ изисква достъп до известията.</string>
+    <string name="wallpaper_error_no_subreddit">Не е зададен валиден субредит.</string>
+    <string name="wallpaper_error_plugin">Плъгинът за тапети не отговори.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Тапетът е зададен</string>
+    <string name="wallpaper_set_failed">Този файл не може да се използва като тапет.</string>
+</resources>

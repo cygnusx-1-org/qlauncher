@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Zdaj se predvaja</string>
+    <string name="home_cat_inputs">Vhodi</string>
+    <string name="home_cat_favorites">Priljubljene</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Glasba</string>
+    <string name="home_cat_games">Igre</string>
+    <string name="home_cat_tv_apps">Aplikacije za TV</string>
+    <string name="home_cat_mobile_apps">Mobilne aplikacije</string>
+    <string name="home_cat_watch_next">Naslednje za ogled</string>
+    <string name="home_cat_shortcuts">Bližnjice</string>
+    <string name="home_cat_folders">Mape kategorij</string>
+    <string name="home_cat_live_tv">TV v živo</string>
+    <string name="home_cat_settings">Nastavitve</string>
+    <string name="home_cat_display">Zaslon</string>
+    <string name="home_cat_applications">Aplikacije</string>
+    <string name="home_cat_system">Sistem</string>
+    <string name="home_cat_about">Informacije</string>
+    <string name="home_new_category">Nova kategorija</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Vse aplikacije</string>
+    <string name="home_action_edit_categories">Uredi kategorije</string>
+    <string name="home_action_edit_channels">Uredi kanale</string>
+    <string name="home_action_launcher_settings">Nastavitve QLauncherja</string>
+    <string name="home_action_android_settings">Nastavitve Androida</string>
+    <string name="home_action_amlogic_settings">Dodatne nastavitve AmLogic</string>
+    <string name="home_action_display_profiles">Profili prikaza</string>
+    <string name="home_action_install_apps">Namesti aplikacije drugih ponudnikov</string>
+    <string name="home_action_accessibility">Storitev dostopnosti</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Zamenjaj profil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Ta naprava</string>
+    <string name="home_action_about_wallpaper">To ozadje</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Sezona %1$s</string>
+    <string name="home_episode">Epizoda %1$s</string>
+    <string name="home_minutes">%1$d min</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Povezljivost</string>
+    <string name="home_status_notifications">Obvestila</string>
+    <string name="home_status_settings">Nastavitve</string>
+    <string name="home_status_wallpaper">To ozadje</string>
+    <string name="home_navigation_menu">Meni za krmarjenje</string>
+    <string name="home_reorder">Prerazporedi</string>
+    <string name="home_category_settings">Nastavitve kategorije</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Nastavitve aplikacije</string>
+    <string name="menu_open">Odpri</string>
+    <string name="menu_details">Podrobnosti</string>
+    <string name="menu_play_pause">Predvajaj/začasno ustavi</string>
+    <string name="menu_stop">Ustavi</string>
+    <string name="menu_previous">Prejšnje</string>
+    <string name="menu_next">Naslednje</string>
+    <string name="menu_uninstall">Odstrani</string>
+    <string name="menu_launch_on_boot">Zaženi ob vklopu</string>
+    <string name="menu_launch_on_boot_on">Zažene se ob vklopu</string>
+    <string name="menu_add_parental">Dodaj v starševski nadzor</string>
+    <string name="menu_remove_parental">Odstrani iz starševskega nadzora</string>
+    <string name="menu_shortcuts">Bližnjice</string>
+    <string name="menu_appearance">Videz</string>
+    <string name="menu_title">Naslov</string>
+    <string name="menu_change_icon">Spremeni ikono</string>
+    <string name="menu_icon_from_picture">Iz slike</string>
+    <string name="menu_icon_other_location">Druga lokacija…</string>
+    <string name="menu_icon_no_pictures">Ni najdenih slik. Kopiraj jih v mapo Pictures ali Download ali priključi pogon USB.</string>
+    <string name="menu_icon_reset">Ponastavi</string>
+    <string name="menu_crop">Obreži za zapolnitev</string>
+    <string name="menu_visibility">Vidnost</string>
+    <string name="menu_reorder">Prerazporedi</string>
+    <string name="menu_remove_from">Odstrani iz kategorije %1$s</string>
+    <string name="menu_hide">Skrij</string>
+    <string name="menu_add_to">Dodaj v…</string>
+    <string name="menu_move_to">Premakni v…</string>
+    <string name="menu_channels">Kanali</string>
+    <string name="menu_rename_hint">Vnesi nov naslov in pritisni OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Naslov</string>
+    <string name="editor_change_icon">Spremeni ikono</string>
+    <string name="editor_visible">Vidno</string>
+    <string name="editor_grid">Mreža</string>
+    <string name="editor_sliding_row">Drsna vrstica</string>
+    <string name="editor_background">Barva ozadja</string>
+    <string name="editor_show_title">Prikaži naslov</string>
+    <string name="editor_size">Velikost</string>
+    <string name="editor_advanced">Napredne nastavitve</string>
+    <string name="editor_start_margin">Začetni rob</string>
+    <string name="editor_end_margin">Končni rob</string>
+    <string name="editor_top_margin">Zgornji rob</string>
+    <string name="editor_cards_per_row">Kartic na vrstico</string>
+    <string name="editor_row_count">Število vrstic</string>
+    <string name="editor_auto">Samodejno</string>
+    <string name="editor_auto_value">Samodejno (%1$s)</string>
+    <string name="editor_sort">Razvrščanje</string>
+    <string name="editor_sort_custom">Po meri</string>
+    <string name="editor_sort_name">Abecedno</string>
+    <string name="editor_sort_last">Nazadnje uporabljeno</string>
+    <string name="editor_sort_most">Pogosto uporabljeno</string>
+    <string name="editor_sort_random">Naključno</string>
+    <string name="editor_set_default">Nastavi kot privzeto</string>
+    <string name="editor_is_default">Privzeta kategorija</string>
+    <string name="editor_manage_apps">Upravljaj aplikacije</string>
+    <string name="editor_hidden_items">Skriti elementi</string>
+    <string name="editor_restore">Obnovi</string>
+    <string name="editor_delete">Izbriši</string>
+    <string name="editor_delete_confirm">Želiš izbrisati to kategorijo?</string>
+    <string name="editor_empty_note">Ta kategorija se še ne bo prikazala, ker je prazna</string>
+    <string name="editor_request_notifications">Zahtevaj dovoljenje za obvestila</string>
+    <string name="editor_channel_error">Tega kanala ni več mogoče prebrati</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Kanali</string>
+    <string name="channels_count">Kanali: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Obvestila</string>
+    <string name="notifications_clear_all">Počisti vse</string>
+    <string name="notifications_empty">Ni obvestil</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Te aplikacije ni mogoče odpreti</string>
+    <string name="home_reorder_hint">Levo/desno za premik, OK ali NAZAJ za konec</string>
+    <string name="home_category_reorder_hint">Gor/dol za premik, OK ali NAZAJ za konec</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Dobrodošli!</string>
+    <string name="firstrun_welcome_text">QLauncher je zaganjalnik za Android TV. Tvoje aplikacije, kanale in priljubljeno vsebino združi na enem prilagodljivem začetnem zaslonu, za njimi pa se izmenjuje ozadje.</string>
+    <string name="firstrun_features_title">Tvoje nove supermoči</string>
+    <string name="firstrun_features_text">Ob vklopu zaženi aplikacijo ali vhod HDMI, upravljaj profile prikaza, zakleni aplikacije s starševskim nadzorom, prikaži kalibracijske vzorce, zaznavaj nedejavnost in prilagodi vsak del začetnega zaslona. Nekatere funkcije so odvisne od naprave.</string>
+    <string name="firstrun_a11y_title">Poskrbimo za dostopnost</string>
+    <string name="firstrun_a11y_text">Številne funkcije potrebujejo storitev dostopnosti QLauncherja: nadomestitev tovarniškega zaganjalnika, dejanja ob vklopu, kretnje z gumbi daljinskega upravljalnika, zaznavanje nedejavnosti in starševski nadzor. Vklopiš jo lahko zdaj ali pozneje v nastavitvah.</string>
+    <string name="firstrun_a11y_open">Odpri nastavitve dostopnosti</string>
+    <string name="firstrun_permissions_title">Če smem…</string>
+    <string name="firstrun_permissions_text">QLauncher bo nato prosil za dovoljenje za branje TV-sporedov (za kanale in Naslednje za ogled) in za dostop do obvestil (za ikono obvestil in Zdaj se predvaja). Oboje je neobvezno.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">QLauncher bo nato prosil za dostop do obvestil (za ikono obvestil in Zdaj se predvaja). To je neobvezno.</string>
+    <string name="firstrun_notifications_dialog">Želiš dovoliti dostop do obvestil?</string>
+    <string name="firstrun_notifications_text">Dostop do obvestil QLauncherju omogoča prikaz števila obvestil, plošče z obvestili in tega, kar se predvaja. »Da« odpre stran Posebni dostop za aplikacije, kjer ga odobriš.</string>
+    <string name="firstrun_reports_title">Pošiljati anonimna poročila o napakah?</string>
+    <string name="firstrun_reports_text">Če se QLauncher zruši ali naleti na napako, lahko pošlje poročilo z različico aplikacije in modelom naprave, da se napaka lahko odpravi. Ne pošlje se nič, kar bi razkrilo tebe ali to, kar gledaš. To lahko pozneje spremeniš v razdelku Splošno.</string>
+    <string name="firstrun_launcher_title">Naj bo QLauncher tvoj začetni zaslon</string>
+    <string name="firstrun_launcher_text">Številne TV-naprave ne dovolijo spremembe privzetega zaganjalnika. Če tvoja to dovoli, tam izberi QLauncher. Sicer vklopi storitev dostopnosti z možnostjo »Nadomesti trenutni zaganjalnik« in QLauncher se bo vrnil vsakič, ko se odpre tovarniški zaganjalnik.</string>
+    <string name="firstrun_launcher_open">Spremeni privzeti zaganjalnik</string>
+    <string name="firstrun_start_title">Čas je za začetek!</string>
+    <string name="firstrun_start_text">Vse lahko pozneje spremeniš v nastavitvah. Pritisni gumb za nastavitve zgoraj desno ali zaporedje tipk ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">ZAČNIMO</string>
+    <string name="firstrun_next">Naprej</string>
+    <string name="firstrun_skip">Preskoči</string>
+    <string name="firstrun_yes">Da</string>
+    <string name="firstrun_no">Ne</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">V tej napravi ni ohranjevalnika zaslona</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Most játszott</string>
+    <string name="home_cat_inputs">Bemenetek</string>
+    <string name="home_cat_favorites">Kedvencek</string>
+    <string name="home_cat_video">Videó</string>
+    <string name="home_cat_music">Zene</string>
+    <string name="home_cat_games">Játékok</string>
+    <string name="home_cat_tv_apps">TV-alkalmazások</string>
+    <string name="home_cat_mobile_apps">Mobilalkalmazások</string>
+    <string name="home_cat_watch_next">Következő megtekintés</string>
+    <string name="home_cat_shortcuts">Parancsikonok</string>
+    <string name="home_cat_folders">Kategóriamappák</string>
+    <string name="home_cat_live_tv">Élő TV</string>
+    <string name="home_cat_settings">Beállítások</string>
+    <string name="home_cat_display">Kijelző</string>
+    <string name="home_cat_applications">Alkalmazások</string>
+    <string name="home_cat_system">Rendszer</string>
+    <string name="home_cat_about">Névjegy</string>
+    <string name="home_new_category">Új kategória</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Összes alkalmazás</string>
+    <string name="home_action_edit_categories">Kategóriák szerkesztése</string>
+    <string name="home_action_edit_channels">Csatornák szerkesztése</string>
+    <string name="home_action_launcher_settings">QLauncher-beállítások</string>
+    <string name="home_action_android_settings">Android-beállítások</string>
+    <string name="home_action_amlogic_settings">További AmLogic-beállítások</string>
+    <string name="home_action_display_profiles">Megjelenítési profilok</string>
+    <string name="home_action_install_apps">Külső alkalmazások telepítése</string>
+    <string name="home_action_accessibility">Kisegítő szolgáltatás</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Profilváltás</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Ez az eszköz</string>
+    <string name="home_action_about_wallpaper">Ez a háttérkép</string>
+
+    <!-- Program meta -->
+    <string name="home_season">%1$s. évad</string>
+    <string name="home_episode">%1$s. rész</string>
+    <string name="home_minutes">%1$d perc</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Kapcsolat</string>
+    <string name="home_status_notifications">Értesítések</string>
+    <string name="home_status_settings">Beállítások</string>
+    <string name="home_status_wallpaper">Ez a háttérkép</string>
+    <string name="home_navigation_menu">Navigációs menü</string>
+    <string name="home_reorder">Átrendezés</string>
+    <string name="home_category_settings">Kategória-beállítások</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Alkalmazásbeállítások</string>
+    <string name="menu_open">Megnyitás</string>
+    <string name="menu_details">Részletek</string>
+    <string name="menu_play_pause">Lejátszás/szünet</string>
+    <string name="menu_stop">Leállítás</string>
+    <string name="menu_previous">Előző</string>
+    <string name="menu_next">Következő</string>
+    <string name="menu_uninstall">Eltávolítás</string>
+    <string name="menu_launch_on_boot">Indítás bekapcsoláskor</string>
+    <string name="menu_launch_on_boot_on">Bekapcsoláskor elindul</string>
+    <string name="menu_add_parental">Hozzáadás a szülői felügyelethez</string>
+    <string name="menu_remove_parental">Eltávolítás a szülői felügyeletből</string>
+    <string name="menu_shortcuts">Parancsikonok</string>
+    <string name="menu_appearance">Megjelenés</string>
+    <string name="menu_title">Név</string>
+    <string name="menu_change_icon">Ikon módosítása</string>
+    <string name="menu_icon_from_picture">Képből</string>
+    <string name="menu_icon_other_location">Más hely…</string>
+    <string name="menu_icon_no_pictures">Nem található kép. Másoljon néhányat a Pictures vagy a Download mappába, vagy csatlakoztasson egy USB-meghajtót.</string>
+    <string name="menu_icon_reset">Visszaállítás</string>
+    <string name="menu_crop">Kitöltés vágással</string>
+    <string name="menu_visibility">Láthatóság</string>
+    <string name="menu_reorder">Átrendezés</string>
+    <string name="menu_remove_from">Eltávolítás innen: %1$s</string>
+    <string name="menu_hide">Elrejtés</string>
+    <string name="menu_add_to">Hozzáadás ehhez…</string>
+    <string name="menu_move_to">Áthelyezés ide…</string>
+    <string name="menu_channels">Csatornák</string>
+    <string name="menu_rename_hint">Írjon be egy új nevet, és nyomja meg az OK gombot</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Cím</string>
+    <string name="editor_change_icon">Ikon módosítása</string>
+    <string name="editor_visible">Látható</string>
+    <string name="editor_grid">Rács</string>
+    <string name="editor_sliding_row">Csúszó sor</string>
+    <string name="editor_background">Háttérszín</string>
+    <string name="editor_show_title">Cím megjelenítése</string>
+    <string name="editor_size">Méret</string>
+    <string name="editor_advanced">Speciális beállítások</string>
+    <string name="editor_start_margin">Kezdő margó</string>
+    <string name="editor_end_margin">Záró margó</string>
+    <string name="editor_top_margin">Felső margó</string>
+    <string name="editor_cards_per_row">Kártyák soronként</string>
+    <string name="editor_row_count">Sorok száma</string>
+    <string name="editor_auto">Automatikus</string>
+    <string name="editor_auto_value">Automatikus (%1$s)</string>
+    <string name="editor_sort">Rendezés</string>
+    <string name="editor_sort_custom">Egyéni</string>
+    <string name="editor_sort_name">Betűrendben</string>
+    <string name="editor_sort_last">Legutóbb használt</string>
+    <string name="editor_sort_most">Gyakran használt</string>
+    <string name="editor_sort_random">Véletlenszerű</string>
+    <string name="editor_set_default">Beállítás alapértelmezettként</string>
+    <string name="editor_is_default">Alapértelmezett kategória</string>
+    <string name="editor_manage_apps">Alkalmazások kezelése</string>
+    <string name="editor_hidden_items">Rejtett elemek</string>
+    <string name="editor_restore">Visszaállítás</string>
+    <string name="editor_delete">Törlés</string>
+    <string name="editor_delete_confirm">Törli ezt a kategóriát?</string>
+    <string name="editor_empty_note">Ez a kategória még nem jelenik meg, mert üres</string>
+    <string name="editor_request_notifications">Értesítés-hozzáférés kérése</string>
+    <string name="editor_channel_error">Ez a csatorna már nem olvasható</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Csatornák</string>
+    <string name="channels_count">%1$d csatorna</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Értesítések</string>
+    <string name="notifications_clear_all">Összes törlése</string>
+    <string name="notifications_empty">Nincsenek értesítések</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Ez az alkalmazás nem nyitható meg</string>
+    <string name="home_reorder_hint">Mozgatás balra/jobbra, befejezés: OK vagy VISSZA</string>
+    <string name="home_category_reorder_hint">Mozgatás fel/le, befejezés: OK vagy VISSZA</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Üdvözöljük!</string>
+    <string name="firstrun_welcome_text">A QLauncher egy Android TV-indító. Alkalmazásait, csatornáit és kedvenc tartalmait egyetlen testreszabható kezdőképernyőn gyűjti össze, mögötte váltakozó háttérképpel.</string>
+    <string name="firstrun_features_title">Az Ön új szuperképességei</string>
+    <string name="firstrun_features_text">Indítson el egy alkalmazást vagy HDMI-bemenetet bekapcsoláskor, kezelje a megjelenítési profilokat, zárolja az alkalmazásokat szülői felügyelettel, jelenítsen meg kalibrációs ábrákat, észlelje a tétlenséget, és szabja testre a kezdőképernyő minden részét. Egyes funkciók az eszköztől függenek.</string>
+    <string name="firstrun_a11y_title">Kapcsolja be a kisegítő szolgáltatást</string>
+    <string name="firstrun_a11y_text">Számos funkcióhoz szükség van a QLauncher kisegítő szolgáltatására: a gyári indító lecseréléséhez, a bekapcsoláskori műveletekhez, a távirányító gombparancsaihoz, a tétlenség észleléséhez és a szülői felügyelethez. Most vagy később, a beállításokban kapcsolhatja be.</string>
+    <string name="firstrun_a11y_open">Kisegítő lehetőségek megnyitása</string>
+    <string name="firstrun_permissions_title">Ha megengedi…</string>
+    <string name="firstrun_permissions_text">Ezután a QLauncher engedélyt kér a TV-műsorlisták olvasására (a csatornákhoz és a Következő megtekintés sorhoz), valamint értesítés-hozzáférést (az értesítésikonhoz és a Most játszott funkcióhoz). Mindkettő opcionális.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Ezután a QLauncher értesítés-hozzáférést kér (az értesítésikonhoz és a Most játszott funkcióhoz). Ez opcionális.</string>
+    <string name="firstrun_notifications_dialog">Engedélyezi az értesítés-hozzáférést?</string>
+    <string name="firstrun_notifications_text">Az értesítés-hozzáféréssel a QLauncher meg tudja jeleníteni az értesítések számát, egy értesítési panelt és az éppen lejátszott tartalmat. Az Igen megnyitja a Különleges alkalmazás-hozzáférés oldalt, ahol megadhatja.</string>
+    <string name="firstrun_reports_title">Küld névtelen hibajelentéseket?</string>
+    <string name="firstrun_reports_text">Ha a QLauncher összeomlik vagy hibába ütközik, jelentést küldhet az alkalmazás verziójával és az eszköz modelljével, hogy a hibát ki lehessen javítani. Semmi olyan nem kerül elküldésre, ami Önt vagy a megtekintett tartalmakat azonosítja. Ezt később az Általános menüben módosíthatja.</string>
+    <string name="firstrun_launcher_title">Legyen a QLauncher a kezdőképernyő</string>
+    <string name="firstrun_launcher_text">Sok TV-eszközön nem lehet módosítani az alapértelmezett indítót. Ha az Önén igen, ott válassza a QLaunchert. Ellenkező esetben kapcsolja be a kisegítő szolgáltatást az „Aktuális indító felülbírálása” beállítással, és a QLauncher mindig visszatér, amikor a gyári indító megnyílik.</string>
+    <string name="firstrun_launcher_open">Alapértelmezett indító módosítása</string>
+    <string name="firstrun_start_title">Kezdjük!</string>
+    <string name="firstrun_start_text">Később mindent módosíthat a beállításokban. Nyomja meg a jobb felső sarokban lévő beállítások gombot, vagy a ↑→↓←↑→↓← gombsorozatot.</string>
+    <string name="firstrun_get_started">KEZDÉS</string>
+    <string name="firstrun_next">Tovább</string>
+    <string name="firstrun_skip">Kihagyás</string>
+    <string name="firstrun_yes">Igen</string>
+    <string name="firstrun_no">Nem</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Ezen az eszközön nincs képernyővédő</string>
+</resources>

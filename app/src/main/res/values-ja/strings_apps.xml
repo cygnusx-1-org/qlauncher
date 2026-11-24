@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">キャンセル</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">すべてのアプリ</string>
+    <string name="apps_action_edit_categories">カテゴリーを編集</string>
+    <string name="apps_action_edit_channels">チャンネルを編集</string>
+    <string name="apps_action_launcher_settings">QLauncher の設定</string>
+    <string name="apps_action_android_settings">Android の設定</string>
+    <string name="apps_action_amlogic_settings">AmLogic の追加設定</string>
+    <string name="apps_action_display_profiles">ディスプレイプロファイル</string>
+    <string name="apps_action_install_apps">サードパーティアプリをインストール</string>
+    <string name="apps_action_accessibility_service">ユーザー補助サービス</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">プロファイルを切り替え</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">このデバイス</string>
+    <string name="apps_action_about_wallpaper">この壁紙</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">なし</string>
+    <string name="apps_autostart_screensaver">スクリーンセーバー</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">チャンネル</string>
+    <string name="apps_channels_watch_next">次に見る</string>
+    <string name="apps_channels_unreadable">このチャンネルは読み込めなくなりました</string>
+    <string name="apps_channels_hidden">システムにより非表示</string>
+    <plurals name="apps_channel_count">
+        <item quantity="other">%d チャンネル</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">アイコンパックを適用</string>
+    <string name="apps_iconpack_apply_message">アプリのアイコンに %1$s を使用しますか？</string>
+    <string name="apps_iconpack_apply_confirm">適用</string>
+    <string name="apps_iconpack_applied">アイコンパックを適用しました</string>
+    <string name="apps_iconpack_apply_missing">アイコンパックが指定されていません</string>
+    <string name="apps_iconpack_apply_not_a_pack">このアプリはアイコンパックではありません</string>
+    <string name="apps_iconpack_none">なし</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">ショートカットを追加</string>
+    <string name="apps_pin_shortcut_message">%2$s の「%1$s」をショートカットカテゴリーに追加しますか？</string>
+    <string name="apps_pin_shortcut_confirm">追加</string>
+    <string name="apps_pin_shortcut_added">ショートカットを追加しました</string>
+    <string name="apps_pin_shortcut_failed">ショートカットを追加できませんでした</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">サードパーティアプリをインストール</string>
+    <string name="apps_install_description">インストールするアプリを選択してください。インストールの前に、提供元不明のアプリのインストールを許可する必要がある場合があります。</string>
+    <string name="apps_install_custom_url">カスタム URL / Downloader コード</string>
+    <string name="apps_install_custom_url_desc">信頼できるソースを使用してください</string>
+    <string name="apps_install_choose_method">インストール方法を選択</string>
+    <string name="apps_install_installed">インストール済み</string>
+    <string name="apps_install_category_wallpaper_plugin">壁紙プラグイン</string>
+    <string name="apps_install_category_icon_pack">アイコンパック</string>
+    <string name="apps_install_category_file_manager">ファイルマネージャー</string>
+    <string name="apps_install_category_tool">ツール</string>
+    <string name="apps_install_method_store">ストア</string>
+    <string name="apps_install_method_direct">直接ダウンロード</string>
+    <string name="apps_install_method_downloader">Downloader アプリ</string>
+    <string name="apps_install_state_downloading">%1$s をダウンロード中… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">%1$s をダウンロード中…</string>
+    <string name="apps_install_state_installing">%1$s をインストール中…</string>
+    <string name="apps_install_state_confirm">%1$s のインストールを確認してください</string>
+    <string name="apps_install_state_success">%1$s をインストールしました</string>
+    <string name="apps_install_state_unknown_sources">QLauncher にアプリのインストールを許可してから、戻って続行してください</string>
+    <string name="apps_install_state_downloader_sent">コード %1$s を Downloader に送信しました</string>
+    <string name="apps_install_state_downloader_type">Downloader でコード %1$s を入力してください</string>
+    <string name="apps_install_state_store">ストアで開きました</string>
+    <string name="apps_install_state_browser">このリンクはウェブページのため、ブラウザで開きました</string>
+    <string name="apps_install_fail_invalid">URL または Downloader コードではありません</string>
+    <string name="apps_install_fail_no_usb">USB ドライブが見つかりません</string>
+    <string name="apps_install_fail_archive">アーカイブはインストールできません</string>
+    <string name="apps_install_fail_network">ダウンロードに失敗しました</string>
+    <string name="apps_install_fail_http">サーバーがエラーを返しました (%1$s)</string>
+    <string name="apps_install_fail_not_apk">このファイルはアプリ (APK) ではありません</string>
+    <string name="apps_install_fail_unreadable">ファイルを読み込めません</string>
+    <string name="apps_install_fail_install">インストールに失敗しました</string>
+    <string name="apps_install_fail_cancelled">インストールはキャンセルされました</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher にはアプリのインストールが許可されていません</string>
+    <string name="apps_install_fail_downloader">Downloader アプリがインストールされていません</string>
+    <string name="apps_install_fail_store">利用できるアプリストアがありません</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">このデバイス</string>
+    <string name="apps_device_brand_manufacturer">ブランド / メーカー</string>
+    <string name="apps_device_device_product">デバイス / 製品</string>
+    <string name="apps_device_model">モデル</string>
+    <string name="apps_device_hardware">ハードウェア</string>
+    <string name="apps_device_fingerprint">フィンガープリント</string>
+    <string name="apps_device_build">ビルド</string>
+    <string name="apps_device_build_desc">ビルドの説明</string>
+    <string name="apps_device_device_type">デバイスの種類</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP アドレス</string>
+    <string name="apps_device_root_access">root アクセス</string>
+    <string name="apps_device_pm_info">PM 情報</string>
+    <string name="apps_device_pm_none">ピクチャーマネージャーなし</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">はい</string>
+    <string name="apps_device_no">いいえ</string>
+</resources>

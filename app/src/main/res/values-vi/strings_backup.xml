@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Mặc định</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">đậm</string>
+    <string name="backup_clock_markup_italic">nghiêng</string>
+    <string name="backup_clock_markup_underline">gạch chân</string>
+    <string name="backup_clock_markup_strikethrough">gạch ngang</string>
+    <string name="backup_clock_markup_subscript">chỉ số dưới</string>
+    <string name="backup_clock_markup_superscript">chỉ số trên</string>
+    <string name="backup_clock_markup_half_size">nửa cỡ</string>
+    <string name="backup_clock_markup_one_and_a_half_size">gấp rưỡi</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Cắt mức đen</string>
+    <string name="backup_pattern_apl_clipping">Cắt mức APL</string>
+    <string name="backup_pattern_white_clipping">Cắt mức trắng</string>
+    <string name="backup_pattern_grayscale_ramp">Dải xám chuyển dần</string>
+    <string name="backup_pattern_grayscale_steps">Các bậc xám</string>
+    <string name="backup_pattern_dynamic_brightness">Độ sáng động</string>
+    <string name="backup_pattern_color_steps">Các bậc màu</string>
+    <string name="backup_pattern_color_clipping">Cắt mức màu</string>
+    <string name="backup_pattern_flashing_color_bars">Thanh màu nhấp nháy</string>
+    <string name="backup_pattern_sharpness_overscan">Độ sắc nét &amp; quét tràn</string>
+    <string name="backup_pattern_uhd">Mẫu UHD</string>
+    <string name="backup_pattern_judder">Kiểm tra rung giật hình</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Độ sắc nét theo tỷ lệ khung hình</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Mức đen</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Cắt mức màu 240–1000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Cắt mức màu 3600–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Cắt mức màu 700–10000 nit</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Cắt mức màu 900–4000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Dải xám chuyển dần 10000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Dải xám chuyển dần 1000 nit</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Dải xám chuyển dần 4000 nit</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] PLUGE đen</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Dải màu chuyển dần</string>
+    <string name="backup_pattern_unavailable">%1$s cần đường xử lý video HDR và hiện chưa khả dụng</string>
+    <!-- Pages -->
+    <string name="backup_settings">Cài đặt</string>
+    <string name="backup_manage_settings">Quản lý cài đặt</string>
+    <string name="backup_themes">Chủ đề</string>
+    <string name="backup_import">Nhập</string>
+    <string name="backup_export">Xuất</string>
+    <string name="backup_import_from_file">Từ trình quản lý tệp</string>
+    <string name="backup_import_from_auto">Từ bản sao lưu tự động</string>
+    <string name="backup_export_save">Lưu trên thiết bị</string>
+    <string name="backup_export_share">Chia sẻ với ứng dụng khác</string>
+    <string name="backup_reset">Đặt lại về mặc định</string>
+    <string name="backup_cancel">Hủy</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Xong</string>
+    <string name="backup_close">Đóng</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Xuất cài đặt</string>
+    <string name="backup_export_theme_title">Xuất chủ đề</string>
+    <string name="backup_export_description">Mọi thứ được lưu trong một tệp, mã hóa bằng mật khẩu do bạn chọn (ít nhất %1$d ký tự). Bạn cần mật khẩu này để nhập tệp và không thể khôi phục mật khẩu.</string>
+    <string name="backup_export_theme_description">Cài đặt giao diện và hình nền hiện tại được lưu trong một tệp, mã hóa bằng mật khẩu do bạn chọn (ít nhất %1$d ký tự). Bạn cần mật khẩu này để nhập chủ đề.</string>
+    <string name="backup_password">Mật khẩu</string>
+    <string name="backup_password_show">Hiện mật khẩu</string>
+    <string name="backup_password_hide">Ẩn mật khẩu</string>
+    <string name="backup_password_strength">Độ mạnh mật khẩu</string>
+    <string name="backup_strength_too_short">Quá ngắn: ít nhất %1$d ký tự</string>
+    <string name="backup_strength_weak">Yếu: dễ đoán</string>
+    <string name="backup_strength_fair">Trung bình</string>
+    <string name="backup_strength_strong">Mạnh</string>
+    <string name="backup_password_too_short">Mật khẩu cần có ít nhất %1$d ký tự</string>
+    <string name="backup_exporting">Đang xuất…</string>
+    <string name="backup_export_saved">Đã lưu vào %1$s</string>
+    <string name="backup_export_kept">Chưa lưu ở nơi khác. Tệp vẫn nằm trong %1$s</string>
+    <string name="backup_export_shared">Đã gửi. Một bản sao vẫn nằm trong %1$s</string>
+    <string name="backup_export_no_file_manager">Không có ứng dụng nào trên thiết bị này nhận được tệp. Tệp nằm trong %1$s</string>
+    <string name="backup_export_failed">Xuất không thành công: %1$s</string>
+    <string name="backup_share_title">Gửi tệp QLauncher bằng</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Việc nhập sẽ thay thế thiết lập hiện tại của bạn. Một bản sao lưu tự động sẽ được tạo trước, và QLauncher sẽ khởi động lại khi hoàn tất.</string>
+    <string name="backup_reading">Đang đọc tệp…</string>
+    <string name="backup_import_action">Nhập</string>
+    <string name="backup_wrong_password">Sai mật khẩu</string>
+    <string name="backup_password_hint">Mật khẩu đã chọn khi xuất tệp</string>
+    <string name="backup_not_a_backup">Đây không phải là bản sao lưu hoặc chủ đề của QLauncher hay Projectivy.</string>
+    <string name="backup_damaged">Tệp bị hỏng hoặc không đầy đủ.</string>
+    <string name="backup_too_new">Tệp này được tạo bởi phiên bản QLauncher mới hơn (định dạng %1$d). Hãy cập nhật QLauncher để nhập tệp.</string>
+    <string name="backup_unreadable">Không thể đọc bản sao lưu tự động này trên thiết bị này.</string>
+    <string name="backup_import_failed">Nhập không thành công và không có gì bị thay đổi: %1$s</string>
+    <string name="backup_applying">Đang nhập… QLauncher sẽ khởi động lại khi hoàn tất.</string>
+    <string name="backup_origin_ql_backup">Bản sao lưu cài đặt QLauncher</string>
+    <string name="backup_origin_ql_theme">Chủ đề QLauncher</string>
+    <string name="backup_origin_pl_backup">Bản sao lưu cài đặt Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">Chủ đề Projectivy Launcher</string>
+    <string name="backup_origin_auto">Bản sao lưu tự động</string>
+    <string name="backup_preview_theme_by">%1$s của %2$s</string>
+    <string name="backup_preview_version">phiên bản %1$s</string>
+    <string name="backup_preview_settings">Cài đặt</string>
+    <string name="backup_preview_categories">Danh mục</string>
+    <string name="backup_preview_apps">Tùy chỉnh ứng dụng</string>
+    <string name="backup_preview_profiles">Cấu hình hiển thị</string>
+    <string name="backup_preview_files">Hình nền và biểu tượng</string>
+    <string name="backup_preview_skipped">Ứng dụng không có trên thiết bị này</string>
+    <string name="backup_replace_setup">Thay thế thiết lập hiện tại</string>
+    <string name="backup_apply_theme">Áp dụng chủ đề</string>
+    <string name="backup_replace_detail">Một bản sao lưu tự động của thiết lập hiện tại sẽ được tạo trước</string>
+    <string name="backup_nc_parental">Mã kiểm soát của cha mẹ</string>
+    <string name="backup_nc_parental_detail">Không được chuyển sang. Hãy đặt mã mới trong Kiểm soát của cha mẹ.</string>
+    <string name="backup_nc_premium">Trạng thái cao cấp</string>
+    <string name="backup_nc_premium_detail">Không được chuyển sang. Mọi tính năng của QLauncher đều miễn phí.</string>
+    <string name="backup_nc_inputs">Đầu vào TV</string>
+    <string name="backup_nc_profile_bindings">Liên kết cấu hình hiển thị</string>
+    <string name="backup_nc_plugin">Plugin hình nền</string>
+    <string name="backup_nc_plugin_detail">Chưa cài đặt %1$s. Nguồn hình nền được giữ nguyên.</string>
+    <string name="backup_nc_icons">Biểu tượng tùy chỉnh</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="other">%1$d giá trị đã thay đổi</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="other">%1$d danh mục</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="other">%1$d ứng dụng</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="other">%1$d cấu hình</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="other">%1$d tệp</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="other">%1$d cài đặt không xác định, đã bỏ qua</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="other">%1$d mục không khớp với ứng dụng nào được cài đặt ở đây và bị bỏ qua</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="other">%1$d liên kết tới đầu vào TV mà thiết bị này không có sẽ bị bỏ qua</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="other">%1$d cấu hình được gán cho đầu vào không được chuyển sang</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="other">%1$d biểu tượng lưu bên trong Projectivy không đọc được và bị bỏ qua</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Sao lưu tự động</string>
+    <string name="backup_auto_description">QLauncher giữ %1$d phiên bản thiết lập gần nhất của bạn trên thiết bị này, được mã hóa bằng một khóa không bao giờ rời khỏi thiết bị. Chọn một phiên bản để khôi phục; không cần mật khẩu.</string>
+    <string name="backup_auto_none">Không có bản sao lưu tự động nào</string>
+    <string name="backup_files_title">Tệp sao lưu</string>
+    <string name="backup_files_theme_title">Tệp chủ đề</string>
+    <string name="backup_files_description">Các bản xuất được lưu trong %1$s. Khi có quyền truy cập tất cả các tệp, QLauncher còn tìm bản sao lưu trong Download, Documents và trên ổ USB, kể cả của Projectivy.</string>
+    <string name="backup_files_searching">Đang tìm tệp sao lưu…</string>
+    <string name="backup_files_none">Không tìm thấy tệp sao lưu nào</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Thư mục của QLauncher</string>
+    <string name="backup_files_access">Tìm bản sao lưu từ ứng dụng và thiết bị khác</string>
+    <string name="backup_files_access_desc">Cho phép truy cập tất cả các tệp</string>
+    <string name="backup_files_access_unavailable">Không có màn hình cài đặt trên thiết bị này. Hãy cho phép truy cập tất cả các tệp bằng lệnh: %1$s</string>
+    <string name="backup_files_browse">Vị trí khác…</string>
+    <string name="backup_files_browse_desc">Chọn tệp bằng trình chọn tệp của hệ thống</string>
+    <string name="backup_auto_delete_all">Xóa tất cả</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Sau một thay đổi</string>
+    <string name="backup_reason_import">Trước khi nhập</string>
+    <string name="backup_reason_migration">Trước khi cập nhật</string>
+    <string name="backup_reason_reset">Trước khi đặt lại</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Cấu hình #</string>
+    <string name="backup_no_picture_manager">Chưa tải trình quản lý hình ảnh</string>
+    <string name="backup_no_picture_manager_detail">Thiết bị này không có cách được hỗ trợ để thay đổi cài đặt hình ảnh, nên các cấu hình giữ nguyên giá trị mà không áp dụng chúng.</string>
+</resources>

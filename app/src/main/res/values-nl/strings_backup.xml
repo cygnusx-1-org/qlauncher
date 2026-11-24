@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Standaard</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">vet</string>
+    <string name="backup_clock_markup_italic">cursief</string>
+    <string name="backup_clock_markup_underline">onderstreept</string>
+    <string name="backup_clock_markup_strikethrough">doorgestreept</string>
+    <string name="backup_clock_markup_subscript">verlaagd</string>
+    <string name="backup_clock_markup_superscript">verhoogd</string>
+    <string name="backup_clock_markup_half_size">halve grootte</string>
+    <string name="backup_clock_markup_one_and_a_half_size">anderhalve keer</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Zwartclipping</string>
+    <string name="backup_pattern_apl_clipping">APL-clipping</string>
+    <string name="backup_pattern_white_clipping">Witclipping</string>
+    <string name="backup_pattern_grayscale_ramp">Grijswaardenverloop</string>
+    <string name="backup_pattern_grayscale_steps">Grijswaardenstappen</string>
+    <string name="backup_pattern_dynamic_brightness">Dynamische helderheid</string>
+    <string name="backup_pattern_color_steps">Kleurstappen</string>
+    <string name="backup_pattern_color_clipping">Kleurclipping</string>
+    <string name="backup_pattern_flashing_color_bars">Knipperende kleurbalken</string>
+    <string name="backup_pattern_sharpness_overscan">Scherpte &amp; overscan</string>
+    <string name="backup_pattern_uhd">UHD-patroon</string>
+    <string name="backup_pattern_judder">Juddertest</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Scherpte beeldverhouding</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Zwartniveau</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Kleurclipping 240–1000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Kleurclipping 3600–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Kleurclipping 700–10000 nits</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Kleurclipping 900–4000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Grijswaardenverloop 10000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Grijswaardenverloop 1000 nits</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Grijswaardenverloop 4000 nits</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Zwarte PLUGE</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Kleurverlopen</string>
+    <string name="backup_pattern_unavailable">%1$s vereist HDR-video-uitvoer en is nog niet beschikbaar</string>
+    <!-- Pages -->
+    <string name="backup_settings">Instellingen</string>
+    <string name="backup_manage_settings">Instellingen beheren</string>
+    <string name="backup_themes">Thema\'s</string>
+    <string name="backup_import">Importeren</string>
+    <string name="backup_export">Exporteren</string>
+    <string name="backup_import_from_file">Via bestandsbeheer</string>
+    <string name="backup_import_from_auto">Uit automatische back-up</string>
+    <string name="backup_export_save">Lokaal opslaan</string>
+    <string name="backup_export_share">Delen met een andere app</string>
+    <string name="backup_reset">Standaardwaarden herstellen</string>
+    <string name="backup_cancel">Annuleren</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Klaar</string>
+    <string name="backup_close">Sluiten</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Instellingen exporteren</string>
+    <string name="backup_export_theme_title">Thema exporteren</string>
+    <string name="backup_export_description">Alles wordt opgeslagen in één bestand, versleuteld met een wachtwoord dat je zelf kiest (minstens %1$d tekens). Je hebt het wachtwoord nodig om het bestand te importeren, en het kan niet worden hersteld.</string>
+    <string name="backup_export_theme_description">De weergave-instellingen en de huidige achtergrond worden opgeslagen in één bestand, versleuteld met een wachtwoord dat je zelf kiest (minstens %1$d tekens). Je hebt het wachtwoord nodig om het thema te importeren.</string>
+    <string name="backup_password">Wachtwoord</string>
+    <string name="backup_password_show">Wachtwoord tonen</string>
+    <string name="backup_password_hide">Wachtwoord verbergen</string>
+    <string name="backup_password_strength">Wachtwoordsterkte</string>
+    <string name="backup_strength_too_short">Te kort: minstens %1$d tekens</string>
+    <string name="backup_strength_weak">Zwak: makkelijk te raden</string>
+    <string name="backup_strength_fair">Redelijk</string>
+    <string name="backup_strength_strong">Sterk</string>
+    <string name="backup_password_too_short">Het wachtwoord moet minstens %1$d tekens hebben</string>
+    <string name="backup_exporting">Exporteren…</string>
+    <string name="backup_export_saved">Opgeslagen in %1$s</string>
+    <string name="backup_export_kept">Nergens anders opgeslagen. Het bestand blijft in %1$s</string>
+    <string name="backup_export_shared">Verstuurd. Er blijft een kopie in %1$s</string>
+    <string name="backup_export_no_file_manager">Geen app op dit apparaat kan het bestand ontvangen. Het staat in %1$s</string>
+    <string name="backup_export_failed">Het exporteren is mislukt: %1$s</string>
+    <string name="backup_share_title">Het QLauncher-bestand versturen met</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Importeren vervangt je huidige configuratie. Eerst wordt een automatische back-up gemaakt, en QLauncher herstart als het klaar is.</string>
+    <string name="backup_reading">Bestand lezen…</string>
+    <string name="backup_import_action">Importeren</string>
+    <string name="backup_wrong_password">Verkeerd wachtwoord</string>
+    <string name="backup_password_hint">Het wachtwoord dat is gekozen bij het exporteren van het bestand</string>
+    <string name="backup_not_a_backup">Dit is geen back-up of thema van QLauncher of Projectivy.</string>
+    <string name="backup_damaged">Het bestand is beschadigd of onvolledig.</string>
+    <string name="backup_too_new">Dit bestand is gemaakt door een nieuwere QLauncher (formaat %1$d). Update QLauncher om het te importeren.</string>
+    <string name="backup_unreadable">Deze automatische back-up kan op dit apparaat niet worden gelezen.</string>
+    <string name="backup_import_failed">Het importeren is mislukt en er is niets gewijzigd: %1$s</string>
+    <string name="backup_applying">Importeren… QLauncher herstart als het klaar is.</string>
+    <string name="backup_origin_ql_backup">Back-up van QLauncher-instellingen</string>
+    <string name="backup_origin_ql_theme">QLauncher-thema</string>
+    <string name="backup_origin_pl_backup">Back-up van Projectivy Launcher-instellingen</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher-thema</string>
+    <string name="backup_origin_auto">Automatische back-up</string>
+    <string name="backup_preview_theme_by">%1$s door %2$s</string>
+    <string name="backup_preview_version">versie %1$s</string>
+    <string name="backup_preview_settings">Instellingen</string>
+    <string name="backup_preview_categories">Categorieën</string>
+    <string name="backup_preview_apps">App-aanpassingen</string>
+    <string name="backup_preview_profiles">Weergaveprofielen</string>
+    <string name="backup_preview_files">Achtergronden en pictogrammen</string>
+    <string name="backup_preview_skipped">Apps die niet op dit apparaat staan</string>
+    <string name="backup_replace_setup">Huidige configuratie vervangen</string>
+    <string name="backup_apply_theme">Thema toepassen</string>
+    <string name="backup_replace_detail">Eerst wordt een automatische back-up van de huidige configuratie gemaakt</string>
+    <string name="backup_nc_parental">Code ouderlijk toezicht</string>
+    <string name="backup_nc_parental_detail">Wordt niet overgenomen. Stel een nieuwe code in bij Ouderlijk toezicht.</string>
+    <string name="backup_nc_premium">Premiumstatus</string>
+    <string name="backup_nc_premium_detail">Wordt niet overgenomen. Elke functie van QLauncher is gratis.</string>
+    <string name="backup_nc_inputs">Tv-ingangen</string>
+    <string name="backup_nc_profile_bindings">Koppelingen van weergaveprofielen</string>
+    <string name="backup_nc_plugin">Achtergrondplug-in</string>
+    <string name="backup_nc_plugin_detail">%1$s is niet geïnstalleerd. De achtergrondbron blijft zoals hij is.</string>
+    <string name="backup_nc_icons">Aangepaste pictogrammen</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d gewijzigde waarde</item>
+        <item quantity="other">%1$d gewijzigde waarden</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d categorie</item>
+        <item quantity="other">%1$d categorieën</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d app</item>
+        <item quantity="other">%1$d apps</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profiel</item>
+        <item quantity="other">%1$d profielen</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d bestand</item>
+        <item quantity="other">%1$d bestanden</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d onbekende instelling, overgeslagen</item>
+        <item quantity="other">%1$d onbekende instellingen, overgeslagen</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d item hoort bij geen enkele hier geïnstalleerde app en wordt overgeslagen</item>
+        <item quantity="other">%1$d items horen bij geen enkele hier geïnstalleerde app en worden overgeslagen</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d koppeling met een tv-ingang die dit apparaat niet heeft, wordt overgeslagen</item>
+        <item quantity="other">%1$d koppelingen met tv-ingangen die dit apparaat niet heeft, worden overgeslagen</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d profiel dat aan een ingang is toegewezen, wordt niet overgenomen</item>
+        <item quantity="other">%1$d profielen die aan ingangen zijn toegewezen, worden niet overgenomen</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d pictogram dat in Projectivy is opgeslagen, kan niet worden gelezen en wordt overgeslagen</item>
+        <item quantity="other">%1$d pictogrammen die in Projectivy zijn opgeslagen, kunnen niet worden gelezen en worden overgeslagen</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automatische back-ups</string>
+    <string name="backup_auto_description">QLauncher bewaart de laatste %1$d versies van je configuratie op dit apparaat, versleuteld met een sleutel die het apparaat nooit verlaat. Kies er een om die te herstellen; er is geen wachtwoord nodig.</string>
+    <string name="backup_auto_none">Geen automatische back-up beschikbaar</string>
+    <string name="backup_files_title">Back-upbestanden</string>
+    <string name="backup_files_theme_title">Themabestanden</string>
+    <string name="backup_files_description">Exports worden opgeslagen in %1$s. Met toegang tot alle bestanden vindt QLauncher ook back-ups in Download, Documents en op USB-sticks, ook die van Projectivy.</string>
+    <string name="backup_files_searching">Zoeken naar back-upbestanden…</string>
+    <string name="backup_files_none">Geen back-upbestanden gevonden</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">Map van QLauncher</string>
+    <string name="backup_files_access">Back-ups van andere apps en apparaten zoeken</string>
+    <string name="backup_files_access_desc">Toegang tot alle bestanden toestaan</string>
+    <string name="backup_files_access_unavailable">Geen instellingenscherm op dit apparaat. Sta toegang tot alle bestanden toe met: %1$s</string>
+    <string name="backup_files_browse">Andere locatie…</string>
+    <string name="backup_files_browse_desc">Kies een bestand met de bestandskiezer van het systeem</string>
+    <string name="backup_auto_delete_all">Alles verwijderen</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">Na een wijziging</string>
+    <string name="backup_reason_import">Vóór een import</string>
+    <string name="backup_reason_migration">Vóór een update</string>
+    <string name="backup_reason_reset">Vóór een reset</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profiel #</string>
+    <string name="backup_no_picture_manager">Geen beeldbeheer geladen</string>
+    <string name="backup_no_picture_manager_detail">Dit apparaat biedt geen ondersteunde manier om de beeldinstellingen te wijzigen, dus profielen behouden hun waarden zonder ze toe te passen.</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">در حال پخش</string>
+    <string name="home_cat_inputs">ورودی‌ها</string>
+    <string name="home_cat_favorites">موارد دلخواه</string>
+    <string name="home_cat_video">ویدیو</string>
+    <string name="home_cat_music">موسیقی</string>
+    <string name="home_cat_games">بازی‌ها</string>
+    <string name="home_cat_tv_apps">برنامه‌های تلویزیون</string>
+    <string name="home_cat_mobile_apps">برنامه‌های موبایل</string>
+    <string name="home_cat_watch_next">تماشای بعدی</string>
+    <string name="home_cat_shortcuts">میان‌برها</string>
+    <string name="home_cat_folders">پوشه‌های دسته</string>
+    <string name="home_cat_live_tv">تلویزیون زنده</string>
+    <string name="home_cat_settings">تنظیمات</string>
+    <string name="home_cat_display">نمایشگر</string>
+    <string name="home_cat_applications">برنامه‌ها</string>
+    <string name="home_cat_system">سیستم</string>
+    <string name="home_cat_about">درباره</string>
+    <string name="home_new_category">دسته جدید</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">همه برنامه‌ها</string>
+    <string name="home_action_edit_categories">ویرایش دسته‌ها</string>
+    <string name="home_action_edit_channels">ویرایش کانال‌ها</string>
+    <string name="home_action_launcher_settings">تنظیمات QLauncher</string>
+    <string name="home_action_android_settings">تنظیمات Android</string>
+    <string name="home_action_amlogic_settings">تنظیمات اضافی AmLogic</string>
+    <string name="home_action_display_profiles">نمایه‌های نمایشگر</string>
+    <string name="home_action_install_apps">نصب برنامه‌های شخص ثالث</string>
+    <string name="home_action_accessibility">سرویس دسترس‌پذیری</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">تغییر نمایه</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">این دستگاه</string>
+    <string name="home_action_about_wallpaper">این کاغذدیواری</string>
+
+    <!-- Program meta -->
+    <string name="home_season">فصل %1$s</string>
+    <string name="home_episode">قسمت %1$s</string>
+    <string name="home_minutes">%1$d دقیقه</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">اتصال</string>
+    <string name="home_status_notifications">اعلان‌ها</string>
+    <string name="home_status_settings">تنظیمات</string>
+    <string name="home_status_wallpaper">این کاغذدیواری</string>
+    <string name="home_navigation_menu">منوی پیمایش</string>
+    <string name="home_reorder">تغییر ترتیب</string>
+    <string name="home_category_settings">تنظیمات دسته</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">تنظیمات برنامه</string>
+    <string name="menu_open">باز کردن</string>
+    <string name="menu_details">جزئیات</string>
+    <string name="menu_play_pause">پخش/مکث</string>
+    <string name="menu_stop">توقف</string>
+    <string name="menu_previous">قبلی</string>
+    <string name="menu_next">بعدی</string>
+    <string name="menu_uninstall">حذف نصب</string>
+    <string name="menu_launch_on_boot">اجرا هنگام روشن شدن</string>
+    <string name="menu_launch_on_boot_on">هنگام روشن شدن اجرا می‌شود</string>
+    <string name="menu_add_parental">افزودن به کنترل والدین</string>
+    <string name="menu_remove_parental">حذف از کنترل والدین</string>
+    <string name="menu_shortcuts">میان‌برها</string>
+    <string name="menu_appearance">ظاهر</string>
+    <string name="menu_title">عنوان</string>
+    <string name="menu_change_icon">تغییر نماد</string>
+    <string name="menu_icon_from_picture">از تصویر</string>
+    <string name="menu_icon_other_location">مکان دیگر…</string>
+    <string name="menu_icon_no_pictures">هیچ تصویری پیدا نشد. چند تصویر در Pictures یا Download کپی کنید، یا یک درایو USB وصل کنید.</string>
+    <string name="menu_icon_reset">بازنشانی</string>
+    <string name="menu_crop">برش برای پر کردن</string>
+    <string name="menu_visibility">نمایان بودن</string>
+    <string name="menu_reorder">تغییر ترتیب</string>
+    <string name="menu_remove_from">حذف از %1$s</string>
+    <string name="menu_hide">پنهان کردن</string>
+    <string name="menu_add_to">افزودن به…</string>
+    <string name="menu_move_to">انتقال به…</string>
+    <string name="menu_channels">کانال‌ها</string>
+    <string name="menu_rename_hint">عنوان جدیدی تایپ کنید و OK را فشار دهید</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">عنوان</string>
+    <string name="editor_change_icon">تغییر نماد</string>
+    <string name="editor_visible">نمایان</string>
+    <string name="editor_grid">شبکه</string>
+    <string name="editor_sliding_row">ردیف لغزان</string>
+    <string name="editor_background">رنگ پس‌زمینه</string>
+    <string name="editor_show_title">نمایش عنوان</string>
+    <string name="editor_size">اندازه</string>
+    <string name="editor_advanced">تنظیمات پیشرفته</string>
+    <string name="editor_start_margin">حاشیه ابتدا</string>
+    <string name="editor_end_margin">حاشیه انتها</string>
+    <string name="editor_top_margin">حاشیه بالا</string>
+    <string name="editor_cards_per_row">کارت در هر ردیف</string>
+    <string name="editor_row_count">تعداد ردیف</string>
+    <string name="editor_auto">خودکار</string>
+    <string name="editor_auto_value">خودکار (%1$s)</string>
+    <string name="editor_sort">مرتب‌سازی</string>
+    <string name="editor_sort_custom">سفارشی</string>
+    <string name="editor_sort_name">الفبایی</string>
+    <string name="editor_sort_last">آخرین استفاده</string>
+    <string name="editor_sort_most">پراستفاده‌ترین</string>
+    <string name="editor_sort_random">تصادفی</string>
+    <string name="editor_set_default">تنظیم به‌عنوان پیش‌فرض</string>
+    <string name="editor_is_default">دسته پیش‌فرض</string>
+    <string name="editor_manage_apps">مدیریت برنامه‌ها</string>
+    <string name="editor_hidden_items">موارد پنهان</string>
+    <string name="editor_restore">بازگرداندن</string>
+    <string name="editor_delete">حذف</string>
+    <string name="editor_delete_confirm">این دسته حذف شود؟</string>
+    <string name="editor_empty_note">این دسته فعلاً نمایش داده نمی‌شود، چون خالی است</string>
+    <string name="editor_request_notifications">درخواست مجوز اعلان</string>
+    <string name="editor_channel_error">این کانال دیگر قابل خواندن نیست</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">کانال‌ها</string>
+    <string name="channels_count">%1$d کانال</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">اعلان‌ها</string>
+    <string name="notifications_clear_all">پاک کردن همه</string>
+    <string name="notifications_empty">اعلانی وجود ندارد</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">این برنامه باز نمی‌شود</string>
+    <string name="home_reorder_hint">برای جابه‌جایی از چپ/راست استفاده کنید و برای پایان، OK یا «برگشت» را بزنید</string>
+    <string name="home_category_reorder_hint">برای جابه‌جایی از بالا/پایین استفاده کنید و برای پایان، OK یا «برگشت» را بزنید</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">خوش آمدید!</string>
+    <string name="firstrun_welcome_text">برنامه QLauncher یک راه‌انداز برای Android TV است. برنامه‌ها، کانال‌ها و محتوای دلخواه شما را در یک صفحه اصلی قابل‌سفارشی‌سازی گرد هم می‌آورد، با کاغذدیواری چرخانی در پس‌زمینه.</string>
+    <string name="firstrun_features_title">ابرقدرت‌های جدید شما</string>
+    <string name="firstrun_features_text">هنگام روشن شدن دستگاه یک برنامه یا ورودی HDMI را اجرا کنید، نمایه‌های نمایشگر را مدیریت کنید، برنامه‌ها را با کنترل والدین قفل کنید، الگوهای کالیبراسیون نمایش دهید، زمان بیکاری را تشخیص دهید و هر بخش از صفحه اصلی را سفارشی کنید. برخی قابلیت‌ها به دستگاه شما بستگی دارند.</string>
+    <string name="firstrun_a11y_title">بیایید دسترس‌پذیری را فعال کنیم</string>
+    <string name="firstrun_a11y_text">بسیاری از قابلیت‌ها به سرویس دسترس‌پذیری QLauncher نیاز دارند: جایگزینی راه‌انداز اصلی، کارها هنگام روشن شدن، حرکت‌های دکمه‌های کنترل از راه دور، تشخیص بیکاری و کنترل والدین. می‌توانید آن را اکنون یا بعداً از تنظیمات روشن کنید.</string>
+    <string name="firstrun_a11y_open">باز کردن تنظیمات دسترس‌پذیری</string>
+    <string name="firstrun_permissions_title">اگر اجازه بدهید…</string>
+    <string name="firstrun_permissions_text">در ادامه، QLauncher اجازه خواندن فهرست برنامه‌های تلویزیون (برای کانال‌ها و «تماشای بعدی») و دسترسی به اعلان (برای نماد اعلان و «در حال پخش») را درخواست می‌کند. هر دو اختیاری هستند.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">در ادامه، QLauncher دسترسی به اعلان (برای نماد اعلان و «در حال پخش») را درخواست می‌کند. این مورد اختیاری است.</string>
+    <string name="firstrun_notifications_dialog">دسترسی به اعلان مجاز شود؟</string>
+    <string name="firstrun_notifications_text">دسترسی به اعلان به QLauncher امکان می‌دهد تعداد اعلان‌ها، پانل اعلان‌ها و آنچه در حال پخش است را نشان دهد. «بله» صفحه «دسترسی ویژه برنامه» را باز می‌کند تا در آنجا این اجازه را بدهید.</string>
+    <string name="firstrun_reports_title">گزارش‌های ناشناس خرابی و خطا فرستاده شود؟</string>
+    <string name="firstrun_reports_text">اگر QLauncher از کار بیفتد یا با خطایی روبه‌رو شود، می‌تواند گزارشی همراه با نسخه برنامه و مدل دستگاه بفرستد تا اشکال برطرف شود. هیچ چیزی که هویت شما یا آنچه تماشا می‌کنید را مشخص کند فرستاده نمی‌شود. بعداً می‌توانید این را در «عمومی» تغییر دهید.</string>
+    <string name="firstrun_launcher_title">انتخاب QLauncher به‌عنوان صفحه اصلی</string>
+    <string name="firstrun_launcher_text">بسیاری از دستگاه‌های تلویزیون اجازه تغییر راه‌انداز پیش‌فرض را نمی‌دهند. اگر دستگاه شما اجازه می‌دهد، آنجا QLauncher را انتخاب کنید. در غیر این صورت سرویس دسترس‌پذیری را با «جایگزینی راه‌انداز فعلی» روشن کنید تا هر بار که راه‌انداز اصلی باز شود، QLauncher برگردد.</string>
+    <string name="firstrun_launcher_open">تغییر راه‌انداز پیش‌فرض</string>
+    <string name="firstrun_start_title">وقت شروع است!</string>
+    <string name="firstrun_start_text">همه‌چیز را بعداً می‌توان از تنظیمات تغییر داد. دکمه تنظیمات را در بالای صفحه فشار دهید، یا دنباله کلیدهای ↑→↓←↑→↓← را بزنید.</string>
+    <string name="firstrun_get_started">شروع کنیم</string>
+    <string name="firstrun_next">بعدی</string>
+    <string name="firstrun_skip">رد شدن</string>
+    <string name="firstrun_yes">بله</string>
+    <string name="firstrun_no">خیر</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">این دستگاه محافظ صفحه ندارد</string>
+</resources>

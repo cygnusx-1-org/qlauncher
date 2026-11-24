@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Έκδοση %1$s</string>
+    <string name="about_copyright">Πνευματικά δικαιώματα © 2026 συνεισφέροντες του QLauncher. Ελεύθερο λογισμικό υπό την άδεια GNU General Public License, έκδοση 3.</string>
+    <string name="about_libs">Βιβλιοθήκες / Συντελεστές</string>
+    <string name="about_links">Σύνδεσμοι</string>
+    <string name="about_link_project">Σελίδα του έργου</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Ελληνική μετάφραση</string>
+    <string name="about_translation_credit">Συνεισφέροντες του QLauncher</string>
+    <string name="about_no_browser">Δεν υπάρχει πρόγραμμα περιήγησης σε αυτή τη συσκευή. Ανοίξτε το %1$s σε άλλη συσκευή.</string>
+    <string name="about_check_updates">Έλεγχος για ενημερώσεις</string>
+    <string name="about_update_checking">Έλεγχος…</string>
+    <string name="about_update_latest">Το QLauncher είναι ενημερωμένο (%1$s)</string>
+    <string name="about_update_available">Η έκδοση %1$s είναι διαθέσιμη</string>
+    <string name="about_update_failed">Δεν ήταν δυνατός ο έλεγχος: %1$s</string>
+    <string name="about_update_install">Εγκατάσταση QLauncher %1$s</string>
+    <string name="update_available_toast">Το QLauncher %1$s είναι διαθέσιμο: Ρυθμίσεις › Σχετικά › QLauncher</string>
+</resources>

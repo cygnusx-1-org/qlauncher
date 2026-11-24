@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">ללא</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">צבעים דינמיים</string>
+    <string name="wallpaper_provider_default">טפט ברירת מחדל</string>
+    <string name="wallpaper_provider_media_file">קובץ מדיה</string>
+    <string name="wallpaper_provider_folder">תיקייה</string>
+    <string name="wallpaper_provider_focused_program">התוכנית שבפוקוס</string>
+    <string name="wallpaper_provider_now_playing">מתנגן עכשיו</string>
+    <string name="wallpaper_provider_random_program">תוכנית אקראית</string>
+    <string name="wallpaper_provider_theme">ערכת נושא</string>
+    <string name="wallpaper_provider_unknown_plugin">תוסף</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">טפטים</string>
+    <string name="wallpaper_wikimedia_nature">טבע</string>
+    <string name="wallpaper_wikimedia_landscapes">נופים</string>
+    <string name="wallpaper_wikimedia_mountains">הרים</string>
+    <string name="wallpaper_wikimedia_forests">יערות</string>
+    <string name="wallpaper_wikimedia_cities">ערים</string>
+    <string name="wallpaper_wikimedia_architecture">אדריכלות</string>
+    <string name="wallpaper_wikimedia_night">לילה</string>
+    <string name="wallpaper_wikimedia_space">חלל</string>
+    <string name="wallpaper_wikimedia_animals">בעלי חיים</string>
+    <string name="wallpaper_wikimedia_custom">[חיפוש מותאם אישית]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[קהילת Reddit מותאמת אישית]</string>
+    <string name="wallpaper_reddit_log_out">התנתקות</string>
+    <string name="wallpaper_reddit_login_needed">יש להתחבר ל-Reddit כדי לראות ממנו טפטים.</string>
+    <string name="wallpaper_reddit_login_title">התחברות ל-Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">מתחבר…</string>
+    <string name="wallpaper_reddit_login_denied">הגישה ל-Reddit לא אושרה, ולכן הטפטים מ-Reddit נשארים לא זמינים.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">התשובה מ-Reddit לא תאמה לניסיון ההתחברות הזה, ולכן לא נלקחה בחשבון. יש לנסות שוב.</string>
+    <string name="wallpaper_reddit_login_failed">ההתחברות ל-Reddit נכשלה (%1$s). יש לנסות שוב מאוחר יותר.</string>
+    <string name="wallpaper_reddit_login_network">לא ניתן להגיע ל-Reddit. יש לבדוק את החיבור לרשת ולנסות שוב.</string>
+    <string name="wallpaper_reddit_login_page_error">לא ניתן היה לטעון את דף ההתחברות של Reddit. יש לבדוק את החיבור לרשת ולנסות שוב.</string>
+    <string name="wallpaper_reddit_no_webview">אין במכשיר הזה רכיב דפדפן אינטרנט (Android System WebView), שנדרש להתחברות ל-Reddit. יש להתקין או להפעיל את Android System WebView ולנסות שוב.</string>
+    <string name="wallpaper_reddit_retry">ניסיון חוזר</string>
+    <string name="wallpaper_reddit_close">סגירה</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">אין חיבור למקור הטפטים.</string>
+    <string name="wallpaper_error_server">מקור הטפטים השיב בשגיאה.</string>
+    <string name="wallpaper_error_rate_limited">מקור הטפטים ביקש להמתין לפני הבקשה הבאה.</string>
+    <string name="wallpaper_error_generic">לא ניתן היה לטעון את הטפטים.</string>
+    <string name="wallpaper_error_no_media">לא נבחרו תמונה, סרטון או צבע.</string>
+    <string name="wallpaper_error_no_folder">לא נבחרה תיקייה.</string>
+    <string name="wallpaper_error_folder_access">לא ניתן לקרוא את התיקייה. יש לבחור אותה שוב.</string>
+    <string name="wallpaper_error_folder_empty">התיקייה לא מכילה תמונות, סרטונים או הנפשות Lottie.</string>
+    <string name="wallpaper_error_theme_empty">בערכת הנושא הנוכחית אין טפטים.</string>
+    <string name="wallpaper_error_no_channels">הערוצים אינם זמינים. יש להפעיל אותם ולאשר גישה ללוח השידורים.</string>
+    <string name="wallpaper_error_no_notification_access">\"מתנגן עכשיו\" דורש גישה להתראות.</string>
+    <string name="wallpaper_error_no_subreddit">לא הוגדרה קהילת Reddit תקינה.</string>
+    <string name="wallpaper_error_plugin">תוסף הטפט לא הגיב.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">הטפט הוגדר</string>
+    <string name="wallpaper_set_failed">לא ניתן להשתמש בקובץ הזה כטפט.</string>
+</resources>

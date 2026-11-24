@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Зараз грає</string>
+    <string name="home_cat_inputs">Входи</string>
+    <string name="home_cat_favorites">Вибране</string>
+    <string name="home_cat_video">Відео</string>
+    <string name="home_cat_music">Музика</string>
+    <string name="home_cat_games">Ігри</string>
+    <string name="home_cat_tv_apps">ТБ-застосунки</string>
+    <string name="home_cat_mobile_apps">Мобільні застосунки</string>
+    <string name="home_cat_watch_next">Продовжити перегляд</string>
+    <string name="home_cat_shortcuts">Ярлики</string>
+    <string name="home_cat_folders">Папки категорій</string>
+    <string name="home_cat_live_tv">Прямий ефір</string>
+    <string name="home_cat_settings">Налаштування</string>
+    <string name="home_cat_display">Екран</string>
+    <string name="home_cat_applications">Застосунки</string>
+    <string name="home_cat_system">Система</string>
+    <string name="home_cat_about">Відомості</string>
+    <string name="home_new_category">Нова категорія</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Усі застосунки</string>
+    <string name="home_action_edit_categories">Змінити категорії</string>
+    <string name="home_action_edit_channels">Змінити канали</string>
+    <string name="home_action_launcher_settings">Налаштування QLauncher</string>
+    <string name="home_action_android_settings">Налаштування Android</string>
+    <string name="home_action_amlogic_settings">Дод. налаштування AmLogic</string>
+    <string name="home_action_display_profiles">Профілі дисплея</string>
+    <string name="home_action_install_apps">Встановлення сторонніх застосунків</string>
+    <string name="home_action_accessibility">Служба спец. можливостей</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Змінити профіль</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Цей пристрій</string>
+    <string name="home_action_about_wallpaper">Поточні шпалери</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Сезон %1$s</string>
+    <string name="home_episode">Серія %1$s</string>
+    <string name="home_minutes">%1$d хв</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Підключення</string>
+    <string name="home_status_notifications">Сповіщення</string>
+    <string name="home_status_settings">Налаштування</string>
+    <string name="home_status_wallpaper">Поточні шпалери</string>
+    <string name="home_navigation_menu">Меню навігації</string>
+    <string name="home_reorder">Змінити порядок</string>
+    <string name="home_category_settings">Налаштування категорії</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Налаштування застосунку</string>
+    <string name="menu_open">Відкрити</string>
+    <string name="menu_details">Докладніше</string>
+    <string name="menu_play_pause">Відтворення/пауза</string>
+    <string name="menu_stop">Стоп</string>
+    <string name="menu_previous">Попередній</string>
+    <string name="menu_next">Наступний</string>
+    <string name="menu_uninstall">Видалити</string>
+    <string name="menu_launch_on_boot">Запускати під час завантаження</string>
+    <string name="menu_launch_on_boot_on">Запускається під час завантаження</string>
+    <string name="menu_add_parental">Додати до батьківського контролю</string>
+    <string name="menu_remove_parental">Вилучити з батьківського контролю</string>
+    <string name="menu_shortcuts">Ярлики</string>
+    <string name="menu_appearance">Вигляд</string>
+    <string name="menu_title">Назва</string>
+    <string name="menu_change_icon">Змінити значок</string>
+    <string name="menu_icon_from_picture">Із зображення</string>
+    <string name="menu_icon_other_location">Інше розташування…</string>
+    <string name="menu_icon_no_pictures">Зображень не знайдено. Скопіюйте їх у папку Pictures або Download чи під’єднайте USB-накопичувач.</string>
+    <string name="menu_icon_reset">Скинути</string>
+    <string name="menu_crop">Заповнити з обрізанням</string>
+    <string name="menu_visibility">Видимість</string>
+    <string name="menu_reorder">Змінити порядок</string>
+    <string name="menu_remove_from">Вилучити з «%1$s»</string>
+    <string name="menu_hide">Приховати</string>
+    <string name="menu_add_to">Додати до…</string>
+    <string name="menu_move_to">Перемістити до…</string>
+    <string name="menu_channels">Канали</string>
+    <string name="menu_rename_hint">Введіть нову назву й натисніть OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Назва</string>
+    <string name="editor_change_icon">Змінити значок</string>
+    <string name="editor_visible">Показувати</string>
+    <string name="editor_grid">Сітка</string>
+    <string name="editor_sliding_row">Стрічка</string>
+    <string name="editor_background">Колір фону</string>
+    <string name="editor_show_title">Показувати назву</string>
+    <string name="editor_size">Розмір</string>
+    <string name="editor_advanced">Додаткові налаштування</string>
+    <string name="editor_start_margin">Відступ ліворуч</string>
+    <string name="editor_end_margin">Відступ праворуч</string>
+    <string name="editor_top_margin">Відступ зверху</string>
+    <string name="editor_cards_per_row">Карток у ряду</string>
+    <string name="editor_row_count">Кількість рядів</string>
+    <string name="editor_auto">Авто</string>
+    <string name="editor_auto_value">Авто (%1$s)</string>
+    <string name="editor_sort">Сортування</string>
+    <string name="editor_sort_custom">Вручну</string>
+    <string name="editor_sort_name">За абеткою</string>
+    <string name="editor_sort_last">Нещодавно використані</string>
+    <string name="editor_sort_most">Часто використовувані</string>
+    <string name="editor_sort_random">Випадковий порядок</string>
+    <string name="editor_set_default">Зробити за замовчуванням</string>
+    <string name="editor_is_default">Категорія за замовчуванням</string>
+    <string name="editor_manage_apps">Керування застосунками</string>
+    <string name="editor_hidden_items">Приховані елементи</string>
+    <string name="editor_restore">Відновити</string>
+    <string name="editor_delete">Видалити</string>
+    <string name="editor_delete_confirm">Видалити цю категорію?</string>
+    <string name="editor_empty_note">Ця категорія поки не з’явиться, бо вона порожня</string>
+    <string name="editor_request_notifications">Запросити доступ до сповіщень</string>
+    <string name="editor_channel_error">Цей канал більше не вдається прочитати</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Канали</string>
+    <string name="channels_count">Каналів: %1$d</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Сповіщення</string>
+    <string name="notifications_clear_all">Очистити все</string>
+    <string name="notifications_empty">Немає сповіщень</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Цей застосунок не можна відкрити</string>
+    <string name="home_reorder_hint">Ліворуч/праворуч — перемістити, OK або «Назад» — завершити</string>
+    <string name="home_category_reorder_hint">Угору/вниз — перемістити, OK або «Назад» — завершити</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Ласкаво просимо!</string>
+    <string name="firstrun_welcome_text">QLauncher — це лаунчер для Android TV. Він збирає ваші застосунки, канали й улюблений контент на одному настроюваному головному екрані зі змінними шпалерами на тлі.</string>
+    <string name="firstrun_features_title">Ваші нові суперсили</string>
+    <string name="firstrun_features_text">Запускайте застосунок або вхід HDMI під час завантаження, керуйте профілями дисплея, блокуйте застосунки батьківським контролем, показуйте калібрувальні шаблони, виявляйте бездіяльність і налаштовуйте кожну частину головного екрана. Деякі функції залежать від пристрою.</string>
+    <string name="firstrun_a11y_title">Увімкнімо спеціальні можливості</string>
+    <string name="firstrun_a11y_text">Багатьом функціям потрібна служба спеціальних можливостей QLauncher: заміна стандартного лаунчера, дії під час завантаження, жести кнопок пульта, виявлення бездіяльності й батьківський контроль. Її можна ввімкнути зараз або пізніше в налаштуваннях.</string>
+    <string name="firstrun_a11y_open">Відкрити налаштування спец. можливостей</string>
+    <string name="firstrun_permissions_title">З вашого дозволу…</string>
+    <string name="firstrun_permissions_text">Далі QLauncher попросить дозвіл читати телепрограму (для каналів і «Продовжити перегляд») і доступ до сповіщень (для значка сповіщень і «Зараз грає»). Обидва дозволи необов’язкові.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Далі QLauncher попросить доступ до сповіщень (для значка сповіщень і «Зараз грає»). Це необов’язково.</string>
+    <string name="firstrun_notifications_dialog">Дозволити доступ до сповіщень?</string>
+    <string name="firstrun_notifications_text">Доступ до сповіщень дає змогу QLauncher показувати кількість сповіщень, панель сповіщень і те, що зараз відтворюється. «Так» відкриває сторінку «Спеціальний доступ», де його можна надати.</string>
+    <string name="firstrun_reports_title">Надсилати анонімні звіти про помилки?</string>
+    <string name="firstrun_reports_text">Якщо в QLauncher станеться збій або помилка, він може надіслати звіт із версією застосунку й моделлю пристрою, щоб помилку можна було виправити. Дані, за якими можна впізнати вас або те, що ви дивитеся, не надсилаються. Це можна змінити пізніше в розділі «Загальні».</string>
+    <string name="firstrun_launcher_title">Зробіть QLauncher головним екраном</string>
+    <string name="firstrun_launcher_text">Багато ТБ-пристроїв не дають змінити лаунчер за замовчуванням. Якщо ваш дає, виберіть там QLauncher. Інакше ввімкніть службу спеціальних можливостей із параметром «Замінювати поточний лаунчер», і QLauncher повертатиметься щоразу, коли відкривається стандартний лаунчер.</string>
+    <string name="firstrun_launcher_open">Змінити лаунчер за замовчуванням</string>
+    <string name="firstrun_start_title">Час починати!</string>
+    <string name="firstrun_start_text">Усе можна змінити пізніше в налаштуваннях. Натисніть кнопку налаштувань у правому верхньому куті або послідовність клавіш ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">ПОЧАТИ</string>
+    <string name="firstrun_next">Далі</string>
+    <string name="firstrun_skip">Пропустити</string>
+    <string name="firstrun_yes">Так</string>
+    <string name="firstrun_no">Ні</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">На цьому пристрої немає заставки</string>
+</resources>

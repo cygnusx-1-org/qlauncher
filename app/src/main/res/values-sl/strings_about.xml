@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Različica %1$s</string>
+    <string name="about_copyright">Avtorske pravice © 2026 sodelavci projekta QLauncher. Prosto programje pod licenco GNU General Public License, različica 3.</string>
+    <string name="about_libs">Knjižnice / Zasluge</string>
+    <string name="about_links">Povezave</string>
+    <string name="about_link_project">Stran projekta</string>
+    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_translation">Slovenski prevod</string>
+    <string name="about_translation_credit">Sodelavci projekta QLauncher</string>
+    <string name="about_no_browser">V tej napravi ni brskalnika. Odpri %1$s v drugi napravi.</string>
+    <string name="about_check_updates">Preveri posodobitve</string>
+    <string name="about_update_checking">Preverjanje…</string>
+    <string name="about_update_latest">QLauncher je posodobljen (%1$s)</string>
+    <string name="about_update_available">Na voljo je različica %1$s</string>
+    <string name="about_update_failed">Preverjanje ni uspelo: %1$s</string>
+    <string name="about_update_install">Namesti QLauncher %1$s</string>
+    <string name="update_available_toast">Na voljo je QLauncher %1$s: Nastavitve › Informacije › QLauncher</string>
+</resources>

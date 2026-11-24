@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">ברירת מחדל</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">מודגש</string>
+    <string name="backup_clock_markup_italic">נטוי</string>
+    <string name="backup_clock_markup_underline">קו תחתון</string>
+    <string name="backup_clock_markup_strikethrough">קו חוצה</string>
+    <string name="backup_clock_markup_subscript">כתב תחתי</string>
+    <string name="backup_clock_markup_superscript">כתב עילי</string>
+    <string name="backup_clock_markup_half_size">חצי גודל</string>
+    <string name="backup_clock_markup_one_and_a_half_size">פי אחד וחצי</string>
+    <!-- A help line: what to type, an arrow, what it shows -->
+    <string name="backup_clock_help_arrow">→</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">חיתוך שחור</string>
+    <string name="backup_pattern_apl_clipping">חיתוך APL</string>
+    <string name="backup_pattern_white_clipping">חיתוך לבן</string>
+    <string name="backup_pattern_grayscale_ramp">מעבר גווני אפור</string>
+    <string name="backup_pattern_grayscale_steps">מדרגות גווני אפור</string>
+    <string name="backup_pattern_dynamic_brightness">בהירות דינמית</string>
+    <string name="backup_pattern_color_steps">מדרגות צבע</string>
+    <string name="backup_pattern_color_clipping">חיתוך צבע</string>
+    <string name="backup_pattern_flashing_color_bars">פסי צבע מהבהבים</string>
+    <string name="backup_pattern_sharpness_overscan">חדות &amp; סריקת יתר</string>
+    <string name="backup_pattern_uhd">תבנית UHD</string>
+    <string name="backup_pattern_judder">בדיקת גמגום תנועה</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">\u200F[HDR] חדות יחס גובה-רוחב</string>
+    <string name="backup_pattern_hdr_black_level">\u200F[HDR] רמת שחור</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">\u200F[HDR] חיתוך צבע 240–1000 ניט</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">\u200F[HDR] חיתוך צבע 3600–10000 ניט</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">\u200F[HDR] חיתוך צבע 700–10000 ניט</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">\u200F[HDR] חיתוך צבע 900–4000 ניט</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">\u200F[HDR] מעבר גווני אפור 10000 ניט</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">\u200F[HDR] מעבר גווני אפור 1000 ניט</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">\u200F[HDR] מעבר גווני אפור 4000 ניט</string>
+    <string name="backup_pattern_dv_black_pluge">\u200F[DV] PLUGE שחור</string>
+    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
+    <string name="backup_pattern_dv_color_ramps">\u200F[DV] מעברי צבע</string>
+    <string name="backup_pattern_unavailable">לתבנית %1$s נדרש נתיב וידאו HDR, והיא עדיין לא זמינה</string>
+    <!-- Pages -->
+    <string name="backup_settings">הגדרות</string>
+    <string name="backup_manage_settings">ניהול הגדרות</string>
+    <string name="backup_themes">ערכות נושא</string>
+    <string name="backup_import">ייבוא</string>
+    <string name="backup_export">ייצוא</string>
+    <string name="backup_import_from_file">ממנהל הקבצים</string>
+    <string name="backup_import_from_auto">מגיבוי אוטומטי</string>
+    <string name="backup_export_save">שמירה מקומית</string>
+    <string name="backup_export_share">שיתוף עם אפליקציה אחרת</string>
+    <string name="backup_reset">איפוס לברירת המחדל</string>
+    <string name="backup_cancel">ביטול</string>
+    <string name="backup_ok">אישור</string>
+    <string name="backup_done">סיום</string>
+    <string name="backup_close">סגירה</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">ייצוא הגדרות</string>
+    <string name="backup_export_theme_title">ייצוא ערכת נושא</string>
+    <string name="backup_export_description">הכול נשמר בקובץ אחד, מוצפן בסיסמה שבוחרים (לפחות %1$d תווים). הסיסמה נדרשת כדי לייבא את הקובץ, ואי אפשר לשחזר אותה.</string>
+    <string name="backup_export_theme_description">הגדרות המראה והטפט הנוכחי נשמרים בקובץ אחד, מוצפן בסיסמה שבוחרים (לפחות %1$d תווים). הסיסמה נדרשת כדי לייבא את ערכת הנושא.</string>
+    <string name="backup_password">סיסמה</string>
+    <string name="backup_password_show">הצגת הסיסמה</string>
+    <string name="backup_password_hide">הסתרת הסיסמה</string>
+    <string name="backup_password_strength">חוזק הסיסמה</string>
+    <string name="backup_strength_too_short">קצרה מדי: לפחות %1$d תווים</string>
+    <string name="backup_strength_weak">חלשה: קל לנחש אותה</string>
+    <string name="backup_strength_fair">סבירה</string>
+    <string name="backup_strength_strong">חזקה</string>
+    <string name="backup_password_too_short">הסיסמה צריכה להכיל לפחות %1$d תווים</string>
+    <string name="backup_exporting">מייצא…</string>
+    <string name="backup_export_saved">נשמר ב-%1$s</string>
+    <string name="backup_export_kept">לא נשמר במקום אחר. הקובץ נשאר ב-%1$s</string>
+    <string name="backup_export_shared">נשלח. עותק נשאר ב-%1$s</string>
+    <string name="backup_export_no_file_manager">אין במכשיר הזה אפליקציה שיכולה לקבל את הקובץ. הוא נמצא ב-%1$s</string>
+    <string name="backup_export_failed">הייצוא נכשל: %1$s</string>
+    <string name="backup_share_title">שליחת קובץ QLauncher באמצעות</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">הייבוא מחליף את התצורה הנוכחית. קודם נכתב גיבוי אוטומטי, ובסיום תתבצע הפעלה מחדש של QLauncher.</string>
+    <string name="backup_reading">קורא את הקובץ…</string>
+    <string name="backup_import_action">ייבוא</string>
+    <string name="backup_wrong_password">סיסמה שגויה</string>
+    <string name="backup_password_hint">הסיסמה שנבחרה בעת ייצוא הקובץ</string>
+    <string name="backup_not_a_backup">זה לא גיבוי או ערכת נושא של QLauncher או של Projectivy.</string>
+    <string name="backup_damaged">הקובץ פגום או חלקי.</string>
+    <string name="backup_too_new">הקובץ הזה נוצר בגרסה חדשה יותר של QLauncher (פורמט %1$d). יש לעדכן את QLauncher כדי לייבא אותו.</string>
+    <string name="backup_unreadable">לא ניתן לקרוא את הגיבוי האוטומטי הזה במכשיר הזה.</string>
+    <string name="backup_import_failed">הייבוא נכשל ושום דבר לא השתנה: %1$s</string>
+    <string name="backup_applying">מייבא… בסיום תתבצע הפעלה מחדש של QLauncher.</string>
+    <string name="backup_origin_ql_backup">גיבוי הגדרות של QLauncher</string>
+    <string name="backup_origin_ql_theme">ערכת נושא של QLauncher</string>
+    <string name="backup_origin_pl_backup">גיבוי הגדרות של Projectivy Launcher</string>
+    <string name="backup_origin_pl_theme">ערכת נושא של Projectivy Launcher</string>
+    <string name="backup_origin_auto">גיבוי אוטומטי</string>
+    <string name="backup_preview_theme_by">\u200F%1$s מאת %2$s</string>
+    <string name="backup_preview_version">גרסה %1$s</string>
+    <string name="backup_preview_settings">הגדרות</string>
+    <string name="backup_preview_categories">קטגוריות</string>
+    <string name="backup_preview_apps">התאמות אישיות של אפליקציות</string>
+    <string name="backup_preview_profiles">פרופילי תצוגה</string>
+    <string name="backup_preview_files">טפטים וסמלים</string>
+    <string name="backup_preview_skipped">אפליקציות שלא נמצאות במכשיר הזה</string>
+    <string name="backup_replace_setup">החלפת התצורה הנוכחית</string>
+    <string name="backup_apply_theme">החלת ערכת הנושא</string>
+    <string name="backup_replace_detail">קודם נכתב גיבוי אוטומטי של התצורה הנוכחית</string>
+    <string name="backup_nc_parental">קוד בקרת הורים</string>
+    <string name="backup_nc_parental_detail">לא מועבר. יש להגדיר קוד חדש בבקרת הורים.</string>
+    <string name="backup_nc_premium">מצב פרימיום</string>
+    <string name="backup_nc_premium_detail">לא מועבר. כל התכונות של QLauncher חינמיות.</string>
+    <string name="backup_nc_inputs">מקורות קלט של הטלוויזיה</string>
+    <string name="backup_nc_profile_bindings">שיוכים של פרופילי תצוגה</string>
+    <string name="backup_nc_plugin">תוסף טפט</string>
+    <string name="backup_nc_plugin_detail">האפליקציה %1$s אינה מותקנת. מקור הטפט נשאר כפי שהוא.</string>
+    <string name="backup_nc_icons">סמלים מותאמים אישית</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d ערך שהשתנה</item>
+        <item quantity="two">%1$d ערכים שהשתנו</item>
+        <item quantity="other">%1$d ערכים שהשתנו</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d קטגוריה</item>
+        <item quantity="two">%1$d קטגוריות</item>
+        <item quantity="other">%1$d קטגוריות</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d אפליקציה</item>
+        <item quantity="two">%1$d אפליקציות</item>
+        <item quantity="other">%1$d אפליקציות</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d פרופיל</item>
+        <item quantity="two">%1$d פרופילים</item>
+        <item quantity="other">%1$d פרופילים</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d קובץ</item>
+        <item quantity="two">%1$d קבצים</item>
+        <item quantity="other">%1$d קבצים</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d הגדרה לא מוכרת, תדולג</item>
+        <item quantity="two">%1$d הגדרות לא מוכרות, ידולגו</item>
+        <item quantity="other">%1$d הגדרות לא מוכרות, ידולגו</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d רשומה לא תואמת לאף אפליקציה שמותקנת כאן ותדולג</item>
+        <item quantity="two">%1$d רשומות לא תואמות לאף אפליקציה שמותקנת כאן וידולגו</item>
+        <item quantity="other">%1$d רשומות לא תואמות לאף אפליקציה שמותקנת כאן וידולגו</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d קישור למקור קלט של טלוויזיה שלא קיים במכשיר הזה ידולג</item>
+        <item quantity="two">%1$d קישורים למקורות קלט של טלוויזיה שלא קיימים במכשיר הזה ידולגו</item>
+        <item quantity="other">%1$d קישורים למקורות קלט של טלוויזיה שלא קיימים במכשיר הזה ידולגו</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d פרופיל שמשויך למקור קלט לא יועבר</item>
+        <item quantity="two">%1$d פרופילים שמשויכים למקורות קלט לא יועברו</item>
+        <item quantity="other">%1$d פרופילים שמשויכים למקורות קלט לא יועברו</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d סמל ששמור בתוך Projectivy אינו קריא וידולג</item>
+        <item quantity="two">%1$d סמלים ששמורים בתוך Projectivy אינם קריאים וידולגו</item>
+        <item quantity="other">%1$d סמלים ששמורים בתוך Projectivy אינם קריאים וידולגו</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">גיבויים אוטומטיים</string>
+    <string name="backup_auto_description">במכשיר הזה נשמרות %1$d הגרסאות האחרונות של התצורה שלך, מוצפנות במפתח שלעולם לא יוצא ממנו. יש לבחור אחת מהן כדי לשחזר אותה; לא נדרשת סיסמה.</string>
+    <string name="backup_auto_none">אין גיבוי אוטומטי זמין</string>
+    <string name="backup_files_title">קובצי גיבוי</string>
+    <string name="backup_files_theme_title">קובצי ערכות נושא</string>
+    <string name="backup_files_description">הייצואים נשמרים ב-%1$s. עם גישה לכל הקבצים, QLauncher מוצאת גם גיבויים ב-Download, ב-Documents ובכונני USB, כולל אלה של Projectivy.</string>
+    <string name="backup_files_searching">מחפש קובצי גיבוי…</string>
+    <string name="backup_files_none">לא נמצאו קובצי גיבוי</string>
+    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
+    <string name="backup_files_app_folder">התיקייה של QLauncher</string>
+    <string name="backup_files_access">חיפוש גיבויים מאפליקציות וממכשירים אחרים</string>
+    <string name="backup_files_access_desc">מתן גישה לכל הקבצים</string>
+    <string name="backup_files_access_unavailable">אין מסך הגדרות במכשיר הזה. אפשר לתת גישה לכל הקבצים באמצעות: %1$s</string>
+    <string name="backup_files_browse">מיקום אחר…</string>
+    <string name="backup_files_browse_desc">בחירת קובץ בבורר הקבצים של המערכת</string>
+    <string name="backup_auto_delete_all">מחיקת הכול</string>
+    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
+    <string name="backup_reason_change">אחרי שינוי</string>
+    <string name="backup_reason_import">לפני ייבוא</string>
+    <string name="backup_reason_migration">לפני עדכון</string>
+    <string name="backup_reason_reset">לפני איפוס</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">פרופיל #</string>
+    <string name="backup_no_picture_manager">לא נטען מנהל תמונה</string>
+    <string name="backup_no_picture_manager_detail">המכשיר הזה לא מציע דרך נתמכת לשנות את הגדרות התמונה, ולכן הפרופילים שומרים את הערכים שלהם בלי להחיל אותם.</string>
+</resources>

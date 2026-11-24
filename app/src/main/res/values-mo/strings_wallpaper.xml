@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Niciuna</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Culori dinamice</string>
+    <string name="wallpaper_provider_default">Imagine de fundal implicită</string>
+    <string name="wallpaper_provider_media_file">Fișier media</string>
+    <string name="wallpaper_provider_folder">Dosar</string>
+    <string name="wallpaper_provider_focused_program">Programul selectat</string>
+    <string name="wallpaper_provider_now_playing">Se redă acum</string>
+    <string name="wallpaper_provider_random_program">Program aleatoriu</string>
+    <string name="wallpaper_provider_theme">Temă</string>
+    <string name="wallpaper_provider_unknown_plugin">Plugin</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Imagini de fundal</string>
+    <string name="wallpaper_wikimedia_nature">Natură</string>
+    <string name="wallpaper_wikimedia_landscapes">Peisaje</string>
+    <string name="wallpaper_wikimedia_mountains">Munți</string>
+    <string name="wallpaper_wikimedia_forests">Păduri</string>
+    <string name="wallpaper_wikimedia_cities">Orașe</string>
+    <string name="wallpaper_wikimedia_architecture">Arhitectură</string>
+    <string name="wallpaper_wikimedia_night">Noapte</string>
+    <string name="wallpaper_wikimedia_space">Spațiu</string>
+    <string name="wallpaper_wikimedia_animals">Animale</string>
+    <string name="wallpaper_wikimedia_custom">[Căutare personalizată]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Subreddit personalizat]</string>
+    <string name="wallpaper_reddit_log_out">Deconectați-vă</string>
+    <string name="wallpaper_reddit_login_needed">Conectați-vă la Reddit pentru a vedea imagini de fundal de acolo.</string>
+    <string name="wallpaper_reddit_login_title">Conectați-vă la Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Se conectează…</string>
+    <string name="wallpaper_reddit_login_denied">Accesul la Reddit nu a fost acordat, așa că imaginile de fundal Reddit rămân indisponibile.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Răspunsul de la Reddit nu corespundea acestei încercări de conectare și a fost ignorat. Încercați din nou.</string>
+    <string name="wallpaper_reddit_login_failed">Conectarea la Reddit nu a reușit (%1$s). Încercați din nou mai târziu.</string>
+    <string name="wallpaper_reddit_login_network">Reddit nu poate fi accesat. Verificați conexiunea la rețea și încercați din nou.</string>
+    <string name="wallpaper_reddit_login_page_error">Pagina de conectare Reddit nu a putut fi încărcată. Verificați conexiunea la rețea și încercați din nou.</string>
+    <string name="wallpaper_reddit_no_webview">Acest dispozitiv nu are o componentă de browser web (Android System WebView), necesară pentru conectarea la Reddit. Instalați sau activați Android System WebView și încercați din nou.</string>
+    <string name="wallpaper_reddit_retry">Încercați din nou</string>
+    <string name="wallpaper_reddit_close">Închideți</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Nicio conexiune la sursa imaginilor de fundal.</string>
+    <string name="wallpaper_error_server">Sursa imaginilor de fundal a răspuns cu o eroare.</string>
+    <string name="wallpaper_error_rate_limited">Sursa imaginilor de fundal a cerut o pauză înainte de următoarea solicitare.</string>
+    <string name="wallpaper_error_generic">Imaginile de fundal nu au putut fi încărcate.</string>
+    <string name="wallpaper_error_no_media">Nu a fost aleasă nicio imagine, niciun videoclip și nicio culoare.</string>
+    <string name="wallpaper_error_no_folder">Nu a fost ales niciun dosar.</string>
+    <string name="wallpaper_error_folder_access">Dosarul nu poate fi citit. Alegeți-l din nou.</string>
+    <string name="wallpaper_error_folder_empty">Dosarul nu conține imagini, videoclipuri sau animații Lottie.</string>
+    <string name="wallpaper_error_theme_empty">Tema curentă nu are imagini de fundal.</string>
+    <string name="wallpaper_error_no_channels">Canalele nu sunt disponibile. Activați-le și permiteți accesul la programul TV.</string>
+    <string name="wallpaper_error_no_notification_access">„Se redă acum” necesită accesul la notificări.</string>
+    <string name="wallpaper_error_no_subreddit">Nu este setat niciun subreddit valid.</string>
+    <string name="wallpaper_error_plugin">Pluginul pentru imagini de fundal nu a răspuns.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Imaginea de fundal a fost setată</string>
+    <string name="wallpaper_set_failed">Acest fișier nu poate fi folosit ca imagine de fundal.</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Atšaukti</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Visos programos</string>
+    <string name="apps_action_edit_categories">Redaguoti kategorijas</string>
+    <string name="apps_action_edit_channels">Redaguoti kanalus</string>
+    <string name="apps_action_launcher_settings">QLauncher nustatymai</string>
+    <string name="apps_action_android_settings">Android nustatymai</string>
+    <string name="apps_action_amlogic_settings">Papildomi AmLogic nustatymai</string>
+    <string name="apps_action_display_profiles">Ekrano profiliai</string>
+    <string name="apps_action_install_apps">Įdiegti trečiųjų šalių programas</string>
+    <string name="apps_action_accessibility_service">Pritaikymo neįgaliesiems paslauga</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Perjungti profilį</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Šis įrenginys</string>
+    <string name="apps_action_about_wallpaper">Šis ekrano fonas</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Nėra</string>
+    <string name="apps_autostart_screensaver">Ekrano užsklanda</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanalai</string>
+    <string name="apps_channels_watch_next">Žiūrėti toliau</string>
+    <string name="apps_channels_unreadable">Šio kanalo nebegalima nuskaityti</string>
+    <string name="apps_channels_hidden">Paslėpta sistemos</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanalas</item>
+        <item quantity="few">%d kanalai</item>
+        <item quantity="many">%d kanalo</item>
+        <item quantity="other">%d kanalų</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Taikyti piktogramų paketą</string>
+    <string name="apps_iconpack_apply_message">Naudoti %1$s programų piktogramoms?</string>
+    <string name="apps_iconpack_apply_confirm">Taikyti</string>
+    <string name="apps_iconpack_applied">Piktogramų paketas pritaikytas</string>
+    <string name="apps_iconpack_apply_missing">Nenurodytas piktogramų paketas</string>
+    <string name="apps_iconpack_apply_not_a_pack">Ši programa nėra piktogramų paketas</string>
+    <string name="apps_iconpack_none">Nėra</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Pridėti spartųjį klavišą</string>
+    <string name="apps_pin_shortcut_message">Pridėti „%1$s“ iš %2$s į kategoriją „Spartieji klavišai“?</string>
+    <string name="apps_pin_shortcut_confirm">Pridėti</string>
+    <string name="apps_pin_shortcut_added">Spartusis klavišas pridėtas</string>
+    <string name="apps_pin_shortcut_failed">Nepavyko pridėti sparčiojo klavišo</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Įdiegti trečiųjų šalių programas</string>
+    <string name="apps_install_description">Pasirinkite, kurią programą įdiegti. Prieš diegiant gali tekti leisti diegti iš nežinomų šaltinių.</string>
+    <string name="apps_install_custom_url">Pasirinktinis URL / Downloader kodas</string>
+    <string name="apps_install_custom_url_desc">Naudokite tik patikimą šaltinį</string>
+    <string name="apps_install_choose_method">Pasirinkite diegimo būdą</string>
+    <string name="apps_install_installed">Įdiegta</string>
+    <string name="apps_install_category_wallpaper_plugin">Ekrano fono papildinys</string>
+    <string name="apps_install_category_icon_pack">Piktogramų paketas</string>
+    <string name="apps_install_category_file_manager">Failų tvarkytuvė</string>
+    <string name="apps_install_category_tool">Įrankis</string>
+    <string name="apps_install_method_store">Parduotuvė</string>
+    <string name="apps_install_method_direct">Tiesioginis atsisiuntimas</string>
+    <string name="apps_install_method_downloader">Programa Downloader</string>
+    <string name="apps_install_state_downloading">Atsisiunčiama %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Atsisiunčiama %1$s…</string>
+    <string name="apps_install_state_installing">Diegiama %1$s…</string>
+    <string name="apps_install_state_confirm">Patvirtinkite %1$s diegimą</string>
+    <string name="apps_install_state_success">%1$s įdiegta</string>
+    <string name="apps_install_state_unknown_sources">Leiskite QLauncher diegti programas, tada grįžkite ir tęskite</string>
+    <string name="apps_install_state_downloader_sent">Kodas %1$s išsiųstas į Downloader</string>
+    <string name="apps_install_state_downloader_type">Įveskite kodą %1$s programoje Downloader</string>
+    <string name="apps_install_state_store">Atidaryta parduotuvėje</string>
+    <string name="apps_install_state_browser">Ši nuoroda yra tinklalapis; ji atidaryta naršyklėje</string>
+    <string name="apps_install_fail_invalid">Tai nėra nei URL, nei Downloader kodas</string>
+    <string name="apps_install_fail_no_usb">USB atmintinė nerasta</string>
+    <string name="apps_install_fail_archive">Archyvų įdiegti negalima</string>
+    <string name="apps_install_fail_network">Atsisiųsti nepavyko</string>
+    <string name="apps_install_fail_http">Serveris grąžino klaidą (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Failas nėra programa (APK)</string>
+    <string name="apps_install_fail_unreadable">Failo nepavyksta nuskaityti</string>
+    <string name="apps_install_fail_install">Įdiegti nepavyko</string>
+    <string name="apps_install_fail_cancelled">Diegimas atšauktas</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher neleidžiama diegti programų</string>
+    <string name="apps_install_fail_downloader">Programa Downloader neįdiegta</string>
+    <string name="apps_install_fail_store">Nėra jokios programų parduotuvės</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Šis įrenginys</string>
+    <string name="apps_device_brand_manufacturer">Prekės ženklas / Gamintojas</string>
+    <string name="apps_device_device_product">Įrenginys / Produktas</string>
+    <string name="apps_device_model">Modelis</string>
+    <string name="apps_device_hardware">Aparatinė įranga</string>
+    <string name="apps_device_fingerprint">Kontrolinis kodas</string>
+    <string name="apps_device_build">Versijos numeris</string>
+    <string name="apps_device_build_desc">Versijos aprašas</string>
+    <string name="apps_device_device_type">Įrenginio tipas</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">IP adresas</string>
+    <string name="apps_device_root_access">Root prieiga</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Nėra vaizdo tvarkytuvės</string>
+    <string name="apps_device_id">ID</string>
+    <string name="apps_device_yes">Taip</string>
+    <string name="apps_device_no">Ne</string>
+</resources>

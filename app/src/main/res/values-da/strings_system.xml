@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">Indtast en vilkårlig kombination af pile/cifre, og bekræft med OK</string>
+    <string name="system_parental_confirm_code">Indtast koden igen, og bekræft med OK</string>
+    <string name="system_parental_restricted">Begrænset adgang\nIndtast forældrekoden</string>
+    <string name="system_parental_wrong_code">Forkert kode</string>
+    <string name="system_parental_codes_differ">Koderne er ikke ens. Prøv igen</string>
+    <string name="system_parental_code_saved">Forældrekode gemt</string>
+    <string name="system_parental_recovery_code">Gendannelseskode: %1$s</string>
+    <string name="system_parental_recovery_help">Skriv den ned: den vises kun denne ene gang. Indtastet med pilene (1 = ▲, 2 = ▼, 3 = ◄, 4 = ►) låser den op ligesom forældrekoden.</string>
+    <string name="system_parental_press_ok">Tryk på OK for at fortsætte</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">Genveje på fjernbetjeningen</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">Hjem</string>
+    <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>
+    <string name="system_hotkeys_change_input">Skift indgang</string>
+    <string name="system_hotkeys_change_profile">Skift skærmprofil</string>
+    <string name="system_hotkeys_start_launcher">Start QLauncher</string>
+    <string name="system_hotkeys_home">Åbn QLauncher; to gange: seneste apps</string>
+    <string name="system_hotkeys_close">Luk denne hjælp</string>
+    <string name="system_hotkeys_no_inputs">Ingen tv-indgange på denne enhed</string>
+    <string name="system_hotkeys_no_picture_manager">Ingen billedstyring indlæst</string>
+    <string name="system_hotkeys_home_off">Fra: kræver Tilsidesæt nuværende launcher og omtildeling af knapper</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">Ingen aktivitet registreret, slukker om %1$d s</string>
+    <string name="system_idle_countdown_screen_off">Ingen aktivitet registreret, skærmen slukkes om %1$d s</string>
+    <string name="system_idle_countdown_screensaver">Ingen aktivitet registreret, pauseskærm om %1$d s</string>
+    <string name="system_idle_countdown_cancel">Tryk på en vilkårlig knap for at annullere</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">Denne enhed har ingen genvej til indstillingerne for hjælpefunktioner. Åbn dem fra Android-indstillinger, normalt under Enhedspræferencer › Hjælpefunktioner.</string>
+    <string name="system_notification_access_no_settings">Denne enhed har ingen skærm til adgang til notifikationer. Giv adgang fra en computer med:</string>
+</resources>

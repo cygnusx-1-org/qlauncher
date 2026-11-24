@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Breadcrumbs and page titles -->
+    <string name="settings_breadcrumb">الإعدادات</string>
+    <string name="settings_breadcrumb_display">الشاشة</string>
+    <string name="settings_breadcrumb_applications">التطبيقات</string>
+    <string name="settings_breadcrumb_system">النظام</string>
+    <string name="settings_breadcrumb_about">حول</string>
+    <string name="settings_root_title">إعدادات QLauncher</string>
+    <string name="settings_root_description">اضبط إعدادات التطبيق.</string>
+    <string name="settings_legend_a11y_required">يلزم تفعيل خدمة سهولة الاستخدام</string>
+    <string name="settings_legend_a11y_recommended">يُنصح بتفعيل خدمة سهولة الاستخدام</string>
+    <string name="settings_legend_experimental">تجريبي</string>
+    <string name="settings_launcher_related">إعدادات متعلقة بمشغّل التطبيقات</string>
+
+    <string name="settings_general">عام</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_power">الطاقة</string>
+    <string name="settings_parental">الرقابة الأبوية</string>
+    <string name="settings_remote">جهاز التحكم عن بُعد</string>
+    <string name="settings_accessibility">خدمة سهولة الاستخدام</string>
+    <string name="settings_display_profiles">ملفات تعريف العرض</string>
+    <string name="settings_manage">إدارة الإعدادات</string>
+
+    <!-- General -->
+    <string name="settings_language">تغيير لغة التطبيق</string>
+    <string name="settings_language_system">لغة النظام</string>
+    <string name="settings_default_launcher">تغيير مشغّل التطبيقات الافتراضي</string>
+    <string name="settings_default_launcher_unavailable">لا يوفّر هذا الجهاز أي طريقة لتغيير مشغّل التطبيقات الافتراضي. استخدم «تجاوز مشغّل التطبيقات الحالي» بدلًا من ذلك.</string>
+    <string name="settings_override_home">تجاوز مشغّل التطبيقات الحالي</string>
+    <string name="settings_override_home_desc">اعتراض الاستدعاءات الموجّهة إلى مشغّل التطبيقات الحالي (مفيد إذا لم يكن بإمكانك تغيير المشغّل الأصلي أو إزالته)</string>
+    <string name="settings_enable_channels">تفعيل القنوات</string>
+    <string name="settings_enable_channels_desc">إذا كنت لا تستخدمها، فإن إيقاف هذا الخيار يسرّع بدء التشغيل ويقلّل استهلاك الذاكرة</string>
+    <string name="settings_programs_per_channel">البرامج في كل قناة</string>
+    <string name="settings_crash_error_reports">تفعيل تقارير الأعطال والأخطاء مجهولة الهوية</string>
+    <string name="settings_reports_desc">لا يُرسل سوى الخطأ وإصدار التطبيق وطراز الجهاز</string>
+    <string name="settings_check_updates">التحقق من التحديثات</string>
+
+    <!-- Appearance -->
+    <string name="settings_categories_channels">الفئات / القنوات</string>
+    <string name="settings_cards">البطاقات</string>
+    <string name="settings_wallpaper">الخلفية</string>
+    <string name="settings_status_bar">شريط الحالة</string>
+    <string name="settings_left_headers">العناوين الجانبية</string>
+    <string name="settings_idle_mode">وضع الخمول لمشغّل التطبيقات</string>
+    <string name="settings_font">الخط</string>
+    <string name="settings_themes">السمات</string>
+    <string name="settings_themes_desc">استيراد / تصدير</string>
+    <string name="settings_load_cards_scrolling">تحميل البطاقات أثناء التمرير</string>
+    <string name="settings_load_cards_scrolling_desc">استجابة أسرع على حساب السلاسة</string>
+    <string name="settings_accent">لون التمييز</string>
+    <string name="settings_accent_desc">فعّل الخيار الديناميكي ليتوافق اللون مع الخلفية</string>
+
+    <!-- Categories / Channels -->
+    <string name="settings_show_title">إظهار العنوان</string>
+    <string name="settings_show_icon_title">إظهار أيقونة أمام العنوان</string>
+    <string name="settings_rows_spacing">المسافة العمودية (% من ارتفاع الشاشة)</string>
+    <string name="settings_fixed_position">تثبيت موضع الفئة المحدّدة</string>
+    <string name="settings_hide_rows_above">إخفاء الصفوف فوق التحديد</string>
+    <string name="settings_remember_focus">تذكّر موضع البطاقة المحدّدة</string>
+    <string name="settings_unselected_opacity">عتامة الصفوف غير المحدّدة</string>
+    <string name="settings_top_margin">الهامش العلوي</string>
+    <string name="settings_start_margin">هامش البداية</string>
+    <string name="settings_end_margin">هامش النهاية</string>
+    <string name="settings_dock_padding">حشوة شريط الإرساء</string>
+    <string name="settings_tint_custom_icons">صبغ الأيقونات المخصّصة</string>
+    <string name="settings_tint_custom_icons_desc">للأيقونات المخصّصة التي لا تحتوي على خلفية</string>
+
+    <!-- Cards -->
+    <string name="settings_rounded_corners">زوايا مستديرة</string>
+    <string name="settings_cards_size">حجم البطاقات</string>
+    <string name="settings_cards_spacing">المسافة بين البطاقات</string>
+    <string name="settings_loop_limit">حدّ تكرار الأيقونات المتحركة</string>
+    <string name="settings_ripple">تأثير التموّج عند الضغط على البطاقة</string>
+    <string name="settings_background_color">لون الخلفية</string>
+    <string name="settings_focused_card">البطاقة المحدّدة</string>
+    <string name="settings_program_cards">بطاقات البرامج</string>
+    <string name="settings_tv_ratio">نسبة العرض إلى الارتفاع لبطاقات تطبيقات التلفزيون</string>
+    <string name="settings_mobile_ratio">نسبة العرض إلى الارتفاع لبطاقات تطبيقات الجوّال</string>
+    <string name="settings_icon_pack">حزمة الأيقونات</string>
+    <string name="settings_icon_pack_none">لا توجد حزمة أيقونات مثبّتة</string>
+    <string name="settings_icon_pack_off">بلا</string>
+    <string name="settings_more">المزيد…</string>
+    <string name="settings_custom_icon_tint">صبغة الأيقونات المخصّصة</string>
+    <string name="settings_ratio_16_9">16/9</string>
+    <string name="settings_ratio_1_1">1/1</string>
+
+    <!-- Focused card -->
+    <string name="settings_focused_size">حجم البطاقة المحدّدة</string>
+    <string name="settings_focused_effect">تأثير البطاقة المحدّدة</string>
+    <string name="settings_effect_none">بلا</string>
+    <string name="settings_effect_shadow">ظل مُسقَط</string>
+    <string name="settings_effect_glow">توهّج</string>
+    <string name="settings_glow_animation">حركة التوهّج</string>
+    <string name="settings_anim_none">بلا</string>
+    <string name="settings_anim_pulse">نبض</string>
+    <string name="settings_anim_breath">تنفّس</string>
+    <string name="settings_anim_fade">تلاشٍ</string>
+    <string name="settings_anim_shine">لمعان</string>
+    <string name="settings_glow_size">حجم التوهّج</string>
+    <string name="settings_glow_color">لون التوهّج</string>
+    <string name="settings_glow_color_desc">اتركه فارغًا لاستخدام لون البطاقة نفسها</string>
+    <string name="settings_colors_override">تجاوز الألوان</string>
+    <string name="settings_override_none">بلا</string>
+    <string name="settings_override_swap">تبديل الخلفية/الصبغة</string>
+    <string name="settings_override_custom">مخصّص</string>
+
+    <!-- Program cards -->
+    <string name="settings_play_preview">تشغيل فيديو المعاينة</string>
+    <string name="settings_preview_never">أبدًا</string>
+    <string name="settings_preview_always">دائمًا</string>
+    <string name="settings_preview_no_media">عند عدم تشغيل وسائط في الخلفية</string>
+    <string name="settings_show_progress">إظهار شريط التقدّم</string>
+    <string name="settings_show_badge">إظهار الشارة</string>
+    <string name="settings_zoom_focus">تأثير التكبير عند التحديد</string>
+
+    <!-- Wallpaper -->
+    <string name="settings_wallpaper_desc">التنسيقات المدعومة: صورة ثابتة، صورة GIF متحركة، فيديو (ملف ثابت أو بث RTSP مباشر)، رسوم Lottie متحركة</string>
+    <string name="settings_launcher_wallpaper">خلفية مشغّل التطبيقات</string>
+    <string name="settings_configure">ضبط</string>
+    <string name="settings_show_wallpapers">عرض الخلفيات</string>
+    <string name="settings_picture_adjustment">ضبط الصورة</string>
+    <string name="settings_image_transition">انتقال الصور</string>
+    <string name="settings_update_frequency">معدّل التحديث (بالدقائق)</string>
+    <string name="settings_video_wallpaper">خلفية الفيديو</string>
+    <string name="settings_display_mode">وضع العرض</string>
+    <string name="settings_bad_ratio">عند عدم ملاءمة النسبة/الجودة</string>
+    <string name="settings_min_width">الحد الأدنى للعرض المقبول (بالبكسل)</string>
+    <string name="settings_src_none">بلا</string>
+    <string name="settings_src_reddit">Reddit</string>
+    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_dynamic">ألوان ديناميكية</string>
+    <string name="settings_src_default">الخلفية الافتراضية</string>
+    <string name="settings_src_media">ملف وسائط</string>
+    <string name="settings_src_folder">مجلد</string>
+    <string name="settings_src_focused_program">البرنامج المحدَّد</string>
+    <string name="settings_src_now_playing">قيد التشغيل الآن</string>
+    <string name="settings_src_random_program">برنامج عشوائي</string>
+    <string name="settings_src_theme">السمة</string>
+    <string name="settings_tr_none">بلا</string>
+    <string name="settings_tr_random">عشوائي</string>
+    <string name="settings_tr_fade">تلاشٍ</string>
+    <string name="settings_tr_zoom">تكبير</string>
+    <string name="settings_tr_hslide">انزلاق أفقي</string>
+    <string name="settings_tr_vslide">انزلاق عمودي</string>
+    <string name="settings_dm_automatic">تلقائي</string>
+    <string name="settings_dm_skip">تخطٍّ</string>
+    <string name="settings_dm_crop">اقتصاص</string>
+    <string name="settings_dm_stretch">تمديد</string>
+    <string name="settings_dm_fit">ملاءمة في المنتصف</string>
+    <string name="settings_dm_fit_blur">ملاءمة في المنتصف + خلفية ضبابية</string>
+    <string name="settings_dm_blur">تمويه</string>
+
+    <!-- Picture adjustment -->
+    <string name="settings_hue">تدرّج اللون</string>
+    <string name="settings_saturation">التشبّع</string>
+    <string name="settings_contrast">التباين</string>
+    <string name="settings_brightness">السطوع</string>
+    <string name="settings_tint">الصبغة</string>
+    <string name="settings_tint_amount">مقدار الصبغة</string>
+    <string name="settings_blur">التمويه</string>
+    <string name="settings_shadow_h">طول طبقة الظل الأفقية</string>
+    <string name="settings_shadow_v">طول طبقة الظل العمودية</string>
+    <string name="settings_shadow_opacity">عتامة طبقة الظل</string>
+    <string name="settings_shadow_tint">صبغة طبقة الظل</string>
+
+    <!-- Video wallpaper -->
+    <string name="settings_ignore_update">تجاهل معدّل التحديث</string>
+    <string name="settings_ignore_update_desc">الانتظار حتى ينتهي الفيديو قبل طلب خلفية جديدة</string>
+    <string name="settings_video_color_freq">معدّل تحديث الألوان الديناميكية</string>
+    <string name="settings_video_color_freq_desc">عدد الثواني بين إطارات الفيديو التي تُقرأ منها الألوان؛ القيمة 0 توقفه</string>
+    <string name="settings_volume">مستوى الصوت</string>
+    <string name="settings_tunneling">استخدام العرض عبر العتاد (النفق)</string>
+    <string name="settings_decoder_fallback">تفعيل أجهزة فك الترميز الاحتياطية</string>
+
+    <!-- Status bar -->
+    <string name="settings_notification_permission">إدارة إذن الإشعارات</string>
+    <string name="settings_granted">ممنوح</string>
+    <string name="settings_not_granted">غير ممنوح</string>
+    <string name="settings_notification_adb">لا توجد شاشة إعدادات على هذا الجهاز. امنح الإذن باستخدام: %1$s</string>
+    <string name="settings_clock">الساعة</string>
+    <string name="settings_icons">الأيقونات</string>
+    <string name="settings_show_system_bar">إظهار شريط حالة النظام</string>
+    <string name="settings_autohide_status">إخفاء شريط الحالة عند التمرير</string>
+    <string name="settings_show_clock">إظهار الساعة</string>
+    <string name="settings_clock_size">حجم خط الساعة</string>
+    <string name="settings_clock_color">لون الساعة</string>
+    <string name="settings_drop_shadow">ظل مُسقَط</string>
+    <string name="settings_clock_line1">تنسيق الساعة (السطر 1)</string>
+    <string name="settings_clock_line2">تنسيق الساعة (السطر 2)</string>
+    <string name="settings_clock_default_format">تنسيق النظام</string>
+    <string name="settings_empty">فارغ</string>
+    <string name="settings_icons_size">حجم الأيقونات</string>
+    <string name="settings_icons_color">لون الأيقونات</string>
+    <string name="settings_icons_container">لون حاوية الأيقونات</string>
+    <string name="settings_show_settings">إظهار الإعدادات</string>
+    <string name="settings_show_settings_desc">تبقى الإعدادات متاحة بتسلسل الأزرار هذا: ↑→↓←↑→↓←</string>
+    <string name="settings_show_connectivity">إظهار الاتصال</string>
+    <string name="settings_show_notifications">إظهار الإشعارات</string>
+    <string name="settings_autohide_notifications">إخفاء أيقونة الإشعارات عندما لا توجد إشعارات</string>
+    <string name="settings_show_battery">إظهار البطارية</string>
+
+    <!-- Left headers -->
+    <string name="settings_enable">تفعيل</string>
+    <string name="settings_headers_on_launch">إظهار العناوين الجانبية عند التشغيل</string>
+    <string name="settings_show_icon">إظهار الأيقونة</string>
+    <string name="settings_show_reorder">إظهار إعادة الترتيب</string>
+
+    <!-- Idle -->
+    <string name="settings_idle_timeout">المهلة قبل الخمول (بالدقائق)</string>
+    <string name="settings_idle_opacity">عتامة الواجهة</string>
+    <string name="settings_keep_clock">إبقاء الساعة</string>
+    <string name="settings_prevent_screensaver">منع شاشة توقف النظام</string>
+
+    <!-- Font -->
+    <string name="settings_font_desc">غيّر إعدادات الخط في QLauncher. يمكن البحث عن أسماء عائلات الخطوط في Google Fonts.</string>
+    <string name="settings_font_list">اختيار من القائمة</string>
+    <string name="settings_font_google">الخط (Google Fonts)</string>
+    <string name="settings_font_default">الافتراضي</string>
+    <string name="settings_bold">عريض</string>
+    <string name="settings_italic">مائل</string>
+    <string name="settings_size">الحجم</string>
+
+    <!-- Power -->
+    <string name="settings_autostart">التشغيل التلقائي عند بدء التشغيل</string>
+    <string name="settings_autostart_none">بلا</string>
+    <string name="settings_autostart_screensaver">[*] شاشة التوقف (إن كانت مدعومة)</string>
+    <string name="settings_autostart_resume">…وعند الاستئناف من وضع الاستعداد</string>
+    <string name="settings_autostart_delay">مهلة التشغيل التلقائي (بالثواني)</string>
+    <string name="settings_simulate_activity">منع النظام من إيقاف التشغيل تلقائيًا عند الخمول</string>
+    <string name="settings_idle_detection">تفعيل الرصد الداخلي للخمول</string>
+    <string name="settings_idle_timeout_power">مهلة الخمول (ساعة:دقيقة)</string>
+    <string name="settings_idle_action">الإجراء عند الخمول</string>
+    <string name="settings_idle_action_shutdown">إيقاف التشغيل</string>
+    <string name="settings_idle_action_screen_off">إطفاء الشاشة</string>
+    <string name="settings_idle_action_screensaver">شاشة التوقف (إن كانت مدعومة)</string>
+    <string name="settings_idle_media">تجاهل وضع الخمول أثناء تشغيل الوسائط</string>
+    <string name="settings_missing_notification_permission">⚠️ إذن الإشعارات غير ممنوح</string>
+    <string name="settings_shutdown_action">إجراء إيقاف التشغيل</string>
+    <string name="settings_shutdown_dialog">قائمة زر التشغيل</string>
+    <string name="settings_shutdown_dialog_twice">قائمة زر التشغيل (استدعاء مرتين)</string>
+    <string name="settings_shutdown_dialog_ok">قائمة زر التشغيل + OK</string>
+    <string name="settings_hdmi_exit">إيقاف التشغيل تلقائيًا عند توقف إشارة مدخل HDMI</string>
+
+    <!-- Parental -->
+    <string name="settings_parental_desc">حدّد رمزًا لقفل التطبيقات المختارة (اضغط مطوّلًا على بطاقة في الشاشة الرئيسية لاختيارها)، طوال اليوم أو لجزء منه</string>
+    <string name="settings_parental_set_code">تعيين رمز جديد للرقابة الأبوية</string>
+    <string name="settings_parental_code_set">تم تعيين رمز</string>
+    <string name="settings_parental_long">عدم طلب الرمز لمدة 15 دقيقة بعد التحقق بنجاح</string>
+    <string name="settings_parental_protect">حماية إعدادات مشغّل التطبيقات وتغييرات الواجهة</string>
+    <string name="settings_parental_protect_desc">(مطبّقة على مدار الساعة)</string>
+    <string name="settings_parental_partial">تفعيل الحماية فقط بين</string>
+    <string name="settings_parental_start">وقت البدء (ساعة:دقيقة)</string>
+    <string name="settings_parental_end">وقت الانتهاء (ساعة:دقيقة)</string>
+
+    <!-- Remote -->
+    <string name="settings_menu_double">عرض المعلومات عند الضغط مرتين على «القائمة»</string>
+    <string name="settings_back_double">«الوضع المحيط» عند الضغط مرتين على «رجوع»</string>
+    <string name="settings_back_double_desc">تشغيل شاشة التوقف على الأجهزة المدعومة</string>
+
+    <!-- Accessibility service -->
+    <string name="settings_a11y_desc">فعّل الخدمة لتنفيذ إجراء عند بدء التشغيل، وتخصيص أزرار جهاز التحكم عن بُعد، وتعزيز الرقابة الأبوية، ورصد الخمول للتحكم في الطاقة. ترى الخدمة ضغطات الأزرار المادية واسم التطبيق الظاهر في المقدمة؛ وتبقى هاتان المعلومتان في ذاكرة هذا الجهاز ولا تُرسلان إلى أي مكان أبدًا.</string>
+    <string name="settings_a11y_enabled">مفعّلة</string>
+    <string name="settings_a11y_started">قيد التشغيل</string>
+    <string name="settings_yes">نعم</string>
+    <string name="settings_no">لا</string>
+    <string name="settings_a11y_open">إظهار إعدادات سهولة الاستخدام</string>
+    <string name="settings_a11y_consent_title">خدمة سهولة الاستخدام</string>
+    <string name="settings_a11y_consent">يسمح هذا لـ QLauncher برؤية ضغطات الأزرار المادية واسم التطبيق الظاهر في المقدمة. تبقى هاتان المعلومتان في ذاكرة هذا الجهاز فقط ولا تُرسلان إلى أي مكان أبدًا. هل توافق؟</string>
+    <string name="settings_a11y_alternate">استخدام إعداد بديل</string>
+    <string name="settings_a11y_alternate_desc">يحلّ مشكلات على بعض الأجهزة</string>
+    <string name="settings_a11y_volume_fix">إصلاح أزرار مستوى الصوت</string>
+    <string name="settings_a11y_volume_fix_desc">إيقاف إعادة التعيين لفترة وجيزة عند الضغط على زر الصوت، حتى يظل الضغط المطوّل يعمل</string>
+    <string name="settings_a11y_remap">تفعيل إعادة تعيين الأزرار</string>
+    <string name="settings_a11y_remap_desc">تعترض الخدمة ضغطات المفاتيح. يؤدي إيقاف هذا الخيار إلى تجنّب مشكلات الضغط المطوّل على أزرار الصوت وإيقاف النظام للخدمة، لكن تجاوز مشغّل التطبيقات والرقابة الأبوية ورصد الخمول قد تصبح أقل فاعلية.</string>
+    <string name="settings_a11y_reminder">إظهار تذكير</string>
+    <string name="settings_a11y_reminder_desc">إذا تم إيقاف خدمة سهولة الاستخدام</string>
+    <string name="settings_a11y_unbound_toast">خدمة سهولة الاستخدام في QLauncher لا تعمل</string>
+
+    <!-- Manage settings -->
+    <string name="settings_manage_desc">استورد الإعدادات أو صدّرها محليًا، أو مع تطبيق آخر مثل LocalSend أو مدير ملفات.</string>
+    <string name="settings_import">استيراد</string>
+    <string name="settings_import_file">من ملف</string>
+    <string name="settings_import_auto">من نسخة احتياطية تلقائية</string>
+    <string name="settings_export">تصدير</string>
+    <string name="settings_export_local">حفظ محليًا</string>
+    <string name="settings_export_share">مشاركة مع تطبيق آخر</string>
+    <string name="settings_reset">استعادة الإعدادات الافتراضية</string>
+    <string name="settings_cancel">إلغاء</string>
+    <string name="settings_ok">حسنًا</string>
+
+    <!-- Wallpaper › Configure -->
+    <string name="wp_category">الفئة</string>
+    <string name="wp_custom_search">بحث مخصّص</string>
+    <string name="wp_reddit_login">تسجيل الدخول</string>
+    <string name="wp_reddit_logout">تسجيل الخروج: %1$s</string>
+    <string name="wp_reddit_logout_unknown">تسجيل الخروج</string>
+    <string name="wp_subreddit">مجتمع Reddit</string>
+    <string name="wp_custom_subreddit">مجتمع مخصّص</string>
+    <string name="wp_custom_subreddit_hint">عدة أسماء مفصولة بعلامة +</string>
+    <string name="wp_folder">المجلد</string>
+    <string name="wp_folder_choose">اختيار مجلد</string>
+    <string name="wp_media">ملف الوسائط</string>
+    <string name="wp_media_choose">اختيار ملف</string>
+    <string name="wp_choose_other">موقع آخر…</string>
+    <string name="wp_choose_other_desc">الاختيار باستخدام أداة اختيار الملفات في النظام</string>
+    <string name="wp_media_searching">جارٍ البحث عن الصور والفيديوهات…</string>
+    <string name="wp_media_none">لم يُعثر على صور أو فيديوهات. انسخ بعضها إلى Pictures أو Movies أو Download، أو وصّل محرك USB.</string>
+    <string name="wp_folders_description">مجلدات تحتوي على صور أو فيديوهات، على هذا الجهاز وعلى محركات USB.</string>
+    <string name="wp_folders_none">لم يُعثر على مجلدات تحتوي على صور أو فيديوهات</string>
+    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <plurals name="wp_folder_files">
+        <item quantity="zero">%d ملف</item>
+        <item quantity="one">%d ملف</item>
+        <item quantity="two">%d ملفان</item>
+        <item quantity="few">%d ملفات</item>
+        <item quantity="many">%d ملفًا</item>
+        <item quantity="other">%d ملف</item>
+    </plurals>
+    <string name="wp_media_color">لون سادة</string>
+    <string name="wp_theme_desc">الخلفيات المضمّنة في السمة المستوردة</string>
+    <string name="wp_plugin_settings">إعدادات المكوّن الإضافي</string>
+    <string name="wp_not_set">غير معيّن</string>
+    <string name="wp_status">الحالة</string>
+
+    <!-- About › This wallpaper -->
+    <string name="wp_about_title">هذه الخلفية</string>
+    <string name="wp_next">التالي</string>
+    <string name="wp_source">المصدر</string>
+    <string name="wp_title">العنوان</string>
+    <string name="wp_author">المؤلف</string>
+    <string name="wp_set_user">تعيين كخلفية المستخدم</string>
+    <string name="wp_view">عرض</string>
+    <string name="wp_unknown">غير معروف</string>
+
+    <!-- Display Profiles -->
+    <string name="dp_desc">أنشئ ملفات تعريف عرض الفيديو وأدِرها هنا. اربطها بمصادر الإدخال لتتغيّر تلقائيًا، أو طبّقها بالضغط على «القائمة» مرتين ثم لأعلى أو لأسفل.</string>
+    <string name="dp_list">قائمة ملفات تعريف العرض</string>
+    <string name="dp_list_desc">أنشئ ملفات تعريف عرض الفيديو أو عدّلها هنا. حسب الجهاز، تحتاج بعض عناصر التحكم إلى صلاحيات الجذر أو لا تعمل إطلاقًا؛ فهي موجّهة لأجهزة AmLogic.</string>
+    <string name="dp_add">إضافة جديد…</string>
+    <string name="dp_name">اسم ملف التعريف</string>
+    <string name="dp_preview">معاينة</string>
+    <string name="dp_fullscreen">معاينة بملء الشاشة</string>
+    <string name="dp_fullscreen_desc">أو بدّل بزر «القائمة»</string>
+    <string name="dp_delete">حذف ملف التعريف</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="install_title">تثبيت تطبيقات خارجية</string>
+    <string name="install_desc">اختر تطبيقًا لتثبيته. قد تحتاج أولًا إلى السماح بالتثبيت من مصادر غير معروفة.</string>
+    <string name="install_custom">عنوان URL مخصّص / رمز Downloader</string>
+    <string name="install_custom_desc">لا تستخدم إلا مصدرًا تثق به</string>
+    <string name="install_status">الحالة</string>
+    <string name="install_method_choice">%1$s (%2$s)</string>
+
+    <!-- This device -->
+    <string name="device_title">هذا الجهاز</string>
+
+    <string name="gallery_filter">تصفية…</string>
+    <string name="settings_no_file_picker">لا توجد أداة لاختيار الملفات على هذا الجهاز</string>
+
+    <!-- Colour picker -->
+    <string name="color_luminance">النصوع</string>
+    <string name="color_opacity">العتامة</string>
+    <string name="color_prefer_dynamic">تفضيل اللون الديناميكي</string>
+    <string name="color_prefer_dynamic_desc">إذا كان متاحًا، سيُحتفظ بهذا النصوع/العتامة</string>
+    <string name="color_clear">مسح</string>
+    <string name="color_reset">استعادة الإعدادات الافتراضية</string>
+</resources>

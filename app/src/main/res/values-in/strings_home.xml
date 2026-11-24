@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Built-in categories -->
+    <string name="home_cat_now_playing">Sedang Diputar</string>
+    <string name="home_cat_inputs">Input</string>
+    <string name="home_cat_favorites">Favorit</string>
+    <string name="home_cat_video">Video</string>
+    <string name="home_cat_music">Musik</string>
+    <string name="home_cat_games">Game</string>
+    <string name="home_cat_tv_apps">Aplikasi TV</string>
+    <string name="home_cat_mobile_apps">Aplikasi seluler</string>
+    <string name="home_cat_watch_next">Tonton Berikutnya</string>
+    <string name="home_cat_shortcuts">Pintasan</string>
+    <string name="home_cat_folders">Folder kategori</string>
+    <string name="home_cat_live_tv">TV Live</string>
+    <string name="home_cat_settings">Setelan</string>
+    <string name="home_cat_display">Layar</string>
+    <string name="home_cat_applications">Aplikasi</string>
+    <string name="home_cat_system">Sistem</string>
+    <string name="home_cat_about">Tentang</string>
+    <string name="home_new_category">Kategori baru</string>
+
+    <!-- Built-in actions -->
+    <string name="home_action_all_apps">Semua aplikasi</string>
+    <string name="home_action_edit_categories">Edit kategori</string>
+    <string name="home_action_edit_channels">Edit channel</string>
+    <string name="home_action_launcher_settings">Setelan QLauncher</string>
+    <string name="home_action_android_settings">Setelan Android</string>
+    <string name="home_action_amlogic_settings">Setelan tambahan AmLogic</string>
+    <string name="home_action_display_profiles">Profil layar</string>
+    <string name="home_action_install_apps">Instal aplikasi pihak ketiga</string>
+    <string name="home_action_accessibility">Layanan aksesibilitas</string>
+    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_switch_profile">Ganti profil</string>
+    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_device">Perangkat ini</string>
+    <string name="home_action_about_wallpaper">Wallpaper ini</string>
+
+    <!-- Program meta -->
+    <string name="home_season">Musim %1$s</string>
+    <string name="home_episode">Episode %1$s</string>
+    <string name="home_minutes">%1$d mnt</string>
+
+    <!-- Status bar -->
+    <string name="home_status_connectivity">Konektivitas</string>
+    <string name="home_status_notifications">Notifikasi</string>
+    <string name="home_status_settings">Setelan</string>
+    <string name="home_status_wallpaper">Wallpaper ini</string>
+    <string name="home_navigation_menu">Menu navigasi</string>
+    <string name="home_reorder">Ubah urutan</string>
+    <string name="home_category_settings">Setelan kategori</string>
+
+    <!-- App menu -->
+    <string name="menu_app_settings">Setelan aplikasi</string>
+    <string name="menu_open">Buka</string>
+    <string name="menu_details">Detail</string>
+    <string name="menu_play_pause">Putar/Jeda</string>
+    <string name="menu_stop">Berhenti</string>
+    <string name="menu_previous">Sebelumnya</string>
+    <string name="menu_next">Berikutnya</string>
+    <string name="menu_uninstall">Uninstal</string>
+    <string name="menu_launch_on_boot">Buka saat booting</string>
+    <string name="menu_launch_on_boot_on">Dibuka saat booting</string>
+    <string name="menu_add_parental">Tambahkan ke kontrol orang tua</string>
+    <string name="menu_remove_parental">Hapus dari kontrol orang tua</string>
+    <string name="menu_shortcuts">Pintasan</string>
+    <string name="menu_appearance">Tampilan</string>
+    <string name="menu_title">Judul</string>
+    <string name="menu_change_icon">Ubah ikon</string>
+    <string name="menu_icon_from_picture">Dari gambar</string>
+    <string name="menu_icon_other_location">Lokasi lain…</string>
+    <string name="menu_icon_no_pictures">Gambar tidak ditemukan. Salin beberapa ke Pictures atau Download, atau colokkan drive USB.</string>
+    <string name="menu_icon_reset">Setel ulang</string>
+    <string name="menu_crop">Pangkas hingga penuh</string>
+    <string name="menu_visibility">Visibilitas</string>
+    <string name="menu_reorder">Ubah urutan</string>
+    <string name="menu_remove_from">Hapus dari %1$s</string>
+    <string name="menu_hide">Sembunyikan</string>
+    <string name="menu_add_to">Tambahkan ke…</string>
+    <string name="menu_move_to">Pindahkan ke…</string>
+    <string name="menu_channels">Channel</string>
+    <string name="menu_rename_hint">Ketik judul baru, lalu tekan OK</string>
+
+    <!-- Category editor -->
+    <string name="editor_title">Judul</string>
+    <string name="editor_change_icon">Ubah ikon</string>
+    <string name="editor_visible">Terlihat</string>
+    <string name="editor_grid">Kisi</string>
+    <string name="editor_sliding_row">Baris geser</string>
+    <string name="editor_background">Warna latar belakang</string>
+    <string name="editor_show_title">Tampilkan judul</string>
+    <string name="editor_size">Ukuran</string>
+    <string name="editor_advanced">Setelan lanjutan</string>
+    <string name="editor_start_margin">Margin awal</string>
+    <string name="editor_end_margin">Margin akhir</string>
+    <string name="editor_top_margin">Margin atas</string>
+    <string name="editor_cards_per_row">Kartu per baris</string>
+    <string name="editor_row_count">Jumlah baris</string>
+    <string name="editor_auto">Otomatis</string>
+    <string name="editor_auto_value">Otomatis (%1$s)</string>
+    <string name="editor_sort">Urutkan</string>
+    <string name="editor_sort_custom">Kustom</string>
+    <string name="editor_sort_name">Menurut abjad</string>
+    <string name="editor_sort_last">Terakhir digunakan</string>
+    <string name="editor_sort_most">Sering digunakan</string>
+    <string name="editor_sort_random">Acak</string>
+    <string name="editor_set_default">Jadikan default</string>
+    <string name="editor_is_default">Kategori default</string>
+    <string name="editor_manage_apps">Kelola aplikasi</string>
+    <string name="editor_hidden_items">Item tersembunyi</string>
+    <string name="editor_restore">Pulihkan</string>
+    <string name="editor_delete">Hapus</string>
+    <string name="editor_delete_confirm">Hapus kategori ini?</string>
+    <string name="editor_empty_note">Kategori ini belum akan muncul karena masih kosong</string>
+    <string name="editor_request_notifications">Minta izin Notifikasi</string>
+    <string name="editor_channel_error">Channel ini tidak dapat dibaca lagi</string>
+
+    <!-- Channels panel -->
+    <string name="channels_title">Channel</string>
+    <string name="channels_count">%1$d channel</string>
+
+    <!-- Notifications panel -->
+    <string name="notifications_title">Notifikasi</string>
+    <string name="notifications_clear_all">Hapus semua</string>
+    <string name="notifications_empty">Tidak ada notifikasi</string>
+
+    <!-- Misc -->
+    <string name="home_no_activity">Aplikasi ini tidak dapat dibuka</string>
+    <string name="home_reorder_hint">Gunakan kiri/kanan untuk memindahkan, OK atau KEMBALI untuk selesai</string>
+    <string name="home_category_reorder_hint">Gunakan atas/bawah untuk memindahkan, OK atau KEMBALI untuk selesai</string>
+
+    <!-- First run -->
+    <string name="firstrun_welcome_title">Selamat datang!</string>
+    <string name="firstrun_welcome_text">QLauncher adalah launcher untuk Android TV. Launcher ini menempatkan aplikasi, channel, dan konten favorit Anda di satu layar utama yang dapat disesuaikan, dengan wallpaper yang berganti-ganti di belakangnya.</string>
+    <string name="firstrun_features_title">Kekuatan super baru Anda</string>
+    <string name="firstrun_features_text">Buka aplikasi atau input HDMI saat booting, kelola profil layar, kunci aplikasi dengan kontrol orang tua, tampilkan pola kalibrasi, deteksi waktu tidak aktif, dan sesuaikan setiap bagian layar utama. Beberapa fitur bergantung pada perangkat Anda.</string>
+    <string name="firstrun_a11y_title">Mari aktifkan aksesibilitas</string>
+    <string name="firstrun_a11y_text">Banyak fitur memerlukan layanan aksesibilitas QLauncher: mengganti launcher bawaan, tindakan saat booting, gestur tombol remote, deteksi waktu tidak aktif, dan kontrol orang tua. Anda dapat mengaktifkannya sekarang atau nanti dari setelan.</string>
+    <string name="firstrun_a11y_open">Buka setelan aksesibilitas</string>
+    <string name="firstrun_permissions_title">Jika boleh…</string>
+    <string name="firstrun_permissions_text">Selanjutnya, QLauncher meminta izin untuk membaca daftar acara TV (untuk channel dan Tonton Berikutnya) serta akses notifikasi (untuk ikon notifikasi dan Sedang Diputar). Keduanya opsional.</string>
+    <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
+    <string name="firstrun_permissions_text_no_channels">Selanjutnya, QLauncher meminta akses notifikasi (untuk ikon notifikasi dan Sedang Diputar). Akses ini opsional.</string>
+    <string name="firstrun_notifications_dialog">Izinkan akses notifikasi?</string>
+    <string name="firstrun_notifications_text">Akses notifikasi memungkinkan QLauncher menampilkan jumlah notifikasi, panel notifikasi, dan apa yang sedang diputar. Ya akan membuka halaman Akses aplikasi khusus tempat Anda memberikannya.</string>
+    <string name="firstrun_reports_title">Kirim laporan crash dan error secara anonim?</string>
+    <string name="firstrun_reports_text">Jika QLauncher crash atau mengalami error, aplikasi dapat mengirim laporan berisi versi aplikasi dan model perangkat agar bug dapat diperbaiki. Tidak ada data yang mengidentifikasi Anda atau apa yang Anda tonton yang dikirim. Anda dapat mengubahnya nanti di Umum.</string>
+    <string name="firstrun_launcher_title">Jadikan QLauncher layar utama Anda</string>
+    <string name="firstrun_launcher_text">Banyak perangkat TV tidak mengizinkan Anda mengubah launcher default. Jika perangkat Anda mengizinkannya, pilih QLauncher di sana. Jika tidak, aktifkan layanan aksesibilitas dengan “Ambil alih launcher saat ini”, dan QLauncher akan kembali setiap kali launcher bawaan terbuka.</string>
+    <string name="firstrun_launcher_open">Ubah launcher default</string>
+    <string name="firstrun_start_title">Saatnya mulai!</string>
+    <string name="firstrun_start_text">Semuanya dapat diubah nanti dari setelan. Tekan tombol setelan di kanan atas, atau urutan tombol ↑→↓←↑→↓←.</string>
+    <string name="firstrun_get_started">MULAI</string>
+    <string name="firstrun_next">Berikutnya</string>
+    <string name="firstrun_skip">Lewati</string>
+    <string name="firstrun_yes">Ya</string>
+    <string name="firstrun_no">Tidak</string>
+
+    <!-- Idle shutdown and help overlay are owned by the system subsystem. -->
+    <string name="home_screensaver_unavailable">Tidak ada screensaver di perangkat ini</string>
+</resources>

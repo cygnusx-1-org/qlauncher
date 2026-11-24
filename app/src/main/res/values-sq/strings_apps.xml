@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Anulo</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Të gjitha aplikacionet</string>
+    <string name="apps_action_edit_categories">Modifiko kategoritë</string>
+    <string name="apps_action_edit_channels">Modifiko kanalet</string>
+    <string name="apps_action_launcher_settings">Cilësimet e QLauncher</string>
+    <string name="apps_action_android_settings">Cilësimet e Android</string>
+    <string name="apps_action_amlogic_settings">Cilësime shtesë AmLogic</string>
+    <string name="apps_action_display_profiles">Profilet e ekranit</string>
+    <string name="apps_action_install_apps">Instalo aplikacione të palëve të treta</string>
+    <string name="apps_action_accessibility_service">Shërbimi i qasshmërisë</string>
+    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_switch_profile">Ndërro profilin</string>
+    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_device">Kjo pajisje</string>
+    <string name="apps_action_about_wallpaper">Ky imazh sfondi</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Asnjë</string>
+    <string name="apps_autostart_screensaver">Mbrojtësi i ekranit</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanalet</string>
+    <string name="apps_channels_watch_next">Vazhdo shikimin</string>
+    <string name="apps_channels_unreadable">Ky kanal nuk mund të lexohet më</string>
+    <string name="apps_channels_hidden">Fshehur nga sistemi</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanal</item>
+        <item quantity="other">%d kanale</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Apliko paketën e ikonave</string>
+    <string name="apps_iconpack_apply_message">Të përdoret %1$s për ikonat e aplikacioneve të tua?</string>
+    <string name="apps_iconpack_apply_confirm">Apliko</string>
+    <string name="apps_iconpack_applied">Paketa e ikonave u aplikua</string>
+    <string name="apps_iconpack_apply_missing">Nuk u emërtua asnjë paketë ikonash</string>
+    <string name="apps_iconpack_apply_not_a_pack">Ky aplikacion nuk është paketë ikonash</string>
+    <string name="apps_iconpack_none">Asnjë</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Shto shkurtore</string>
+    <string name="apps_pin_shortcut_message">Të shtohet „%1$s“ nga %2$s te kategoria Shkurtoret?</string>
+    <string name="apps_pin_shortcut_confirm">Shto</string>
+    <string name="apps_pin_shortcut_added">Shkurtorja u shtua</string>
+    <string name="apps_pin_shortcut_failed">Shkurtorja nuk mund të shtohej</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Instalo aplikacione të palëve të treta</string>
+    <string name="apps_install_description">Zgjidh një aplikacion për ta instaluar. Mund të të duhet të lejosh instalimin nga burime të panjohura përpara instalimit.</string>
+    <string name="apps_install_custom_url">URL e personalizuar / Kodi i Downloader</string>
+    <string name="apps_install_custom_url_desc">Sigurohu që përdor një burim të besueshëm</string>
+    <string name="apps_install_choose_method">Zgjidh një mënyrë instalimi</string>
+    <string name="apps_install_installed">I instaluar</string>
+    <string name="apps_install_category_wallpaper_plugin">Shtojcë imazhi sfondi</string>
+    <string name="apps_install_category_icon_pack">Paketë ikonash</string>
+    <string name="apps_install_category_file_manager">Menaxher skedarësh</string>
+    <string name="apps_install_category_tool">Mjet</string>
+    <string name="apps_install_method_store">Dyqani</string>
+    <string name="apps_install_method_direct">Shkarkim i drejtpërdrejtë</string>
+    <string name="apps_install_method_downloader">Aplikacioni Downloader</string>
+    <string name="apps_install_state_downloading">Po shkarkohet %1$s… %2$d%%</string>
+    <string name="apps_install_state_downloading_unknown">Po shkarkohet %1$s…</string>
+    <string name="apps_install_state_installing">Po instalohet %1$s…</string>
+    <string name="apps_install_state_confirm">Konfirmo instalimin e %1$s</string>
+    <string name="apps_install_state_success">%1$s u instalua</string>
+    <string name="apps_install_state_unknown_sources">Lejo QLauncher të instalojë aplikacione, pastaj kthehu për të vazhduar</string>
+    <string name="apps_install_state_downloader_sent">Kodi %1$s u dërgua te Downloader</string>
+    <string name="apps_install_state_downloader_type">Fut kodin %1$s te Downloader</string>
+    <string name="apps_install_state_store">U hap në dyqan</string>
+    <string name="apps_install_state_browser">Kjo lidhje është një faqe uebi; u hap në shfletues</string>
+    <string name="apps_install_fail_invalid">Ky nuk është URL ose kod Downloader</string>
+    <string name="apps_install_fail_no_usb">Nuk u gjet asnjë njësi USB</string>
+    <string name="apps_install_fail_archive">Arkivat nuk mund të instalohen</string>
+    <string name="apps_install_fail_network">Shkarkimi dështoi</string>
+    <string name="apps_install_fail_http">Serveri u përgjigj me një gabim (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Skedari nuk është aplikacion (APK)</string>
+    <string name="apps_install_fail_unreadable">Skedari nuk mund të lexohet</string>
+    <string name="apps_install_fail_install">Instalimi dështoi</string>
+    <string name="apps_install_fail_cancelled">Instalimi u anulua</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher nuk lejohet të instalojë aplikacione</string>
+    <string name="apps_install_fail_downloader">Aplikacioni Downloader nuk është i instaluar</string>
+    <string name="apps_install_fail_store">Nuk ka asnjë dyqan aplikacionesh të disponueshëm</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Kjo pajisje</string>
+    <string name="apps_device_brand_manufacturer">Marka / Prodhuesi</string>
+    <string name="apps_device_device_product">Pajisja / Produkti</string>
+    <string name="apps_device_model">Modeli</string>
+    <string name="apps_device_hardware">Hardueri</string>
+    <string name="apps_device_fingerprint">Gjurma</string>
+    <string name="apps_device_build">Numri i ndërtimit</string>
+    <string name="apps_device_build_desc">Përshkr. i ndërtimit</string>
+    <string name="apps_device_device_type">Lloji i pajisjes</string>
+    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_ip_address">Adresa IP</string>
+    <string name="apps_device_root_access">Qasja root</string>
+    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_none">Pa menaxher figure</string>
+    <string name="apps_device_id">Identifikuesi</string>
+    <string name="apps_device_yes">Po</string>
+    <string name="apps_device_no">Jo</string>
+</resources>

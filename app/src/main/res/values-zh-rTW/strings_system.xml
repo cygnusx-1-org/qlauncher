@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    System services and parental control.
+-->
+<resources>
+    <!-- Parental control prompt -->
+    <string name="system_parental_new_code">請輸入任意方向鍵/數字組合，然後按 OK 鍵確認</string>
+    <string name="system_parental_confirm_code">請再輸入一次密碼，然後按 OK 鍵確認</string>
+    <string name="system_parental_restricted">存取受限\n請輸入家長密碼</string>
+    <string name="system_parental_wrong_code">密碼錯誤</string>
+    <string name="system_parental_codes_differ">兩次輸入的密碼不一致，請再試一次</string>
+    <string name="system_parental_code_saved">家長密碼已儲存</string>
+    <string name="system_parental_recovery_code">復原碼：%1$s</string>
+    <string name="system_parental_recovery_help">請抄下來：這組號碼只會顯示這一次。用方向鍵輸入（1 = ▲、2 = ▼、3 = ◄、4 = ►）時，可以像家長密碼一樣解鎖。</string>
+    <string name="system_parental_press_ok">按 OK 鍵繼續</string>
+
+    <!-- Hotkey help overlay (Menu pressed twice) -->
+    <string name="system_hotkeys_title">遙控器快速鍵</string>
+    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
+    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
+    <string name="system_hotkeys_keys_ok">OK</string>
+    <string name="system_hotkeys_keys_home">主畫面鍵</string>
+    <string name="system_hotkeys_keys_menu_twice">選單鍵 × 2</string>
+    <string name="system_hotkeys_change_input">切換輸入來源</string>
+    <string name="system_hotkeys_change_profile">切換顯示設定檔</string>
+    <string name="system_hotkeys_start_launcher">啟動 QLauncher</string>
+    <string name="system_hotkeys_home">開啟 QLauncher；按兩下：最近使用的應用程式</string>
+    <string name="system_hotkeys_close">關閉說明</string>
+    <string name="system_hotkeys_no_inputs">這部裝置沒有電視輸入來源</string>
+    <string name="system_hotkeys_no_picture_manager">未載入畫面管理員</string>
+    <string name="system_hotkeys_home_off">已關閉：需要開啟「接管目前的啟動器」及按鍵重新對應</string>
+
+    <!-- Internal idle detection countdown -->
+    <string name="system_idle_countdown_shutdown">偵測到使用者閒置，將在 %1$d 秒後關機</string>
+    <string name="system_idle_countdown_screen_off">偵測到使用者閒置，將在 %1$d 秒後關閉螢幕</string>
+    <string name="system_idle_countdown_screensaver">偵測到使用者閒置，將在 %1$d 秒後啟動螢幕保護程式</string>
+    <string name="system_idle_countdown_cancel">按任一按鍵即可取消</string>
+
+    <!-- Fallbacks when a system settings page is missing -->
+    <string name="system_accessibility_no_settings">這部裝置沒有無障礙設定的捷徑。請從 Android 設定開啟，通常位於「裝置偏好設定 › 無障礙」。</string>
+    <string name="system_notification_access_no_settings">這部裝置沒有通知存取權畫面。請在電腦上使用以下指令授予存取權：</string>
+</resources>

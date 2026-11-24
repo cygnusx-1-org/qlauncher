@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the wallpaper subsystem.
+-->
+<resources>
+    <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
+    <string name="wallpaper_provider_none">Nėra</string>
+    <string name="wallpaper_provider_reddit">Reddit</string>
+    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
+    <string name="wallpaper_provider_dynamic_colors">Dinaminės spalvos</string>
+    <string name="wallpaper_provider_default">Numatytasis ekrano fonas</string>
+    <string name="wallpaper_provider_media_file">Medijos failas</string>
+    <string name="wallpaper_provider_folder">Aplankas</string>
+    <string name="wallpaper_provider_focused_program">Pažymėta laida</string>
+    <string name="wallpaper_provider_now_playing">Dabar leidžiama</string>
+    <string name="wallpaper_provider_random_program">Atsitiktinė laida</string>
+    <string name="wallpaper_provider_theme">Tema</string>
+    <string name="wallpaper_provider_unknown_plugin">Papildinys</string>
+
+    <!-- Wikimedia Commons categories. -->
+    <string name="wallpaper_wikimedia_wallpapers">Ekrano fonai</string>
+    <string name="wallpaper_wikimedia_nature">Gamta</string>
+    <string name="wallpaper_wikimedia_landscapes">Kraštovaizdžiai</string>
+    <string name="wallpaper_wikimedia_mountains">Kalnai</string>
+    <string name="wallpaper_wikimedia_forests">Miškai</string>
+    <string name="wallpaper_wikimedia_cities">Miestai</string>
+    <string name="wallpaper_wikimedia_architecture">Architektūra</string>
+    <string name="wallpaper_wikimedia_night">Naktis</string>
+    <string name="wallpaper_wikimedia_space">Kosmosas</string>
+    <string name="wallpaper_wikimedia_animals">Gyvūnai</string>
+    <string name="wallpaper_wikimedia_custom">[Pasirinktinė paieška]</string>
+
+    <!-- Reddit. -->
+    <string name="wallpaper_reddit_custom">[Pasirinktinis subredditas]</string>
+    <string name="wallpaper_reddit_log_out">Atsijungti</string>
+    <string name="wallpaper_reddit_login_needed">Prisijunkite prie Reddit, kad matytumėte iš jo gaunamus ekrano fonus.</string>
+    <string name="wallpaper_reddit_login_title">Prisijungti prie Reddit</string>
+    <string name="wallpaper_reddit_login_signing_in">Prisijungiama…</string>
+    <string name="wallpaper_reddit_login_denied">Prieiga prie Reddit nesuteikta, todėl Reddit ekrano fonai lieka nepasiekiami.</string>
+    <string name="wallpaper_reddit_login_state_mismatch">Reddit atsakymas neatitiko šio bandymo prisijungti, todėl buvo ignoruotas. Bandykite dar kartą.</string>
+    <string name="wallpaper_reddit_login_failed">Prisijungti prie Reddit nepavyko (%1$s). Bandykite vėliau.</string>
+    <string name="wallpaper_reddit_login_network">Nepavyko pasiekti Reddit. Patikrinkite tinklo ryšį ir bandykite dar kartą.</string>
+    <string name="wallpaper_reddit_login_page_error">Nepavyko įkelti Reddit prisijungimo puslapio. Patikrinkite tinklo ryšį ir bandykite dar kartą.</string>
+    <string name="wallpaper_reddit_no_webview">Šiame įrenginyje nėra žiniatinklio naršyklės komponento (Android System WebView), kurio reikia prisijungiant prie Reddit. Įdiekite arba įjunkite Android System WebView ir bandykite dar kartą.</string>
+    <string name="wallpaper_reddit_retry">Bandyti dar kartą</string>
+    <string name="wallpaper_reddit_close">Uždaryti</string>
+
+    <!-- Errors shown under Configure. -->
+    <string name="wallpaper_error_network">Nėra ryšio su ekrano fonų šaltiniu.</string>
+    <string name="wallpaper_error_server">Ekrano fonų šaltinis grąžino klaidą.</string>
+    <string name="wallpaper_error_rate_limited">Ekrano fonų šaltinis paprašė palaukti iki kitos užklausos.</string>
+    <string name="wallpaper_error_generic">Nepavyko įkelti ekrano fonų.</string>
+    <string name="wallpaper_error_no_media">Nepasirinkta nei nuotrauka, nei vaizdo įrašas, nei spalva.</string>
+    <string name="wallpaper_error_no_folder">Nepasirinktas aplankas.</string>
+    <string name="wallpaper_error_folder_access">Aplanko nepavyksta nuskaityti. Pasirinkite jį iš naujo.</string>
+    <string name="wallpaper_error_folder_empty">Aplanke nėra nuotraukų, vaizdo įrašų ar Lottie animacijų.</string>
+    <string name="wallpaper_error_theme_empty">Dabartinėje temoje nėra ekrano fonų.</string>
+    <string name="wallpaper_error_no_channels">Kanalai nepasiekiami. Įjunkite juos ir leiskite pasiekti TV programą.</string>
+    <string name="wallpaper_error_no_notification_access">Funkcijai „Dabar leidžiama“ reikia prieigos prie pranešimų.</string>
+    <string name="wallpaper_error_no_subreddit">Nenustatytas tinkamas subredditas.</string>
+    <string name="wallpaper_error_plugin">Ekrano fono papildinys neatsakė.</string>
+
+    <!-- Set as wallpaper. -->
+    <string name="wallpaper_set_done">Ekrano fonas nustatytas</string>
+    <string name="wallpaper_set_failed">Šio failo negalima naudoti kaip ekrano fono.</string>
+</resources>
