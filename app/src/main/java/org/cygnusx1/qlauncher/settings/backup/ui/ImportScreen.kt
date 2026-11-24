@@ -270,6 +270,9 @@ private fun LazyListScope.previewRows(
     if (preview.wallpapers > 0) {
         item { GuidedRow(stringResource(R.string.backup_preview_files), subtitle = pluralStringResource(R.plurals.backup_count_files, preview.wallpapers, preview.wallpapers), icon = "image") }
     }
+    preview.redditUser?.let { user ->
+        item { GuidedRow(stringResource(R.string.wallpaper_provider_reddit), subtitle = user.ifEmpty { null }?.let { "u/$it" }, icon = "account_circle") }
+    }
     if (preview.unknownKeys.isNotEmpty()) {
         item {
             GuidedRow(

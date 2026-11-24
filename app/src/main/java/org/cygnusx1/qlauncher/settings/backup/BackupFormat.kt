@@ -46,6 +46,16 @@ data class BackupManifest(
     val author: String? = null,
 )
 
+/**
+ * `reddit_login.json`, the Reddit login of a settings export, protected by the export password.
+ * The short-lived access token is left out; a fresh one is fetched with [refreshToken].
+ * [toString] never shows the token.
+ */
+@Serializable
+data class RedditLogin(val refreshToken: String, val username: String? = null) {
+    override fun toString(): String = "RedditLogin(user=$username)"
+}
+
 /** Names and constants of QLauncher's export format. */
 object BackupFormat {
     const val FORMAT_ID = "qlauncher-backup"
@@ -62,6 +72,7 @@ object BackupFormat {
     const val APPS = "apps.json"
     const val PROFILES = "profiles.json"
     const val WALLPAPER_PARAMS = "wallpaper_params.json"
+    const val REDDIT_LOGIN = "reddit_login.json"
     const val ASSETS = "assets/"
 
     /** Custom icons, `filesDir/icons`. */

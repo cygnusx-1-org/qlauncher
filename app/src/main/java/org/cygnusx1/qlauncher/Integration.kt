@@ -10,6 +10,8 @@ package org.cygnusx1.qlauncher
 
 import android.content.Intent
 import androidx.compose.ui.text.AnnotatedString
+import org.cygnusx1.qlauncher.settings.backup.RedditLogin
+import org.cygnusx1.qlauncher.settings.backup.RedditLoginBridge
 import org.cygnusx1.qlauncher.settings.backup.WallpaperParamsBridge
 import org.cygnusx1.qlauncher.ui.home.CardKind
 import org.cygnusx1.qlauncher.ui.home.HomeUi
@@ -23,6 +25,7 @@ import org.cygnusx1.qlauncher.ui.settings.pages.IconSetPages
 import org.cygnusx1.qlauncher.ui.settings.pages.WallpaperPages
 import org.cygnusx1.qlauncher.util.ClockFormat
 import org.cygnusx1.qlauncher.wallpaper.WallpaperEvent
+import org.cygnusx1.qlauncher.wallpaper.reddit.RedditTokens
 import org.cygnusx1.qlauncher.wallpaper.ui.WallpaperHost
 
 /**
@@ -41,6 +44,14 @@ object Integration {
             override suspend fun exportParams(): Map<String, String> = wp.exportParams()
             override suspend fun importParams(params: Map<String, String>) {
                 wp.importParams(params, clearOthers = true).join()
+            }
+        })
+        c.backup.registerRedditLogin(object : RedditLoginBridge {
+            override suspend fun exportLogin(): RedditLogin? =
+                wp.storedRedditLogin()?.let { RedditLogin(it.refreshToken, it.username?.ifEmpty { null }) }
+
+            override suspend fun importLogin(login: RedditLogin?) {
+                wp.restoreRedditLogin(login?.let { RedditTokens(it.refreshToken, accessToken = null, accessExpiresAt = 0L, username = it.username) })
             }
         })
 

@@ -60,6 +60,7 @@ import org.cygnusx1.qlauncher.wallpaper.reddit.RedditPreset
 import org.cygnusx1.qlauncher.wallpaper.reddit.RedditPresets
 import org.cygnusx1.qlauncher.wallpaper.reddit.RedditProvider
 import org.cygnusx1.qlauncher.wallpaper.reddit.RedditTokenStore
+import org.cygnusx1.qlauncher.wallpaper.reddit.RedditTokens
 import org.cygnusx1.qlauncher.wallpaper.source.DefaultProvider
 import org.cygnusx1.qlauncher.wallpaper.source.DynamicColorsProvider
 import org.cygnusx1.qlauncher.wallpaper.source.FocusedProgramProvider
@@ -362,6 +363,17 @@ class WallpaperModule(private val container: AppContainer) {
         redditTokens.clear()
         redditCache.clear()
         controller.invalidate(WallpaperProviders.REDDIT)
+    }
+
+    /** The stored Reddit login, for a settings export; null while logged out. */
+    suspend fun storedRedditLogin(): RedditTokens? = redditTokens.current()
+
+    /**
+     * Replaces the stored Reddit login with one from a backup, encrypted with this device's key;
+     * null removes it from this device without revoking it, since it may be in use elsewhere.
+     */
+    suspend fun restoreRedditLogin(tokens: RedditTokens?) {
+        if (tokens == null) redditTokens.clear() else redditTokens.save(tokens)
     }
 
     /** After a login: fetches the user name for the *Account* row. The source reloads by itself. */

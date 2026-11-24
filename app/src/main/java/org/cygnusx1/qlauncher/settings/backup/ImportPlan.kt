@@ -62,6 +62,8 @@ data class ImportPlan(
     val itemOverrides: Map<String, ItemOverride>? = null,
     val profiles: List<DisplayProfile>? = null,
     val wallpaperParams: Map<String, String>? = null,
+    /** Replaces the Reddit login; null keeps the current one. */
+    val redditLogin: RedditLogin? = null,
     /** Folders and files replaced under `filesDir`. */
     val assets: List<StagedAsset> = emptyList(),
     /** The theme carries wallpapers: the wallpaper source becomes Theme. */
@@ -87,6 +89,7 @@ data class ImportPlan(
             appCustomisations = itemOverrides?.size,
             displayProfiles = profiles?.size,
             wallpapers = assets.count { it.destination.startsWith("themes/") || it.destination == "background" },
+            redditUser = redditLogin?.let { it.username.orEmpty() },
             unknownKeys = unknownKeys,
             skippedItems = skippedItems.size,
             notCarried = notCarried,
@@ -106,6 +109,8 @@ data class ImportPreview(
     val appCustomisations: Int?,
     val displayProfiles: Int?,
     val wallpapers: Int,
+    /** The Reddit account the import logs in to (empty when its name is not known); null leaves the login as it is. */
+    val redditUser: String?,
     val unknownKeys: List<String>,
     val skippedItems: Int,
     val notCarried: List<NotCarried>,

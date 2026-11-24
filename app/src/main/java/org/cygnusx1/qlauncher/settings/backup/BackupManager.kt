@@ -58,6 +58,18 @@ interface WallpaperParamsBridge {
 }
 
 /**
+ * The Reddit login, which the wallpaper subsystem owns. Register an implementation with
+ * [BackupModule.registerRedditLogin] so settings exports carry it and imports restore it.
+ */
+interface RedditLoginBridge {
+    /** The stored login, or null while logged out. */
+    suspend fun exportLogin(): RedditLogin?
+
+    /** Stores [login] in place of the current one; null removes it from this device without revoking it. */
+    suspend fun importLogin(login: RedditLogin?)
+}
+
+/**
  * The folders the backup code works in.
  *
  * @property exportDir where exports are written first (the app's external `files/backups/`).
@@ -104,6 +116,7 @@ class BackupManager(
     private val scope: CoroutineScope,
     private val wallpaperParams: () -> WallpaperParamsBridge?,
     private val installedApps: () -> InstalledApps,
+    private val redditLogin: () -> RedditLoginBridge? = { null },
     private val clock: () -> Long = System::currentTimeMillis,
 ) {
     private val filesDir: File = paths.filesDir
@@ -132,9 +145,11 @@ class BackupManager(
         val params = runCatching { wallpaperParams()?.exportParams() }.getOrNull()
         val values = settings.exportValues(themeOnly = kind == BackupKind.Theme)
         return if (kind == BackupKind.Theme) {
+            // Themes are made to be shared: never with the account in them.
             BackupData(manifest, values, wallpaperParams = params)
         } else {
-            BackupData(manifest, values, categories.state.value, itemOverrides.overrides.value, profiles.profiles.value, params)
+            val login = runCatching { redditLogin()?.exportLogin() }.getOrNull()
+            BackupData(manifest, values, categories.state.value, itemOverrides.overrides.value, profiles.profiles.value, params, login)
         }
     }
 
@@ -296,6 +311,7 @@ class BackupManager(
             itemOverrides = if (isTheme) null else data.apps,
             profiles = if (isTheme) null else data.profiles,
             wallpaperParams = data.wallpaperParams,
+            redditLogin = if (isTheme) null else data.redditLogin,
             assets = staged,
             hasThemeWallpapers = themeWallpapers,
             themeName = data.manifest.name,
@@ -364,6 +380,9 @@ class BackupManager(
             overrides = itemOverrides.overrides.value,
             profiles = profiles.profiles.value,
             params = runCatching { wallpaperParams()?.exportParams() }.getOrNull(),
+            // Only a plan that carries a login replaces it, so only then is the current one kept.
+            restoreLogin = plan.redditLogin != null,
+            login = if (plan.redditLogin != null) runCatching { redditLogin()?.exportLogin() }.getOrNull() else null,
         )
         val swapped = ArrayList<Pair<File, File?>>() // destination → its previous copy
         try {
@@ -380,6 +399,7 @@ class BackupManager(
             plan.itemOverrides?.let { itemOverrides.replaceAll(it) }
             plan.profiles?.let { profiles.replaceAll(it) }
             plan.wallpaperParams?.let { p -> wallpaperParams()?.importParams(p) }
+            plan.redditLogin?.let { l -> redditLogin()?.importLogin(l) }
         } catch (e: Throwable) {
             withContext(kotlinx.coroutines.NonCancellable) {
                 runCatching { restore(before) }
@@ -403,6 +423,8 @@ class BackupManager(
         val overrides: Map<String, ItemOverride>,
         val profiles: List<DisplayProfile>,
         val params: Map<String, String>?,
+        val restoreLogin: Boolean,
+        val login: RedditLogin?,
     )
 
     private suspend fun restore(r: Rollback) {
@@ -415,6 +437,7 @@ class BackupManager(
         itemOverrides.replaceAll(r.overrides)
         profiles.replaceAll(r.profiles)
         r.params?.let { wallpaperParams()?.importParams(it) }
+        if (r.restoreLogin) redditLogin()?.importLogin(r.login)
     }
 
     /** Moves a staged asset into place; returns the destination and where its old copy went. */

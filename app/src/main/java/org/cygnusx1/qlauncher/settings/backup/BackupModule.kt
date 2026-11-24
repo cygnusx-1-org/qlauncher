@@ -42,6 +42,9 @@ class BackupModule(private val container: AppContainer) {
     @Volatile
     private var wallpaperParams: WallpaperParamsBridge? = null
 
+    @Volatile
+    private var redditLogin: RedditLoginBridge? = null
+
     val manager: BackupManager = BackupManager(
         paths = BackupPaths(app),
         settings = container.settings,
@@ -52,6 +55,7 @@ class BackupModule(private val container: AppContainer) {
         scope = container.scope,
         wallpaperParams = { wallpaperParams },
         installedApps = { PackageManagerApps(app) },
+        redditLogin = { redditLogin },
     )
 
     init {
@@ -65,6 +69,14 @@ class BackupModule(private val container: AppContainer) {
      */
     fun registerWallpaperParams(bridge: WallpaperParamsBridge) {
         wallpaperParams = bridge
+    }
+
+    /**
+     * Lets settings exports carry the Reddit login and imports restore it. Call once at start-up
+     * from the wallpaper module.
+     */
+    fun registerRedditLogin(bridge: RedditLoginBridge) {
+        redditLogin = bridge
     }
 
     /** The vendor picture manager; null on every device for now (*No picture manager loaded*). */

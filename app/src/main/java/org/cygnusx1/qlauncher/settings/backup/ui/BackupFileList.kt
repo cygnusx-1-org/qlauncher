@@ -76,10 +76,16 @@ fun BackupFileList(kind: BackupKind, onPick: (Uri) -> Unit, onBack: () -> Unit) 
         onPauseOrDispose { }
     }
     LaunchedEffect(scan) {
-        broadAccess = PublicBackups.hasBroadAccess(context)
-        files = PublicBackups.find(context, manager.exportDir, extensions)
+        // Set together, so the *Allow access* row and the files it unlocks change in one frame.
+        val access = PublicBackups.hasBroadAccess(context)
+        val found = PublicBackups.find(context, manager.exportDir, extensions)
+        broadAccess = access
+        files = found
     }
-    LaunchedEffect(files == null) {
+    // Focus the first row once the list is read, and again whenever a rescan changes it: the
+    // focused row may be gone (*Allow access* after access is granted, a file deleted meanwhile),
+    // which would leave nothing focused.
+    LaunchedEffect(files, broadAccess) {
         if (files != null) {
             withFrameNanos { }
             runCatching { firstRow.requestFocus() }

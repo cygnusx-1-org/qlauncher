@@ -29,9 +29,10 @@ import org.cygnusx1.qlauncher.settings.SettingKey
 
 /**
  * The data of a QLauncher backup, apart from its files. A theme has no categories, app
- * customisations or profiles (null).
+ * customisations, profiles or Reddit login (null).
  *
  * @property settings setting name → Boolean, Int, Long, Float or String.
+ * @property redditLogin null when logged out, and in files that predate it.
  */
 data class BackupData(
     val manifest: BackupManifest,
@@ -40,6 +41,7 @@ data class BackupData(
     val apps: Map<String, ItemOverride>? = null,
     val profiles: List<DisplayProfile>? = null,
     val wallpaperParams: Map<String, String>? = null,
+    val redditLogin: RedditLogin? = null,
 )
 
 /** Settings read from a file: those QLauncher knows, and the names it does not. */
@@ -73,6 +75,10 @@ class BackupCodec(private val filesDirPaths: List<String> = emptyList()) {
         data.wallpaperParams?.let {
             out[BackupFormat.WALLPAPER_PARAMS] = encodeTree(json.encodeToJsonElement(paramsSerializer, it))
         }
+        // Written as is: a token holds no paths for portable() to rewrite.
+        data.redditLogin?.let {
+            out[BackupFormat.REDDIT_LOGIN] = json.encodeToString(RedditLogin.serializer(), it).encodeToByteArray()
+        }
         return out
     }
 
@@ -91,7 +97,10 @@ class BackupCodec(private val filesDirPaths: List<String> = emptyList()) {
             val apps = entry(BackupFormat.APPS)?.let { json.decodeFromJsonElement(ItemOverrides.serializer(), restoreTree(parse(it))).items }
             val profiles = entry(BackupFormat.PROFILES)?.let { json.decodeFromJsonElement(DisplayProfileList.serializer(), restoreTree(parse(it))).profiles }
             val params = entry(BackupFormat.WALLPAPER_PARAMS)?.let { json.decodeFromJsonElement(paramsSerializer, restoreTree(parse(it))) }
-            return BackupData(manifest, settingsFromJsonRaw(settingsObj), categories, apps, profiles, params)
+            val login = entry(BackupFormat.REDDIT_LOGIN)
+                ?.let { json.decodeFromString(RedditLogin.serializer(), it.decodeToString()) }
+                ?.takeIf { it.refreshToken.isNotBlank() }
+            return BackupData(manifest, settingsFromJsonRaw(settingsObj), categories, apps, profiles, params, login)
         } catch (e: SerializationException) {
             throw ImportException.Damaged(e)
         } catch (e: IllegalArgumentException) {

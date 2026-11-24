@@ -65,6 +65,7 @@ class BackupManagerTest {
         val overrides = ItemOverrideStore(jsonDataStore(File(root, "items.json"), ItemOverrides.serializer(), ItemOverrides(), scope), scope)
         val profiles = DisplayProfileStore(jsonDataStore(File(root, "profiles.json"), DisplayProfileList.serializer(), DisplayProfileList(), scope), scope)
         val params = FakeParams()
+        val login = FakeLogin()
         val auto = AutoBackupStore(File(filesDir, "autobackup"), AesGcmBlobCipher { key }, keep = 5)
         val manager = BackupManager(
             paths = BackupPaths(filesDir, File(root, "cache"), "org.cygnusx1.qlauncher", exportDir = { File(root, "external/backups") }),
@@ -76,6 +77,7 @@ class BackupManagerTest {
             scope = scope,
             wallpaperParams = { params },
             installedApps = { NoApps },
+            redditLogin = { login },
         )
     }
 
@@ -86,6 +88,21 @@ class BackupManagerTest {
         override suspend fun importParams(params: Map<String, String>) {
             if (failImport) error("wallpaper store failed")
             this.params = params
+        }
+    }
+
+    private class FakeLogin : RedditLoginBridge {
+        var login: RedditLogin? = null
+
+        /** The next import stores its login and then fails, as a store failing half way would. */
+        var failNextImport = false
+        override suspend fun exportLogin() = login
+        override suspend fun importLogin(login: RedditLogin?) {
+            this.login = login
+            if (failNextImport) {
+                failNextImport = false
+                error("token store failed")
+            }
         }
     }
 
@@ -185,6 +202,72 @@ class BackupManagerTest {
         assertTrue(File(b.filesDir, "background").isFile)
         // An automatic backup was written before the import.
         assertEquals(AutoBackupReason.BeforeImport, b.auto.entries.value.first().reason)
+    }
+
+    @Test
+    fun `a settings export carries the Reddit login and an import restores it`() = runBlocking {
+        val a = device("a")
+        a.populate()
+        a.login.login = RedditLogin("refresh-a", "alice")
+        val file = a.manager.export(BackupKind.Settings, password)
+        ZipFile(file).use { zip ->
+            val header = zip.getFileHeader(BackupFormat.REDDIT_LOGIN)
+            assertTrue(header.isEncrypted)
+            zip.setPassword(password)
+            val text = zip.getInputStream(header).use { it.readBytes().decodeToString() }
+            assertTrue(text.contains("refresh-a"))
+        }
+
+        val b = device("b")
+        b.login.login = RedditLogin("refresh-b", "bob")
+        val plan = b.manager.plan(b.manager.openFile(file), password)
+        assertEquals("alice", plan.preview.redditUser)
+        b.manager.apply(plan)
+        assertEquals(RedditLogin("refresh-a", "alice"), b.login.login)
+
+        // A file written while logged out leaves the current login alone.
+        a.login.login = null
+        val loggedOut = a.manager.export(BackupKind.Settings, password)
+        ZipFile(loggedOut).use { zip -> assertNull(zip.getFileHeader(BackupFormat.REDDIT_LOGIN)) }
+        val plan2 = b.manager.plan(b.manager.openFile(loggedOut), password)
+        assertNull(plan2.preview.redditUser)
+        b.manager.apply(plan2)
+        assertEquals(RedditLogin("refresh-a", "alice"), b.login.login)
+    }
+
+    @Test
+    fun `a theme never carries the Reddit login`() = runBlocking {
+        val a = device("a")
+        a.populate()
+        a.login.login = RedditLogin("refresh-a", "alice")
+        val file = a.manager.export(BackupKind.Theme, password)
+        ZipFile(file).use { zip -> assertNull(zip.getFileHeader(BackupFormat.REDDIT_LOGIN)) }
+
+        val b = device("b")
+        b.login.login = RedditLogin("refresh-b", "bob")
+        val plan = b.manager.plan(b.manager.openFile(file), password)
+        assertNull(plan.redditLogin)
+        b.manager.apply(plan)
+        assertEquals(RedditLogin("refresh-b", "bob"), b.login.login)
+    }
+
+    @Test
+    fun `a failing login import puts the previous login back`() = runBlocking {
+        val a = device("a")
+        a.populate()
+        a.login.login = RedditLogin("refresh-a", "alice")
+        val file = a.manager.export(BackupKind.Settings, password)
+
+        val b = device("b")
+        b.login.login = RedditLogin("refresh-b", "bob")
+        val plan = b.manager.plan(b.manager.openFile(file), password)
+        b.login.failNextImport = true
+        try {
+            b.manager.apply(plan)
+            fail("expected the failure to surface")
+        } catch (_: IllegalStateException) {
+        }
+        assertEquals(RedditLogin("refresh-b", "bob"), b.login.login)
     }
 
     @Test
