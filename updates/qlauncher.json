@@ -1,7 +1,23 @@
 {
   "package": {
+    "downloadUrlList_arm64-v8a": [
+      "https://github.com/cygnusx-1-org/qlauncher/releases/download/0.1.1/QLauncher_0.1.1_arm64-v8a.apk"
+    ],
+    "downloadUrlList_armeabi-v7a": [
+      "https://github.com/cygnusx-1-org/qlauncher/releases/download/0.1.1/QLauncher_0.1.1_armeabi-v7a.apk"
+    ],
     "downloadUrlList": [
-      "https://github.com/cygnusx-1-org/qlauncher/releases/download/0.1.0/QLauncher_0.1.0.apk"
+      "https://github.com/cygnusx-1-org/qlauncher/releases/download/0.1.1/QLauncher_0.1.1_armeabi-v7a.apk"
+    ]
+  },
+  "0.1.1": {
+    "versionCode": 1,
+    "changelog": [
+      "Based the settings background on the accent color, keeping its own chroma",
+      "Decoupled Reddit login from choosing Reddit as the wallpaper source, with a Login / Logout: account button",
+      "Made Skip the default for In case of bad ratio/quality",
+      "Implemented Please add finnish language #2",
+      "Implemented Add an easy way to use DrZacharySmith transparent icons #1"
     ]
   },
   "0.1.0": {
