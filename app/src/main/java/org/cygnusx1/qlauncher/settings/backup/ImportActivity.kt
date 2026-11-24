@@ -8,6 +8,7 @@
  */
 package org.cygnusx1.qlauncher.settings.backup
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -20,6 +21,7 @@ import org.cygnusx1.qlauncher.container
 import org.cygnusx1.qlauncher.settings.Keys
 import org.cygnusx1.qlauncher.settings.backup.ui.ImportScreen
 import org.cygnusx1.qlauncher.settings.backup.ui.ImportSource
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
 
 /**
@@ -27,6 +29,10 @@ import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
  * (`ACTION_VIEW`, or `ACTION_SEND` with a stream) and runs the import flow.
  */
 class ImportActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val uri = sourceUri(intent)

@@ -30,9 +30,9 @@
     <string name="home_action_display_profiles">Display Profiles</string>
     <string name="home_action_install_apps">Install 3rd party apps</string>
     <string name="home_action_accessibility">Accessibility service</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
+    <string name="home_action_smart_home" translatable="false">Google SmartHome</string>
     <string name="home_action_switch_profile">Switch profile</string>
-    <string name="home_action_about_app">QLauncher</string>
+    <string name="home_action_about_app" translatable="false">QLauncher</string>
     <string name="home_action_about_device">This device</string>
     <string name="home_action_about_wallpaper">This wallpaper</string>
 

@@ -18,9 +18,9 @@
     <string name="apps_action_display_profiles">Display Profiles</string>
     <string name="apps_action_install_apps">Install 3rd party apps</string>
     <string name="apps_action_accessibility_service">Accessibility service</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
+    <string name="apps_action_google_smart_home" translatable="false">Google SmartHome</string>
     <string name="apps_action_switch_profile">Switch profile</string>
-    <string name="apps_action_about_app">QLauncher</string>
+    <string name="apps_action_about_app" translatable="false">QLauncher</string>
     <string name="apps_action_about_device">This device</string>
     <string name="apps_action_about_wallpaper">This wallpaper</string>
 
@@ -101,10 +101,10 @@
     <string name="apps_device_build">Build</string>
     <string name="apps_device_build_desc">Build desc.</string>
     <string name="apps_device_device_type">Device type</string>
-    <string name="apps_device_hdr">HDR</string>
+    <string name="apps_device_hdr" translatable="false">HDR</string>
     <string name="apps_device_ip_address">IP address</string>
     <string name="apps_device_root_access">Root access</string>
-    <string name="apps_device_pm_info">PMInfo</string>
+    <string name="apps_device_pm_info" translatable="false">PMInfo</string>
     <string name="apps_device_pm_none">No picture manager</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Yes</string>

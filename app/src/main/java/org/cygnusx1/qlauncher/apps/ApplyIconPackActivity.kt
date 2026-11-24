@@ -8,6 +8,7 @@
  */
 package org.cygnusx1.qlauncher.apps
 
+import android.content.Context
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -28,6 +29,7 @@ import org.cygnusx1.qlauncher.R
 import org.cygnusx1.qlauncher.apps.ui.AppsConfirmPanel
 import org.cygnusx1.qlauncher.apps.ui.AppsPreviewBox
 import org.cygnusx1.qlauncher.container
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
 
 /**
@@ -37,6 +39,10 @@ import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
  * *Apply* sets *Cards › Icon pack*.
  */
 class ApplyIconPackActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val requested = PACKAGE_EXTRAS.firstNotNullOfOrNull { intent?.getStringExtra(it)?.trim()?.ifEmpty { null } }

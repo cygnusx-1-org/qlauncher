@@ -60,7 +60,7 @@ object WallpaperPages {
         state = State(m, c.scope)
         SettingsPages.register(PageIds.WALLPAPER_CONFIGURE) { env, _ -> configure(env) }
         SettingsPages.register(PageIds.ABOUT_WALLPAPER) { env, _ -> about(env) }
-        WallpaperPage.sources = { m.providers.value.map { WallpaperPage.Source(it.id, it.name, it.isPlugin) } }
+        WallpaperPage.sources = { m.providers.value.map { WallpaperPage.Source(it.id, m.displayName(it), it.isPlugin) } }
         WallpaperPage.count = {
             val id = c.settings.current[Keys.Wallpaper.provider]
             m.controller.status.value[id]?.count ?: m.controller.items.value.size
@@ -179,7 +179,7 @@ object WallpaperPages {
             }
         }
         return Page(
-            PageIds.WALLPAPER_CONFIGURE, text(R.string.settings_wallpaper), raw(provider?.name ?: env.context.getString(R.string.settings_configure)),
+            PageIds.WALLPAPER_CONFIGURE, text(R.string.settings_wallpaper), raw(provider?.let(m::displayName) ?: env.context.getString(R.string.settings_configure)),
             icon = "build_circle",
             rows = { _ -> if (id == WallpaperProviders.REDDIT) listOf(redditAccountRow(env)) + rows else rows },
         )

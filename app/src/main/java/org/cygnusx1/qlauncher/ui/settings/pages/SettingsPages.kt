@@ -508,9 +508,9 @@ object SettingsPages {
     const val NAV_BACK = "<back>"
 }
 
-/** Locales with string files (English only for now). Empty tag = follow the system. */
+/** Locales with string files, each named in its own language. Empty tag = follow the system. */
 object Languages {
-    val all: List<Pair<String, String>> = listOf("" to "", "en" to "English")
+    val all: List<Pair<String, String>> = listOf("" to "", "en" to "English", "fi" to "Suomi")
 }
 
 /** The accessibility service's "started" state, provided by the system subsystem. */

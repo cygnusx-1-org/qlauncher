@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_version">Versio %1$s</string>
+    <string name="about_copyright">Copyright © 2026 QLauncherin tekijät. Vapaa ohjelmisto GNU General Public License -lisenssin version 3 ehdoin.</string>
+    <string name="about_libs">Kirjastot / Kiitokset</string>
+    <string name="about_links">Linkit</string>
+    <string name="about_link_project">Projektisivu</string>
+    <string name="about_translation">Suomenkielinen käännös</string>
+    <string name="about_translation_credit">QLauncherin tekijät</string>
+    <string name="about_no_browser">Tässä laitteessa ei ole selainta. Avaa %1$s toisella laitteella.</string>
+    <string name="about_check_updates">Tarkista päivitykset</string>
+    <string name="about_update_checking">Tarkistetaan…</string>
+    <string name="about_update_latest">QLauncher on ajan tasalla (%1$s)</string>
+    <string name="about_update_available">Versio %1$s on saatavilla</string>
+    <string name="about_update_failed">Tarkistus epäonnistui: %1$s</string>
+    <string name="about_update_install">Asenna QLauncher %1$s</string>
+    <string name="update_available_toast">QLauncher %1$s on saatavilla: Asetukset › Tietoja › QLauncher</string>
+</resources>

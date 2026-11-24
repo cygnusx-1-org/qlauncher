@@ -24,6 +24,7 @@ import org.cygnusx1.qlauncher.container
 import java.io.File
 import java.io.IOException
 import java.io.InputStream
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 
 /**
  * *Set as QLauncher wallpaper*: accepts `VIEW` and `SEND` of a picture or video (data URI or
@@ -31,6 +32,10 @@ import java.io.InputStream
  * video when the MIME type starts with `video/`) and switches the source to *Media file*.
  */
 class SetWallpaperActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (savedInstanceState != null) return

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_as_wallpaper">Aseta QLauncherin taustakuvaksi</string>
+    <string name="import_settings">Tuo QLauncheriin</string>
+    <string name="accessibility_service_description">QLauncher näkee laitteen näppäinpainallukset ja edustalla olevan sovelluksen nimen, jotta se voi korvata vakiokäynnistimen, suorittaa toimintoja käynnistyksen yhteydessä, määrittää kaukosäätimen painikkeet uudelleen, tunnistaa käyttämättömyyden ja valvoa lapsilukkoa. Molemmat pysyvät vain tämän laitteen muistissa, eikä niitä lähetetä minnekään.</string>
+</resources>

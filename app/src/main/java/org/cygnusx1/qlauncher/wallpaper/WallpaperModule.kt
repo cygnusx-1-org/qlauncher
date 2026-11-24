@@ -188,12 +188,8 @@ class WallpaperModule(private val container: AppContainer) {
         }
     }
 
-    /** Every entry of the *Launcher wallpaper* dropdown: the built-ins in Projectivy's order, then plugins. */
-    val providers: StateFlow<List<ProviderInfo>> = plugins.plugins
-        .map { list -> builtInInfos() + list.map { ProviderInfo(it.uuid, it.name, isPlugin = true, packageName = it.packageName, settingsActivity = it.settingsActivity) } }
-        .stateIn(scope, SharingStarted.Eagerly, builtInInfos())
-
-    private fun builtInInfos(): List<ProviderInfo> = listOf(
+    /** Built-in providers and their names, in the dropdown's order. Before [providers], which reads it. */
+    private val builtInNames: List<Pair<String, Int>> = listOf(
         WallpaperProviders.NONE to R.string.wallpaper_provider_none,
         WallpaperProviders.REDDIT to R.string.wallpaper_provider_reddit,
         WallpaperProviders.WIKIMEDIA to R.string.wallpaper_provider_wikimedia,
@@ -205,7 +201,18 @@ class WallpaperModule(private val container: AppContainer) {
         WallpaperProviders.NOW_PLAYING to R.string.wallpaper_provider_now_playing,
         WallpaperProviders.RANDOM_PROGRAM to R.string.wallpaper_provider_random_program,
         WallpaperProviders.THEME to R.string.wallpaper_provider_theme,
-    ).map { (id, res) -> ProviderInfo(id, app.getString(res)) }
+    )
+
+    /** Every entry of the *Launcher wallpaper* dropdown: the built-ins in Projectivy's order, then plugins. */
+    val providers: StateFlow<List<ProviderInfo>> = plugins.plugins
+        .map { list -> builtInInfos() + list.map { ProviderInfo(it.uuid, it.name, isPlugin = true, packageName = it.packageName, settingsActivity = it.settingsActivity) } }
+        .stateIn(scope, SharingStarted.Eagerly, builtInInfos())
+
+    private fun builtInInfos(): List<ProviderInfo> = builtInNames.map { (id, res) -> ProviderInfo(id, app.getString(res)) }
+
+    /** [info]'s name in the current language: [providers] keeps the one from when it was built. */
+    fun displayName(info: ProviderInfo): String =
+        if (info.isPlugin) info.name else builtInNames.firstOrNull { it.first == info.id }?.let { app.getString(it.second) } ?: info.name
 
     // ---- Engine ----
 

@@ -14,10 +14,12 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.content.res.Configuration
+import android.content.res.Resources
 import android.os.BatteryManager
 import android.os.Build
 import android.os.LocaleList
 import android.provider.Settings
+import android.view.ContextThemeWrapper
 import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import org.cygnusx1.qlauncher.container
@@ -58,12 +60,53 @@ object EnvironmentProbe {
 /** Applies *Change application language* by wrapping an activity's base context. */
 object LocaleHelper {
     fun wrap(base: Context): Context {
-        val tag = runCatching { base.container.settings.current[Keys.General.language] }.getOrDefault("")
-        if (tag.isEmpty()) return base
-        val locale = Locale.forLanguageTag(tag)
+        val locale = chosen(base) ?: return base
         val config = Configuration(base.resources.configuration)
         config.setLocales(LocaleList(locale))
         return base.createConfigurationContext(config)
+    }
+
+    /**
+     * The same language for views a service puts on screen (the accessibility overlays). The
+     * service stays the base context, so the window manager and system services still come from it.
+     */
+    fun wrapForService(base: Context): Context {
+        val locale = chosen(base) ?: return base
+        return localized(base, LocaleList(locale))
+    }
+
+    /** [base] with its resources in [locales], keeping [base] for everything else. */
+    fun localized(base: Context, locales: LocaleList): Context = ContextThemeWrapper(base, 0).apply {
+        applyOverrideConfiguration(Configuration().apply { setLocales(locales) })
+    }
+
+    /** The locales strings follow for [tag]: the picked language, or the system's when it is empty. */
+    fun locales(tag: String): LocaleList =
+        if (tag.isEmpty()) Resources.getSystem().configuration.locales else LocaleList(Locale.forLanguageTag(tag))
+
+    /** The tag picked in *Change application language*; empty when following the system. */
+    fun tag(context: Context): String = runCatching { context.container.settings.current[Keys.General.language] }.getOrDefault("")
+
+    private fun chosen(base: Context): Locale? = tag(base).ifEmpty { null }?.let(Locale::forLanguageTag)
+
+    /**
+     * Below Android 13 the application context, which modules resolve their strings with, and the
+     * default locale stay in the system language: point both at [tag]. Android 13+ does this itself
+     * through [applySystem].
+     */
+    @Suppress("DEPRECATION")
+    fun applyToApplication(context: Context, tag: String) {
+        if (Build.VERSION.SDK_INT >= 33) return
+        val locales = locales(tag)
+        LocaleList.setDefault(locales)
+        val res = context.applicationContext.resources
+        res.updateConfiguration(Configuration(res.configuration).apply { setLocales(locales) }, res.displayMetrics)
+    }
+
+    /** At start and after every configuration change, which puts the system language back. */
+    fun reapply(context: Context) {
+        val tag = tag(context)
+        if (tag.isNotEmpty()) applyToApplication(context, tag)
     }
 
     /** On Android 13+ also tells the system, so system UI shows the app's language. */

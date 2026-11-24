@@ -71,6 +71,11 @@ android {
         buildConfig = true
     }
 
+    // Lists the res/values-* languages for Android 13+ (the default one is in res/resources.properties).
+    androidResources {
+        generateLocaleConfig = true
+    }
+
     testOptions {
         unitTests {
             isIncludeAndroidResources = true

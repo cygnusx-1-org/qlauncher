@@ -124,6 +124,10 @@ class MainActivity : ComponentActivity(), HomeActions, FirstRunActions {
     private val idle by lazy { container.system.newLauncherIdleTimer() }
 
     private var iconPackTarget: String? = null
+
+    /** The *Change application language* tag this instance was created with. */
+    private var language = ""
+
     private val iconPackPicker = registerForActivityResult(org.cygnusx1.qlauncher.apps.iconpack.PickIconFromPack()) { result ->
         val key = iconPackTarget ?: return@registerForActivityResult
         iconPackTarget = null
@@ -147,7 +151,14 @@ class MainActivity : ComponentActivity(), HomeActions, FirstRunActions {
     private class ParentalRequest(val mode: ParentalPromptMode, val onSuccess: () -> Unit)
 
     override fun attachBaseContext(newBase: Context) {
+        language = LocaleHelper.tag(newBase)
         super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        // *Change application language* while home was stopped: below Android 13 nothing else re-creates it.
+        if (LocaleHelper.tag(this) != language) recreate()
     }
 
     @OptIn(ExperimentalComposeUiApi::class)

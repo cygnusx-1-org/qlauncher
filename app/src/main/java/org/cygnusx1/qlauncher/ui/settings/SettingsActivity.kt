@@ -40,6 +40,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.merge
 import kotlinx.coroutines.launch
 import org.cygnusx1.qlauncher.util.DocumentPickers
@@ -338,9 +339,15 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
     }
 
     override fun setLanguage(tag: String) {
-        container.settings.update(Keys.General.language, tag)
-        LocaleHelper.applySystem(this, tag)
-        recreate()
+        lifecycleScope.launch {
+            // Before the stored value changes, so whatever it re-renders already resolves in the new language.
+            LocaleHelper.applyToApplication(this@SettingsActivity, tag)
+            container.settings.set(Keys.General.language, tag)
+            // The re-created activity wraps its context with settings.current: wait until it holds the new tag.
+            container.settings.settings.first { it[Keys.General.language] == tag }
+            LocaleHelper.applySystem(this@SettingsActivity, tag)
+            recreate()
+        }
     }
 
     override fun importFromFile(theme: Boolean) {

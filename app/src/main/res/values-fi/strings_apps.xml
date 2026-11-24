@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Strings of the apps, channels, install and device subsystems.
+-->
+<resources>
+    <string name="apps_cancel">Peruuta</string>
+
+    <!-- Built-in actions (root panel and section categories) -->
+    <string name="apps_action_all_apps">Kaikki sovellukset</string>
+    <string name="apps_action_edit_categories">Muokkaa kategorioita</string>
+    <string name="apps_action_edit_channels">Muokkaa kanavia</string>
+    <string name="apps_action_launcher_settings">QLauncherin asetukset</string>
+    <string name="apps_action_android_settings">Android-asetukset</string>
+    <string name="apps_action_amlogic_settings">AmLogicin lisäasetukset</string>
+    <string name="apps_action_display_profiles">Näyttöprofiilit</string>
+    <string name="apps_action_install_apps">Asenna kolmannen osapuolen sovelluksia</string>
+    <string name="apps_action_accessibility_service">Esteettömyyspalvelu</string>
+    <string name="apps_action_switch_profile">Vaihda profiilia</string>
+    <string name="apps_action_about_device">Tämä laite</string>
+    <string name="apps_action_about_wallpaper">Tämä taustakuva</string>
+
+    <!-- Autostart on boot -->
+    <string name="apps_autostart_none">Ei mitään</string>
+    <string name="apps_autostart_screensaver">Näytönsäästäjä</string>
+
+    <!-- Channels -->
+    <string name="apps_channels_title">Kanavat</string>
+    <string name="apps_channels_watch_next">Katso seuraavaksi</string>
+    <string name="apps_channels_unreadable">Tätä kanavaa ei voi enää lukea</string>
+    <string name="apps_channels_hidden">Järjestelmän piilottama</string>
+    <plurals name="apps_channel_count">
+        <item quantity="one">%d kanava</item>
+        <item quantity="other">%d kanavaa</item>
+    </plurals>
+
+    <!-- Icon packs -->
+    <string name="apps_iconpack_apply_title">Ota kuvakepaketti käyttöön</string>
+    <string name="apps_iconpack_apply_message">Käytetäänkö pakettia %1$s sovellustesi kuvakkeisiin?</string>
+    <string name="apps_iconpack_apply_confirm">Ota käyttöön</string>
+    <string name="apps_iconpack_applied">Kuvakepaketti otettu käyttöön</string>
+    <string name="apps_iconpack_apply_missing">Kuvakepakettia ei nimetty</string>
+    <string name="apps_iconpack_apply_not_a_pack">Tämä sovellus ei ole kuvakepaketti</string>
+    <string name="apps_iconpack_none">Ei mitään</string>
+
+    <!-- Pinned shortcuts -->
+    <string name="apps_pin_shortcut_title">Lisää pikakuvake</string>
+    <string name="apps_pin_shortcut_message">Lisätäänkö ”%1$s” sovelluksesta %2$s Pikakuvakkeet-kategoriaan?</string>
+    <string name="apps_pin_shortcut_confirm">Lisää</string>
+    <string name="apps_pin_shortcut_added">Pikakuvake lisätty</string>
+    <string name="apps_pin_shortcut_failed">Pikakuvaketta ei voitu lisätä</string>
+
+    <!-- Install 3rd party apps -->
+    <string name="apps_install_title">Asenna kolmannen osapuolen sovelluksia</string>
+    <string name="apps_install_description">Valitse asennettava sovellus. Sinun on ehkä ensin sallittava asennukset tuntemattomista lähteistä.</string>
+    <string name="apps_install_custom_url">Oma URL / Downloader-koodi</string>
+    <string name="apps_install_custom_url_desc">Käytä vain luotettavaa lähdettä</string>
+    <string name="apps_install_choose_method">Valitse asennustapa</string>
+    <string name="apps_install_installed">Asennettu</string>
+    <string name="apps_install_category_wallpaper_plugin">Taustakuvalaajennus</string>
+    <string name="apps_install_category_icon_pack">Kuvakepaketti</string>
+    <string name="apps_install_category_file_manager">Tiedostonhallinta</string>
+    <string name="apps_install_category_tool">Työkalu</string>
+    <string name="apps_install_method_store">Sovelluskauppa</string>
+    <string name="apps_install_method_direct">Suora lataus</string>
+    <string name="apps_install_method_downloader">Downloader-sovellus</string>
+    <string name="apps_install_state_downloading">Ladataan %1$s… %2$d %%</string>
+    <string name="apps_install_state_downloading_unknown">Ladataan %1$s…</string>
+    <string name="apps_install_state_installing">Asennetaan %1$s…</string>
+    <string name="apps_install_state_confirm">Vahvista sovelluksen %1$s asennus</string>
+    <string name="apps_install_state_success">%1$s asennettu</string>
+    <string name="apps_install_state_unknown_sources">Salli QLauncherin asentaa sovelluksia ja palaa sitten jatkamaan</string>
+    <string name="apps_install_state_downloader_sent">Koodi %1$s lähetetty Downloaderiin</string>
+    <string name="apps_install_state_downloader_type">Syötä koodi %1$s Downloaderiin</string>
+    <string name="apps_install_state_store">Avattu sovelluskaupassa</string>
+    <string name="apps_install_state_browser">Tämä linkki on verkkosivu, joten se avattiin selaimessa</string>
+    <string name="apps_install_fail_invalid">Tämä ei ole URL eikä Downloader-koodi</string>
+    <string name="apps_install_fail_no_usb">USB-asemaa ei löytynyt</string>
+    <string name="apps_install_fail_archive">Arkistoja ei voi asentaa</string>
+    <string name="apps_install_fail_network">Lataus epäonnistui</string>
+    <string name="apps_install_fail_http">Palvelin vastasi virheellä (%1$s)</string>
+    <string name="apps_install_fail_not_apk">Tiedosto ei ole sovellus (APK)</string>
+    <string name="apps_install_fail_unreadable">Tiedostoa ei voi lukea</string>
+    <string name="apps_install_fail_install">Asennus epäonnistui</string>
+    <string name="apps_install_fail_cancelled">Asennus peruttiin</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher ei saa asentaa sovelluksia</string>
+    <string name="apps_install_fail_downloader">Downloader-sovellusta ei ole asennettu</string>
+    <string name="apps_install_fail_store">Sovelluskauppaa ei ole saatavilla</string>
+
+    <!-- About › This device -->
+    <string name="apps_device_title">Tämä laite</string>
+    <string name="apps_device_brand_manufacturer">Merkki / Valmistaja</string>
+    <string name="apps_device_device_product">Laite / Tuote</string>
+    <string name="apps_device_model">Malli</string>
+    <string name="apps_device_hardware">Laitteisto</string>
+    <string name="apps_device_fingerprint">Sormenjälki</string>
+    <string name="apps_device_build">Koontiversio</string>
+    <string name="apps_device_build_desc">Koontiversion kuvaus</string>
+    <string name="apps_device_device_type">Laitetyyppi</string>
+    <string name="apps_device_ip_address">IP-osoite</string>
+    <string name="apps_device_root_access">Root-oikeudet</string>
+    <string name="apps_device_pm_none">Ei kuva-asetusten hallintaa</string>
+    <string name="apps_device_id">Tunnus</string>
+    <string name="apps_device_yes">Kyllä</string>
+    <string name="apps_device_no">Ei</string>
+</resources>

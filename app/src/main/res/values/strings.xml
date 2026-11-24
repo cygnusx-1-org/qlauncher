@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
+    <string name="app_name" translatable="false">QLauncher</string>
     <string name="set_as_wallpaper">Set as QLauncher wallpaper</string>
     <string name="import_settings">Import into QLauncher</string>
     <string name="accessibility_service_description">QLauncher sees hardware key presses and the name of the app in the foreground, to override the stock launcher, run actions at boot, remap remote buttons, detect idle time and enforce parental control. Both stay in memory on this device and are never sent anywhere.</string>

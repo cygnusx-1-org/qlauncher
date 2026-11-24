@@ -58,6 +58,7 @@ import androidx.tv.material3.Text
 import kotlinx.coroutines.launch
 import org.cygnusx1.qlauncher.R
 import org.cygnusx1.qlauncher.container
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 import org.cygnusx1.qlauncher.ui.theme.MaterialIcon
 import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
 import org.cygnusx1.qlauncher.ui.theme.QPalette
@@ -71,6 +72,9 @@ import kotlin.math.roundToInt
  * then cancels.
  */
 class RedditLoginActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
 
     private sealed interface Phase {
         data object Browsing : Phase
@@ -194,6 +198,8 @@ class RedditLoginActivity : ComponentActivity() {
             phase = Phase.NoWebView
             return null
         }
+        // The first WebView in the process puts the application's resources back in the system language.
+        LocaleHelper.reapply(applicationContext)
         w.settings.javaScriptEnabled = true
         w.settings.domStorageEnabled = true
         CookieManager.getInstance().setAcceptCookie(true)

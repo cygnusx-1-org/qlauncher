@@ -8,14 +8,20 @@
  */
 package org.cygnusx1.qlauncher.ui.home
 
+import android.content.ComponentCallbacks
 import android.content.Context
+import android.content.res.Configuration
+import android.os.LocaleList
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
@@ -126,7 +132,22 @@ class HomeController(
         )
     }.stateIn(scope, SharingStarted.Eagerly, HomeInputs(emptyList(), emptyList(), emptyMap(), container.settings.current, ActionAvailability()))
 
-    val rows: StateFlow<List<HomeRow>> = inputs.map { content.rows(it) }
+    /** The application's locales: titles follow a language the system applies after the setting changed. */
+    private val appLocales: Flow<LocaleList> = callbackFlow {
+        val callbacks = object : ComponentCallbacks {
+            override fun onConfigurationChanged(newConfig: Configuration) {
+                trySend(context.resources.configuration.locales)
+            }
+
+            @Deprecated("Deprecated in Java")
+            override fun onLowMemory() = Unit
+        }
+        send(context.resources.configuration.locales)
+        context.registerComponentCallbacks(callbacks)
+        awaitClose { context.unregisterComponentCallbacks(callbacks) }
+    }.distinctUntilChanged()
+
+    val rows: StateFlow<List<HomeRow>> = combine(inputs, appLocales) { input, _ -> content.rows(input) }
         .stateIn(scope, SharingStarted.Eagerly, emptyList())
 
     /** Every category including hidden ones, with its title (Edit categories). */

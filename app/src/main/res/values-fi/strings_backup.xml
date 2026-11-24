@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    QLauncher - an Android TV launcher.
+    Copyright (C) 2026 QLauncher contributors. Licensed under the GNU GPL version 3.
+
+    Backup, import, themes, automatic backup, display profiles, clock format and fonts.
+-->
+<resources>
+    <!-- Fonts -->
+    <string name="backup_font_default">Oletus</string>
+
+    <!-- Clock format help: one sample word per markup -->
+    <string name="backup_clock_markup_bold">lihavoitu</string>
+    <string name="backup_clock_markup_italic">kursiivi</string>
+    <string name="backup_clock_markup_underline">alleviivattu</string>
+    <string name="backup_clock_markup_strikethrough">yliviivattu</string>
+    <string name="backup_clock_markup_subscript">alaindeksi</string>
+    <string name="backup_clock_markup_superscript">yläindeksi</string>
+    <string name="backup_clock_markup_half_size">puolikoko</string>
+    <string name="backup_clock_markup_one_and_a_half_size">puolitoistakertainen</string>
+
+    <!-- Calibration patterns -->
+    <string name="backup_pattern_black_clipping">Mustan leikkautuminen</string>
+    <string name="backup_pattern_apl_clipping">APL-leikkautuminen</string>
+    <string name="backup_pattern_white_clipping">Valkoisen leikkautuminen</string>
+    <string name="backup_pattern_grayscale_ramp">Harmaasävyliukuma</string>
+    <string name="backup_pattern_grayscale_steps">Harmaasävyportaat</string>
+    <string name="backup_pattern_dynamic_brightness">Dynaaminen kirkkaus</string>
+    <string name="backup_pattern_color_steps">Väriportaat</string>
+    <string name="backup_pattern_color_clipping">Värien leikkautuminen</string>
+    <string name="backup_pattern_flashing_color_bars">Vilkkuvat väripalkit</string>
+    <string name="backup_pattern_sharpness_overscan">Terävyys ja yliskannaus</string>
+    <string name="backup_pattern_uhd">UHD-kuvio</string>
+    <string name="backup_pattern_judder">Nykimistesti</string>
+    <string name="backup_pattern_hdr_aspect_ratio_sharpness">[HDR] Kuvasuhde ja terävyys</string>
+    <string name="backup_pattern_hdr_black_level">[HDR] Mustan taso</string>
+    <string name="backup_pattern_hdr_color_clipping_240_1000">[HDR] Värien leikkautuminen 240–1000 nitiä</string>
+    <string name="backup_pattern_hdr_color_clipping_3600_10000">[HDR] Värien leikkautuminen 3600–10000 nitiä</string>
+    <string name="backup_pattern_hdr_color_clipping_700_10000">[HDR] Värien leikkautuminen 700–10000 nitiä</string>
+    <string name="backup_pattern_hdr_color_clipping_900_4000">[HDR] Värien leikkautuminen 900–4000 nitiä</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_10000">[HDR] Harmaasävyliukuma 10000 nitiä</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Harmaasävyliukuma 1000 nitiä</string>
+    <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Harmaasävyliukuma 4000 nitiä</string>
+    <string name="backup_pattern_dv_black_pluge">[DV] Mustan taso (PLUGE)</string>
+    <string name="backup_pattern_dv_color_ramps">[DV] Väriliukumat</string>
+    <string name="backup_pattern_unavailable">%1$s vaatii HDR-videotien, eikä se ole vielä käytettävissä</string>
+    <!-- Pages -->
+    <string name="backup_settings">Asetukset</string>
+    <string name="backup_manage_settings">Hallitse asetuksia</string>
+    <string name="backup_themes">Teemat</string>
+    <string name="backup_import">Tuo</string>
+    <string name="backup_export">Vie</string>
+    <string name="backup_import_from_file">Tiedostonhallinnasta</string>
+    <string name="backup_import_from_auto">Automaattisesta varmuuskopiosta</string>
+    <string name="backup_export_save">Tallenna paikallisesti</string>
+    <string name="backup_export_share">Jaa toiseen sovellukseen</string>
+    <string name="backup_reset">Palauta oletukset</string>
+    <string name="backup_cancel">Peruuta</string>
+    <string name="backup_ok">OK</string>
+    <string name="backup_done">Valmis</string>
+    <string name="backup_close">Sulje</string>
+
+    <!-- Export -->
+    <string name="backup_export_settings_title">Vie asetukset</string>
+    <string name="backup_export_theme_title">Vie teema</string>
+    <string name="backup_export_description">Kaikki tallennetaan yhteen tiedostoon, joka salataan valitsemallasi salasanalla (vähintään %1$d merkkiä). Tarvitset salasanan tiedoston tuomiseen, eikä sitä voi palauttaa.</string>
+    <string name="backup_export_theme_description">Ulkoasuasetukset ja nykyinen taustakuva tallennetaan yhteen tiedostoon, joka salataan valitsemallasi salasanalla (vähintään %1$d merkkiä). Tarvitset salasanan teeman tuomiseen.</string>
+    <string name="backup_password">Salasana</string>
+    <string name="backup_password_show">Näytä salasana</string>
+    <string name="backup_password_hide">Piilota salasana</string>
+    <string name="backup_password_strength">Salasanan vahvuus</string>
+    <string name="backup_strength_too_short">Liian lyhyt: vähintään %1$d merkkiä</string>
+    <string name="backup_strength_weak">Heikko: helppo arvata</string>
+    <string name="backup_strength_fair">Kohtalainen</string>
+    <string name="backup_strength_strong">Vahva</string>
+    <string name="backup_password_too_short">Salasanassa on oltava vähintään %1$d merkkiä</string>
+    <string name="backup_exporting">Viedään…</string>
+    <string name="backup_export_saved">Tallennettu kansioon %1$s</string>
+    <string name="backup_export_kept">Ei tallennettu muualle. Tiedosto jää sijaintiin %1$s</string>
+    <string name="backup_export_shared">Lähetetty. Kopio jää sijaintiin %1$s</string>
+    <string name="backup_export_no_file_manager">Mikään tämän laitteen sovellus ei voi vastaanottaa tiedostoa. Se on sijainnissa %1$s</string>
+    <string name="backup_export_failed">Vienti epäonnistui: %1$s</string>
+    <string name="backup_share_title">Lähetä QLauncher-tiedosto sovelluksella</string>
+
+    <!-- Import -->
+    <string name="backup_import_description">Tuonti korvaa nykyiset asetuksesi. Ensin kirjoitetaan automaattinen varmuuskopio, ja QLauncher käynnistyy uudelleen, kun tuonti on valmis.</string>
+    <string name="backup_reading">Luetaan tiedostoa…</string>
+    <string name="backup_import_action">Tuo</string>
+    <string name="backup_wrong_password">Väärä salasana</string>
+    <string name="backup_password_hint">Salasana, joka valittiin tiedostoa vietäessä</string>
+    <string name="backup_not_a_backup">Tämä ei ole QLauncherin tai Projectivyn varmuuskopio tai teema.</string>
+    <string name="backup_damaged">Tiedosto on vioittunut tai keskeneräinen.</string>
+    <string name="backup_too_new">Tämä tiedosto on tehty uudemmalla QLauncherilla (muoto %1$d). Päivitä QLauncher tuodaksesi sen.</string>
+    <string name="backup_unreadable">Tätä automaattista varmuuskopiota ei voi lukea tällä laitteella.</string>
+    <string name="backup_import_failed">Tuonti epäonnistui, eikä mitään muutettu: %1$s</string>
+    <string name="backup_applying">Tuodaan… QLauncher käynnistyy uudelleen, kun tuonti on valmis.</string>
+    <string name="backup_origin_ql_backup">QLauncherin asetusten varmuuskopio</string>
+    <string name="backup_origin_ql_theme">QLauncher-teema</string>
+    <string name="backup_origin_pl_backup">Projectivy Launcherin asetusten varmuuskopio</string>
+    <string name="backup_origin_pl_theme">Projectivy Launcher -teema</string>
+    <string name="backup_origin_auto">Automaattinen varmuuskopio</string>
+    <string name="backup_preview_theme_by">%1$s, tekijä %2$s</string>
+    <string name="backup_preview_version">versio %1$s</string>
+    <string name="backup_preview_settings">Asetukset</string>
+    <string name="backup_preview_categories">Kategoriat</string>
+    <string name="backup_preview_apps">Sovellusten mukautukset</string>
+    <string name="backup_preview_profiles">Näyttöprofiilit</string>
+    <string name="backup_preview_files">Taustakuvat ja kuvakkeet</string>
+    <string name="backup_preview_skipped">Sovellukset, joita ei ole tässä laitteessa</string>
+    <string name="backup_replace_setup">Korvaa nykyiset asetukset</string>
+    <string name="backup_apply_theme">Ota teema käyttöön</string>
+    <string name="backup_replace_detail">Nykyisistä asetuksista kirjoitetaan ensin automaattinen varmuuskopio</string>
+    <string name="backup_nc_parental">Lapsilukon koodi</string>
+    <string name="backup_nc_parental_detail">Ei siirretä. Aseta uusi koodi kohdassa Lapsilukko.</string>
+    <string name="backup_nc_premium">Premium-tila</string>
+    <string name="backup_nc_premium_detail">Ei siirretä. Kaikki QLauncherin ominaisuudet ovat ilmaisia.</string>
+    <string name="backup_nc_inputs">TV-tulot</string>
+    <string name="backup_nc_profile_bindings">Näyttöprofiilien liitokset</string>
+    <string name="backup_nc_plugin">Taustakuvalaajennus</string>
+    <string name="backup_nc_plugin_detail">%1$s ei ole asennettu. Taustakuvalähde pysyy ennallaan.</string>
+    <string name="backup_nc_icons">Mukautetut kuvakkeet</string>
+
+    <plurals name="backup_count_values">
+        <item quantity="one">%1$d muutettu arvo</item>
+        <item quantity="other">%1$d muutettua arvoa</item>
+    </plurals>
+    <plurals name="backup_count_categories">
+        <item quantity="one">%1$d kategoria</item>
+        <item quantity="other">%1$d kategoriaa</item>
+    </plurals>
+    <plurals name="backup_count_apps">
+        <item quantity="one">%1$d sovellus</item>
+        <item quantity="other">%1$d sovellusta</item>
+    </plurals>
+    <plurals name="backup_count_profiles">
+        <item quantity="one">%1$d profiili</item>
+        <item quantity="other">%1$d profiilia</item>
+    </plurals>
+    <plurals name="backup_count_files">
+        <item quantity="one">%1$d tiedosto</item>
+        <item quantity="other">%1$d tiedostoa</item>
+    </plurals>
+    <plurals name="backup_preview_unknown">
+        <item quantity="one">%1$d tuntematon asetus ohitettu</item>
+        <item quantity="other">%1$d tuntematonta asetusta ohitettu</item>
+    </plurals>
+    <plurals name="backup_preview_skipped_detail">
+        <item quantity="one">%1$d merkintä ei vastaa mitään tähän laitteeseen asennettua sovellusta, joten se ohitetaan</item>
+        <item quantity="other">%1$d merkintää ei vastaa mitään tähän laitteeseen asennettua sovellusta, joten ne ohitetaan</item>
+    </plurals>
+    <plurals name="backup_nc_inputs_detail">
+        <item quantity="one">%1$d linkki TV-tuloon, jota tässä laitteessa ei ole, ohitetaan</item>
+        <item quantity="other">%1$d linkkiä TV-tuloihin, joita tässä laitteessa ei ole, ohitetaan</item>
+    </plurals>
+    <plurals name="backup_nc_profile_bindings_detail">
+        <item quantity="one">%1$d tuloon liitetty profiili ei siirry</item>
+        <item quantity="other">%1$d tuloihin liitettyä profiilia ei siirry</item>
+    </plurals>
+    <plurals name="backup_nc_icons_detail">
+        <item quantity="one">%1$d Projectivyn sisälle tallennettu kuvake ei ole luettavissa, joten se ohitetaan</item>
+        <item quantity="other">%1$d Projectivyn sisälle tallennettua kuvaketta ei ole luettavissa, joten ne ohitetaan</item>
+    </plurals>
+
+    <!-- Automatic backups -->
+    <string name="backup_auto_title">Automaattiset varmuuskopiot</string>
+    <string name="backup_auto_description">QLauncher säilyttää tässä laitteessa %1$d viimeisintä versiota asetuksistasi salattuina avaimella, joka ei koskaan poistu laitteesta. Palauta versio valitsemalla se; salasanaa ei tarvita.</string>
+    <string name="backup_auto_none">Automaattisia varmuuskopioita ei ole</string>
+    <string name="backup_files_title">Varmuuskopiotiedostot</string>
+    <string name="backup_files_theme_title">Teematiedostot</string>
+    <string name="backup_files_description">Viedyt tiedostot tallennetaan kansioon %1$s. Kun QLauncherilla on pääsy kaikkiin tiedostoihin, se löytää varmuuskopiot myös Download- ja Documents-kansioista sekä USB-asemilta, myös Projectivyn varmuuskopiot.</string>
+    <string name="backup_files_searching">Etsitään varmuuskopiotiedostoja…</string>
+    <string name="backup_files_none">Varmuuskopiotiedostoja ei löytynyt</string>
+    <string name="backup_files_app_folder">QLauncherin kansio</string>
+    <string name="backup_files_access">Etsi muiden sovellusten ja laitteiden varmuuskopioita</string>
+    <string name="backup_files_access_desc">Salli pääsy kaikkiin tiedostoihin</string>
+    <string name="backup_files_access_unavailable">Tässä laitteessa ei ole asetusnäyttöä. Salli pääsy kaikkiin tiedostoihin komennolla: %1$s</string>
+    <string name="backup_files_browse">Muu sijainti…</string>
+    <string name="backup_files_browse_desc">Valitse tiedosto järjestelmän tiedostonvalitsimella</string>
+    <string name="backup_auto_delete_all">Poista kaikki</string>
+    <string name="backup_reason_change">Muutoksen jälkeen</string>
+    <string name="backup_reason_import">Ennen tuontia</string>
+    <string name="backup_reason_migration">Ennen päivitystä</string>
+    <string name="backup_reason_reset">Ennen oletusten palautusta</string>
+
+    <!-- Display profiles -->
+    <string name="backup_profile_default_name">Profiili #</string>
+    <string name="backup_no_picture_manager">Kuva-asetusten hallintaa ei ole ladattu</string>
+    <string name="backup_no_picture_manager_detail">Tämä laite ei tarjoa tuettua tapaa muuttaa kuva-asetuksiaan, joten profiilit säilyttävät arvonsa ottamatta niitä käyttöön.</string>
+</resources>

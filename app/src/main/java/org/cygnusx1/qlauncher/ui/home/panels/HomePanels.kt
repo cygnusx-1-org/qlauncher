@@ -8,6 +8,7 @@
  */
 package org.cygnusx1.qlauncher.ui.home.panels
 
+import android.text.format.DateFormat
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
@@ -30,6 +31,7 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -64,7 +66,6 @@ import org.cygnusx1.qlauncher.ui.theme.MaterialIcon
 import org.cygnusx1.qlauncher.ui.theme.QTheme
 import java.text.SimpleDateFormat
 import java.util.Date
-import java.util.Locale
 import org.cygnusx1.qlauncher.ui.components.WallpaperGallery
 import org.cygnusx1.qlauncher.ui.components.GalleryItem
 
@@ -745,7 +746,9 @@ private fun BoxScope.RootHeader() {
         Spacer(Modifier.width(10.dp))
         Text(stringResource(R.string.app_name), color = Color.White, style = QTheme.type.panelTitle)
     }
-    val date = remember { SimpleDateFormat("EEE MMM d, yyyy", Locale.getDefault()).format(Date()) }
+    // The weekday, day, month and year in the order and wording of the app's language.
+    val locale = LocalConfiguration.current.locales[0]
+    val date = remember(locale) { SimpleDateFormat(DateFormat.getBestDateTimePattern(locale, "EEEMMMdyyyy"), locale).format(Date()) }
     Text(
         date,
         color = Color.White.copy(alpha = 0.8f),
