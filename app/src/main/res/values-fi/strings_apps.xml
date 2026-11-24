@@ -105,4 +105,48 @@
     <string name="apps_device_id">Tunnus</string>
     <string name="apps_device_yes">Kyllä</string>
     <string name="apps_device_no">Ei</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Kuvakesarja</string>
+    <string name="iconset_desc">Läpinäkyvät kuvakkeet GitHub-tietovarastosta, kuten DrZacharySmith/projectivy-transparent-icons. Lataa julkaisu valitsemalla se ja valitse sitten tyyli, jota Vaihda kuvake tarjoaa.</string>
+    <string name="iconset_repo">Tietovarasto</string>
+    <string name="iconset_repo_hint">omistaja/nimi GitHubissa</string>
+    <string name="iconset_repo_add">Lisää…</string>
+    <string name="iconset_add_title">Lisää tietovarasto</string>
+    <string name="iconset_add_desc">GitHub-tietovarasto muodossa omistaja/nimi sekä sen kansio, jossa on yksi PNG-kuvakkeiden kansio kutakin tyyliä kohden, kuten icons/styles.</string>
+    <string name="iconset_add_path">Polku sarjoihin</string>
+    <string name="iconset_add_path_hint">Kansio, jossa on kansio kullekin tyylille, esim. icons/styles</string>
+    <string name="iconset_add">Lisää tietovarasto</string>
+    <string name="iconset_release">Julkaisu</string>
+    <string name="iconset_release_none">Ei ladattu</string>
+    <string name="iconset_status">Tila</string>
+    <string name="iconset_loading">Haetaan julkaisuja…</string>
+    <string name="iconset_downloading">Ladataan %1$s… %2$d Mt</string>
+    <string name="iconset_cancel">Peruuta lataus</string>
+    <string name="iconset_style">Tyyli</string>
+    <string name="iconset_style_choose">Valitse tyyli</string>
+    <string name="iconset_match">Yhdistä kuvakkeet sovelluksiin</string>
+    <string name="iconset_match_desc">Ehdottaa kuvaketta jokaiselle sovellukselle, jonka nimi vastaa kuvakkeen nimeä</string>
+    <string name="iconset_reset">Palauta oletuskuvakkeet</string>
+    <string name="iconset_remove">Poista kuvakesarja</string>
+    <string name="iconset_fail_bad_repo">Anna tietovarasto muodossa omistaja/nimi</string>
+    <string name="iconset_fail_bad_path">Anna kansio, kuten icons/styles</string>
+    <string name="iconset_fail_not_found">Tietovarastoa ei löytynyt</string>
+    <string name="iconset_fail_no_releases">Tässä tietovarastossa ei ole julkaisuja</string>
+    <string name="iconset_fail_network">Lataus epäonnistui</string>
+    <string name="iconset_fail_http">GitHub vastasi virheellä (%1$s)</string>
+    <string name="iconset_fail_no_styles">Tämän julkaisun kansiossa %1$s ei ole tyylikansioita</string>
+    <string name="iconset_fail_no_space">Vapaa tila ei riitä</string>
+    <string name="iconset_fail_storage">Kuvakkeita ei voi tallentaa</string>
+    <string name="iconset_match_title">Yhdistä kuvakkeet</string>
+    <string name="iconset_apply">Ota käyttöön (%1$d)</string>
+    <string name="iconset_match_none">Yksikään sovelluksen nimi ei vastaa kuvaketta</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d kuvake otettu käyttöön</item>
+        <item quantity="other">%1$d kuvaketta otettu käyttöön</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d kuvake palautettu oletukseksi</item>
+        <item quantity="other">%1$d kuvaketta palautettu oletukseksi</item>
+    </plurals>
 </resources>

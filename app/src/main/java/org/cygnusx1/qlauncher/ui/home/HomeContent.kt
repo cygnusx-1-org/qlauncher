@@ -24,6 +24,7 @@ import org.cygnusx1.qlauncher.shared.Program
 import java.util.Locale
 import kotlin.random.Random
 import org.cygnusx1.qlauncher.ui.LocaleHelper
+import org.cygnusx1.qlauncher.apps.iconpack.IconPackRepository
 
 /** Everything the rows are built from, at one moment. */
 data class HomeInputs(
@@ -150,6 +151,8 @@ class HomeContent(private val context: Context, private val images: CardImages) 
             packageName = a.packageName,
             cropToFill = o?.cropToFill ?: false,
             parentalLocked = o?.parentalLocked ?: false,
+            customImage = !o?.iconUri.isNullOrBlank(),
+            transparentImage = IconPackRepository.isSetIcon(o?.iconUri),
         )
     }
 

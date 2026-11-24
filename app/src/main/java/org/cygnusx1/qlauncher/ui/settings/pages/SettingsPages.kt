@@ -30,6 +30,8 @@ object PageIds {
     const val CARDS = "appearance/cards"
     const val FOCUSED_CARD = "appearance/cards/focused"
     const val PROGRAM_CARDS = "appearance/cards/program"
+    const val ICON_SET = "appearance/cards/icon_set"
+    const val ICON_SET_ADD = "appearance/cards/icon_set/add"
     const val WALLPAPER = "appearance/wallpaper"
     const val WALLPAPER_CONFIGURE = "appearance/wallpaper/configure"
     const val PICTURE_ADJUSTMENT = "appearance/wallpaper/adjustment"
@@ -182,6 +184,7 @@ object SettingsPages {
                     choice(env, Keys.Cards.mobileRatio, R.string.settings_mobile_ratio, ratios, values = ratioValues),
                     IconPackRow.row(env),
                     color(Keys.Cards.iconTint, R.string.settings_custom_icon_tint, R.string.settings_tint_custom_icons_desc, enabled = { c -> c.settings[Keys.Cards.iconPack].isNotEmpty() }),
+                    nav("icon_set", R.string.iconset_title, PageIds.ICON_SET, "collections"),
                 )
             },
         )

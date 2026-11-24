@@ -390,7 +390,7 @@ private fun RenderRow(row: Row, focused: Boolean, ctx: RowContext, repo: Setting
             )
         }
         is Row.Action -> StandardRow(title, row.badges, row.description?.invoke(ctx)?.resolve(), row.icon, focused, enabled, if (row.chevron) Trailing.Chevron else Trailing.None, tag)
-        is Row.Info -> StandardRow(title, row.badges, row.value(ctx)?.resolve(), row.icon, focused, enabled, Trailing.None, tag)
+        is Row.Info -> StandardRow(title, row.badges, row.value(ctx)?.resolve(), row.icon, focused, enabled, Trailing.None, tag, descriptionLines = row.valueLines)
         is Row.Footer -> Box(Modifier.fillMaxWidth().padding(horizontal = GuidedDimens.IconStart, vertical = 8.dp).testTag(tag)) { row.content() }
     }
 }

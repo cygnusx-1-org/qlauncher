@@ -36,8 +36,13 @@ data class CardItem(
     /** 0..1 watch progress, or null. */
     val progress: Float? = null,
     val packageName: String? = null,
+    /** *Crop to fill*: the card's own picture fills the card, cut to its shape. */
     val cropToFill: Boolean = false,
     val parentalLocked: Boolean = false,
+    /** [image] is the user's own picture (*Change icon*), not the app's banner or icon. */
+    val customImage: Boolean = false,
+    /** [image] is an icon set's transparent icon: drawn straight on the wallpaper, with no card. */
+    val transparentImage: Boolean = false,
 )
 
 /** One visible category row. */

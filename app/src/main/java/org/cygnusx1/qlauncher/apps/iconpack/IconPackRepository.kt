@@ -240,12 +240,18 @@ class IconPackRepository internal constructor(
         true
     }
 
-    /** Removes [itemKey]'s custom icon (the menu's *Reset*), deleting our copy of it. */
-    fun resetIcon(itemKey: String) {
+    /**
+     * Sets [itemKey]'s custom icon to [uri] (a picture, or null for none: the menu's *Reset*),
+     * deleting our copy of the icon it replaces.
+     */
+    fun setIcon(itemKey: String, uri: String?) {
         val current = overrides[itemKey]?.iconUri
-        overrides.update(itemKey) { it.copy(iconUri = null) }
-        if (current != null) scope.launch(Dispatchers.IO) { deleteOwnIcon(current) }
+        overrides.update(itemKey) { it.copy(iconUri = uri) }
+        if (current != null && current != uri) scope.launch(Dispatchers.IO) { deleteOwnIcon(current) }
     }
+
+    /** Removes [itemKey]'s custom icon, deleting our copy of it. */
+    fun resetIcon(itemKey: String) = setIcon(itemKey, null)
 
     // The ADW picker protocol still returns the legacy shortcut-icon extra.
     @Suppress("DEPRECATION")
@@ -263,19 +269,58 @@ class IconPackRepository internal constructor(
         return d.toBitmap(w, h)
     }
 
-    private fun storeIcon(itemKey: String, bitmap: Bitmap): String? = runCatching {
+    /**
+     * Stores a copy of the PNG [source] as the custom icon of [itemKey] (an icon set's icon), so
+     * it is backed up and outlives the set.
+     */
+    suspend fun saveIconFile(itemKey: String, source: File): Boolean = withContext(Dispatchers.IO) {
+        val uri = storeIcon(itemKey, SET_PREFIX) { file -> source.copyTo(file, overwrite = true) } ?: return@withContext false
+        overrides.update(itemKey) { it.copy(iconUri = uri) }
+        true
+    }
+
+    private fun storeIcon(itemKey: String, bitmap: Bitmap): String? =
+        storeIcon(itemKey, OWN_PREFIX) { file -> file.outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) } }
+
+    /**
+     * Writes a new file of ours with [write], deletes the item's previous one, and returns its URI.
+     * [prefix] tells an icon set's icons ([SET_PREFIX]) from the rest, for [resetSetIcons].
+     */
+    private fun storeIcon(itemKey: String, prefix: String, write: (File) -> Unit): String? = runCatching {
         iconsDir.mkdirs()
-        val name = "app_${sha1(itemKey).take(16)}_${System.currentTimeMillis()}.png"
+        val name = "$prefix${sha1(itemKey).take(16)}_${System.currentTimeMillis()}.png"
         val file = File(iconsDir, name)
-        file.outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) }
+        write(file)
         overrides[itemKey]?.iconUri?.let(::deleteOwnIcon)
         Uri.fromFile(file).toString()
-    }.getOrNull()
+    }.onFailure { Log.w(TAG, "Cannot store the icon of $itemKey", it) }.getOrNull()
+
+    /**
+     * *Icon set › Reset icons*: every card whose icon is one an icon set put there goes back to
+     * its own image. A card given another icon since is left alone. Returns how many were reset.
+     *
+     * [isSetCopy] recognises the icon-set copies saved before they had their own prefix: those
+     * are named like a pack's icon, but are byte for byte a file of the set.
+     */
+    suspend fun resetSetIcons(isSetCopy: (File) -> Boolean): Int = withContext(Dispatchers.IO) {
+        val keys = overrides.overrides.value.filterValues { o ->
+            val file = ownFile(o.iconUri) ?: return@filterValues false
+            file.name.startsWith(SET_PREFIX) || (file.name.startsWith(OWN_PREFIX) && isSetCopy(file))
+        }.keys
+        keys.forEach(::resetIcon)
+        keys.size
+    }
 
     private fun deleteOwnIcon(uri: String) {
-        val path = uri.toUri().takeIf { it.scheme == "file" }?.path ?: return
+        val file = ownFile(uri) ?: return
+        if (file.name.startsWith(OWN_PREFIX) || file.name.startsWith(SET_PREFIX)) file.delete()
+    }
+
+    /** The file of a `file:` URI in our icons folder, or null. */
+    private fun ownFile(uri: String?): File? {
+        val path = uri?.toUri()?.takeIf { it.scheme == "file" }?.path ?: return null
         val file = File(path)
-        if (file.parentFile?.canonicalPath == iconsDir.canonicalPath && file.name.startsWith("app_")) file.delete()
+        return file.takeIf { it.parentFile?.canonicalPath == iconsDir.canonicalPath }
     }
 
     private fun sha1(s: String): String =
@@ -285,6 +330,16 @@ class IconPackRepository internal constructor(
         /** The ADW icon-pack action: packs answer it, and it starts a pack's own icon picker. */
         const val ACTION_PICK_ICON = "org.adw.launcher.icons.ACTION_PICK_ICON"
         private const val TAG = "QLIconPacks"
+
+        /** Our copies of icons picked from a pack. */
+        private const val OWN_PREFIX = "app_"
+
+        /** Our copies of icons from an icon set ([saveIconFile]). */
+        private const val SET_PREFIX = "set_"
+
+        /** Whether [uri] is our copy of an icon set's icon, which is drawn with no card behind it. */
+        fun isSetIcon(uri: String?): Boolean =
+            uri != null && uri.startsWith("file:") && uri.substringAfterLast('/').startsWith(SET_PREFIX)
     }
 }
 

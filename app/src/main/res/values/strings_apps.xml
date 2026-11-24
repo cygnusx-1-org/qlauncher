@@ -109,4 +109,48 @@
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Yes</string>
     <string name="apps_device_no">No</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Icon set</string>
+    <string name="iconset_desc">Transparent icons from a GitHub repository, such as DrZacharySmith/projectivy-transparent-icons. Choose a release to download it, then the style that Change icon offers.</string>
+    <string name="iconset_repo">Repository</string>
+    <string name="iconset_repo_hint">owner/name on GitHub</string>
+    <string name="iconset_repo_add">Add…</string>
+    <string name="iconset_add_title">Add repository</string>
+    <string name="iconset_add_desc">A GitHub repository as owner/name, and the folder in it that holds one folder of PNG icons per style, such as icons/styles.</string>
+    <string name="iconset_add_path">Path to the sets</string>
+    <string name="iconset_add_path_hint">The folder with one folder per style, e.g. icons/styles</string>
+    <string name="iconset_add">Add</string>
+    <string name="iconset_release">Release</string>
+    <string name="iconset_release_none">Not downloaded</string>
+    <string name="iconset_status">Status</string>
+    <string name="iconset_loading">Looking for releases…</string>
+    <string name="iconset_downloading">Downloading %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Cancel download</string>
+    <string name="iconset_style">Style</string>
+    <string name="iconset_style_choose">Choose a style</string>
+    <string name="iconset_match">Match icons to apps</string>
+    <string name="iconset_match_desc">Proposes an icon for each app whose name matches one</string>
+    <string name="iconset_reset">Reset icons to default</string>
+    <string name="iconset_remove">Remove icon set</string>
+    <string name="iconset_fail_bad_repo">Enter the repository as owner/name</string>
+    <string name="iconset_fail_bad_path">Enter a folder such as icons/styles</string>
+    <string name="iconset_fail_not_found">Repository not found</string>
+    <string name="iconset_fail_no_releases">This repository has no releases</string>
+    <string name="iconset_fail_network">The download failed</string>
+    <string name="iconset_fail_http">GitHub answered with an error (%1$s)</string>
+    <string name="iconset_fail_no_styles">This release has no style folders in %1$s</string>
+    <string name="iconset_fail_no_space">Not enough free space</string>
+    <string name="iconset_fail_storage">The icons cannot be stored</string>
+    <string name="iconset_match_title">Match icons</string>
+    <string name="iconset_apply">Apply (%1$d)</string>
+    <string name="iconset_match_none">No app name matches an icon</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d icon applied</item>
+        <item quantity="other">%1$d icons applied</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d icon reset to default</item>
+        <item quantity="other">%1$d icons reset to default</item>
+    </plurals>
 </resources>

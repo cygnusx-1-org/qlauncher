@@ -87,6 +87,9 @@ sealed interface PanelSpec {
     data class Rename(val itemKey: String?, val categoryId: Int?) : PanelSpec
     data class ChangeIcon(val itemKey: String?, val categoryId: Int?) : PanelSpec
     data class Pictures(val items: List<org.cygnusx1.qlauncher.wallpaper.source.MediaItem>, val itemKey: String?, val categoryId: Int?) : PanelSpec
+
+    /** *Change icon › <icon set style>*: the style's icons, those matching the item first. */
+    data class SetIcons(val icons: List<org.cygnusx1.qlauncher.apps.iconpack.IconSetIcon>, val itemKey: String) : PanelSpec
     data class Folder(val categoryId: Int) : PanelSpec
     data object Notifications : PanelSpec
     data object Channels : PanelSpec
@@ -161,6 +164,18 @@ fun HomePanelHost(stack: SnapshotStateList<PanelSpec>, controller: HomeControlle
             },
             onBack = { nav.pop() },
             title = stringResource(R.string.menu_change_icon),
+        )
+        is PanelSpec.SetIcons -> WallpaperGallery(
+            items = spec.icons.map { GalleryItem(it.file, it.name) },
+            onPick = { i ->
+                spec.icons.getOrNull(i)?.let { controller.applyIconSetIcon(spec.itemKey, it) }
+                nav.pop()
+                nav.pop()
+            },
+            onBack = { nav.pop() },
+            title = stringResource(R.string.menu_change_icon),
+            // Some icons are not 16:9 (YouTube is 3:2): show them whole, as the card will.
+            contentScale = androidx.compose.ui.layout.ContentScale.Fit,
         )
         else -> key(spec) {
             val built = panelContent(spec, controller, actions, nav)
@@ -451,6 +466,12 @@ private fun panelContent(spec: PanelSpec, controller: HomeController, actions: H
                                 nav.pop()
                             }))
                         }
+                        // The downloaded icon set's style (Cards › Icon set).
+                        controller.iconSetChoice()?.let { (style, repo) ->
+                            add(PanelRow.Item("icon_set", style, subtitle = repo, icon = "collections", onClick = {
+                                controller.loadIconSetIcons(spec.itemKey) { icons -> if (icons.isNotEmpty() && nav.isTop(spec)) nav.push(PanelSpec.SetIcons(icons, spec.itemKey)) }
+                            }))
+                        }
                     }
                     if (current != null) {
                         add(PanelRow.Item("reset", s(R.string.menu_icon_reset), icon = "restart_alt", onClick = {
@@ -483,7 +504,7 @@ private fun panelContent(spec: PanelSpec, controller: HomeController, actions: H
 
         is PanelSpec.ChannelApp -> channelAppPanel(spec.packageName, inputs, channels, controller)
 
-        is PanelSpec.CategoryColor, is PanelSpec.Rename, is PanelSpec.Pictures -> Built(emptyList())
+        is PanelSpec.CategoryColor, is PanelSpec.Rename, is PanelSpec.Pictures, is PanelSpec.SetIcons -> Built(emptyList())
     }
 }
 

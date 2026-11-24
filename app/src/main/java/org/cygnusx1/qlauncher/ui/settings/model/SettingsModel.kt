@@ -244,6 +244,8 @@ sealed interface Row {
         override val badges: Set<Badge> = emptySet(),
         override val visible: Predicate = Always,
         override val enabled: Predicate = Always,
+        /** Show the value on exactly this many lines, for a value whose length changes with state. */
+        val valueLines: Int? = null,
     ) : Row
 
     /** A block of free content at the end of a page (the clock format help). */
