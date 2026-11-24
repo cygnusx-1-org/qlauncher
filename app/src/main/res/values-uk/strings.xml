@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Встановити як шпалери QLauncher</string>
     <string name="import_settings">Імпортувати в QLauncher</string>
     <string name="accessibility_service_description">QLauncher бачить натискання апаратних кнопок і назву застосунку на передньому плані, щоб замінювати стандартний лаунчер, виконувати дії під час завантаження, перепризначати кнопки пульта, виявляти бездіяльність і забезпечувати батьківський контроль. Ці дані зберігаються лише в пам’яті цього пристрою й нікуди не надсилаються.</string>

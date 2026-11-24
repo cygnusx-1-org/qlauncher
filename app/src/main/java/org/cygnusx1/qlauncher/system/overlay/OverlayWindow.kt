@@ -24,6 +24,7 @@ import androidx.savedstate.SavedStateRegistry
 import androidx.savedstate.SavedStateRegistryController
 import androidx.savedstate.SavedStateRegistryOwner
 import androidx.savedstate.setViewTreeSavedStateRegistryOwner
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 
 /**
  * A full-screen, non-focusable, non-touchable `TYPE_ACCESSIBILITY_OVERLAY` window showing
@@ -45,7 +46,7 @@ class OverlayWindow(private val service: AccessibilityService) {
             return
         }
         val newOwner = OverlayOwner().also { it.start() }
-        val newView = ComposeView(service).apply {
+        val newView = ComposeView(LocaleHelper.wrapForService(service)).apply {
             setViewTreeLifecycleOwner(newOwner)
             setViewTreeSavedStateRegistryOwner(newOwner)
             setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnDetachedFromWindow)

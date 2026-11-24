@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">QLauncher వాల్‌పేపర్‌గా సెట్ చేయండి</string>
     <string name="import_settings">QLauncherలోకి దిగుమతి చేయండి</string>
     <string name="accessibility_service_description">పరికరపు సొంత లాంచర్‌ను ఓవర్‌రైడ్ చేయడానికి, బూట్ సమయంలో చర్యలను అమలు చేయడానికి, రిమోట్ బటన్‌లను రీమ్యాప్ చేయడానికి, నిష్క్రియ సమయాన్ని గుర్తించడానికి, తల్లిదండ్రుల నియంత్రణను అమలు చేయడానికి QLauncher హార్డ్‌వేర్ కీ నొక్కడాలను, ముందుభాగంలో ఉన్న యాప్ పేరును చూస్తుంది. రెండూ ఈ పరికరం మెమరీలోనే ఉంటాయి, ఎక్కడికీ పంపబడవు.</string>

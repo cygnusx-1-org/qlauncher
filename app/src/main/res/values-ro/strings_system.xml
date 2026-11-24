@@ -19,8 +19,6 @@
 
     <!-- Hotkey help overlay (Menu pressed twice) -->
     <string name="system_hotkeys_title">Comenzi rapide ale telecomenzii</string>
-    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
-    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
     <string name="system_hotkeys_keys_ok">OK</string>
     <string name="system_hotkeys_keys_home">Acasă</string>
     <string name="system_hotkeys_keys_menu_twice">Meniu × 2</string>

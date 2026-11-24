@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Niciunul</string>
     <string name="settings_more">Mai multe…</string>
     <string name="settings_custom_icon_tint">Tentă pictograme personalizate</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Dimensiunea cardului selectat</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">În caz de raport/calitate necorespunzătoare</string>
     <string name="settings_min_width">Lățime minimă acceptată (px)</string>
     <string name="settings_src_none">Niciuna</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Culori dinamice</string>
     <string name="settings_src_default">Imagine de fundal implicită</string>
     <string name="settings_src_media">Fișier media</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Nu s-au găsit imagini sau videoclipuri. Copiați câteva în Pictures, Movies sau Download ori conectați o unitate USB.</string>
     <string name="wp_folders_description">Dosare cu imagini sau videoclipuri, pe acest dispozitiv și pe unitățile USB.</string>
     <string name="wp_folders_none">Nu s-au găsit dosare cu imagini sau videoclipuri</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d fișier</item>
         <item quantity="few">%d fișiere</item>
@@ -347,7 +342,6 @@
     <string name="install_custom">URL personalizat / cod Downloader</string>
     <string name="install_custom_desc">Folosiți doar o sursă de încredere</string>
     <string name="install_status">Stare</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Acest dispozitiv</string>

@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">separuh saiz</string>
     <string name="backup_clock_markup_one_and_a_half_size">satu setengah kali</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Keratan hitam</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Gradien skala kelabu 1000 nit</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Gradien skala kelabu 4000 nit</string>
     <string name="backup_pattern_dv_black_pluge">[DV] PLUGE hitam</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Gradien warna</string>
     <string name="backup_pattern_unavailable">%1$s memerlukan laluan video HDR dan belum tersedia</string>
     <!-- Pages -->
@@ -163,7 +161,6 @@
     <string name="backup_files_description">Eksport disimpan dalam %1$s. Dengan akses kepada semua fail, QLauncher turut menemui sandaran dalam Download, Documents dan pada pemacu USB, termasuk sandaran Projectivy.</string>
     <string name="backup_files_searching">Mencari fail sandaran…</string>
     <string name="backup_files_none">Tiada fail sandaran ditemui</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Folder QLauncher</string>
     <string name="backup_files_access">Cari sandaran daripada apl dan peranti lain</string>
     <string name="backup_files_access_desc">Benarkan akses kepada semua fail</string>
@@ -171,7 +168,6 @@
     <string name="backup_files_browse">Lokasi lain…</string>
     <string name="backup_files_browse_desc">Pilih fail dengan pemilih fail sistem</string>
     <string name="backup_auto_delete_all">Padam semua</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Selepas perubahan</string>
     <string name="backup_reason_import">Sebelum import</string>
     <string name="backup_reason_migration">Sebelum kemas kini</string>

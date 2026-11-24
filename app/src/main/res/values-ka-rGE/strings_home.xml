@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">ეკრანის პროფილები</string>
     <string name="home_action_install_apps">მესამე მხარის აპების დაყენება</string>
     <string name="home_action_accessibility">მარტივი წვდომის სერვისი</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">პროფილის გადართვა</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">ეს მოწყობილობა</string>
     <string name="home_action_about_wallpaper">ეს ფონი</string>
 

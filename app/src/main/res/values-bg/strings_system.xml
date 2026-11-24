@@ -19,8 +19,6 @@
 
     <!-- Hotkey help overlay (Menu pressed twice) -->
     <string name="system_hotkeys_title">Бързи клавиши на дистанционното</string>
-    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
-    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
     <string name="system_hotkeys_keys_ok">OK</string>
     <string name="system_hotkeys_keys_home">Начало</string>
     <string name="system_hotkeys_keys_menu_twice">Меню × 2</string>

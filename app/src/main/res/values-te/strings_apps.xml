@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">డిస్‌ప్లే ప్రొఫైల్‌లు</string>
     <string name="apps_action_install_apps">థర్డ్-పార్టీ యాప్‌లను ఇన్‌స్టాల్ చేయండి</string>
     <string name="apps_action_accessibility_service">యాక్సెసిబిలిటీ సర్వీస్</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">ప్రొఫైల్ మార్చండి</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">ఈ పరికరం</string>
     <string name="apps_action_about_wallpaper">ఈ వాల్‌పేపర్</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">బిల్డ్</string>
     <string name="apps_device_build_desc">బిల్డ్ వివరణ</string>
     <string name="apps_device_device_type">పరికరం రకం</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP అడ్రస్</string>
     <string name="apps_device_root_access">రూట్ యాక్సెస్</string>
-    <string name="apps_device_pm_info">PM సమాచారం</string>
     <string name="apps_device_pm_none">పిక్చర్ మేనేజర్ లేదు</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">అవును</string>
     <string name="apps_device_no">లేదు</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">ఐకాన్ సెట్</string>
+    <string name="iconset_desc">GitHub రిపోజిటరీ నుండి పారదర్శక ఐకాన్‌లు, ఉదాహరణకు DrZacharySmith/projectivy-transparent-icons. డౌన్‌లోడ్ చేయడానికి ఒక రిలీజ్‌ను ఎంచుకోండి, ఆపై “ఐకాన్‌ను మార్చండి” అందించే స్టైల్‌ను ఎంచుకోండి.</string>
+    <string name="iconset_repo">రిపోజిటరీ</string>
+    <string name="iconset_repo_hint">GitHubలో owner/name</string>
+    <string name="iconset_repo_add">జోడించండి…</string>
+    <string name="iconset_add_title">రిపోజిటరీని జోడించండి</string>
+    <string name="iconset_add_desc">owner/name రూపంలో ఒక GitHub రిపోజిటరీ, అలాగే అందులో ప్రతి స్టైల్‌కు PNG ఐకాన్‌ల ఒక ఫోల్డర్ ఉండే ఫోల్డర్, ఉదాహరణకు icons/styles.</string>
+    <string name="iconset_add_path">సెట్‌ల పాత్</string>
+    <string name="iconset_add_path_hint">ప్రతి స్టైల్‌కు ఒక ఫోల్డర్ ఉన్న ఫోల్డర్, ఉదా. icons/styles</string>
+    <string name="iconset_add">జోడించండి</string>
+    <string name="iconset_release">రిలీజ్</string>
+    <string name="iconset_release_none">డౌన్‌లోడ్ చేయలేదు</string>
+    <string name="iconset_status">స్థితి</string>
+    <string name="iconset_loading">రిలీజ్‌ల కోసం వెతుకుతోంది…</string>
+    <string name="iconset_downloading">%1$sను డౌన్‌లోడ్ చేస్తోంది… %2$d MB</string>
+    <string name="iconset_cancel">డౌన్‌లోడ్‌ను రద్దు చేయండి</string>
+    <string name="iconset_style">స్టైల్</string>
+    <string name="iconset_style_choose">స్టైల్‌ను ఎంచుకోండి</string>
+    <string name="iconset_match">యాప్‌లకు ఐకాన్‌లను సరిపోల్చండి</string>
+    <string name="iconset_match_desc">పేరు ఏదైనా ఐకాన్‌తో సరిపోలే ప్రతి యాప్‌కు ఒక ఐకాన్‌ను సూచిస్తుంది</string>
+    <string name="iconset_reset">ఐకాన్‌లను డిఫాల్ట్‌కు రీసెట్ చేయండి</string>
+    <string name="iconset_remove">ఐకాన్ సెట్‌ను తీసివేయండి</string>
+    <string name="iconset_fail_bad_repo">రిపోజిటరీని owner/name రూపంలో ఎంటర్ చేయండి</string>
+    <string name="iconset_fail_bad_path">icons/styles వంటి ఫోల్డర్‌ను ఎంటర్ చేయండి</string>
+    <string name="iconset_fail_not_found">రిపోజిటరీ కనుగొనబడలేదు</string>
+    <string name="iconset_fail_no_releases">ఈ రిపోజిటరీలో రిలీజ్‌లు ఏవీ లేవు</string>
+    <string name="iconset_fail_network">డౌన్‌లోడ్ విఫలమైంది</string>
+    <string name="iconset_fail_http">GitHub ఎర్రర్‌తో సమాధానమిచ్చింది (%1$s)</string>
+    <string name="iconset_fail_no_styles">ఈ రిలీజ్‌లో %1$sలో స్టైల్ ఫోల్డర్‌లు ఏవీ లేవు</string>
+    <string name="iconset_fail_no_space">తగినంత ఖాళీ స్థలం లేదు</string>
+    <string name="iconset_fail_storage">ఐకాన్‌లను నిల్వ చేయడం సాధ్యం కాదు</string>
+    <string name="iconset_match_title">ఐకాన్‌లను సరిపోల్చండి</string>
+    <string name="iconset_apply">వర్తింపజేయండి (%1$d)</string>
+    <string name="iconset_match_none">ఏ యాప్ పేరూ ఏ ఐకాన్‌తోనూ సరిపోలలేదు</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d ఐకాన్ వర్తింపజేయబడింది</item>
+        <item quantity="other">%1$d ఐకాన్‌లు వర్తింపజేయబడ్డాయి</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ఐకాన్ డిఫాల్ట్‌కు రీసెట్ చేయబడింది</item>
+        <item quantity="other">%1$d ఐకాన్‌లు డిఫాల్ట్‌కు రీసెట్ చేయబడ్డాయి</item>
+    </plurals>
 </resources>

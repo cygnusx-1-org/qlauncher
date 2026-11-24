@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">הגדרה כטפט של QLauncher</string>
     <string name="import_settings">ייבוא ל-QLauncher</string>
     <string name="accessibility_service_description">השירות מאפשר ל-QLauncher לראות לחיצות על מקשי החומרה ואת שם האפליקציה שבחזית, כדי לעקוף את המשגר המקורי, להריץ פעולות באתחול, למפות מחדש את לחצני השלט, לזהות זמן חוסר פעילות ולאכוף את בקרת ההורים. שני הנתונים נשארים בזיכרון במכשיר הזה ולעולם לא נשלחים לשום מקום.</string>

@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Cấu hình hiển thị</string>
     <string name="home_action_install_apps">Cài đặt ứng dụng bên thứ ba</string>
     <string name="home_action_accessibility">Dịch vụ hỗ trợ tiếp cận</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Chuyển cấu hình</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Thiết bị này</string>
     <string name="home_action_about_wallpaper">Hình nền này</string>
 

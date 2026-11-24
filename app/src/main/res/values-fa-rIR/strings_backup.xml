@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">نصف اندازه</string>
     <string name="backup_clock_markup_one_and_a_half_size">یک و نیم برابر</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">برش سیاه</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] شیب خاکستری 1000 نیت</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] شیب خاکستری 4000 نیت</string>
     <string name="backup_pattern_dv_black_pluge">[DV] PLUGE سیاه</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] شیب‌های رنگی</string>
     <string name="backup_pattern_unavailable">الگوی %1$s به مسیر ویدیوی HDR نیاز دارد و هنوز در دسترس نیست</string>
     <!-- Pages -->
@@ -173,7 +171,6 @@
     <string name="backup_files_description">فایل‌های صادرشده در %1$s ذخیره می‌شوند. با دسترسی به همه فایل‌ها، QLauncher پشتیبان‌ها را در Download و Documents و درایوهای USB نیز پیدا می‌کند، از جمله پشتیبان‌های Projectivy را.</string>
     <string name="backup_files_searching">در حال جستجوی فایل‌های پشتیبان…</string>
     <string name="backup_files_none">هیچ فایل پشتیبانی پیدا نشد</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">پوشه QLauncher</string>
     <string name="backup_files_access">یافتن پشتیبان‌های برنامه‌ها و دستگاه‌های دیگر</string>
     <string name="backup_files_access_desc">اجازه دسترسی به همه فایل‌ها</string>
@@ -181,7 +178,6 @@
     <string name="backup_files_browse">مکان دیگر…</string>
     <string name="backup_files_browse_desc">انتخاب فایل با انتخابگر فایل سیستم</string>
     <string name="backup_auto_delete_all">حذف همه</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">پس از یک تغییر</string>
     <string name="backup_reason_import">پیش از وارد کردن</string>
     <string name="backup_reason_migration">پیش از به‌روزرسانی</string>

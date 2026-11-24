@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">halve grootte</string>
     <string name="backup_clock_markup_one_and_a_half_size">anderhalve keer</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Zwartclipping</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Grijswaardenverloop 1000 nits</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Grijswaardenverloop 4000 nits</string>
     <string name="backup_pattern_dv_black_pluge">[DV] Zwarte PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Kleurverlopen</string>
     <string name="backup_pattern_unavailable">%1$s vereist HDR-video-uitvoer en is nog niet beschikbaar</string>
     <!-- Pages -->
@@ -173,7 +171,6 @@
     <string name="backup_files_description">Exports worden opgeslagen in %1$s. Met toegang tot alle bestanden vindt QLauncher ook back-ups in Download, Documents en op USB-sticks, ook die van Projectivy.</string>
     <string name="backup_files_searching">Zoeken naar back-upbestanden…</string>
     <string name="backup_files_none">Geen back-upbestanden gevonden</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Map van QLauncher</string>
     <string name="backup_files_access">Back-ups van andere apps en apparaten zoeken</string>
     <string name="backup_files_access_desc">Toegang tot alle bestanden toestaan</string>
@@ -181,7 +178,6 @@
     <string name="backup_files_browse">Andere locatie…</string>
     <string name="backup_files_browse_desc">Kies een bestand met de bestandskiezer van het systeem</string>
     <string name="backup_auto_delete_all">Alles verwijderen</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Na een wijziging</string>
     <string name="backup_reason_import">Vóór een import</string>
     <string name="backup_reason_migration">Vóór een update</string>

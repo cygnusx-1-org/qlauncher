@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Cấu hình hiển thị</string>
     <string name="apps_action_install_apps">Cài đặt ứng dụng bên thứ ba</string>
     <string name="apps_action_accessibility_service">Dịch vụ hỗ trợ tiếp cận</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Chuyển cấu hình</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Thiết bị này</string>
     <string name="apps_action_about_wallpaper">Hình nền này</string>
 
@@ -100,12 +98,52 @@
     <string name="apps_device_build">Bản dựng</string>
     <string name="apps_device_build_desc">Mô tả bản dựng</string>
     <string name="apps_device_device_type">Loại thiết bị</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Địa chỉ IP</string>
     <string name="apps_device_root_access">Quyền root</string>
-    <string name="apps_device_pm_info">Thông tin trình quản lý hình ảnh</string>
     <string name="apps_device_pm_none">Không có trình quản lý hình ảnh</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Có</string>
     <string name="apps_device_no">Không</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Bộ biểu tượng</string>
+    <string name="iconset_desc">Biểu tượng trong suốt từ một kho lưu trữ GitHub, chẳng hạn DrZacharySmith/projectivy-transparent-icons. Chọn một bản phát hành để tải xuống, rồi chọn kiểu mà “Đổi biểu tượng” sẽ đề xuất.</string>
+    <string name="iconset_repo">Kho lưu trữ</string>
+    <string name="iconset_repo_hint">owner/name trên GitHub</string>
+    <string name="iconset_repo_add">Thêm…</string>
+    <string name="iconset_add_title">Thêm kho lưu trữ</string>
+    <string name="iconset_add_desc">Một kho lưu trữ GitHub dưới dạng owner/name, và thư mục trong đó chứa một thư mục biểu tượng PNG cho mỗi kiểu, chẳng hạn icons/styles.</string>
+    <string name="iconset_add_path">Đường dẫn đến các bộ</string>
+    <string name="iconset_add_path_hint">Thư mục chứa một thư mục cho mỗi kiểu, vd. icons/styles</string>
+    <string name="iconset_add">Thêm</string>
+    <string name="iconset_release">Bản phát hành</string>
+    <string name="iconset_release_none">Chưa tải xuống</string>
+    <string name="iconset_status">Trạng thái</string>
+    <string name="iconset_loading">Đang tìm bản phát hành…</string>
+    <string name="iconset_downloading">Đang tải xuống %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Hủy tải xuống</string>
+    <string name="iconset_style">Kiểu</string>
+    <string name="iconset_style_choose">Chọn một kiểu</string>
+    <string name="iconset_match">Khớp biểu tượng với ứng dụng</string>
+    <string name="iconset_match_desc">Đề xuất một biểu tượng cho mỗi ứng dụng có tên khớp với biểu tượng đó</string>
+    <string name="iconset_reset">Đặt lại biểu tượng về mặc định</string>
+    <string name="iconset_remove">Xóa bộ biểu tượng</string>
+    <string name="iconset_fail_bad_repo">Nhập kho lưu trữ dưới dạng owner/name</string>
+    <string name="iconset_fail_bad_path">Nhập một thư mục, chẳng hạn icons/styles</string>
+    <string name="iconset_fail_not_found">Không tìm thấy kho lưu trữ</string>
+    <string name="iconset_fail_no_releases">Kho lưu trữ này không có bản phát hành nào</string>
+    <string name="iconset_fail_network">Tải xuống không thành công</string>
+    <string name="iconset_fail_http">GitHub trả về lỗi (%1$s)</string>
+    <string name="iconset_fail_no_styles">Bản phát hành này không có thư mục kiểu nào trong %1$s</string>
+    <string name="iconset_fail_no_space">Không đủ dung lượng trống</string>
+    <string name="iconset_fail_storage">Không thể lưu biểu tượng</string>
+    <string name="iconset_match_title">Khớp biểu tượng</string>
+    <string name="iconset_apply">Áp dụng (%1$d)</string>
+    <string name="iconset_match_none">Không có tên ứng dụng nào khớp với biểu tượng</string>
+    <plurals name="iconset_applied">
+        <item quantity="other">Đã áp dụng %1$d biểu tượng</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="other">Đã đặt lại %1$d biểu tượng về mặc định</item>
+    </plurals>
 </resources>

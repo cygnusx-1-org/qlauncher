@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Tiada</string>
     <string name="settings_more">Lagi…</string>
     <string name="settings_custom_icon_tint">Warna ikon tersuai</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Saiz kad yang difokuskan</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Jika nisbah/kualiti buruk</string>
     <string name="settings_min_width">Lebar minimum yang diterima (px)</string>
     <string name="settings_src_none">Tiada</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Warna dinamik</string>
     <string name="settings_src_default">Kertas dinding lalai</string>
     <string name="settings_src_media">Fail media</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Tiada gambar atau video ditemui. Salin beberapa ke Pictures, Movies atau Download, atau pasangkan pemacu USB.</string>
     <string name="wp_folders_description">Folder yang mengandungi gambar atau video, pada peranti ini dan pada pemacu USB.</string>
     <string name="wp_folders_none">Tiada folder yang mengandungi gambar atau video ditemui</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="other">%d fail</item>
     </plurals>
@@ -345,7 +340,6 @@
     <string name="install_custom">URL tersuai / Kod Downloader</string>
     <string name="install_custom_desc">Gunakan hanya sumber yang anda percayai</string>
     <string name="install_status">Status</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Peranti ini</string>

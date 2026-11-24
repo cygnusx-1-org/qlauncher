@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Aucun</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Couleurs dynamiques</string>
     <string name="wallpaper_provider_default">Fond d\'écran par défaut</string>
     <string name="wallpaper_provider_media_file">Fichier multimédia</string>

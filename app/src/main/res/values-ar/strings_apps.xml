@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">ملفات تعريف العرض</string>
     <string name="apps_action_install_apps">تثبيت تطبيقات خارجية</string>
     <string name="apps_action_accessibility_service">خدمة سهولة الاستخدام</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">تبديل الملف الشخصي</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">هذا الجهاز</string>
     <string name="apps_action_about_wallpaper">هذه الخلفية</string>
 
@@ -105,12 +103,62 @@
     <string name="apps_device_build">رقم الإصدار</string>
     <string name="apps_device_build_desc">وصف الإصدار</string>
     <string name="apps_device_device_type">نوع الجهاز</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">عنوان IP</string>
     <string name="apps_device_root_access">صلاحيات الجذر (Root)</string>
-    <string name="apps_device_pm_info">معلومات PM</string>
     <string name="apps_device_pm_none">لا يوجد مدير صورة</string>
     <string name="apps_device_id">المعرّف</string>
     <string name="apps_device_yes">نعم</string>
     <string name="apps_device_no">لا</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">مجموعة الأيقونات</string>
+    <string name="iconset_desc">أيقونات شفافة من مستودع على GitHub، مثل DrZacharySmith/projectivy-transparent-icons. اختر إصدارًا لتنزيله، ثم النمط الذي يعرضه «تغيير الأيقونة».</string>
+    <string name="iconset_repo">المستودع</string>
+    <string name="iconset_repo_hint">owner/name على GitHub</string>
+    <string name="iconset_repo_add">إضافة…</string>
+    <string name="iconset_add_title">إضافة مستودع</string>
+    <string name="iconset_add_desc">مستودع على GitHub بصيغة owner/name، والمجلد الذي يضم فيه مجلدًا من أيقونات PNG لكل نمط، مثل icons/styles.</string>
+    <string name="iconset_add_path">مسار المجموعات</string>
+    <string name="iconset_add_path_hint">المجلد الذي يضم مجلدًا لكل نمط، مثل icons/styles</string>
+    <string name="iconset_add">إضافة</string>
+    <string name="iconset_release">الإصدار</string>
+    <string name="iconset_release_none">لم يُنزَّل</string>
+    <string name="iconset_status">الحالة</string>
+    <string name="iconset_loading">جارٍ البحث عن الإصدارات…</string>
+    <string name="iconset_downloading">جارٍ تنزيل %1$s… %2$d MB</string>
+    <string name="iconset_cancel">إلغاء التنزيل</string>
+    <string name="iconset_style">النمط</string>
+    <string name="iconset_style_choose">اختيار نمط</string>
+    <string name="iconset_match">مطابقة الأيقونات مع التطبيقات</string>
+    <string name="iconset_match_desc">يقترح أيقونة لكل تطبيق يطابق اسمه إحدى الأيقونات</string>
+    <string name="iconset_reset">استعادة الأيقونات الافتراضية</string>
+    <string name="iconset_remove">إزالة مجموعة الأيقونات</string>
+    <string name="iconset_fail_bad_repo">أدخل المستودع بصيغة owner/name</string>
+    <string name="iconset_fail_bad_path">أدخل مجلدًا مثل icons/styles</string>
+    <string name="iconset_fail_not_found">لم يتم العثور على المستودع</string>
+    <string name="iconset_fail_no_releases">لا يحتوي هذا المستودع على أي إصدارات</string>
+    <string name="iconset_fail_network">فشل التنزيل</string>
+    <string name="iconset_fail_http">ردّ GitHub بخطأ (%1$s)</string>
+    <string name="iconset_fail_no_styles">لا يحتوي هذا الإصدار على مجلدات أنماط في %1$s</string>
+    <string name="iconset_fail_no_space">لا توجد مساحة خالية كافية</string>
+    <string name="iconset_fail_storage">لا يمكن تخزين الأيقونات</string>
+    <string name="iconset_match_title">مطابقة الأيقونات</string>
+    <string name="iconset_apply">تطبيق (%1$d)</string>
+    <string name="iconset_match_none">لا يطابق اسم أي تطبيق أيّ أيقونة</string>
+    <plurals name="iconset_applied">
+        <item quantity="zero">تم تطبيق %1$d أيقونة</item>
+        <item quantity="one">تم تطبيق %1$d أيقونة</item>
+        <item quantity="two">تم تطبيق %1$d أيقونتين</item>
+        <item quantity="few">تم تطبيق %1$d أيقونات</item>
+        <item quantity="many">تم تطبيق %1$d أيقونة</item>
+        <item quantity="other">تم تطبيق %1$d أيقونة</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="zero">تمت إعادة %1$d أيقونة إلى الوضع الافتراضي</item>
+        <item quantity="one">تمت إعادة %1$d أيقونة إلى الوضع الافتراضي</item>
+        <item quantity="two">تمت إعادة %1$d أيقونتين إلى الوضع الافتراضي</item>
+        <item quantity="few">تمت إعادة %1$d أيقونات إلى الوضع الافتراضي</item>
+        <item quantity="many">تمت إعادة %1$d أيقونة إلى الوضع الافتراضي</item>
+        <item quantity="other">تمت إعادة %1$d أيقونة إلى الوضع الافتراضي</item>
+    </plurals>
 </resources>

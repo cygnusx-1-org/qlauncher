@@ -5,7 +5,6 @@
     <string name="about_libs">ספריות / קרדיטים</string>
     <string name="about_links">קישורים</string>
     <string name="about_link_project">דף הפרויקט</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">תרגום לעברית</string>
     <string name="about_translation_credit">התורמים ל-QLauncher</string>
     <string name="about_no_browser">אין דפדפן במכשיר הזה. יש לפתוח את %1$s במכשיר אחר.</string>

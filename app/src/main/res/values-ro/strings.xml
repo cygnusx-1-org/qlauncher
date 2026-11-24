@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Setați ca imagine de fundal QLauncher</string>
     <string name="import_settings">Importați în QLauncher</string>
     <string name="accessibility_service_description">QLauncher vede apăsările tastelor fizice și numele aplicației din prim-plan, pentru a înlocui lansatorul preinstalat, a rula acțiuni la pornire, a reatribui butoanele telecomenzii, a detecta inactivitatea și a aplica controlul parental. Ambele rămân în memorie pe acest dispozitiv și nu sunt trimise nicăieri.</string>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">QLauncher の壁紙に設定</string>
     <string name="import_settings">QLauncher にインポート</string>
     <string name="accessibility_service_description">QLauncher はハードウェアキーの入力とフォアグラウンドのアプリ名を取得して、標準ランチャーの置き換え、起動時のアクションの実行、リモコンボタンの割り当て変更、無操作時間の検出、ペアレンタルコントロールの適用を行います。どちらもこのデバイスのメモリ内にのみ保持され、外部に送信されることはありません。</string>

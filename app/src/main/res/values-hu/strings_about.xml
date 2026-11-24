@@ -5,7 +5,6 @@
     <string name="about_libs">Könyvtárak / Köszönetnyilvánítás</string>
     <string name="about_links">Hivatkozások</string>
     <string name="about_link_project">Projektoldal</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Magyar fordítás</string>
     <string name="about_translation_credit">A QLauncher közreműködői</string>
     <string name="about_no_browser">Ezen az eszközön nincs böngésző. Nyissa meg ezt a címet egy másik eszközön: %1$s</string>

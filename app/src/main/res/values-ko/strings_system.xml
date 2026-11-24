@@ -19,8 +19,6 @@
 
     <!-- Hotkey help overlay (Menu pressed twice) -->
     <string name="system_hotkeys_title">리모컨 단축키</string>
-    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
-    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
     <string name="system_hotkeys_keys_ok">확인</string>
     <string name="system_hotkeys_keys_home">홈</string>
     <string name="system_hotkeys_keys_menu_twice">메뉴 × 2</string>

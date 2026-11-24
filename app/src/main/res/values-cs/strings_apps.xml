@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profily zobrazení</string>
     <string name="apps_action_install_apps">Instalovat aplikace třetích stran</string>
     <string name="apps_action_accessibility_service">Služba přístupnosti</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Přepnout profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Toto zařízení</string>
     <string name="apps_action_about_wallpaper">Tato tapeta</string>
 
@@ -103,12 +101,58 @@
     <string name="apps_device_build">Sestavení</string>
     <string name="apps_device_build_desc">Popis sestavení</string>
     <string name="apps_device_device_type">Typ zařízení</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Adresa IP</string>
     <string name="apps_device_root_access">Přístup root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Žádný správce obrazu</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Ano</string>
     <string name="apps_device_no">Ne</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Sada ikon</string>
+    <string name="iconset_desc">Průhledné ikony z repozitáře na GitHubu, například DrZacharySmith/projectivy-transparent-icons. Vyberte vydání ke stažení a poté styl, který nabídne „Změnit ikonu“.</string>
+    <string name="iconset_repo">Repozitář</string>
+    <string name="iconset_repo_hint">owner/name na GitHubu</string>
+    <string name="iconset_repo_add">Přidat…</string>
+    <string name="iconset_add_title">Přidat repozitář</string>
+    <string name="iconset_add_desc">Repozitář na GitHubu ve tvaru owner/name a složka v něm, která obsahuje pro každý styl jednu složku s ikonami PNG, například icons/styles.</string>
+    <string name="iconset_add_path">Cesta k sadám</string>
+    <string name="iconset_add_path_hint">Složka s jednou složkou pro každý styl, např. icons/styles</string>
+    <string name="iconset_add">Přidat</string>
+    <string name="iconset_release">Vydání</string>
+    <string name="iconset_release_none">Nestaženo</string>
+    <string name="iconset_status">Stav</string>
+    <string name="iconset_loading">Hledání vydání…</string>
+    <string name="iconset_downloading">Stahování %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Zrušit stahování</string>
+    <string name="iconset_style">Styl</string>
+    <string name="iconset_style_choose">Vybrat styl</string>
+    <string name="iconset_match">Přiřadit ikony aplikacím</string>
+    <string name="iconset_match_desc">Navrhne ikonu pro každou aplikaci, jejíž název odpovídá některé ikoně</string>
+    <string name="iconset_reset">Obnovit výchozí ikony</string>
+    <string name="iconset_remove">Odebrat sadu ikon</string>
+    <string name="iconset_fail_bad_repo">Zadejte repozitář ve tvaru owner/name</string>
+    <string name="iconset_fail_bad_path">Zadejte složku, například icons/styles</string>
+    <string name="iconset_fail_not_found">Repozitář nebyl nalezen</string>
+    <string name="iconset_fail_no_releases">Tento repozitář nemá žádná vydání</string>
+    <string name="iconset_fail_network">Stahování se nezdařilo</string>
+    <string name="iconset_fail_http">GitHub odpověděl chybou (%1$s)</string>
+    <string name="iconset_fail_no_styles">Toto vydání nemá ve složce %1$s žádné složky stylů</string>
+    <string name="iconset_fail_no_space">Nedostatek volného místa</string>
+    <string name="iconset_fail_storage">Ikony nelze uložit</string>
+    <string name="iconset_match_title">Přiřadit ikony</string>
+    <string name="iconset_apply">Použít (%1$d)</string>
+    <string name="iconset_match_none">Žádný název aplikace neodpovídá ikoně</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Použita %1$d ikona</item>
+        <item quantity="few">Použity %1$d ikony</item>
+        <item quantity="many">Použito %1$d ikony</item>
+        <item quantity="other">Použito %1$d ikon</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">Obnovena %1$d výchozí ikona</item>
+        <item quantity="few">Obnoveny %1$d výchozí ikony</item>
+        <item quantity="many">Obnoveno %1$d výchozí ikony</item>
+        <item quantity="other">Obnoveno %1$d výchozích ikon</item>
+    </plurals>
 </resources>

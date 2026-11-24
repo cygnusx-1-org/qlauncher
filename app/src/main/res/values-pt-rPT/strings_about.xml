@@ -5,7 +5,6 @@
     <string name="about_libs">Bibliotecas / Créditos</string>
     <string name="about_links">Ligações</string>
     <string name="about_link_project">Página do projeto</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Tradução para português europeu</string>
     <string name="about_translation_credit">Colaboradores do QLauncher</string>
     <string name="about_no_browser">Não há nenhum navegador neste dispositivo. Abra %1$s noutro dispositivo.</string>

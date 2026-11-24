@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">โปรไฟล์การแสดงผล</string>
     <string name="apps_action_install_apps">ติดตั้งแอปของบุคคลที่สาม</string>
     <string name="apps_action_accessibility_service">บริการการช่วยเหลือพิเศษ</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">สลับโปรไฟล์</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">อุปกรณ์นี้</string>
     <string name="apps_action_about_wallpaper">วอลเปเปอร์นี้</string>
 
@@ -100,12 +98,52 @@
     <string name="apps_device_build">บิลด์</string>
     <string name="apps_device_build_desc">คำอธิบายบิลด์</string>
     <string name="apps_device_device_type">ประเภทอุปกรณ์</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">ที่อยู่ IP</string>
     <string name="apps_device_root_access">สิทธิ์ root</string>
-    <string name="apps_device_pm_info">ข้อมูลตัวจัดการภาพ</string>
     <string name="apps_device_pm_none">ไม่มีตัวจัดการภาพ</string>
     <string name="apps_device_id">รหัส</string>
     <string name="apps_device_yes">ใช่</string>
     <string name="apps_device_no">ไม่</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">ชุดไอคอน</string>
+    <string name="iconset_desc">ไอคอนโปร่งใสจากรีโพสิทอรี GitHub เช่น DrZacharySmith/projectivy-transparent-icons เลือกรีลีสเพื่อดาวน์โหลด แล้วเลือกสไตล์ที่ “เปลี่ยนไอคอน” จะนำเสนอ</string>
+    <string name="iconset_repo">รีโพสิทอรี</string>
+    <string name="iconset_repo_hint">owner/name บน GitHub</string>
+    <string name="iconset_repo_add">เพิ่ม…</string>
+    <string name="iconset_add_title">เพิ่มรีโพสิทอรี</string>
+    <string name="iconset_add_desc">รีโพสิทอรี GitHub ในรูปแบบ owner/name และโฟลเดอร์ภายในที่มีโฟลเดอร์ไอคอน PNG หนึ่งโฟลเดอร์ต่อหนึ่งสไตล์ เช่น icons/styles</string>
+    <string name="iconset_add_path">พาธไปยังชุดไอคอน</string>
+    <string name="iconset_add_path_hint">โฟลเดอร์ที่มีหนึ่งโฟลเดอร์ต่อหนึ่งสไตล์ เช่น icons/styles</string>
+    <string name="iconset_add">เพิ่ม</string>
+    <string name="iconset_release">รีลีส</string>
+    <string name="iconset_release_none">ยังไม่ได้ดาวน์โหลด</string>
+    <string name="iconset_status">สถานะ</string>
+    <string name="iconset_loading">กำลังค้นหารีลีส…</string>
+    <string name="iconset_downloading">กำลังดาวน์โหลด %1$s… %2$d MB</string>
+    <string name="iconset_cancel">ยกเลิกการดาวน์โหลด</string>
+    <string name="iconset_style">สไตล์</string>
+    <string name="iconset_style_choose">เลือกสไตล์</string>
+    <string name="iconset_match">จับคู่ไอคอนกับแอป</string>
+    <string name="iconset_match_desc">เสนอไอคอนให้แต่ละแอปที่มีชื่อตรงกับไอคอน</string>
+    <string name="iconset_reset">รีเซ็ตไอคอนเป็นค่าเริ่มต้น</string>
+    <string name="iconset_remove">นำชุดไอคอนออก</string>
+    <string name="iconset_fail_bad_repo">ป้อนรีโพสิทอรีในรูปแบบ owner/name</string>
+    <string name="iconset_fail_bad_path">ป้อนโฟลเดอร์ เช่น icons/styles</string>
+    <string name="iconset_fail_not_found">ไม่พบรีโพสิทอรี</string>
+    <string name="iconset_fail_no_releases">รีโพสิทอรีนี้ไม่มีรีลีส</string>
+    <string name="iconset_fail_network">ดาวน์โหลดไม่สำเร็จ</string>
+    <string name="iconset_fail_http">GitHub ตอบกลับด้วยข้อผิดพลาด (%1$s)</string>
+    <string name="iconset_fail_no_styles">รีลีสนี้ไม่มีโฟลเดอร์สไตล์ใน %1$s</string>
+    <string name="iconset_fail_no_space">พื้นที่ว่างไม่เพียงพอ</string>
+    <string name="iconset_fail_storage">ไม่สามารถจัดเก็บไอคอนได้</string>
+    <string name="iconset_match_title">จับคู่ไอคอน</string>
+    <string name="iconset_apply">ใช้ (%1$d)</string>
+    <string name="iconset_match_none">ไม่มีชื่อแอปใดตรงกับไอคอน</string>
+    <plurals name="iconset_applied">
+        <item quantity="other">ใช้ไอคอน %1$d รายการแล้ว</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="other">รีเซ็ตไอคอน %1$d รายการเป็นค่าเริ่มต้นแล้ว</item>
+    </plurals>
 </resources>

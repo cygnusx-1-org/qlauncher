@@ -5,7 +5,6 @@
     <string name="about_libs">라이브러리 / 크레딧</string>
     <string name="about_links">링크</string>
     <string name="about_link_project">프로젝트 페이지</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">한국어 번역</string>
     <string name="about_translation_credit">QLauncher 기여자</string>
     <string name="about_no_browser">이 기기에 브라우저가 없습니다. 다른 기기에서 %1$s을(를) 여세요.</string>

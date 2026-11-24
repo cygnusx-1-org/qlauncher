@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Nincs</string>
     <string name="settings_more">Továbbiak…</string>
     <string name="settings_custom_icon_tint">Egyéni ikonok színe</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Kijelölt kártya mérete</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Rossz képarány/minőség esetén</string>
     <string name="settings_min_width">Minimális elfogadott szélesség (px)</string>
     <string name="settings_src_none">Nincs</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dinamikus színek</string>
     <string name="settings_src_default">Alapértelmezett háttérkép</string>
     <string name="settings_src_media">Médiafájl</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Nem található kép vagy videó. Másoljon néhányat a Pictures, a Movies vagy a Download mappába, vagy csatlakoztasson egy USB-meghajtót.</string>
     <string name="wp_folders_description">Képeket vagy videókat tartalmazó mappák ezen az eszközön és USB-meghajtókon.</string>
     <string name="wp_folders_none">Nem található képeket vagy videókat tartalmazó mappa</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d fájl</item>
         <item quantity="other">%d fájl</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">Egyéni URL / Downloader-kód</string>
     <string name="install_custom_desc">Csak megbízható forrást használjon</string>
     <string name="install_status">Állapot</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Ez az eszköz</string>

@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Displeja profili</string>
     <string name="apps_action_install_apps">Instalēt trešo pušu lietotnes</string>
     <string name="apps_action_accessibility_service">Pieejamības pakalpojums</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Pārslēgt profilu</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Šī ierīce</string>
     <string name="apps_action_about_wallpaper">Šī fona tapete</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">Būvējums</string>
     <string name="apps_device_build_desc">Būvējuma apr.</string>
     <string name="apps_device_device_type">Ierīces veids</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP adrese</string>
     <string name="apps_device_root_access">Root piekļuve</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Nav attēla pārvaldnieka</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Jā</string>
     <string name="apps_device_no">Nē</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Ikonu kopa</string>
+    <string name="iconset_desc">Caurspīdīgas ikonas no GitHub repozitorija, piemēram, DrZacharySmith/projectivy-transparent-icons. Izvēlieties laidienu, lai to lejupielādētu, un pēc tam stilu, ko piedāvā „Mainīt ikonu“.</string>
+    <string name="iconset_repo">Repozitorijs</string>
+    <string name="iconset_repo_hint">owner/name vietnē GitHub</string>
+    <string name="iconset_repo_add">Pievienot…</string>
+    <string name="iconset_add_title">Pievienot repozitoriju</string>
+    <string name="iconset_add_desc">GitHub repozitorijs formātā owner/name un tajā esošā mape, kurā katram stilam ir viena PNG ikonu mape, piemēram, icons/styles.</string>
+    <string name="iconset_add_path">Ceļš uz kopām</string>
+    <string name="iconset_add_path_hint">Mape ar vienu mapi katram stilam, piem., icons/styles</string>
+    <string name="iconset_add">Pievienot</string>
+    <string name="iconset_release">Laidiens</string>
+    <string name="iconset_release_none">Nav lejupielādēts</string>
+    <string name="iconset_status">Statuss</string>
+    <string name="iconset_loading">Meklē laidienus…</string>
+    <string name="iconset_downloading">Lejupielādē %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Atcelt lejupielādi</string>
+    <string name="iconset_style">Stils</string>
+    <string name="iconset_style_choose">Izvēlēties stilu</string>
+    <string name="iconset_match">Saskaņot ikonas ar lietotnēm</string>
+    <string name="iconset_match_desc">Piedāvā ikonu katrai lietotnei, kuras nosaukums atbilst kādai ikonai</string>
+    <string name="iconset_reset">Atiestatīt ikonas uz noklusējumu</string>
+    <string name="iconset_remove">Noņemt ikonu kopu</string>
+    <string name="iconset_fail_bad_repo">Ievadiet repozitoriju formātā owner/name</string>
+    <string name="iconset_fail_bad_path">Ievadiet mapi, piemēram, icons/styles</string>
+    <string name="iconset_fail_not_found">Repozitorijs nav atrasts</string>
+    <string name="iconset_fail_no_releases">Šim repozitorijam nav laidienu</string>
+    <string name="iconset_fail_network">Lejupielāde neizdevās</string>
+    <string name="iconset_fail_http">GitHub atbildēja ar kļūdu (%1$s)</string>
+    <string name="iconset_fail_no_styles">Šim laidienam mapē %1$s nav stilu mapju</string>
+    <string name="iconset_fail_no_space">Nepietiek brīvas vietas</string>
+    <string name="iconset_fail_storage">Ikonas nevar saglabāt</string>
+    <string name="iconset_match_title">Saskaņot ikonas</string>
+    <string name="iconset_apply">Lietot (%1$d)</string>
+    <string name="iconset_match_none">Neviens lietotnes nosaukums neatbilst nevienai ikonai</string>
+    <plurals name="iconset_applied">
+        <item quantity="zero">%1$d ikonas lietotas</item>
+        <item quantity="one">%1$d ikona lietota</item>
+        <item quantity="other">%1$d ikonas lietotas</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="zero">%1$d ikonas atiestatītas uz noklusējumu</item>
+        <item quantity="one">%1$d ikona atiestatīta uz noklusējumu</item>
+        <item quantity="other">%1$d ikonas atiestatītas uz noklusējumu</item>
+    </plurals>
 </resources>

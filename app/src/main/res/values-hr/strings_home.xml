@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Profili prikaza</string>
     <string name="home_action_install_apps">Instaliraj aplikacije trećih strana</string>
     <string name="home_action_accessibility">Usluga pristupačnosti</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Promijeni profil</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Ovaj uređaj</string>
     <string name="home_action_about_wallpaper">Ova pozadina</string>
 

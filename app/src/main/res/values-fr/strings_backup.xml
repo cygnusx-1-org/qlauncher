@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">demi-taille</string>
     <string name="backup_clock_markup_one_and_a_half_size">une fois et demie</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Écrêtage du noir</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Dégradé de gris 1000 nits</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Dégradé de gris 4000 nits</string>
     <string name="backup_pattern_dv_black_pluge">[DV] PLUGE noir</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Dégradés de couleur</string>
     <string name="backup_pattern_unavailable">%1$s nécessite un chemin vidéo HDR et n\'est pas encore disponible</string>
     <!-- Pages -->
@@ -183,7 +181,6 @@
     <string name="backup_files_description">Les exportations sont enregistrées dans %1$s. Avec l\'accès à tous les fichiers, QLauncher trouve aussi les sauvegardes dans Download, Documents et sur les clés USB, y compris celles de Projectivy.</string>
     <string name="backup_files_searching">Recherche de fichiers de sauvegarde…</string>
     <string name="backup_files_none">Aucun fichier de sauvegarde trouvé</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Dossier de QLauncher</string>
     <string name="backup_files_access">Trouver les sauvegardes d\'autres applications et appareils</string>
     <string name="backup_files_access_desc">Autoriser l\'accès à tous les fichiers</string>
@@ -191,7 +188,6 @@
     <string name="backup_files_browse">Autre emplacement…</string>
     <string name="backup_files_browse_desc">Choisir un fichier avec le sélecteur de fichiers du système</string>
     <string name="backup_auto_delete_all">Tout supprimer</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Après une modification</string>
     <string name="backup_reason_import">Avant une importation</string>
     <string name="backup_reason_migration">Avant une mise à jour</string>

@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">ディスプレイプロファイル</string>
     <string name="home_action_install_apps">サードパーティアプリをインストール</string>
     <string name="home_action_accessibility">ユーザー補助サービス</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">プロファイルを切り替え</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">このデバイス</string>
     <string name="home_action_about_wallpaper">この壁紙</string>
 

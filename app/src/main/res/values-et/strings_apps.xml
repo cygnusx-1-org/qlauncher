@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Kuvaprofiilid</string>
     <string name="apps_action_install_apps">Installi kolmanda osapoole rakendusi</string>
     <string name="apps_action_accessibility_service">Juurdepääsetavusteenus</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Vaheta profiili</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">See seade</string>
     <string name="apps_action_about_wallpaper">See taustapilt</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Järk</string>
     <string name="apps_device_build_desc">Järgu kirj.</string>
     <string name="apps_device_device_type">Seadme tüüp</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-aadress</string>
     <string name="apps_device_root_access">Juurkasutaja õigused</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Pildihaldur puudub</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Jah</string>
     <string name="apps_device_no">Ei</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Ikoonikomplekt</string>
+    <string name="iconset_desc">Läbipaistvad ikoonid GitHubi hoidlast, näiteks DrZacharySmith/projectivy-transparent-icons. Vali väljalase, et see alla laadida, ja seejärel stiil, mida pakub „Muuda ikooni“.</string>
+    <string name="iconset_repo">Hoidla</string>
+    <string name="iconset_repo_hint">owner/name GitHubis</string>
+    <string name="iconset_repo_add">Lisa…</string>
+    <string name="iconset_add_title">Lisa hoidla</string>
+    <string name="iconset_add_desc">GitHubi hoidla kujul owner/name ja selles olev kaust, mis sisaldab iga stiili jaoks üht PNG-ikoonide kausta, näiteks icons/styles.</string>
+    <string name="iconset_add_path">Komplektide tee</string>
+    <string name="iconset_add_path_hint">Kaust, milles on iga stiili jaoks üks kaust, nt icons/styles</string>
+    <string name="iconset_add">Lisa</string>
+    <string name="iconset_release">Väljalase</string>
+    <string name="iconset_release_none">Pole alla laaditud</string>
+    <string name="iconset_status">Olek</string>
+    <string name="iconset_loading">Väljalasete otsimine…</string>
+    <string name="iconset_downloading">%1$s allalaadimine… %2$d MB</string>
+    <string name="iconset_cancel">Tühista allalaadimine</string>
+    <string name="iconset_style">Stiil</string>
+    <string name="iconset_style_choose">Vali stiil</string>
+    <string name="iconset_match">Sobita ikoonid rakendustega</string>
+    <string name="iconset_match_desc">Pakub ikooni igale rakendusele, mille nimele mõni ikoon vastab</string>
+    <string name="iconset_reset">Taasta vaikeikoonid</string>
+    <string name="iconset_remove">Eemalda ikoonikomplekt</string>
+    <string name="iconset_fail_bad_repo">Sisesta hoidla kujul owner/name</string>
+    <string name="iconset_fail_bad_path">Sisesta kaust, näiteks icons/styles</string>
+    <string name="iconset_fail_not_found">Hoidlat ei leitud</string>
+    <string name="iconset_fail_no_releases">Sellel hoidlal pole väljalaskeid</string>
+    <string name="iconset_fail_network">Allalaadimine ebaõnnestus</string>
+    <string name="iconset_fail_http">GitHub vastas veaga (%1$s)</string>
+    <string name="iconset_fail_no_styles">Selles väljalaskes pole kaustas %1$s stiilikaustu</string>
+    <string name="iconset_fail_no_space">Pole piisavalt vaba ruumi</string>
+    <string name="iconset_fail_storage">Ikoone ei saa salvestada</string>
+    <string name="iconset_match_title">Sobita ikoonid</string>
+    <string name="iconset_apply">Rakenda (%1$d)</string>
+    <string name="iconset_match_none">Ükski rakenduse nimi ei vasta ühelegi ikoonile</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d ikoon rakendatud</item>
+        <item quantity="other">%1$d ikooni rakendatud</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d vaikeikoon taastatud</item>
+        <item quantity="other">%1$d vaikeikooni taastatud</item>
+    </plurals>
 </resources>

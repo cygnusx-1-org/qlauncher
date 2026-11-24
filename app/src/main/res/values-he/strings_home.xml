@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">פרופילי תצוגה</string>
     <string name="home_action_install_apps">התקנת אפליקציות צד שלישי</string>
     <string name="home_action_accessibility">שירות נגישות</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">החלפת פרופיל</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">המכשיר הזה</string>
     <string name="home_action_about_wallpaper">הטפט הזה</string>
 

@@ -144,7 +144,10 @@ fun HomeCard(
         focused && style.override == 1 -> style.iconTint ?: dominant ?: style.background
         else -> style.background
     }
-    val bg by animateColorAsState(baseBg, tween(if (animate) 1000 else 0), label = "cardBg")
+    val animatedBg by animateColorAsState(baseBg, tween(if (animate) 1000 else 0), label = "cardBg")
+    // An icon set's transparent icon sits straight on the wallpaper, focused or not, from its
+    // first frame: never faded out from the card colour a slot showed before.
+    val bg = if (item.transparentImage) Color.Transparent else animatedBg
     val radius = height * style.corner / 2
     val shape = RoundedCornerShape(radius)
 
@@ -186,7 +189,9 @@ fun HomeCard(
         animating && style.animation == 4 -> lerp(glowBase, Color.White, pulse)
         else -> glowBase
     }
-    val drawShadow = elevation > 0.dp && !(style.effect == 1 && bg.alpha < 200f / 255f)
+    // No glow behind an icon set's icon: with no card, the shadow of the card's box shows
+    // through it. The zoom and the title still mark the focused card.
+    val drawShadow = elevation > 0.dp && !item.transparentImage && !(style.effect == 1 && bg.alpha < 200f / 255f)
 
     Box(
         modifier
@@ -222,7 +227,11 @@ private fun CardContent(item: CardItem, focused: Boolean, style: CardStyle, onDo
     val model = fallbacks.getOrNull(attempt)
     when {
         model != null -> {
-            val fill = item.kind == CardKind.TvApp || item.kind == CardKind.Program || item.kind == CardKind.NowPlaying || item.cropToFill
+            // Banners, posters and artwork fill the card. The user's own picture is shown whole
+            // (an icon that is not 16:9 keeps its edges) unless *Crop to fill* is on; on a TV
+            // card it still spans the card, so a 16:9 one looks the same either way.
+            val fill = if (item.customImage) item.cropToFill else item.kind == CardKind.TvApp || item.kind == CardKind.Program || item.kind == CardKind.NowPlaying || item.cropToFill
+            val inset = !fill && item.kind != CardKind.TvApp
             AsyncImage(
                 model = model,
                 contentDescription = item.title,
@@ -230,7 +239,7 @@ private fun CardContent(item: CardItem, focused: Boolean, style: CardStyle, onDo
                 colorFilter = tint?.let { androidx.compose.ui.graphics.ColorFilter.tint(it) },
                 modifier = Modifier
                     .fillMaxSize()
-                    .then(if (fill) Modifier else Modifier.padding(12.dp)),
+                    .then(if (inset) Modifier.padding(12.dp) else Modifier),
                 onState = { s ->
                     if (s is AsyncImagePainter.State.Error) {
                         Log.w(TAG, "Cannot load the image of ${item.key}: $model", s.result.throwable)

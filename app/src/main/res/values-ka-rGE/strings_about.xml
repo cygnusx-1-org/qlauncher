@@ -5,7 +5,6 @@
     <string name="about_libs">ბიბლიოთეკები / მადლობები</string>
     <string name="about_links">ბმულები</string>
     <string name="about_link_project">პროექტის გვერდი</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">ქართული თარგმანი</string>
     <string name="about_translation_credit">QLauncher-ის მონაწილეები</string>
     <string name="about_no_browser">ამ მოწყობილობაზე ბრაუზერი არ არის. გახსენით %1$s სხვა მოწყობილობაზე.</string>

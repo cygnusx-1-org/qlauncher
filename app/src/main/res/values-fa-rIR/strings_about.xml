@@ -5,7 +5,6 @@
     <string name="about_libs">کتابخانه‌ها / سپاسگزاری</string>
     <string name="about_links">پیوندها</string>
     <string name="about_link_project">صفحه پروژه</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">ترجمه فارسی</string>
     <string name="about_translation_credit">مشارکت‌کنندگان QLauncher</string>
     <string name="about_no_browser">مرورگری روی این دستگاه نیست. %1$s را روی دستگاه دیگری باز کنید.</string>

@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">polovična velikost</string>
     <string name="backup_clock_markup_one_and_a_half_size">enkrat in pol</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Rezanje črne</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Sivinska rampa 1000 nitov</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Sivinska rampa 4000 nitov</string>
     <string name="backup_pattern_dv_black_pluge">[DV] Črni PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Barvne rampe</string>
     <string name="backup_pattern_unavailable">Vzorec %1$s potrebuje video pot HDR in še ni na voljo</string>
     <!-- Pages -->
@@ -193,7 +191,6 @@
     <string name="backup_files_description">Izvozi se shranijo v %1$s. Z dostopom do vseh datotek QLauncher najde tudi varnostne kopije v mapah Download in Documents ter na pogonih USB, vključno s tistimi iz aplikacije Projectivy.</string>
     <string name="backup_files_searching">Iskanje datotek varnostnih kopij…</string>
     <string name="backup_files_none">Ni najdenih datotek varnostnih kopij</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Mapa QLauncherja</string>
     <string name="backup_files_access">Poišči varnostne kopije iz drugih aplikacij in naprav</string>
     <string name="backup_files_access_desc">Dovoli dostop do vseh datotek</string>
@@ -201,7 +198,6 @@
     <string name="backup_files_browse">Druga lokacija…</string>
     <string name="backup_files_browse_desc">Izberi datoteko s sistemskim izbirnikom datotek</string>
     <string name="backup_auto_delete_all">Izbriši vse</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Po spremembi</string>
     <string name="backup_reason_import">Pred uvozom</string>
     <string name="backup_reason_migration">Pred posodobitvijo</string>

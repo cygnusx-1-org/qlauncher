@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">هیچ‌کدام</string>
     <string name="settings_more">بیشتر…</string>
     <string name="settings_custom_icon_tint">ته‌رنگ نماد سفارشی</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">اندازه کارت انتخاب‌شده</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">در صورت نسبت/کیفیت نامناسب</string>
     <string name="settings_min_width">حداقل عرض قابل‌قبول (px)</string>
     <string name="settings_src_none">هیچ‌کدام</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">رنگ‌های پویا</string>
     <string name="settings_src_default">کاغذدیواری پیش‌فرض</string>
     <string name="settings_src_media">فایل رسانه</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">هیچ تصویر یا ویدیویی پیدا نشد. چند فایل در Pictures، Movies یا Download کپی کنید، یا یک درایو USB وصل کنید.</string>
     <string name="wp_folders_description">پوشه‌های دارای تصویر یا ویدیو، در این دستگاه و روی درایوهای USB.</string>
     <string name="wp_folders_none">هیچ پوشه‌ای با تصویر یا ویدیو پیدا نشد</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d فایل</item>
         <item quantity="other">%d فایل</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">نشانی URL دلخواه / کد Downloader</string>
     <string name="install_custom_desc">فقط از منبعی استفاده کنید که به آن اعتماد دارید</string>
     <string name="install_status">وضعیت</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">این دستگاه</string>

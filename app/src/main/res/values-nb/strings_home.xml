@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Skjermprofiler</string>
     <string name="home_action_install_apps">Installer tredjepartsapper</string>
     <string name="home_action_accessibility">Tilgjengelighetstjeneste</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Bytt profil</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Denne enheten</string>
     <string name="home_action_about_wallpaper">Dette bakgrunnsbildet</string>
 

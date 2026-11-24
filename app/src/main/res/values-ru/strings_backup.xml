@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">половинный размер</string>
     <string name="backup_clock_markup_one_and_a_half_size">в полтора раза</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Отсечение чёрного</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Градиент серого 1000 нит</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Градиент серого 4000 нит</string>
     <string name="backup_pattern_dv_black_pluge">[DV] Чёрный PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Цветовые градиенты</string>
     <string name="backup_pattern_unavailable">%1$s: нужен HDR-видеотракт, пока недоступно</string>
     <!-- Pages -->
@@ -193,7 +191,6 @@
     <string name="backup_files_description">Экспортированные файлы сохраняются в %1$s. С доступом ко всем файлам QLauncher также находит резервные копии в папках Download, Documents и на USB-накопителях, включая копии Projectivy.</string>
     <string name="backup_files_searching">Поиск файлов резервных копий…</string>
     <string name="backup_files_none">Файлы резервных копий не найдены</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Папка QLauncher</string>
     <string name="backup_files_access">Искать копии других приложений и устройств</string>
     <string name="backup_files_access_desc">Разрешить доступ ко всем файлам</string>
@@ -201,7 +198,6 @@
     <string name="backup_files_browse">Другое место…</string>
     <string name="backup_files_browse_desc">Выбрать файл через системный выбор файлов</string>
     <string name="backup_auto_delete_all">Удалить все</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">После изменения</string>
     <string name="backup_reason_import">Перед импортом</string>
     <string name="backup_reason_migration">Перед обновлением</string>

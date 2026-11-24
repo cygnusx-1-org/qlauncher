@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">metà dimensione</string>
     <string name="backup_clock_markup_one_and_a_half_size">una volta e mezza</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Clipping del nero</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Rampa di grigi 1000 nit</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Rampa di grigi 4000 nit</string>
     <string name="backup_pattern_dv_black_pluge">[DV] PLUGE del nero</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Rampe di colore</string>
     <string name="backup_pattern_unavailable">%1$s richiede un percorso video HDR e non è ancora disponibile</string>
     <!-- Pages -->
@@ -183,7 +181,6 @@
     <string name="backup_files_description">Le esportazioni vengono salvate in %1$s. Con l\'accesso a tutti i file, QLauncher trova anche i backup in Download, Documents e sulle unità USB, compresi quelli di Projectivy.</string>
     <string name="backup_files_searching">Ricerca dei file di backup…</string>
     <string name="backup_files_none">Nessun file di backup trovato</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Cartella di QLauncher</string>
     <string name="backup_files_access">Trova i backup di altre app e dispositivi</string>
     <string name="backup_files_access_desc">Consenti l\'accesso a tutti i file</string>
@@ -191,7 +188,6 @@
     <string name="backup_files_browse">Altra posizione…</string>
     <string name="backup_files_browse_desc">Scegli un file con il selettore file di sistema</string>
     <string name="backup_auto_delete_all">Elimina tutti</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Dopo una modifica</string>
     <string name="backup_reason_import">Prima di un\'importazione</string>
     <string name="backup_reason_migration">Prima di un aggiornamento</string>

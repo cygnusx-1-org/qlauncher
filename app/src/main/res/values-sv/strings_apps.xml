@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Skärmprofiler</string>
     <string name="apps_action_install_apps">Installera tredjepartsappar</string>
     <string name="apps_action_accessibility_service">Tillgänglighetstjänst</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Byt profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Den här enheten</string>
     <string name="apps_action_about_wallpaper">Den här bakgrundsbilden</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Byggversion</string>
     <string name="apps_device_build_desc">Byggbeskr.</string>
     <string name="apps_device_device_type">Enhetstyp</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-adress</string>
     <string name="apps_device_root_access">Root-åtkomst</string>
-    <string name="apps_device_pm_info">PM-info</string>
     <string name="apps_device_pm_none">Ingen bildhanterare</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Ja</string>
     <string name="apps_device_no">Nej</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Ikonuppsättning</string>
+    <string name="iconset_desc">Genomskinliga ikoner från ett GitHub-repository, till exempel DrZacharySmith/projectivy-transparent-icons. Välj en utgåva för att ladda ned den och sedan stilen som ”Byt ikon” erbjuder.</string>
+    <string name="iconset_repo">Repository</string>
+    <string name="iconset_repo_hint">owner/name på GitHub</string>
+    <string name="iconset_repo_add">Lägg till…</string>
+    <string name="iconset_add_title">Lägg till repository</string>
+    <string name="iconset_add_desc">Ett GitHub-repository som owner/name och mappen i det som innehåller en mapp med PNG-ikoner per stil, till exempel icons/styles.</string>
+    <string name="iconset_add_path">Sökväg till uppsättningarna</string>
+    <string name="iconset_add_path_hint">Mappen med en mapp per stil, t.ex. icons/styles</string>
+    <string name="iconset_add">Lägg till</string>
+    <string name="iconset_release">Utgåva</string>
+    <string name="iconset_release_none">Inte nedladdad</string>
+    <string name="iconset_status">Status</string>
+    <string name="iconset_loading">Söker efter utgåvor…</string>
+    <string name="iconset_downloading">Laddar ned %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Avbryt nedladdningen</string>
+    <string name="iconset_style">Stil</string>
+    <string name="iconset_style_choose">Välj en stil</string>
+    <string name="iconset_match">Matcha ikoner med appar</string>
+    <string name="iconset_match_desc">Föreslår en ikon för varje app vars namn matchar en</string>
+    <string name="iconset_reset">Återställ ikonerna till standard</string>
+    <string name="iconset_remove">Ta bort ikonuppsättningen</string>
+    <string name="iconset_fail_bad_repo">Ange repository som owner/name</string>
+    <string name="iconset_fail_bad_path">Ange en mapp, till exempel icons/styles</string>
+    <string name="iconset_fail_not_found">Repository hittades inte</string>
+    <string name="iconset_fail_no_releases">Det här repositoryt har inga utgåvor</string>
+    <string name="iconset_fail_network">Nedladdningen misslyckades</string>
+    <string name="iconset_fail_http">GitHub svarade med ett fel (%1$s)</string>
+    <string name="iconset_fail_no_styles">Den här utgåvan har inga stilmappar i %1$s</string>
+    <string name="iconset_fail_no_space">Inte tillräckligt med ledigt utrymme</string>
+    <string name="iconset_fail_storage">Det går inte att spara ikonerna</string>
+    <string name="iconset_match_title">Matcha ikoner</string>
+    <string name="iconset_apply">Använd (%1$d)</string>
+    <string name="iconset_match_none">Inget appnamn matchar någon ikon</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d ikon används nu</item>
+        <item quantity="other">%1$d ikoner används nu</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ikon återställd till standard</item>
+        <item quantity="other">%1$d ikoner återställda till standard</item>
+    </plurals>
 </resources>

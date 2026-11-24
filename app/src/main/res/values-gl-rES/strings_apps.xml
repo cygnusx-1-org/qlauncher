@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Perfís de pantalla</string>
     <string name="apps_action_install_apps">Instalar aplicacións de terceiros</string>
     <string name="apps_action_accessibility_service">Servizo de accesibilidade</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Cambiar de perfil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Este dispositivo</string>
     <string name="apps_action_about_wallpaper">Este fondo de pantalla</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Compilación</string>
     <string name="apps_device_build_desc">Desc. da compilación</string>
     <string name="apps_device_device_type">Tipo de dispositivo</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Enderezo IP</string>
     <string name="apps_device_root_access">Acceso root</string>
-    <string name="apps_device_pm_info">Info. PM</string>
     <string name="apps_device_pm_none">Sen xestor de imaxe</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Si</string>
     <string name="apps_device_no">Non</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Conxunto de iconas</string>
+    <string name="iconset_desc">Iconas transparentes dun repositorio de GitHub, como DrZacharySmith/projectivy-transparent-icons. Escolle unha versión para descargala e despois o estilo que ofrece «Cambiar a icona».</string>
+    <string name="iconset_repo">Repositorio</string>
+    <string name="iconset_repo_hint">owner/name en GitHub</string>
+    <string name="iconset_repo_add">Engadir…</string>
+    <string name="iconset_add_title">Engadir repositorio</string>
+    <string name="iconset_add_desc">Un repositorio de GitHub no formato owner/name e o cartafol del que contén un cartafol de iconas PNG por cada estilo, como icons/styles.</string>
+    <string name="iconset_add_path">Ruta aos conxuntos</string>
+    <string name="iconset_add_path_hint">O cartafol cun cartafol por estilo, p. ex. icons/styles</string>
+    <string name="iconset_add">Engadir</string>
+    <string name="iconset_release">Versión</string>
+    <string name="iconset_release_none">Sen descargar</string>
+    <string name="iconset_status">Estado</string>
+    <string name="iconset_loading">Buscando versións…</string>
+    <string name="iconset_downloading">Descargando %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Cancelar descarga</string>
+    <string name="iconset_style">Estilo</string>
+    <string name="iconset_style_choose">Escoller un estilo</string>
+    <string name="iconset_match">Asociar iconas ás aplicacións</string>
+    <string name="iconset_match_desc">Propón unha icona para cada aplicación cuxo nome coincida cunha</string>
+    <string name="iconset_reset">Restablecer as iconas predeterminadas</string>
+    <string name="iconset_remove">Quitar o conxunto de iconas</string>
+    <string name="iconset_fail_bad_repo">Introduce o repositorio como owner/name</string>
+    <string name="iconset_fail_bad_path">Introduce un cartafol como icons/styles</string>
+    <string name="iconset_fail_not_found">Non se atopou o repositorio</string>
+    <string name="iconset_fail_no_releases">Este repositorio non ten versións</string>
+    <string name="iconset_fail_network">A descarga fallou</string>
+    <string name="iconset_fail_http">GitHub respondeu cun erro (%1$s)</string>
+    <string name="iconset_fail_no_styles">Esta versión non ten cartafoles de estilo en %1$s</string>
+    <string name="iconset_fail_no_space">Non hai espazo libre suficiente</string>
+    <string name="iconset_fail_storage">Non se poden gardar as iconas</string>
+    <string name="iconset_match_title">Asociar iconas</string>
+    <string name="iconset_apply">Aplicar (%1$d)</string>
+    <string name="iconset_match_none">Ningún nome de aplicación coincide cunha icona</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d icona aplicada</item>
+        <item quantity="other">%1$d iconas aplicadas</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d icona restablecida ao valor predeterminado</item>
+        <item quantity="other">%1$d iconas restablecidas ao valor predeterminado</item>
+    </plurals>
 </resources>

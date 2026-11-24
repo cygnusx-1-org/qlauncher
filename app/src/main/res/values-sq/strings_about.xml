@@ -5,7 +5,6 @@
     <string name="about_libs">Bibliotekat / Meritat</string>
     <string name="about_links">Lidhjet</string>
     <string name="about_link_project">Faqja e projektit</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Përkthimi shqip</string>
     <string name="about_translation_credit">Kontribuuesit e QLauncher</string>
     <string name="about_no_browser">Nuk ka shfletues në këtë pajisje. Hap %1$s në një pajisje tjetër.</string>

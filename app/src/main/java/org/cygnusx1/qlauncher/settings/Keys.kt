@@ -55,6 +55,12 @@ object Keys {
         /** The last text typed into *Install 3rd party apps › Custom URL / Downloader code*. */
         val installInput = StringKey("internal.install_input", "", exported = false, icon = "link").reg()
 
+        /** *Cards › Icon set › Repository*: the chosen GitHub repository (`owner/repo`). */
+        val iconSetRepo = StringKey("internal.icon_set_repo", "DrZacharySmith/projectivy-transparent-icons", exported = false, icon = "link").reg()
+
+        /** *Cards › Icon set › Repository › Add…*: the added repositories and their paths (`IconSetNames.encodeSources`). */
+        val iconSetRepos = StringKey("internal.icon_set_repos", "", exported = false).reg()
+
         /** The serialised last wallpaper, shown at once on the next start. */
         val lastWallpaper = StringKey("internal.last_wallpaper", "", "appearance_wallpaper_last_cached_nexp", exported = false).reg()
 

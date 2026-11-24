@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Definir como imagem de fundo do QLauncher</string>
     <string name="import_settings">Importar para o QLauncher</string>
     <string name="accessibility_service_description">O QLauncher vê as teclas físicas premidas e o nome da aplicação em primeiro plano, para substituir o launcher original, executar ações no arranque, remapear os botões do comando, detetar inatividade e aplicar o controlo parental. Ambos ficam na memória deste dispositivo e nunca são enviados para lado nenhum.</string>

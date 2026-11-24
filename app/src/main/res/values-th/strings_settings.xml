@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">ไม่มี</string>
     <string name="settings_more">เพิ่มเติม…</string>
     <string name="settings_custom_icon_tint">สีแต้มไอคอนที่กำหนดเอง</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">ขนาดการ์ดที่โฟกัส</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">เมื่อสัดส่วน/คุณภาพไม่เหมาะสม</string>
     <string name="settings_min_width">ความกว้างขั้นต่ำที่ยอมรับ (px)</string>
     <string name="settings_src_none">ไม่มี</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">สีแบบไดนามิก</string>
     <string name="settings_src_default">วอลเปเปอร์เริ่มต้น</string>
     <string name="settings_src_media">ไฟล์สื่อ</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">ไม่พบรูปภาพหรือวิดีโอ คัดลอกไฟล์ไปที่ Pictures, Movies หรือ Download หรือเสียบไดรฟ์ USB</string>
     <string name="wp_folders_description">โฟลเดอร์ที่มีรูปภาพหรือวิดีโอ ในอุปกรณ์นี้และในไดรฟ์ USB</string>
     <string name="wp_folders_none">ไม่พบโฟลเดอร์ที่มีรูปภาพหรือวิดีโอ</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="other">%d ไฟล์</item>
     </plurals>
@@ -345,7 +340,6 @@
     <string name="install_custom">URL ที่กำหนดเอง / รหัส Downloader</string>
     <string name="install_custom_desc">ใช้เฉพาะแหล่งที่คุณเชื่อถือ</string>
     <string name="install_status">สถานะ</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">อุปกรณ์นี้</string>

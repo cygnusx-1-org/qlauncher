@@ -2,10 +2,9 @@
 <resources>
     <string name="about_version">Versio %1$s</string>
     <string name="about_copyright">Copyright © 2026 QLauncherin tekijät. Vapaa ohjelmisto GNU General Public License -lisenssin version 3 ehdoin.</string>
-    <string name="about_libs">Kirjastot / Tekijät</string>
+    <string name="about_libs">Kirjastot / Kiitokset</string>
     <string name="about_links">Linkit</string>
-    <string name="about_link_project">Projektin sivu</string>
-    <string name="about_link_licence">GNU GPL v3</string>
+    <string name="about_link_project">Projektisivu</string>
     <string name="about_translation">Suomenkielinen käännös</string>
     <string name="about_translation_credit">QLauncherin tekijät</string>
     <string name="about_no_browser">Tässä laitteessa ei ole selainta. Avaa %1$s toisella laitteella.</string>

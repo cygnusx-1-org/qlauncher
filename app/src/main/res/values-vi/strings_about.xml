@@ -5,7 +5,6 @@
     <string name="about_libs">Thư viện / Ghi công</string>
     <string name="about_links">Liên kết</string>
     <string name="about_link_project">Trang dự án</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Bản dịch tiếng Việt</string>
     <string name="about_translation_credit">Những người đóng góp cho QLauncher</string>
     <string name="about_no_browser">Không có trình duyệt trên thiết bị này. Hãy mở %1$s trên thiết bị khác.</string>

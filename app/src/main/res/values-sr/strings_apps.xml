@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Профили екрана</string>
     <string name="apps_action_install_apps">Инсталирај апликације трећих страна</string>
     <string name="apps_action_accessibility_service">Услуга приступачности</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Промени профил</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Овај уређај</string>
     <string name="apps_action_about_wallpaper">Ова позадина</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">Број верзије</string>
     <string name="apps_device_build_desc">Опис верзије</string>
     <string name="apps_device_device_type">Тип уређаја</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP адреса</string>
     <string name="apps_device_root_access">Root приступ</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Нема менаџера слике</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Да</string>
     <string name="apps_device_no">Не</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Скуп икона</string>
+    <string name="iconset_desc">Провидне иконе из GitHub репозиторијума, нпр. DrZacharySmith/projectivy-transparent-icons. Изаберите издање да бисте га преузели, а затим стил који нуди ставка „Промени икону“.</string>
+    <string name="iconset_repo">Репозиторијум</string>
+    <string name="iconset_repo_hint">owner/name на GitHub-у</string>
+    <string name="iconset_repo_add">Додај…</string>
+    <string name="iconset_add_title">Додај репозиторијум</string>
+    <string name="iconset_add_desc">GitHub репозиторијум у облику owner/name и фасцикла у њему која садржи по једну фасциклу PNG икона за сваки стил, нпр. icons/styles.</string>
+    <string name="iconset_add_path">Путања до скупова</string>
+    <string name="iconset_add_path_hint">Фасцикла са по једном фасциклом за сваки стил, нпр. icons/styles</string>
+    <string name="iconset_add">Додај</string>
+    <string name="iconset_release">Издање</string>
+    <string name="iconset_release_none">Није преузето</string>
+    <string name="iconset_status">Статус</string>
+    <string name="iconset_loading">Тражење издања…</string>
+    <string name="iconset_downloading">Преузима се %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Откажи преузимање</string>
+    <string name="iconset_style">Стил</string>
+    <string name="iconset_style_choose">Изаберите стил</string>
+    <string name="iconset_match">Додели иконе апликацијама</string>
+    <string name="iconset_match_desc">Предлаже икону за сваку апликацију чији назив одговара некој икони</string>
+    <string name="iconset_reset">Врати подразумеване иконе</string>
+    <string name="iconset_remove">Уклони скуп икона</string>
+    <string name="iconset_fail_bad_repo">Унесите репозиторијум у облику owner/name</string>
+    <string name="iconset_fail_bad_path">Унесите фасциклу, нпр. icons/styles</string>
+    <string name="iconset_fail_not_found">Репозиторијум није пронађен</string>
+    <string name="iconset_fail_no_releases">Овај репозиторијум нема издања</string>
+    <string name="iconset_fail_network">Преузимање није успело</string>
+    <string name="iconset_fail_http">GitHub је вратио грешку (%1$s)</string>
+    <string name="iconset_fail_no_styles">Ово издање нема фасцикли са стиловима у %1$s</string>
+    <string name="iconset_fail_no_space">Нема довољно слободног простора</string>
+    <string name="iconset_fail_storage">Иконе не могу да се сачувају</string>
+    <string name="iconset_match_title">Додели иконе</string>
+    <string name="iconset_apply">Примени (%1$d)</string>
+    <string name="iconset_match_none">Ниједан назив апликације не одговара икони</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Примењена је %1$d икона</item>
+        <item quantity="few">Примењене су %1$d иконе</item>
+        <item quantity="other">Примењено је %1$d икона</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d икона је враћена на подразумевано</item>
+        <item quantity="few">%1$d иконе су враћене на подразумевано</item>
+        <item quantity="other">%1$d икона је враћено на подразумевано</item>
+    </plurals>
 </resources>

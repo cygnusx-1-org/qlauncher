@@ -5,7 +5,6 @@
     <string name="about_libs">المكتبات / الشكر</string>
     <string name="about_links">الروابط</string>
     <string name="about_link_project">صفحة المشروع</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">الترجمة العربية</string>
     <string name="about_translation_credit">المساهمون في QLauncher</string>
     <string name="about_no_browser">لا يوجد متصفح على هذا الجهاز. افتح %1$s على جهاز آخر.</string>

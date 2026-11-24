@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">一半大小</string>
     <string name="backup_clock_markup_one_and_a_half_size">一倍半大小</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">黑色截斷</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] 灰階漸層 1000 尼特</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] 灰階漸層 4000 尼特</string>
     <string name="backup_pattern_dv_black_pluge">[DV] 黑色 PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] 色彩漸層</string>
     <string name="backup_pattern_unavailable">%1$s 需要 HDR 影片輸出路徑，目前尚無法使用</string>
     <!-- Pages -->
@@ -163,7 +161,6 @@
     <string name="backup_files_description">匯出的檔案會儲存在 %1$s。取得所有檔案存取權後，QLauncher 也能在 Download、Documents 和 USB 隨身碟中找到備份，包括 Projectivy 的備份。</string>
     <string name="backup_files_searching">正在尋找備份檔案…</string>
     <string name="backup_files_none">找不到備份檔案</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">QLauncher 的資料夾</string>
     <string name="backup_files_access">尋找其他應用程式和裝置的備份</string>
     <string name="backup_files_access_desc">允許存取所有檔案</string>
@@ -171,7 +168,6 @@
     <string name="backup_files_browse">其他位置…</string>
     <string name="backup_files_browse_desc">使用系統檔案挑選器選擇檔案</string>
     <string name="backup_auto_delete_all">全部刪除</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">變更後</string>
     <string name="backup_reason_import">匯入前</string>
     <string name="backup_reason_migration">更新前</string>

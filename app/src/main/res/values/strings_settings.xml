@@ -82,8 +82,8 @@
     <string name="settings_icon_pack_off">None</string>
     <string name="settings_more">More…</string>
     <string name="settings_custom_icon_tint">Custom icon tint</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
+    <string name="settings_ratio_16_9" translatable="false">16/9</string>
+    <string name="settings_ratio_1_1" translatable="false">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Focused card size</string>
@@ -127,8 +127,8 @@
     <string name="settings_bad_ratio">In case of bad ratio/quality</string>
     <string name="settings_min_width">Minimum accepted width (px)</string>
     <string name="settings_src_none">None</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
+    <string name="settings_src_reddit" translatable="false">Reddit</string>
+    <string name="settings_src_wikimedia" translatable="false">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dynamic colors</string>
     <string name="settings_src_default">Default wallpaper</string>
     <string name="settings_src_media">Media file</string>
@@ -308,7 +308,7 @@
     <string name="wp_media_none">No pictures or videos found. Copy some to Pictures, Movies or Download, or plug in a USB drive.</string>
     <string name="wp_folders_description">Folders with pictures or videos, on this device and on USB drives.</string>
     <string name="wp_folders_none">No folders with pictures or videos found</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <string name="wp_folders_entry" translatable="false">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d file</item>
         <item quantity="other">%d files</item>
@@ -346,7 +346,7 @@
     <string name="install_custom">Custom URL / Downloader code</string>
     <string name="install_custom_desc">Only use a source you trust</string>
     <string name="install_status">Status</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
+    <string name="install_method_choice" translatable="false">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">This device</string>

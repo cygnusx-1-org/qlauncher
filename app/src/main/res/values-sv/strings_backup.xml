@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">halv storlek</string>
     <string name="backup_clock_markup_one_and_a_half_size">en och en halv gång</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Svartklippning</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Gråskaleramp 1000 nits</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Gråskaleramp 4000 nits</string>
     <string name="backup_pattern_dv_black_pluge">[DV] Svart PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Färgramper</string>
     <string name="backup_pattern_unavailable">%1$s kräver HDR-videouppspelning och är inte tillgängligt än</string>
     <!-- Pages -->
@@ -173,7 +171,6 @@
     <string name="backup_files_description">Exporter sparas i %1$s. Med åtkomst till alla filer hittar QLauncher även säkerhetskopior i Download, Documents och på USB-minnen, inklusive Projectivys.</string>
     <string name="backup_files_searching">Söker efter säkerhetskopior…</string>
     <string name="backup_files_none">Inga säkerhetskopior hittades</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">QLaunchers mapp</string>
     <string name="backup_files_access">Hitta säkerhetskopior från andra appar och enheter</string>
     <string name="backup_files_access_desc">Tillåt åtkomst till alla filer</string>
@@ -181,7 +178,6 @@
     <string name="backup_files_browse">Annan plats…</string>
     <string name="backup_files_browse_desc">Välj en fil med systemets filväljare</string>
     <string name="backup_auto_delete_all">Radera alla</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Efter en ändring</string>
     <string name="backup_reason_import">Före en import</string>
     <string name="backup_reason_migration">Före en uppdatering</string>

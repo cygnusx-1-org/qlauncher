@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Ekrano profiliai</string>
     <string name="apps_action_install_apps">Įdiegti trečiųjų šalių programas</string>
     <string name="apps_action_accessibility_service">Pritaikymo neįgaliesiems paslauga</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Perjungti profilį</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Šis įrenginys</string>
     <string name="apps_action_about_wallpaper">Šis ekrano fonas</string>
 
@@ -103,12 +101,58 @@
     <string name="apps_device_build">Versijos numeris</string>
     <string name="apps_device_build_desc">Versijos aprašas</string>
     <string name="apps_device_device_type">Įrenginio tipas</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP adresas</string>
     <string name="apps_device_root_access">Root prieiga</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Nėra vaizdo tvarkytuvės</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Taip</string>
     <string name="apps_device_no">Ne</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Piktogramų rinkinys</string>
+    <string name="iconset_desc">Permatomos piktogramos iš GitHub saugyklos, pvz., DrZacharySmith/projectivy-transparent-icons. Pasirinkite leidimą, kad jį atsisiųstumėte, tada stilių, kurį siūlo „Keisti piktogramą“.</string>
+    <string name="iconset_repo">Saugykla</string>
+    <string name="iconset_repo_hint">owner/name platformoje GitHub</string>
+    <string name="iconset_repo_add">Pridėti…</string>
+    <string name="iconset_add_title">Pridėti saugyklą</string>
+    <string name="iconset_add_desc">GitHub saugykla formatu owner/name ir joje esantis aplankas, kuriame kiekvienam stiliui yra po vieną PNG piktogramų aplanką, pvz., icons/styles.</string>
+    <string name="iconset_add_path">Kelias iki rinkinių</string>
+    <string name="iconset_add_path_hint">Aplankas, kuriame kiekvienam stiliui yra po aplanką, pvz., icons/styles</string>
+    <string name="iconset_add">Pridėti</string>
+    <string name="iconset_release">Leidimas</string>
+    <string name="iconset_release_none">Neatsisiųsta</string>
+    <string name="iconset_status">Būsena</string>
+    <string name="iconset_loading">Ieškoma leidimų…</string>
+    <string name="iconset_downloading">Atsisiunčiama %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Atšaukti atsisiuntimą</string>
+    <string name="iconset_style">Stilius</string>
+    <string name="iconset_style_choose">Pasirinkite stilių</string>
+    <string name="iconset_match">Susieti piktogramas su programomis</string>
+    <string name="iconset_match_desc">Siūlo piktogramą kiekvienai programai, kurios pavadinimas atitinka kurią nors piktogramą</string>
+    <string name="iconset_reset">Atkurti numatytąsias piktogramas</string>
+    <string name="iconset_remove">Pašalinti piktogramų rinkinį</string>
+    <string name="iconset_fail_bad_repo">Įveskite saugyklą formatu owner/name</string>
+    <string name="iconset_fail_bad_path">Įveskite aplanką, pvz., icons/styles</string>
+    <string name="iconset_fail_not_found">Saugykla nerasta</string>
+    <string name="iconset_fail_no_releases">Ši saugykla neturi leidimų</string>
+    <string name="iconset_fail_network">Atsisiųsti nepavyko</string>
+    <string name="iconset_fail_http">GitHub grąžino klaidą (%1$s)</string>
+    <string name="iconset_fail_no_styles">Šiame leidime aplanke %1$s nėra stilių aplankų</string>
+    <string name="iconset_fail_no_space">Nepakanka laisvos vietos</string>
+    <string name="iconset_fail_storage">Piktogramų nepavyksta išsaugoti</string>
+    <string name="iconset_match_title">Susieti piktogramas</string>
+    <string name="iconset_apply">Taikyti (%1$d)</string>
+    <string name="iconset_match_none">Nė vienos programos pavadinimas neatitinka piktogramos</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Pritaikyta %1$d piktograma</item>
+        <item quantity="few">Pritaikytos %1$d piktogramos</item>
+        <item quantity="many">Pritaikyta %1$d piktogramos</item>
+        <item quantity="other">Pritaikyta %1$d piktogramų</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">Atkurta %1$d numatytoji piktograma</item>
+        <item quantity="few">Atkurtos %1$d numatytosios piktogramos</item>
+        <item quantity="many">Atkurta %1$d numatytosios piktogramos</item>
+        <item quantity="other">Atkurta %1$d numatytųjų piktogramų</item>
+    </plurals>
 </resources>

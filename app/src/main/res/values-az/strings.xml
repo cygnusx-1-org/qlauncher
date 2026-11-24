@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">QLauncher divar kağızı kimi təyin et</string>
     <string name="import_settings">QLauncher-ə idxal et</string>
     <string name="accessibility_service_description">QLauncher daxili başladıcını əvəz etmək, açılışda əməliyyatları icra etmək, pult düymələrinin təyinatını dəyişmək, fəaliyyətsizlik vaxtını aşkarlamaq və valideyn nəzarətini tətbiq etmək üçün aparat düymə basışlarını və ön planda olan tətbiqin adını görür. Hər ikisi yalnız bu cihazın yaddaşında qalır və heç yerə göndərilmir.</string>

@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Displeja profili</string>
     <string name="home_action_install_apps">Instalēt trešo pušu lietotnes</string>
     <string name="home_action_accessibility">Pieejamības pakalpojums</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Pārslēgt profilu</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Šī ierīce</string>
     <string name="home_action_about_wallpaper">Šī fona tapete</string>
 

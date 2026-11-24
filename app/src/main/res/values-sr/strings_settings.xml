@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Ништа</string>
     <string name="settings_more">Још…</string>
     <string name="settings_custom_icon_tint">Тонирање прилагођених икона</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Величина картице у фокусу</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">У случају лошег односа/квалитета</string>
     <string name="settings_min_width">Најмања прихваћена ширина (px)</string>
     <string name="settings_src_none">Ништа</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Динамичне боје</string>
     <string name="settings_src_default">Подразумевана позадина</string>
     <string name="settings_src_media">Медијска датотека</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Није пронађена ниједна слика ни видео. Копирајте неке у Pictures, Movies или Download или прикључите USB диск.</string>
     <string name="wp_folders_description">Фасцикле са сликама или видео снимцима, на овом уређају и на USB дисковима.</string>
     <string name="wp_folders_none">Није пронађена ниједна фасцикла са сликама или видео снимцима</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d датотека</item>
         <item quantity="few">%d датотеке</item>
@@ -347,7 +342,6 @@
     <string name="install_custom">Прилагођени URL / Downloader код</string>
     <string name="install_custom_desc">Користите само извор коме верујете</string>
     <string name="install_status">Статус</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Овај уређај</string>

@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Προφίλ οθόνης</string>
     <string name="home_action_install_apps">Εγκατάσταση εφαρμογών τρίτων</string>
     <string name="home_action_accessibility">Υπηρεσία προσβασιμότητας</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Εναλλαγή προφίλ</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Αυτή η συσκευή</string>
     <string name="home_action_about_wallpaper">Αυτή η ταπετσαρία</string>
 

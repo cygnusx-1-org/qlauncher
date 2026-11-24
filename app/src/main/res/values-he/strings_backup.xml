@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">חצי גודל</string>
     <string name="backup_clock_markup_one_and_a_half_size">פי אחד וחצי</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">חיתוך שחור</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">\u200F[HDR] מעבר גווני אפור 1000 ניט</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">\u200F[HDR] מעבר גווני אפור 4000 ניט</string>
     <string name="backup_pattern_dv_black_pluge">\u200F[DV] PLUGE שחור</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">\u200F[DV] מעברי צבע</string>
     <string name="backup_pattern_unavailable">לתבנית %1$s נדרש נתיב וידאו HDR, והיא עדיין לא זמינה</string>
     <!-- Pages -->
@@ -183,7 +181,6 @@
     <string name="backup_files_description">הייצואים נשמרים ב-%1$s. עם גישה לכל הקבצים, QLauncher מוצאת גם גיבויים ב-Download, ב-Documents ובכונני USB, כולל אלה של Projectivy.</string>
     <string name="backup_files_searching">מחפש קובצי גיבוי…</string>
     <string name="backup_files_none">לא נמצאו קובצי גיבוי</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">התיקייה של QLauncher</string>
     <string name="backup_files_access">חיפוש גיבויים מאפליקציות וממכשירים אחרים</string>
     <string name="backup_files_access_desc">מתן גישה לכל הקבצים</string>
@@ -191,7 +188,6 @@
     <string name="backup_files_browse">מיקום אחר…</string>
     <string name="backup_files_browse_desc">בחירת קובץ בבורר הקבצים של המערכת</string>
     <string name="backup_auto_delete_all">מחיקת הכול</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">אחרי שינוי</string>
     <string name="backup_reason_import">לפני ייבוא</string>
     <string name="backup_reason_migration">לפני עדכון</string>

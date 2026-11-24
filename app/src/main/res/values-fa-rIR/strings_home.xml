@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">نمایه‌های نمایشگر</string>
     <string name="home_action_install_apps">نصب برنامه‌های شخص ثالث</string>
     <string name="home_action_accessibility">سرویس دسترس‌پذیری</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">تغییر نمایه</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">این دستگاه</string>
     <string name="home_action_about_wallpaper">این کاغذدیواری</string>
 

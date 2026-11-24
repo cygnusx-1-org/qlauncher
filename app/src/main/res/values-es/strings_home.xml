@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Perfiles de pantalla</string>
     <string name="home_action_install_apps">Instalar aplicaciones de terceros</string>
     <string name="home_action_accessibility">Servicio de accesibilidad</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Cambiar de perfil</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Este dispositivo</string>
     <string name="home_action_about_wallpaper">Este fondo de pantalla</string>
 

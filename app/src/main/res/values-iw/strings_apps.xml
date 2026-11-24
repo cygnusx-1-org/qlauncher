@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">פרופילי תצוגה</string>
     <string name="apps_action_install_apps">התקנת אפליקציות צד שלישי</string>
     <string name="apps_action_accessibility_service">שירות נגישות</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">החלפת פרופיל</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">המכשיר הזה</string>
     <string name="apps_action_about_wallpaper">הטפט הזה</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">מספר Build</string>
     <string name="apps_device_build_desc">תיאור Build</string>
     <string name="apps_device_device_type">סוג מכשיר</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">כתובת IP</string>
     <string name="apps_device_root_access">הרשאת Root</string>
-    <string name="apps_device_pm_info">מידע PM</string>
     <string name="apps_device_pm_none">אין מנהל תמונה</string>
     <string name="apps_device_id">מזהה</string>
     <string name="apps_device_yes">כן</string>
     <string name="apps_device_no">לא</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">אוסף סמלים</string>
+    <string name="iconset_desc">סמלים שקופים ממאגר ב-GitHub, כמו DrZacharySmith/projectivy-transparent-icons. יש לבחור גרסה כדי להוריד אותה, ואז את הסגנון שמציע \"שינוי סמל\".</string>
+    <string name="iconset_repo">מאגר</string>
+    <string name="iconset_repo_hint">owner/name ב-GitHub</string>
+    <string name="iconset_repo_add">הוספה…</string>
+    <string name="iconset_add_title">הוספת מאגר</string>
+    <string name="iconset_add_desc">מאגר ב-GitHub בתבנית owner/name, והתיקייה בו שמכילה תיקייה אחת של סמלי PNG לכל סגנון, כמו icons/styles.</string>
+    <string name="iconset_add_path">הנתיב לאוספים</string>
+    <string name="iconset_add_path_hint">התיקייה עם תיקייה אחת לכל סגנון, למשל icons/styles</string>
+    <string name="iconset_add">הוספה</string>
+    <string name="iconset_release">גרסה</string>
+    <string name="iconset_release_none">לא הורדה</string>
+    <string name="iconset_status">סטטוס</string>
+    <string name="iconset_loading">מחפש גרסאות…</string>
+    <string name="iconset_downloading">מוריד את %1$s… %2$d MB</string>
+    <string name="iconset_cancel">ביטול ההורדה</string>
+    <string name="iconset_style">סגנון</string>
+    <string name="iconset_style_choose">בחירת סגנון</string>
+    <string name="iconset_match">התאמת סמלים לאפליקציות</string>
+    <string name="iconset_match_desc">מציע סמל לכל אפליקציה ששמה תואם לאחד הסמלים</string>
+    <string name="iconset_reset">איפוס הסמלים לברירת המחדל</string>
+    <string name="iconset_remove">הסרת אוסף הסמלים</string>
+    <string name="iconset_fail_bad_repo">יש להזין את המאגר בתבנית owner/name</string>
+    <string name="iconset_fail_bad_path">יש להזין תיקייה כמו icons/styles</string>
+    <string name="iconset_fail_not_found">המאגר לא נמצא</string>
+    <string name="iconset_fail_no_releases">אין גרסאות במאגר הזה</string>
+    <string name="iconset_fail_network">ההורדה נכשלה</string>
+    <string name="iconset_fail_http">GitHub השיב בשגיאה (%1$s)</string>
+    <string name="iconset_fail_no_styles">אין בגרסה הזו תיקיות סגנון ב-%1$s</string>
+    <string name="iconset_fail_no_space">אין מספיק שטח פנוי</string>
+    <string name="iconset_fail_storage">לא ניתן לשמור את הסמלים</string>
+    <string name="iconset_match_title">התאמת סמלים</string>
+    <string name="iconset_apply">החלה (%1$d)</string>
+    <string name="iconset_match_none">אין שם אפליקציה שתואם לסמל כלשהו</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">הוחל %1$d סמל</item>
+        <item quantity="two">הוחלו %1$d סמלים</item>
+        <item quantity="other">הוחלו %1$d סמלים</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d סמל אופס לברירת המחדל</item>
+        <item quantity="two">%1$d סמלים אופסו לברירת המחדל</item>
+        <item quantity="other">%1$d סמלים אופסו לברירת המחדל</item>
+    </plurals>
 </resources>

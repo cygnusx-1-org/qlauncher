@@ -5,7 +5,6 @@
     <string name="about_libs">Bibliotheken / Danksagungen</string>
     <string name="about_links">Links</string>
     <string name="about_link_project">Projektseite</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Deutsche Übersetzung</string>
     <string name="about_translation_credit">QLauncher-Mitwirkende</string>
     <string name="about_no_browser">Kein Browser auf diesem Gerät. Öffnen Sie %1$s auf einem anderen Gerät.</string>

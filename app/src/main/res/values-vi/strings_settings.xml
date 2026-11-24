@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Không có</string>
     <string name="settings_more">Thêm…</string>
     <string name="settings_custom_icon_tint">Màu phủ biểu tượng tùy chỉnh</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Kích thước thẻ đang chọn</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Khi tỷ lệ/chất lượng không phù hợp</string>
     <string name="settings_min_width">Chiều rộng tối thiểu được chấp nhận (px)</string>
     <string name="settings_src_none">Không có</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Màu động</string>
     <string name="settings_src_default">Hình nền mặc định</string>
     <string name="settings_src_media">Tệp đa phương tiện</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Không tìm thấy ảnh hoặc video nào. Hãy sao chép vào Pictures, Movies hoặc Download, hoặc cắm ổ USB.</string>
     <string name="wp_folders_description">Các thư mục có ảnh hoặc video, trên thiết bị này và trên ổ USB.</string>
     <string name="wp_folders_none">Không tìm thấy thư mục nào có ảnh hoặc video</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="other">%d tệp</item>
     </plurals>
@@ -345,7 +340,6 @@
     <string name="install_custom">URL tùy chỉnh / Mã Downloader</string>
     <string name="install_custom_desc">Chỉ dùng nguồn mà bạn tin cậy</string>
     <string name="install_status">Trạng thái</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Thiết bị này</string>

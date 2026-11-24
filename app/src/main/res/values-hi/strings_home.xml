@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">डिसप्ले प्रोफ़ाइल</string>
     <string name="home_action_install_apps">तीसरे पक्ष के ऐप्स इंस्टॉल करें</string>
     <string name="home_action_accessibility">सुलभता सेवा</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">प्रोफ़ाइल बदलें</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">यह डिवाइस</string>
     <string name="home_action_about_wallpaper">यह वॉलपेपर</string>
 

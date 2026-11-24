@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Profily zobrazenia</string>
     <string name="home_action_install_apps">Inštalovať aplikácie tretích strán</string>
     <string name="home_action_accessibility">Služba dostupnosti</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Prepnúť profil</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Toto zariadenie</string>
     <string name="home_action_about_wallpaper">Táto tapeta</string>
 

@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Nėra</string>
     <string name="settings_more">Daugiau…</string>
     <string name="settings_custom_icon_tint">Pasirinktinių piktogramų atspalvis</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Pažymėtos kortelės dydis</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Jei netinka proporcijos / kokybė</string>
     <string name="settings_min_width">Mažiausias priimtinas plotis (px)</string>
     <string name="settings_src_none">Nėra</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dinaminės spalvos</string>
     <string name="settings_src_default">Numatytasis ekrano fonas</string>
     <string name="settings_src_media">Medijos failas</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Nuotraukų ar vaizdo įrašų nerasta. Nukopijuokite jų į aplanką Pictures, Movies arba Download arba prijunkite USB atmintinę.</string>
     <string name="wp_folders_description">Aplankai su nuotraukomis ar vaizdo įrašais šiame įrenginyje ir USB atmintinėse.</string>
     <string name="wp_folders_none">Aplankų su nuotraukomis ar vaizdo įrašais nerasta</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d failas</item>
         <item quantity="few">%d failai</item>
@@ -348,7 +343,6 @@
     <string name="install_custom">Pasirinktinis URL / Downloader kodas</string>
     <string name="install_custom_desc">Naudokite tik patikimą šaltinį</string>
     <string name="install_status">Būsena</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Šis įrenginys</string>

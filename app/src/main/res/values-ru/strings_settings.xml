@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Нет</string>
     <string name="settings_more">Ещё…</string>
     <string name="settings_custom_icon_tint">Оттенок пользовательских значков</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Размер выбранной карточки</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">При неподходящих пропорциях/качестве</string>
     <string name="settings_min_width">Минимальная ширина (пикс.)</string>
     <string name="settings_src_none">Нет</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Динамические цвета</string>
     <string name="settings_src_default">Обои по умолчанию</string>
     <string name="settings_src_media">Медиафайл</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Изображения и видео не найдены. Скопируйте их в папку Pictures, Movies или Download или подключите USB-накопитель.</string>
     <string name="wp_folders_description">Папки с изображениями или видео на этом устройстве и на USB-накопителях.</string>
     <string name="wp_folders_none">Папки с изображениями или видео не найдены</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d файл</item>
         <item quantity="few">%d файла</item>
@@ -348,7 +343,6 @@
     <string name="install_custom">Свой URL / код Downloader</string>
     <string name="install_custom_desc">Используйте только надёжный источник</string>
     <string name="install_status">Состояние</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Это устройство</string>

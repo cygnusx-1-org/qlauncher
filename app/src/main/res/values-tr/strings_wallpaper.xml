@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Yok</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Dinamik renkler</string>
     <string name="wallpaper_provider_default">Varsayılan duvar kağıdı</string>
     <string name="wallpaper_provider_media_file">Medya dosyası</string>

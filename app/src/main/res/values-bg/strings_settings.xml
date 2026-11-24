@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Без</string>
     <string name="settings_more">Още…</string>
     <string name="settings_custom_icon_tint">Цвят на персонализираните икони</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Размер на картата на фокус</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">При лошо съотношение/качество</string>
     <string name="settings_min_width">Минимална приета ширина (px)</string>
     <string name="settings_src_none">Без</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Динамични цветове</string>
     <string name="settings_src_default">Тапет по подразбиране</string>
     <string name="settings_src_media">Медиен файл</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Няма намерени изображения или видеоклипове. Копирайте някои в Pictures, Movies или Download или включете USB устройство.</string>
     <string name="wp_folders_description">Папки с изображения или видеоклипове на това устройство и на USB устройства.</string>
     <string name="wp_folders_none">Няма намерени папки с изображения или видеоклипове</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d файл</item>
         <item quantity="other">%d файла</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">Собствен URL адрес / код за Downloader</string>
     <string name="install_custom_desc">Използвайте само източник, на който имате доверие</string>
     <string name="install_status">Състояние</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Това устройство</string>

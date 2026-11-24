@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Ekran profilləri</string>
     <string name="apps_action_install_apps">Kənar tətbiqləri quraşdır</string>
     <string name="apps_action_accessibility_service">Əlçatımlılıq xidməti</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Profili dəyiş</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Bu cihaz</string>
     <string name="apps_action_about_wallpaper">Bu divar kağızı</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Yığım</string>
     <string name="apps_device_build_desc">Yığım təsviri</string>
     <string name="apps_device_device_type">Cihaz növü</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP ünvanı</string>
     <string name="apps_device_root_access">Root girişi</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Şəkil meneceri yoxdur</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Bəli</string>
     <string name="apps_device_no">Xeyr</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">İkona dəsti</string>
+    <string name="iconset_desc">GitHub repozitoriyasından şəffaf ikonalar, məsələn, DrZacharySmith/projectivy-transparent-icons. Endirmək üçün buraxılış, sonra isə «İkonanı dəyiş» menyusunun təklif edəcəyi üslubu seçin.</string>
+    <string name="iconset_repo">Repozitoriya</string>
+    <string name="iconset_repo_hint">GitHub-da owner/name</string>
+    <string name="iconset_repo_add">Əlavə et…</string>
+    <string name="iconset_add_title">Repozitoriya əlavə et</string>
+    <string name="iconset_add_desc">owner/name formatında GitHub repozitoriyası və onun daxilində hər üslub üçün bir PNG ikona qovluğu saxlayan qovluq, məsələn, icons/styles.</string>
+    <string name="iconset_add_path">Dəstlərin yolu</string>
+    <string name="iconset_add_path_hint">Hər üslub üçün bir qovluq olan qovluq, məs. icons/styles</string>
+    <string name="iconset_add">Əlavə et</string>
+    <string name="iconset_release">Buraxılış</string>
+    <string name="iconset_release_none">Endirilməyib</string>
+    <string name="iconset_status">Vəziyyət</string>
+    <string name="iconset_loading">Buraxılışlar axtarılır…</string>
+    <string name="iconset_downloading">%1$s endirilir… %2$d MB</string>
+    <string name="iconset_cancel">Endirməni ləğv et</string>
+    <string name="iconset_style">Üslub</string>
+    <string name="iconset_style_choose">Üslub seçin</string>
+    <string name="iconset_match">İkonaları tətbiqlərə uyğunlaşdır</string>
+    <string name="iconset_match_desc">Adı hansısa ikonaya uyğun gələn hər tətbiq üçün ikona təklif edir</string>
+    <string name="iconset_reset">İkonaları standarta sıfırla</string>
+    <string name="iconset_remove">İkona dəstini sil</string>
+    <string name="iconset_fail_bad_repo">Repozitoriyanı owner/name formatında daxil edin</string>
+    <string name="iconset_fail_bad_path">icons/styles kimi qovluq daxil edin</string>
+    <string name="iconset_fail_not_found">Repozitoriya tapılmadı</string>
+    <string name="iconset_fail_no_releases">Bu repozitoriyada buraxılış yoxdur</string>
+    <string name="iconset_fail_network">Endirmə alınmadı</string>
+    <string name="iconset_fail_http">GitHub xəta ilə cavab verdi (%1$s)</string>
+    <string name="iconset_fail_no_styles">Bu buraxılışda %1$s daxilində üslub qovluğu yoxdur</string>
+    <string name="iconset_fail_no_space">Kifayət qədər boş yer yoxdur</string>
+    <string name="iconset_fail_storage">İkonaları saxlamaq mümkün deyil</string>
+    <string name="iconset_match_title">İkonaları uyğunlaşdır</string>
+    <string name="iconset_apply">Tətbiq et (%1$d)</string>
+    <string name="iconset_match_none">Heç bir tətbiq adı ikonaya uyğun gəlmir</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d ikona tətbiq edildi</item>
+        <item quantity="other">%1$d ikona tətbiq edildi</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ikona standarta sıfırlandı</item>
+        <item quantity="other">%1$d ikona standarta sıfırlandı</item>
+    </plurals>
 </resources>

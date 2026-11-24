@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Skærmprofiler</string>
     <string name="apps_action_install_apps">Installer tredjepartsapps</string>
     <string name="apps_action_accessibility_service">Hjælpefunktionstjeneste</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Skift profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Denne enhed</string>
     <string name="apps_action_about_wallpaper">Denne baggrund</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Buildnummer</string>
     <string name="apps_device_build_desc">Buildbeskr.</string>
     <string name="apps_device_device_type">Enhedstype</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-adresse</string>
     <string name="apps_device_root_access">Root-adgang</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Ingen billedstyring</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Ja</string>
     <string name="apps_device_no">Nej</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Ikonsæt</string>
+    <string name="iconset_desc">Gennemsigtige ikoner fra et GitHub-repository, f.eks. DrZacharySmith/projectivy-transparent-icons. Vælg en udgivelse for at downloade den og derefter den stil, som »Skift ikon« tilbyder.</string>
+    <string name="iconset_repo">Repository</string>
+    <string name="iconset_repo_hint">owner/name på GitHub</string>
+    <string name="iconset_repo_add">Tilføj…</string>
+    <string name="iconset_add_title">Tilføj repository</string>
+    <string name="iconset_add_desc">Et GitHub-repository som owner/name og mappen i det, der indeholder én mappe med PNG-ikoner pr. stil, f.eks. icons/styles.</string>
+    <string name="iconset_add_path">Sti til sættene</string>
+    <string name="iconset_add_path_hint">Mappen med én mappe pr. stil, f.eks. icons/styles</string>
+    <string name="iconset_add">Tilføj</string>
+    <string name="iconset_release">Udgivelse</string>
+    <string name="iconset_release_none">Ikke downloadet</string>
+    <string name="iconset_status">Status</string>
+    <string name="iconset_loading">Søger efter udgivelser…</string>
+    <string name="iconset_downloading">Downloader %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Annuller download</string>
+    <string name="iconset_style">Stil</string>
+    <string name="iconset_style_choose">Vælg en stil</string>
+    <string name="iconset_match">Match ikoner med apps</string>
+    <string name="iconset_match_desc">Foreslår et ikon til hver app, hvis navn matcher et</string>
+    <string name="iconset_reset">Nulstil ikoner til standard</string>
+    <string name="iconset_remove">Fjern ikonsæt</string>
+    <string name="iconset_fail_bad_repo">Indtast repository som owner/name</string>
+    <string name="iconset_fail_bad_path">Indtast en mappe, f.eks. icons/styles</string>
+    <string name="iconset_fail_not_found">Repository ikke fundet</string>
+    <string name="iconset_fail_no_releases">Dette repository har ingen udgivelser</string>
+    <string name="iconset_fail_network">Downloaden mislykkedes</string>
+    <string name="iconset_fail_http">GitHub svarede med en fejl (%1$s)</string>
+    <string name="iconset_fail_no_styles">Denne udgivelse har ingen stilmapper i %1$s</string>
+    <string name="iconset_fail_no_space">Ikke nok ledig plads</string>
+    <string name="iconset_fail_storage">Ikonerne kan ikke gemmes</string>
+    <string name="iconset_match_title">Match ikoner</string>
+    <string name="iconset_apply">Anvend (%1$d)</string>
+    <string name="iconset_match_none">Intet appnavn matcher et ikon</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d ikon anvendt</item>
+        <item quantity="other">%1$d ikoner anvendt</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ikon nulstillet til standard</item>
+        <item quantity="other">%1$d ikoner nulstillet til standard</item>
+    </plurals>
 </resources>

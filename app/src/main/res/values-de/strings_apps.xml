@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Anzeigeprofile</string>
     <string name="apps_action_install_apps">Drittanbieter-Apps installieren</string>
     <string name="apps_action_accessibility_service">Bedienungshilfendienst</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Profil wechseln</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Dieses Gerät</string>
     <string name="apps_action_about_wallpaper">Dieses Hintergrundbild</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Build-Nummer</string>
     <string name="apps_device_build_desc">Build-Beschr.</string>
     <string name="apps_device_device_type">Gerätetyp</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-Adresse</string>
     <string name="apps_device_root_access">Root-Zugriff</string>
-    <string name="apps_device_pm_info">Bildmanager-Info</string>
     <string name="apps_device_pm_none">Kein Bildmanager</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Ja</string>
     <string name="apps_device_no">Nein</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Symbolsatz</string>
+    <string name="iconset_desc">Transparente Symbole aus einem GitHub-Repository, etwa DrZacharySmith/projectivy-transparent-icons. Wählen Sie eine Version aus, um sie herunterzuladen, und dann den Stil, den „Symbol ändern“ anbietet.</string>
+    <string name="iconset_repo">Repository</string>
+    <string name="iconset_repo_hint">owner/name auf GitHub</string>
+    <string name="iconset_repo_add">Hinzufügen…</string>
+    <string name="iconset_add_title">Repository hinzufügen</string>
+    <string name="iconset_add_desc">Ein GitHub-Repository als owner/name und der Ordner darin, der pro Stil einen Ordner mit PNG-Symbolen enthält, etwa icons/styles.</string>
+    <string name="iconset_add_path">Pfad zu den Sätzen</string>
+    <string name="iconset_add_path_hint">Der Ordner mit einem Ordner pro Stil, z. B. icons/styles</string>
+    <string name="iconset_add">Hinzufügen</string>
+    <string name="iconset_release">Version</string>
+    <string name="iconset_release_none">Nicht heruntergeladen</string>
+    <string name="iconset_status">Status</string>
+    <string name="iconset_loading">Versionen werden gesucht…</string>
+    <string name="iconset_downloading">%1$s wird heruntergeladen… %2$d MB</string>
+    <string name="iconset_cancel">Download abbrechen</string>
+    <string name="iconset_style">Stil</string>
+    <string name="iconset_style_choose">Stil auswählen</string>
+    <string name="iconset_match">Symbole den Apps zuordnen</string>
+    <string name="iconset_match_desc">Schlägt jeder App, deren Name zu einem Symbol passt, dieses Symbol vor</string>
+    <string name="iconset_reset">Symbole auf Standard zurücksetzen</string>
+    <string name="iconset_remove">Symbolsatz entfernen</string>
+    <string name="iconset_fail_bad_repo">Geben Sie das Repository als owner/name ein</string>
+    <string name="iconset_fail_bad_path">Geben Sie einen Ordner wie icons/styles ein</string>
+    <string name="iconset_fail_not_found">Repository nicht gefunden</string>
+    <string name="iconset_fail_no_releases">Dieses Repository hat keine Versionen</string>
+    <string name="iconset_fail_network">Der Download ist fehlgeschlagen</string>
+    <string name="iconset_fail_http">GitHub hat mit einem Fehler geantwortet (%1$s)</string>
+    <string name="iconset_fail_no_styles">Diese Version hat keine Stilordner in %1$s</string>
+    <string name="iconset_fail_no_space">Nicht genügend freier Speicherplatz</string>
+    <string name="iconset_fail_storage">Die Symbole können nicht gespeichert werden</string>
+    <string name="iconset_match_title">Symbole zuordnen</string>
+    <string name="iconset_apply">Anwenden (%1$d)</string>
+    <string name="iconset_match_none">Kein App-Name passt zu einem Symbol</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d Symbol angewendet</item>
+        <item quantity="other">%1$d Symbole angewendet</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d Symbol auf Standard zurückgesetzt</item>
+        <item quantity="other">%1$d Symbole auf Standard zurückgesetzt</item>
+    </plurals>
 </resources>

@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">디스플레이 프로필</string>
     <string name="home_action_install_apps">타사 앱 설치</string>
     <string name="home_action_accessibility">접근성 서비스</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">프로필 전환</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">이 기기</string>
     <string name="home_action_about_wallpaper">이 배경화면</string>
 

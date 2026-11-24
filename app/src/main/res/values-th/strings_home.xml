@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">โปรไฟล์การแสดงผล</string>
     <string name="home_action_install_apps">ติดตั้งแอปของบุคคลที่สาม</string>
     <string name="home_action_accessibility">บริการการช่วยเหลือพิเศษ</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">สลับโปรไฟล์</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">อุปกรณ์นี้</string>
     <string name="home_action_about_wallpaper">วอลเปเปอร์นี้</string>
 

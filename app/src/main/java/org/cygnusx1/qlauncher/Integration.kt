@@ -19,6 +19,7 @@ import org.cygnusx1.qlauncher.ui.settings.pages.AppsPages
 import org.cygnusx1.qlauncher.ui.settings.pages.ClockHelp
 import org.cygnusx1.qlauncher.ui.settings.pages.DisplayProfilePages
 import org.cygnusx1.qlauncher.ui.settings.pages.FontRows
+import org.cygnusx1.qlauncher.ui.settings.pages.IconSetPages
 import org.cygnusx1.qlauncher.ui.settings.pages.WallpaperPages
 import org.cygnusx1.qlauncher.util.ClockFormat
 import org.cygnusx1.qlauncher.wallpaper.WallpaperEvent
@@ -47,6 +48,7 @@ object Integration {
         AboutPages.register()
         AppsPages.register()
         AppsPages.attach(app)
+        IconSetPages.register()
         WallpaperPages.attach(app)
         DisplayProfilePages.register()
         FontRows.googleFonts = { c.backup.fonts.googleFamilies.value }

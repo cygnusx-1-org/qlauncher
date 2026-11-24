@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">nửa cỡ</string>
     <string name="backup_clock_markup_one_and_a_half_size">gấp rưỡi</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Cắt mức đen</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Dải xám chuyển dần 1000 nit</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Dải xám chuyển dần 4000 nit</string>
     <string name="backup_pattern_dv_black_pluge">[DV] PLUGE đen</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Dải màu chuyển dần</string>
     <string name="backup_pattern_unavailable">%1$s cần đường xử lý video HDR và hiện chưa khả dụng</string>
     <!-- Pages -->
@@ -163,7 +161,6 @@
     <string name="backup_files_description">Các bản xuất được lưu trong %1$s. Khi có quyền truy cập tất cả các tệp, QLauncher còn tìm bản sao lưu trong Download, Documents và trên ổ USB, kể cả của Projectivy.</string>
     <string name="backup_files_searching">Đang tìm tệp sao lưu…</string>
     <string name="backup_files_none">Không tìm thấy tệp sao lưu nào</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Thư mục của QLauncher</string>
     <string name="backup_files_access">Tìm bản sao lưu từ ứng dụng và thiết bị khác</string>
     <string name="backup_files_access_desc">Cho phép truy cập tất cả các tệp</string>
@@ -171,7 +168,6 @@
     <string name="backup_files_browse">Vị trí khác…</string>
     <string name="backup_files_browse_desc">Chọn tệp bằng trình chọn tệp của hệ thống</string>
     <string name="backup_auto_delete_all">Xóa tất cả</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Sau một thay đổi</string>
     <string name="backup_reason_import">Trước khi nhập</string>
     <string name="backup_reason_migration">Trước khi cập nhật</string>

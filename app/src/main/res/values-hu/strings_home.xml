@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Megjelenítési profilok</string>
     <string name="home_action_install_apps">Külső alkalmazások telepítése</string>
     <string name="home_action_accessibility">Kisegítő szolgáltatás</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Profilváltás</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Ez az eszköz</string>
     <string name="home_action_about_wallpaper">Ez a háttérkép</string>
 

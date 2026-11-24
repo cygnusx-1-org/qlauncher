@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">无</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">动态颜色</string>
     <string name="wallpaper_provider_default">默认壁纸</string>
     <string name="wallpaper_provider_media_file">媒体文件</string>

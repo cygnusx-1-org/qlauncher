@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Nav</string>
     <string name="settings_more">Vairāk…</string>
     <string name="settings_custom_icon_tint">Pielāgoto ikonu tonējums</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Fokusētās kartītes izmērs</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Ja malu attiecība/kvalitāte ir slikta</string>
     <string name="settings_min_width">Minimālais pieņemamais platums (px)</string>
     <string name="settings_src_none">Nav</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dinamiskās krāsas</string>
     <string name="settings_src_default">Noklusējuma fona tapete</string>
     <string name="settings_src_media">Multivides fails</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Netika atrasts neviens attēls vai video. Iekopējiet dažus mapē Pictures, Movies vai Download vai pievienojiet USB disku.</string>
     <string name="wp_folders_description">Mapes ar attēliem vai video šajā ierīcē un USB diskos.</string>
     <string name="wp_folders_none">Netika atrasta neviena mape ar attēliem vai video</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="zero">%d faili</item>
         <item quantity="one">%d fails</item>
@@ -347,7 +342,6 @@
     <string name="install_custom">Pielāgots URL / Downloader kods</string>
     <string name="install_custom_desc">Izmantojiet tikai uzticamu avotu</string>
     <string name="install_status">Statuss</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Šī ierīce</string>

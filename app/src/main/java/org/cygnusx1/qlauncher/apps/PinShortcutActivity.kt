@@ -8,6 +8,7 @@
  */
 package org.cygnusx1.qlauncher.apps
 
+import android.content.Context
 import android.content.pm.LauncherApps
 import android.os.Build
 import android.os.Bundle
@@ -31,6 +32,7 @@ import org.cygnusx1.qlauncher.R
 import org.cygnusx1.qlauncher.apps.ui.AppsConfirmPanel
 import org.cygnusx1.qlauncher.apps.ui.AppsPreviewBox
 import org.cygnusx1.qlauncher.container
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
 
 /**
@@ -40,6 +42,10 @@ import org.cygnusx1.qlauncher.ui.theme.QLauncherTheme
  * Pin requests exist from Android 8; before that the activity closes at once.
  */
 class PinShortcutActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (Build.VERSION.SDK_INT < 26) {

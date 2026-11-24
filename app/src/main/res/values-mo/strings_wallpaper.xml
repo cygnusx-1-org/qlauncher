@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Niciuna</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Culori dinamice</string>
     <string name="wallpaper_provider_default">Imagine de fundal implicită</string>
     <string name="wallpaper_provider_media_file">Fișier media</string>

@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Profilet e ekranit</string>
     <string name="home_action_install_apps">Instalo aplikacione të palëve të treta</string>
     <string name="home_action_accessibility">Shërbimi i qasshmërisë</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Ndërro profilin</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Kjo pajisje</string>
     <string name="home_action_about_wallpaper">Ky imazh sfondi</string>
 

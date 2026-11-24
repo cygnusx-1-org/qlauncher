@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">تعيين كخلفية لـ QLauncher</string>
     <string name="import_settings">استيراد إلى QLauncher</string>
     <string name="accessibility_service_description">يرى QLauncher ضغطات الأزرار المادية واسم التطبيق الظاهر في المقدمة، وذلك لتجاوز مشغّل التطبيقات الأصلي وتنفيذ إجراءات عند بدء التشغيل وإعادة تعيين أزرار جهاز التحكم عن بُعد ورصد فترات الخمول وفرض الرقابة الأبوية. تبقى هاتان المعلومتان في ذاكرة هذا الجهاز ولا تُرسلان إلى أي مكان أبدًا.</string>

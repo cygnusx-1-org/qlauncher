@@ -5,7 +5,6 @@
     <string name="about_libs">Biblioteci / Mulțumiri</string>
     <string name="about_links">Linkuri</string>
     <string name="about_link_project">Pagina proiectului</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Traducere în limba română</string>
     <string name="about_translation_credit">Contribuitorii QLauncher</string>
     <string name="about_no_browser">Niciun browser pe acest dispozitiv. Deschideți %1$s pe alt dispozitiv.</string>

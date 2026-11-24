@@ -1,5 +1,6 @@
 import com.android.build.api.artifact.SingleArtifact
 import com.android.build.api.variant.BuiltArtifactsLoader
+import com.android.build.api.variant.FilterConfiguration
 import java.util.Properties
 
 plugins {
@@ -21,6 +22,13 @@ val keystoreProperties = Properties().apply {
 }
 val hasReleaseKey = !keystoreProperties.isEmpty
 
+/*
+ * One APK per ABI plus a universal one, as Electric Eel builds them. The releases carry the
+ * armeabi-v7a and arm64-v8a APKs; x86 is for the x86 emulators. The universal APK holds the two ARM
+ * ABIs only (ndk.abiFilters below).
+ */
+val splitAbis = listOf("armeabi-v7a", "arm64-v8a", "x86")
+
 android {
     namespace = "org.cygnusx1.qlauncher"
     compileSdk {
@@ -32,8 +40,22 @@ android {
         minSdk = 24
         targetSdk = 36
         versionCode = 1
-        versionName = "0.1.0"
+        versionName = "0.1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // The content of the universal APK
+        ndk {
+            abiFilters += listOf("armeabi-v7a", "arm64-v8a")
+        }
+    }
+
+    splits {
+        abi {
+            isEnable = true
+            reset()
+            include(*splitAbis.toTypedArray())
+            isUniversalApk = true
+        }
     }
 
     signingConfigs {
@@ -69,6 +91,11 @@ android {
     buildFeatures {
         compose = true
         buildConfig = true
+    }
+
+    // Lists the res/values-* languages for Android 13+ (the default one is in res/resources.properties).
+    androidResources {
+        generateLocaleConfig = true
     }
 
     testOptions {
@@ -162,8 +189,9 @@ val checkLicenceHeaders by tasks.registering {
 tasks.named("check") { dependsOn(checkLicenceHeaders) }
 
 /**
- * Copies the release APK to `build/outputs/release/QLauncher_<versionName>.apk`, the name the
- * update feed (`updates/qlauncher.json`) points at on the GitHub release.
+ * Copies the release APKs to `build/outputs/release/QLauncher_<versionName>_<abi>.apk` (`universal`
+ * for the one with every ABI), the names the update feed (`updates/qlauncher.json`) points at on the
+ * GitHub release.
  */
 abstract class ReleaseApkTask : DefaultTask() {
     @get:InputFiles
@@ -172,25 +200,42 @@ abstract class ReleaseApkTask : DefaultTask() {
     @get:Internal
     abstract val loader: Property<BuiltArtifactsLoader>
 
-    @get:OutputFile
-    abstract val output: RegularFileProperty
+    @get:Input
+    abstract val versionName: Property<String>
+
+    @get:Internal
+    abstract val outputDir: DirectoryProperty
+
+    /** Every copy by name, so the older versions' APKs in [outputDir] are never treated as outputs. */
+    @get:OutputFiles
+    abstract val apks: ConfigurableFileCollection
 
     @TaskAction
     fun copy() {
         val built = loader.get().load(apkFolder.get()) ?: throw GradleException("No release APK in ${apkFolder.get()}")
-        File(built.elements.single().outputFile).copyTo(output.get().asFile, overwrite = true)
+        val expected = apks.files
+        val copied = built.elements.map { element ->
+            val abi = element.filters.singleOrNull { it.filterType == FilterConfiguration.FilterType.ABI }?.identifier ?: "universal"
+            val target = outputDir.file("QLauncher_${versionName.get()}_$abi.apk").get().asFile
+            if (target !in expected) throw GradleException("Unexpected release APK for $abi: ${element.outputFile}")
+            File(element.outputFile).copyTo(target, overwrite = true)
+        }
+        if (copied.toSet() != expected) throw GradleException("Release APKs missing: ${(expected - copied.toSet()).joinToString()}")
     }
 }
 
 androidComponents {
     onVariants(selector().withBuildType("release")) { variant ->
-        val name = "QLauncher_${android.defaultConfig.versionName}.apk"
+        val version = android.defaultConfig.versionName!!
+        val dir = layout.buildDirectory.dir("outputs/release")
         val releaseApk = tasks.register<ReleaseApkTask>("releaseApk") {
             group = "build"
-            description = "Copies the release APK to build/outputs/release/$name."
+            description = "Copies the release APKs to build/outputs/release/QLauncher_${version}_<abi>.apk."
             apkFolder.set(variant.artifacts.get(SingleArtifact.APK))
             loader.set(variant.artifacts.getBuiltArtifactsLoader())
-            output.set(layout.buildDirectory.file("outputs/release/$name"))
+            versionName.set(version)
+            outputDir.set(dir)
+            apks.from((splitAbis + "universal").map { abi -> dir.map { it.file("QLauncher_${version}_$abi.apk") } })
         }
         tasks.matching { it.name == "assembleRelease" }.configureEach { finalizedBy(releaseApk) }
     }

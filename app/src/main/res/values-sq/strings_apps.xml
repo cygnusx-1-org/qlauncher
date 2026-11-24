@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profilet e ekranit</string>
     <string name="apps_action_install_apps">Instalo aplikacione të palëve të treta</string>
     <string name="apps_action_accessibility_service">Shërbimi i qasshmërisë</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Ndërro profilin</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Kjo pajisje</string>
     <string name="apps_action_about_wallpaper">Ky imazh sfondi</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Numri i ndërtimit</string>
     <string name="apps_device_build_desc">Përshkr. i ndërtimit</string>
     <string name="apps_device_device_type">Lloji i pajisjes</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Adresa IP</string>
     <string name="apps_device_root_access">Qasja root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Pa menaxher figure</string>
     <string name="apps_device_id">Identifikuesi</string>
     <string name="apps_device_yes">Po</string>
     <string name="apps_device_no">Jo</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Komplet ikonash</string>
+    <string name="iconset_desc">Ikona transparente nga një depo GitHub, si p.sh. DrZacharySmith/projectivy-transparent-icons. Zgjidh një botim për ta shkarkuar, pastaj stilin që ofron „Ndrysho ikonën“.</string>
+    <string name="iconset_repo">Depoja</string>
+    <string name="iconset_repo_hint">owner/name në GitHub</string>
+    <string name="iconset_repo_add">Shto…</string>
+    <string name="iconset_add_title">Shto depo</string>
+    <string name="iconset_add_desc">Një depo GitHub në formën owner/name dhe dosja në të që përmban nga një dosje me ikona PNG për çdo stil, si p.sh. icons/styles.</string>
+    <string name="iconset_add_path">Shtegu drejt kompleteve</string>
+    <string name="iconset_add_path_hint">Dosja me nga një dosje për çdo stil, p.sh. icons/styles</string>
+    <string name="iconset_add">Shto</string>
+    <string name="iconset_release">Botimi</string>
+    <string name="iconset_release_none">Nuk është shkarkuar</string>
+    <string name="iconset_status">Statusi</string>
+    <string name="iconset_loading">Po kërkohen botimet…</string>
+    <string name="iconset_downloading">Po shkarkohet %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Anulo shkarkimin</string>
+    <string name="iconset_style">Stili</string>
+    <string name="iconset_style_choose">Zgjidh një stil</string>
+    <string name="iconset_match">Përputh ikonat me aplikacionet</string>
+    <string name="iconset_match_desc">Propozon një ikonë për çdo aplikacion, emri i të cilit përputhet me një ikonë</string>
+    <string name="iconset_reset">Rivendos ikonat e parazgjedhura</string>
+    <string name="iconset_remove">Hiq kompletin e ikonave</string>
+    <string name="iconset_fail_bad_repo">Shkruaj depon si owner/name</string>
+    <string name="iconset_fail_bad_path">Shkruaj një dosje si icons/styles</string>
+    <string name="iconset_fail_not_found">Depoja nuk u gjet</string>
+    <string name="iconset_fail_no_releases">Kjo depo nuk ka botime</string>
+    <string name="iconset_fail_network">Shkarkimi dështoi</string>
+    <string name="iconset_fail_http">GitHub u përgjigj me një gabim (%1$s)</string>
+    <string name="iconset_fail_no_styles">Ky botim nuk ka dosje stilesh në %1$s</string>
+    <string name="iconset_fail_no_space">Nuk ka hapësirë të lirë të mjaftueshme</string>
+    <string name="iconset_fail_storage">Ikonat nuk mund të ruhen</string>
+    <string name="iconset_match_title">Përputhja e ikonave</string>
+    <string name="iconset_apply">Apliko (%1$d)</string>
+    <string name="iconset_match_none">Asnjë emër aplikacioni nuk përputhet me ndonjë ikonë</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">U aplikua %1$d ikonë</item>
+        <item quantity="other">U aplikuan %1$d ikona</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">U rivendos %1$d ikonë e parazgjedhur</item>
+        <item quantity="other">U rivendosën %1$d ikona të parazgjedhura</item>
+    </plurals>
 </resources>

@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">არცერთი</string>
     <string name="settings_more">მეტი…</string>
     <string name="settings_custom_icon_tint">საკუთარი ხატულის შეფერილობა</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">ფოკუსირებული ბარათის ზომა</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">ცუდი თანაფარდობის/ხარისხის შემთხვევაში</string>
     <string name="settings_min_width">მინიმალური დასაშვები სიგანე (px)</string>
     <string name="settings_src_none">არცერთი</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">დინამიკური ფერები</string>
     <string name="settings_src_default">ნაგულისხმევი ფონი</string>
     <string name="settings_src_media">მედიაფაილი</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">სურათები ან ვიდეოები ვერ მოიძებნა. დააკოპირეთ რამდენიმე Pictures-ში, Movies-ში ან Download-ში, ან შეაერთეთ USB დისკი.</string>
     <string name="wp_folders_description">საქაღალდეები სურათებით ან ვიდეოებით, ამ მოწყობილობაზე და USB დისკებზე.</string>
     <string name="wp_folders_none">სურათებიანი ან ვიდეოებიანი საქაღალდეები ვერ მოიძებნა</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d ფაილი</item>
         <item quantity="other">%d ფაილი</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">საკუთარი URL / Downloader-ის კოდი</string>
     <string name="install_custom_desc">გამოიყენეთ მხოლოდ სანდო წყარო</string>
     <string name="install_status">სტატუსი</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">ეს მოწყობილობა</string>

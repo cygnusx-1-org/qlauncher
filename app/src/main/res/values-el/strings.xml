@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Ορισμός ως ταπετσαρία του QLauncher</string>
     <string name="import_settings">Εισαγωγή στο QLauncher</string>
     <string name="accessibility_service_description">Το QLauncher βλέπει τα πατήματα των φυσικών πλήκτρων και το όνομα της εφαρμογής στο προσκήνιο, για να αντικαθιστά τον εργοστασιακό εκκινητή, να εκτελεί ενέργειες κατά την εκκίνηση, να αντιστοιχίζει τα κουμπιά του τηλεχειριστηρίου, να εντοπίζει την αδράνεια και να επιβάλλει τον γονικό έλεγχο. Και τα δύο παραμένουν στη μνήμη αυτής της συσκευής και δεν αποστέλλονται πουθενά.</string>

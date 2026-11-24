@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Weergaveprofielen</string>
     <string name="apps_action_install_apps">Apps van derden installeren</string>
     <string name="apps_action_accessibility_service">Toegankelijkheidsservice</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Van profiel wisselen</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Dit apparaat</string>
     <string name="apps_action_about_wallpaper">Deze achtergrond</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Build-nummer</string>
     <string name="apps_device_build_desc">Buildbeschr.</string>
     <string name="apps_device_device_type">Apparaattype</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-adres</string>
     <string name="apps_device_root_access">Roottoegang</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Geen beeldbeheer</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Ja</string>
     <string name="apps_device_no">Nee</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Pictogramset</string>
+    <string name="iconset_desc">Transparante pictogrammen uit een GitHub-repository, zoals DrZacharySmith/projectivy-transparent-icons. Kies een release om die te downloaden en daarna de stijl die ‘Pictogram wijzigen’ aanbiedt.</string>
+    <string name="iconset_repo">Repository</string>
+    <string name="iconset_repo_hint">owner/name op GitHub</string>
+    <string name="iconset_repo_add">Toevoegen…</string>
+    <string name="iconset_add_title">Repository toevoegen</string>
+    <string name="iconset_add_desc">Een GitHub-repository als owner/name, en de map daarin met per stijl één map met PNG-pictogrammen, zoals icons/styles.</string>
+    <string name="iconset_add_path">Pad naar de sets</string>
+    <string name="iconset_add_path_hint">De map met één map per stijl, bijv. icons/styles</string>
+    <string name="iconset_add">Toevoegen</string>
+    <string name="iconset_release">Release</string>
+    <string name="iconset_release_none">Niet gedownload</string>
+    <string name="iconset_status">Status</string>
+    <string name="iconset_loading">Zoeken naar releases…</string>
+    <string name="iconset_downloading">%1$s downloaden… %2$d MB</string>
+    <string name="iconset_cancel">Download annuleren</string>
+    <string name="iconset_style">Stijl</string>
+    <string name="iconset_style_choose">Kies een stijl</string>
+    <string name="iconset_match">Pictogrammen aan apps koppelen</string>
+    <string name="iconset_match_desc">Stelt een pictogram voor bij elke app met een overeenkomende naam</string>
+    <string name="iconset_reset">Standaardpictogrammen herstellen</string>
+    <string name="iconset_remove">Pictogramset verwijderen</string>
+    <string name="iconset_fail_bad_repo">Voer de repository in als owner/name</string>
+    <string name="iconset_fail_bad_path">Voer een map in, zoals icons/styles</string>
+    <string name="iconset_fail_not_found">Repository niet gevonden</string>
+    <string name="iconset_fail_no_releases">Deze repository heeft geen releases</string>
+    <string name="iconset_fail_network">De download is mislukt</string>
+    <string name="iconset_fail_http">GitHub antwoordde met een fout (%1$s)</string>
+    <string name="iconset_fail_no_styles">Deze release heeft geen stijlmappen in %1$s</string>
+    <string name="iconset_fail_no_space">Onvoldoende vrije ruimte</string>
+    <string name="iconset_fail_storage">De pictogrammen kunnen niet worden opgeslagen</string>
+    <string name="iconset_match_title">Pictogrammen koppelen</string>
+    <string name="iconset_apply">Toepassen (%1$d)</string>
+    <string name="iconset_match_none">Geen enkele appnaam komt overeen met een pictogram</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d pictogram toegepast</item>
+        <item quantity="other">%1$d pictogrammen toegepast</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d standaardpictogram hersteld</item>
+        <item quantity="other">%1$d standaardpictogrammen hersteld</item>
+    </plurals>
 </resources>

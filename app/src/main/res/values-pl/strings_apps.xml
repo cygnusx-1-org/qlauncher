@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profile wyświetlania</string>
     <string name="apps_action_install_apps">Instaluj aplikacje zewnętrzne</string>
     <string name="apps_action_accessibility_service">Usługa ułatwień dostępu</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Przełącz profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">To urządzenie</string>
     <string name="apps_action_about_wallpaper">Ta tapeta</string>
 
@@ -103,12 +101,58 @@
     <string name="apps_device_build">Kompilacja</string>
     <string name="apps_device_build_desc">Opis kompilacji</string>
     <string name="apps_device_device_type">Typ urządzenia</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Adres IP</string>
     <string name="apps_device_root_access">Dostęp root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Brak menedżera obrazu</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Tak</string>
     <string name="apps_device_no">Nie</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Zestaw ikon</string>
+    <string name="iconset_desc">Przezroczyste ikony z repozytorium GitHub, np. DrZacharySmith/projectivy-transparent-icons. Wybierz wydanie, aby je pobrać, a następnie styl, który oferuje „Zmień ikonę”.</string>
+    <string name="iconset_repo">Repozytorium</string>
+    <string name="iconset_repo_hint">owner/name na GitHubie</string>
+    <string name="iconset_repo_add">Dodaj…</string>
+    <string name="iconset_add_title">Dodaj repozytorium</string>
+    <string name="iconset_add_desc">Repozytorium GitHub w formacie owner/name oraz folder w nim, który zawiera po jednym folderze ikon PNG na każdy styl, np. icons/styles.</string>
+    <string name="iconset_add_path">Ścieżka do zestawów</string>
+    <string name="iconset_add_path_hint">Folder z jednym folderem na każdy styl, np. icons/styles</string>
+    <string name="iconset_add">Dodaj</string>
+    <string name="iconset_release">Wydanie</string>
+    <string name="iconset_release_none">Nie pobrano</string>
+    <string name="iconset_status">Stan</string>
+    <string name="iconset_loading">Wyszukiwanie wydań…</string>
+    <string name="iconset_downloading">Pobieranie %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Anuluj pobieranie</string>
+    <string name="iconset_style">Styl</string>
+    <string name="iconset_style_choose">Wybierz styl</string>
+    <string name="iconset_match">Dopasuj ikony do aplikacji</string>
+    <string name="iconset_match_desc">Proponuje ikonę dla każdej aplikacji, której nazwa pasuje do którejś z ikon</string>
+    <string name="iconset_reset">Przywróć domyślne ikony</string>
+    <string name="iconset_remove">Usuń zestaw ikon</string>
+    <string name="iconset_fail_bad_repo">Wpisz repozytorium w formacie owner/name</string>
+    <string name="iconset_fail_bad_path">Wpisz folder, np. icons/styles</string>
+    <string name="iconset_fail_not_found">Nie znaleziono repozytorium</string>
+    <string name="iconset_fail_no_releases">To repozytorium nie ma wydań</string>
+    <string name="iconset_fail_network">Pobieranie nie powiodło się</string>
+    <string name="iconset_fail_http">GitHub zwrócił błąd (%1$s)</string>
+    <string name="iconset_fail_no_styles">To wydanie nie ma folderów stylów w %1$s</string>
+    <string name="iconset_fail_no_space">Za mało wolnego miejsca</string>
+    <string name="iconset_fail_storage">Nie można zapisać ikon</string>
+    <string name="iconset_match_title">Dopasuj ikony</string>
+    <string name="iconset_apply">Zastosuj (%1$d)</string>
+    <string name="iconset_match_none">Żadna nazwa aplikacji nie pasuje do ikony</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Zastosowano %1$d ikonę</item>
+        <item quantity="few">Zastosowano %1$d ikony</item>
+        <item quantity="many">Zastosowano %1$d ikon</item>
+        <item quantity="other">Zastosowano %1$d ikony</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">Przywrócono %1$d domyślną ikonę</item>
+        <item quantity="few">Przywrócono %1$d domyślne ikony</item>
+        <item quantity="many">Przywrócono %1$d domyślnych ikon</item>
+        <item quantity="other">Przywrócono %1$d domyślnej ikony</item>
+    </plurals>
 </resources>

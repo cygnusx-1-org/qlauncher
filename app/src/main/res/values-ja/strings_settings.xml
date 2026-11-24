@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">なし</string>
     <string name="settings_more">その他…</string>
     <string name="settings_custom_icon_tint">カスタムアイコンの色合い</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">フォーカス中のカードのサイズ</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">比率や画質が合わない場合</string>
     <string name="settings_min_width">許容する最小幅 (px)</string>
     <string name="settings_src_none">なし</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">ダイナミックカラー</string>
     <string name="settings_src_default">デフォルトの壁紙</string>
     <string name="settings_src_media">メディアファイル</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">画像や動画が見つかりません。Pictures、Movies、Download のいずれかにコピーするか、USB ドライブを接続してください。</string>
     <string name="wp_folders_description">このデバイスと USB ドライブ上の、画像や動画を含むフォルダ。</string>
     <string name="wp_folders_none">画像や動画を含むフォルダが見つかりません</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="other">%d 個のファイル</item>
     </plurals>
@@ -345,7 +340,6 @@
     <string name="install_custom">カスタム URL / Downloader コード</string>
     <string name="install_custom_desc">信頼できるソースのみを使用してください</string>
     <string name="install_status">ステータス</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">このデバイス</string>

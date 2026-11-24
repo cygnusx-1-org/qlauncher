@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Yok</string>
     <string name="settings_more">Daha fazla…</string>
     <string name="settings_custom_icon_tint">Özel simge renk tonu</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Odaklanan kart boyutu</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Oran/kalite uygun değilse</string>
     <string name="settings_min_width">Kabul edilen en küçük genişlik (px)</string>
     <string name="settings_src_none">Yok</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dinamik renkler</string>
     <string name="settings_src_default">Varsayılan duvar kağıdı</string>
     <string name="settings_src_media">Medya dosyası</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Resim veya video bulunamadı. Pictures, Movies veya Download klasörüne birkaç dosya kopyalayın ya da bir USB sürücü takın.</string>
     <string name="wp_folders_description">Bu cihazda ve USB sürücülerde resim veya video içeren klasörler.</string>
     <string name="wp_folders_none">Resim veya video içeren klasör bulunamadı</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d dosya</item>
         <item quantity="other">%d dosya</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">Özel URL / Downloader kodu</string>
     <string name="install_custom_desc">Yalnızca güvendiğiniz bir kaynak kullanın</string>
     <string name="install_status">Durum</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Bu cihaz</string>

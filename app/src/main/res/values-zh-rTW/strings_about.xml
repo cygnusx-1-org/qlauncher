@@ -5,7 +5,6 @@
     <string name="about_libs">程式庫 / 致謝</string>
     <string name="about_links">連結</string>
     <string name="about_link_project">專案網頁</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">繁體中文翻譯</string>
     <string name="about_translation_credit">QLauncher 貢獻者</string>
     <string name="about_no_browser">這部裝置沒有瀏覽器。請在其他裝置上開啟 %1$s。</string>

@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Немає</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Динамічні кольори</string>
     <string name="wallpaper_provider_default">Шпалери за замовчуванням</string>
     <string name="wallpaper_provider_media_file">Медіафайл</string>

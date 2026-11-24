@@ -35,6 +35,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
@@ -109,6 +110,8 @@ fun RowTexts(
     modifier: Modifier = Modifier,
     descriptionColor: Color? = null,
     descriptionContent: (@Composable () -> Unit)? = null,
+    /** Always this many description lines (blank or cut short), so the row's height never changes. */
+    descriptionLines: Int? = null,
 ) {
     Column(modifier) {
         val titleColor = RowColors.title(focused, enabled)
@@ -139,6 +142,9 @@ fun RowTexts(
                 description,
                 color = descriptionColor ?: RowColors.description(focused, enabled),
                 style = QTheme.type.rowDescription,
+                minLines = descriptionLines ?: 1,
+                maxLines = descriptionLines ?: Int.MAX_VALUE,
+                overflow = if (descriptionLines != null) TextOverflow.Ellipsis else TextOverflow.Clip,
             )
         }
     }
@@ -209,6 +215,7 @@ fun StandardRow(
     endInset: Dp = if (trailing == Trailing.None) 16.dp else GuidedDimens.TitleEndChevron,
     descriptionColor: Color? = null,
     descriptionContent: (@Composable () -> Unit)? = null,
+    descriptionLines: Int? = null,
     trailingContent: (@Composable BoxScope.() -> Unit)? = null,
 ) {
     GuidedRowFrame(focused, minHeight, modifier, tag) {
@@ -229,6 +236,7 @@ fun StandardRow(
                 ),
             descriptionColor,
             descriptionContent,
+            descriptionLines,
         )
         RowTrailing(trailing, enabled)
         trailingContent?.invoke(this)

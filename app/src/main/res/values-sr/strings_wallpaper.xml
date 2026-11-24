@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Ништа</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Динамичне боје</string>
     <string name="wallpaper_provider_default">Подразумевана позадина</string>
     <string name="wallpaper_provider_media_file">Медијска датотека</string>

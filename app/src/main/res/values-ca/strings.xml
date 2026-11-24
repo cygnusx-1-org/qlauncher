@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Estableix com a fons de pantalla de QLauncher</string>
     <string name="import_settings">Importa a QLauncher</string>
     <string name="accessibility_service_description">QLauncher veu les pulsacions de les tecles físiques i el nom de l\'aplicació en primer pla per substituir el llançador original, executar accions en arrencar, reassignar els botons del comandament, detectar la inactivitat i aplicar el control parental. Totes dues dades es queden a la memòria d\'aquest dispositiu i no s\'envien enlloc.</string>

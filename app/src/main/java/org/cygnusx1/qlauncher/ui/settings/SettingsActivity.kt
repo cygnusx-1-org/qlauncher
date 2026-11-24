@@ -40,8 +40,11 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.merge
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.cygnusx1.qlauncher.util.DocumentPickers
 import org.cygnusx1.qlauncher.HomeSlots
 import org.cygnusx1.qlauncher.R
@@ -72,7 +75,9 @@ import org.cygnusx1.qlauncher.ui.home.HomePreview
 import org.cygnusx1.qlauncher.ui.settings.model.Environment
 import org.cygnusx1.qlauncher.ui.settings.model.Row
 import org.cygnusx1.qlauncher.ui.settings.model.RowContext
+import org.cygnusx1.qlauncher.apps.iconpack.IconSetMatch
 import org.cygnusx1.qlauncher.ui.settings.pages.AccessibilityStatus
+import org.cygnusx1.qlauncher.ui.settings.pages.IconMatchPanel
 import org.cygnusx1.qlauncher.ui.settings.pages.PageEnv
 import org.cygnusx1.qlauncher.ui.settings.pages.PageIds
 import org.cygnusx1.qlauncher.ui.settings.pages.PageRevision
@@ -106,6 +111,7 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
         data class MediaFiles(val items: List<MediaItem>, val onPicked: (Uri, String?) -> Unit) : Overlay
         data class MediaFolders(val onPicked: (Uri) -> Unit) : Overlay
         data class Pattern(val index: Int) : Overlay
+        data class IconMatches(val matches: List<IconSetMatch>) : Overlay
         data object ParentalVerify : Overlay
     }
 
@@ -155,6 +161,7 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
                 wp.controller.status, wp.controller.items, wp.controller.wallpaper, wp.redditUser, wp.providers,
                 container.backup.profiles.profiles, container.apps.installer.state, container.apps.installer.installed,
                 container.apps.iconPacks.packs, container.system.accessibility.started, PageRevision.tick, container.updates.state,
+                container.apps.iconSets.status, container.apps.iconSets.manifest, container.apps.iconSets.releases,
             ).collect { revision.value = revision.value + 1 }
         }
 
@@ -231,7 +238,7 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
     private fun OverlayLayer() {
         val container = container
         val o = overlay
-        PanelHost(visible = o is Overlay.Color || o is Overlay.Gallery || o is Overlay.MediaFiles) {
+        PanelHost(visible = o is Overlay.Color || o is Overlay.Gallery || o is Overlay.MediaFiles || o is Overlay.IconMatches) {
             when (o) {
                 is Overlay.Color -> ColorPickerPanel(
                     initial = o.initial,
@@ -247,6 +254,22 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
                     onPick = { i ->
                         o.items.getOrNull(i)?.let { o.onPicked(it.uri, it.mimeType) }
                         overlay = null
+                    },
+                    onBack = { overlay = null },
+                )
+                is Overlay.IconMatches -> IconMatchPanel(
+                    matches = o.matches,
+                    onApply = { chosen ->
+                        overlay = null
+                        // In the app's scope: leaving Settings must not stop it half way.
+                        val app = applicationContext
+                        container.scope.launch {
+                            val sets = container.apps.iconSets
+                            val done = chosen.count { sets.apply(it.itemKey, it.icon) }
+                            withContext(Dispatchers.Main) {
+                                Toast.makeText(app, app.resources.getQuantityString(R.plurals.iconset_applied, done, done), Toast.LENGTH_LONG).show()
+                            }
+                        }
                     },
                     onBack = { overlay = null },
                 )
@@ -338,9 +361,15 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
     }
 
     override fun setLanguage(tag: String) {
-        container.settings.update(Keys.General.language, tag)
-        LocaleHelper.applySystem(this, tag)
-        recreate()
+        lifecycleScope.launch {
+            // Before the stored value changes, so whatever it re-renders already resolves in the new language.
+            LocaleHelper.applyToApplication(this@SettingsActivity, tag)
+            container.settings.set(Keys.General.language, tag)
+            // The re-created activity wraps its context with settings.current: wait until it holds the new tag.
+            container.settings.settings.first { it[Keys.General.language] == tag }
+            LocaleHelper.applySystem(this@SettingsActivity, tag)
+            recreate()
+        }
     }
 
     override fun importFromFile(theme: Boolean) {
@@ -445,6 +474,13 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
 
     override fun showPattern(index: Int) {
         overlay = Overlay.Pattern(index)
+    }
+
+    override fun matchIconSet() {
+        lifecycleScope.launch {
+            val matches = container.apps.iconSets.matches()
+            if (matches.isEmpty()) toast(getString(R.string.iconset_match_none)) else overlay = Overlay.IconMatches(matches)
+        }
     }
 
     companion object {

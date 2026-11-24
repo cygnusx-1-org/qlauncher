@@ -8,6 +8,7 @@
  */
 package org.cygnusx1.qlauncher.ui.home.panels
 
+import android.text.format.DateFormat
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxScope
@@ -30,6 +31,7 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -64,7 +66,6 @@ import org.cygnusx1.qlauncher.ui.theme.MaterialIcon
 import org.cygnusx1.qlauncher.ui.theme.QTheme
 import java.text.SimpleDateFormat
 import java.util.Date
-import java.util.Locale
 import org.cygnusx1.qlauncher.ui.components.WallpaperGallery
 import org.cygnusx1.qlauncher.ui.components.GalleryItem
 
@@ -86,6 +87,9 @@ sealed interface PanelSpec {
     data class Rename(val itemKey: String?, val categoryId: Int?) : PanelSpec
     data class ChangeIcon(val itemKey: String?, val categoryId: Int?) : PanelSpec
     data class Pictures(val items: List<org.cygnusx1.qlauncher.wallpaper.source.MediaItem>, val itemKey: String?, val categoryId: Int?) : PanelSpec
+
+    /** *Change icon › <icon set style>*: the style's icons, those matching the item first. */
+    data class SetIcons(val icons: List<org.cygnusx1.qlauncher.apps.iconpack.IconSetIcon>, val itemKey: String) : PanelSpec
     data class Folder(val categoryId: Int) : PanelSpec
     data object Notifications : PanelSpec
     data object Channels : PanelSpec
@@ -160,6 +164,18 @@ fun HomePanelHost(stack: SnapshotStateList<PanelSpec>, controller: HomeControlle
             },
             onBack = { nav.pop() },
             title = stringResource(R.string.menu_change_icon),
+        )
+        is PanelSpec.SetIcons -> WallpaperGallery(
+            items = spec.icons.map { GalleryItem(it.file, it.name) },
+            onPick = { i ->
+                spec.icons.getOrNull(i)?.let { controller.applyIconSetIcon(spec.itemKey, it) }
+                nav.pop()
+                nav.pop()
+            },
+            onBack = { nav.pop() },
+            title = stringResource(R.string.menu_change_icon),
+            // Some icons are not 16:9 (YouTube is 3:2): show them whole, as the card will.
+            contentScale = androidx.compose.ui.layout.ContentScale.Fit,
         )
         else -> key(spec) {
             val built = panelContent(spec, controller, actions, nav)
@@ -450,6 +466,12 @@ private fun panelContent(spec: PanelSpec, controller: HomeController, actions: H
                                 nav.pop()
                             }))
                         }
+                        // The downloaded icon set's style (Cards › Icon set).
+                        controller.iconSetChoice()?.let { (style, repo) ->
+                            add(PanelRow.Item("icon_set", style, subtitle = repo, icon = "collections", onClick = {
+                                controller.loadIconSetIcons(spec.itemKey) { icons -> if (icons.isNotEmpty() && nav.isTop(spec)) nav.push(PanelSpec.SetIcons(icons, spec.itemKey)) }
+                            }))
+                        }
                     }
                     if (current != null) {
                         add(PanelRow.Item("reset", s(R.string.menu_icon_reset), icon = "restart_alt", onClick = {
@@ -482,7 +504,7 @@ private fun panelContent(spec: PanelSpec, controller: HomeController, actions: H
 
         is PanelSpec.ChannelApp -> channelAppPanel(spec.packageName, inputs, channels, controller)
 
-        is PanelSpec.CategoryColor, is PanelSpec.Rename, is PanelSpec.Pictures -> Built(emptyList())
+        is PanelSpec.CategoryColor, is PanelSpec.Rename, is PanelSpec.Pictures, is PanelSpec.SetIcons -> Built(emptyList())
     }
 }
 
@@ -745,7 +767,9 @@ private fun BoxScope.RootHeader() {
         Spacer(Modifier.width(10.dp))
         Text(stringResource(R.string.app_name), color = Color.White, style = QTheme.type.panelTitle)
     }
-    val date = remember { SimpleDateFormat("EEE MMM d, yyyy", Locale.getDefault()).format(Date()) }
+    // The weekday, day, month and year in the order and wording of the app's language.
+    val locale = LocalConfiguration.current.locales[0]
+    val date = remember(locale) { SimpleDateFormat(DateFormat.getBestDateTimePattern(locale, "EEEMMMdyyyy"), locale).format(Date()) }
     Text(
         date,
         color = Color.White.copy(alpha = 0.8f),

@@ -5,7 +5,6 @@
     <string name="about_libs">ライブラリ / クレジット</string>
     <string name="about_links">リンク</string>
     <string name="about_link_project">プロジェクトページ</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">日本語翻訳</string>
     <string name="about_translation_credit">QLauncher コントリビューター</string>
     <string name="about_no_browser">このデバイスにはブラウザがありません。別のデバイスで %1$s を開いてください。</string>

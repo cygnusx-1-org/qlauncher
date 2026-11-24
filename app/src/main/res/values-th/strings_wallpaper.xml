@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">ไม่มี</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">สีแบบไดนามิก</string>
     <string name="wallpaper_provider_default">วอลเปเปอร์เริ่มต้น</string>
     <string name="wallpaper_provider_media_file">ไฟล์สื่อ</string>

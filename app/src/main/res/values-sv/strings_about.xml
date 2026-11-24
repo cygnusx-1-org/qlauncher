@@ -5,7 +5,6 @@
     <string name="about_libs">Bibliotek / Tack</string>
     <string name="about_links">Länkar</string>
     <string name="about_link_project">Projektsida</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Svensk översättning</string>
     <string name="about_translation_credit">QLaunchers bidragsgivare</string>
     <string name="about_no_browser">Ingen webbläsare på enheten. Öppna %1$s på en annan enhet.</string>

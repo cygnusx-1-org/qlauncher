@@ -8,19 +8,30 @@
  */
 package org.cygnusx1.qlauncher.ui.home
 
+import android.content.ComponentCallbacks
 import android.content.Context
+import android.content.res.Configuration
+import android.os.LocaleList
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.cygnusx1.qlauncher.AppContainer
+import org.cygnusx1.qlauncher.apps.iconpack.IconSetIcon
+import org.cygnusx1.qlauncher.apps.iconpack.IconSetNames
 import org.cygnusx1.qlauncher.data.Category
 import org.cygnusx1.qlauncher.data.CategoryIds
 import org.cygnusx1.qlauncher.data.CategoryList
@@ -126,7 +137,22 @@ class HomeController(
         )
     }.stateIn(scope, SharingStarted.Eagerly, HomeInputs(emptyList(), emptyList(), emptyMap(), container.settings.current, ActionAvailability()))
 
-    val rows: StateFlow<List<HomeRow>> = inputs.map { content.rows(it) }
+    /** The application's locales: titles follow a language the system applies after the setting changed. */
+    private val appLocales: Flow<LocaleList> = callbackFlow {
+        val callbacks = object : ComponentCallbacks {
+            override fun onConfigurationChanged(newConfig: Configuration) {
+                trySend(context.resources.configuration.locales)
+            }
+
+            @Deprecated("Deprecated in Java")
+            override fun onLowMemory() = Unit
+        }
+        send(context.resources.configuration.locales)
+        context.registerComponentCallbacks(callbacks)
+        awaitClose { context.unregisterComponentCallbacks(callbacks) }
+    }.distinctUntilChanged()
+
+    val rows: StateFlow<List<HomeRow>> = combine(inputs, appLocales) { input, _ -> content.rows(input) }
         .stateIn(scope, SharingStarted.Eagerly, emptyList())
 
     /** Every category including hidden ones, with its title (Edit categories). */
@@ -206,7 +232,29 @@ class HomeController(
 
     fun setItemTitle(key: String, title: String?) = container.itemOverrides.update(key) { it.copy(title = title) }
 
-    fun setItemIcon(key: String, uri: String?) = container.itemOverrides.update(key) { it.copy(iconUri = uri) }
+    /** Sets or (null) resets [key]'s custom icon; a copy of ours that it replaces is deleted. */
+    fun setItemIcon(key: String, uri: String?) = container.apps.iconPacks.setIcon(key, uri)
+
+    /** The icon set's chosen style for *Change icon*: (style, repository), or null when there is none. */
+    fun iconSetChoice(): Pair<String, String>? {
+        val m = container.apps.iconSets.manifest.value ?: return null
+        val style = m.style ?: return null
+        return IconSetNames.styleLabel(style) to m.repo
+    }
+
+    /** The chosen style's icons, those whose name fits [key]'s title first; [onLoaded] runs on the main thread. */
+    fun loadIconSetIcons(key: String, onLoaded: (List<IconSetIcon>) -> Unit) {
+        container.scope.launch {
+            val title = container.itemOverrides[key]?.title?.takeIf { it.isNotBlank() } ?: container.apps.apps[key]?.label.orEmpty()
+            val icons = container.apps.iconSets.iconsFor(title)
+            withContext(Dispatchers.Main) { onLoaded(icons) }
+        }
+    }
+
+    /** Puts [icon] of the icon set on [key]'s card. */
+    fun applyIconSetIcon(key: String, icon: IconSetIcon) {
+        container.scope.launch { container.apps.iconSets.apply(key, icon) }
+    }
 
     fun toggleCrop(key: String) = container.itemOverrides.update(key) { it.copy(cropToFill = !it.cropToFill) }
 

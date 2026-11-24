@@ -20,19 +20,19 @@
     <string name="settings_remote">Kaukosäädin</string>
     <string name="settings_accessibility">Esteettömyyspalvelu</string>
     <string name="settings_display_profiles">Näyttöprofiilit</string>
-    <string name="settings_manage">Hallinnoi asetuksia</string>
+    <string name="settings_manage">Hallitse asetuksia</string>
 
     <!-- General -->
     <string name="settings_language">Vaihda sovelluksen kieli</string>
     <string name="settings_language_system">Järjestelmän oletus</string>
     <string name="settings_default_launcher">Vaihda oletuskäynnistin</string>
-    <string name="settings_default_launcher_unavailable">Tämä laite ei tarjoa tapaa vaihtaa oletuskäynnistintä. Käytä sen sijaan asetusta ”Korvaa nykyinen käynnistin”.</string>
+    <string name="settings_default_launcher_unavailable">Tässä laitteessa oletuskäynnistintä ei voi vaihtaa. Käytä sen sijaan asetusta ”Korvaa nykyinen käynnistin”.</string>
     <string name="settings_override_home">Korvaa nykyinen käynnistin</string>
-    <string name="settings_override_home_desc">Sieppaa nykyisen käynnistimen kutsut (hyödyllinen, jos et voi vaihtaa tai poistaa laitteen omaa käynnistintä)</string>
+    <string name="settings_override_home_desc">Sieppaa nykyisen käynnistimen avaukset (hyödyllinen, jos vakiokäynnistintä ei voi vaihtaa tai poistaa)</string>
     <string name="settings_enable_channels">Ota kanavat käyttöön</string>
-    <string name="settings_enable_channels_desc">Jos et käytä niitä, tämän poistaminen käytöstä nopeuttaa käynnistystä ja vähentää muistin käyttöä</string>
+    <string name="settings_enable_channels_desc">Jos et käytä niitä, tämän poistaminen käytöstä nopeuttaa käynnistystä ja vähentää muistinkäyttöä</string>
     <string name="settings_programs_per_channel">Ohjelmia kanavaa kohden</string>
-    <string name="settings_crash_error_reports">Lähetä nimettömät kaatumis- ja virheraportit</string>
+    <string name="settings_crash_error_reports">Lähetä anonyymit kaatumis- ja virheraportit</string>
     <string name="settings_reports_desc">Vain virhe, sovelluksen versio ja laitteen malli lähetetään</string>
     <string name="settings_check_updates">Tarkista päivitykset</string>
 
@@ -41,20 +41,20 @@
     <string name="settings_cards">Kortit</string>
     <string name="settings_wallpaper">Taustakuva</string>
     <string name="settings_status_bar">Tilapalkki</string>
-    <string name="settings_left_headers">Vasemmat otsikot</string>
+    <string name="settings_left_headers">Vasemman reunan otsikot</string>
     <string name="settings_idle_mode">Käynnistimen joutotila</string>
     <string name="settings_font">Fontti</string>
     <string name="settings_themes">Teemat</string>
     <string name="settings_themes_desc">Tuo / Vie</string>
     <string name="settings_load_cards_scrolling">Lataa kortit vierityksen aikana</string>
-    <string name="settings_load_cards_scrolling_desc">Nopeampi vaste sujuvuuden kustannuksella</string>
+    <string name="settings_load_cards_scrolling_desc">Reagoi nopeammin sulavuuden kustannuksella</string>
     <string name="settings_accent">Korostusväri</string>
-    <string name="settings_accent_desc">Ota dynaaminen käyttöön, niin väri seuraa taustakuvaa</string>
+    <string name="settings_accent_desc">Valitse dynaaminen, niin väri seuraa taustakuvaa</string>
 
     <!-- Categories / Channels -->
     <string name="settings_show_title">Näytä otsikko</string>
     <string name="settings_show_icon_title">Näytä kuvake otsikon edessä</string>
-    <string name="settings_rows_spacing">Pystyväli (prosentteina näytön korkeudesta)</string>
+    <string name="settings_rows_spacing">Pystyväli (näytön korkeuden %)</string>
     <string name="settings_fixed_position">Pidä valitun kategorian sijainti kiinteänä</string>
     <string name="settings_hide_rows_above">Piilota valinnan yläpuoliset rivit</string>
     <string name="settings_remember_focus">Muista valitun kortin sijainti</string>
@@ -63,14 +63,14 @@
     <string name="settings_start_margin">Alkumarginaali</string>
     <string name="settings_end_margin">Loppumarginaali</string>
     <string name="settings_dock_padding">Telakan sisämarginaali</string>
-    <string name="settings_tint_custom_icons">Sävytä omat kuvakkeet</string>
-    <string name="settings_tint_custom_icons_desc">Omille kuvakkeille, joilla ei ole taustaa</string>
+    <string name="settings_tint_custom_icons">Sävytä mukautetut kuvakkeet</string>
+    <string name="settings_tint_custom_icons_desc">Mukautetuille kuvakkeille, joilla ei ole taustaa</string>
 
     <!-- Cards -->
     <string name="settings_rounded_corners">Pyöristetyt kulmat</string>
     <string name="settings_cards_size">Korttien koko</string>
     <string name="settings_cards_spacing">Korttien väli</string>
-    <string name="settings_loop_limit">Animoitujen kuvakkeiden toistoraja</string>
+    <string name="settings_loop_limit">Animoitujen kuvakkeiden toistokerrat</string>
     <string name="settings_ripple">Aaltoefekti korttia painettaessa</string>
     <string name="settings_background_color">Taustaväri</string>
     <string name="settings_focused_card">Valittu kortti</string>
@@ -80,18 +80,16 @@
     <string name="settings_icon_pack">Kuvakepaketti</string>
     <string name="settings_icon_pack_none">Kuvakepakettia ei ole asennettu</string>
     <string name="settings_icon_pack_off">Ei mitään</string>
-    <string name="settings_more">Lisää…</string>
-    <string name="settings_custom_icon_tint">Omien kuvakkeiden sävytys</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
+    <string name="settings_more">Muita…</string>
+    <string name="settings_custom_icon_tint">Mukautettujen kuvakkeiden sävy</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Valitun kortin koko</string>
     <string name="settings_focused_effect">Valitun kortin tehoste</string>
     <string name="settings_effect_none">Ei mitään</string>
-    <string name="settings_effect_shadow">Pudotusvarjo</string>
+    <string name="settings_effect_shadow">Varjo</string>
     <string name="settings_effect_glow">Hehku</string>
-    <string name="settings_glow_animation">Hehkun animaatio</string>
+    <string name="settings_glow_animation">Hehkuanimaatio</string>
     <string name="settings_anim_none">Ei mitään</string>
     <string name="settings_anim_pulse">Pulssi</string>
     <string name="settings_anim_breath">Hengitys</string>
@@ -100,9 +98,9 @@
     <string name="settings_glow_size">Hehkun koko</string>
     <string name="settings_glow_color">Hehkun väri</string>
     <string name="settings_glow_color_desc">Jätä tyhjäksi, niin käytetään kortin omaa väriä</string>
-    <string name="settings_colors_override">Värien ohitus</string>
+    <string name="settings_colors_override">Värien korvaus</string>
     <string name="settings_override_none">Ei mitään</string>
-    <string name="settings_override_swap">Vaihda tausta ja sävytys keskenään</string>
+    <string name="settings_override_swap">Vaihda tausta/sävy</string>
     <string name="settings_override_custom">Mukautettu</string>
 
     <!-- Program cards -->
@@ -115,20 +113,18 @@
     <string name="settings_zoom_focus">Zoomaustehoste valittuna</string>
 
     <!-- Wallpaper -->
-    <string name="settings_wallpaper_desc">Tuetut muodot: kuva, animoitu GIF, video (tiedosto tai RTSP-suoratoisto), Lottie-animaatio</string>
+    <string name="settings_wallpaper_desc">Tuetut muodot: still-kuva, animoitu GIF, video (tiedosto tai RTSP-suoralähetys), Lottie-animaatio</string>
     <string name="settings_launcher_wallpaper">Käynnistimen taustakuva</string>
     <string name="settings_configure">Määritä</string>
     <string name="settings_show_wallpapers">Näytä taustakuvat</string>
     <string name="settings_picture_adjustment">Kuvan säätö</string>
-    <string name="settings_image_transition">Kuvan siirtymä</string>
-    <string name="settings_update_frequency">Päivitystiheys (min)</string>
+    <string name="settings_image_transition">Kuvasiirtymä</string>
+    <string name="settings_update_frequency">Päivitysväli (min)</string>
     <string name="settings_video_wallpaper">Videotaustakuva</string>
     <string name="settings_display_mode">Näyttötila</string>
-    <string name="settings_bad_ratio">Jos kuvasuhde/laatu on huono</string>
+    <string name="settings_bad_ratio">Jos kuvasuhde tai laatu on huono</string>
     <string name="settings_min_width">Pienin hyväksytty leveys (px)</string>
     <string name="settings_src_none">Ei mitään</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dynaamiset värit</string>
     <string name="settings_src_default">Oletustaustakuva</string>
     <string name="settings_src_media">Mediatiedosto</string>
@@ -148,12 +144,12 @@
     <string name="settings_dm_crop">Rajaa</string>
     <string name="settings_dm_stretch">Venytä</string>
     <string name="settings_dm_fit">Sovita keskelle</string>
-    <string name="settings_dm_fit_blur">Sovita keskelle + sumea tausta</string>
+    <string name="settings_dm_fit_blur">Sovita keskelle + sumennettu tausta</string>
     <string name="settings_dm_blur">Sumennus</string>
 
     <!-- Picture adjustment -->
     <string name="settings_hue">Värisävy</string>
-    <string name="settings_saturation">Kylläisyys</string>
+    <string name="settings_saturation">Värikylläisyys</string>
     <string name="settings_contrast">Kontrasti</string>
     <string name="settings_brightness">Kirkkaus</string>
     <string name="settings_tint">Sävytys</string>
@@ -162,22 +158,22 @@
     <string name="settings_shadow_h">Vaakasuuntaisen varjokerroksen pituus</string>
     <string name="settings_shadow_v">Pystysuuntaisen varjokerroksen pituus</string>
     <string name="settings_shadow_opacity">Varjokerroksen peittävyys</string>
-    <string name="settings_shadow_tint">Varjokerroksen sävytys</string>
+    <string name="settings_shadow_tint">Varjokerroksen sävy</string>
 
     <!-- Video wallpaper -->
-    <string name="settings_ignore_update">Ohita päivitystiheys</string>
-    <string name="settings_ignore_update_desc">Odota videon loppuun ennen uuden taustakuvan pyytämistä</string>
-    <string name="settings_video_color_freq">Dynaamisen värin päivitystiheys</string>
-    <string name="settings_video_color_freq_desc">Sekunteja väreihin luettavien videokehysten välillä; 0 poistaa sen käytöstä</string>
+    <string name="settings_ignore_update">Ohita päivitysväli</string>
+    <string name="settings_ignore_update_desc">Odota videon loppumista ennen uuden taustakuvan pyytämistä</string>
+    <string name="settings_video_color_freq">Dynaamisten värien päivitysväli</string>
+    <string name="settings_video_color_freq_desc">Sekunteja värejä varten luettujen videoruutujen välillä; 0 poistaa toiminnon käytöstä</string>
     <string name="settings_volume">Äänenvoimakkuus</string>
     <string name="settings_tunneling">Käytä laitteistorenderöintiä (tunnelointi)</string>
-    <string name="settings_decoder_fallback">Ota dekooderien varavaihtoehto käyttöön</string>
+    <string name="settings_decoder_fallback">Salli varadekooderit</string>
 
     <!-- Status bar -->
-    <string name="settings_notification_permission">Hallinnoi ilmoitusten käyttöoikeutta</string>
+    <string name="settings_notification_permission">Hallitse ilmoitusten käyttöoikeutta</string>
     <string name="settings_granted">Myönnetty</string>
     <string name="settings_not_granted">Ei myönnetty</string>
-    <string name="settings_notification_adb">Tässä laitteessa ei ole asetusnäkymää. Myönnä se komennolla: %1$s</string>
+    <string name="settings_notification_adb">Tässä laitteessa ei ole asetusnäyttöä. Myönnä käyttöoikeus komennolla: %1$s</string>
     <string name="settings_clock">Kello</string>
     <string name="settings_icons">Kuvakkeet</string>
     <string name="settings_show_system_bar">Näytä järjestelmän tilapalkki</string>
@@ -185,16 +181,16 @@
     <string name="settings_show_clock">Näytä kello</string>
     <string name="settings_clock_size">Kellon fonttikoko</string>
     <string name="settings_clock_color">Kellon väri</string>
-    <string name="settings_drop_shadow">Pudotusvarjo</string>
+    <string name="settings_drop_shadow">Varjo</string>
     <string name="settings_clock_line1">Kellon muoto (rivi 1)</string>
     <string name="settings_clock_line2">Kellon muoto (rivi 2)</string>
     <string name="settings_clock_default_format">Järjestelmän muoto</string>
     <string name="settings_empty">Tyhjä</string>
     <string name="settings_icons_size">Kuvakkeiden koko</string>
     <string name="settings_icons_color">Kuvakkeiden väri</string>
-    <string name="settings_icons_container">Kuvakkeiden pohjan väri</string>
+    <string name="settings_icons_container">Kuvakkeiden taustan väri</string>
     <string name="settings_show_settings">Näytä asetukset</string>
-    <string name="settings_show_settings_desc">Asetuksiin pääsee aina tällä painikesarjalla: ↑→↓←↑→↓←</string>
+    <string name="settings_show_settings_desc">Asetukset ovat aina käytettävissä tällä painikesarjalla: ↑→↓←↑→↓←</string>
     <string name="settings_show_connectivity">Näytä yhteydet</string>
     <string name="settings_show_notifications">Näytä ilmoitukset</string>
     <string name="settings_autohide_notifications">Piilota ilmoituskuvake, kun ilmoituksia ei ole</string>
@@ -202,27 +198,27 @@
 
     <!-- Left headers -->
     <string name="settings_enable">Ota käyttöön</string>
-    <string name="settings_headers_on_launch">Näytä vasemmat otsikot käynnistettäessä</string>
+    <string name="settings_headers_on_launch">Näytä vasemman reunan otsikot käynnistettäessä</string>
     <string name="settings_show_icon">Näytä kuvake</string>
-    <string name="settings_show_reorder">Näytä järjestäminen</string>
+    <string name="settings_show_reorder">Näytä uudelleenjärjestys</string>
 
     <!-- Idle -->
-    <string name="settings_idle_timeout">Aikakatkaisu ennen joutotilaa (min)</string>
+    <string name="settings_idle_timeout">Aika ennen joutotilaa (min)</string>
     <string name="settings_idle_opacity">Käyttöliittymän peittävyys</string>
     <string name="settings_keep_clock">Säilytä kello</string>
     <string name="settings_prevent_screensaver">Estä järjestelmän näytönsäästäjä</string>
 
     <!-- Font -->
-    <string name="settings_font_desc">Muuta QLauncherin fonttiasetuksia. Fonttiperheiden nimiä voi etsiä Google Fontsista.</string>
+    <string name="settings_font_desc">Muuta QLauncherin fonttiasetuksia. Fonttiperheiden nimet löytyvät Google Fontsista.</string>
     <string name="settings_font_list">Valitse luettelosta</string>
     <string name="settings_font_google">Fontti (Google Fonts)</string>
     <string name="settings_font_default">Oletus</string>
-    <string name="settings_bold">Lihavointi</string>
+    <string name="settings_bold">Lihavoitu</string>
     <string name="settings_italic">Kursiivi</string>
     <string name="settings_size">Koko</string>
 
     <!-- Power -->
-    <string name="settings_autostart">Automaattinen käynnistys</string>
+    <string name="settings_autostart">Käynnistä automaattisesti laitteen käynnistyessä</string>
     <string name="settings_autostart_none">Ei mitään</string>
     <string name="settings_autostart_screensaver">[*] Näytönsäästäjä (jos tuettu)</string>
     <string name="settings_autostart_resume">…ja myös valmiustilasta palattaessa</string>
@@ -230,11 +226,11 @@
     <string name="settings_simulate_activity">Estä järjestelmän automaattinen sammutus käyttämättömänä</string>
     <string name="settings_idle_detection">Ota sisäinen käyttämättömyyden tunnistus käyttöön</string>
     <string name="settings_idle_timeout_power">Käyttämättömyyden aikaraja (h:min)</string>
-    <string name="settings_idle_action">Toiminto käyttämättömänä</string>
+    <string name="settings_idle_action">Toiminto käyttämättömyyden jälkeen</string>
     <string name="settings_idle_action_shutdown">Sammutus</string>
     <string name="settings_idle_action_screen_off">Näyttö pois</string>
     <string name="settings_idle_action_screensaver">Näytönsäästäjä (jos tuettu)</string>
-    <string name="settings_idle_media">Ohita käyttämättömyys median toiston aikana</string>
+    <string name="settings_idle_media">Älä siirry joutotilaan median toiston aikana</string>
     <string name="settings_missing_notification_permission">⚠️ Ilmoitusten käyttöoikeus puuttuu</string>
     <string name="settings_shutdown_action">Sammutustoiminto</string>
     <string name="settings_shutdown_dialog">Virtavalikko</string>
@@ -243,42 +239,42 @@
     <string name="settings_hdmi_exit">Sammuta automaattisesti, kun HDMI-tulon signaali katkeaa</string>
 
     <!-- Parental -->
-    <string name="settings_parental_desc">Määritä koodi, jolla valitut sovellukset lukitaan (valitse ne painamalla korttia pitkään aloitusnäytössä) koko päiväksi tai osaksi päivää</string>
+    <string name="settings_parental_desc">Määritä koodi, jolla valitut sovellukset lukitaan koko päiväksi tai osaksi päivää (valitse ne painamalla korttia pitkään aloitusnäytöllä)</string>
     <string name="settings_parental_set_code">Aseta uusi lapsilukon koodi</string>
     <string name="settings_parental_code_set">Koodi on asetettu</string>
     <string name="settings_parental_long">Älä kysy koodia 15 minuuttiin onnistuneen vahvistuksen jälkeen</string>
     <string name="settings_parental_protect">Suojaa käynnistimen asetukset ja käyttöliittymän muutokset</string>
     <string name="settings_parental_protect_desc">(voimassa aina)</string>
-    <string name="settings_parental_partial">Suojaa vain tiettynä aikana</string>
+    <string name="settings_parental_partial">Ota suojaus käyttöön vain aikavälillä</string>
     <string name="settings_parental_start">Alkamisaika (h:min)</string>
     <string name="settings_parental_end">Päättymisaika (h:min)</string>
 
     <!-- Remote -->
     <string name="settings_menu_double">Näytä tiedot, kun ”Valikko”-painiketta painetaan kahdesti</string>
-    <string name="settings_back_double">”Taustatila”, kun ”Takaisin”-painiketta painetaan kahdesti</string>
-    <string name="settings_back_double_desc">Käynnistä näytönsäästäjä tuetuissa laitteissa</string>
+    <string name="settings_back_double">”Ambient-tila”, kun ”Takaisin”-painiketta painetaan kahdesti</string>
+    <string name="settings_back_double_desc">Käynnistää näytönsäästäjän tuetuissa laitteissa</string>
 
     <!-- Accessibility service -->
-    <string name="settings_a11y_desc">Ota palvelu käyttöön, jotta voit suorittaa toiminnon käynnistyksessä, mukauttaa kaukosäätimen painikkeita, vahvistaa lapsilukkoa ja tunnistaa käyttämättömyyden virranhallintaa varten. Se näkee laitteiston näppäinpainallukset ja edustalla olevan sovelluksen nimen; molemmat pysyvät tämän laitteen muistissa, eikä niitä lähetetä minnekään.</string>
+    <string name="settings_a11y_desc">Ota palvelu käyttöön, jotta voit suorittaa toiminnon laitteen käynnistyessä, muokata kaukosäätimen painikkeita, vahvistaa lapsilukkoa ja tunnistaa käyttämättömyyden virranhallintaa varten. Se näkee laitteen näppäinpainallukset ja edustalla olevan sovelluksen nimen; molemmat pysyvät tämän laitteen muistissa, eikä niitä lähetetä minnekään.</string>
     <string name="settings_a11y_enabled">Käytössä</string>
     <string name="settings_a11y_started">Käynnissä</string>
     <string name="settings_yes">Kyllä</string>
     <string name="settings_no">Ei</string>
     <string name="settings_a11y_open">Näytä esteettömyysasetukset</string>
     <string name="settings_a11y_consent_title">Esteettömyyspalvelu</string>
-    <string name="settings_a11y_consent">Tämä antaa QLauncherin nähdä laitteiston painikkeiden painallukset ja edustalla olevan sovelluksen nimen. Molemmat säilytetään vain tämän laitteen muistissa, eikä niitä lähetetä minnekään. Hyväksytkö?</string>
-    <string name="settings_a11y_alternate">Käytä vaihtoehtoista määritystä</string>
+    <string name="settings_a11y_consent">Tämä sallii QLauncherin nähdä laitteen painikkeiden painallukset ja edustalla olevan sovelluksen nimen. Molemmat säilytetään vain tämän laitteen muistissa, eikä niitä lähetetä minnekään. Hyväksytkö?</string>
+    <string name="settings_a11y_alternate">Käytä vaihtoehtoisia määrityksiä</string>
     <string name="settings_a11y_alternate_desc">Korjaa ongelmia joissakin laitteissa</string>
     <string name="settings_a11y_volume_fix">Äänenvoimakkuuspainikkeiden korjaus</string>
-    <string name="settings_a11y_volume_fix_desc">Keskeytä uudelleenmääritys hetkeksi, kun äänenvoimakkuutta painetaan, jotta pitkät painallukset toimivat edelleen</string>
+    <string name="settings_a11y_volume_fix_desc">Keskeytä uudelleenmääritys hetkeksi, kun äänenvoimakkuuspainiketta painetaan, jotta pitkät painallukset toimivat edelleen</string>
     <string name="settings_a11y_remap">Ota painikkeiden uudelleenmääritys käyttöön</string>
-    <string name="settings_a11y_remap_desc">Palvelu sieppaa näppäinpainallukset. Tämän poistaminen käytöstä estää äänenvoimakkuuden pitkien painallusten ongelmat ja sen, että järjestelmä pysäyttää palvelun, mutta käynnistimen korvaus, lapsilukko ja käyttämättömyyden tunnistus voivat toimia heikommin.</string>
+    <string name="settings_a11y_remap_desc">Palvelu sieppaa näppäinpainallukset. Tämän poistaminen käytöstä välttää äänenvoimakkuuspainikkeiden pitkien painallusten ongelmat ja sen, että järjestelmä pysäyttää palvelun, mutta käynnistimen korvaus, lapsilukko ja käyttämättömyyden tunnistus voivat toimia heikommin.</string>
     <string name="settings_a11y_reminder">Näytä muistutus</string>
     <string name="settings_a11y_reminder_desc">Jos esteettömyyspalvelu on poistettu käytöstä</string>
     <string name="settings_a11y_unbound_toast">QLauncherin esteettömyyspalvelu ei ole käynnissä</string>
 
     <!-- Manage settings -->
-    <string name="settings_manage_desc">Tuo tai vie asetukset paikallisesti tai toisen sovelluksen, kuten LocalSendin tai tiedostonhallinnan, kautta.</string>
+    <string name="settings_manage_desc">Tuo tai vie asetukset paikallisesti tai toisen sovelluksen, kuten LocalSendin tai tiedostonhallinnan, avulla.</string>
     <string name="settings_import">Tuo</string>
     <string name="settings_import_file">Tiedostosta</string>
     <string name="settings_import_auto">Automaattisesta varmuuskopiosta</string>
@@ -305,10 +301,9 @@
     <string name="wp_choose_other">Muu sijainti…</string>
     <string name="wp_choose_other_desc">Valitse järjestelmän tiedostonvalitsimella</string>
     <string name="wp_media_searching">Etsitään kuvia ja videoita…</string>
-    <string name="wp_media_none">Kuvia tai videoita ei löytynyt. Kopioi niitä kansioon Pictures, Movies tai Download tai liitä USB-asema.</string>
-    <string name="wp_folders_description">Kansiot, joissa on kuvia tai videoita, tässä laitteessa ja USB-asemilla.</string>
-    <string name="wp_folders_none">Kansioita, joissa on kuvia tai videoita, ei löytynyt</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
+    <string name="wp_media_none">Kuvia tai videoita ei löytynyt. Kopioi niitä Pictures-, Movies- tai Download-kansioon tai liitä USB-asema.</string>
+    <string name="wp_folders_description">Kuvia tai videoita sisältävät kansiot tässä laitteessa ja USB-asemilla.</string>
+    <string name="wp_folders_none">Kuvia tai videoita sisältäviä kansioita ei löytynyt</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d tiedosto</item>
         <item quantity="other">%d tiedostoa</item>
@@ -325,18 +320,18 @@
     <string name="wp_source">Lähde</string>
     <string name="wp_title">Otsikko</string>
     <string name="wp_author">Tekijä</string>
-    <string name="wp_set_user">Aseta omaksi taustakuvaksi</string>
+    <string name="wp_set_user">Aseta käyttäjän taustakuvaksi</string>
     <string name="wp_view">Näytä</string>
     <string name="wp_unknown">Tuntematon</string>
 
     <!-- Display Profiles -->
-    <string name="dp_desc">Luo ja hallinnoi videon näyttöprofiileja täällä. Liitä ne tulolähteisiin, jolloin ne vaihtuvat automaattisesti, tai ota ne käyttöön painamalla Valikko-painiketta kahdesti ja sitten ylös tai alas.</string>
+    <string name="dp_desc">Luo ja hallitse videon näyttöprofiileja täällä. Liitä ne tulolähteisiin, jotta ne vaihtuvat automaattisesti, tai ota ne käyttöön painamalla Valikko-painiketta kahdesti ja sitten ylös tai alas.</string>
     <string name="dp_list">Näyttöprofiilien luettelo</string>
     <string name="dp_list_desc">Luo tai muokkaa videon näyttöprofiileja täällä. Laitteesta riippuen jotkin säätimet vaativat root-oikeudet tai eivät toimi lainkaan; ne on tarkoitettu AmLogic-laitteille.</string>
     <string name="dp_add">Lisää uusi…</string>
     <string name="dp_name">Profiilin nimi</string>
     <string name="dp_preview">Esikatselu</string>
-    <string name="dp_fullscreen">Esikatselu koko näytöllä</string>
+    <string name="dp_fullscreen">Koko näytön esikatselu</string>
     <string name="dp_fullscreen_desc">tai vaihda Valikko-painikkeella</string>
     <string name="dp_delete">Poista profiili</string>
 
@@ -344,9 +339,8 @@
     <string name="install_title">Asenna kolmannen osapuolen sovelluksia</string>
     <string name="install_desc">Valitse asennettava sovellus. Sinun on ehkä ensin sallittava asennukset tuntemattomista lähteistä.</string>
     <string name="install_custom">Oma URL / Downloader-koodi</string>
-    <string name="install_custom_desc">Käytä vain lähdettä, johon luotat</string>
+    <string name="install_custom_desc">Käytä vain luotettavaa lähdettä</string>
     <string name="install_status">Tila</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Tämä laite</string>
@@ -355,10 +349,10 @@
     <string name="settings_no_file_picker">Tässä laitteessa ei ole tiedostonvalitsinta</string>
 
     <!-- Colour picker -->
-    <string name="color_luminance">Luminanssi</string>
+    <string name="color_luminance">Valoisuus</string>
     <string name="color_opacity">Peittävyys</string>
     <string name="color_prefer_dynamic">Suosi dynaamista väriä</string>
-    <string name="color_prefer_dynamic_desc">Jos saatavilla, tämä luminanssi/peittävyys säilytetään</string>
+    <string name="color_prefer_dynamic_desc">Jos saatavilla, säilyttää tämän valoisuuden/peittävyyden</string>
     <string name="color_clear">Tyhjennä</string>
     <string name="color_reset">Palauta oletus</string>
 </resources>

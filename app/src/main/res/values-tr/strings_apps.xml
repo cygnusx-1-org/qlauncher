@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Ekran profilleri</string>
     <string name="apps_action_install_apps">Üçüncü taraf uygulama yükle</string>
     <string name="apps_action_accessibility_service">Erişilebilirlik hizmeti</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Profil değiştir</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Bu cihaz</string>
     <string name="apps_action_about_wallpaper">Bu duvar kağıdı</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Derleme</string>
     <string name="apps_device_build_desc">Derleme açıklaması</string>
     <string name="apps_device_device_type">Cihaz türü</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP adresi</string>
     <string name="apps_device_root_access">Root erişimi</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Görüntü yöneticisi yok</string>
     <string name="apps_device_id">Kimlik</string>
     <string name="apps_device_yes">Evet</string>
     <string name="apps_device_no">Hayır</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Simge seti</string>
+    <string name="iconset_desc">Bir GitHub deposundan şeffaf simgeler, örneğin DrZacharySmith/projectivy-transparent-icons. İndirmek için bir sürüm, ardından “Simgeyi değiştir” seçeneğinin sunacağı stili seçin.</string>
+    <string name="iconset_repo">Depo</string>
+    <string name="iconset_repo_hint">GitHub\'da owner/name</string>
+    <string name="iconset_repo_add">Ekle…</string>
+    <string name="iconset_add_title">Depo ekle</string>
+    <string name="iconset_add_desc">owner/name biçiminde bir GitHub deposu ve içinde her stil için birer PNG simge klasörü bulunan klasör, örneğin icons/styles.</string>
+    <string name="iconset_add_path">Setlerin yolu</string>
+    <string name="iconset_add_path_hint">Her stil için birer klasör içeren klasör, ör. icons/styles</string>
+    <string name="iconset_add">Ekle</string>
+    <string name="iconset_release">Sürüm</string>
+    <string name="iconset_release_none">İndirilmedi</string>
+    <string name="iconset_status">Durum</string>
+    <string name="iconset_loading">Sürümler aranıyor…</string>
+    <string name="iconset_downloading">%1$s indiriliyor… %2$d MB</string>
+    <string name="iconset_cancel">İndirmeyi iptal et</string>
+    <string name="iconset_style">Stil</string>
+    <string name="iconset_style_choose">Bir stil seçin</string>
+    <string name="iconset_match">Simgeleri uygulamalarla eşleştir</string>
+    <string name="iconset_match_desc">Adı bir simgeyle eşleşen her uygulama için bir simge önerir</string>
+    <string name="iconset_reset">Simgeleri varsayılana sıfırla</string>
+    <string name="iconset_remove">Simge setini kaldır</string>
+    <string name="iconset_fail_bad_repo">Depoyu owner/name biçiminde girin</string>
+    <string name="iconset_fail_bad_path">icons/styles gibi bir klasör girin</string>
+    <string name="iconset_fail_not_found">Depo bulunamadı</string>
+    <string name="iconset_fail_no_releases">Bu deponun hiç sürümü yok</string>
+    <string name="iconset_fail_network">İndirme başarısız oldu</string>
+    <string name="iconset_fail_http">GitHub bir hatayla yanıt verdi (%1$s)</string>
+    <string name="iconset_fail_no_styles">Bu sürümde %1$s içinde stil klasörü yok</string>
+    <string name="iconset_fail_no_space">Yeterli boş alan yok</string>
+    <string name="iconset_fail_storage">Simgeler kaydedilemiyor</string>
+    <string name="iconset_match_title">Simgeleri eşleştir</string>
+    <string name="iconset_apply">Uygula (%1$d)</string>
+    <string name="iconset_match_none">Hiçbir uygulama adı bir simgeyle eşleşmiyor</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d simge uygulandı</item>
+        <item quantity="other">%1$d simge uygulandı</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d simge varsayılana sıfırlandı</item>
+        <item quantity="other">%1$d simge varsayılana sıfırlandı</item>
+    </plurals>
 </resources>

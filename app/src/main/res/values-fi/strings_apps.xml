@@ -13,14 +13,12 @@
     <string name="apps_action_edit_categories">Muokkaa kategorioita</string>
     <string name="apps_action_edit_channels">Muokkaa kanavia</string>
     <string name="apps_action_launcher_settings">QLauncherin asetukset</string>
-    <string name="apps_action_android_settings">Androidin asetukset</string>
+    <string name="apps_action_android_settings">Android-asetukset</string>
     <string name="apps_action_amlogic_settings">AmLogicin lisäasetukset</string>
     <string name="apps_action_display_profiles">Näyttöprofiilit</string>
     <string name="apps_action_install_apps">Asenna kolmannen osapuolen sovelluksia</string>
     <string name="apps_action_accessibility_service">Esteettömyyspalvelu</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Vaihda profiilia</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Tämä laite</string>
     <string name="apps_action_about_wallpaper">Tämä taustakuva</string>
 
@@ -39,9 +37,9 @@
     </plurals>
 
     <!-- Icon packs -->
-    <string name="apps_iconpack_apply_title">Käytä kuvakepakettia</string>
-    <string name="apps_iconpack_apply_message">Käytetäänkö kuvakepakettia %1$s sovellustesi kuvakkeisiin?</string>
-    <string name="apps_iconpack_apply_confirm">Käytä</string>
+    <string name="apps_iconpack_apply_title">Ota kuvakepaketti käyttöön</string>
+    <string name="apps_iconpack_apply_message">Käytetäänkö pakettia %1$s sovellustesi kuvakkeisiin?</string>
+    <string name="apps_iconpack_apply_confirm">Ota käyttöön</string>
     <string name="apps_iconpack_applied">Kuvakepaketti otettu käyttöön</string>
     <string name="apps_iconpack_apply_missing">Kuvakepakettia ei nimetty</string>
     <string name="apps_iconpack_apply_not_a_pack">Tämä sovellus ei ole kuvakepaketti</string>
@@ -56,7 +54,7 @@
 
     <!-- Install 3rd party apps -->
     <string name="apps_install_title">Asenna kolmannen osapuolen sovelluksia</string>
-    <string name="apps_install_description">Valitse asennettava sovellus. Sinun on ehkä sallittava asennus tuntemattomista lähteistä ennen asennusta.</string>
+    <string name="apps_install_description">Valitse asennettava sovellus. Sinun on ehkä ensin sallittava asennukset tuntemattomista lähteistä.</string>
     <string name="apps_install_custom_url">Oma URL / Downloader-koodi</string>
     <string name="apps_install_custom_url_desc">Käytä vain luotettavaa lähdettä</string>
     <string name="apps_install_choose_method">Valitse asennustapa</string>
@@ -65,7 +63,7 @@
     <string name="apps_install_category_icon_pack">Kuvakepaketti</string>
     <string name="apps_install_category_file_manager">Tiedostonhallinta</string>
     <string name="apps_install_category_tool">Työkalu</string>
-    <string name="apps_install_method_store">Kauppa</string>
+    <string name="apps_install_method_store">Sovelluskauppa</string>
     <string name="apps_install_method_direct">Suora lataus</string>
     <string name="apps_install_method_downloader">Downloader-sovellus</string>
     <string name="apps_install_state_downloading">Ladataan %1$s… %2$d %%</string>
@@ -76,8 +74,8 @@
     <string name="apps_install_state_unknown_sources">Salli QLauncherin asentaa sovelluksia ja palaa sitten jatkamaan</string>
     <string name="apps_install_state_downloader_sent">Koodi %1$s lähetetty Downloaderiin</string>
     <string name="apps_install_state_downloader_type">Syötä koodi %1$s Downloaderiin</string>
-    <string name="apps_install_state_store">Avattu kaupassa</string>
-    <string name="apps_install_state_browser">Linkki on verkkosivu, joten se avattiin selaimessa</string>
+    <string name="apps_install_state_store">Avattu sovelluskaupassa</string>
+    <string name="apps_install_state_browser">Tämä linkki on verkkosivu, joten se avattiin selaimessa</string>
     <string name="apps_install_fail_invalid">Tämä ei ole URL eikä Downloader-koodi</string>
     <string name="apps_install_fail_no_usb">USB-asemaa ei löytynyt</string>
     <string name="apps_install_fail_archive">Arkistoja ei voi asentaa</string>
@@ -87,7 +85,7 @@
     <string name="apps_install_fail_unreadable">Tiedostoa ei voi lukea</string>
     <string name="apps_install_fail_install">Asennus epäonnistui</string>
     <string name="apps_install_fail_cancelled">Asennus peruttiin</string>
-    <string name="apps_install_fail_unknown_sources">QLauncherilla ei ole lupaa asentaa sovelluksia</string>
+    <string name="apps_install_fail_unknown_sources">QLauncher ei saa asentaa sovelluksia</string>
     <string name="apps_install_fail_downloader">Downloader-sovellusta ei ole asennettu</string>
     <string name="apps_install_fail_store">Sovelluskauppaa ei ole saatavilla</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Koontiversio</string>
     <string name="apps_device_build_desc">Koontiversion kuvaus</string>
     <string name="apps_device_device_type">Laitetyyppi</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-osoite</string>
     <string name="apps_device_root_access">Root-oikeudet</string>
-    <string name="apps_device_pm_info">PMInfo</string>
-    <string name="apps_device_pm_none">Ei kuvanhallintaa</string>
+    <string name="apps_device_pm_none">Ei kuva-asetusten hallintaa</string>
     <string name="apps_device_id">Tunnus</string>
     <string name="apps_device_yes">Kyllä</string>
     <string name="apps_device_no">Ei</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Kuvakesarja</string>
+    <string name="iconset_desc">Läpinäkyvät kuvakkeet GitHub-tietovarastosta, kuten DrZacharySmith/projectivy-transparent-icons. Lataa julkaisu valitsemalla se ja valitse sitten tyyli, jota Vaihda kuvake tarjoaa.</string>
+    <string name="iconset_repo">Tietovarasto</string>
+    <string name="iconset_repo_hint">omistaja/nimi GitHubissa</string>
+    <string name="iconset_repo_add">Lisää…</string>
+    <string name="iconset_add_title">Lisää tietovarasto</string>
+    <string name="iconset_add_desc">GitHub-tietovarasto muodossa omistaja/nimi sekä sen kansio, jossa on yksi PNG-kuvakkeiden kansio kutakin tyyliä kohden, kuten icons/styles.</string>
+    <string name="iconset_add_path">Polku sarjoihin</string>
+    <string name="iconset_add_path_hint">Kansio, jossa on kansio kullekin tyylille, esim. icons/styles</string>
+    <string name="iconset_add">Lisää tietovarasto</string>
+    <string name="iconset_release">Julkaisu</string>
+    <string name="iconset_release_none">Ei ladattu</string>
+    <string name="iconset_status">Tila</string>
+    <string name="iconset_loading">Haetaan julkaisuja…</string>
+    <string name="iconset_downloading">Ladataan %1$s… %2$d Mt</string>
+    <string name="iconset_cancel">Peruuta lataus</string>
+    <string name="iconset_style">Tyyli</string>
+    <string name="iconset_style_choose">Valitse tyyli</string>
+    <string name="iconset_match">Yhdistä kuvakkeet sovelluksiin</string>
+    <string name="iconset_match_desc">Ehdottaa kuvaketta jokaiselle sovellukselle, jonka nimi vastaa kuvakkeen nimeä</string>
+    <string name="iconset_reset">Palauta oletuskuvakkeet</string>
+    <string name="iconset_remove">Poista kuvakesarja</string>
+    <string name="iconset_fail_bad_repo">Anna tietovarasto muodossa omistaja/nimi</string>
+    <string name="iconset_fail_bad_path">Anna kansio, kuten icons/styles</string>
+    <string name="iconset_fail_not_found">Tietovarastoa ei löytynyt</string>
+    <string name="iconset_fail_no_releases">Tässä tietovarastossa ei ole julkaisuja</string>
+    <string name="iconset_fail_network">Lataus epäonnistui</string>
+    <string name="iconset_fail_http">GitHub vastasi virheellä (%1$s)</string>
+    <string name="iconset_fail_no_styles">Tämän julkaisun kansiossa %1$s ei ole tyylikansioita</string>
+    <string name="iconset_fail_no_space">Vapaa tila ei riitä</string>
+    <string name="iconset_fail_storage">Kuvakkeita ei voi tallentaa</string>
+    <string name="iconset_match_title">Yhdistä kuvakkeet</string>
+    <string name="iconset_apply">Ota käyttöön (%1$d)</string>
+    <string name="iconset_match_none">Yksikään sovelluksen nimi ei vastaa kuvaketta</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d kuvake otettu käyttöön</item>
+        <item quantity="other">%1$d kuvaketta otettu käyttöön</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d kuvake palautettu oletukseksi</item>
+        <item quantity="other">%1$d kuvaketta palautettu oletukseksi</item>
+    </plurals>
 </resources>

@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">なし</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">ダイナミックカラー</string>
     <string name="wallpaper_provider_default">デフォルトの壁紙</string>
     <string name="wallpaper_provider_media_file">メディアファイル</string>

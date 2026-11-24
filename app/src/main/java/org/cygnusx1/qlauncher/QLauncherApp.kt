@@ -10,9 +10,11 @@ package org.cygnusx1.qlauncher
 
 import android.app.Application
 import android.content.Context
+import android.content.res.Configuration
 import coil3.ImageLoader
 import coil3.PlatformContext
 import coil3.SingletonImageLoader
+import org.cygnusx1.qlauncher.ui.LocaleHelper
 
 class QLauncherApp : Application(), SingletonImageLoader.Factory {
     lateinit var container: AppContainer
@@ -24,6 +26,12 @@ class QLauncherApp : Application(), SingletonImageLoader.Factory {
         // First, so a crash anywhere after this is recorded (when the user allowed it).
         org.cygnusx1.qlauncher.reports.ErrorReports.install(container.reports)
         Integration.install(this)
+        LocaleHelper.reapply(this)
+    }
+
+    override fun onConfigurationChanged(newConfig: Configuration) {
+        super.onConfigurationChanged(newConfig)
+        LocaleHelper.reapply(this)
     }
 
     override fun newImageLoader(context: PlatformContext): ImageLoader = container.imageLoader

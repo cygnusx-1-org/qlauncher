@@ -19,8 +19,6 @@
 
     <!-- Hotkey help overlay (Menu pressed twice) -->
     <string name="system_hotkeys_title">遙控器快速鍵</string>
-    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
-    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
     <string name="system_hotkeys_keys_ok">OK</string>
     <string name="system_hotkeys_keys_home">主畫面鍵</string>
     <string name="system_hotkeys_keys_menu_twice">選單鍵 × 2</string>

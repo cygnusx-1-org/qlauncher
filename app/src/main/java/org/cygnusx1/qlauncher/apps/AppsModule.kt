@@ -24,6 +24,7 @@ import org.cygnusx1.qlauncher.AppContainer
 import org.cygnusx1.qlauncher.R
 import org.cygnusx1.qlauncher.apps.actions.BuiltInActions
 import org.cygnusx1.qlauncher.apps.iconpack.IconPackRepository
+import org.cygnusx1.qlauncher.apps.iconpack.IconSetRepository
 import org.cygnusx1.qlauncher.apps.image.AppImage
 import org.cygnusx1.qlauncher.apps.image.AppImageSource
 import org.cygnusx1.qlauncher.apps.image.AppImages
@@ -66,6 +67,9 @@ class AppsModule(private val container: AppContainer) {
     )
 
     val iconPacks: IconPackRepository = IconPackRepository(context, scope, container.settings, container.itemOverrides, apps.packageEvents)
+
+    /** *Cards › Icon set*: icons downloaded from a GitHub repository. */
+    val iconSets: IconSetRepository = IconSetRepository(context, scope, { container.okHttp }, apps, container.itemOverrides, iconPacks)
 
     val inputs: TvInputRepository = TvInputRepository(context, scope, container.settings, container.itemOverrides)
 

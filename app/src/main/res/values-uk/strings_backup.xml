@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">половинний розмір</string>
     <string name="backup_clock_markup_one_and_a_half_size">у півтора раза</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Відсікання чорного</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Градієнт сірого 1000 ніт</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Градієнт сірого 4000 ніт</string>
     <string name="backup_pattern_dv_black_pluge">[DV] Чорний PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Кольорові градієнти</string>
     <string name="backup_pattern_unavailable">%1$s: потрібен HDR-відеотракт, поки недоступно</string>
     <!-- Pages -->
@@ -193,7 +191,6 @@
     <string name="backup_files_description">Експортовані файли зберігаються в %1$s. З доступом до всіх файлів QLauncher також знаходить резервні копії в папках Download, Documents і на USB-накопичувачах, зокрема копії Projectivy.</string>
     <string name="backup_files_searching">Пошук файлів резервних копій…</string>
     <string name="backup_files_none">Файли резервних копій не знайдено</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Папка QLauncher</string>
     <string name="backup_files_access">Шукати копії інших застосунків і пристроїв</string>
     <string name="backup_files_access_desc">Дозволити доступ до всіх файлів</string>
@@ -201,7 +198,6 @@
     <string name="backup_files_browse">Інше розташування…</string>
     <string name="backup_files_browse_desc">Вибрати файл через системний вибір файлів</string>
     <string name="backup_auto_delete_all">Видалити все</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Після зміни</string>
     <string name="backup_reason_import">Перед імпортом</string>
     <string name="backup_reason_migration">Перед оновленням</string>

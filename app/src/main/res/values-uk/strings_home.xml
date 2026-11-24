@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Профілі дисплея</string>
     <string name="home_action_install_apps">Встановлення сторонніх застосунків</string>
     <string name="home_action_accessibility">Служба спец. можливостей</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Змінити профіль</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Цей пристрій</string>
     <string name="home_action_about_wallpaper">Поточні шпалери</string>
 

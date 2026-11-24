@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">بلا</string>
     <string name="settings_more">المزيد…</string>
     <string name="settings_custom_icon_tint">صبغة الأيقونات المخصّصة</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">حجم البطاقة المحدّدة</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">عند عدم ملاءمة النسبة/الجودة</string>
     <string name="settings_min_width">الحد الأدنى للعرض المقبول (بالبكسل)</string>
     <string name="settings_src_none">بلا</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">ألوان ديناميكية</string>
     <string name="settings_src_default">الخلفية الافتراضية</string>
     <string name="settings_src_media">ملف وسائط</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">لم يُعثر على صور أو فيديوهات. انسخ بعضها إلى Pictures أو Movies أو Download، أو وصّل محرك USB.</string>
     <string name="wp_folders_description">مجلدات تحتوي على صور أو فيديوهات، على هذا الجهاز وعلى محركات USB.</string>
     <string name="wp_folders_none">لم يُعثر على مجلدات تحتوي على صور أو فيديوهات</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="zero">%d ملف</item>
         <item quantity="one">%d ملف</item>
@@ -350,7 +345,6 @@
     <string name="install_custom">عنوان URL مخصّص / رمز Downloader</string>
     <string name="install_custom_desc">لا تستخدم إلا مصدرًا تثق به</string>
     <string name="install_status">الحالة</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">هذا الجهاز</string>

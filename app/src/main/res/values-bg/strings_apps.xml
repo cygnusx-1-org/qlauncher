@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Профили на екрана</string>
     <string name="apps_action_install_apps">Инсталиране на приложения от трети страни</string>
     <string name="apps_action_accessibility_service">Услуга за достъпност</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Смяна на профила</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Това устройство</string>
     <string name="apps_action_about_wallpaper">Този тапет</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Компилация</string>
     <string name="apps_device_build_desc">Описание на компилацията</string>
     <string name="apps_device_device_type">Тип устройство</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP адрес</string>
     <string name="apps_device_root_access">Root достъп</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Няма мениджър на картината</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Да</string>
     <string name="apps_device_no">Не</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Набор от икони</string>
+    <string name="iconset_desc">Прозрачни икони от хранилище в GitHub, например DrZacharySmith/projectivy-transparent-icons. Изберете издание, за да го изтеглите, а след това стила, който да се предлага в „Промяна на иконата“.</string>
+    <string name="iconset_repo">Хранилище</string>
+    <string name="iconset_repo_hint">owner/name в GitHub</string>
+    <string name="iconset_repo_add">Добавяне…</string>
+    <string name="iconset_add_title">Добавяне на хранилище</string>
+    <string name="iconset_add_desc">Хранилище в GitHub във формат owner/name и папката в него, която съдържа по една папка с PNG икони за всеки стил, например icons/styles.</string>
+    <string name="iconset_add_path">Път до наборите</string>
+    <string name="iconset_add_path_hint">Папката с по една папка за всеки стил, напр. icons/styles</string>
+    <string name="iconset_add">Добавяне</string>
+    <string name="iconset_release">Издание</string>
+    <string name="iconset_release_none">Не е изтеглено</string>
+    <string name="iconset_status">Състояние</string>
+    <string name="iconset_loading">Търсят се издания…</string>
+    <string name="iconset_downloading">Изтегля се %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Отказ от изтеглянето</string>
+    <string name="iconset_style">Стил</string>
+    <string name="iconset_style_choose">Изберете стил</string>
+    <string name="iconset_match">Съпоставяне на иконите с приложенията</string>
+    <string name="iconset_match_desc">Предлага икона за всяко приложение, чието име съвпада с някоя икона</string>
+    <string name="iconset_reset">Възстановяване на стандартните икони</string>
+    <string name="iconset_remove">Премахване на набора от икони</string>
+    <string name="iconset_fail_bad_repo">Въведете хранилището във формат owner/name</string>
+    <string name="iconset_fail_bad_path">Въведете папка, например icons/styles</string>
+    <string name="iconset_fail_not_found">Хранилището не е намерено</string>
+    <string name="iconset_fail_no_releases">Това хранилище няма издания</string>
+    <string name="iconset_fail_network">Изтеглянето не бе успешно</string>
+    <string name="iconset_fail_http">GitHub върна грешка (%1$s)</string>
+    <string name="iconset_fail_no_styles">Това издание няма папки със стилове в %1$s</string>
+    <string name="iconset_fail_no_space">Няма достатъчно свободно място</string>
+    <string name="iconset_fail_storage">Иконите не могат да бъдат запазени</string>
+    <string name="iconset_match_title">Съпоставяне на икони</string>
+    <string name="iconset_apply">Прилагане (%1$d)</string>
+    <string name="iconset_match_none">Нито едно име на приложение не съвпада с икона</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Приложена е %1$d икона</item>
+        <item quantity="other">Приложени са %1$d икони</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d икона е върната към стандартната</item>
+        <item quantity="other">%1$d икони са върнати към стандартните</item>
+    </plurals>
 </resources>

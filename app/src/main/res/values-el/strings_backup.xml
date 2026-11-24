@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">μισό μέγεθος</string>
     <string name="backup_clock_markup_one_and_a_half_size">μιάμιση φορά</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">Αποκοπή μαύρου</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] Διαβάθμιση γκρι 1000 nits</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] Διαβάθμιση γκρι 4000 nits</string>
     <string name="backup_pattern_dv_black_pluge">[DV] PLUGE μαύρου</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] Χρωματικές διαβαθμίσεις</string>
     <string name="backup_pattern_unavailable">Το %1$s χρειάζεται διαδρομή βίντεο HDR και δεν είναι ακόμη διαθέσιμο</string>
     <!-- Pages -->
@@ -173,7 +171,6 @@
     <string name="backup_files_description">Οι εξαγωγές αποθηκεύονται στο %1$s. Με πρόσβαση σε όλα τα αρχεία, το QLauncher βρίσκει επίσης αντίγραφα ασφαλείας στους φακέλους Download και Documents και σε μονάδες USB, μαζί και αυτά του Projectivy.</string>
     <string name="backup_files_searching">Αναζήτηση αρχείων αντιγράφων ασφαλείας…</string>
     <string name="backup_files_none">Δεν βρέθηκαν αρχεία αντιγράφων ασφαλείας</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">Φάκελος του QLauncher</string>
     <string name="backup_files_access">Εύρεση αντιγράφων ασφαλείας από άλλες εφαρμογές και συσκευές</string>
     <string name="backup_files_access_desc">Να επιτρέπεται η πρόσβαση σε όλα τα αρχεία</string>
@@ -181,7 +178,6 @@
     <string name="backup_files_browse">Άλλη τοποθεσία…</string>
     <string name="backup_files_browse_desc">Επιλογή αρχείου με το πρόγραμμα επιλογής αρχείων του συστήματος</string>
     <string name="backup_auto_delete_all">Διαγραφή όλων</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">Μετά από αλλαγή</string>
     <string name="backup_reason_import">Πριν από εισαγωγή</string>
     <string name="backup_reason_migration">Πριν από ενημέρωση</string>

@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Geen</string>
     <string name="settings_more">Meer…</string>
     <string name="settings_custom_icon_tint">Kleurtint aangepaste pictogrammen</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Grootte kaart in focus</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Bij slechte verhouding/kwaliteit</string>
     <string name="settings_min_width">Minimaal geaccepteerde breedte (px)</string>
     <string name="settings_src_none">Geen</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dynamische kleuren</string>
     <string name="settings_src_default">Standaardachtergrond</string>
     <string name="settings_src_media">Mediabestand</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Geen foto\'s of video\'s gevonden. Kopieer er een paar naar Pictures, Movies of Download, of sluit een USB-stick aan.</string>
     <string name="wp_folders_description">Mappen met foto\'s of video\'s, op dit apparaat en op USB-sticks.</string>
     <string name="wp_folders_none">Geen mappen met foto\'s of video\'s gevonden</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d bestand</item>
         <item quantity="other">%d bestanden</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">Aangepaste URL / Downloader-code</string>
     <string name="install_custom_desc">Gebruik alleen een bron die je vertrouwt</string>
     <string name="install_status">Status</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Dit apparaat</string>

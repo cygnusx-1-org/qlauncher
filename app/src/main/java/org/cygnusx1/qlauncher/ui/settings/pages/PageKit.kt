@@ -71,6 +71,9 @@ interface SettingsActions {
 
     /** Shows a calibration pattern full screen. */
     fun showPattern(index: Int)
+
+    /** *Cards › Icon set › Match icons to apps*: the apps whose name matches an icon, to apply. */
+    fun matchIconSet()
 }
 
 // Row builders, so page definitions stay one line per row.

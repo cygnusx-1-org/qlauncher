@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profil paparan</string>
     <string name="apps_action_install_apps">Pasang apl pihak ketiga</string>
     <string name="apps_action_accessibility_service">Perkhidmatan kebolehcapaian</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Tukar profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Peranti ini</string>
     <string name="apps_action_about_wallpaper">Kertas dinding ini</string>
 
@@ -100,12 +98,52 @@
     <string name="apps_device_build">Binaan</string>
     <string name="apps_device_build_desc">Perihalan binaan</string>
     <string name="apps_device_device_type">Jenis peranti</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Alamat IP</string>
     <string name="apps_device_root_access">Akses root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Tiada pengurus gambar</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Ya</string>
     <string name="apps_device_no">Tidak</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Set ikon</string>
+    <string name="iconset_desc">Ikon lut sinar daripada repositori GitHub, seperti DrZacharySmith/projectivy-transparent-icons. Pilih keluaran untuk memuat turunnya, kemudian pilih gaya yang ditawarkan oleh “Tukar ikon”.</string>
+    <string name="iconset_repo">Repositori</string>
+    <string name="iconset_repo_hint">owner/name di GitHub</string>
+    <string name="iconset_repo_add">Tambah…</string>
+    <string name="iconset_add_title">Tambah repositori</string>
+    <string name="iconset_add_desc">Repositori GitHub sebagai owner/name, dan folder di dalamnya yang mengandungi satu folder ikon PNG bagi setiap gaya, seperti icons/styles.</string>
+    <string name="iconset_add_path">Laluan ke set</string>
+    <string name="iconset_add_path_hint">Folder dengan satu folder bagi setiap gaya, cth. icons/styles</string>
+    <string name="iconset_add">Tambah</string>
+    <string name="iconset_release">Keluaran</string>
+    <string name="iconset_release_none">Belum dimuat turun</string>
+    <string name="iconset_status">Status</string>
+    <string name="iconset_loading">Mencari keluaran…</string>
+    <string name="iconset_downloading">Memuat turun %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Batalkan muat turun</string>
+    <string name="iconset_style">Gaya</string>
+    <string name="iconset_style_choose">Pilih gaya</string>
+    <string name="iconset_match">Padankan ikon dengan apl</string>
+    <string name="iconset_match_desc">Mencadangkan ikon untuk setiap apl yang namanya sepadan dengan satu ikon</string>
+    <string name="iconset_reset">Tetapkan semula ikon kepada lalai</string>
+    <string name="iconset_remove">Alih keluar set ikon</string>
+    <string name="iconset_fail_bad_repo">Masukkan repositori sebagai owner/name</string>
+    <string name="iconset_fail_bad_path">Masukkan folder seperti icons/styles</string>
+    <string name="iconset_fail_not_found">Repositori tidak ditemui</string>
+    <string name="iconset_fail_no_releases">Repositori ini tiada keluaran</string>
+    <string name="iconset_fail_network">Muat turun gagal</string>
+    <string name="iconset_fail_http">GitHub menjawab dengan ralat (%1$s)</string>
+    <string name="iconset_fail_no_styles">Keluaran ini tiada folder gaya dalam %1$s</string>
+    <string name="iconset_fail_no_space">Ruang kosong tidak mencukupi</string>
+    <string name="iconset_fail_storage">Ikon tidak boleh disimpan</string>
+    <string name="iconset_match_title">Padankan ikon</string>
+    <string name="iconset_apply">Gunakan (%1$d)</string>
+    <string name="iconset_match_none">Tiada nama apl yang sepadan dengan ikon</string>
+    <plurals name="iconset_applied">
+        <item quantity="other">%1$d ikon digunakan</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="other">%1$d ikon ditetapkan semula kepada lalai</item>
+    </plurals>
 </resources>

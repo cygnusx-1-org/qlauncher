@@ -5,7 +5,6 @@
     <string name="about_libs">Library / Kredit</string>
     <string name="about_links">Link</string>
     <string name="about_link_project">Halaman proyek</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Terjemahan bahasa Indonesia</string>
     <string name="about_translation_credit">Kontributor QLauncher</string>
     <string name="about_no_browser">Tidak ada browser di perangkat ini. Buka %1$s di perangkat lain.</string>

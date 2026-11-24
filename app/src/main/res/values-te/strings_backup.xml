@@ -19,7 +19,6 @@
     <string name="backup_clock_markup_half_size">సగం పరిమాణం</string>
     <string name="backup_clock_markup_one_and_a_half_size">ఒకటిన్నర రెట్లు</string>
     <!-- A help line: what to type, an arrow, what it shows -->
-    <string name="backup_clock_help_arrow">→</string>
 
     <!-- Calibration patterns -->
     <string name="backup_pattern_black_clipping">నలుపు క్లిప్పింగ్</string>
@@ -44,7 +43,6 @@
     <string name="backup_pattern_hdr_grayscale_ramp_1000">[HDR] గ్రేస్కేల్ ర్యాంప్ 1000 నిట్‌లు</string>
     <string name="backup_pattern_hdr_grayscale_ramp_4000">[HDR] గ్రేస్కేల్ ర్యాంప్ 4000 నిట్‌లు</string>
     <string name="backup_pattern_dv_black_pluge">[DV] నలుపు PLUGE</string>
-    <string name="backup_pattern_dv_bt2111">[DV] BT.2111</string>
     <string name="backup_pattern_dv_color_ramps">[DV] రంగు ర్యాంప్‌లు</string>
     <string name="backup_pattern_unavailable">%1$sకు HDR వీడియో పాత్ అవసరం, ఇది ఇంకా అందుబాటులో లేదు</string>
     <!-- Pages -->
@@ -173,7 +171,6 @@
     <string name="backup_files_description">ఎగుమతులు %1$sలో సేవ్ చేయబడతాయి. అన్ని ఫైల్‌లకు యాక్సెస్ ఉంటే, QLauncher Download, Documents ఫోల్డర్‌లలో, USB డ్రైవ్‌లలో కూడా బ్యాకప్‌లను కనుగొంటుంది, Projectivy బ్యాకప్‌లతో సహా.</string>
     <string name="backup_files_searching">బ్యాకప్ ఫైల్‌ల కోసం వెతుకుతోంది…</string>
     <string name="backup_files_none">బ్యాకప్ ఫైల్‌లు ఏవీ కనుగొనబడలేదు</string>
-    <string name="backup_files_entry_detail">%1$s · %2$s · %3$s</string>
     <string name="backup_files_app_folder">QLauncher ఫోల్డర్</string>
     <string name="backup_files_access">ఇతర యాప్‌లు, పరికరాల బ్యాకప్‌లను కనుగొనండి</string>
     <string name="backup_files_access_desc">అన్ని ఫైల్‌లకు యాక్సెస్‌ను అనుమతించండి</string>
@@ -181,7 +178,6 @@
     <string name="backup_files_browse">ఇతర లొకేషన్…</string>
     <string name="backup_files_browse_desc">సిస్టమ్ ఫైల్ పికర్‌తో ఫైల్‌ను ఎంచుకోండి</string>
     <string name="backup_auto_delete_all">అన్నీ తొలగించండి</string>
-    <string name="backup_auto_entry_detail">%1$s · %2$s</string>
     <string name="backup_reason_change">మార్పు తర్వాత</string>
     <string name="backup_reason_import">దిగుమతికి ముందు</string>
     <string name="backup_reason_migration">అప్‌డేట్‌కు ముందు</string>

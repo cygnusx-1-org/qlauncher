@@ -69,8 +69,12 @@ class UpdateManifestTest {
     @Test
     fun theRepositorysFeedParses() {
         val text = File("../updates/qlauncher.json").readText()
-        assertEquals(ManifestResult.UpToDate("0.1.0"), UpdateManifest.parse(text, "0.1.0", "arm64-v8a", "en"))
-        val r = UpdateManifest.parse(text, "0.0.9", "arm64-v8a", "en") as ManifestResult.Available
-        assertTrue(r.update.downloadUrls.single().endsWith(".apk"))
+        val latest = (UpdateManifest.parse(text, "0.0.9", "arm64-v8a", "en") as ManifestResult.Available).update.versionName
+        assertEquals(ManifestResult.UpToDate(latest), UpdateManifest.parse(text, latest, "arm64-v8a", "en"))
+        // arm64-v8a gets its own APK; every other ABI falls back to armeabi-v7a
+        for ((abi, apk) in listOf("arm64-v8a" to "arm64-v8a", "armeabi-v7a" to "armeabi-v7a", "x86" to "armeabi-v7a", null to "armeabi-v7a")) {
+            val r = UpdateManifest.parse(text, "0.0.9", abi, "en") as ManifestResult.Available
+            assertTrue("$abi: ${r.update.downloadUrls}", r.update.downloadUrls.single().endsWith("/QLauncher_${latest}_$apk.apk"))
+        }
     }
 }

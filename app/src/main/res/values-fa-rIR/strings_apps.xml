@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">نمایه‌های نمایشگر</string>
     <string name="apps_action_install_apps">نصب برنامه‌های شخص ثالث</string>
     <string name="apps_action_accessibility_service">سرویس دسترس‌پذیری</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">تغییر نمایه</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">این دستگاه</string>
     <string name="apps_action_about_wallpaper">این کاغذدیواری</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">ساخت</string>
     <string name="apps_device_build_desc">شرح ساخت</string>
     <string name="apps_device_device_type">نوع دستگاه</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">نشانی IP</string>
     <string name="apps_device_root_access">دسترسی Root</string>
-    <string name="apps_device_pm_info">مدیر تصویر</string>
     <string name="apps_device_pm_none">مدیر تصویر وجود ندارد</string>
     <string name="apps_device_id">شناسه</string>
     <string name="apps_device_yes">بله</string>
     <string name="apps_device_no">خیر</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">مجموعه نماد</string>
+    <string name="iconset_desc">نمادهای شفاف از یک مخزن GitHub، مانند DrZacharySmith/projectivy-transparent-icons. یک نسخه را برای بارگیری انتخاب کنید، سپس سبکی را که «تغییر نماد» پیشنهاد می‌دهد.</string>
+    <string name="iconset_repo">مخزن</string>
+    <string name="iconset_repo_hint">owner/name در GitHub</string>
+    <string name="iconset_repo_add">افزودن…</string>
+    <string name="iconset_add_title">افزودن مخزن</string>
+    <string name="iconset_add_desc">یک مخزن GitHub به‌صورت owner/name، و پوشه‌ای در آن که برای هر سبک یک پوشه از نمادهای PNG دارد، مانند icons/styles.</string>
+    <string name="iconset_add_path">مسیر مجموعه‌ها</string>
+    <string name="iconset_add_path_hint">پوشه‌ای با یک پوشه برای هر سبک، مثلاً icons/styles</string>
+    <string name="iconset_add">افزودن</string>
+    <string name="iconset_release">نسخه</string>
+    <string name="iconset_release_none">بارگیری نشده</string>
+    <string name="iconset_status">وضعیت</string>
+    <string name="iconset_loading">در حال جستجوی نسخه‌ها…</string>
+    <string name="iconset_downloading">در حال بارگیری %1$s… %2$d MB</string>
+    <string name="iconset_cancel">لغو بارگیری</string>
+    <string name="iconset_style">سبک</string>
+    <string name="iconset_style_choose">انتخاب سبک</string>
+    <string name="iconset_match">تطبیق نمادها با برنامه‌ها</string>
+    <string name="iconset_match_desc">برای هر برنامه‌ای که نامش با یکی از نمادها مطابقت دارد، نمادی پیشنهاد می‌کند</string>
+    <string name="iconset_reset">بازنشانی نمادها به پیش‌فرض</string>
+    <string name="iconset_remove">حذف مجموعه نماد</string>
+    <string name="iconset_fail_bad_repo">مخزن را به‌صورت owner/name وارد کنید</string>
+    <string name="iconset_fail_bad_path">پوشه‌ای مانند icons/styles وارد کنید</string>
+    <string name="iconset_fail_not_found">مخزن پیدا نشد</string>
+    <string name="iconset_fail_no_releases">این مخزن هیچ نسخه‌ای ندارد</string>
+    <string name="iconset_fail_network">بارگیری ناموفق بود</string>
+    <string name="iconset_fail_http">GitHub با خطا پاسخ داد (%1$s)</string>
+    <string name="iconset_fail_no_styles">این نسخه در %1$s هیچ پوشه سبکی ندارد</string>
+    <string name="iconset_fail_no_space">فضای خالی کافی نیست</string>
+    <string name="iconset_fail_storage">ذخیره نمادها ممکن نیست</string>
+    <string name="iconset_match_title">تطبیق نمادها</string>
+    <string name="iconset_apply">اعمال (%1$d)</string>
+    <string name="iconset_match_none">نام هیچ برنامه‌ای با نمادی مطابقت ندارد</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d نماد اعمال شد</item>
+        <item quantity="other">%1$d نماد اعمال شد</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d نماد به پیش‌فرض بازنشانی شد</item>
+        <item quantity="other">%1$d نماد به پیش‌فرض بازنشانی شد</item>
+    </plurals>
 </resources>

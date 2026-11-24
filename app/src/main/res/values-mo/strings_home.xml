@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Profiluri de afișare</string>
     <string name="home_action_install_apps">Instalați aplicații terțe</string>
     <string name="home_action_accessibility">Serviciu de accesibilitate</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Schimbați profilul</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Acest dispozitiv</string>
     <string name="home_action_about_wallpaper">Această imagine de fundal</string>
 

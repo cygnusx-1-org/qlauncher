@@ -66,7 +66,14 @@ data class GalleryItem(val model: Any?, val title: String)
  * title over the bottom; the focused one has a white glow. OK shows that wallpaper at once.
  */
 @Composable
-fun WallpaperGallery(items: List<GalleryItem>, onPick: (Int) -> Unit, onBack: () -> Unit, title: String? = null) {
+fun WallpaperGallery(
+    items: List<GalleryItem>,
+    onPick: (Int) -> Unit,
+    onBack: () -> Unit,
+    title: String? = null,
+    /** How a picture sits in its 16:9 thumbnail: cut to fill it, or (icons) shown whole. */
+    contentScale: ContentScale = ContentScale.Crop,
+) {
     var filter by remember { mutableStateOf("") }
     var editing by remember { mutableStateOf(false) }
     /** -1 = the filter field. */
@@ -155,7 +162,7 @@ fun WallpaperGallery(items: List<GalleryItem>, onPick: (Int) -> Unit, onBack: ()
                                     .background(Color(0xFF333333))
                                     .testTag("gallery_$i"),
                             ) {
-                                AsyncImage(item.value.model, item.value.title, contentScale = ContentScale.Crop, modifier = Modifier.size(128.dp, 72.dp))
+                                AsyncImage(item.value.model, item.value.title, contentScale = contentScale, modifier = Modifier.size(128.dp, 72.dp))
                                 Box(
                                     Modifier
                                         .align(Alignment.BottomStart)

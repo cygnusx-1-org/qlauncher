@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Använd som bakgrundsbild i QLauncher</string>
     <string name="import_settings">Importera till QLauncher</string>
     <string name="accessibility_service_description">QLauncher ser tryck på maskinvaruknappar och namnet på appen i förgrunden för att åsidosätta den förinstallerade appstartaren, köra åtgärder vid uppstart, mappa om fjärrkontrollens knappar, upptäcka inaktivitet och tillämpa föräldrakontroll. Båda stannar i minnet på enheten och skickas aldrig någonstans.</string>

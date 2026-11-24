@@ -19,8 +19,6 @@
 
     <!-- Hotkey help overlay (Menu pressed twice) -->
     <string name="system_hotkeys_title">Genveje på fjernbetjeningen</string>
-    <string name="system_hotkeys_keys_left_right">◄ / ►</string>
-    <string name="system_hotkeys_keys_up_down">▲ / ▼</string>
     <string name="system_hotkeys_keys_ok">OK</string>
     <string name="system_hotkeys_keys_home">Hjem</string>
     <string name="system_hotkeys_keys_menu_twice">Menu × 2</string>

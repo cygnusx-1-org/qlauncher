@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Nustatyti kaip QLauncher ekrano foną</string>
     <string name="import_settings">Importuoti į QLauncher</string>
     <string name="accessibility_service_description">QLauncher mato aparatinių mygtukų paspaudimus ir priekiniame plane veikiančios programos pavadinimą, kad galėtų pakeisti standartinę paleidimo priemonę, vykdyti veiksmus įjungus įrenginį, keisti pulto mygtukų funkcijas, aptikti neveiklumą ir taikyti tėvų kontrolę. Abu duomenys lieka šio įrenginio atmintyje ir niekur nesiunčiami.</string>

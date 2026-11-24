@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Профілі дисплея</string>
     <string name="apps_action_install_apps">Встановлення сторонніх застосунків</string>
     <string name="apps_action_accessibility_service">Служба спец. можливостей</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Змінити профіль</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Цей пристрій</string>
     <string name="apps_action_about_wallpaper">Поточні шпалери</string>
 
@@ -103,12 +101,58 @@
     <string name="apps_device_build">Збірка</string>
     <string name="apps_device_build_desc">Опис збірки</string>
     <string name="apps_device_device_type">Тип пристрою</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP-адреса</string>
     <string name="apps_device_root_access">Root-доступ</string>
-    <string name="apps_device_pm_info">Менеджер зображення</string>
     <string name="apps_device_pm_none">Немає менеджера зображення</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Так</string>
     <string name="apps_device_no">Ні</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Комплект значків</string>
+    <string name="iconset_desc">Прозорі значки з репозиторію GitHub, наприклад DrZacharySmith/projectivy-transparent-icons. Виберіть випуск, щоб завантажити його, а потім стиль, який пропонуватиме «Змінити значок».</string>
+    <string name="iconset_repo">Репозиторій</string>
+    <string name="iconset_repo_hint">owner/name на GitHub</string>
+    <string name="iconset_repo_add">Додати…</string>
+    <string name="iconset_add_title">Додати репозиторій</string>
+    <string name="iconset_add_desc">Репозиторій GitHub у форматі owner/name і папка в ньому, де для кожного стилю є окрема папка PNG-значків, наприклад icons/styles.</string>
+    <string name="iconset_add_path">Шлях до комплектів</string>
+    <string name="iconset_add_path_hint">Папка з окремою папкою для кожного стилю, напр. icons/styles</string>
+    <string name="iconset_add">Додати</string>
+    <string name="iconset_release">Випуск</string>
+    <string name="iconset_release_none">Не завантажено</string>
+    <string name="iconset_status">Стан</string>
+    <string name="iconset_loading">Пошук випусків…</string>
+    <string name="iconset_downloading">Завантаження %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Скасувати завантаження</string>
+    <string name="iconset_style">Стиль</string>
+    <string name="iconset_style_choose">Вибрати стиль</string>
+    <string name="iconset_match">Зіставити значки із застосунками</string>
+    <string name="iconset_match_desc">Пропонує значок для кожного застосунку, назва якого збігається з назвою значка</string>
+    <string name="iconset_reset">Скинути значки до стандартних</string>
+    <string name="iconset_remove">Вилучити комплект значків</string>
+    <string name="iconset_fail_bad_repo">Введіть репозиторій у форматі owner/name</string>
+    <string name="iconset_fail_bad_path">Введіть папку, наприклад icons/styles</string>
+    <string name="iconset_fail_not_found">Репозиторій не знайдено</string>
+    <string name="iconset_fail_no_releases">У цьому репозиторії немає випусків</string>
+    <string name="iconset_fail_network">Не вдалося завантажити файл</string>
+    <string name="iconset_fail_http">GitHub повернув помилку (%1$s)</string>
+    <string name="iconset_fail_no_styles">У цьому випуску немає папок стилів у %1$s</string>
+    <string name="iconset_fail_no_space">Недостатньо вільного місця</string>
+    <string name="iconset_fail_storage">Не вдається зберегти значки</string>
+    <string name="iconset_match_title">Зіставлення значків</string>
+    <string name="iconset_apply">Застосувати (%1$d)</string>
+    <string name="iconset_match_none">Жодна назва застосунку не збігається з назвою значка</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d значок застосовано</item>
+        <item quantity="few">%1$d значки застосовано</item>
+        <item quantity="many">%1$d значків застосовано</item>
+        <item quantity="other">%1$d значка застосовано</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d значок скинуто до стандартного</item>
+        <item quantity="few">%1$d значки скинуто до стандартних</item>
+        <item quantity="many">%1$d значків скинуто до стандартних</item>
+        <item quantity="other">%1$d значка скинуто до стандартних</item>
+    </plurals>
 </resources>

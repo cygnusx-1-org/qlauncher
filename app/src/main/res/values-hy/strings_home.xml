@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Էկրանի պրոֆիլներ</string>
     <string name="home_action_install_apps">Տեղադրել երրորդ կողմի հավելվածներ</string>
     <string name="home_action_accessibility">Հատուկ գործառույթների ծառայություն</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Փոխել պրոֆիլը</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Այս սարքը</string>
     <string name="home_action_about_wallpaper">Այս պաստառը</string>
 

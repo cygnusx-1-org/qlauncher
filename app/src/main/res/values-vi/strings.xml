@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Đặt làm hình nền QLauncher</string>
     <string name="import_settings">Nhập vào QLauncher</string>
     <string name="accessibility_service_description">QLauncher nhận biết các lần nhấn phím phần cứng và tên ứng dụng đang ở nền trước để thay thế trình khởi chạy gốc, chạy tác vụ khi khởi động, gán lại nút trên điều khiển từ xa, phát hiện thời gian không hoạt động và thực thi kiểm soát của cha mẹ. Cả hai chỉ được lưu trong bộ nhớ của thiết bị này và không bao giờ được gửi đi đâu.</string>

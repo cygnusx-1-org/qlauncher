@@ -5,7 +5,6 @@
     <string name="about_libs">Knihovny / Poděkování</string>
     <string name="about_links">Odkazy</string>
     <string name="about_link_project">Stránka projektu</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Překlad do češtiny</string>
     <string name="about_translation_credit">Přispěvatelé QLauncheru</string>
     <string name="about_no_browser">V tomto zařízení není žádný prohlížeč. Otevřete %1$s na jiném zařízení.</string>

@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">कोई नहीं</string>
     <string name="settings_more">और…</string>
     <string name="settings_custom_icon_tint">कस्टम आइकॉन टिंट</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">फ़ोकस किए गए कार्ड का साइज़</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">खराब अनुपात/क्वालिटी होने पर</string>
     <string name="settings_min_width">स्वीकार की जाने वाली कम से कम चौड़ाई (px)</string>
     <string name="settings_src_none">कोई नहीं</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">डाइनैमिक रंग</string>
     <string name="settings_src_default">डिफ़ॉल्ट वॉलपेपर</string>
     <string name="settings_src_media">मीडिया फ़ाइल</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">कोई तस्वीर या वीडियो नहीं मिला। कुछ फ़ाइलें Pictures, Movies या Download में कॉपी करें, या USB ड्राइव लगाएं।</string>
     <string name="wp_folders_description">इस डिवाइस और USB ड्राइव पर मौजूद, तस्वीरों या वीडियो वाले फ़ोल्डर।</string>
     <string name="wp_folders_none">तस्वीरों या वीडियो वाला कोई फ़ोल्डर नहीं मिला</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d फ़ाइल</item>
         <item quantity="other">%d फ़ाइलें</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">कस्टम URL / Downloader कोड</string>
     <string name="install_custom_desc">सिर्फ़ भरोसेमंद स्रोत का इस्तेमाल करें</string>
     <string name="install_status">स्थिति</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">यह डिवाइस</string>

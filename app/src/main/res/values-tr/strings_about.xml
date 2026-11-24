@@ -5,7 +5,6 @@
     <string name="about_libs">Kitaplıklar / Teşekkürler</string>
     <string name="about_links">Bağlantılar</string>
     <string name="about_link_project">Proje sayfası</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Türkçe çeviri</string>
     <string name="about_translation_credit">QLauncher katkıda bulunanları</string>
     <string name="about_no_browser">Bu cihazda tarayıcı yok. %1$s adresini başka bir cihazda açın.</string>

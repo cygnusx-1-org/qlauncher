@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">ఏదీ లేదు</string>
     <string name="settings_more">మరిన్ని…</string>
     <string name="settings_custom_icon_tint">అనుకూల ఐకాన్ టింట్</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">ఫోకస్ చేసిన కార్డ్ పరిమాణం</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">నిష్పత్తి/నాణ్యత సరిగా లేనప్పుడు</string>
     <string name="settings_min_width">కనీస ఆమోదిత వెడల్పు (px)</string>
     <string name="settings_src_none">ఏదీ లేదు</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">డైనమిక్ రంగులు</string>
     <string name="settings_src_default">డిఫాల్ట్ వాల్‌పేపర్</string>
     <string name="settings_src_media">మీడియా ఫైల్</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">చిత్రాలు లేదా వీడియోలు ఏవీ కనుగొనబడలేదు. కొన్నింటిని Pictures, Movies లేదా Downloadకు కాపీ చేయండి, లేదా USB డ్రైవ్‌ను ప్లగ్ ఇన్ చేయండి.</string>
     <string name="wp_folders_description">ఈ పరికరంలో, USB డ్రైవ్‌లలో చిత్రాలు లేదా వీడియోలు ఉన్న ఫోల్డర్‌లు.</string>
     <string name="wp_folders_none">చిత్రాలు లేదా వీడియోలు ఉన్న ఫోల్డర్‌లు ఏవీ కనుగొనబడలేదు</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d ఫైల్</item>
         <item quantity="other">%d ఫైల్‌లు</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">అనుకూల URL / Downloader కోడ్</string>
     <string name="install_custom_desc">మీరు విశ్వసించే సోర్స్‌ను మాత్రమే ఉపయోగించండి</string>
     <string name="install_status">స్థితి</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">ఈ పరికరం</string>

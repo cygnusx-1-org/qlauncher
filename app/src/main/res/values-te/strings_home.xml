@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">డిస్‌ప్లే ప్రొఫైల్‌లు</string>
     <string name="home_action_install_apps">థర్డ్-పార్టీ యాప్‌లను ఇన్‌స్టాల్ చేయండి</string>
     <string name="home_action_accessibility">యాక్సెసిబిలిటీ సర్వీస్</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">ప్రొఫైల్ మార్చండి</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">ఈ పరికరం</string>
     <string name="home_action_about_wallpaper">ఈ వాల్‌పేపర్</string>
 

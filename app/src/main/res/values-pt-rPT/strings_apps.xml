@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Perfis de ecrã</string>
     <string name="apps_action_install_apps">Instalar aplicações de terceiros</string>
     <string name="apps_action_accessibility_service">Serviço de acessibilidade</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Mudar de perfil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Este dispositivo</string>
     <string name="apps_action_about_wallpaper">Esta imagem de fundo</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">Compilação</string>
     <string name="apps_device_build_desc">Desc. da compilação</string>
     <string name="apps_device_device_type">Tipo de dispositivo</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Endereço IP</string>
     <string name="apps_device_root_access">Acesso root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Nenhum gestor de imagem</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Sim</string>
     <string name="apps_device_no">Não</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Conjunto de ícones</string>
+    <string name="iconset_desc">Ícones transparentes de um repositório do GitHub, como DrZacharySmith/projectivy-transparent-icons. Escolha uma versão para a transferir e depois o estilo que «Alterar ícone» oferece.</string>
+    <string name="iconset_repo">Repositório</string>
+    <string name="iconset_repo_hint">owner/name no GitHub</string>
+    <string name="iconset_repo_add">Adicionar…</string>
+    <string name="iconset_add_title">Adicionar repositório</string>
+    <string name="iconset_add_desc">Um repositório do GitHub no formato owner/name e a pasta nele que contém uma pasta de ícones PNG por estilo, como icons/styles.</string>
+    <string name="iconset_add_path">Caminho dos conjuntos</string>
+    <string name="iconset_add_path_hint">A pasta com uma pasta por estilo, p. ex. icons/styles</string>
+    <string name="iconset_add">Adicionar</string>
+    <string name="iconset_release">Versão</string>
+    <string name="iconset_release_none">Não transferida</string>
+    <string name="iconset_status">Estado</string>
+    <string name="iconset_loading">A procurar versões…</string>
+    <string name="iconset_downloading">A transferir %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Cancelar transferência</string>
+    <string name="iconset_style">Estilo</string>
+    <string name="iconset_style_choose">Escolher um estilo</string>
+    <string name="iconset_match">Associar ícones às aplicações</string>
+    <string name="iconset_match_desc">Sugere um ícone para cada aplicação cujo nome corresponda a um</string>
+    <string name="iconset_reset">Repor ícones predefinidos</string>
+    <string name="iconset_remove">Remover conjunto de ícones</string>
+    <string name="iconset_fail_bad_repo">Introduza o repositório como owner/name</string>
+    <string name="iconset_fail_bad_path">Introduza uma pasta como icons/styles</string>
+    <string name="iconset_fail_not_found">Repositório não encontrado</string>
+    <string name="iconset_fail_no_releases">Este repositório não tem versões</string>
+    <string name="iconset_fail_network">A transferência falhou</string>
+    <string name="iconset_fail_http">O GitHub respondeu com um erro (%1$s)</string>
+    <string name="iconset_fail_no_styles">Esta versão não tem pastas de estilo em %1$s</string>
+    <string name="iconset_fail_no_space">Espaço livre insuficiente</string>
+    <string name="iconset_fail_storage">Não é possível guardar os ícones</string>
+    <string name="iconset_match_title">Associar ícones</string>
+    <string name="iconset_apply">Aplicar (%1$d)</string>
+    <string name="iconset_match_none">Nenhum nome de aplicação corresponde a um ícone</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d ícone aplicado</item>
+        <item quantity="many">%1$d ícones aplicados</item>
+        <item quantity="other">%1$d ícones aplicados</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ícone reposto</item>
+        <item quantity="many">%1$d ícones repostos</item>
+        <item quantity="other">%1$d ícones repostos</item>
+    </plurals>
 </resources>

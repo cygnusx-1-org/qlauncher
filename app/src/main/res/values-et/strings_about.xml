@@ -5,7 +5,6 @@
     <string name="about_libs">Teegid / tänusõnad</string>
     <string name="about_links">Lingid</string>
     <string name="about_link_project">Projekti leht</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Eestikeelne tõlge</string>
     <string name="about_translation_credit">QLauncheri kaasautorid</string>
     <string name="about_no_browser">Selles seadmes pole brauserit. Ava %1$s mõnes teises seadmes.</string>

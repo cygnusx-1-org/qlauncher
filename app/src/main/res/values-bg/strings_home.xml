@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Профили на екрана</string>
     <string name="home_action_install_apps">Инсталиране на приложения от трети страни</string>
     <string name="home_action_accessibility">Услуга за достъпност</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Смяна на профила</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Това устройство</string>
     <string name="home_action_about_wallpaper">Този тапет</string>
 

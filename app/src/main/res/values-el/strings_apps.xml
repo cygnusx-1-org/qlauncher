@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Προφίλ οθόνης</string>
     <string name="apps_action_install_apps">Εγκατάσταση εφαρμογών τρίτων</string>
     <string name="apps_action_accessibility_service">Υπηρεσία προσβασιμότητας</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Εναλλαγή προφίλ</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Αυτή η συσκευή</string>
     <string name="apps_action_about_wallpaper">Αυτή η ταπετσαρία</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Αριθμός έκδοσης</string>
     <string name="apps_device_build_desc">Περιγρ. έκδοσης</string>
     <string name="apps_device_device_type">Τύπος συσκευής</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Διεύθυνση IP</string>
     <string name="apps_device_root_access">Πρόσβαση root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Χωρίς διαχειριστή εικόνας</string>
     <string name="apps_device_id">Αναγνωριστικό</string>
     <string name="apps_device_yes">Ναι</string>
     <string name="apps_device_no">Όχι</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Σετ εικονιδίων</string>
+    <string name="iconset_desc">Διαφανή εικονίδια από ένα αποθετήριο GitHub, όπως το DrZacharySmith/projectivy-transparent-icons. Επιλέξτε μια έκδοση για να τη λάβετε και μετά το στυλ που θα προσφέρει η «Αλλαγή εικονιδίου».</string>
+    <string name="iconset_repo">Αποθετήριο</string>
+    <string name="iconset_repo_hint">owner/name στο GitHub</string>
+    <string name="iconset_repo_add">Προσθήκη…</string>
+    <string name="iconset_add_title">Προσθήκη αποθετηρίου</string>
+    <string name="iconset_add_desc">Ένα αποθετήριο GitHub ως owner/name και ο φάκελός του που περιέχει έναν φάκελο εικονιδίων PNG ανά στυλ, όπως το icons/styles.</string>
+    <string name="iconset_add_path">Διαδρομή προς τα σετ</string>
+    <string name="iconset_add_path_hint">Ο φάκελος με έναν φάκελο ανά στυλ, π.χ. icons/styles</string>
+    <string name="iconset_add">Προσθήκη</string>
+    <string name="iconset_release">Έκδοση</string>
+    <string name="iconset_release_none">Δεν έχει ληφθεί</string>
+    <string name="iconset_status">Κατάσταση</string>
+    <string name="iconset_loading">Αναζήτηση εκδόσεων…</string>
+    <string name="iconset_downloading">Λήψη %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Ακύρωση λήψης</string>
+    <string name="iconset_style">Στυλ</string>
+    <string name="iconset_style_choose">Επιλογή στυλ</string>
+    <string name="iconset_match">Αντιστοίχιση εικονιδίων σε εφαρμογές</string>
+    <string name="iconset_match_desc">Προτείνει εικονίδιο για κάθε εφαρμογή της οποίας το όνομα αντιστοιχεί σε κάποιο</string>
+    <string name="iconset_reset">Επαναφορά προεπιλεγμένων εικονιδίων</string>
+    <string name="iconset_remove">Αφαίρεση σετ εικονιδίων</string>
+    <string name="iconset_fail_bad_repo">Εισαγάγετε το αποθετήριο ως owner/name</string>
+    <string name="iconset_fail_bad_path">Εισαγάγετε έναν φάκελο, όπως icons/styles</string>
+    <string name="iconset_fail_not_found">Το αποθετήριο δεν βρέθηκε</string>
+    <string name="iconset_fail_no_releases">Αυτό το αποθετήριο δεν έχει εκδόσεις</string>
+    <string name="iconset_fail_network">Η λήψη απέτυχε</string>
+    <string name="iconset_fail_http">Το GitHub απάντησε με σφάλμα (%1$s)</string>
+    <string name="iconset_fail_no_styles">Αυτή η έκδοση δεν έχει φακέλους στυλ στο %1$s</string>
+    <string name="iconset_fail_no_space">Δεν υπάρχει αρκετός ελεύθερος χώρος</string>
+    <string name="iconset_fail_storage">Τα εικονίδια δεν μπορούν να αποθηκευτούν</string>
+    <string name="iconset_match_title">Αντιστοίχιση εικονιδίων</string>
+    <string name="iconset_apply">Εφαρμογή (%1$d)</string>
+    <string name="iconset_match_none">Κανένα όνομα εφαρμογής δεν αντιστοιχεί σε εικονίδιο</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Εφαρμόστηκε %1$d εικονίδιο</item>
+        <item quantity="other">Εφαρμόστηκαν %1$d εικονίδια</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">Επαναφέρθηκε %1$d εικονίδιο στην προεπιλογή</item>
+        <item quantity="other">Επαναφέρθηκαν %1$d εικονίδια στην προεπιλογή</item>
+    </plurals>
 </resources>

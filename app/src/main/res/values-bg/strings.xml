@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Задаване като тапет на QLauncher</string>
     <string name="import_settings">Импортиране в QLauncher</string>
     <string name="accessibility_service_description">QLauncher вижда натисканията на хардуерните бутони и името на приложението на преден план, за да замества стандартния лаунчер, да изпълнява действия при включване, да пренасочва бутоните на дистанционното, да открива бездействие и да прилага родителския контрол. И двете остават в паметта на това устройство и никога не се изпращат никъде.</string>

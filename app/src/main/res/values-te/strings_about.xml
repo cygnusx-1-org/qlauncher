@@ -5,7 +5,6 @@
     <string name="about_libs">లైబ్రరీలు / క్రెడిట్‌లు</string>
     <string name="about_links">లింక్‌లు</string>
     <string name="about_link_project">ప్రాజెక్ట్ పేజీ</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">తెలుగు అనువాదం</string>
     <string name="about_translation_credit">QLauncher సహకారులు</string>
     <string name="about_no_browser">ఈ పరికరంలో బ్రౌజర్ లేదు. %1$sను మరో పరికరంలో తెరవండి.</string>

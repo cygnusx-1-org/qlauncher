@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Էկրանի պրոֆիլներ</string>
     <string name="apps_action_install_apps">Տեղադրել երրորդ կողմի հավելվածներ</string>
     <string name="apps_action_accessibility_service">Հատուկ գործառույթների ծառայություն</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Փոխել պրոֆիլը</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Այս սարքը</string>
     <string name="apps_action_about_wallpaper">Այս պաստառը</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">Կառուցում</string>
     <string name="apps_device_build_desc">Կառուցման նկարագրություն</string>
     <string name="apps_device_device_type">Սարքի տեսակ</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP հասցե</string>
     <string name="apps_device_root_access">Root հասանելիություն</string>
-    <string name="apps_device_pm_info">Պատկերի կառավարիչ</string>
     <string name="apps_device_pm_none">Պատկերի կառավարիչ չկա</string>
     <string name="apps_device_id">Նույնացուցիչ</string>
     <string name="apps_device_yes">Այո</string>
     <string name="apps_device_no">Ոչ</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Պատկերակների հավաքածու</string>
+    <string name="iconset_desc">Թափանցիկ պատկերակներ GitHub-ի պահոցից, օրինակ՝ DrZacharySmith/projectivy-transparent-icons։ Ընտրեք թողարկում՝ այն ներբեռնելու համար, ապա այն ոճը, որը կառաջարկի «Փոխել պատկերակը» կետը։</string>
+    <string name="iconset_repo">Պահոց</string>
+    <string name="iconset_repo_hint">owner/name GitHub-ում</string>
+    <string name="iconset_repo_add">Ավելացնել…</string>
+    <string name="iconset_add_title">Ավելացնել պահոց</string>
+    <string name="iconset_add_desc">GitHub-ի պահոց owner/name ձևաչափով և դրանում այն թղթապանակը, որն ամեն ոճի համար պարունակում է PNG պատկերակների մեկ թղթապանակ, օրինակ՝ icons/styles։</string>
+    <string name="iconset_add_path">Հավաքածուների ուղին</string>
+    <string name="iconset_add_path_hint">Թղթապանակ՝ ամեն ոճի համար մեկ թղթապանակով, օրինակ՝ icons/styles</string>
+    <string name="iconset_add">Ավելացնել</string>
+    <string name="iconset_release">Թողարկում</string>
+    <string name="iconset_release_none">Ներբեռնված չէ</string>
+    <string name="iconset_status">Կարգավիճակ</string>
+    <string name="iconset_loading">Թողարկումների որոնում…</string>
+    <string name="iconset_downloading">Ներբեռնվում է %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Չեղարկել ներբեռնումը</string>
+    <string name="iconset_style">Ոճ</string>
+    <string name="iconset_style_choose">Ընտրել ոճ</string>
+    <string name="iconset_match">Համապատասխանեցնել պատկերակները հավելվածներին</string>
+    <string name="iconset_match_desc">Առաջարկում է պատկերակ ամեն այն հավելվածի համար, որի անունը համընկնում է պատկերակներից մեկի հետ</string>
+    <string name="iconset_reset">Վերականգնել լռելյայն պատկերակները</string>
+    <string name="iconset_remove">Հեռացնել պատկերակների հավաքածուն</string>
+    <string name="iconset_fail_bad_repo">Մուտքագրեք պահոցը owner/name ձևաչափով</string>
+    <string name="iconset_fail_bad_path">Մուտքագրեք թղթապանակ, օրինակ՝ icons/styles</string>
+    <string name="iconset_fail_not_found">Պահոցը չի գտնվել</string>
+    <string name="iconset_fail_no_releases">Այս պահոցը թողարկումներ չունի</string>
+    <string name="iconset_fail_network">Ներբեռնումը ձախողվեց</string>
+    <string name="iconset_fail_http">GitHub-ը պատասխանեց սխալով (%1$s)</string>
+    <string name="iconset_fail_no_styles">Այս թողարկման %1$s թղթապանակում ոճերի թղթապանակներ չկան</string>
+    <string name="iconset_fail_no_space">Բավարար ազատ տեղ չկա</string>
+    <string name="iconset_fail_storage">Պատկերակները հնարավոր չէ պահել</string>
+    <string name="iconset_match_title">Համապատասխանեցնել պատկերակները</string>
+    <string name="iconset_apply">Կիրառել (%1$d)</string>
+    <string name="iconset_match_none">Ոչ մի հավելվածի անուն չի համընկնում պատկերակի հետ</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d պատկերակ կիրառվեց</item>
+        <item quantity="other">%1$d պատկերակ կիրառվեց</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d պատկերակ վերադարձվեց լռելյայնին</item>
+        <item quantity="other">%1$d պատկերակ վերադարձվեց լռելյայնին</item>
+    </plurals>
 </resources>

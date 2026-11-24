@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">显示配置文件</string>
     <string name="apps_action_install_apps">安装第三方应用</string>
     <string name="apps_action_accessibility_service">无障碍服务</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">切换配置文件</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">本设备</string>
     <string name="apps_action_about_wallpaper">当前壁纸</string>
 
@@ -100,12 +98,52 @@
     <string name="apps_device_build">版本号</string>
     <string name="apps_device_build_desc">版本描述</string>
     <string name="apps_device_device_type">设备类型</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP 地址</string>
     <string name="apps_device_root_access">Root 权限</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">无图像管理器</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">是</string>
     <string name="apps_device_no">否</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">图标集</string>
+    <string name="iconset_desc">来自 GitHub 仓库的透明图标，例如 DrZacharySmith/projectivy-transparent-icons。选择要下载的发行版，再选择“更改图标”中提供的样式。</string>
+    <string name="iconset_repo">仓库</string>
+    <string name="iconset_repo_hint">GitHub 上的 owner/name</string>
+    <string name="iconset_repo_add">添加…</string>
+    <string name="iconset_add_title">添加仓库</string>
+    <string name="iconset_add_desc">GitHub 仓库（格式为 owner/name），以及仓库中的一个文件夹，其中每种样式各有一个存放 PNG 图标的子文件夹，例如 icons/styles。</string>
+    <string name="iconset_add_path">图标集路径</string>
+    <string name="iconset_add_path_hint">包含各样式子文件夹的文件夹，例如 icons/styles</string>
+    <string name="iconset_add">添加</string>
+    <string name="iconset_release">发行版</string>
+    <string name="iconset_release_none">未下载</string>
+    <string name="iconset_status">状态</string>
+    <string name="iconset_loading">正在查找发行版…</string>
+    <string name="iconset_downloading">正在下载 %1$s… %2$d MB</string>
+    <string name="iconset_cancel">取消下载</string>
+    <string name="iconset_style">样式</string>
+    <string name="iconset_style_choose">选择样式</string>
+    <string name="iconset_match">为应用匹配图标</string>
+    <string name="iconset_match_desc">为名称与图标相符的应用推荐该图标</string>
+    <string name="iconset_reset">将图标恢复为默认</string>
+    <string name="iconset_remove">移除图标集</string>
+    <string name="iconset_fail_bad_repo">请以 owner/name 格式输入仓库</string>
+    <string name="iconset_fail_bad_path">请输入文件夹，例如 icons/styles</string>
+    <string name="iconset_fail_not_found">未找到仓库</string>
+    <string name="iconset_fail_no_releases">此仓库没有发行版</string>
+    <string name="iconset_fail_network">下载失败</string>
+    <string name="iconset_fail_http">GitHub 返回了错误（%1$s）</string>
+    <string name="iconset_fail_no_styles">此发行版的 %1$s 中没有样式文件夹</string>
+    <string name="iconset_fail_no_space">可用空间不足</string>
+    <string name="iconset_fail_storage">无法存储图标</string>
+    <string name="iconset_match_title">匹配图标</string>
+    <string name="iconset_apply">应用（%1$d）</string>
+    <string name="iconset_match_none">没有与图标相符的应用名称</string>
+    <plurals name="iconset_applied">
+        <item quantity="other">已应用 %1$d 个图标</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="other">已将 %1$d 个图标恢复为默认</item>
+    </plurals>
 </resources>

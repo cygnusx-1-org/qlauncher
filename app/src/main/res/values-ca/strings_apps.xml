@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Perfils de pantalla</string>
     <string name="apps_action_install_apps">Instal·la aplicacions de tercers</string>
     <string name="apps_action_accessibility_service">Servei d\'accessibilitat</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Canvia de perfil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Aquest dispositiu</string>
     <string name="apps_action_about_wallpaper">Aquest fons de pantalla</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">Compilació</string>
     <string name="apps_device_build_desc">Desc. de la compilació</string>
     <string name="apps_device_device_type">Tipus de dispositiu</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Adreça IP</string>
     <string name="apps_device_root_access">Accés root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Cap gestor d\'imatge</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Sí</string>
     <string name="apps_device_no">No</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Joc d\'icones</string>
+    <string name="iconset_desc">Icones transparents d\'un repositori de GitHub, com ara DrZacharySmith/projectivy-transparent-icons. Trieu una versió per baixar-la i, després, l\'estil que ofereix «Canvia la icona».</string>
+    <string name="iconset_repo">Repositori</string>
+    <string name="iconset_repo_hint">owner/name a GitHub</string>
+    <string name="iconset_repo_add">Afegeix-ne un…</string>
+    <string name="iconset_add_title">Afegeix un repositori</string>
+    <string name="iconset_add_desc">Un repositori de GitHub en format owner/name i la carpeta dins seu que conté una carpeta d\'icones PNG per a cada estil, com ara icons/styles.</string>
+    <string name="iconset_add_path">Camí dels jocs</string>
+    <string name="iconset_add_path_hint">La carpeta amb una carpeta per estil, p. ex. icons/styles</string>
+    <string name="iconset_add">Afegeix</string>
+    <string name="iconset_release">Versió</string>
+    <string name="iconset_release_none">No s\'ha baixat</string>
+    <string name="iconset_status">Estat</string>
+    <string name="iconset_loading">S\'estan cercant versions…</string>
+    <string name="iconset_downloading">S\'està baixant %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Cancel·la la baixada</string>
+    <string name="iconset_style">Estil</string>
+    <string name="iconset_style_choose">Tria un estil</string>
+    <string name="iconset_match">Associa les icones a les aplicacions</string>
+    <string name="iconset_match_desc">Proposa una icona per a cada aplicació el nom de la qual coincideixi amb una</string>
+    <string name="iconset_reset">Restableix les icones predeterminades</string>
+    <string name="iconset_remove">Elimina el joc d\'icones</string>
+    <string name="iconset_fail_bad_repo">Introduïu el repositori com a owner/name</string>
+    <string name="iconset_fail_bad_path">Introduïu una carpeta com ara icons/styles</string>
+    <string name="iconset_fail_not_found">No s\'ha trobat el repositori</string>
+    <string name="iconset_fail_no_releases">Aquest repositori no té cap versió</string>
+    <string name="iconset_fail_network">La baixada ha fallat</string>
+    <string name="iconset_fail_http">GitHub ha respost amb un error (%1$s)</string>
+    <string name="iconset_fail_no_styles">Aquesta versió no té carpetes d\'estil a %1$s</string>
+    <string name="iconset_fail_no_space">No hi ha prou espai lliure</string>
+    <string name="iconset_fail_storage">No es poden desar les icones</string>
+    <string name="iconset_match_title">Associa les icones</string>
+    <string name="iconset_apply">Aplica (%1$d)</string>
+    <string name="iconset_match_none">No hi ha cap nom d\'aplicació que coincideixi amb una icona</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d icona aplicada</item>
+        <item quantity="many">%1$d icones aplicades</item>
+        <item quantity="other">%1$d icones aplicades</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d icona restablerta al valor predeterminat</item>
+        <item quantity="many">%1$d icones restablertes al valor predeterminat</item>
+        <item quantity="other">%1$d icones restablertes al valor predeterminat</item>
+    </plurals>
 </resources>

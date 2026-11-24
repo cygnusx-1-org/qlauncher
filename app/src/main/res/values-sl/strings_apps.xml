@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profili prikaza</string>
     <string name="apps_action_install_apps">Namesti aplikacije drugih ponudnikov</string>
     <string name="apps_action_accessibility_service">Storitev dostopnosti</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Zamenjaj profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Ta naprava</string>
     <string name="apps_action_about_wallpaper">To ozadje</string>
 
@@ -103,12 +101,58 @@
     <string name="apps_device_build">Delovna različica</string>
     <string name="apps_device_build_desc">Opis delovne različice</string>
     <string name="apps_device_device_type">Vrsta naprave</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Naslov IP</string>
     <string name="apps_device_root_access">Dostop root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Ni upravitelja slike</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Da</string>
     <string name="apps_device_no">Ne</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Nabor ikon</string>
+    <string name="iconset_desc">Prosojne ikone iz repozitorija GitHub, na primer DrZacharySmith/projectivy-transparent-icons. Izberi izdajo, da jo preneseš, nato pa slog, ki ga bo ponujala možnost »Spremeni ikono«.</string>
+    <string name="iconset_repo">Repozitorij</string>
+    <string name="iconset_repo_hint">owner/name na GitHubu</string>
+    <string name="iconset_repo_add">Dodaj…</string>
+    <string name="iconset_add_title">Dodaj repozitorij</string>
+    <string name="iconset_add_desc">Repozitorij GitHub v obliki owner/name in mapa v njem, ki vsebuje po eno mapo ikon PNG za vsak slog, na primer icons/styles.</string>
+    <string name="iconset_add_path">Pot do naborov</string>
+    <string name="iconset_add_path_hint">Mapa z eno mapo za vsak slog, npr. icons/styles</string>
+    <string name="iconset_add">Dodaj</string>
+    <string name="iconset_release">Izdaja</string>
+    <string name="iconset_release_none">Ni preneseno</string>
+    <string name="iconset_status">Stanje</string>
+    <string name="iconset_loading">Iskanje izdaj…</string>
+    <string name="iconset_downloading">Prenašanje izdaje %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Prekliči prenos</string>
+    <string name="iconset_style">Slog</string>
+    <string name="iconset_style_choose">Izberi slog</string>
+    <string name="iconset_match">Dodeli ikone aplikacijam</string>
+    <string name="iconset_match_desc">Predlaga ikono za vsako aplikacijo, katere ime se ujema z eno od ikon</string>
+    <string name="iconset_reset">Ponastavi ikone na privzete</string>
+    <string name="iconset_remove">Odstrani nabor ikon</string>
+    <string name="iconset_fail_bad_repo">Vnesi repozitorij v obliki owner/name</string>
+    <string name="iconset_fail_bad_path">Vnesi mapo, na primer icons/styles</string>
+    <string name="iconset_fail_not_found">Repozitorija ni mogoče najti</string>
+    <string name="iconset_fail_no_releases">Ta repozitorij nima izdaj</string>
+    <string name="iconset_fail_network">Prenos ni uspel</string>
+    <string name="iconset_fail_http">GitHub je vrnil napako (%1$s)</string>
+    <string name="iconset_fail_no_styles">Ta izdaja v %1$s nima map s slogi</string>
+    <string name="iconset_fail_no_space">Ni dovolj prostega prostora</string>
+    <string name="iconset_fail_storage">Ikon ni mogoče shraniti</string>
+    <string name="iconset_match_title">Dodeli ikone</string>
+    <string name="iconset_apply">Uporabi (%1$d)</string>
+    <string name="iconset_match_none">Nobeno ime aplikacije se ne ujema z ikono</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">Uporabljena je %1$d ikona</item>
+        <item quantity="two">Uporabljeni sta %1$d ikoni</item>
+        <item quantity="few">Uporabljene so %1$d ikone</item>
+        <item quantity="other">Uporabljenih je %1$d ikon</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ikona je ponastavljena na privzeto</item>
+        <item quantity="two">%1$d ikoni sta ponastavljeni na privzeto</item>
+        <item quantity="few">%1$d ikone so ponastavljene na privzeto</item>
+        <item quantity="other">%1$d ikon je ponastavljenih na privzeto</item>
+    </plurals>
 </resources>

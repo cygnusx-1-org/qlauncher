@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Imposta come sfondo di QLauncher</string>
     <string name="import_settings">Importa in QLauncher</string>
     <string name="accessibility_service_description">QLauncher rileva la pressione dei tasti hardware e il nome dell\'app in primo piano, per sostituire il launcher originale, eseguire azioni all\'accensione, rimappare i tasti del telecomando, rilevare l\'inattività e applicare il controllo genitori. Entrambi restano in memoria su questo dispositivo e non vengono mai inviati altrove.</string>

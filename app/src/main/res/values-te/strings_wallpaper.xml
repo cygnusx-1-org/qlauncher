@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">ఏదీ లేదు</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">డైనమిక్ రంగులు</string>
     <string name="wallpaper_provider_default">డిఫాల్ట్ వాల్‌పేపర్</string>
     <string name="wallpaper_provider_media_file">మీడియా ఫైల్</string>

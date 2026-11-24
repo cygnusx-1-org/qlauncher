@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">顯示設定檔</string>
     <string name="home_action_install_apps">安裝第三方應用程式</string>
     <string name="home_action_accessibility">無障礙服務</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">切換設定檔</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">這部裝置</string>
     <string name="home_action_about_wallpaper">目前的桌布</string>
 

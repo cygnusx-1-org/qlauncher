@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Ekran profilləri</string>
     <string name="home_action_install_apps">Kənar tətbiqləri quraşdır</string>
     <string name="home_action_accessibility">Əlçatımlılıq xidməti</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Profili dəyiş</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Bu cihaz</string>
     <string name="home_action_about_wallpaper">Bu divar kağızı</string>
 

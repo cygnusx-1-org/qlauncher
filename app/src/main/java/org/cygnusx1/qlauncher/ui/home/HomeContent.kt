@@ -9,6 +9,7 @@
 package org.cygnusx1.qlauncher.ui.home
 
 import android.content.Context
+import android.os.LocaleList
 import org.cygnusx1.qlauncher.data.Category
 import org.cygnusx1.qlauncher.data.CategoryType
 import org.cygnusx1.qlauncher.data.ItemKeys
@@ -22,6 +23,8 @@ import org.cygnusx1.qlauncher.shared.NowPlaying
 import org.cygnusx1.qlauncher.shared.Program
 import java.util.Locale
 import kotlin.random.Random
+import org.cygnusx1.qlauncher.ui.LocaleHelper
+import org.cygnusx1.qlauncher.apps.iconpack.IconPackRepository
 
 /** Everything the rows are built from, at one moment. */
 data class HomeInputs(
@@ -64,8 +67,25 @@ class HomeContent(private val context: Context, private val images: CardImages) 
             HomeRow(c, title(c), BuiltInCategories.icon(c), shown)
         }
 
+    /** [context] (the application) with its strings in the app's language, kept until that changes. */
+    @Volatile private var localized: Pair<LocaleList, Context>? = null
+
+    /**
+     * Rows are recomputed when the language setting changes, which on Android 13+ is before the
+     * system has moved the application context to it: resolve a picked language explicitly.
+     * Following the system (or a language set from Android's own settings), the application
+     * context is right, and [HomeController] recomputes the rows when it changes.
+     */
+    private fun strings(): Context {
+        val tag = LocaleHelper.tag(context)
+        if (tag.isEmpty()) return context
+        val locales = LocaleHelper.locales(tag)
+        localized?.let { (l, c) -> if (l == locales) return c }
+        return LocaleHelper.localized(context, locales).also { localized = locales to it }
+    }
+
     fun title(c: Category): String =
-        c.title ?: BuiltInCategories.title(c)?.let { context.getString(it) } ?: ""
+        c.title ?: BuiltInCategories.title(c)?.let { strings().getString(it) } ?: ""
 
     fun items(c: Category, input: HomeInputs): List<CardItem> {
         val hidden = c.hiddenItems.toSet()
@@ -131,13 +151,15 @@ class HomeContent(private val context: Context, private val images: CardImages) 
             packageName = a.packageName,
             cropToFill = o?.cropToFill ?: false,
             parentalLocked = o?.parentalLocked ?: false,
+            customImage = !o?.iconUri.isNullOrBlank(),
+            transparentImage = IconPackRepository.isSetIcon(o?.iconUri),
         )
     }
 
     private fun shortcut(key: String, input: HomeInputs): CardItem? =
         input.shortcuts.firstOrNull { it.key == key }?.let { s -> CardItem(s.key, s.label, CardKind.Shortcut, s.image, ratio = mobileRatio(input), packageName = s.packageName) }
 
-    private fun action(a: BuiltInAction) = CardItem(a.key, context.getString(a.title), CardKind.Action, icon = a.icon)
+    private fun action(a: BuiltInAction) = CardItem(a.key, strings().getString(a.title), CardKind.Action, icon = a.icon)
 
     private fun placeholder(c: Category) = CardItem("placeholder:${c.id}", "", CardKind.Placeholder, icon = "add")
 
@@ -151,9 +173,9 @@ class HomeContent(private val context: Context, private val images: CardImages) 
             else -> 16f / 9f
         }
         val meta = buildList {
-            p.seasonNumber?.let { add(context.getString(org.cygnusx1.qlauncher.R.string.home_season, it)) }
-            p.episodeNumber?.let { add(context.getString(org.cygnusx1.qlauncher.R.string.home_episode, it)) }
-            if (p.durationMillis > 0) add(context.getString(org.cygnusx1.qlauncher.R.string.home_minutes, (p.durationMillis / 60000).toInt()))
+            p.seasonNumber?.let { add(strings().getString(org.cygnusx1.qlauncher.R.string.home_season, it)) }
+            p.episodeNumber?.let { add(strings().getString(org.cygnusx1.qlauncher.R.string.home_episode, it)) }
+            if (p.durationMillis > 0) add(strings().getString(org.cygnusx1.qlauncher.R.string.home_minutes, (p.durationMillis / 60000).toInt()))
         }.joinToString(" · ").ifEmpty { null }
         val progress = if (p.durationMillis > 0 && p.lastPlaybackPositionMillis > 0) (p.lastPlaybackPositionMillis.toFloat() / p.durationMillis).coerceIn(0f, 1f) else null
         return CardItem(

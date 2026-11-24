@@ -5,7 +5,6 @@
     <string name="about_libs">Βιβλιοθήκες / Συντελεστές</string>
     <string name="about_links">Σύνδεσμοι</string>
     <string name="about_link_project">Σελίδα του έργου</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Ελληνική μετάφραση</string>
     <string name="about_translation_credit">Συνεισφέροντες του QLauncher</string>
     <string name="about_no_browser">Δεν υπάρχει πρόγραμμα περιήγησης σε αυτή τη συσκευή. Ανοίξτε το %1$s σε άλλη συσκευή.</string>

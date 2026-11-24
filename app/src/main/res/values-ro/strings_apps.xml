@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profiluri de afișare</string>
     <string name="apps_action_install_apps">Instalați aplicații terțe</string>
     <string name="apps_action_accessibility_service">Serviciu de accesibilitate</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Schimbați profilul</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Acest dispozitiv</string>
     <string name="apps_action_about_wallpaper">Această imagine de fundal</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">Versiune build</string>
     <string name="apps_device_build_desc">Descriere build</string>
     <string name="apps_device_device_type">Tip de dispozitiv</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Adresă IP</string>
     <string name="apps_device_root_access">Acces root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Niciun manager de imagine</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Da</string>
     <string name="apps_device_no">Nu</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Set de pictograme</string>
+    <string name="iconset_desc">Pictograme transparente dintr-un depozit GitHub, cum ar fi DrZacharySmith/projectivy-transparent-icons. Alegeți o versiune pentru a o descărca, apoi stilul pe care îl oferă „Schimbați pictograma”.</string>
+    <string name="iconset_repo">Depozit</string>
+    <string name="iconset_repo_hint">owner/name pe GitHub</string>
+    <string name="iconset_repo_add">Adăugați…</string>
+    <string name="iconset_add_title">Adăugați un depozit</string>
+    <string name="iconset_add_desc">Un depozit GitHub în forma owner/name și dosarul din el care conține câte un dosar de pictograme PNG pentru fiecare stil, cum ar fi icons/styles.</string>
+    <string name="iconset_add_path">Calea către seturi</string>
+    <string name="iconset_add_path_hint">Dosarul cu câte un dosar pentru fiecare stil, de ex. icons/styles</string>
+    <string name="iconset_add">Adăugați</string>
+    <string name="iconset_release">Versiune</string>
+    <string name="iconset_release_none">Nedescărcată</string>
+    <string name="iconset_status">Stare</string>
+    <string name="iconset_loading">Se caută versiuni…</string>
+    <string name="iconset_downloading">Se descarcă %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Anulați descărcarea</string>
+    <string name="iconset_style">Stil</string>
+    <string name="iconset_style_choose">Alegeți un stil</string>
+    <string name="iconset_match">Potriviți pictogramele cu aplicațiile</string>
+    <string name="iconset_match_desc">Propune o pictogramă pentru fiecare aplicație al cărei nume se potrivește cu una</string>
+    <string name="iconset_reset">Resetați pictogramele la cele implicite</string>
+    <string name="iconset_remove">Eliminați setul de pictograme</string>
+    <string name="iconset_fail_bad_repo">Introduceți depozitul în forma owner/name</string>
+    <string name="iconset_fail_bad_path">Introduceți un dosar, cum ar fi icons/styles</string>
+    <string name="iconset_fail_not_found">Depozitul nu a fost găsit</string>
+    <string name="iconset_fail_no_releases">Acest depozit nu are versiuni</string>
+    <string name="iconset_fail_network">Descărcarea nu a reușit</string>
+    <string name="iconset_fail_http">GitHub a răspuns cu o eroare (%1$s)</string>
+    <string name="iconset_fail_no_styles">Această versiune nu are dosare de stil în %1$s</string>
+    <string name="iconset_fail_no_space">Spațiu liber insuficient</string>
+    <string name="iconset_fail_storage">Pictogramele nu pot fi stocate</string>
+    <string name="iconset_match_title">Potriviți pictogramele</string>
+    <string name="iconset_apply">Aplicați (%1$d)</string>
+    <string name="iconset_match_none">Niciun nume de aplicație nu se potrivește cu o pictogramă</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d pictogramă aplicată</item>
+        <item quantity="few">%1$d pictograme aplicate</item>
+        <item quantity="other">%1$d de pictograme aplicate</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d pictogramă resetată la cea implicită</item>
+        <item quantity="few">%1$d pictograme resetate la cele implicite</item>
+        <item quantity="other">%1$d de pictograme resetate la cele implicite</item>
+    </plurals>
 </resources>

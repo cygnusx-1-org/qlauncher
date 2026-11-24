@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Ninguno</string>
     <string name="settings_more">Más…</string>
     <string name="settings_custom_icon_tint">Tinte de los iconos personalizados</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Tamaño de la tarjeta enfocada</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Si la proporción/calidad no es adecuada</string>
     <string name="settings_min_width">Ancho mínimo aceptado (px)</string>
     <string name="settings_src_none">Ninguno</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Colores dinámicos</string>
     <string name="settings_src_default">Fondo de pantalla predeterminado</string>
     <string name="settings_src_media">Archivo multimedia</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">No se han encontrado imágenes ni vídeos. Copia alguno en Pictures, Movies o Download, o conecta una unidad USB.</string>
     <string name="wp_folders_description">Carpetas con imágenes o vídeos, en este dispositivo y en unidades USB.</string>
     <string name="wp_folders_none">No se han encontrado carpetas con imágenes o vídeos</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d archivo</item>
         <item quantity="many">%d archivos</item>
@@ -347,7 +342,6 @@
     <string name="install_custom">URL personalizada / código de Downloader</string>
     <string name="install_custom_desc">Usa solo una fuente de confianza</string>
     <string name="install_status">Estado</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Este dispositivo</string>

@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Ingen</string>
     <string name="settings_more">Mer…</string>
     <string name="settings_custom_icon_tint">Fargetone for egendefinerte ikoner</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Størrelse på markert kort</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Ved feil sideforhold/dårlig kvalitet</string>
     <string name="settings_min_width">Minste godtatte bredde (px)</string>
     <string name="settings_src_none">Ingen</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dynamiske farger</string>
     <string name="settings_src_default">Standardbakgrunn</string>
     <string name="settings_src_media">Mediefil</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Fant ingen bilder eller videoer. Kopier noen til Pictures, Movies eller Download, eller koble til en USB-stasjon.</string>
     <string name="wp_folders_description">Mapper med bilder eller videoer, på denne enheten og på USB-stasjoner.</string>
     <string name="wp_folders_none">Fant ingen mapper med bilder eller videoer</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d fil</item>
         <item quantity="other">%d filer</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">Egendefinert URL / Downloader-kode</string>
     <string name="install_custom_desc">Bruk bare en kilde du stoler på</string>
     <string name="install_status">Status</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Denne enheten</string>

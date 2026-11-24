@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">ეკრანის პროფილები</string>
     <string name="apps_action_install_apps">მესამე მხარის აპების დაყენება</string>
     <string name="apps_action_accessibility_service">მარტივი წვდომის სერვისი</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">პროფილის გადართვა</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">ეს მოწყობილობა</string>
     <string name="apps_action_about_wallpaper">ეს ფონი</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">ანაწყობი</string>
     <string name="apps_device_build_desc">ანაწყობის აღწ.</string>
     <string name="apps_device_device_type">მოწყობილობის ტიპი</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP მისამართი</string>
     <string name="apps_device_root_access">Root წვდომა</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">სურათის მენეჯერი არ არის</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">დიახ</string>
     <string name="apps_device_no">არა</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">ხატულების კომპლექტი</string>
+    <string name="iconset_desc">გამჭვირვალე ხატულები GitHub-ის რეპოზიტორიდან, მაგალითად DrZacharySmith/projectivy-transparent-icons. აირჩიეთ გამოშვება მის ჩამოსატვირთად, შემდეგ კი სტილი, რომელსაც „ხატულის შეცვლა“ შემოგთავაზებთ.</string>
+    <string name="iconset_repo">რეპოზიტორი</string>
+    <string name="iconset_repo_hint">owner/name GitHub-ზე</string>
+    <string name="iconset_repo_add">დამატება…</string>
+    <string name="iconset_add_title">რეპოზიტორის დამატება</string>
+    <string name="iconset_add_desc">GitHub-ის რეპოზიტორი owner/name ფორმატში და მასში არსებული საქაღალდე, სადაც თითოეულ სტილს PNG ხატულების საკუთარი საქაღალდე აქვს, მაგალითად icons/styles.</string>
+    <string name="iconset_add_path">გზა კომპლექტებამდე</string>
+    <string name="iconset_add_path_hint">საქაღალდე, სადაც თითო სტილს თითო საქაღალდე აქვს, მაგ. icons/styles</string>
+    <string name="iconset_add">დამატება</string>
+    <string name="iconset_release">გამოშვება</string>
+    <string name="iconset_release_none">არ არის ჩამოტვირთული</string>
+    <string name="iconset_status">სტატუსი</string>
+    <string name="iconset_loading">გამოშვებების ძიება…</string>
+    <string name="iconset_downloading">%1$s იტვირთება… %2$d MB</string>
+    <string name="iconset_cancel">ჩამოტვირთვის გაუქმება</string>
+    <string name="iconset_style">სტილი</string>
+    <string name="iconset_style_choose">აირჩიეთ სტილი</string>
+    <string name="iconset_match">ხატულების შერჩევა აპებისთვის</string>
+    <string name="iconset_match_desc">სთავაზობს ხატულას ყველა აპს, რომლის სახელიც რომელიმე ხატულას ემთხვევა</string>
+    <string name="iconset_reset">ხატულების ნაგულისხმევზე დაბრუნება</string>
+    <string name="iconset_remove">ხატულების კომპლექტის წაშლა</string>
+    <string name="iconset_fail_bad_repo">შეიყვანეთ რეპოზიტორი owner/name ფორმატში</string>
+    <string name="iconset_fail_bad_path">შეიყვანეთ საქაღალდე, მაგალითად icons/styles</string>
+    <string name="iconset_fail_not_found">რეპოზიტორი ვერ მოიძებნა</string>
+    <string name="iconset_fail_no_releases">ამ რეპოზიტორს გამოშვებები არ აქვს</string>
+    <string name="iconset_fail_network">ჩამოტვირთვა ვერ მოხერხდა</string>
+    <string name="iconset_fail_http">GitHub-მა შეცდომით უპასუხა (%1$s)</string>
+    <string name="iconset_fail_no_styles">ამ გამოშვებაში %1$s-ში სტილის საქაღალდეები არ არის</string>
+    <string name="iconset_fail_no_space">საკმარისი თავისუფალი ადგილი არ არის</string>
+    <string name="iconset_fail_storage">ხატულების შენახვა შეუძლებელია</string>
+    <string name="iconset_match_title">ხატულების შერჩევა</string>
+    <string name="iconset_apply">გამოყენება (%1$d)</string>
+    <string name="iconset_match_none">აპის არცერთი სახელი არ ემთხვევა ხატულას</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">გამოყენებულია %1$d ხატულა</item>
+        <item quantity="other">გამოყენებულია %1$d ხატულა</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d ხატულა ნაგულისხმევზე დაბრუნდა</item>
+        <item quantity="other">%1$d ხატულა ნაგულისხმევზე დაბრუნდა</item>
+    </plurals>
 </resources>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Nastavi kot ozadje QLauncherja</string>
     <string name="import_settings">Uvozi v QLauncher</string>
     <string name="accessibility_service_description">QLauncher vidi pritiske strojnih tipk in ime aplikacije v ospredju, da lahko nadomesti tovarniški zaganjalnik, izvaja dejanja ob vklopu, prerazporedi gumbe daljinskega upravljalnika, zazna nedejavnost in uveljavlja starševski nadzor. Oboje ostane v pomnilniku te naprave in se nikamor ne pošilja.</string>

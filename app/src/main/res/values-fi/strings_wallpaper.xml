@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Ei mitään</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Dynaamiset värit</string>
     <string name="wallpaper_provider_default">Oletustaustakuva</string>
     <string name="wallpaper_provider_media_file">Mediatiedosto</string>
@@ -38,13 +36,13 @@
     <string name="wallpaper_reddit_log_out">Kirjaudu ulos</string>
     <string name="wallpaper_reddit_login_needed">Kirjaudu Redditiin nähdäksesi sen taustakuvat.</string>
     <string name="wallpaper_reddit_login_title">Kirjaudu Redditiin</string>
-    <string name="wallpaper_reddit_login_signing_in">Kirjaudutaan sisään…</string>
-    <string name="wallpaper_reddit_login_denied">Redditin käyttöoikeutta ei myönnetty, joten Redditin taustakuvat eivät ole käytettävissä.</string>
+    <string name="wallpaper_reddit_login_signing_in">Kirjaudutaan…</string>
+    <string name="wallpaper_reddit_login_denied">Reddit-käyttöoikeutta ei myönnetty, joten Redditin taustakuvat eivät ole käytettävissä.</string>
     <string name="wallpaper_reddit_login_state_mismatch">Redditin vastaus ei vastannut tätä kirjautumisyritystä, joten se ohitettiin. Yritä uudelleen.</string>
     <string name="wallpaper_reddit_login_failed">Redditiin kirjautuminen epäonnistui (%1$s). Yritä myöhemmin uudelleen.</string>
     <string name="wallpaper_reddit_login_network">Redditiin ei saatu yhteyttä. Tarkista verkkoyhteys ja yritä uudelleen.</string>
     <string name="wallpaper_reddit_login_page_error">Redditin kirjautumissivua ei voitu ladata. Tarkista verkkoyhteys ja yritä uudelleen.</string>
-    <string name="wallpaper_reddit_no_webview">Tässä laitteessa ei ole selainkomponenttia (Android System WebView), jota Redditiin kirjautuminen tarvitsee. Asenna tai ota käyttöön Android System WebView ja yritä uudelleen.</string>
+    <string name="wallpaper_reddit_no_webview">Tässä laitteessa ei ole verkkoselainkomponenttia (Android System WebView), jota Redditiin kirjautuminen tarvitsee. Asenna tai ota käyttöön Android System WebView ja yritä uudelleen.</string>
     <string name="wallpaper_reddit_retry">Yritä uudelleen</string>
     <string name="wallpaper_reddit_close">Sulje</string>
 
@@ -59,7 +57,7 @@
     <string name="wallpaper_error_folder_empty">Kansiossa ei ole kuvia, videoita eikä Lottie-animaatioita.</string>
     <string name="wallpaper_error_theme_empty">Nykyisessä teemassa ei ole taustakuvia.</string>
     <string name="wallpaper_error_no_channels">Kanavat eivät ole käytettävissä. Ota ne käyttöön ja salli TV-ohjelmatietojen käyttö.</string>
-    <string name="wallpaper_error_no_notification_access">Nyt toistossa tarvitsee ilmoitusten käyttöoikeuden.</string>
+    <string name="wallpaper_error_no_notification_access">Nyt toistossa -toiminto vaatii ilmoitusten käyttöoikeuden.</string>
     <string name="wallpaper_error_no_subreddit">Kelvollista subredditiä ei ole asetettu.</string>
     <string name="wallpaper_error_plugin">Taustakuvalaajennus ei vastannut.</string>
 

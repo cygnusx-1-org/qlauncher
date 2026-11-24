@@ -5,7 +5,6 @@
     <string name="about_libs">Библиотеки / Благодарности</string>
     <string name="about_links">Връзки</string>
     <string name="about_link_project">Страница на проекта</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Превод на български</string>
     <string name="about_translation_credit">Сътрудниците на QLauncher</string>
     <string name="about_no_browser">На това устройство няма браузър. Отворете %1$s на друго устройство.</string>

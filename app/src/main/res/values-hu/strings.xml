@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Beállítás QLauncher-háttérképként</string>
     <string name="import_settings">Importálás a QLauncherbe</string>
     <string name="accessibility_service_description">A QLauncher látja a hardveres gombnyomásokat és az előtérben lévő alkalmazás nevét, hogy felülbírálhassa a gyári indítót, műveleteket futtathasson bekapcsoláskor, átkioszthassa a távirányító gombjait, észlelhesse a tétlenséget és érvényesíthesse a szülői felügyeletet. Mindkettő csak ennek az eszköznek a memóriájában marad, és soha nem kerül elküldésre.</string>

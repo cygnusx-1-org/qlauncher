@@ -8,8 +8,6 @@
 <resources>
     <!-- Launcher wallpaper dropdown, in Projectivy's order. -->
     <string name="wallpaper_provider_none">Không có</string>
-    <string name="wallpaper_provider_reddit">Reddit</string>
-    <string name="wallpaper_provider_wikimedia">Wikimedia Commons</string>
     <string name="wallpaper_provider_dynamic_colors">Màu động</string>
     <string name="wallpaper_provider_default">Hình nền mặc định</string>
     <string name="wallpaper_provider_media_file">Tệp đa phương tiện</string>

@@ -5,7 +5,6 @@
     <string name="about_libs">Bibliotēkas / pateicības</string>
     <string name="about_links">Saites</string>
     <string name="about_link_project">Projekta lapa</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Tulkojums latviešu valodā</string>
     <string name="about_translation_credit">QLauncher līdzstrādnieki</string>
     <string name="about_no_browser">Šajā ierīcē nav pārlūka. Atveriet %1$s citā ierīcē.</string>

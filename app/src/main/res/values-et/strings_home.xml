@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Kuvaprofiilid</string>
     <string name="home_action_install_apps">Installi kolmanda osapoole rakendusi</string>
     <string name="home_action_accessibility">Juurdepääsetavusteenus</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Vaheta profiili</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">See seade</string>
     <string name="home_action_about_wallpaper">See taustapilt</string>
 

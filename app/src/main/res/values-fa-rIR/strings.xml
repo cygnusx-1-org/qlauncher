@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">تنظیم به‌عنوان کاغذدیواری QLauncher</string>
     <string name="import_settings">وارد کردن به QLauncher</string>
     <string name="accessibility_service_description">برنامه QLauncher فشردن کلیدهای سخت‌افزاری و نام برنامه‌ای را که در پیش‌زمینه است می‌بیند تا راه‌انداز اصلی دستگاه را جایگزین کند، هنگام روشن شدن دستگاه کارهایی انجام دهد، عملکرد دکمه‌های کنترل از راه دور را تغییر دهد، زمان بیکاری را تشخیص دهد و کنترل والدین را اعمال کند. هر دو فقط در حافظه همین دستگاه می‌مانند و هرگز به جایی فرستاده نمی‌شوند.</string>

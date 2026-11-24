@@ -30,9 +30,7 @@
     <string name="home_action_display_profiles">Weergaveprofielen</string>
     <string name="home_action_install_apps">Apps van derden installeren</string>
     <string name="home_action_accessibility">Toegankelijkheidsservice</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Van profiel wisselen</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Dit apparaat</string>
     <string name="home_action_about_wallpaper">Deze achtergrond</string>
 

@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">없음</string>
     <string name="settings_more">더보기…</string>
     <string name="settings_custom_icon_tint">맞춤 아이콘 틴트</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">포커스된 카드 크기</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">비율/품질이 맞지 않을 때</string>
     <string name="settings_min_width">최소 허용 너비(px)</string>
     <string name="settings_src_none">없음</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">다이내믹 색상</string>
     <string name="settings_src_default">기본 배경화면</string>
     <string name="settings_src_media">미디어 파일</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">사진이나 동영상을 찾을 수 없습니다. Pictures, Movies 또는 Download에 복사하거나 USB 드라이브를 연결하세요.</string>
     <string name="wp_folders_description">이 기기와 USB 드라이브에 있는, 사진이나 동영상이 들어 있는 폴더입니다.</string>
     <string name="wp_folders_none">사진이나 동영상이 들어 있는 폴더를 찾을 수 없습니다</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="other">파일 %d개</item>
     </plurals>
@@ -345,7 +340,6 @@
     <string name="install_custom">사용자 지정 URL / Downloader 코드</string>
     <string name="install_custom_desc">신뢰할 수 있는 출처만 사용하세요</string>
     <string name="install_status">상태</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">이 기기</string>

@@ -65,6 +65,7 @@ import androidx.compose.ui.input.key.onKeyEvent
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.layout.Layout
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.platform.testTag
@@ -74,6 +75,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.tv.material3.Text
+import java.text.DateFormatSymbols
 import kotlinx.coroutines.delay
 import org.cygnusx1.qlauncher.settings.ColorKey
 import org.cygnusx1.qlauncher.settings.SettingsRepository
@@ -394,7 +396,7 @@ private fun RenderRow(row: Row, focused: Boolean, ctx: RowContext, repo: Setting
             )
         }
         is Row.Action -> StandardRow(title, row.badges, row.description?.invoke(ctx)?.resolve(), row.icon, focused, enabled, if (row.chevron) Trailing.Chevron else Trailing.None, tag)
-        is Row.Info -> StandardRow(title, row.badges, row.value(ctx)?.resolve(), row.icon, focused, enabled, Trailing.None, tag)
+        is Row.Info -> StandardRow(title, row.badges, row.value(ctx)?.resolve(), row.icon, focused, enabled, Trailing.None, tag, descriptionLines = row.valueLines)
         is Row.Footer -> Box(Modifier.fillMaxWidth().padding(horizontal = GuidedDimens.IconStart, vertical = 8.dp).testTag(tag)) { row.content() }
     }
 }
@@ -569,6 +571,8 @@ private fun ExpandedOptions(labels: List<Pair<String, Boolean>>, listState: Lazy
 @Composable
 private fun TimeWheels(values: IntArray, focusedWheel: Int, timeOfDay: Boolean) {
     val ranges = TimeEditing.ranges(values.size)
+    val locale = LocalConfiguration.current.locales[0]
+    val amPm = remember(locale) { DateFormatSymbols.getInstance(locale).amPmStrings }
     androidx.compose.foundation.layout.Row(verticalAlignment = Alignment.CenterVertically) {
         values.forEachIndexed { i, v ->
             if (i == 1) Text(":", color = Color.White, style = QTheme.type.rowTitle, modifier = Modifier.padding(horizontal = 6.dp))
@@ -577,7 +581,7 @@ private fun TimeWheels(values: IntArray, focusedWheel: Int, timeOfDay: Boolean) 
                 val r = ranges[i]
                 listOf(-1, 0, 1).forEach { d ->
                     val x = Math.floorMod(v - r.first + d, r.last - r.first + 1) + r.first
-                    val label = if (i == 2) (if (x == 0) "AM" else "PM") else "%02d".format(if (i == 0 && values.size == 3 && x == 0) 12 else x)
+                    val label = if (i == 2) amPm[if (x == 0) 0 else 1] else "%02d".format(if (i == 0 && values.size == 3 && x == 0) 12 else x)
                     Text(
                         label,
                         color = when {

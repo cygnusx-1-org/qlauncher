@@ -5,7 +5,6 @@
     <string name="about_libs">Գրադարաններ / Շնորհակալություններ</string>
     <string name="about_links">Հղումներ</string>
     <string name="about_link_project">Նախագծի էջ</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Հայերեն թարգմանություն</string>
     <string name="about_translation_credit">QLauncher-ի մասնակիցներ</string>
     <string name="about_no_browser">Այս սարքում դիտարկիչ չկա։ Բացեք %1$s հասցեն մեկ այլ սարքում։</string>

@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">ディスプレイプロファイル</string>
     <string name="apps_action_install_apps">サードパーティアプリをインストール</string>
     <string name="apps_action_accessibility_service">ユーザー補助サービス</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">プロファイルを切り替え</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">このデバイス</string>
     <string name="apps_action_about_wallpaper">この壁紙</string>
 
@@ -100,12 +98,52 @@
     <string name="apps_device_build">ビルド</string>
     <string name="apps_device_build_desc">ビルドの説明</string>
     <string name="apps_device_device_type">デバイスの種類</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP アドレス</string>
     <string name="apps_device_root_access">root アクセス</string>
-    <string name="apps_device_pm_info">PM 情報</string>
     <string name="apps_device_pm_none">ピクチャーマネージャーなし</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">はい</string>
     <string name="apps_device_no">いいえ</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">アイコンセット</string>
+    <string name="iconset_desc">GitHub リポジトリ (DrZacharySmith/projectivy-transparent-icons など) の透過アイコンです。リリースを選んでダウンロードし、「アイコンを変更」に表示するスタイルを選択します。</string>
+    <string name="iconset_repo">リポジトリ</string>
+    <string name="iconset_repo_hint">GitHub の owner/name</string>
+    <string name="iconset_repo_add">追加…</string>
+    <string name="iconset_add_title">リポジトリを追加</string>
+    <string name="iconset_add_desc">owner/name 形式の GitHub リポジトリと、その中でスタイルごとに PNG アイコンのフォルダを 1 つずつ含むフォルダ (icons/styles など) を指定します。</string>
+    <string name="iconset_add_path">セットへのパス</string>
+    <string name="iconset_add_path_hint">スタイルごとのフォルダを含むフォルダ (例: icons/styles)</string>
+    <string name="iconset_add">追加</string>
+    <string name="iconset_release">リリース</string>
+    <string name="iconset_release_none">未ダウンロード</string>
+    <string name="iconset_status">ステータス</string>
+    <string name="iconset_loading">リリースを検索中…</string>
+    <string name="iconset_downloading">%1$s をダウンロード中… %2$d MB</string>
+    <string name="iconset_cancel">ダウンロードをキャンセル</string>
+    <string name="iconset_style">スタイル</string>
+    <string name="iconset_style_choose">スタイルを選択</string>
+    <string name="iconset_match">アイコンをアプリと照合</string>
+    <string name="iconset_match_desc">名前が一致するアイコンがあるアプリごとに、そのアイコンを提案します</string>
+    <string name="iconset_reset">アイコンをデフォルトにリセット</string>
+    <string name="iconset_remove">アイコンセットを削除</string>
+    <string name="iconset_fail_bad_repo">リポジトリを owner/name の形式で入力してください</string>
+    <string name="iconset_fail_bad_path">icons/styles のようなフォルダを入力してください</string>
+    <string name="iconset_fail_not_found">リポジトリが見つかりません</string>
+    <string name="iconset_fail_no_releases">このリポジトリにはリリースがありません</string>
+    <string name="iconset_fail_network">ダウンロードに失敗しました</string>
+    <string name="iconset_fail_http">GitHub がエラーを返しました (%1$s)</string>
+    <string name="iconset_fail_no_styles">このリリースの %1$s にスタイルフォルダがありません</string>
+    <string name="iconset_fail_no_space">空き容量が不足しています</string>
+    <string name="iconset_fail_storage">アイコンを保存できません</string>
+    <string name="iconset_match_title">アイコンを照合</string>
+    <string name="iconset_apply">適用 (%1$d)</string>
+    <string name="iconset_match_none">アイコンに一致するアプリ名がありません</string>
+    <plurals name="iconset_applied">
+        <item quantity="other">%1$d 件のアイコンを適用しました</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="other">%1$d 件のアイコンをデフォルトにリセットしました</item>
+    </plurals>
 </resources>

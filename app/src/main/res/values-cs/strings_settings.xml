@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Žádný</string>
     <string name="settings_more">Další…</string>
     <string name="settings_custom_icon_tint">Tónování vlastních ikon</string>
-    <string name="settings_ratio_16_9">16:9</string>
-    <string name="settings_ratio_1_1">1:1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Velikost vybrané karty</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Při špatném poměru stran/kvalitě</string>
     <string name="settings_min_width">Minimální přijatelná šířka (px)</string>
     <string name="settings_src_none">Žádná</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Dynamické barvy</string>
     <string name="settings_src_default">Výchozí tapeta</string>
     <string name="settings_src_media">Mediální soubor</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Nebyly nalezeny žádné obrázky ani videa. Zkopírujte nějaké do složky Pictures, Movies nebo Download, nebo připojte disk USB.</string>
     <string name="wp_folders_description">Složky s obrázky nebo videi v tomto zařízení a na discích USB.</string>
     <string name="wp_folders_none">Nebyly nalezeny žádné složky s obrázky nebo videi</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d soubor</item>
         <item quantity="few">%d soubory</item>
@@ -348,7 +343,6 @@
     <string name="install_custom">Vlastní URL / kód pro Downloader</string>
     <string name="install_custom_desc">Používejte jen zdroj, kterému důvěřujete</string>
     <string name="install_status">Stav</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Toto zařízení</string>

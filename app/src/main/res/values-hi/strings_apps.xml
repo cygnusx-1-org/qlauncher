@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">डिसप्ले प्रोफ़ाइल</string>
     <string name="apps_action_install_apps">तीसरे पक्ष के ऐप्स इंस्टॉल करें</string>
     <string name="apps_action_accessibility_service">सुलभता सेवा</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">प्रोफ़ाइल बदलें</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">यह डिवाइस</string>
     <string name="apps_action_about_wallpaper">यह वॉलपेपर</string>
 
@@ -101,12 +99,54 @@
     <string name="apps_device_build">बिल्ड</string>
     <string name="apps_device_build_desc">बिल्ड विवरण</string>
     <string name="apps_device_device_type">डिवाइस का प्रकार</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">IP पता</string>
     <string name="apps_device_root_access">रूट ऐक्सेस</string>
-    <string name="apps_device_pm_info">PM जानकारी</string>
     <string name="apps_device_pm_none">कोई पिक्चर मैनेजर नहीं</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">हां</string>
     <string name="apps_device_no">नहीं</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">आइकॉन सेट</string>
+    <string name="iconset_desc">किसी GitHub रिपॉज़िटरी से पारदर्शी आइकॉन, जैसे DrZacharySmith/projectivy-transparent-icons से। डाउनलोड करने के लिए कोई रिलीज़ चुनें, फिर वह स्टाइल चुनें जो “आइकॉन बदलें” में दिखेगा।</string>
+    <string name="iconset_repo">रिपॉज़िटरी</string>
+    <string name="iconset_repo_hint">GitHub पर owner/name</string>
+    <string name="iconset_repo_add">जोड़ें…</string>
+    <string name="iconset_add_title">रिपॉज़िटरी जोड़ें</string>
+    <string name="iconset_add_desc">owner/name के रूप में कोई GitHub रिपॉज़िटरी, और उसमें वह फ़ोल्डर जिसमें हर स्टाइल के लिए PNG आइकॉन का एक फ़ोल्डर हो, जैसे icons/styles।</string>
+    <string name="iconset_add_path">सेट का पाथ</string>
+    <string name="iconset_add_path_hint">वह फ़ोल्डर जिसमें हर स्टाइल का एक फ़ोल्डर हो, जैसे icons/styles</string>
+    <string name="iconset_add">जोड़ें</string>
+    <string name="iconset_release">रिलीज़</string>
+    <string name="iconset_release_none">डाउनलोड नहीं की गई</string>
+    <string name="iconset_status">स्थिति</string>
+    <string name="iconset_loading">रिलीज़ खोजी जा रही हैं…</string>
+    <string name="iconset_downloading">%1$s डाउनलोड हो रहा है… %2$d MB</string>
+    <string name="iconset_cancel">डाउनलोड रद्द करें</string>
+    <string name="iconset_style">स्टाइल</string>
+    <string name="iconset_style_choose">कोई स्टाइल चुनें</string>
+    <string name="iconset_match">ऐप्स से आइकॉन मिलाएं</string>
+    <string name="iconset_match_desc">हर उस ऐप के लिए आइकॉन सुझाता है जिसका नाम किसी आइकॉन से मेल खाता है</string>
+    <string name="iconset_reset">आइकॉन डिफ़ॉल्ट पर रीसेट करें</string>
+    <string name="iconset_remove">आइकॉन सेट हटाएं</string>
+    <string name="iconset_fail_bad_repo">रिपॉज़िटरी को owner/name के रूप में डालें</string>
+    <string name="iconset_fail_bad_path">icons/styles जैसा कोई फ़ोल्डर डालें</string>
+    <string name="iconset_fail_not_found">रिपॉज़िटरी नहीं मिली</string>
+    <string name="iconset_fail_no_releases">इस रिपॉज़िटरी में कोई रिलीज़ नहीं है</string>
+    <string name="iconset_fail_network">डाउनलोड नहीं हो सका</string>
+    <string name="iconset_fail_http">GitHub ने गड़बड़ी का जवाब दिया (%1$s)</string>
+    <string name="iconset_fail_no_styles">इस रिलीज़ में %1$s के अंदर कोई स्टाइल फ़ोल्डर नहीं है</string>
+    <string name="iconset_fail_no_space">खाली जगह काफ़ी नहीं है</string>
+    <string name="iconset_fail_storage">आइकॉन सेव नहीं किए जा सकते</string>
+    <string name="iconset_match_title">आइकॉन मिलाएं</string>
+    <string name="iconset_apply">लागू करें (%1$d)</string>
+    <string name="iconset_match_none">किसी ऐप का नाम किसी आइकॉन से मेल नहीं खाता</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d आइकॉन लागू किया गया</item>
+        <item quantity="other">%1$d आइकॉन लागू किए गए</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d आइकॉन डिफ़ॉल्ट पर रीसेट किया गया</item>
+        <item quantity="other">%1$d आइकॉन डिफ़ॉल्ट पर रीसेट किए गए</item>
+    </plurals>
 </resources>

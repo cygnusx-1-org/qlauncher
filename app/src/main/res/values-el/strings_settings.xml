@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Κανένα</string>
     <string name="settings_more">Περισσότερα…</string>
     <string name="settings_custom_icon_tint">Χρώμα προσαρμοσμένων εικονιδίων</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Μέγεθος εστιασμένης κάρτας</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Σε κακή αναλογία/ποιότητα</string>
     <string name="settings_min_width">Ελάχιστο αποδεκτό πλάτος (px)</string>
     <string name="settings_src_none">Καμία</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Δυναμικά χρώματα</string>
     <string name="settings_src_default">Προεπιλεγμένη ταπετσαρία</string>
     <string name="settings_src_media">Αρχείο πολυμέσων</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Δεν βρέθηκαν εικόνες ή βίντεο. Αντιγράψτε μερικά στους φακέλους Pictures, Movies ή Download ή συνδέστε μια μονάδα USB.</string>
     <string name="wp_folders_description">Φάκελοι με εικόνες ή βίντεο, σε αυτή τη συσκευή και σε μονάδες USB.</string>
     <string name="wp_folders_none">Δεν βρέθηκαν φάκελοι με εικόνες ή βίντεο</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d αρχείο</item>
         <item quantity="other">%d αρχεία</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">Προσαρμοσμένο URL / Κωδικός Downloader</string>
     <string name="install_custom_desc">Χρησιμοποιείτε μόνο πηγή που εμπιστεύεστε</string>
     <string name="install_status">Κατάσταση</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Αυτή η συσκευή</string>

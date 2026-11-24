@@ -5,7 +5,6 @@
     <string name="about_libs">लाइब्रेरी / आभार</string>
     <string name="about_links">लिंक</string>
     <string name="about_link_project">प्रोजेक्ट पेज</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">हिंदी अनुवाद</string>
     <string name="about_translation_credit">QLauncher योगदानकर्ता</string>
     <string name="about_no_browser">इस डिवाइस पर कोई ब्राउज़र नहीं है। %1$s को किसी दूसरे डिवाइस पर खोलें।</string>

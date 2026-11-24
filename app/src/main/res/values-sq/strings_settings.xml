@@ -82,8 +82,6 @@
     <string name="settings_icon_pack_off">Asnjë</string>
     <string name="settings_more">Më shumë…</string>
     <string name="settings_custom_icon_tint">Ngjyra e ikonave të personalizuara</string>
-    <string name="settings_ratio_16_9">16/9</string>
-    <string name="settings_ratio_1_1">1/1</string>
 
     <!-- Focused card -->
     <string name="settings_focused_size">Madhësia e kartës në fokus</string>
@@ -127,8 +125,6 @@
     <string name="settings_bad_ratio">Në rast raporti/cilësie të keqe</string>
     <string name="settings_min_width">Gjerësia minimale e pranuar (px)</string>
     <string name="settings_src_none">Asnjë</string>
-    <string name="settings_src_reddit">Reddit</string>
-    <string name="settings_src_wikimedia">Wikimedia Commons</string>
     <string name="settings_src_dynamic">Ngjyra dinamike</string>
     <string name="settings_src_default">Imazhi i parazgjedhur i sfondit</string>
     <string name="settings_src_media">Skedar media</string>
@@ -308,7 +304,6 @@
     <string name="wp_media_none">Nuk u gjet asnjë foto apo video. Kopjo disa te Pictures, Movies ose Download, ose fut një njësi USB.</string>
     <string name="wp_folders_description">Dosje me foto ose video, në këtë pajisje dhe në njësitë USB.</string>
     <string name="wp_folders_none">Nuk u gjet asnjë dosje me foto ose video</string>
-    <string name="wp_folders_entry">%1$s · %2$s</string>
     <plurals name="wp_folder_files">
         <item quantity="one">%d skedar</item>
         <item quantity="other">%d skedarë</item>
@@ -346,7 +341,6 @@
     <string name="install_custom">URL e personalizuar / Kodi i Downloader</string>
     <string name="install_custom_desc">Përdor vetëm një burim që i beson</string>
     <string name="install_status">Statusi</string>
-    <string name="install_method_choice">%1$s (%2$s)</string>
 
     <!-- This device -->
     <string name="device_title">Kjo pajisje</string>

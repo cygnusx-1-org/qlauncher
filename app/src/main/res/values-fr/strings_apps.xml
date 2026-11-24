@@ -18,9 +18,7 @@
     <string name="apps_action_display_profiles">Profils d\'affichage</string>
     <string name="apps_action_install_apps">Installer des applications tierces</string>
     <string name="apps_action_accessibility_service">Service d\'accessibilité</string>
-    <string name="apps_action_google_smart_home">Google SmartHome</string>
     <string name="apps_action_switch_profile">Changer de profil</string>
-    <string name="apps_action_about_app">QLauncher</string>
     <string name="apps_action_about_device">Cet appareil</string>
     <string name="apps_action_about_wallpaper">Ce fond d\'écran</string>
 
@@ -102,12 +100,56 @@
     <string name="apps_device_build">Numéro de build</string>
     <string name="apps_device_build_desc">Desc. du build</string>
     <string name="apps_device_device_type">Type d\'appareil</string>
-    <string name="apps_device_hdr">HDR</string>
     <string name="apps_device_ip_address">Adresse IP</string>
     <string name="apps_device_root_access">Accès root</string>
-    <string name="apps_device_pm_info">PMInfo</string>
     <string name="apps_device_pm_none">Aucun gestionnaire d\'image</string>
     <string name="apps_device_id">ID</string>
     <string name="apps_device_yes">Oui</string>
     <string name="apps_device_no">Non</string>
+
+    <!-- Cards › Icon set -->
+    <string name="iconset_title">Jeu d\'icônes</string>
+    <string name="iconset_desc">Icônes transparentes d\'un dépôt GitHub, comme DrZacharySmith/projectivy-transparent-icons. Choisissez une version pour la télécharger, puis le style que propose « Changer d\'icône ».</string>
+    <string name="iconset_repo">Dépôt</string>
+    <string name="iconset_repo_hint">owner/name sur GitHub</string>
+    <string name="iconset_repo_add">Ajouter…</string>
+    <string name="iconset_add_title">Ajouter un dépôt</string>
+    <string name="iconset_add_desc">Un dépôt GitHub au format owner/name, et le dossier qui y contient un dossier d\'icônes PNG par style, comme icons/styles.</string>
+    <string name="iconset_add_path">Chemin des jeux</string>
+    <string name="iconset_add_path_hint">Le dossier avec un dossier par style, p. ex. icons/styles</string>
+    <string name="iconset_add">Ajouter</string>
+    <string name="iconset_release">Version</string>
+    <string name="iconset_release_none">Non téléchargée</string>
+    <string name="iconset_status">État</string>
+    <string name="iconset_loading">Recherche des versions…</string>
+    <string name="iconset_downloading">Téléchargement de %1$s… %2$d MB</string>
+    <string name="iconset_cancel">Annuler le téléchargement</string>
+    <string name="iconset_style">Style</string>
+    <string name="iconset_style_choose">Choisir un style</string>
+    <string name="iconset_match">Associer les icônes aux applications</string>
+    <string name="iconset_match_desc">Propose une icône pour chaque application dont le nom correspond à l\'une d\'elles</string>
+    <string name="iconset_reset">Rétablir les icônes par défaut</string>
+    <string name="iconset_remove">Supprimer le jeu d\'icônes</string>
+    <string name="iconset_fail_bad_repo">Saisissez le dépôt au format owner/name</string>
+    <string name="iconset_fail_bad_path">Saisissez un dossier comme icons/styles</string>
+    <string name="iconset_fail_not_found">Dépôt introuvable</string>
+    <string name="iconset_fail_no_releases">Ce dépôt n\'a aucune version</string>
+    <string name="iconset_fail_network">Le téléchargement a échoué</string>
+    <string name="iconset_fail_http">GitHub a répondu par une erreur (%1$s)</string>
+    <string name="iconset_fail_no_styles">Cette version n\'a aucun dossier de style dans %1$s</string>
+    <string name="iconset_fail_no_space">Espace libre insuffisant</string>
+    <string name="iconset_fail_storage">Impossible d\'enregistrer les icônes</string>
+    <string name="iconset_match_title">Associer les icônes</string>
+    <string name="iconset_apply">Appliquer (%1$d)</string>
+    <string name="iconset_match_none">Aucun nom d\'application ne correspond à une icône</string>
+    <plurals name="iconset_applied">
+        <item quantity="one">%1$d icône appliquée</item>
+        <item quantity="many">%1$d icônes appliquées</item>
+        <item quantity="other">%1$d icônes appliquées</item>
+    </plurals>
+    <plurals name="iconset_reset_done">
+        <item quantity="one">%1$d icône rétablie par défaut</item>
+        <item quantity="many">%1$d icônes rétablies par défaut</item>
+        <item quantity="other">%1$d icônes rétablies par défaut</item>
+    </plurals>
 </resources>

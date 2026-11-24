@@ -5,7 +5,6 @@
     <string name="about_libs">Knjižnice / Zasluge</string>
     <string name="about_links">Povezave</string>
     <string name="about_link_project">Stran projekta</string>
-    <string name="about_link_licence">GNU GPL v3</string>
     <string name="about_translation">Slovenski prevod</string>
     <string name="about_translation_credit">Sodelavci projekta QLauncher</string>
     <string name="about_no_browser">V tej napravi ni brskalnika. Odpri %1$s v drugi napravi.</string>

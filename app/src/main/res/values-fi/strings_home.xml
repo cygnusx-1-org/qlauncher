@@ -25,14 +25,12 @@
     <string name="home_action_edit_categories">Muokkaa kategorioita</string>
     <string name="home_action_edit_channels">Muokkaa kanavia</string>
     <string name="home_action_launcher_settings">QLauncherin asetukset</string>
-    <string name="home_action_android_settings">Androidin asetukset</string>
+    <string name="home_action_android_settings">Android-asetukset</string>
     <string name="home_action_amlogic_settings">AmLogicin lisäasetukset</string>
     <string name="home_action_display_profiles">Näyttöprofiilit</string>
     <string name="home_action_install_apps">Asenna kolmannen osapuolen sovelluksia</string>
     <string name="home_action_accessibility">Esteettömyyspalvelu</string>
-    <string name="home_action_smart_home">Google SmartHome</string>
     <string name="home_action_switch_profile">Vaihda profiilia</string>
-    <string name="home_action_about_app">QLauncher</string>
     <string name="home_action_about_device">Tämä laite</string>
     <string name="home_action_about_wallpaper">Tämä taustakuva</string>
 
@@ -47,14 +45,14 @@
     <string name="home_status_settings">Asetukset</string>
     <string name="home_status_wallpaper">Tämä taustakuva</string>
     <string name="home_navigation_menu">Navigointivalikko</string>
-    <string name="home_reorder">Järjestä</string>
+    <string name="home_reorder">Järjestä uudelleen</string>
     <string name="home_category_settings">Kategorian asetukset</string>
 
     <!-- App menu -->
     <string name="menu_app_settings">Sovelluksen asetukset</string>
     <string name="menu_open">Avaa</string>
     <string name="menu_details">Tiedot</string>
-    <string name="menu_play_pause">Toista/tauko</string>
+    <string name="menu_play_pause">Toista/Tauko</string>
     <string name="menu_stop">Pysäytä</string>
     <string name="menu_previous">Edellinen</string>
     <string name="menu_next">Seuraava</string>
@@ -65,21 +63,21 @@
     <string name="menu_remove_parental">Poista lapsilukosta</string>
     <string name="menu_shortcuts">Pikakuvakkeet</string>
     <string name="menu_appearance">Ulkoasu</string>
-    <string name="menu_title">Nimi</string>
+    <string name="menu_title">Otsikko</string>
     <string name="menu_change_icon">Vaihda kuvake</string>
     <string name="menu_icon_from_picture">Kuvasta</string>
     <string name="menu_icon_other_location">Muu sijainti…</string>
-    <string name="menu_icon_no_pictures">Kuvia ei löytynyt. Kopioi kuvia kansioon Pictures tai Download tai liitä USB-asema.</string>
+    <string name="menu_icon_no_pictures">Kuvia ei löytynyt. Kopioi niitä Pictures- tai Download-kansioon tai liitä USB-asema.</string>
     <string name="menu_icon_reset">Palauta</string>
     <string name="menu_crop">Rajaa täyttämään</string>
     <string name="menu_visibility">Näkyvyys</string>
-    <string name="menu_reorder">Järjestä</string>
+    <string name="menu_reorder">Järjestä uudelleen</string>
     <string name="menu_remove_from">Poista kategoriasta %1$s</string>
     <string name="menu_hide">Piilota</string>
-    <string name="menu_add_to">Lisää kohteeseen…</string>
-    <string name="menu_move_to">Siirrä kohteeseen…</string>
+    <string name="menu_add_to">Lisää kategoriaan…</string>
+    <string name="menu_move_to">Siirrä kategoriaan…</string>
     <string name="menu_channels">Kanavat</string>
-    <string name="menu_rename_hint">Kirjoita uusi nimi ja paina OK</string>
+    <string name="menu_rename_hint">Kirjoita uusi otsikko ja paina OK</string>
 
     <!-- Category editor -->
     <string name="editor_title">Otsikko</string>
@@ -100,19 +98,19 @@
     <string name="editor_auto_value">Automaattinen (%1$s)</string>
     <string name="editor_sort">Lajittelu</string>
     <string name="editor_sort_custom">Mukautettu</string>
-    <string name="editor_sort_name">Aakkosittain</string>
+    <string name="editor_sort_name">Aakkosjärjestys</string>
     <string name="editor_sort_last">Viimeksi käytetyt</string>
     <string name="editor_sort_most">Usein käytetyt</string>
     <string name="editor_sort_random">Satunnainen</string>
     <string name="editor_set_default">Aseta oletukseksi</string>
     <string name="editor_is_default">Oletuskategoria</string>
-    <string name="editor_manage_apps">Hallinnoi sovelluksia</string>
+    <string name="editor_manage_apps">Hallitse sovelluksia</string>
     <string name="editor_hidden_items">Piilotetut kohteet</string>
     <string name="editor_restore">Palauta</string>
     <string name="editor_delete">Poista</string>
     <string name="editor_delete_confirm">Poistetaanko tämä kategoria?</string>
     <string name="editor_empty_note">Tämä kategoria ei vielä näy, koska se on tyhjä</string>
-    <string name="editor_request_notifications">Pyydä ilmoitusten käyttöoikeutta</string>
+    <string name="editor_request_notifications">Pyydä ilmoituslupaa</string>
     <string name="editor_channel_error">Tätä kanavaa ei voi enää lukea</string>
 
     <!-- Channels panel -->
@@ -126,30 +124,30 @@
 
     <!-- Misc -->
     <string name="home_no_activity">Tätä sovellusta ei voi avata</string>
-    <string name="home_reorder_hint">Siirrä vasemmalle/oikealle, lopeta OK- tai TAKAISIN-painikkeella</string>
-    <string name="home_category_reorder_hint">Siirrä ylös/alas, lopeta OK- tai TAKAISIN-painikkeella</string>
+    <string name="home_reorder_hint">Siirrä vasemmalla/oikealla, lopeta painamalla OK tai TAKAISIN</string>
+    <string name="home_category_reorder_hint">Siirrä ylös/alas, lopeta painamalla OK tai TAKAISIN</string>
 
     <!-- First run -->
     <string name="firstrun_welcome_title">Tervetuloa!</string>
-    <string name="firstrun_welcome_text">QLauncher on Android TV:n käynnistin. Se kokoaa sovelluksesi, kanavasi ja suosikkisisältösi yhteen muokattavaan aloitusnäyttöön, jonka taustalla vaihtuu taustakuva.</string>
+    <string name="firstrun_welcome_text">QLauncher on Android TV:n käynnistin. Se kokoaa sovelluksesi, kanavasi ja suosikkisisältösi yhdelle muokattavalle aloitusnäytölle, jonka taustalla vaihtuu taustakuva.</string>
     <string name="firstrun_features_title">Uudet supervoimasi</string>
-    <string name="firstrun_features_text">Käynnistä sovellus tai HDMI-tulo laitteen käynnistyessä, hallitse näyttöprofiileja, lukitse sovelluksia lapsilukolla, näytä kalibrointikuvioita, tunnista käyttämättömyys ja muokkaa aloitusnäytön jokaista osaa. Jotkin ominaisuudet riippuvat laitteestasi.</string>
-    <string name="firstrun_a11y_title">Esteettömyys käyttöön</string>
-    <string name="firstrun_a11y_text">Monet ominaisuudet tarvitsevat QLauncherin esteettömyyspalvelua: laitteen oman käynnistimen korvaaminen, toiminnot käynnistyksessä, kaukosäätimen painike-eleet, käyttämättömyyden tunnistus ja lapsilukko. Voit ottaa sen käyttöön nyt tai myöhemmin asetuksista.</string>
+    <string name="firstrun_features_text">Käynnistä sovellus tai HDMI-tulo laitteen käynnistyessä, hallitse näyttöprofiileja, lukitse sovelluksia lapsilukolla, näytä kalibrointikuvioita, tunnista käyttämättömyys ja muokkaa aloitusnäytön jokaista osaa. Osa ominaisuuksista riippuu laitteestasi.</string>
+    <string name="firstrun_a11y_title">Esteettömyyspalvelu käyttöön</string>
+    <string name="firstrun_a11y_text">Monet ominaisuudet tarvitsevat QLauncherin esteettömyyspalvelua: vakiokäynnistimen korvaaminen, toiminnot käynnistyksen yhteydessä, kaukosäätimen painike-eleet, käyttämättömyyden tunnistus ja lapsilukko. Voit ottaa sen käyttöön nyt tai myöhemmin asetuksista.</string>
     <string name="firstrun_a11y_open">Avaa esteettömyysasetukset</string>
     <string name="firstrun_permissions_title">Jos sallit…</string>
-    <string name="firstrun_permissions_text">Seuraavaksi QLauncher pyytää lupaa lukea TV-ohjelmatietoja (kanavia ja Katso seuraavaksi -riviä varten) sekä ilmoitusten käyttöoikeutta (ilmoituskuvaketta ja Nyt toistossa -toimintoa varten). Molemmat ovat valinnaisia.</string>
+    <string name="firstrun_permissions_text">Seuraavaksi QLauncher pyytää lupaa lukea TV-ohjelmatietoja (kanavia ja Katso seuraavaksi -riviä varten) sekä ilmoitusten käyttöoikeutta (ilmoituskuvaketta ja Nyt toistossa -kohdetta varten). Molemmat ovat vapaaehtoisia.</string>
     <!-- Before Android 8 there are no channels, so only notification access is asked for. -->
-    <string name="firstrun_permissions_text_no_channels">Seuraavaksi QLauncher pyytää ilmoitusten käyttöoikeutta (ilmoituskuvaketta ja Nyt toistossa -toimintoa varten). Se on valinnainen.</string>
+    <string name="firstrun_permissions_text_no_channels">Seuraavaksi QLauncher pyytää ilmoitusten käyttöoikeutta (ilmoituskuvaketta ja Nyt toistossa -kohdetta varten). Se on vapaaehtoinen.</string>
     <string name="firstrun_notifications_dialog">Sallitaanko ilmoitusten käyttöoikeus?</string>
-    <string name="firstrun_notifications_text">Ilmoitusten käyttöoikeuden avulla QLauncher voi näyttää ilmoitusten määrän, ilmoituspaneelin ja sen, mitä toistetaan. Kyllä avaa Sovellusten erikoiskäyttöoikeudet -sivun, jolla voit myöntää sen.</string>
-    <string name="firstrun_reports_title">Lähetetäänkö nimettömiä virheraportteja?</string>
+    <string name="firstrun_notifications_text">Ilmoitusten käyttöoikeuden avulla QLauncher voi näyttää ilmoitusten määrän, ilmoituspaneelin ja sen, mitä toistetaan. Kyllä avaa Erityiset käyttöoikeudet -sivun, jolla käyttöoikeus myönnetään.</string>
+    <string name="firstrun_reports_title">Lähetetäänkö anonyymejä virheraportteja?</string>
     <string name="firstrun_reports_text">Jos QLauncher kaatuu tai kohtaa virheen, se voi lähettää raportin, jossa on sovelluksen versio ja laitteen malli, jotta vika voidaan korjata. Mitään sinut tai katselusi tunnistavaa ei lähetetä. Voit muuttaa tätä myöhemmin kohdassa Yleiset.</string>
     <string name="firstrun_launcher_title">Tee QLauncherista aloitusnäyttösi</string>
-    <string name="firstrun_launcher_text">Monet TV-laitteet eivät anna vaihtaa oletuskäynnistintä. Jos omasi antaa, valitse siellä QLauncher. Muuten ota käyttöön esteettömyyspalvelu asetuksella ”Korvaa nykyinen käynnistin”, niin QLauncher palaa aina, kun laitteen oma käynnistin avautuu.</string>
+    <string name="firstrun_launcher_text">Monet TV-laitteet eivät salli oletuskäynnistimen vaihtamista. Jos sinun laitteesi sallii, valitse siellä QLauncher. Muussa tapauksessa ota esteettömyyspalvelu käyttöön asetuksella ”Korvaa nykyinen käynnistin”, niin QLauncher palaa aina, kun vakiokäynnistin avautuu.</string>
     <string name="firstrun_launcher_open">Vaihda oletuskäynnistin</string>
     <string name="firstrun_start_title">Aloitetaan!</string>
-    <string name="firstrun_start_text">Kaiken voi muuttaa myöhemmin asetuksista. Paina oikeassa yläkulmassa olevaa asetuspainiketta tai näppäinsarjaa ↑→↓←↑→↓←.</string>
+    <string name="firstrun_start_text">Kaikkea voi muuttaa myöhemmin asetuksista. Paina oikean yläkulman asetuspainiketta tai näppäinsarjaa ↑→↓←↑→↓←.</string>
     <string name="firstrun_get_started">ALOITA</string>
     <string name="firstrun_next">Seuraava</string>
     <string name="firstrun_skip">Ohita</string>

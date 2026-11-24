@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">QLauncher</string>
     <string name="set_as_wallpaper">Jadikan wallpaper QLauncher</string>
     <string name="import_settings">Impor ke QLauncher</string>
     <string name="accessibility_service_description">QLauncher melihat penekanan tombol fisik dan nama aplikasi yang ada di latar depan, untuk menggantikan launcher bawaan, menjalankan tindakan saat booting, memetakan ulang tombol remote, mendeteksi waktu tidak aktif, dan menerapkan kontrol orang tua. Keduanya tetap berada di memori perangkat ini dan tidak pernah dikirim ke mana pun.</string>
