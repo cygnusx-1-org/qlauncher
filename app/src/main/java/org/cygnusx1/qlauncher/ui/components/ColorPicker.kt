@@ -307,13 +307,15 @@ fun ColorPickerPanel(
             )
         }
         if (allowDynamic) {
+            // Full panel width like the slider rows, with the text inset 16 dp so it lines up
+            // with their labels; a rounded clip here would cut into the first and last lines.
             Box(
                 Modifier
-                    .offset(16.dp, 364.dp)
-                    .width(288.dp)
-                    .clip(RoundedCornerShape(24.dp))
+                    .offset(0.dp, 364.dp)
+                    .width(PanelDimens.Width)
                     .background(if (focus == PickerFocus.Dynamic) QPalette.PanelFocusedRow else Color.Transparent)
-                    .padding(horizontal = 0.dp, vertical = 6.dp),
+                    .padding(horizontal = 16.dp, vertical = 6.dp)
+                    .testTag("color_dynamic"),
             ) {
                 androidx.compose.foundation.layout.Column(Modifier.padding(end = 64.dp)) {
                     Text(stringResource(R.string.color_prefer_dynamic), color = Color.White, style = QTheme.type.panelRow)
