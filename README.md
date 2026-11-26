@@ -4,6 +4,10 @@
 <a href="https://discord.gg/vDuSpJEDrW"><picture><source height="24px" media="(prefers-color-scheme: dark)" srcset="/assets/icons/Discord.png" /><img height="24px" src="/assets/icons/Discord.png" /></picture></a>
 
 <hr style="display: inline-block; width: 100%; border: 1px dotted #ff00cc;">
+
+![The app collage 1](./images/collage1.png)
+![The app collage 2](./images/collage2.png)
+![The app collage 3](./images/collage3.png)
   
 Q Launcher is a [Projectivy](https://github.com/spocky/miproja1) work alike, and a free and open-source Android TV launcher.
 
