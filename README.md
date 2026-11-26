@@ -33,7 +33,19 @@ Q Launcher is a [Projectivy](https://github.com/spocky/miproja1) work alike, and
 ## Installation
 
 ### LocalSend
-The recommend method of installation the first time is to use [LocalSend](https://localsend.org/).
+An installation method is [LocalSend](https://localsend.org/).
+
+### Downloader codes
+<a href="https://play.google.com/store/apps/details?id=com.esaba.downloader&hl=en_US"><picture><source height="72px" media="(prefers-color-scheme: dark)" srcset="/assets/icons/Downloader.png" /><img height="72px" src="/assets/icons/Downloader.png" /></picture></a>
+
+**6844012** `QLauncher_0.1.1_arm64-v8a.apk`
+
+**6887985** `QLauncher_0.1.1_armeabi-v7a.apk`
+
+### Discoverium
+You can install [Discoverium](https://github.com/cygnusx-1-org/Discoverium/), and then install `Q Launcher` via it.
+
+[Discoverium](https://github.com/cygnusx-1-org/Discoverium/) now has `Android TV` support.
 
 ## Compatibility
 Q Launcher requires Android 7.0 or above. It does not work on non-Android devices (incl. LG or Samsung TVs). On unsupported TVs, you can use a TV stick or TV box. Though this app technically runs on smartphones and tablets, it is not optimized for such and offers no official support!
