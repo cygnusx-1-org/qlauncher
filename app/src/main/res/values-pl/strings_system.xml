@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">To urządzenie nie ma skrótu do ustawień ułatwień dostępu. Otwórz je w ustawieniach Androida, zwykle w sekcji Ustawienia urządzenia › Ułatwienia dostępu.</string>
+    <string name="system_accessibility_fire_os">Fire OS nie ma ekranu do włączenia usługi ułatwień dostępu QLaunchera. Zamiast tego Home on Fire może otwierać QLauncher przyciskiem ekranu głównego.</string>
     <string name="system_notification_access_no_settings">To urządzenie nie ma ekranu dostępu do powiadomień. Przyznaj dostęp z komputera poleceniem:</string>
 </resources>

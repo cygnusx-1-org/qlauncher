@@ -18,7 +18,10 @@ import android.content.pm.PackageManager
 import android.os.Build
 import android.provider.Settings
 import android.util.Log
+import androidx.annotation.StringRes
 import org.cygnusx1.qlauncher.MainActivity
+import org.cygnusx1.qlauncher.R
+import org.cygnusx1.qlauncher.apps.PmCompat
 import org.cygnusx1.qlauncher.data.ItemKeys
 
 /**
@@ -67,7 +70,7 @@ class SystemActions(private val context: Context) {
      * accessibility service's launcher override is the fallback there.
      */
     fun openDefaultLauncherSettings(activity: Activity, requestCode: Int = REQUEST_HOME_ROLE): Boolean {
-        if (start(Intent(Settings.ACTION_HOME_SETTINGS), activity)) return true
+        if (startSettingsPage(Intent(Settings.ACTION_HOME_SETTINGS), activity)) return true
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             val roles = activity.getSystemService(RoleManager::class.java) ?: return false
             if (!roles.isRoleAvailable(RoleManager.ROLE_HOME) || roles.isRoleHeld(RoleManager.ROLE_HOME)) return false
@@ -93,11 +96,19 @@ class SystemActions(private val context: Context) {
 
     /**
      * Opens the system accessibility settings. (The per-service details page needs a permission
-     * only system apps hold.) Returns false when the device has no such page; show
-     * `R.string.system_accessibility_no_settings` then.
+     * only system apps hold.) Returns false when the device has no such page, Fire OS among them;
+     * show [accessibilityNoSettingsMessage] then.
      */
     fun openAccessibilitySettings(caller: Context = context): Boolean =
-        start(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS), caller)
+        startSettingsPage(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS), caller)
+
+    /**
+     * What to say when [openAccessibilitySettings] finds no page. Fire OS has no way at all to
+     * switch on another app's service, so a Fire TV is pointed at Home on Fire for the Home button.
+     */
+    @StringRes
+    fun accessibilityNoSettingsMessage(): Int =
+        if (pm.hasSystemFeature(FIRE_TV_FEATURE)) R.string.system_accessibility_fire_os else R.string.system_accessibility_no_settings
 
     /**
      * Opens the notification-access page, on QLauncher's entry when possible (API 30+). TV builds
@@ -110,9 +121,24 @@ class SystemActions(private val context: Context) {
                     Settings.EXTRA_NOTIFICATION_LISTENER_COMPONENT_NAME,
                     ComponentName(context, QLNotificationListener::class.java).flattenToString(),
                 )
-            if (start(details, caller)) return true
+            if (startSettingsPage(details, caller)) return true
         }
-        return start(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS), caller)
+        return startSettingsPage(Intent(Settings.ACTION_NOTIFICATION_LISTENER_SETTINGS), caller)
+    }
+
+    /**
+     * [start] for a system settings page. Fire OS answers some standard settings actions, the
+     * accessibility settings among them, with a compliance placeholder that shows nothing, so a
+     * page only placeholders answer counts as missing. With no answer visible to QLauncher the
+     * start is still tried, and [start] reports whether anything opened.
+     */
+    private fun startSettingsPage(intent: Intent, caller: Context): Boolean {
+        val handlers = PmCompat.queryActivities(pm, intent, PackageManager.MATCH_DEFAULT_ONLY)
+        if (handlers.isNotEmpty() && handlers.all { isSettingsPlaceholder(it.activityInfo.packageName, it.activityInfo.name) }) {
+            Log.i(TAG, "Only a placeholder answers ${intent.action}")
+            return false
+        }
+        return start(intent, caller)
     }
 
     // --- Launching ---
@@ -187,5 +213,12 @@ class SystemActions(private val context: Context) {
         /** Shown when the device has no notification-access screen. */
         const val NOTIFICATION_ACCESS_ADB_COMMAND =
             "adb shell cmd notification allow_listener org.cygnusx1.qlauncher/org.cygnusx1.qlauncher.system.QLNotificationListener"
+
+        private const val FIRE_TV_FEATURE = "amazon.hardware.fire_tv"
+        private const val FIRE_OS_SETTINGS = "com.amazon.tv.settings.v2"
+
+        /** Fire OS's stand-ins for settings pages it lacks, such as `.compliance.CTSDummyIntentHandler`. */
+        internal fun isSettingsPlaceholder(packageName: String, className: String): Boolean =
+            packageName == FIRE_OS_SETTINGS && className.startsWith("$FIRE_OS_SETTINGS.compliance.CTSDummy")
     }
 }

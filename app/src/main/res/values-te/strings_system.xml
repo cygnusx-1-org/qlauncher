@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">ఈ పరికరంలో యాక్సెసిబిలిటీ సెట్టింగ్‌లకు షార్ట్‌కట్ లేదు. వాటిని Android సెట్టింగ్‌ల నుండి తెరవండి, సాధారణంగా పరికర ప్రాధాన్యతలు › యాక్సెసిబిలిటీ కింద ఉంటాయి.</string>
+    <string name="system_accessibility_fire_os">QLauncher యాక్సెసిబిలిటీ సర్వీస్‌ను ఆన్ చేయడానికి Fire OSలో స్క్రీన్ లేదు. బదులుగా Home on Fire హోమ్ బటన్‌తో QLauncherను తెరవగలదు.</string>
     <string name="system_notification_access_no_settings">ఈ పరికరంలో నోటిఫికేషన్ యాక్సెస్ స్క్రీన్ లేదు. కంప్యూటర్ నుండి ఈ కమాండ్‌తో యాక్సెస్ ఇవ్వండి:</string>
 </resources>

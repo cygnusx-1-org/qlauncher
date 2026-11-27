@@ -555,7 +555,8 @@ class MainActivity : ComponentActivity(), HomeActions, FirstRunActions {
     // FirstRunActions
 
     override fun openAccessibilitySettings() {
-        container.system.actions.openAccessibilitySettings(this)
+        val actions = container.system.actions
+        if (!actions.openAccessibilitySettings(this)) toast(getString(actions.accessibilityNoSettingsMessage()))
     }
 
     override fun requestTvListings(onDone: () -> Unit) {

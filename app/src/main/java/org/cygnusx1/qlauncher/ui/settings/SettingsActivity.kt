@@ -357,7 +357,8 @@ class SettingsActivity : ComponentActivity(), SettingsActions {
     }
 
     override fun openAccessibilitySettings() {
-        if (!container.system.actions.openAccessibilitySettings(this)) toast(getString(R.string.system_accessibility_no_settings))
+        val actions = container.system.actions
+        if (!actions.openAccessibilitySettings(this)) toast(getString(actions.accessibilityNoSettingsMessage()))
     }
 
     override fun setLanguage(tag: String) {

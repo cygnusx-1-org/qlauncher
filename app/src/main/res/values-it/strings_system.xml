@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Questo dispositivo non ha una scorciatoia per le impostazioni di accessibilità. Aprile dalle impostazioni Android, di solito in Preferenze dispositivo › Accessibilità.</string>
+    <string name="system_accessibility_fire_os">Fire OS non ha una schermata per attivare il servizio di accessibilità di QLauncher. Home on Fire può invece aprire QLauncher con il tasto Home.</string>
     <string name="system_notification_access_no_settings">Questo dispositivo non ha una schermata per l\'accesso alle notifiche. Concedi l\'accesso da un computer con:</string>
 </resources>

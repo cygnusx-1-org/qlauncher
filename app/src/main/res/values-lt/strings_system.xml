@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Šiame įrenginyje nėra nuorodos į pritaikymo neįgaliesiems nustatymus. Atidarykite juos per Android nustatymus, paprastai skiltyje Įrenginio nuostatos › Pritaikymas neįgaliesiems.</string>
+    <string name="system_accessibility_fire_os">Fire OS neturi ekrano QLauncher pritaikymo neįgaliesiems paslaugai įjungti. Vietoj to Home on Fire gali atidaryti QLauncher pagrindinio ekrano mygtuku.</string>
     <string name="system_notification_access_no_settings">Šiame įrenginyje nėra prieigos prie pranešimų ekrano. Suteikite prieigą iš kompiuterio komanda:</string>
 </resources>

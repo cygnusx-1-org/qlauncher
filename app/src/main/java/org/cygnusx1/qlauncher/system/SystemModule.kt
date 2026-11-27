@@ -72,9 +72,17 @@ class SystemModule(private val container: AppContainer) {
     @Volatile
     var inputs: HotkeyTarget = HotkeyTarget.Unavailable
 
-    /** *Show reminder* is on and the accessibility service is not enabled. */
+    /**
+     * *Show reminder* is on and the accessibility service is not enabled. Not while Home on Fire's
+     * service is on: on a Fire TV that is what brings QLauncher up on Home, and Fire OS has no way
+     * to switch on QLauncher's own.
+     */
     val showAccessibilityReminder: StateFlow<Boolean> =
-        combine(container.settings.flow(Keys.Service.reminder), accessibility.enabled) { reminder, enabled -> reminder && !enabled }
+        combine(
+            container.settings.flow(Keys.Service.reminder),
+            accessibility.enabled,
+            accessibility.homeOnFireEnabled,
+        ) { reminder, enabled, homeOnFire -> reminder && !enabled && !homeOnFire }
             .stateIn(container.scope, SharingStarted.Eagerly, false)
 
     /** A launcher idle timer for the home screen (main thread, `SystemClock.uptimeMillis`). */

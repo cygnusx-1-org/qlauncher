@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Thiết bị này không có lối tắt đến cài đặt hỗ trợ tiếp cận. Hãy mở từ cài đặt Android, thường nằm trong Tùy chọn thiết bị › Hỗ trợ tiếp cận.</string>
+    <string name="system_accessibility_fire_os">Fire OS không có màn hình để bật dịch vụ hỗ trợ tiếp cận của QLauncher. Thay vào đó, Home on Fire có thể mở QLauncher bằng nút Trang chủ.</string>
     <string name="system_notification_access_no_settings">Thiết bị này không có màn hình quyền truy cập thông báo. Hãy cấp quyền từ máy tính bằng lệnh:</string>
 </resources>

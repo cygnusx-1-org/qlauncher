@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">למכשיר הזה אין קיצור דרך להגדרות הנגישות. אפשר לפתוח אותן מהגדרות Android, בדרך כלל תחת העדפות מכשיר › נגישות.</string>
+    <string name="system_accessibility_fire_os">ב-Fire OS אין מסך להפעלת שירות הנגישות של QLauncher. במקום זאת, Home on Fire יכול לפתוח את QLauncher בלחצן הבית.</string>
     <string name="system_notification_access_no_settings">אין במכשיר הזה מסך של גישה להתראות. אפשר לתת גישה ממחשב באמצעות:</string>
 </resources>

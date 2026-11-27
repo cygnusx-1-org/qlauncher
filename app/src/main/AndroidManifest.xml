@@ -58,6 +58,19 @@
         <intent>
             <action android:name="android.settings.SETTINGS" />
         </intent>
+        <!-- Settings pages QLauncher opens: to tell a real page from Fire OS's placeholder. -->
+        <intent>
+            <action android:name="android.settings.ACCESSIBILITY_SETTINGS" />
+        </intent>
+        <intent>
+            <action android:name="android.settings.HOME_SETTINGS" />
+        </intent>
+        <intent>
+            <action android:name="android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS" />
+        </intent>
+        <intent>
+            <action android:name="android.settings.NOTIFICATION_LISTENER_DETAIL_SETTINGS" />
+        </intent>
         <!-- Document pickers: to tell a real picker from the TV framework stub. -->
         <intent>
             <action android:name="android.intent.action.OPEN_DOCUMENT" />

@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">لا يحتوي هذا الجهاز على اختصار لإعدادات سهولة الاستخدام. افتحها من إعدادات Android، عادةً ضمن الإعدادات المفضّلة للجهاز › سهولة الاستخدام.</string>
+    <string name="system_accessibility_fire_os">لا يحتوي Fire OS على شاشة لتفعيل خدمة سهولة الاستخدام في QLauncher. يمكن لتطبيق Home on Fire فتح QLauncher بزر الصفحة الرئيسية بدلاً من ذلك.</string>
     <string name="system_notification_access_no_settings">لا يحتوي هذا الجهاز على شاشة للوصول إلى الإشعارات. امنح الوصول من كمبيوتر باستخدام:</string>
 </resources>

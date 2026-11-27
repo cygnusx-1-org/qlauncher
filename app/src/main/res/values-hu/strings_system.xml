@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Ezen az eszközön nincs parancsikon a kisegítő lehetőségek beállításaihoz. Nyissa meg őket az Android-beállításokban, általában az Eszközbeállítások › Kisegítő lehetőségek menüpontban.</string>
+    <string name="system_accessibility_fire_os">A Fire OS-ben nincs képernyő a QLauncher kisegítő szolgáltatásának bekapcsolásához. Ehelyett a Home on Fire a Kezdőképernyő gombbal megnyithatja a QLaunchert.</string>
     <string name="system_notification_access_no_settings">Ezen az eszközön nincs értesítés-hozzáférési képernyő. Adja meg a hozzáférést egy számítógépről ezzel a paranccsal:</string>
 </resources>

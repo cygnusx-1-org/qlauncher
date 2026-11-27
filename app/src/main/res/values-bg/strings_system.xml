@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Това устройство няма пряк път към настройките за достъпност. Отворете ги от настройките на Android, обикновено в Предпочитания за устройството › Достъпност.</string>
+    <string name="system_accessibility_fire_os">Fire OS няма екран за включване на услугата за достъпност на QLauncher. Вместо това Home on Fire може да отваря QLauncher с бутона „Начало“.</string>
     <string name="system_notification_access_no_settings">Това устройство няма екран за достъп до известията. Предоставете достъп от компютър с:</string>
 </resources>

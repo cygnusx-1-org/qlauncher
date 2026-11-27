@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Αυτή η συσκευή δεν έχει συντόμευση για τις ρυθμίσεις προσβασιμότητας. Ανοίξτε τις από τις ρυθμίσεις Android, συνήθως στο Προτιμήσεις συσκευής › Προσβασιμότητα.</string>
+    <string name="system_accessibility_fire_os">Το Fire OS δεν έχει οθόνη για την ενεργοποίηση της υπηρεσίας προσβασιμότητας του QLauncher. Αντί γι\' αυτό, το Home on Fire μπορεί να ανοίγει το QLauncher με το κουμπί Αρχικής.</string>
     <string name="system_notification_access_no_settings">Αυτή η συσκευή δεν έχει οθόνη πρόσβασης στις ειδοποιήσεις. Παραχωρήστε την πρόσβαση από υπολογιστή με:</string>
 </resources>

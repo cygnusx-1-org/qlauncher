@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Bu cihazda əlçatımlılıq tənzimləmələrinə qısayol yoxdur. Onları Android tənzimləmələrindən açın, adətən Cihaz tərcihləri › Əlçatımlılıq bölməsində.</string>
+    <string name="system_accessibility_fire_os">Fire OS-də QLauncher-in əlçatımlılıq xidmətini aktiv etmək üçün ekran yoxdur. Bunun əvəzinə Home on Fire QLauncher-i Əsas düyməsi ilə aça bilər.</string>
     <string name="system_notification_access_no_settings">Bu cihazda bildiriş girişi ekranı yoxdur. Girişi kompüterdən bu əmrlə verin:</string>
 </resources>

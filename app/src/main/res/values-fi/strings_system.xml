@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Tässä laitteessa ei ole pikavalintaa esteettömyysasetuksiin. Avaa ne Android-asetuksista, yleensä kohdasta Laiteasetukset › Esteettömyys.</string>
+    <string name="system_accessibility_fire_os">Fire OS:ssä ei ole näyttöä QLauncherin esteettömyyspalvelun käyttöön ottamiseen. Home on Fire voi sen sijaan avata QLauncherin aloitusnäppäimellä.</string>
     <string name="system_notification_access_no_settings">Tässä laitteessa ei ole ilmoitusten käyttöoikeuden näyttöä. Myönnä käyttöoikeus tietokoneelta komennolla:</string>
 </resources>

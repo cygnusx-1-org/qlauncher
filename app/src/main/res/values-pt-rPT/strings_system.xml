@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">Este dispositivo não tem atalho para as definições de acessibilidade. Abra-as nas definições do Android, normalmente em Preferências do dispositivo › Acessibilidade.</string>
+    <string name="system_accessibility_fire_os">O Fire OS não tem um ecrã para ativar o serviço de acessibilidade do QLauncher. Em vez disso, o Home on Fire pode abrir o QLauncher com o botão Início.</string>
     <string name="system_notification_access_no_settings">Este dispositivo não tem um ecrã de acesso a notificações. Conceda o acesso a partir de um computador com:</string>
 </resources>

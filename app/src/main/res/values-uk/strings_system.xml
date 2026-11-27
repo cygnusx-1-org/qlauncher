@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">На цьому пристрої немає ярлика до налаштувань спеціальних можливостей. Відкрийте їх у налаштуваннях Android, зазвичай у розділі «Налаштування пристрою» › «Спеціальні можливості».</string>
+    <string name="system_accessibility_fire_os">У Fire OS немає екрана для ввімкнення служби спеціальних можливостей QLauncher. Натомість Home on Fire може відкривати QLauncher кнопкою «Додому».</string>
     <string name="system_notification_access_no_settings">На цьому пристрої немає екрана доступу до сповіщень. Надайте доступ із комп’ютера командою:</string>
 </resources>

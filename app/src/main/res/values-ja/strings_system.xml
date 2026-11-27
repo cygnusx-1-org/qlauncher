@@ -39,5 +39,6 @@
 
     <!-- Fallbacks when a system settings page is missing -->
     <string name="system_accessibility_no_settings">このデバイスにはユーザー補助の設定へのショートカットがありません。Android の設定から開いてください (通常は「デバイス設定 › ユーザー補助」にあります)。</string>
+    <string name="system_accessibility_fire_os">Fire OS には QLauncher のユーザー補助サービスをオンにする画面がありません。代わりに Home on Fire を使うと、ホームボタンで QLauncher を開けます。</string>
     <string name="system_notification_access_no_settings">このデバイスには通知へのアクセスの画面がありません。パソコンから次のコマンドでアクセスを許可してください:</string>
 </resources>
